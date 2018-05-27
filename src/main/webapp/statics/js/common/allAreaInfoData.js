@@ -1,0 +1,34168 @@
+$.namespace('logistics.common.data');
+logistics.common.data.province = [
+    {id: '-1', mapName: '-请选择-', selected: true},
+    {
+        "id": 110000,
+        "mapName": "北京",
+        "mapAbbreviation": "北京",
+        "mapMergerName": "中国,北京",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Beijing",
+        "mapZipCode": null
+    },
+    {
+        "id": 120000,
+        "mapName": "天津",
+        "mapAbbreviation": "天津",
+        "mapMergerName": "中国,天津",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Tianjin",
+        "mapZipCode": null
+    },
+    {
+        "id": 130000,
+        "mapName": "河北省",
+        "mapAbbreviation": "河北",
+        "mapMergerName": "中国,河北省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Hebei",
+        "mapZipCode": null
+    },
+    {
+        "id": 140000,
+        "mapName": "山西省",
+        "mapAbbreviation": "山西",
+        "mapMergerName": "中国,山西省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Shanxi",
+        "mapZipCode": null
+    },
+    {
+        "id": 150000,
+        "mapName": "内蒙古自治区",
+        "mapAbbreviation": "内蒙古",
+        "mapMergerName": "中国,内蒙古自治区",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Inner Mongolia",
+        "mapZipCode": null
+    },
+    {
+        "id": 210000,
+        "mapName": "辽宁省",
+        "mapAbbreviation": "辽宁",
+        "mapMergerName": "中国,辽宁省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Liaoning",
+        "mapZipCode": null
+    },
+    {
+        "id": 220000,
+        "mapName": "吉林省",
+        "mapAbbreviation": "吉林",
+        "mapMergerName": "中国,吉林省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Jilin",
+        "mapZipCode": null
+    },
+    {
+        "id": 230000,
+        "mapName": "黑龙江省",
+        "mapAbbreviation": "黑龙江",
+        "mapMergerName": "中国,黑龙江省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Heilongjiang",
+        "mapZipCode": null
+    },
+    {
+        "id": 310000,
+        "mapName": "上海",
+        "mapAbbreviation": "上海",
+        "mapMergerName": "中国,上海",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Shanghai",
+        "mapZipCode": null
+    },
+    {
+        "id": 320000,
+        "mapName": "江苏省",
+        "mapAbbreviation": "江苏",
+        "mapMergerName": "中国,江苏省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Jiangsu",
+        "mapZipCode": null
+    },
+    {
+        "id": 330000,
+        "mapName": "浙江省",
+        "mapAbbreviation": "浙江",
+        "mapMergerName": "中国,浙江省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Zhejiang",
+        "mapZipCode": null
+    },
+    {
+        "id": 340000,
+        "mapName": "安徽省",
+        "mapAbbreviation": "安徽",
+        "mapMergerName": "中国,安徽省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Anhui",
+        "mapZipCode": null
+    },
+    {
+        "id": 350000,
+        "mapName": "福建省",
+        "mapAbbreviation": "福建",
+        "mapMergerName": "中国,福建省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Fujian",
+        "mapZipCode": null
+    },
+    {
+        "id": 360000,
+        "mapName": "江西省",
+        "mapAbbreviation": "江西",
+        "mapMergerName": "中国,江西省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Jiangxi",
+        "mapZipCode": null
+    },
+    {
+        "id": 370000,
+        "mapName": "山东省",
+        "mapAbbreviation": "山东",
+        "mapMergerName": "中国,山东省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Shandong",
+        "mapZipCode": null
+    },
+    {
+        "id": 410000,
+        "mapName": "河南省",
+        "mapAbbreviation": "河南",
+        "mapMergerName": "中国,河南省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Henan",
+        "mapZipCode": null
+    },
+    {
+        "id": 420000,
+        "mapName": "湖北省",
+        "mapAbbreviation": "湖北",
+        "mapMergerName": "中国,湖北省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Hubei",
+        "mapZipCode": null
+    },
+    {
+        "id": 430000,
+        "mapName": "湖南省",
+        "mapAbbreviation": "湖南",
+        "mapMergerName": "中国,湖南省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Hunan",
+        "mapZipCode": null
+    },
+    {
+        "id": 440000,
+        "mapName": "广东省",
+        "mapAbbreviation": "广东",
+        "mapMergerName": "中国,广东省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Guangdong",
+        "mapZipCode": null
+    },
+    {
+        "id": 450000,
+        "mapName": "广西壮族自治区",
+        "mapAbbreviation": "广西",
+        "mapMergerName": "中国,广西壮族自治区",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Guangxi",
+        "mapZipCode": null
+    },
+    {
+        "id": 460000,
+        "mapName": "海南省",
+        "mapAbbreviation": "海南",
+        "mapMergerName": "中国,海南省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Hainan",
+        "mapZipCode": null
+    },
+    {
+        "id": 500000,
+        "mapName": "重庆",
+        "mapAbbreviation": "重庆",
+        "mapMergerName": "中国,重庆",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Chongqing",
+        "mapZipCode": null
+    },
+    {
+        "id": 510000,
+        "mapName": "四川省",
+        "mapAbbreviation": "四川",
+        "mapMergerName": "中国,四川省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Sichuan",
+        "mapZipCode": null
+    },
+    {
+        "id": 520000,
+        "mapName": "贵州省",
+        "mapAbbreviation": "贵州",
+        "mapMergerName": "中国,贵州省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Guizhou",
+        "mapZipCode": null
+    },
+    {
+        "id": 530000,
+        "mapName": "云南省",
+        "mapAbbreviation": "云南",
+        "mapMergerName": "中国,云南省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Yunnan",
+        "mapZipCode": null
+    },
+    {
+        "id": 540000,
+        "mapName": "西藏自治区",
+        "mapAbbreviation": "西藏",
+        "mapMergerName": "中国,西藏自治区",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Tibet",
+        "mapZipCode": null
+    },
+    {
+        "id": 610000,
+        "mapName": "陕西省",
+        "mapAbbreviation": "陕西",
+        "mapMergerName": "中国,陕西省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Shaanxi",
+        "mapZipCode": null
+    },
+    {
+        "id": 620000,
+        "mapName": "甘肃省",
+        "mapAbbreviation": "甘肃",
+        "mapMergerName": "中国,甘肃省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Gansu",
+        "mapZipCode": null
+    },
+    {
+        "id": 630000,
+        "mapName": "青海省",
+        "mapAbbreviation": "青海",
+        "mapMergerName": "中国,青海省",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Qinghai",
+        "mapZipCode": null
+    },
+    {
+        "id": 640000,
+        "mapName": "宁夏回族自治区",
+        "mapAbbreviation": "宁夏",
+        "mapMergerName": "中国,宁夏回族自治区",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Ningxia",
+        "mapZipCode": null
+    },
+    {
+        "id": 650000,
+        "mapName": "新疆维吾尔自治区",
+        "mapAbbreviation": "新疆",
+        "mapMergerName": "中国,新疆维吾尔自治区",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Xinjiang",
+        "mapZipCode": null
+    },
+    {
+        "id": 710000,
+        "mapName": "台湾",
+        "mapAbbreviation": "台湾",
+        "mapMergerName": "中国,台湾",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Taiwan",
+        "mapZipCode": null
+    },
+    {
+        "id": 810000,
+        "mapName": "香港特别行政区",
+        "mapAbbreviation": "香港",
+        "mapMergerName": "中国,香港特别行政区",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Hong Kong",
+        "mapZipCode": null
+    },
+    {
+        "id": 820000,
+        "mapName": "澳门特别行政区",
+        "mapAbbreviation": "澳门",
+        "mapMergerName": "中国,澳门特别行政区",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "Macau",
+        "mapZipCode": null
+    },
+    {
+        "id": 900000,
+        "mapName": "钓鱼岛",
+        "mapAbbreviation": "钓鱼岛",
+        "mapMergerName": "中国,钓鱼岛",
+        "mapParentId": 100000,
+        "mapLevelType": 1,
+        "mapPinYin": "DiaoyuDao",
+        "mapZipCode": null
+    }
+]
+
+logistics.common.data.city = [
+    {
+        "id": 110100,
+        "mapName": "北京市",
+        "mapAbbreviation": "北京",
+        "mapMergerName": "中国,北京,北京市",
+        "mapParentId": 110000,
+        "mapLevelType": 2,
+        "mapPinYin": "Beijing",
+        "mapZipCode": 100000
+    },
+    {
+        "id": 120100,
+        "mapName": "天津市",
+        "mapAbbreviation": "天津",
+        "mapMergerName": "中国,天津,天津市",
+        "mapParentId": 120000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tianjin",
+        "mapZipCode": 300000
+    },
+    {
+        "id": 130100,
+        "mapName": "石家庄市",
+        "mapAbbreviation": "石家庄",
+        "mapMergerName": "中国,河北省,石家庄市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shijiazhuang",
+        "mapZipCode": 50011
+    },
+    {
+        "id": 130200,
+        "mapName": "唐山市",
+        "mapAbbreviation": "唐山",
+        "mapMergerName": "中国,河北省,唐山市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tangshan",
+        "mapZipCode": 63000
+    },
+    {
+        "id": 130300,
+        "mapName": "秦皇岛市",
+        "mapAbbreviation": "秦皇岛",
+        "mapMergerName": "中国,河北省,秦皇岛市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qinhuangdao",
+        "mapZipCode": 66000
+    },
+    {
+        "id": 130400,
+        "mapName": "邯郸市",
+        "mapAbbreviation": "邯郸",
+        "mapMergerName": "中国,河北省,邯郸市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Handan",
+        "mapZipCode": 56002
+    },
+    {
+        "id": 130500,
+        "mapName": "邢台市",
+        "mapAbbreviation": "邢台",
+        "mapMergerName": "中国,河北省,邢台市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xingtai",
+        "mapZipCode": 54001
+    },
+    {
+        "id": 130600,
+        "mapName": "保定市",
+        "mapAbbreviation": "保定",
+        "mapMergerName": "中国,河北省,保定市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Baoding",
+        "mapZipCode": 71052
+    },
+    {
+        "id": 130700,
+        "mapName": "张家口市",
+        "mapAbbreviation": "张家口",
+        "mapMergerName": "中国,河北省,张家口市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhangjiakou",
+        "mapZipCode": 75000
+    },
+    {
+        "id": 130800,
+        "mapName": "承德市",
+        "mapAbbreviation": "承德",
+        "mapMergerName": "中国,河北省,承德市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chengde",
+        "mapZipCode": 67000
+    },
+    {
+        "id": 130900,
+        "mapName": "沧州市",
+        "mapAbbreviation": "沧州",
+        "mapMergerName": "中国,河北省,沧州市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Cangzhou",
+        "mapZipCode": 61001
+    },
+    {
+        "id": 131000,
+        "mapName": "廊坊市",
+        "mapAbbreviation": "廊坊",
+        "mapMergerName": "中国,河北省,廊坊市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Langfang",
+        "mapZipCode": 65000
+    },
+    {
+        "id": 131100,
+        "mapName": "衡水市",
+        "mapAbbreviation": "衡水",
+        "mapMergerName": "中国,河北省,衡水市",
+        "mapParentId": 130000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hengshui",
+        "mapZipCode": 53000
+    },
+    {
+        "id": 140100,
+        "mapName": "太原市",
+        "mapAbbreviation": "太原",
+        "mapMergerName": "中国,山西省,太原市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Taiyuan",
+        "mapZipCode": 30082
+    },
+    {
+        "id": 140200,
+        "mapName": "大同市",
+        "mapAbbreviation": "大同",
+        "mapMergerName": "中国,山西省,大同市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Datong",
+        "mapZipCode": 37008
+    },
+    {
+        "id": 140300,
+        "mapName": "阳泉市",
+        "mapAbbreviation": "阳泉",
+        "mapMergerName": "中国,山西省,阳泉市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yangquan",
+        "mapZipCode": 45000
+    },
+    {
+        "id": 140400,
+        "mapName": "长治市",
+        "mapAbbreviation": "长治",
+        "mapMergerName": "中国,山西省,长治市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Changzhi",
+        "mapZipCode": 46000
+    },
+    {
+        "id": 140500,
+        "mapName": "晋城市",
+        "mapAbbreviation": "晋城",
+        "mapMergerName": "中国,山西省,晋城市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jincheng",
+        "mapZipCode": 48000
+    },
+    {
+        "id": 140600,
+        "mapName": "朔州市",
+        "mapAbbreviation": "朔州",
+        "mapMergerName": "中国,山西省,朔州市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shuozhou",
+        "mapZipCode": 38500
+    },
+    {
+        "id": 140700,
+        "mapName": "晋中市",
+        "mapAbbreviation": "晋中",
+        "mapMergerName": "中国,山西省,晋中市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jinzhong",
+        "mapZipCode": 30600
+    },
+    {
+        "id": 140800,
+        "mapName": "运城市",
+        "mapAbbreviation": "运城",
+        "mapMergerName": "中国,山西省,运城市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yuncheng",
+        "mapZipCode": 44000
+    },
+    {
+        "id": 140900,
+        "mapName": "忻州市",
+        "mapAbbreviation": "忻州",
+        "mapMergerName": "中国,山西省,忻州市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xinzhou",
+        "mapZipCode": 34000
+    },
+    {
+        "id": 141000,
+        "mapName": "临汾市",
+        "mapAbbreviation": "临汾",
+        "mapMergerName": "中国,山西省,临汾市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Linfen",
+        "mapZipCode": 41000
+    },
+    {
+        "id": 141100,
+        "mapName": "吕梁市",
+        "mapAbbreviation": "吕梁",
+        "mapMergerName": "中国,山西省,吕梁市",
+        "mapParentId": 140000,
+        "mapLevelType": 2,
+        "mapPinYin": "Lvliang",
+        "mapZipCode": 33000
+    },
+    {
+        "id": 150100,
+        "mapName": "呼和浩特市",
+        "mapAbbreviation": "呼和浩特",
+        "mapMergerName": "中国,内蒙古自治区,呼和浩特市",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hohhot",
+        "mapZipCode": 10000
+    },
+    {
+        "id": 150200,
+        "mapName": "包头市",
+        "mapAbbreviation": "包头",
+        "mapMergerName": "中国,内蒙古自治区,包头市",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Baotou",
+        "mapZipCode": 14025
+    },
+    {
+        "id": 150300,
+        "mapName": "乌海市",
+        "mapAbbreviation": "乌海",
+        "mapMergerName": "中国,内蒙古自治区,乌海市",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Wuhai",
+        "mapZipCode": 16000
+    },
+    {
+        "id": 150400,
+        "mapName": "赤峰市",
+        "mapAbbreviation": "赤峰",
+        "mapMergerName": "中国,内蒙古自治区,赤峰市",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chifeng",
+        "mapZipCode": 24000
+    },
+    {
+        "id": 150500,
+        "mapName": "通辽市",
+        "mapAbbreviation": "通辽",
+        "mapMergerName": "中国,内蒙古自治区,通辽市",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tongliao",
+        "mapZipCode": 28000
+    },
+    {
+        "id": 150600,
+        "mapName": "鄂尔多斯市",
+        "mapAbbreviation": "鄂尔多斯",
+        "mapMergerName": "中国,内蒙古自治区,鄂尔多斯市",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ordos",
+        "mapZipCode": 17004
+    },
+    {
+        "id": 150700,
+        "mapName": "呼伦贝尔市",
+        "mapAbbreviation": "呼伦贝尔",
+        "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hulunber",
+        "mapZipCode": 21008
+    },
+    {
+        "id": 150800,
+        "mapName": "巴彦淖尔市",
+        "mapAbbreviation": "巴彦淖尔",
+        "mapMergerName": "中国,内蒙古自治区,巴彦淖尔市",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Bayan Nur",
+        "mapZipCode": 15001
+    },
+    {
+        "id": 150900,
+        "mapName": "乌兰察布市",
+        "mapAbbreviation": "乌兰察布",
+        "mapMergerName": "中国,内蒙古自治区,乌兰察布市",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ulanqab",
+        "mapZipCode": 12000
+    },
+    {
+        "id": 152200,
+        "mapName": "兴安盟",
+        "mapAbbreviation": "兴安盟",
+        "mapMergerName": "中国,内蒙古自治区,兴安盟",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hinggan",
+        "mapZipCode": 137401
+    },
+    {
+        "id": 152500,
+        "mapName": "锡林郭勒盟",
+        "mapAbbreviation": "锡林郭勒盟",
+        "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xilin Gol",
+        "mapZipCode": 26000
+    },
+    {
+        "id": 152900,
+        "mapName": "阿拉善盟",
+        "mapAbbreviation": "阿拉善盟",
+        "mapMergerName": "中国,内蒙古自治区,阿拉善盟",
+        "mapParentId": 150000,
+        "mapLevelType": 2,
+        "mapPinYin": "Alxa",
+        "mapZipCode": 750306
+    },
+    {
+        "id": 210100,
+        "mapName": "沈阳市",
+        "mapAbbreviation": "沈阳",
+        "mapMergerName": "中国,辽宁省,沈阳市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shenyang",
+        "mapZipCode": 110013
+    },
+    {
+        "id": 210200,
+        "mapName": "大连市",
+        "mapAbbreviation": "大连",
+        "mapMergerName": "中国,辽宁省,大连市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Dalian",
+        "mapZipCode": 116011
+    },
+    {
+        "id": 210300,
+        "mapName": "鞍山市",
+        "mapAbbreviation": "鞍山",
+        "mapMergerName": "中国,辽宁省,鞍山市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Anshan",
+        "mapZipCode": 114001
+    },
+    {
+        "id": 210400,
+        "mapName": "抚顺市",
+        "mapAbbreviation": "抚顺",
+        "mapMergerName": "中国,辽宁省,抚顺市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Fushun",
+        "mapZipCode": 113008
+    },
+    {
+        "id": 210500,
+        "mapName": "本溪市",
+        "mapAbbreviation": "本溪",
+        "mapMergerName": "中国,辽宁省,本溪市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Benxi",
+        "mapZipCode": 117000
+    },
+    {
+        "id": 210600,
+        "mapName": "丹东市",
+        "mapAbbreviation": "丹东",
+        "mapMergerName": "中国,辽宁省,丹东市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Dandong",
+        "mapZipCode": 118000
+    },
+    {
+        "id": 210700,
+        "mapName": "锦州市",
+        "mapAbbreviation": "锦州",
+        "mapMergerName": "中国,辽宁省,锦州市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jinzhou",
+        "mapZipCode": 121000
+    },
+    {
+        "id": 210800,
+        "mapName": "营口市",
+        "mapAbbreviation": "营口",
+        "mapMergerName": "中国,辽宁省,营口市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yingkou",
+        "mapZipCode": 115003
+    },
+    {
+        "id": 210900,
+        "mapName": "阜新市",
+        "mapAbbreviation": "阜新",
+        "mapMergerName": "中国,辽宁省,阜新市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Fuxin",
+        "mapZipCode": 123000
+    },
+    {
+        "id": 211000,
+        "mapName": "辽阳市",
+        "mapAbbreviation": "辽阳",
+        "mapMergerName": "中国,辽宁省,辽阳市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Liaoyang",
+        "mapZipCode": 111000
+    },
+    {
+        "id": 211100,
+        "mapName": "盘锦市",
+        "mapAbbreviation": "盘锦",
+        "mapMergerName": "中国,辽宁省,盘锦市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Panjin",
+        "mapZipCode": 124010
+    },
+    {
+        "id": 211200,
+        "mapName": "铁岭市",
+        "mapAbbreviation": "铁岭",
+        "mapMergerName": "中国,辽宁省,铁岭市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tieling",
+        "mapZipCode": 112000
+    },
+    {
+        "id": 211300,
+        "mapName": "朝阳市",
+        "mapAbbreviation": "朝阳",
+        "mapMergerName": "中国,辽宁省,朝阳市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chaoyang",
+        "mapZipCode": 122000
+    },
+    {
+        "id": 211400,
+        "mapName": "葫芦岛市",
+        "mapAbbreviation": "葫芦岛",
+        "mapMergerName": "中国,辽宁省,葫芦岛市",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huludao",
+        "mapZipCode": 125000
+    },
+    {
+        "id": 211500,
+        "mapName": "金普新区",
+        "mapAbbreviation": "金普新区",
+        "mapMergerName": "中国,辽宁省,金普新区",
+        "mapParentId": 210000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jinpuxinqu",
+        "mapZipCode": 116100
+    },
+    {
+        "id": 220100,
+        "mapName": "长春市",
+        "mapAbbreviation": "长春",
+        "mapMergerName": "中国,吉林省,长春市",
+        "mapParentId": 220000,
+        "mapLevelType": 2,
+        "mapPinYin": "Changchun",
+        "mapZipCode": 130022
+    },
+    {
+        "id": 220200,
+        "mapName": "吉林市",
+        "mapAbbreviation": "吉林",
+        "mapMergerName": "中国,吉林省,吉林市",
+        "mapParentId": 220000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jilin",
+        "mapZipCode": 132011
+    },
+    {
+        "id": 220300,
+        "mapName": "四平市",
+        "mapAbbreviation": "四平",
+        "mapMergerName": "中国,吉林省,四平市",
+        "mapParentId": 220000,
+        "mapLevelType": 2,
+        "mapPinYin": "Siping",
+        "mapZipCode": 136000
+    },
+    {
+        "id": 220400,
+        "mapName": "辽源市",
+        "mapAbbreviation": "辽源",
+        "mapMergerName": "中国,吉林省,辽源市",
+        "mapParentId": 220000,
+        "mapLevelType": 2,
+        "mapPinYin": "Liaoyuan",
+        "mapZipCode": 136200
+    },
+    {
+        "id": 220500,
+        "mapName": "通化市",
+        "mapAbbreviation": "通化",
+        "mapMergerName": "中国,吉林省,通化市",
+        "mapParentId": 220000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tonghua",
+        "mapZipCode": 134001
+    },
+    {
+        "id": 220600,
+        "mapName": "白山市",
+        "mapAbbreviation": "白山",
+        "mapMergerName": "中国,吉林省,白山市",
+        "mapParentId": 220000,
+        "mapLevelType": 2,
+        "mapPinYin": "Baishan",
+        "mapZipCode": 134300
+    },
+    {
+        "id": 220700,
+        "mapName": "松原市",
+        "mapAbbreviation": "松原",
+        "mapMergerName": "中国,吉林省,松原市",
+        "mapParentId": 220000,
+        "mapLevelType": 2,
+        "mapPinYin": "Songyuan",
+        "mapZipCode": 138000
+    },
+    {
+        "id": 220800,
+        "mapName": "白城市",
+        "mapAbbreviation": "白城",
+        "mapMergerName": "中国,吉林省,白城市",
+        "mapParentId": 220000,
+        "mapLevelType": 2,
+        "mapPinYin": "Baicheng",
+        "mapZipCode": 137000
+    },
+    {
+        "id": 222400,
+        "mapName": "延边朝鲜族自治州",
+        "mapAbbreviation": "延边",
+        "mapMergerName": "中国,吉林省,延边朝鲜族自治州",
+        "mapParentId": 220000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yanbian",
+        "mapZipCode": 133000
+    },
+    {
+        "id": 230100,
+        "mapName": "哈尔滨市",
+        "mapAbbreviation": "哈尔滨",
+        "mapMergerName": "中国,黑龙江省,哈尔滨市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Harbin",
+        "mapZipCode": 150010
+    },
+    {
+        "id": 230200,
+        "mapName": "齐齐哈尔市",
+        "mapAbbreviation": "齐齐哈尔",
+        "mapMergerName": "中国,黑龙江省,齐齐哈尔市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qiqihar",
+        "mapZipCode": 161005
+    },
+    {
+        "id": 230300,
+        "mapName": "鸡西市",
+        "mapAbbreviation": "鸡西",
+        "mapMergerName": "中国,黑龙江省,鸡西市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jixi",
+        "mapZipCode": 158100
+    },
+    {
+        "id": 230400,
+        "mapName": "鹤岗市",
+        "mapAbbreviation": "鹤岗",
+        "mapMergerName": "中国,黑龙江省,鹤岗市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hegang",
+        "mapZipCode": 154100
+    },
+    {
+        "id": 230500,
+        "mapName": "双鸭山市",
+        "mapAbbreviation": "双鸭山",
+        "mapMergerName": "中国,黑龙江省,双鸭山市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shuangyashan",
+        "mapZipCode": 155100
+    },
+    {
+        "id": 230600,
+        "mapName": "大庆市",
+        "mapAbbreviation": "大庆",
+        "mapMergerName": "中国,黑龙江省,大庆市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Daqing",
+        "mapZipCode": 163000
+    },
+    {
+        "id": 230700,
+        "mapName": "伊春市",
+        "mapAbbreviation": "伊春",
+        "mapMergerName": "中国,黑龙江省,伊春市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yichun",
+        "mapZipCode": 153000
+    },
+    {
+        "id": 230800,
+        "mapName": "佳木斯市",
+        "mapAbbreviation": "佳木斯",
+        "mapMergerName": "中国,黑龙江省,佳木斯市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jiamusi",
+        "mapZipCode": 154002
+    },
+    {
+        "id": 230900,
+        "mapName": "七台河市",
+        "mapAbbreviation": "七台河",
+        "mapMergerName": "中国,黑龙江省,七台河市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qitaihe",
+        "mapZipCode": 154600
+    },
+    {
+        "id": 231000,
+        "mapName": "牡丹江市",
+        "mapAbbreviation": "牡丹江",
+        "mapMergerName": "中国,黑龙江省,牡丹江市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Mudanjiang",
+        "mapZipCode": 157000
+    },
+    {
+        "id": 231100,
+        "mapName": "黑河市",
+        "mapAbbreviation": "黑河",
+        "mapMergerName": "中国,黑龙江省,黑河市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Heihe",
+        "mapZipCode": 164300
+    },
+    {
+        "id": 231200,
+        "mapName": "绥化市",
+        "mapAbbreviation": "绥化",
+        "mapMergerName": "中国,黑龙江省,绥化市",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "Suihua",
+        "mapZipCode": 152000
+    },
+    {
+        "id": 232700,
+        "mapName": "大兴安岭地区",
+        "mapAbbreviation": "大兴安岭",
+        "mapMergerName": "中国,黑龙江省,大兴安岭地区",
+        "mapParentId": 230000,
+        "mapLevelType": 2,
+        "mapPinYin": "DaXingAnLing",
+        "mapZipCode": 165000
+    },
+    {
+        "id": 310100,
+        "mapName": "上海市",
+        "mapAbbreviation": "上海",
+        "mapMergerName": "中国,上海,上海市",
+        "mapParentId": 310000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shanghai",
+        "mapZipCode": 200000
+    },
+    {
+        "id": 320100,
+        "mapName": "南京市",
+        "mapAbbreviation": "南京",
+        "mapMergerName": "中国,江苏省,南京市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nanjing",
+        "mapZipCode": 210008
+    },
+    {
+        "id": 320200,
+        "mapName": "无锡市",
+        "mapAbbreviation": "无锡",
+        "mapMergerName": "中国,江苏省,无锡市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Wuxi",
+        "mapZipCode": 214000
+    },
+    {
+        "id": 320300,
+        "mapName": "徐州市",
+        "mapAbbreviation": "徐州",
+        "mapMergerName": "中国,江苏省,徐州市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xuzhou",
+        "mapZipCode": 221003
+    },
+    {
+        "id": 320400,
+        "mapName": "常州市",
+        "mapAbbreviation": "常州",
+        "mapMergerName": "中国,江苏省,常州市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Changzhou",
+        "mapZipCode": 213000
+    },
+    {
+        "id": 320500,
+        "mapName": "苏州市",
+        "mapAbbreviation": "苏州",
+        "mapMergerName": "中国,江苏省,苏州市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Suzhou",
+        "mapZipCode": 215002
+    },
+    {
+        "id": 320600,
+        "mapName": "南通市",
+        "mapAbbreviation": "南通",
+        "mapMergerName": "中国,江苏省,南通市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nantong",
+        "mapZipCode": 226001
+    },
+    {
+        "id": 320700,
+        "mapName": "连云港市",
+        "mapAbbreviation": "连云港",
+        "mapMergerName": "中国,江苏省,连云港市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Lianyungang",
+        "mapZipCode": 222002
+    },
+    {
+        "id": 320800,
+        "mapName": "淮安市",
+        "mapAbbreviation": "淮安",
+        "mapMergerName": "中国,江苏省,淮安市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huai'an",
+        "mapZipCode": 223001
+    },
+    {
+        "id": 320900,
+        "mapName": "盐城市",
+        "mapAbbreviation": "盐城",
+        "mapMergerName": "中国,江苏省,盐城市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yancheng",
+        "mapZipCode": 224005
+    },
+    {
+        "id": 321000,
+        "mapName": "扬州市",
+        "mapAbbreviation": "扬州",
+        "mapMergerName": "中国,江苏省,扬州市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yangzhou",
+        "mapZipCode": 225002
+    },
+    {
+        "id": 321100,
+        "mapName": "镇江市",
+        "mapAbbreviation": "镇江",
+        "mapMergerName": "中国,江苏省,镇江市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhenjiang",
+        "mapZipCode": 212004
+    },
+    {
+        "id": 321200,
+        "mapName": "泰州市",
+        "mapAbbreviation": "泰州",
+        "mapMergerName": "中国,江苏省,泰州市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Taizhou",
+        "mapZipCode": 225300
+    },
+    {
+        "id": 321300,
+        "mapName": "宿迁市",
+        "mapAbbreviation": "宿迁",
+        "mapMergerName": "中国,江苏省,宿迁市",
+        "mapParentId": 320000,
+        "mapLevelType": 2,
+        "mapPinYin": "Suqian",
+        "mapZipCode": 223800
+    },
+    {
+        "id": 330100,
+        "mapName": "杭州市",
+        "mapAbbreviation": "杭州",
+        "mapMergerName": "中国,浙江省,杭州市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hangzhou",
+        "mapZipCode": 310026
+    },
+    {
+        "id": 330200,
+        "mapName": "宁波市",
+        "mapAbbreviation": "宁波",
+        "mapMergerName": "中国,浙江省,宁波市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ningbo",
+        "mapZipCode": 315000
+    },
+    {
+        "id": 330300,
+        "mapName": "温州市",
+        "mapAbbreviation": "温州",
+        "mapMergerName": "中国,浙江省,温州市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Wenzhou",
+        "mapZipCode": 325000
+    },
+    {
+        "id": 330400,
+        "mapName": "嘉兴市",
+        "mapAbbreviation": "嘉兴",
+        "mapMergerName": "中国,浙江省,嘉兴市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jiaxing",
+        "mapZipCode": 314000
+    },
+    {
+        "id": 330500,
+        "mapName": "湖州市",
+        "mapAbbreviation": "湖州",
+        "mapMergerName": "中国,浙江省,湖州市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huzhou",
+        "mapZipCode": 313000
+    },
+    {
+        "id": 330600,
+        "mapName": "绍兴市",
+        "mapAbbreviation": "绍兴",
+        "mapMergerName": "中国,浙江省,绍兴市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shaoxing",
+        "mapZipCode": 312000
+    },
+    {
+        "id": 330700,
+        "mapName": "金华市",
+        "mapAbbreviation": "金华",
+        "mapMergerName": "中国,浙江省,金华市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jinhua",
+        "mapZipCode": 321000
+    },
+    {
+        "id": 330800,
+        "mapName": "衢州市",
+        "mapAbbreviation": "衢州",
+        "mapMergerName": "中国,浙江省,衢州市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Quzhou",
+        "mapZipCode": 324002
+    },
+    {
+        "id": 330900,
+        "mapName": "舟山市",
+        "mapAbbreviation": "舟山",
+        "mapMergerName": "中国,浙江省,舟山市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhoushan",
+        "mapZipCode": 316000
+    },
+    {
+        "id": 331000,
+        "mapName": "台州市",
+        "mapAbbreviation": "台州",
+        "mapMergerName": "中国,浙江省,台州市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Taizhou",
+        "mapZipCode": 318000
+    },
+    {
+        "id": 331100,
+        "mapName": "丽水市",
+        "mapAbbreviation": "丽水",
+        "mapMergerName": "中国,浙江省,丽水市",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Lishui",
+        "mapZipCode": 323000
+    },
+    {
+        "id": 331200,
+        "mapName": "舟山群岛新区",
+        "mapAbbreviation": "舟山新区",
+        "mapMergerName": "中国,浙江省,舟山群岛新区",
+        "mapParentId": 330000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhoushan",
+        "mapZipCode": 316000
+    },
+    {
+        "id": 340100,
+        "mapName": "合肥市",
+        "mapAbbreviation": "合肥",
+        "mapMergerName": "中国,安徽省,合肥市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hefei",
+        "mapZipCode": 230001
+    },
+    {
+        "id": 340200,
+        "mapName": "芜湖市",
+        "mapAbbreviation": "芜湖",
+        "mapMergerName": "中国,安徽省,芜湖市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Wuhu",
+        "mapZipCode": 241000
+    },
+    {
+        "id": 340300,
+        "mapName": "蚌埠市",
+        "mapAbbreviation": "蚌埠",
+        "mapMergerName": "中国,安徽省,蚌埠市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Bengbu",
+        "mapZipCode": 233000
+    },
+    {
+        "id": 340400,
+        "mapName": "淮南市",
+        "mapAbbreviation": "淮南",
+        "mapMergerName": "中国,安徽省,淮南市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huainan",
+        "mapZipCode": 232001
+    },
+    {
+        "id": 340500,
+        "mapName": "马鞍山市",
+        "mapAbbreviation": "马鞍山",
+        "mapMergerName": "中国,安徽省,马鞍山市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ma'anshan",
+        "mapZipCode": 243001
+    },
+    {
+        "id": 340600,
+        "mapName": "淮北市",
+        "mapAbbreviation": "淮北",
+        "mapMergerName": "中国,安徽省,淮北市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huaibei",
+        "mapZipCode": 235000
+    },
+    {
+        "id": 340700,
+        "mapName": "铜陵市",
+        "mapAbbreviation": "铜陵",
+        "mapMergerName": "中国,安徽省,铜陵市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tongling",
+        "mapZipCode": 244000
+    },
+    {
+        "id": 340800,
+        "mapName": "安庆市",
+        "mapAbbreviation": "安庆",
+        "mapMergerName": "中国,安徽省,安庆市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Anqing",
+        "mapZipCode": 246001
+    },
+    {
+        "id": 341000,
+        "mapName": "黄山市",
+        "mapAbbreviation": "黄山",
+        "mapMergerName": "中国,安徽省,黄山市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huangshan",
+        "mapZipCode": 245000
+    },
+    {
+        "id": 341100,
+        "mapName": "滁州市",
+        "mapAbbreviation": "滁州",
+        "mapMergerName": "中国,安徽省,滁州市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chuzhou",
+        "mapZipCode": 239000
+    },
+    {
+        "id": 341200,
+        "mapName": "阜阳市",
+        "mapAbbreviation": "阜阳",
+        "mapMergerName": "中国,安徽省,阜阳市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Fuyang",
+        "mapZipCode": 236033
+    },
+    {
+        "id": 341300,
+        "mapName": "宿州市",
+        "mapAbbreviation": "宿州",
+        "mapMergerName": "中国,安徽省,宿州市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Suzhou",
+        "mapZipCode": 234000
+    },
+    {
+        "id": 341500,
+        "mapName": "六安市",
+        "mapAbbreviation": "六安",
+        "mapMergerName": "中国,安徽省,六安市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Lu'an",
+        "mapZipCode": 237000
+    },
+    {
+        "id": 341600,
+        "mapName": "亳州市",
+        "mapAbbreviation": "亳州",
+        "mapMergerName": "中国,安徽省,亳州市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Bozhou",
+        "mapZipCode": 236802
+    },
+    {
+        "id": 341700,
+        "mapName": "池州市",
+        "mapAbbreviation": "池州",
+        "mapMergerName": "中国,安徽省,池州市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chizhou",
+        "mapZipCode": 247100
+    },
+    {
+        "id": 341800,
+        "mapName": "宣城市",
+        "mapAbbreviation": "宣城",
+        "mapMergerName": "中国,安徽省,宣城市",
+        "mapParentId": 340000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xuancheng",
+        "mapZipCode": 242000
+    },
+    {
+        "id": 350100,
+        "mapName": "福州市",
+        "mapAbbreviation": "福州",
+        "mapMergerName": "中国,福建省,福州市",
+        "mapParentId": 350000,
+        "mapLevelType": 2,
+        "mapPinYin": "Fuzhou",
+        "mapZipCode": 350001
+    },
+    {
+        "id": 350200,
+        "mapName": "厦门市",
+        "mapAbbreviation": "厦门",
+        "mapMergerName": "中国,福建省,厦门市",
+        "mapParentId": 350000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xiamen",
+        "mapZipCode": 361003
+    },
+    {
+        "id": 350300,
+        "mapName": "莆田市",
+        "mapAbbreviation": "莆田",
+        "mapMergerName": "中国,福建省,莆田市",
+        "mapParentId": 350000,
+        "mapLevelType": 2,
+        "mapPinYin": "Putian",
+        "mapZipCode": 351100
+    },
+    {
+        "id": 350400,
+        "mapName": "三明市",
+        "mapAbbreviation": "三明",
+        "mapMergerName": "中国,福建省,三明市",
+        "mapParentId": 350000,
+        "mapLevelType": 2,
+        "mapPinYin": "Sanming",
+        "mapZipCode": 365000
+    },
+    {
+        "id": 350500,
+        "mapName": "泉州市",
+        "mapAbbreviation": "泉州",
+        "mapMergerName": "中国,福建省,泉州市",
+        "mapParentId": 350000,
+        "mapLevelType": 2,
+        "mapPinYin": "Quanzhou",
+        "mapZipCode": 362000
+    },
+    {
+        "id": 350600,
+        "mapName": "漳州市",
+        "mapAbbreviation": "漳州",
+        "mapMergerName": "中国,福建省,漳州市",
+        "mapParentId": 350000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhangzhou",
+        "mapZipCode": 363005
+    },
+    {
+        "id": 350700,
+        "mapName": "南平市",
+        "mapAbbreviation": "南平",
+        "mapMergerName": "中国,福建省,南平市",
+        "mapParentId": 350000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nanping",
+        "mapZipCode": 353000
+    },
+    {
+        "id": 350800,
+        "mapName": "龙岩市",
+        "mapAbbreviation": "龙岩",
+        "mapMergerName": "中国,福建省,龙岩市",
+        "mapParentId": 350000,
+        "mapLevelType": 2,
+        "mapPinYin": "Longyan",
+        "mapZipCode": 364000
+    },
+    {
+        "id": 350900,
+        "mapName": "宁德市",
+        "mapAbbreviation": "宁德",
+        "mapMergerName": "中国,福建省,宁德市",
+        "mapParentId": 350000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ningde",
+        "mapZipCode": 352100
+    },
+    {
+        "id": 360100,
+        "mapName": "南昌市",
+        "mapAbbreviation": "南昌",
+        "mapMergerName": "中国,江西省,南昌市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nanchang",
+        "mapZipCode": 330008
+    },
+    {
+        "id": 360200,
+        "mapName": "景德镇市",
+        "mapAbbreviation": "景德镇",
+        "mapMergerName": "中国,江西省,景德镇市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jingdezhen",
+        "mapZipCode": 333000
+    },
+    {
+        "id": 360300,
+        "mapName": "萍乡市",
+        "mapAbbreviation": "萍乡",
+        "mapMergerName": "中国,江西省,萍乡市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Pingxiang",
+        "mapZipCode": 337000
+    },
+    {
+        "id": 360400,
+        "mapName": "九江市",
+        "mapAbbreviation": "九江",
+        "mapMergerName": "中国,江西省,九江市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jiujiang",
+        "mapZipCode": 332000
+    },
+    {
+        "id": 360500,
+        "mapName": "新余市",
+        "mapAbbreviation": "新余",
+        "mapMergerName": "中国,江西省,新余市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xinyu",
+        "mapZipCode": 338025
+    },
+    {
+        "id": 360600,
+        "mapName": "鹰潭市",
+        "mapAbbreviation": "鹰潭",
+        "mapMergerName": "中国,江西省,鹰潭市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yingtan",
+        "mapZipCode": 335000
+    },
+    {
+        "id": 360700,
+        "mapName": "赣州市",
+        "mapAbbreviation": "赣州",
+        "mapMergerName": "中国,江西省,赣州市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ganzhou",
+        "mapZipCode": 341000
+    },
+    {
+        "id": 360800,
+        "mapName": "吉安市",
+        "mapAbbreviation": "吉安",
+        "mapMergerName": "中国,江西省,吉安市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ji'an",
+        "mapZipCode": 343000
+    },
+    {
+        "id": 360900,
+        "mapName": "宜春市",
+        "mapAbbreviation": "宜春",
+        "mapMergerName": "中国,江西省,宜春市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yichun",
+        "mapZipCode": 336000
+    },
+    {
+        "id": 361000,
+        "mapName": "抚州市",
+        "mapAbbreviation": "抚州",
+        "mapMergerName": "中国,江西省,抚州市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Fuzhou",
+        "mapZipCode": 344000
+    },
+    {
+        "id": 361100,
+        "mapName": "上饶市",
+        "mapAbbreviation": "上饶",
+        "mapMergerName": "中国,江西省,上饶市",
+        "mapParentId": 360000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shangrao",
+        "mapZipCode": 334000
+    },
+    {
+        "id": 370100,
+        "mapName": "济南市",
+        "mapAbbreviation": "济南",
+        "mapMergerName": "中国,山东省,济南市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jinan",
+        "mapZipCode": 250001
+    },
+    {
+        "id": 370200,
+        "mapName": "青岛市",
+        "mapAbbreviation": "青岛",
+        "mapMergerName": "中国,山东省,青岛市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qingdao",
+        "mapZipCode": 266001
+    },
+    {
+        "id": 370300,
+        "mapName": "淄博市",
+        "mapAbbreviation": "淄博",
+        "mapMergerName": "中国,山东省,淄博市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zibo",
+        "mapZipCode": 255039
+    },
+    {
+        "id": 370400,
+        "mapName": "枣庄市",
+        "mapAbbreviation": "枣庄",
+        "mapMergerName": "中国,山东省,枣庄市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zaozhuang",
+        "mapZipCode": 277101
+    },
+    {
+        "id": 370500,
+        "mapName": "东营市",
+        "mapAbbreviation": "东营",
+        "mapMergerName": "中国,山东省,东营市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Dongying",
+        "mapZipCode": 257093
+    },
+    {
+        "id": 370600,
+        "mapName": "烟台市",
+        "mapAbbreviation": "烟台",
+        "mapMergerName": "中国,山东省,烟台市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yantai",
+        "mapZipCode": 264010
+    },
+    {
+        "id": 370700,
+        "mapName": "潍坊市",
+        "mapAbbreviation": "潍坊",
+        "mapMergerName": "中国,山东省,潍坊市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Weifang",
+        "mapZipCode": 261041
+    },
+    {
+        "id": 370800,
+        "mapName": "济宁市",
+        "mapAbbreviation": "济宁",
+        "mapMergerName": "中国,山东省,济宁市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jining",
+        "mapZipCode": 272119
+    },
+    {
+        "id": 370900,
+        "mapName": "泰安市",
+        "mapAbbreviation": "泰安",
+        "mapMergerName": "中国,山东省,泰安市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tai'an",
+        "mapZipCode": 271000
+    },
+    {
+        "id": 371000,
+        "mapName": "威海市",
+        "mapAbbreviation": "威海",
+        "mapMergerName": "中国,山东省,威海市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Weihai",
+        "mapZipCode": 264200
+    },
+    {
+        "id": 371100,
+        "mapName": "日照市",
+        "mapAbbreviation": "日照",
+        "mapMergerName": "中国,山东省,日照市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Rizhao",
+        "mapZipCode": 276800
+    },
+    {
+        "id": 371200,
+        "mapName": "莱芜市",
+        "mapAbbreviation": "莱芜",
+        "mapMergerName": "中国,山东省,莱芜市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Laiwu",
+        "mapZipCode": 271100
+    },
+    {
+        "id": 371300,
+        "mapName": "临沂市",
+        "mapAbbreviation": "临沂",
+        "mapMergerName": "中国,山东省,临沂市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Linyi",
+        "mapZipCode": 253000
+    },
+    {
+        "id": 371400,
+        "mapName": "德州市",
+        "mapAbbreviation": "德州",
+        "mapMergerName": "中国,山东省,德州市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Dezhou",
+        "mapZipCode": 253000
+    },
+    {
+        "id": 371500,
+        "mapName": "聊城市",
+        "mapAbbreviation": "聊城",
+        "mapMergerName": "中国,山东省,聊城市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Liaocheng",
+        "mapZipCode": 252052
+    },
+    {
+        "id": 371600,
+        "mapName": "滨州市",
+        "mapAbbreviation": "滨州",
+        "mapMergerName": "中国,山东省,滨州市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Binzhou",
+        "mapZipCode": 256619
+    },
+    {
+        "id": 371700,
+        "mapName": "菏泽市",
+        "mapAbbreviation": "菏泽",
+        "mapMergerName": "中国,山东省,菏泽市",
+        "mapParentId": 370000,
+        "mapLevelType": 2,
+        "mapPinYin": "Heze",
+        "mapZipCode": 274020
+    },
+    {
+        "id": 410100,
+        "mapName": "郑州市",
+        "mapAbbreviation": "郑州",
+        "mapMergerName": "中国,河南省,郑州市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhengzhou",
+        "mapZipCode": 450000
+    },
+    {
+        "id": 410200,
+        "mapName": "开封市",
+        "mapAbbreviation": "开封",
+        "mapMergerName": "中国,河南省,开封市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Kaifeng",
+        "mapZipCode": 475001
+    },
+    {
+        "id": 410300,
+        "mapName": "洛阳市",
+        "mapAbbreviation": "洛阳",
+        "mapMergerName": "中国,河南省,洛阳市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Luoyang",
+        "mapZipCode": 471000
+    },
+    {
+        "id": 410400,
+        "mapName": "平顶山市",
+        "mapAbbreviation": "平顶山",
+        "mapMergerName": "中国,河南省,平顶山市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Pingdingshan",
+        "mapZipCode": 467000
+    },
+    {
+        "id": 410500,
+        "mapName": "安阳市",
+        "mapAbbreviation": "安阳",
+        "mapMergerName": "中国,河南省,安阳市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Anyang",
+        "mapZipCode": 455000
+    },
+    {
+        "id": 410600,
+        "mapName": "鹤壁市",
+        "mapAbbreviation": "鹤壁",
+        "mapMergerName": "中国,河南省,鹤壁市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hebi",
+        "mapZipCode": 458030
+    },
+    {
+        "id": 410700,
+        "mapName": "新乡市",
+        "mapAbbreviation": "新乡",
+        "mapMergerName": "中国,河南省,新乡市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xinxiang",
+        "mapZipCode": 453000
+    },
+    {
+        "id": 410800,
+        "mapName": "焦作市",
+        "mapAbbreviation": "焦作",
+        "mapMergerName": "中国,河南省,焦作市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jiaozuo",
+        "mapZipCode": 454002
+    },
+    {
+        "id": 410900,
+        "mapName": "濮阳市",
+        "mapAbbreviation": "濮阳",
+        "mapMergerName": "中国,河南省,濮阳市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Puyang",
+        "mapZipCode": 457000
+    },
+    {
+        "id": 411000,
+        "mapName": "许昌市",
+        "mapAbbreviation": "许昌",
+        "mapMergerName": "中国,河南省,许昌市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xuchang",
+        "mapZipCode": 461000
+    },
+    {
+        "id": 411100,
+        "mapName": "漯河市",
+        "mapAbbreviation": "漯河",
+        "mapMergerName": "中国,河南省,漯河市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Luohe",
+        "mapZipCode": 462000
+    },
+    {
+        "id": 411200,
+        "mapName": "三门峡市",
+        "mapAbbreviation": "三门峡",
+        "mapMergerName": "中国,河南省,三门峡市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Sanmenxia",
+        "mapZipCode": 472000
+    },
+    {
+        "id": 411300,
+        "mapName": "南阳市",
+        "mapAbbreviation": "南阳",
+        "mapMergerName": "中国,河南省,南阳市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nanyang",
+        "mapZipCode": 473002
+    },
+    {
+        "id": 411400,
+        "mapName": "商丘市",
+        "mapAbbreviation": "商丘",
+        "mapMergerName": "中国,河南省,商丘市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shangqiu",
+        "mapZipCode": 476000
+    },
+    {
+        "id": 411500,
+        "mapName": "信阳市",
+        "mapAbbreviation": "信阳",
+        "mapMergerName": "中国,河南省,信阳市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xinyang",
+        "mapZipCode": 464000
+    },
+    {
+        "id": 411600,
+        "mapName": "周口市",
+        "mapAbbreviation": "周口",
+        "mapMergerName": "中国,河南省,周口市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhoukou",
+        "mapZipCode": 466000
+    },
+    {
+        "id": 411700,
+        "mapName": "驻马店市",
+        "mapAbbreviation": "驻马店",
+        "mapMergerName": "中国,河南省,驻马店市",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhumadian",
+        "mapZipCode": 463000
+    },
+    {
+        "id": 419000,
+        "mapName": "河南直辖县",
+        "mapAbbreviation": " ",
+        "mapMergerName": "中国,河南省,河南直辖县",
+        "mapParentId": 410000,
+        "mapLevelType": 2,
+        "mapPinYin": "Henan",
+        "mapZipCode": null
+    },
+    {
+        "id": 420100,
+        "mapName": "武汉市",
+        "mapAbbreviation": "武汉",
+        "mapMergerName": "中国,湖北省,武汉市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Wuhan",
+        "mapZipCode": 430014
+    },
+    {
+        "id": 420200,
+        "mapName": "黄石市",
+        "mapAbbreviation": "黄石",
+        "mapMergerName": "中国,湖北省,黄石市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huangshi",
+        "mapZipCode": 435003
+    },
+    {
+        "id": 420300,
+        "mapName": "十堰市",
+        "mapAbbreviation": "十堰",
+        "mapMergerName": "中国,湖北省,十堰市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shiyan",
+        "mapZipCode": 442000
+    },
+    {
+        "id": 420500,
+        "mapName": "宜昌市",
+        "mapAbbreviation": "宜昌",
+        "mapMergerName": "中国,湖北省,宜昌市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yichang",
+        "mapZipCode": 443000
+    },
+    {
+        "id": 420600,
+        "mapName": "襄阳市",
+        "mapAbbreviation": "襄阳",
+        "mapMergerName": "中国,湖北省,襄阳市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xiangyang",
+        "mapZipCode": 441021
+    },
+    {
+        "id": 420700,
+        "mapName": "鄂州市",
+        "mapAbbreviation": "鄂州",
+        "mapMergerName": "中国,湖北省,鄂州市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ezhou",
+        "mapZipCode": 436000
+    },
+    {
+        "id": 420800,
+        "mapName": "荆门市",
+        "mapAbbreviation": "荆门",
+        "mapMergerName": "中国,湖北省,荆门市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jingmen",
+        "mapZipCode": 448000
+    },
+    {
+        "id": 420900,
+        "mapName": "孝感市",
+        "mapAbbreviation": "孝感",
+        "mapMergerName": "中国,湖北省,孝感市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xiaogan",
+        "mapZipCode": 432100
+    },
+    {
+        "id": 421000,
+        "mapName": "荆州市",
+        "mapAbbreviation": "荆州",
+        "mapMergerName": "中国,湖北省,荆州市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jingzhou",
+        "mapZipCode": 434000
+    },
+    {
+        "id": 421100,
+        "mapName": "黄冈市",
+        "mapAbbreviation": "黄冈",
+        "mapMergerName": "中国,湖北省,黄冈市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huanggang",
+        "mapZipCode": 438000
+    },
+    {
+        "id": 421200,
+        "mapName": "咸宁市",
+        "mapAbbreviation": "咸宁",
+        "mapMergerName": "中国,湖北省,咸宁市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xianning",
+        "mapZipCode": 437000
+    },
+    {
+        "id": 421300,
+        "mapName": "随州市",
+        "mapAbbreviation": "随州",
+        "mapMergerName": "中国,湖北省,随州市",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Suizhou",
+        "mapZipCode": 441300
+    },
+    {
+        "id": 422800,
+        "mapName": "恩施土家族苗族自治州",
+        "mapAbbreviation": "恩施",
+        "mapMergerName": "中国,湖北省,恩施土家族苗族自治州",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Enshi",
+        "mapZipCode": 445000
+    },
+    {
+        "id": 429000,
+        "mapName": "湖北直辖县",
+        "mapAbbreviation": " ",
+        "mapMergerName": "中国,湖北省,湖北直辖县",
+        "mapParentId": 420000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hubei",
+        "mapZipCode": null
+    },
+    {
+        "id": 430100,
+        "mapName": "长沙市",
+        "mapAbbreviation": "长沙",
+        "mapMergerName": "中国,湖南省,长沙市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Changsha",
+        "mapZipCode": 410005
+    },
+    {
+        "id": 430200,
+        "mapName": "株洲市",
+        "mapAbbreviation": "株洲",
+        "mapMergerName": "中国,湖南省,株洲市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhuzhou",
+        "mapZipCode": 412000
+    },
+    {
+        "id": 430300,
+        "mapName": "湘潭市",
+        "mapAbbreviation": "湘潭",
+        "mapMergerName": "中国,湖南省,湘潭市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xiangtan",
+        "mapZipCode": 411100
+    },
+    {
+        "id": 430400,
+        "mapName": "衡阳市",
+        "mapAbbreviation": "衡阳",
+        "mapMergerName": "中国,湖南省,衡阳市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hengyang",
+        "mapZipCode": 421001
+    },
+    {
+        "id": 430500,
+        "mapName": "邵阳市",
+        "mapAbbreviation": "邵阳",
+        "mapMergerName": "中国,湖南省,邵阳市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shaoyang",
+        "mapZipCode": 422000
+    },
+    {
+        "id": 430600,
+        "mapName": "岳阳市",
+        "mapAbbreviation": "岳阳",
+        "mapMergerName": "中国,湖南省,岳阳市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yueyang",
+        "mapZipCode": 414000
+    },
+    {
+        "id": 430700,
+        "mapName": "常德市",
+        "mapAbbreviation": "常德",
+        "mapMergerName": "中国,湖南省,常德市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Changde",
+        "mapZipCode": 415000
+    },
+    {
+        "id": 430800,
+        "mapName": "张家界市",
+        "mapAbbreviation": "张家界",
+        "mapMergerName": "中国,湖南省,张家界市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhangjiajie",
+        "mapZipCode": 427000
+    },
+    {
+        "id": 430900,
+        "mapName": "益阳市",
+        "mapAbbreviation": "益阳",
+        "mapMergerName": "中国,湖南省,益阳市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yiyang",
+        "mapZipCode": 413000
+    },
+    {
+        "id": 431000,
+        "mapName": "郴州市",
+        "mapAbbreviation": "郴州",
+        "mapMergerName": "中国,湖南省,郴州市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chenzhou",
+        "mapZipCode": 423000
+    },
+    {
+        "id": 431100,
+        "mapName": "永州市",
+        "mapAbbreviation": "永州",
+        "mapMergerName": "中国,湖南省,永州市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yongzhou",
+        "mapZipCode": 425000
+    },
+    {
+        "id": 431200,
+        "mapName": "怀化市",
+        "mapAbbreviation": "怀化",
+        "mapMergerName": "中国,湖南省,怀化市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huaihua",
+        "mapZipCode": 418000
+    },
+    {
+        "id": 431300,
+        "mapName": "娄底市",
+        "mapAbbreviation": "娄底",
+        "mapMergerName": "中国,湖南省,娄底市",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Loudi",
+        "mapZipCode": 417000
+    },
+    {
+        "id": 433100,
+        "mapName": "湘西土家族苗族自治州",
+        "mapAbbreviation": "湘西",
+        "mapMergerName": "中国,湖南省,湘西土家族苗族自治州",
+        "mapParentId": 430000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xiangxi",
+        "mapZipCode": 416000
+    },
+    {
+        "id": 440100,
+        "mapName": "广州市",
+        "mapAbbreviation": "广州",
+        "mapMergerName": "中国,广东省,广州市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Guangzhou",
+        "mapZipCode": 510032
+    },
+    {
+        "id": 440200,
+        "mapName": "韶关市",
+        "mapAbbreviation": "韶关",
+        "mapMergerName": "中国,广东省,韶关市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shaoguan",
+        "mapZipCode": 512002
+    },
+    {
+        "id": 440300,
+        "mapName": "深圳市",
+        "mapAbbreviation": "深圳",
+        "mapMergerName": "中国,广东省,深圳市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shenzhen",
+        "mapZipCode": 518035
+    },
+    {
+        "id": 440400,
+        "mapName": "珠海市",
+        "mapAbbreviation": "珠海",
+        "mapMergerName": "中国,广东省,珠海市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhuhai",
+        "mapZipCode": 519000
+    },
+    {
+        "id": 440500,
+        "mapName": "汕头市",
+        "mapAbbreviation": "汕头",
+        "mapMergerName": "中国,广东省,汕头市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shantou",
+        "mapZipCode": 515041
+    },
+    {
+        "id": 440600,
+        "mapName": "佛山市",
+        "mapAbbreviation": "佛山",
+        "mapMergerName": "中国,广东省,佛山市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Foshan",
+        "mapZipCode": 528000
+    },
+    {
+        "id": 440700,
+        "mapName": "江门市",
+        "mapAbbreviation": "江门",
+        "mapMergerName": "中国,广东省,江门市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jiangmen",
+        "mapZipCode": 529000
+    },
+    {
+        "id": 440800,
+        "mapName": "湛江市",
+        "mapAbbreviation": "湛江",
+        "mapMergerName": "中国,广东省,湛江市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhanjiang",
+        "mapZipCode": 524047
+    },
+    {
+        "id": 440900,
+        "mapName": "茂名市",
+        "mapAbbreviation": "茂名",
+        "mapMergerName": "中国,广东省,茂名市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Maoming",
+        "mapZipCode": 525000
+    },
+    {
+        "id": 441200,
+        "mapName": "肇庆市",
+        "mapAbbreviation": "肇庆",
+        "mapMergerName": "中国,广东省,肇庆市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhaoqing",
+        "mapZipCode": 526040
+    },
+    {
+        "id": 441300,
+        "mapName": "惠州市",
+        "mapAbbreviation": "惠州",
+        "mapMergerName": "中国,广东省,惠州市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huizhou",
+        "mapZipCode": 516000
+    },
+    {
+        "id": 441400,
+        "mapName": "梅州市",
+        "mapAbbreviation": "梅州",
+        "mapMergerName": "中国,广东省,梅州市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Meizhou",
+        "mapZipCode": 514021
+    },
+    {
+        "id": 441500,
+        "mapName": "汕尾市",
+        "mapAbbreviation": "汕尾",
+        "mapMergerName": "中国,广东省,汕尾市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shanwei",
+        "mapZipCode": 516600
+    },
+    {
+        "id": 441600,
+        "mapName": "河源市",
+        "mapAbbreviation": "河源",
+        "mapMergerName": "中国,广东省,河源市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Heyuan",
+        "mapZipCode": 517000
+    },
+    {
+        "id": 441700,
+        "mapName": "阳江市",
+        "mapAbbreviation": "阳江",
+        "mapMergerName": "中国,广东省,阳江市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yangjiang",
+        "mapZipCode": 529500
+    },
+    {
+        "id": 441800,
+        "mapName": "清远市",
+        "mapAbbreviation": "清远",
+        "mapMergerName": "中国,广东省,清远市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qingyuan",
+        "mapZipCode": 511500
+    },
+    {
+        "id": 441900,
+        "mapName": "东莞市",
+        "mapAbbreviation": "东莞",
+        "mapMergerName": "中国,广东省,东莞市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Dongguan",
+        "mapZipCode": 523888
+    },
+    {
+        "id": 442000,
+        "mapName": "中山市",
+        "mapAbbreviation": "中山",
+        "mapMergerName": "中国,广东省,中山市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhongshan",
+        "mapZipCode": 528403
+    },
+    {
+        "id": 445100,
+        "mapName": "潮州市",
+        "mapAbbreviation": "潮州",
+        "mapMergerName": "中国,广东省,潮州市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chaozhou",
+        "mapZipCode": 521000
+    },
+    {
+        "id": 445200,
+        "mapName": "揭阳市",
+        "mapAbbreviation": "揭阳",
+        "mapMergerName": "中国,广东省,揭阳市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jieyang",
+        "mapZipCode": 522000
+    },
+    {
+        "id": 445300,
+        "mapName": "云浮市",
+        "mapAbbreviation": "云浮",
+        "mapMergerName": "中国,广东省,云浮市",
+        "mapParentId": 440000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yunfu",
+        "mapZipCode": 527300
+    },
+    {
+        "id": 450100,
+        "mapName": "南宁市",
+        "mapAbbreviation": "南宁",
+        "mapMergerName": "中国,广西壮族自治区,南宁市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nanning",
+        "mapZipCode": 530028
+    },
+    {
+        "id": 450200,
+        "mapName": "柳州市",
+        "mapAbbreviation": "柳州",
+        "mapMergerName": "中国,广西壮族自治区,柳州市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Liuzhou",
+        "mapZipCode": 545001
+    },
+    {
+        "id": 450300,
+        "mapName": "桂林市",
+        "mapAbbreviation": "桂林",
+        "mapMergerName": "中国,广西壮族自治区,桂林市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Guilin",
+        "mapZipCode": 541100
+    },
+    {
+        "id": 450400,
+        "mapName": "梧州市",
+        "mapAbbreviation": "梧州",
+        "mapMergerName": "中国,广西壮族自治区,梧州市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Wuzhou",
+        "mapZipCode": 543002
+    },
+    {
+        "id": 450500,
+        "mapName": "北海市",
+        "mapAbbreviation": "北海",
+        "mapMergerName": "中国,广西壮族自治区,北海市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Beihai",
+        "mapZipCode": 536000
+    },
+    {
+        "id": 450600,
+        "mapName": "防城港市",
+        "mapAbbreviation": "防城港",
+        "mapMergerName": "中国,广西壮族自治区,防城港市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Fangchenggang",
+        "mapZipCode": 538001
+    },
+    {
+        "id": 450700,
+        "mapName": "钦州市",
+        "mapAbbreviation": "钦州",
+        "mapMergerName": "中国,广西壮族自治区,钦州市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qinzhou",
+        "mapZipCode": 535099
+    },
+    {
+        "id": 450800,
+        "mapName": "贵港市",
+        "mapAbbreviation": "贵港",
+        "mapMergerName": "中国,广西壮族自治区,贵港市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Guigang",
+        "mapZipCode": 537100
+    },
+    {
+        "id": 450900,
+        "mapName": "玉林市",
+        "mapAbbreviation": "玉林",
+        "mapMergerName": "中国,广西壮族自治区,玉林市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yulin",
+        "mapZipCode": 537000
+    },
+    {
+        "id": 451000,
+        "mapName": "百色市",
+        "mapAbbreviation": "百色",
+        "mapMergerName": "中国,广西壮族自治区,百色市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Baise",
+        "mapZipCode": 533000
+    },
+    {
+        "id": 451100,
+        "mapName": "贺州市",
+        "mapAbbreviation": "贺州",
+        "mapMergerName": "中国,广西壮族自治区,贺州市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hezhou",
+        "mapZipCode": 542800
+    },
+    {
+        "id": 451200,
+        "mapName": "河池市",
+        "mapAbbreviation": "河池",
+        "mapMergerName": "中国,广西壮族自治区,河池市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hechi",
+        "mapZipCode": 547000
+    },
+    {
+        "id": 451300,
+        "mapName": "来宾市",
+        "mapAbbreviation": "来宾",
+        "mapMergerName": "中国,广西壮族自治区,来宾市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Laibin",
+        "mapZipCode": 546100
+    },
+    {
+        "id": 451400,
+        "mapName": "崇左市",
+        "mapAbbreviation": "崇左",
+        "mapMergerName": "中国,广西壮族自治区,崇左市",
+        "mapParentId": 450000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chongzuo",
+        "mapZipCode": 532299
+    },
+    {
+        "id": 460100,
+        "mapName": "海口市",
+        "mapAbbreviation": "海口",
+        "mapMergerName": "中国,海南省,海口市",
+        "mapParentId": 460000,
+        "mapLevelType": 2,
+        "mapPinYin": "Haikou",
+        "mapZipCode": 570000
+    },
+    {
+        "id": 460200,
+        "mapName": "三亚市",
+        "mapAbbreviation": "三亚",
+        "mapMergerName": "中国,海南省,三亚市",
+        "mapParentId": 460000,
+        "mapLevelType": 2,
+        "mapPinYin": "Sanya",
+        "mapZipCode": 572000
+    },
+    {
+        "id": 460300,
+        "mapName": "三沙市",
+        "mapAbbreviation": "三沙",
+        "mapMergerName": "中国,海南省,三沙市",
+        "mapParentId": 460000,
+        "mapLevelType": 2,
+        "mapPinYin": "Sansha",
+        "mapZipCode": 573199
+    },
+    {
+        "id": 469000,
+        "mapName": "海南直辖县",
+        "mapAbbreviation": " ",
+        "mapMergerName": "中国,海南省,海南直辖县",
+        "mapParentId": 460000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hainan",
+        "mapZipCode": null
+    },
+    {
+        "id": 500100,
+        "mapName": "重庆市",
+        "mapAbbreviation": "重庆",
+        "mapMergerName": "中国,重庆,重庆市",
+        "mapParentId": 500000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chongqing",
+        "mapZipCode": 400000
+    },
+    {
+        "id": 500300,
+        "mapName": "两江新区",
+        "mapAbbreviation": "两江新区",
+        "mapMergerName": "中国,重庆,两江新区",
+        "mapParentId": 500000,
+        "mapLevelType": 2,
+        "mapPinYin": "Liangjiangxinqu",
+        "mapZipCode": 400000
+    },
+    {
+        "id": 510100,
+        "mapName": "成都市",
+        "mapAbbreviation": "成都",
+        "mapMergerName": "中国,四川省,成都市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chengdu",
+        "mapZipCode": 610015
+    },
+    {
+        "id": 510300,
+        "mapName": "自贡市",
+        "mapAbbreviation": "自贡",
+        "mapMergerName": "中国,四川省,自贡市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zigong",
+        "mapZipCode": 643000
+    },
+    {
+        "id": 510400,
+        "mapName": "攀枝花市",
+        "mapAbbreviation": "攀枝花",
+        "mapMergerName": "中国,四川省,攀枝花市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Panzhihua",
+        "mapZipCode": 617000
+    },
+    {
+        "id": 510500,
+        "mapName": "泸州市",
+        "mapAbbreviation": "泸州",
+        "mapMergerName": "中国,四川省,泸州市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Luzhou",
+        "mapZipCode": 646000
+    },
+    {
+        "id": 510600,
+        "mapName": "德阳市",
+        "mapAbbreviation": "德阳",
+        "mapMergerName": "中国,四川省,德阳市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Deyang",
+        "mapZipCode": 618000
+    },
+    {
+        "id": 510700,
+        "mapName": "绵阳市",
+        "mapAbbreviation": "绵阳",
+        "mapMergerName": "中国,四川省,绵阳市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Mianyang",
+        "mapZipCode": 621000
+    },
+    {
+        "id": 510800,
+        "mapName": "广元市",
+        "mapAbbreviation": "广元",
+        "mapMergerName": "中国,四川省,广元市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Guangyuan",
+        "mapZipCode": 628000
+    },
+    {
+        "id": 510900,
+        "mapName": "遂宁市",
+        "mapAbbreviation": "遂宁",
+        "mapMergerName": "中国,四川省,遂宁市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Suining",
+        "mapZipCode": 629000
+    },
+    {
+        "id": 511000,
+        "mapName": "内江市",
+        "mapAbbreviation": "内江",
+        "mapMergerName": "中国,四川省,内江市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Neijiang",
+        "mapZipCode": 641000
+    },
+    {
+        "id": 511100,
+        "mapName": "乐山市",
+        "mapAbbreviation": "乐山",
+        "mapMergerName": "中国,四川省,乐山市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Leshan",
+        "mapZipCode": 614000
+    },
+    {
+        "id": 511300,
+        "mapName": "南充市",
+        "mapAbbreviation": "南充",
+        "mapMergerName": "中国,四川省,南充市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nanchong",
+        "mapZipCode": 637000
+    },
+    {
+        "id": 511400,
+        "mapName": "眉山市",
+        "mapAbbreviation": "眉山",
+        "mapMergerName": "中国,四川省,眉山市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Meishan",
+        "mapZipCode": 620020
+    },
+    {
+        "id": 511500,
+        "mapName": "宜宾市",
+        "mapAbbreviation": "宜宾",
+        "mapMergerName": "中国,四川省,宜宾市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yibin",
+        "mapZipCode": 644000
+    },
+    {
+        "id": 511600,
+        "mapName": "广安市",
+        "mapAbbreviation": "广安",
+        "mapMergerName": "中国,四川省,广安市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Guang'an",
+        "mapZipCode": 638000
+    },
+    {
+        "id": 511700,
+        "mapName": "达州市",
+        "mapAbbreviation": "达州",
+        "mapMergerName": "中国,四川省,达州市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Dazhou",
+        "mapZipCode": 635000
+    },
+    {
+        "id": 511800,
+        "mapName": "雅安市",
+        "mapAbbreviation": "雅安",
+        "mapMergerName": "中国,四川省,雅安市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ya'an",
+        "mapZipCode": 625000
+    },
+    {
+        "id": 511900,
+        "mapName": "巴中市",
+        "mapAbbreviation": "巴中",
+        "mapMergerName": "中国,四川省,巴中市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Bazhong",
+        "mapZipCode": 636000
+    },
+    {
+        "id": 512000,
+        "mapName": "资阳市",
+        "mapAbbreviation": "资阳",
+        "mapMergerName": "中国,四川省,资阳市",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ziyang",
+        "mapZipCode": 641300
+    },
+    {
+        "id": 513200,
+        "mapName": "阿坝藏族羌族自治州",
+        "mapAbbreviation": "阿坝",
+        "mapMergerName": "中国,四川省,阿坝藏族羌族自治州",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Aba",
+        "mapZipCode": 624000
+    },
+    {
+        "id": 513300,
+        "mapName": "甘孜藏族自治州",
+        "mapAbbreviation": "甘孜",
+        "mapMergerName": "中国,四川省,甘孜藏族自治州",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Garze",
+        "mapZipCode": 626000
+    },
+    {
+        "id": 513400,
+        "mapName": "凉山彝族自治州",
+        "mapAbbreviation": "凉山",
+        "mapMergerName": "中国,四川省,凉山彝族自治州",
+        "mapParentId": 510000,
+        "mapLevelType": 2,
+        "mapPinYin": "Liangshan",
+        "mapZipCode": 615000
+    },
+    {
+        "id": 520100,
+        "mapName": "贵阳市",
+        "mapAbbreviation": "贵阳",
+        "mapMergerName": "中国,贵州省,贵阳市",
+        "mapParentId": 520000,
+        "mapLevelType": 2,
+        "mapPinYin": "Guiyang",
+        "mapZipCode": 550001
+    },
+    {
+        "id": 520200,
+        "mapName": "六盘水市",
+        "mapAbbreviation": "六盘水",
+        "mapMergerName": "中国,贵州省,六盘水市",
+        "mapParentId": 520000,
+        "mapLevelType": 2,
+        "mapPinYin": "Liupanshui",
+        "mapZipCode": 553400
+    },
+    {
+        "id": 520300,
+        "mapName": "遵义市",
+        "mapAbbreviation": "遵义",
+        "mapMergerName": "中国,贵州省,遵义市",
+        "mapParentId": 520000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zunyi",
+        "mapZipCode": 563000
+    },
+    {
+        "id": 520400,
+        "mapName": "安顺市",
+        "mapAbbreviation": "安顺",
+        "mapMergerName": "中国,贵州省,安顺市",
+        "mapParentId": 520000,
+        "mapLevelType": 2,
+        "mapPinYin": "Anshun",
+        "mapZipCode": 561000
+    },
+    {
+        "id": 520500,
+        "mapName": "毕节市",
+        "mapAbbreviation": "毕节",
+        "mapMergerName": "中国,贵州省,毕节市",
+        "mapParentId": 520000,
+        "mapLevelType": 2,
+        "mapPinYin": "Bijie",
+        "mapZipCode": 551700
+    },
+    {
+        "id": 520600,
+        "mapName": "铜仁市",
+        "mapAbbreviation": "铜仁",
+        "mapMergerName": "中国,贵州省,铜仁市",
+        "mapParentId": 520000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tongren",
+        "mapZipCode": 554300
+    },
+    {
+        "id": 522300,
+        "mapName": "黔西南布依族苗族自治州",
+        "mapAbbreviation": "黔西南",
+        "mapMergerName": "中国,贵州省,黔西南布依族苗族自治州",
+        "mapParentId": 520000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qianxinan",
+        "mapZipCode": 562400
+    },
+    {
+        "id": 522600,
+        "mapName": "黔东南苗族侗族自治州",
+        "mapAbbreviation": "黔东南",
+        "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州",
+        "mapParentId": 520000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qiandongnan",
+        "mapZipCode": 556000
+    },
+    {
+        "id": 522700,
+        "mapName": "黔南布依族苗族自治州",
+        "mapAbbreviation": "黔南",
+        "mapMergerName": "中国,贵州省,黔南布依族苗族自治州",
+        "mapParentId": 520000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qiannan",
+        "mapZipCode": 558000
+    },
+    {
+        "id": 530100,
+        "mapName": "昆明市",
+        "mapAbbreviation": "昆明",
+        "mapMergerName": "中国,云南省,昆明市",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Kunming",
+        "mapZipCode": 650500
+    },
+    {
+        "id": 530300,
+        "mapName": "曲靖市",
+        "mapAbbreviation": "曲靖",
+        "mapMergerName": "中国,云南省,曲靖市",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qujing",
+        "mapZipCode": 655000
+    },
+    {
+        "id": 530400,
+        "mapName": "玉溪市",
+        "mapAbbreviation": "玉溪",
+        "mapMergerName": "中国,云南省,玉溪市",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yuxi",
+        "mapZipCode": 653100
+    },
+    {
+        "id": 530500,
+        "mapName": "保山市",
+        "mapAbbreviation": "保山",
+        "mapMergerName": "中国,云南省,保山市",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Baoshan",
+        "mapZipCode": 678000
+    },
+    {
+        "id": 530600,
+        "mapName": "昭通市",
+        "mapAbbreviation": "昭通",
+        "mapMergerName": "中国,云南省,昭通市",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhaotong",
+        "mapZipCode": 657000
+    },
+    {
+        "id": 530700,
+        "mapName": "丽江市",
+        "mapAbbreviation": "丽江",
+        "mapMergerName": "中国,云南省,丽江市",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Lijiang",
+        "mapZipCode": 674100
+    },
+    {
+        "id": 530800,
+        "mapName": "普洱市",
+        "mapAbbreviation": "普洱",
+        "mapMergerName": "中国,云南省,普洱市",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Pu'er",
+        "mapZipCode": 665000
+    },
+    {
+        "id": 530900,
+        "mapName": "临沧市",
+        "mapAbbreviation": "临沧",
+        "mapMergerName": "中国,云南省,临沧市",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Lincang",
+        "mapZipCode": 677000
+    },
+    {
+        "id": 532300,
+        "mapName": "楚雄彝族自治州",
+        "mapAbbreviation": "楚雄",
+        "mapMergerName": "中国,云南省,楚雄彝族自治州",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chuxiong",
+        "mapZipCode": 675000
+    },
+    {
+        "id": 532500,
+        "mapName": "红河哈尼族彝族自治州",
+        "mapAbbreviation": "红河",
+        "mapMergerName": "中国,云南省,红河哈尼族彝族自治州",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Honghe",
+        "mapZipCode": 661400
+    },
+    {
+        "id": 532600,
+        "mapName": "文山壮族苗族自治州",
+        "mapAbbreviation": "文山",
+        "mapMergerName": "中国,云南省,文山壮族苗族自治州",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Wenshan",
+        "mapZipCode": 663000
+    },
+    {
+        "id": 532800,
+        "mapName": "西双版纳傣族自治州",
+        "mapAbbreviation": "西双版纳",
+        "mapMergerName": "中国,云南省,西双版纳傣族自治州",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xishuangbanna",
+        "mapZipCode": 666100
+    },
+    {
+        "id": 532900,
+        "mapName": "大理白族自治州",
+        "mapAbbreviation": "大理",
+        "mapMergerName": "中国,云南省,大理白族自治州",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Dali",
+        "mapZipCode": 671000
+    },
+    {
+        "id": 533100,
+        "mapName": "德宏傣族景颇族自治州",
+        "mapAbbreviation": "德宏",
+        "mapMergerName": "中国,云南省,德宏傣族景颇族自治州",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Dehong",
+        "mapZipCode": 678400
+    },
+    {
+        "id": 533300,
+        "mapName": "怒江傈僳族自治州",
+        "mapAbbreviation": "怒江",
+        "mapMergerName": "中国,云南省,怒江傈僳族自治州",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nujiang",
+        "mapZipCode": 673100
+    },
+    {
+        "id": 533400,
+        "mapName": "迪庆藏族自治州",
+        "mapAbbreviation": "迪庆",
+        "mapMergerName": "中国,云南省,迪庆藏族自治州",
+        "mapParentId": 530000,
+        "mapLevelType": 2,
+        "mapPinYin": "Deqen",
+        "mapZipCode": 674400
+    },
+    {
+        "id": 540100,
+        "mapName": "拉萨市",
+        "mapAbbreviation": "拉萨",
+        "mapMergerName": "中国,西藏自治区,拉萨市",
+        "mapParentId": 540000,
+        "mapLevelType": 2,
+        "mapPinYin": "Lhasa",
+        "mapZipCode": 850000
+    },
+    {
+        "id": 540200,
+        "mapName": "日喀则市",
+        "mapAbbreviation": "日喀则",
+        "mapMergerName": "中国,西藏自治区,日喀则市",
+        "mapParentId": 540000,
+        "mapLevelType": 2,
+        "mapPinYin": "Rikaze",
+        "mapZipCode": 857000
+    },
+    {
+        "id": 540300,
+        "mapName": "昌都市",
+        "mapAbbreviation": "昌都",
+        "mapMergerName": "中国,西藏自治区,昌都市",
+        "mapParentId": 540000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qamdo",
+        "mapZipCode": 854000
+    },
+    {
+        "id": 542200,
+        "mapName": "山南地区",
+        "mapAbbreviation": "山南",
+        "mapMergerName": "中国,西藏自治区,山南地区",
+        "mapParentId": 540000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shannan",
+        "mapZipCode": 856000
+    },
+    {
+        "id": 542400,
+        "mapName": "那曲地区",
+        "mapAbbreviation": "那曲",
+        "mapMergerName": "中国,西藏自治区,那曲地区",
+        "mapParentId": 540000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nagqu",
+        "mapZipCode": 852000
+    },
+    {
+        "id": 542500,
+        "mapName": "阿里地区",
+        "mapAbbreviation": "阿里",
+        "mapMergerName": "中国,西藏自治区,阿里地区",
+        "mapParentId": 540000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ngari",
+        "mapZipCode": 859000
+    },
+    {
+        "id": 542600,
+        "mapName": "林芝地区",
+        "mapAbbreviation": "林芝",
+        "mapMergerName": "中国,西藏自治区,林芝地区",
+        "mapParentId": 540000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nyingchi",
+        "mapZipCode": 850400
+    },
+    {
+        "id": 610100,
+        "mapName": "西安市",
+        "mapAbbreviation": "西安",
+        "mapMergerName": "中国,陕西省,西安市",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xi'an",
+        "mapZipCode": 710003
+    },
+    {
+        "id": 610200,
+        "mapName": "铜川市",
+        "mapAbbreviation": "铜川",
+        "mapMergerName": "中国,陕西省,铜川市",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tongchuan",
+        "mapZipCode": 727100
+    },
+    {
+        "id": 610300,
+        "mapName": "宝鸡市",
+        "mapAbbreviation": "宝鸡",
+        "mapMergerName": "中国,陕西省,宝鸡市",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Baoji",
+        "mapZipCode": 721000
+    },
+    {
+        "id": 610400,
+        "mapName": "咸阳市",
+        "mapAbbreviation": "咸阳",
+        "mapMergerName": "中国,陕西省,咸阳市",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xianyang",
+        "mapZipCode": 712000
+    },
+    {
+        "id": 610500,
+        "mapName": "渭南市",
+        "mapAbbreviation": "渭南",
+        "mapMergerName": "中国,陕西省,渭南市",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Weinan",
+        "mapZipCode": 714000
+    },
+    {
+        "id": 610600,
+        "mapName": "延安市",
+        "mapAbbreviation": "延安",
+        "mapMergerName": "中国,陕西省,延安市",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yan'an",
+        "mapZipCode": 716000
+    },
+    {
+        "id": 610700,
+        "mapName": "汉中市",
+        "mapAbbreviation": "汉中",
+        "mapMergerName": "中国,陕西省,汉中市",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hanzhong",
+        "mapZipCode": 723000
+    },
+    {
+        "id": 610800,
+        "mapName": "榆林市",
+        "mapAbbreviation": "榆林",
+        "mapMergerName": "中国,陕西省,榆林市",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yulin",
+        "mapZipCode": 719000
+    },
+    {
+        "id": 610900,
+        "mapName": "安康市",
+        "mapAbbreviation": "安康",
+        "mapMergerName": "中国,陕西省,安康市",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ankang",
+        "mapZipCode": 725000
+    },
+    {
+        "id": 611000,
+        "mapName": "商洛市",
+        "mapAbbreviation": "商洛",
+        "mapMergerName": "中国,陕西省,商洛市",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shangluo",
+        "mapZipCode": 726000
+    },
+    {
+        "id": 611100,
+        "mapName": "西咸新区",
+        "mapAbbreviation": "西咸",
+        "mapMergerName": "中国,陕西省,西咸新区",
+        "mapParentId": 610000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xixian",
+        "mapZipCode": 712000
+    },
+    {
+        "id": 620100,
+        "mapName": "兰州市",
+        "mapAbbreviation": "兰州",
+        "mapMergerName": "中国,甘肃省,兰州市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Lanzhou",
+        "mapZipCode": 730030
+    },
+    {
+        "id": 620200,
+        "mapName": "嘉峪关市",
+        "mapAbbreviation": "嘉峪关",
+        "mapMergerName": "中国,甘肃省,嘉峪关市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jiayuguan",
+        "mapZipCode": 735100
+    },
+    {
+        "id": 620300,
+        "mapName": "金昌市",
+        "mapAbbreviation": "金昌",
+        "mapMergerName": "中国,甘肃省,金昌市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jinchang",
+        "mapZipCode": 737100
+    },
+    {
+        "id": 620400,
+        "mapName": "白银市",
+        "mapAbbreviation": "白银",
+        "mapMergerName": "中国,甘肃省,白银市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Baiyin",
+        "mapZipCode": 730900
+    },
+    {
+        "id": 620500,
+        "mapName": "天水市",
+        "mapAbbreviation": "天水",
+        "mapMergerName": "中国,甘肃省,天水市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tianshui",
+        "mapZipCode": 741000
+    },
+    {
+        "id": 620600,
+        "mapName": "武威市",
+        "mapAbbreviation": "武威",
+        "mapMergerName": "中国,甘肃省,武威市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Wuwei",
+        "mapZipCode": 733000
+    },
+    {
+        "id": 620700,
+        "mapName": "张掖市",
+        "mapAbbreviation": "张掖",
+        "mapMergerName": "中国,甘肃省,张掖市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhangye",
+        "mapZipCode": 734000
+    },
+    {
+        "id": 620800,
+        "mapName": "平凉市",
+        "mapAbbreviation": "平凉",
+        "mapMergerName": "中国,甘肃省,平凉市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Pingliang",
+        "mapZipCode": 744000
+    },
+    {
+        "id": 620900,
+        "mapName": "酒泉市",
+        "mapAbbreviation": "酒泉",
+        "mapMergerName": "中国,甘肃省,酒泉市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jiuquan",
+        "mapZipCode": 735000
+    },
+    {
+        "id": 621000,
+        "mapName": "庆阳市",
+        "mapAbbreviation": "庆阳",
+        "mapMergerName": "中国,甘肃省,庆阳市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qingyang",
+        "mapZipCode": 745000
+    },
+    {
+        "id": 621100,
+        "mapName": "定西市",
+        "mapAbbreviation": "定西",
+        "mapMergerName": "中国,甘肃省,定西市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Dingxi",
+        "mapZipCode": 743000
+    },
+    {
+        "id": 621200,
+        "mapName": "陇南市",
+        "mapAbbreviation": "陇南",
+        "mapMergerName": "中国,甘肃省,陇南市",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Longnan",
+        "mapZipCode": 746000
+    },
+    {
+        "id": 622900,
+        "mapName": "临夏回族自治州",
+        "mapAbbreviation": "临夏",
+        "mapMergerName": "中国,甘肃省,临夏回族自治州",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Linxia",
+        "mapZipCode": 731100
+    },
+    {
+        "id": 623000,
+        "mapName": "甘南藏族自治州",
+        "mapAbbreviation": "甘南",
+        "mapMergerName": "中国,甘肃省,甘南藏族自治州",
+        "mapParentId": 620000,
+        "mapLevelType": 2,
+        "mapPinYin": "Gannan",
+        "mapZipCode": 747000
+    },
+    {
+        "id": 630100,
+        "mapName": "西宁市",
+        "mapAbbreviation": "西宁",
+        "mapMergerName": "中国,青海省,西宁市",
+        "mapParentId": 630000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xining",
+        "mapZipCode": 810000
+    },
+    {
+        "id": 630200,
+        "mapName": "海东市",
+        "mapAbbreviation": "海东",
+        "mapMergerName": "中国,青海省,海东市",
+        "mapParentId": 630000,
+        "mapLevelType": 2,
+        "mapPinYin": "Haidong",
+        "mapZipCode": 810700
+    },
+    {
+        "id": 632200,
+        "mapName": "海北藏族自治州",
+        "mapAbbreviation": "海北",
+        "mapMergerName": "中国,青海省,海北藏族自治州",
+        "mapParentId": 630000,
+        "mapLevelType": 2,
+        "mapPinYin": "Haibei",
+        "mapZipCode": 812200
+    },
+    {
+        "id": 632300,
+        "mapName": "黄南藏族自治州",
+        "mapAbbreviation": "黄南",
+        "mapMergerName": "中国,青海省,黄南藏族自治州",
+        "mapParentId": 630000,
+        "mapLevelType": 2,
+        "mapPinYin": "Huangnan",
+        "mapZipCode": 811300
+    },
+    {
+        "id": 632500,
+        "mapName": "海南藏族自治州",
+        "mapAbbreviation": "海南",
+        "mapMergerName": "中国,青海省,海南藏族自治州",
+        "mapParentId": 630000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hainan",
+        "mapZipCode": 813000
+    },
+    {
+        "id": 632600,
+        "mapName": "果洛藏族自治州",
+        "mapAbbreviation": "果洛",
+        "mapMergerName": "中国,青海省,果洛藏族自治州",
+        "mapParentId": 630000,
+        "mapLevelType": 2,
+        "mapPinYin": "Golog",
+        "mapZipCode": 814000
+    },
+    {
+        "id": 632700,
+        "mapName": "玉树藏族自治州",
+        "mapAbbreviation": "玉树",
+        "mapMergerName": "中国,青海省,玉树藏族自治州",
+        "mapParentId": 630000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yushu",
+        "mapZipCode": 815000
+    },
+    {
+        "id": 632800,
+        "mapName": "海西蒙古族藏族自治州",
+        "mapAbbreviation": "海西",
+        "mapMergerName": "中国,青海省,海西蒙古族藏族自治州",
+        "mapParentId": 630000,
+        "mapLevelType": 2,
+        "mapPinYin": "Haixi",
+        "mapZipCode": 817000
+    },
+    {
+        "id": 640100,
+        "mapName": "银川市",
+        "mapAbbreviation": "银川",
+        "mapMergerName": "中国,宁夏回族自治区,银川市",
+        "mapParentId": 640000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yinchuan",
+        "mapZipCode": 750004
+    },
+    {
+        "id": 640200,
+        "mapName": "石嘴山市",
+        "mapAbbreviation": "石嘴山",
+        "mapMergerName": "中国,宁夏回族自治区,石嘴山市",
+        "mapParentId": 640000,
+        "mapLevelType": 2,
+        "mapPinYin": "Shizuishan",
+        "mapZipCode": 753000
+    },
+    {
+        "id": 640300,
+        "mapName": "吴忠市",
+        "mapAbbreviation": "吴忠",
+        "mapMergerName": "中国,宁夏回族自治区,吴忠市",
+        "mapParentId": 640000,
+        "mapLevelType": 2,
+        "mapPinYin": "Wuzhong",
+        "mapZipCode": 751100
+    },
+    {
+        "id": 640400,
+        "mapName": "固原市",
+        "mapAbbreviation": "固原",
+        "mapMergerName": "中国,宁夏回族自治区,固原市",
+        "mapParentId": 640000,
+        "mapLevelType": 2,
+        "mapPinYin": "Guyuan",
+        "mapZipCode": 756000
+    },
+    {
+        "id": 640500,
+        "mapName": "中卫市",
+        "mapAbbreviation": "中卫",
+        "mapMergerName": "中国,宁夏回族自治区,中卫市",
+        "mapParentId": 640000,
+        "mapLevelType": 2,
+        "mapPinYin": "Zhongwei",
+        "mapZipCode": 751700
+    },
+    {
+        "id": 650100,
+        "mapName": "乌鲁木齐市",
+        "mapAbbreviation": "乌鲁木齐",
+        "mapMergerName": "中国,新疆维吾尔自治区,乌鲁木齐市",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Urumqi",
+        "mapZipCode": 830002
+    },
+    {
+        "id": 650200,
+        "mapName": "克拉玛依市",
+        "mapAbbreviation": "克拉玛依",
+        "mapMergerName": "中国,新疆维吾尔自治区,克拉玛依市",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Karamay",
+        "mapZipCode": 834000
+    },
+    {
+        "id": 652100,
+        "mapName": "吐鲁番地区",
+        "mapAbbreviation": "吐鲁番",
+        "mapMergerName": "中国,新疆维吾尔自治区,吐鲁番地区",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Turpan",
+        "mapZipCode": 838000
+    },
+    {
+        "id": 652200,
+        "mapName": "哈密地区",
+        "mapAbbreviation": "哈密",
+        "mapMergerName": "中国,新疆维吾尔自治区,哈密地区",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hami",
+        "mapZipCode": 839000
+    },
+    {
+        "id": 652300,
+        "mapName": "昌吉回族自治州",
+        "mapAbbreviation": "昌吉",
+        "mapMergerName": "中国,新疆维吾尔自治区,昌吉回族自治州",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Changji",
+        "mapZipCode": 831100
+    },
+    {
+        "id": 652700,
+        "mapName": "博尔塔拉蒙古自治州",
+        "mapAbbreviation": "博尔塔拉",
+        "mapMergerName": "中国,新疆维吾尔自治区,博尔塔拉蒙古自治州",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Bortala",
+        "mapZipCode": 833400
+    },
+    {
+        "id": 652800,
+        "mapName": "巴音郭楞蒙古自治州",
+        "mapAbbreviation": "巴音郭楞",
+        "mapMergerName": "中国,新疆维吾尔自治区,巴音郭楞蒙古自治州",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Bayingol",
+        "mapZipCode": 841000
+    },
+    {
+        "id": 652900,
+        "mapName": "阿克苏地区",
+        "mapAbbreviation": "阿克苏",
+        "mapMergerName": "中国,新疆维吾尔自治区,阿克苏地区",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Aksu",
+        "mapZipCode": 843000
+    },
+    {
+        "id": 653000,
+        "mapName": "克孜勒苏柯尔克孜自治州",
+        "mapAbbreviation": "克孜勒苏",
+        "mapMergerName": "中国,新疆维吾尔自治区,克孜勒苏柯尔克孜自治州",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Kizilsu",
+        "mapZipCode": 845350
+    },
+    {
+        "id": 653100,
+        "mapName": "喀什地区",
+        "mapAbbreviation": "喀什",
+        "mapMergerName": "中国,新疆维吾尔自治区,喀什地区",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Kashgar",
+        "mapZipCode": 844000
+    },
+    {
+        "id": 653200,
+        "mapName": "和田地区",
+        "mapAbbreviation": "和田",
+        "mapMergerName": "中国,新疆维吾尔自治区,和田地区",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hotan",
+        "mapZipCode": 848000
+    },
+    {
+        "id": 654000,
+        "mapName": "伊犁哈萨克自治州",
+        "mapAbbreviation": "伊犁",
+        "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Ili",
+        "mapZipCode": 835100
+    },
+    {
+        "id": 654200,
+        "mapName": "塔城地区",
+        "mapAbbreviation": "塔城",
+        "mapMergerName": "中国,新疆维吾尔自治区,塔城地区",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Qoqek",
+        "mapZipCode": 834700
+    },
+    {
+        "id": 654300,
+        "mapName": "阿勒泰地区",
+        "mapAbbreviation": "阿勒泰",
+        "mapMergerName": "中国,新疆维吾尔自治区,阿勒泰地区",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Altay",
+        "mapZipCode": 836500
+    },
+    {
+        "id": 659000,
+        "mapName": "新疆直辖县",
+        "mapAbbreviation": " ",
+        "mapMergerName": "中国,河南省,新疆直辖县",
+        "mapParentId": 650000,
+        "mapLevelType": 2,
+        "mapPinYin": "Xinjiang",
+        "mapZipCode": null
+    },
+    {
+        "id": 710100,
+        "mapName": "台北市",
+        "mapAbbreviation": "台北",
+        "mapMergerName": "中国,台湾,台北市",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Taipei",
+        "mapZipCode": 1
+    },
+    {
+        "id": 710200,
+        "mapName": "高雄市",
+        "mapAbbreviation": "高雄",
+        "mapMergerName": "中国,台湾,高雄市",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Kaohsiung",
+        "mapZipCode": 8
+    },
+    {
+        "id": 710300,
+        "mapName": "基隆市",
+        "mapAbbreviation": "基隆",
+        "mapMergerName": "中国,台湾,基隆市",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Keelung",
+        "mapZipCode": 2
+    },
+    {
+        "id": 710400,
+        "mapName": "台中市",
+        "mapAbbreviation": "台中",
+        "mapMergerName": "中国,台湾,台中市",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Taichung",
+        "mapZipCode": 4
+    },
+    {
+        "id": 710500,
+        "mapName": "台南市",
+        "mapAbbreviation": "台南",
+        "mapMergerName": "中国,台湾,台南市",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Tainan",
+        "mapZipCode": 7
+    },
+    {
+        "id": 710600,
+        "mapName": "新竹市",
+        "mapAbbreviation": "新竹",
+        "mapMergerName": "中国,台湾,新竹市",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hsinchu",
+        "mapZipCode": 3
+    },
+    {
+        "id": 710700,
+        "mapName": "嘉义市",
+        "mapAbbreviation": "嘉义",
+        "mapMergerName": "中国,台湾,嘉义市",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chiayi",
+        "mapZipCode": 6
+    },
+    {
+        "id": 710800,
+        "mapName": "新北市",
+        "mapAbbreviation": "新北",
+        "mapMergerName": "中国,台湾,新北市",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "New Taipei",
+        "mapZipCode": 2
+    },
+    {
+        "id": 712200,
+        "mapName": "宜兰县",
+        "mapAbbreviation": "宜兰",
+        "mapMergerName": "中国,台湾,宜兰县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yilan",
+        "mapZipCode": 2
+    },
+    {
+        "id": 712300,
+        "mapName": "桃园县",
+        "mapAbbreviation": "桃园",
+        "mapMergerName": "中国,台湾,桃园县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Taoyuan",
+        "mapZipCode": 3
+    },
+    {
+        "id": 712400,
+        "mapName": "新竹县",
+        "mapAbbreviation": "新竹",
+        "mapMergerName": "中国,台湾,新竹县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hsinchu",
+        "mapZipCode": 3
+    },
+    {
+        "id": 712500,
+        "mapName": "苗栗县",
+        "mapAbbreviation": "苗栗",
+        "mapMergerName": "中国,台湾,苗栗县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Miaoli",
+        "mapZipCode": 3
+    },
+    {
+        "id": 712700,
+        "mapName": "彰化县",
+        "mapAbbreviation": "彰化",
+        "mapMergerName": "中国,台湾,彰化县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Changhua",
+        "mapZipCode": 5
+    },
+    {
+        "id": 712800,
+        "mapName": "南投县",
+        "mapAbbreviation": "南投",
+        "mapMergerName": "中国,台湾,南投县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Nantou",
+        "mapZipCode": 5
+    },
+    {
+        "id": 712900,
+        "mapName": "云林县",
+        "mapAbbreviation": "云林",
+        "mapMergerName": "中国,台湾,云林县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Yunlin",
+        "mapZipCode": 6
+    },
+    {
+        "id": 713000,
+        "mapName": "嘉义县",
+        "mapAbbreviation": "嘉义",
+        "mapMergerName": "中国,台湾,嘉义县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Chiayi",
+        "mapZipCode": 6
+    },
+    {
+        "id": 713300,
+        "mapName": "屏东县",
+        "mapAbbreviation": "屏东",
+        "mapMergerName": "中国,台湾,屏东县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Pingtung",
+        "mapZipCode": 9
+    },
+    {
+        "id": 713400,
+        "mapName": "台东县",
+        "mapAbbreviation": "台东",
+        "mapMergerName": "中国,台湾,台东县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Taitung",
+        "mapZipCode": 9
+    },
+    {
+        "id": 713500,
+        "mapName": "花莲县",
+        "mapAbbreviation": "花莲",
+        "mapMergerName": "中国,台湾,花莲县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hualien",
+        "mapZipCode": 9
+    },
+    {
+        "id": 713600,
+        "mapName": "澎湖县",
+        "mapAbbreviation": "澎湖",
+        "mapMergerName": "中国,台湾,澎湖县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Penghu",
+        "mapZipCode": 8
+    },
+    {
+        "id": 713700,
+        "mapName": "金门县",
+        "mapAbbreviation": "金门",
+        "mapMergerName": "中国,台湾,金门县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Jinmen",
+        "mapZipCode": 8
+    },
+    {
+        "id": 713800,
+        "mapName": "连江县",
+        "mapAbbreviation": "连江",
+        "mapMergerName": "中国,台湾,连江县",
+        "mapParentId": 710000,
+        "mapLevelType": 2,
+        "mapPinYin": "Lienchiang",
+        "mapZipCode": 2
+    },
+    {
+        "id": 810100,
+        "mapName": "香港岛",
+        "mapAbbreviation": "香港岛",
+        "mapMergerName": "中国,香港特别行政区,香港岛",
+        "mapParentId": 810000,
+        "mapLevelType": 2,
+        "mapPinYin": "Hong Kong Island",
+        "mapZipCode": 999077
+    },
+    {
+        "id": 810200,
+        "mapName": "九龙",
+        "mapAbbreviation": "九龙",
+        "mapMergerName": "中国,香港特别行政区,九龙",
+        "mapParentId": 810000,
+        "mapLevelType": 2,
+        "mapPinYin": "Kowloon",
+        "mapZipCode": 999077
+    },
+    {
+        "id": 810300,
+        "mapName": "新界",
+        "mapAbbreviation": "新界",
+        "mapMergerName": "中国,香港特别行政区,新界",
+        "mapParentId": 810000,
+        "mapLevelType": 2,
+        "mapPinYin": "New Territories",
+        "mapZipCode": 999077
+    },
+    {
+        "id": 820100,
+        "mapName": "澳门半岛",
+        "mapAbbreviation": "澳门半岛",
+        "mapMergerName": "中国,澳门特别行政区,澳门半岛",
+        "mapParentId": 820000,
+        "mapLevelType": 2,
+        "mapPinYin": "MacauPeninsula",
+        "mapZipCode": 999078
+    },
+    {
+        "id": 820200,
+        "mapName": "氹仔岛",
+        "mapAbbreviation": "氹仔岛",
+        "mapMergerName": "中国,澳门特别行政区,氹仔岛",
+        "mapParentId": 820000,
+        "mapLevelType": 2,
+        "mapPinYin": "Taipa",
+        "mapZipCode": 999078
+    },
+    {
+        "id": 820300,
+        "mapName": "路环岛",
+        "mapAbbreviation": "路环岛",
+        "mapMergerName": "中国,澳门特别行政区,路环岛",
+        "mapParentId": 820000,
+        "mapLevelType": 2,
+        "mapPinYin": "Coloane",
+        "mapZipCode": 999078
+    }
+]
+logistics.common.data.area = logistics.common.data.area = [
+
+    {
+    "id": 110101,
+    "mapName": "东城区",
+    "mapAbbreviation": "东城",
+    "mapMergerName": "中国,北京,北京市,东城区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongcheng",
+    "mapZipCode": 100010
+}, {
+    "id": 110102,
+    "mapName": "西城区",
+    "mapAbbreviation": "西城",
+    "mapMergerName": "中国,北京,北京市,西城区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xicheng",
+    "mapZipCode": 100032
+}, {
+    "id": 110105,
+    "mapName": "朝阳区",
+    "mapAbbreviation": "朝阳",
+    "mapMergerName": "中国,北京,北京市,朝阳区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chaoyang",
+    "mapZipCode": 100020
+}, {
+    "id": 110106,
+    "mapName": "丰台区",
+    "mapAbbreviation": "丰台",
+    "mapMergerName": "中国,北京,北京市,丰台区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengtai",
+    "mapZipCode": 100071
+}, {
+    "id": 110107,
+    "mapName": "石景山区",
+    "mapAbbreviation": "石景山",
+    "mapMergerName": "中国,北京,北京市,石景山区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shijingshan",
+    "mapZipCode": 100043
+}, {
+    "id": 110108,
+    "mapName": "海淀区",
+    "mapAbbreviation": "海淀",
+    "mapMergerName": "中国,北京,北京市,海淀区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Haidian",
+    "mapZipCode": 100089
+}, {
+    "id": 110109,
+    "mapName": "门头沟区",
+    "mapAbbreviation": "门头沟",
+    "mapMergerName": "中国,北京,北京市,门头沟区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Mentougou",
+    "mapZipCode": 102300
+}, {
+    "id": 110111,
+    "mapName": "房山区",
+    "mapAbbreviation": "房山",
+    "mapMergerName": "中国,北京,北京市,房山区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fangshan",
+    "mapZipCode": 102488
+}, {
+    "id": 110112,
+    "mapName": "通州区",
+    "mapAbbreviation": "通州",
+    "mapMergerName": "中国,北京,北京市,通州区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongzhou",
+    "mapZipCode": 101149
+}, {
+    "id": 110113,
+    "mapName": "顺义区",
+    "mapAbbreviation": "顺义",
+    "mapMergerName": "中国,北京,北京市,顺义区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shunyi",
+    "mapZipCode": 101300
+}, {
+    "id": 110114,
+    "mapName": "昌平区",
+    "mapAbbreviation": "昌平",
+    "mapMergerName": "中国,北京,北京市,昌平区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Changping",
+    "mapZipCode": 102200
+}, {
+    "id": 110115,
+    "mapName": "大兴区",
+    "mapAbbreviation": "大兴",
+    "mapMergerName": "中国,北京,北京市,大兴区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Daxing",
+    "mapZipCode": 102600
+}, {
+    "id": 110116,
+    "mapName": "怀柔区",
+    "mapAbbreviation": "怀柔",
+    "mapMergerName": "中国,北京,北京市,怀柔区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huairou",
+    "mapZipCode": 101400
+}, {
+    "id": 110117,
+    "mapName": "平谷区",
+    "mapAbbreviation": "平谷",
+    "mapMergerName": "中国,北京,北京市,平谷区",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pinggu",
+    "mapZipCode": 101200
+}, {
+    "id": 110228,
+    "mapName": "密云县",
+    "mapAbbreviation": "密云",
+    "mapMergerName": "中国,北京,北京市,密云县",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Miyun",
+    "mapZipCode": 101500
+}, {
+    "id": 110229,
+    "mapName": "延庆县",
+    "mapAbbreviation": "延庆",
+    "mapMergerName": "中国,北京,北京市,延庆县",
+    "mapParentId": 110100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanqing",
+    "mapZipCode": 102100
+}, {
+    "id": 120101,
+    "mapName": "和平区",
+    "mapAbbreviation": "和平",
+    "mapMergerName": "中国,天津,天津市,和平区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Heping",
+    "mapZipCode": 300041
+}, {
+    "id": 120102,
+    "mapName": "河东区",
+    "mapAbbreviation": "河东",
+    "mapMergerName": "中国,天津,天津市,河东区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hedong",
+    "mapZipCode": 300171
+}, {
+    "id": 120103,
+    "mapName": "河西区",
+    "mapAbbreviation": "河西",
+    "mapMergerName": "中国,天津,天津市,河西区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hexi",
+    "mapZipCode": 300202
+}, {
+    "id": 120104,
+    "mapName": "南开区",
+    "mapAbbreviation": "南开",
+    "mapMergerName": "中国,天津,天津市,南开区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nankai",
+    "mapZipCode": 300110
+}, {
+    "id": 120105,
+    "mapName": "河北区",
+    "mapAbbreviation": "河北",
+    "mapMergerName": "中国,天津,天津市,河北区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hebei",
+    "mapZipCode": 300143
+}, {
+    "id": 120106,
+    "mapName": "红桥区",
+    "mapAbbreviation": "红桥",
+    "mapMergerName": "中国,天津,天津市,红桥区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongqiao",
+    "mapZipCode": 300131
+}, {
+    "id": 120110,
+    "mapName": "东丽区",
+    "mapAbbreviation": "东丽",
+    "mapMergerName": "中国,天津,天津市,东丽区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongli",
+    "mapZipCode": 300300
+}, {
+    "id": 120111,
+    "mapName": "西青区",
+    "mapAbbreviation": "西青",
+    "mapMergerName": "中国,天津,天津市,西青区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiqing",
+    "mapZipCode": 300380
+}, {
+    "id": 120112,
+    "mapName": "津南区",
+    "mapAbbreviation": "津南",
+    "mapMergerName": "中国,天津,天津市,津南区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinnan",
+    "mapZipCode": 300350
+}, {
+    "id": 120113,
+    "mapName": "北辰区",
+    "mapAbbreviation": "北辰",
+    "mapMergerName": "中国,天津,天津市,北辰区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Beichen",
+    "mapZipCode": 300400
+}, {
+    "id": 120114,
+    "mapName": "武清区",
+    "mapAbbreviation": "武清",
+    "mapMergerName": "中国,天津,天津市,武清区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuqing",
+    "mapZipCode": 301700
+}, {
+    "id": 120115,
+    "mapName": "宝坻区",
+    "mapAbbreviation": "宝坻",
+    "mapMergerName": "中国,天津,天津市,宝坻区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Baodi",
+    "mapZipCode": 301800
+}, {
+    "id": 120116,
+    "mapName": "滨海新区",
+    "mapAbbreviation": "滨海新区",
+    "mapMergerName": "中国,天津,天津市,滨海新区",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Binhaixinqu",
+    "mapZipCode": 300451
+}, {
+    "id": 120221,
+    "mapName": "宁河县",
+    "mapAbbreviation": "宁河",
+    "mapMergerName": "中国,天津,天津市,宁河县",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Ninghe",
+    "mapZipCode": 301500
+}, {
+    "id": 120223,
+    "mapName": "静海县",
+    "mapAbbreviation": "静海",
+    "mapMergerName": "中国,天津,天津市,静海县",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinghai",
+    "mapZipCode": 301600
+}, {
+    "id": 120225,
+    "mapName": "蓟县",
+    "mapAbbreviation": "蓟县",
+    "mapMergerName": "中国,天津,天津市,蓟县",
+    "mapParentId": 120100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jixian",
+    "mapZipCode": 301900
+}, {
+    "id": 130102,
+    "mapName": "长安区",
+    "mapAbbreviation": "长安",
+    "mapMergerName": "中国,河北省,石家庄市,长安区",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chang'an",
+    "mapZipCode": 50011
+}, {
+    "id": 130104,
+    "mapName": "桥西区",
+    "mapAbbreviation": "桥西",
+    "mapMergerName": "中国,河北省,石家庄市,桥西区",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiaoxi",
+    "mapZipCode": 50091
+}, {
+    "id": 130105,
+    "mapName": "新华区",
+    "mapAbbreviation": "新华",
+    "mapMergerName": "中国,河北省,石家庄市,新华区",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinhua",
+    "mapZipCode": 50051
+}, {
+    "id": 130107,
+    "mapName": "井陉矿区",
+    "mapAbbreviation": "井陉矿区",
+    "mapMergerName": "中国,河北省,石家庄市,井陉矿区",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingxingkuangqu",
+    "mapZipCode": 50100
+}, {
+    "id": 130108,
+    "mapName": "裕华区",
+    "mapAbbreviation": "裕华",
+    "mapMergerName": "中国,河北省,石家庄市,裕华区",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuhua",
+    "mapZipCode": 50031
+}, {
+    "id": 130109,
+    "mapName": "藁城区",
+    "mapAbbreviation": "藁城",
+    "mapMergerName": "中国,河北省,石家庄市,藁城区",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaocheng",
+    "mapZipCode": 52160
+}, {
+    "id": 130110,
+    "mapName": "鹿泉区",
+    "mapAbbreviation": "鹿泉",
+    "mapMergerName": "中国,河北省,石家庄市,鹿泉区",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Luquan",
+    "mapZipCode": 50200
+}, {
+    "id": 130111,
+    "mapName": "栾城区",
+    "mapAbbreviation": "栾城",
+    "mapMergerName": "中国,河北省,石家庄市,栾城区",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Luancheng",
+    "mapZipCode": 51430
+}, {
+    "id": 130121,
+    "mapName": "井陉县",
+    "mapAbbreviation": "井陉",
+    "mapMergerName": "中国,河北省,石家庄市,井陉县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingxing",
+    "mapZipCode": 50300
+}, {
+    "id": 130123,
+    "mapName": "正定县",
+    "mapAbbreviation": "正定",
+    "mapMergerName": "中国,河北省,石家庄市,正定县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhengding",
+    "mapZipCode": 50800
+}, {
+    "id": 130125,
+    "mapName": "行唐县",
+    "mapAbbreviation": "行唐",
+    "mapMergerName": "中国,河北省,石家庄市,行唐县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingtang",
+    "mapZipCode": 50600
+}, {
+    "id": 130126,
+    "mapName": "灵寿县",
+    "mapAbbreviation": "灵寿",
+    "mapMergerName": "中国,河北省,石家庄市,灵寿县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingshou",
+    "mapZipCode": 50500
+}, {
+    "id": 130127,
+    "mapName": "高邑县",
+    "mapAbbreviation": "高邑",
+    "mapMergerName": "中国,河北省,石家庄市,高邑县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoyi",
+    "mapZipCode": 51330
+}, {
+    "id": 130128,
+    "mapName": "深泽县",
+    "mapAbbreviation": "深泽",
+    "mapMergerName": "中国,河北省,石家庄市,深泽县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenze",
+    "mapZipCode": 52560
+}, {
+    "id": 130129,
+    "mapName": "赞皇县",
+    "mapAbbreviation": "赞皇",
+    "mapMergerName": "中国,河北省,石家庄市,赞皇县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zanhuang",
+    "mapZipCode": 51230
+}, {
+    "id": 130130,
+    "mapName": "无极县",
+    "mapAbbreviation": "无极",
+    "mapMergerName": "中国,河北省,石家庄市,无极县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuji",
+    "mapZipCode": 52460
+}, {
+    "id": 130131,
+    "mapName": "平山县",
+    "mapAbbreviation": "平山",
+    "mapMergerName": "中国,河北省,石家庄市,平山县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingshan",
+    "mapZipCode": 50400
+}, {
+    "id": 130132,
+    "mapName": "元氏县",
+    "mapAbbreviation": "元氏",
+    "mapMergerName": "中国,河北省,石家庄市,元氏县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanshi",
+    "mapZipCode": 51130
+}, {
+    "id": 130133,
+    "mapName": "赵县",
+    "mapAbbreviation": "赵县",
+    "mapMergerName": "中国,河北省,石家庄市,赵县",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaoxian",
+    "mapZipCode": 51530
+}, {
+    "id": 130181,
+    "mapName": "辛集市",
+    "mapAbbreviation": "辛集",
+    "mapMergerName": "中国,河北省,石家庄市,辛集市",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinji",
+    "mapZipCode": 52360
+}, {
+    "id": 130183,
+    "mapName": "晋州市",
+    "mapAbbreviation": "晋州",
+    "mapMergerName": "中国,河北省,石家庄市,晋州市",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinzhou",
+    "mapZipCode": 52260
+}, {
+    "id": 130184,
+    "mapName": "新乐市",
+    "mapAbbreviation": "新乐",
+    "mapMergerName": "中国,河北省,石家庄市,新乐市",
+    "mapParentId": 130100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinle",
+    "mapZipCode": 50700
+}, {
+    "id": 130202,
+    "mapName": "路南区",
+    "mapAbbreviation": "路南",
+    "mapMergerName": "中国,河北省,唐山市,路南区",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lunan",
+    "mapZipCode": 63000
+}, {
+    "id": 130203,
+    "mapName": "路北区",
+    "mapAbbreviation": "路北",
+    "mapMergerName": "中国,河北省,唐山市,路北区",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lubei",
+    "mapZipCode": 63000
+}, {
+    "id": 130204,
+    "mapName": "古冶区",
+    "mapAbbreviation": "古冶",
+    "mapMergerName": "中国,河北省,唐山市,古冶区",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Guye",
+    "mapZipCode": 63100
+}, {
+    "id": 130205,
+    "mapName": "开平区",
+    "mapAbbreviation": "开平",
+    "mapMergerName": "中国,河北省,唐山市,开平区",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Kaiping",
+    "mapZipCode": 63021
+}, {
+    "id": 130207,
+    "mapName": "丰南区",
+    "mapAbbreviation": "丰南",
+    "mapMergerName": "中国,河北省,唐山市,丰南区",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengnan",
+    "mapZipCode": 63300
+}, {
+    "id": 130208,
+    "mapName": "丰润区",
+    "mapAbbreviation": "丰润",
+    "mapMergerName": "中国,河北省,唐山市,丰润区",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengrun",
+    "mapZipCode": 64000
+}, {
+    "id": 130209,
+    "mapName": "曹妃甸区",
+    "mapAbbreviation": "曹妃甸",
+    "mapMergerName": "中国,河北省,唐山市,曹妃甸区",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Caofeidian",
+    "mapZipCode": 63200
+}, {
+    "id": 130223,
+    "mapName": "滦县",
+    "mapAbbreviation": "滦县",
+    "mapMergerName": "中国,河北省,唐山市,滦县",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Luanxian",
+    "mapZipCode": 63700
+}, {
+    "id": 130224,
+    "mapName": "滦南县",
+    "mapAbbreviation": "滦南",
+    "mapMergerName": "中国,河北省,唐山市,滦南县",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Luannan",
+    "mapZipCode": 63500
+}, {
+    "id": 130225,
+    "mapName": "乐亭县",
+    "mapAbbreviation": "乐亭",
+    "mapMergerName": "中国,河北省,唐山市,乐亭县",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Laoting",
+    "mapZipCode": 63600
+}, {
+    "id": 130227,
+    "mapName": "迁西县",
+    "mapAbbreviation": "迁西",
+    "mapMergerName": "中国,河北省,唐山市,迁西县",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianxi",
+    "mapZipCode": 64300
+}, {
+    "id": 130229,
+    "mapName": "玉田县",
+    "mapAbbreviation": "玉田",
+    "mapMergerName": "中国,河北省,唐山市,玉田县",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yutian",
+    "mapZipCode": 64100
+}, {
+    "id": 130281,
+    "mapName": "遵化市",
+    "mapAbbreviation": "遵化",
+    "mapMergerName": "中国,河北省,唐山市,遵化市",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zunhua",
+    "mapZipCode": 64200
+}, {
+    "id": 130283,
+    "mapName": "迁安市",
+    "mapAbbreviation": "迁安",
+    "mapMergerName": "中国,河北省,唐山市,迁安市",
+    "mapParentId": 130200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qian'an",
+    "mapZipCode": 64400
+}, {
+    "id": 130302,
+    "mapName": "海港区",
+    "mapAbbreviation": "海港",
+    "mapMergerName": "中国,河北省,秦皇岛市,海港区",
+    "mapParentId": 130300,
+    "mapLevelType": 3,
+    "mapPinYin": "Haigang",
+    "mapZipCode": 66000
+}, {
+    "id": 130303,
+    "mapName": "山海关区",
+    "mapAbbreviation": "山海关",
+    "mapMergerName": "中国,河北省,秦皇岛市,山海关区",
+    "mapParentId": 130300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanhaiguan",
+    "mapZipCode": 66200
+}, {
+    "id": 130304,
+    "mapName": "北戴河区",
+    "mapAbbreviation": "北戴河",
+    "mapMergerName": "中国,河北省,秦皇岛市,北戴河区",
+    "mapParentId": 130300,
+    "mapLevelType": 3,
+    "mapPinYin": "Beidaihe",
+    "mapZipCode": 66100
+}, {
+    "id": 130321,
+    "mapName": "青龙满族自治县",
+    "mapAbbreviation": "青龙",
+    "mapMergerName": "中国,河北省,秦皇岛市,青龙满族自治县",
+    "mapParentId": 130300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinglong",
+    "mapZipCode": 66500
+}, {
+    "id": 130322,
+    "mapName": "昌黎县",
+    "mapAbbreviation": "昌黎",
+    "mapMergerName": "中国,河北省,秦皇岛市,昌黎县",
+    "mapParentId": 130300,
+    "mapLevelType": 3,
+    "mapPinYin": "Changli",
+    "mapZipCode": 66600
+}, {
+    "id": 130323,
+    "mapName": "抚宁县",
+    "mapAbbreviation": "抚宁",
+    "mapMergerName": "中国,河北省,秦皇岛市,抚宁县",
+    "mapParentId": 130300,
+    "mapLevelType": 3,
+    "mapPinYin": "Funing",
+    "mapZipCode": 66300
+}, {
+    "id": 130324,
+    "mapName": "卢龙县",
+    "mapAbbreviation": "卢龙",
+    "mapMergerName": "中国,河北省,秦皇岛市,卢龙县",
+    "mapParentId": 130300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lulong",
+    "mapZipCode": 66400
+}, {
+    "id": 130402,
+    "mapName": "邯山区",
+    "mapAbbreviation": "邯山",
+    "mapMergerName": "中国,河北省,邯郸市,邯山区",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanshan",
+    "mapZipCode": 56001
+}, {
+    "id": 130403,
+    "mapName": "丛台区",
+    "mapAbbreviation": "丛台",
+    "mapMergerName": "中国,河北省,邯郸市,丛台区",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Congtai",
+    "mapZipCode": 56002
+}, {
+    "id": 130404,
+    "mapName": "复兴区",
+    "mapAbbreviation": "复兴",
+    "mapMergerName": "中国,河北省,邯郸市,复兴区",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuxing",
+    "mapZipCode": 56003
+}, {
+    "id": 130406,
+    "mapName": "峰峰矿区",
+    "mapAbbreviation": "峰峰矿区",
+    "mapMergerName": "中国,河北省,邯郸市,峰峰矿区",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengfengkuangqu",
+    "mapZipCode": 56200
+}, {
+    "id": 130421,
+    "mapName": "邯郸县",
+    "mapAbbreviation": "邯郸",
+    "mapMergerName": "中国,河北省,邯郸市,邯郸县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Handan",
+    "mapZipCode": 56101
+}, {
+    "id": 130423,
+    "mapName": "临漳县",
+    "mapAbbreviation": "临漳",
+    "mapMergerName": "中国,河北省,邯郸市,临漳县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Linzhang",
+    "mapZipCode": 56600
+}, {
+    "id": 130424,
+    "mapName": "成安县",
+    "mapAbbreviation": "成安",
+    "mapMergerName": "中国,河北省,邯郸市,成安县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Cheng'an",
+    "mapZipCode": 56700
+}, {
+    "id": 130425,
+    "mapName": "大名县",
+    "mapAbbreviation": "大名",
+    "mapMergerName": "中国,河北省,邯郸市,大名县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Daming",
+    "mapZipCode": 56900
+}, {
+    "id": 130426,
+    "mapName": "涉县",
+    "mapAbbreviation": "涉县",
+    "mapMergerName": "中国,河北省,邯郸市,涉县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shexian",
+    "mapZipCode": 56400
+}, {
+    "id": 130427,
+    "mapName": "磁县",
+    "mapAbbreviation": "磁县",
+    "mapMergerName": "中国,河北省,邯郸市,磁县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Cixian",
+    "mapZipCode": 56500
+}, {
+    "id": 130428,
+    "mapName": "肥乡县",
+    "mapAbbreviation": "肥乡",
+    "mapMergerName": "中国,河北省,邯郸市,肥乡县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Feixiang",
+    "mapZipCode": 57550
+}, {
+    "id": 130429,
+    "mapName": "永年县",
+    "mapAbbreviation": "永年",
+    "mapMergerName": "中国,河北省,邯郸市,永年县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongnian",
+    "mapZipCode": 57150
+}, {
+    "id": 130430,
+    "mapName": "邱县",
+    "mapAbbreviation": "邱县",
+    "mapMergerName": "中国,河北省,邯郸市,邱县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiuxian",
+    "mapZipCode": 57450
+}, {
+    "id": 130431,
+    "mapName": "鸡泽县",
+    "mapAbbreviation": "鸡泽",
+    "mapMergerName": "中国,河北省,邯郸市,鸡泽县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jize",
+    "mapZipCode": 57350
+}, {
+    "id": 130432,
+    "mapName": "广平县",
+    "mapAbbreviation": "广平",
+    "mapMergerName": "中国,河北省,邯郸市,广平县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangping",
+    "mapZipCode": 57650
+}, {
+    "id": 130433,
+    "mapName": "馆陶县",
+    "mapAbbreviation": "馆陶",
+    "mapMergerName": "中国,河北省,邯郸市,馆陶县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Guantao",
+    "mapZipCode": 57750
+}, {
+    "id": 130434,
+    "mapName": "魏县",
+    "mapAbbreviation": "魏县",
+    "mapMergerName": "中国,河北省,邯郸市,魏县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Weixian",
+    "mapZipCode": 56800
+}, {
+    "id": 130435,
+    "mapName": "曲周县",
+    "mapAbbreviation": "曲周",
+    "mapMergerName": "中国,河北省,邯郸市,曲周县",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Quzhou",
+    "mapZipCode": 57250
+}, {
+    "id": 130481,
+    "mapName": "武安市",
+    "mapAbbreviation": "武安",
+    "mapMergerName": "中国,河北省,邯郸市,武安市",
+    "mapParentId": 130400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wu'an",
+    "mapZipCode": 56300
+}, {
+    "id": 130502,
+    "mapName": "桥东区",
+    "mapAbbreviation": "桥东",
+    "mapMergerName": "中国,河北省,邢台市,桥东区",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiaodong",
+    "mapZipCode": 54001
+}, {
+    "id": 130503,
+    "mapName": "桥西区",
+    "mapAbbreviation": "桥西",
+    "mapMergerName": "中国,河北省,邢台市,桥西区",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiaoxi",
+    "mapZipCode": 54000
+}, {
+    "id": 130521,
+    "mapName": "邢台县",
+    "mapAbbreviation": "邢台",
+    "mapMergerName": "中国,河北省,邢台市,邢台县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingtai",
+    "mapZipCode": 54001
+}, {
+    "id": 130522,
+    "mapName": "临城县",
+    "mapAbbreviation": "临城",
+    "mapMergerName": "中国,河北省,邢台市,临城县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Lincheng",
+    "mapZipCode": 54300
+}, {
+    "id": 130523,
+    "mapName": "内丘县",
+    "mapAbbreviation": "内丘",
+    "mapMergerName": "中国,河北省,邢台市,内丘县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Neiqiu",
+    "mapZipCode": 54200
+}, {
+    "id": 130524,
+    "mapName": "柏乡县",
+    "mapAbbreviation": "柏乡",
+    "mapMergerName": "中国,河北省,邢台市,柏乡县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Baixiang",
+    "mapZipCode": 55450
+}, {
+    "id": 130525,
+    "mapName": "隆尧县",
+    "mapAbbreviation": "隆尧",
+    "mapMergerName": "中国,河北省,邢台市,隆尧县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Longyao",
+    "mapZipCode": 55350
+}, {
+    "id": 130526,
+    "mapName": "任县",
+    "mapAbbreviation": "任县",
+    "mapMergerName": "中国,河北省,邢台市,任县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Renxian",
+    "mapZipCode": 55150
+}, {
+    "id": 130527,
+    "mapName": "南和县",
+    "mapAbbreviation": "南和",
+    "mapMergerName": "中国,河北省,邢台市,南和县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanhe",
+    "mapZipCode": 54400
+}, {
+    "id": 130528,
+    "mapName": "宁晋县",
+    "mapAbbreviation": "宁晋",
+    "mapMergerName": "中国,河北省,邢台市,宁晋县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningjin",
+    "mapZipCode": 55550
+}, {
+    "id": 130529,
+    "mapName": "巨鹿县",
+    "mapAbbreviation": "巨鹿",
+    "mapMergerName": "中国,河北省,邢台市,巨鹿县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Julu",
+    "mapZipCode": 55250
+}, {
+    "id": 130530,
+    "mapName": "新河县",
+    "mapAbbreviation": "新河",
+    "mapMergerName": "中国,河北省,邢台市,新河县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinhe",
+    "mapZipCode": 55650
+}, {
+    "id": 130531,
+    "mapName": "广宗县",
+    "mapAbbreviation": "广宗",
+    "mapMergerName": "中国,河北省,邢台市,广宗县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangzong",
+    "mapZipCode": 54600
+}, {
+    "id": 130532,
+    "mapName": "平乡县",
+    "mapAbbreviation": "平乡",
+    "mapMergerName": "中国,河北省,邢台市,平乡县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingxiang",
+    "mapZipCode": 54500
+}, {
+    "id": 130533,
+    "mapName": "威县",
+    "mapAbbreviation": "威县",
+    "mapMergerName": "中国,河北省,邢台市,威县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Weixian",
+    "mapZipCode": 54700
+}, {
+    "id": 130534,
+    "mapName": "清河县",
+    "mapAbbreviation": "清河",
+    "mapMergerName": "中国,河北省,邢台市,清河县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinghe",
+    "mapZipCode": 54800
+}, {
+    "id": 130535,
+    "mapName": "临西县",
+    "mapAbbreviation": "临西",
+    "mapMergerName": "中国,河北省,邢台市,临西县",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Linxi",
+    "mapZipCode": 54900
+}, {
+    "id": 130581,
+    "mapName": "南宫市",
+    "mapAbbreviation": "南宫",
+    "mapMergerName": "中国,河北省,邢台市,南宫市",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nangong",
+    "mapZipCode": 55750
+}, {
+    "id": 130582,
+    "mapName": "沙河市",
+    "mapAbbreviation": "沙河",
+    "mapMergerName": "中国,河北省,邢台市,沙河市",
+    "mapParentId": 130500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shahe",
+    "mapZipCode": 54100
+}, {
+    "id": 130602,
+    "mapName": "新市区",
+    "mapAbbreviation": "新市",
+    "mapMergerName": "中国,河北省,保定市,新市区",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinshi",
+    "mapZipCode": 71051
+}, {
+    "id": 130603,
+    "mapName": "北市区",
+    "mapAbbreviation": "北市",
+    "mapMergerName": "中国,河北省,保定市,北市区",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Beishi",
+    "mapZipCode": 71000
+}, {
+    "id": 130604,
+    "mapName": "南市区",
+    "mapAbbreviation": "南市",
+    "mapMergerName": "中国,河北省,保定市,南市区",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanshi",
+    "mapZipCode": 71001
+}, {
+    "id": 130621,
+    "mapName": "满城县",
+    "mapAbbreviation": "满城",
+    "mapMergerName": "中国,河北省,保定市,满城县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Mancheng",
+    "mapZipCode": 72150
+}, {
+    "id": 130622,
+    "mapName": "清苑县",
+    "mapAbbreviation": "清苑",
+    "mapMergerName": "中国,河北省,保定市,清苑县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingyuan",
+    "mapZipCode": 71100
+}, {
+    "id": 130623,
+    "mapName": "涞水县",
+    "mapAbbreviation": "涞水",
+    "mapMergerName": "中国,河北省,保定市,涞水县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Laishui",
+    "mapZipCode": 74100
+}, {
+    "id": 130624,
+    "mapName": "阜平县",
+    "mapAbbreviation": "阜平",
+    "mapMergerName": "中国,河北省,保定市,阜平县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuping",
+    "mapZipCode": 73200
+}, {
+    "id": 130625,
+    "mapName": "徐水县",
+    "mapAbbreviation": "徐水",
+    "mapMergerName": "中国,河北省,保定市,徐水县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xushui",
+    "mapZipCode": 72550
+}, {
+    "id": 130626,
+    "mapName": "定兴县",
+    "mapAbbreviation": "定兴",
+    "mapMergerName": "中国,河北省,保定市,定兴县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingxing",
+    "mapZipCode": 72650
+}, {
+    "id": 130627,
+    "mapName": "唐县",
+    "mapAbbreviation": "唐县",
+    "mapMergerName": "中国,河北省,保定市,唐县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Tangxian",
+    "mapZipCode": 72350
+}, {
+    "id": 130628,
+    "mapName": "高阳县",
+    "mapAbbreviation": "高阳",
+    "mapMergerName": "中国,河北省,保定市,高阳县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoyang",
+    "mapZipCode": 71500
+}, {
+    "id": 130629,
+    "mapName": "容城县",
+    "mapAbbreviation": "容城",
+    "mapMergerName": "中国,河北省,保定市,容城县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Rongcheng",
+    "mapZipCode": 71700
+}, {
+    "id": 130630,
+    "mapName": "涞源县",
+    "mapAbbreviation": "涞源",
+    "mapMergerName": "中国,河北省,保定市,涞源县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Laiyuan",
+    "mapZipCode": 74300
+}, {
+    "id": 130631,
+    "mapName": "望都县",
+    "mapAbbreviation": "望都",
+    "mapMergerName": "中国,河北省,保定市,望都县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Wangdu",
+    "mapZipCode": 72450
+}, {
+    "id": 130632,
+    "mapName": "安新县",
+    "mapAbbreviation": "安新",
+    "mapMergerName": "中国,河北省,保定市,安新县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Anxin",
+    "mapZipCode": 71600
+}, {
+    "id": 130633,
+    "mapName": "易县",
+    "mapAbbreviation": "易县",
+    "mapMergerName": "中国,河北省,保定市,易县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yixian",
+    "mapZipCode": 74200
+}, {
+    "id": 130634,
+    "mapName": "曲阳县",
+    "mapAbbreviation": "曲阳",
+    "mapMergerName": "中国,河北省,保定市,曲阳县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Quyang",
+    "mapZipCode": 73100
+}, {
+    "id": 130635,
+    "mapName": "蠡县",
+    "mapAbbreviation": "蠡县",
+    "mapMergerName": "中国,河北省,保定市,蠡县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Lixian",
+    "mapZipCode": 71400
+}, {
+    "id": 130636,
+    "mapName": "顺平县",
+    "mapAbbreviation": "顺平",
+    "mapMergerName": "中国,河北省,保定市,顺平县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shunping",
+    "mapZipCode": 72250
+}, {
+    "id": 130637,
+    "mapName": "博野县",
+    "mapAbbreviation": "博野",
+    "mapMergerName": "中国,河北省,保定市,博野县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Boye",
+    "mapZipCode": 71300
+}, {
+    "id": 130638,
+    "mapName": "雄县",
+    "mapAbbreviation": "雄县",
+    "mapMergerName": "中国,河北省,保定市,雄县",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiongxian",
+    "mapZipCode": 71800
+}, {
+    "id": 130681,
+    "mapName": "涿州市",
+    "mapAbbreviation": "涿州",
+    "mapMergerName": "中国,河北省,保定市,涿州市",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuozhou",
+    "mapZipCode": 72750
+}, {
+    "id": 130682,
+    "mapName": "定州市",
+    "mapAbbreviation": "定州",
+    "mapMergerName": "中国,河北省,保定市,定州市",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingzhou",
+    "mapZipCode": 73000
+}, {
+    "id": 130683,
+    "mapName": "安国市",
+    "mapAbbreviation": "安国",
+    "mapMergerName": "中国,河北省,保定市,安国市",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Anguo",
+    "mapZipCode": 71200
+}, {
+    "id": 130684,
+    "mapName": "高碑店市",
+    "mapAbbreviation": "高碑店",
+    "mapMergerName": "中国,河北省,保定市,高碑店市",
+    "mapParentId": 130600,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaobeidian",
+    "mapZipCode": 74000
+}, {
+    "id": 130702,
+    "mapName": "桥东区",
+    "mapAbbreviation": "桥东",
+    "mapMergerName": "中国,河北省,张家口市,桥东区",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiaodong",
+    "mapZipCode": 75000
+}, {
+    "id": 130703,
+    "mapName": "桥西区",
+    "mapAbbreviation": "桥西",
+    "mapMergerName": "中国,河北省,张家口市,桥西区",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiaoxi",
+    "mapZipCode": 75061
+}, {
+    "id": 130705,
+    "mapName": "宣化区",
+    "mapAbbreviation": "宣化",
+    "mapMergerName": "中国,河北省,张家口市,宣化区",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuanhua",
+    "mapZipCode": 75100
+}, {
+    "id": 130706,
+    "mapName": "下花园区",
+    "mapAbbreviation": "下花园",
+    "mapMergerName": "中国,河北省,张家口市,下花园区",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiahuayuan",
+    "mapZipCode": 75300
+}, {
+    "id": 130721,
+    "mapName": "宣化县",
+    "mapAbbreviation": "宣化",
+    "mapMergerName": "中国,河北省,张家口市,宣化县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuanhua",
+    "mapZipCode": 75100
+}, {
+    "id": 130722,
+    "mapName": "张北县",
+    "mapAbbreviation": "张北",
+    "mapMergerName": "中国,河北省,张家口市,张北县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangbei",
+    "mapZipCode": 76450
+}, {
+    "id": 130723,
+    "mapName": "康保县",
+    "mapAbbreviation": "康保",
+    "mapMergerName": "中国,河北省,张家口市,康保县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Kangbao",
+    "mapZipCode": 76650
+}, {
+    "id": 130724,
+    "mapName": "沽源县",
+    "mapAbbreviation": "沽源",
+    "mapMergerName": "中国,河北省,张家口市,沽源县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Guyuan",
+    "mapZipCode": 76550
+}, {
+    "id": 130725,
+    "mapName": "尚义县",
+    "mapAbbreviation": "尚义",
+    "mapMergerName": "中国,河北省,张家口市,尚义县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangyi",
+    "mapZipCode": 76750
+}, {
+    "id": 130726,
+    "mapName": "蔚县",
+    "mapAbbreviation": "蔚县",
+    "mapMergerName": "中国,河北省,张家口市,蔚县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuxian",
+    "mapZipCode": 75700
+}, {
+    "id": 130727,
+    "mapName": "阳原县",
+    "mapAbbreviation": "阳原",
+    "mapMergerName": "中国,河北省,张家口市,阳原县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangyuan",
+    "mapZipCode": 75800
+}, {
+    "id": 130728,
+    "mapName": "怀安县",
+    "mapAbbreviation": "怀安",
+    "mapMergerName": "中国,河北省,张家口市,怀安县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huai'an",
+    "mapZipCode": 76150
+}, {
+    "id": 130729,
+    "mapName": "万全县",
+    "mapAbbreviation": "万全",
+    "mapMergerName": "中国,河北省,张家口市,万全县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanquan",
+    "mapZipCode": 76250
+}, {
+    "id": 130730,
+    "mapName": "怀来县",
+    "mapAbbreviation": "怀来",
+    "mapMergerName": "中国,河北省,张家口市,怀来县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huailai",
+    "mapZipCode": 75400
+}, {
+    "id": 130731,
+    "mapName": "涿鹿县",
+    "mapAbbreviation": "涿鹿",
+    "mapMergerName": "中国,河北省,张家口市,涿鹿县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuolu",
+    "mapZipCode": 75600
+}, {
+    "id": 130732,
+    "mapName": "赤城县",
+    "mapAbbreviation": "赤城",
+    "mapMergerName": "中国,河北省,张家口市,赤城县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Chicheng",
+    "mapZipCode": 75500
+}, {
+    "id": 130733,
+    "mapName": "崇礼县",
+    "mapAbbreviation": "崇礼",
+    "mapMergerName": "中国,河北省,张家口市,崇礼县",
+    "mapParentId": 130700,
+    "mapLevelType": 3,
+    "mapPinYin": "Chongli",
+    "mapZipCode": 76350
+}, {
+    "id": 130802,
+    "mapName": "双桥区",
+    "mapAbbreviation": "双桥",
+    "mapMergerName": "中国,河北省,承德市,双桥区",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangqiao",
+    "mapZipCode": 67000
+}, {
+    "id": 130803,
+    "mapName": "双滦区",
+    "mapAbbreviation": "双滦",
+    "mapMergerName": "中国,河北省,承德市,双滦区",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangluan",
+    "mapZipCode": 67001
+}, {
+    "id": 130804,
+    "mapName": "鹰手营子矿区",
+    "mapAbbreviation": "鹰手营子矿区",
+    "mapMergerName": "中国,河北省,承德市,鹰手营子矿区",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingshouyingzikuangqu",
+    "mapZipCode": 67200
+}, {
+    "id": 130821,
+    "mapName": "承德县",
+    "mapAbbreviation": "承德",
+    "mapMergerName": "中国,河北省,承德市,承德县",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengde",
+    "mapZipCode": 67400
+}, {
+    "id": 130822,
+    "mapName": "兴隆县",
+    "mapAbbreviation": "兴隆",
+    "mapMergerName": "中国,河北省,承德市,兴隆县",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinglong",
+    "mapZipCode": 67300
+}, {
+    "id": 130823,
+    "mapName": "平泉县",
+    "mapAbbreviation": "平泉",
+    "mapMergerName": "中国,河北省,承德市,平泉县",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingquan",
+    "mapZipCode": 67500
+}, {
+    "id": 130824,
+    "mapName": "滦平县",
+    "mapAbbreviation": "滦平",
+    "mapMergerName": "中国,河北省,承德市,滦平县",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Luanping",
+    "mapZipCode": 68250
+}, {
+    "id": 130825,
+    "mapName": "隆化县",
+    "mapAbbreviation": "隆化",
+    "mapMergerName": "中国,河北省,承德市,隆化县",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Longhua",
+    "mapZipCode": 68150
+}, {
+    "id": 130826,
+    "mapName": "丰宁满族自治县",
+    "mapAbbreviation": "丰宁",
+    "mapMergerName": "中国,河北省,承德市,丰宁满族自治县",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengning",
+    "mapZipCode": 68350
+}, {
+    "id": 130827,
+    "mapName": "宽城满族自治县",
+    "mapAbbreviation": "宽城",
+    "mapMergerName": "中国,河北省,承德市,宽城满族自治县",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Kuancheng",
+    "mapZipCode": 67600
+}, {
+    "id": 130828,
+    "mapName": "围场满族蒙古族自治县",
+    "mapAbbreviation": "围场",
+    "mapMergerName": "中国,河北省,承德市,围场满族蒙古族自治县",
+    "mapParentId": 130800,
+    "mapLevelType": 3,
+    "mapPinYin": "Weichang",
+    "mapZipCode": 68450
+}, {
+    "id": 130902,
+    "mapName": "新华区",
+    "mapAbbreviation": "新华",
+    "mapMergerName": "中国,河北省,沧州市,新华区",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinhua",
+    "mapZipCode": 61000
+}, {
+    "id": 130903,
+    "mapName": "运河区",
+    "mapAbbreviation": "运河",
+    "mapMergerName": "中国,河北省,沧州市,运河区",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunhe",
+    "mapZipCode": 61001
+}, {
+    "id": 130921,
+    "mapName": "沧县",
+    "mapAbbreviation": "沧县",
+    "mapMergerName": "中国,河北省,沧州市,沧县",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Cangxian",
+    "mapZipCode": 61000
+}, {
+    "id": 130922,
+    "mapName": "青县",
+    "mapAbbreviation": "青县",
+    "mapMergerName": "中国,河北省,沧州市,青县",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingxian",
+    "mapZipCode": 62650
+}, {
+    "id": 130923,
+    "mapName": "东光县",
+    "mapAbbreviation": "东光",
+    "mapMergerName": "中国,河北省,沧州市,东光县",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongguang",
+    "mapZipCode": 61600
+}, {
+    "id": 130924,
+    "mapName": "海兴县",
+    "mapAbbreviation": "海兴",
+    "mapMergerName": "中国,河北省,沧州市,海兴县",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Haixing",
+    "mapZipCode": 61200
+}, {
+    "id": 130925,
+    "mapName": "盐山县",
+    "mapAbbreviation": "盐山",
+    "mapMergerName": "中国,河北省,沧州市,盐山县",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanshan",
+    "mapZipCode": 61300
+}, {
+    "id": 130926,
+    "mapName": "肃宁县",
+    "mapAbbreviation": "肃宁",
+    "mapMergerName": "中国,河北省,沧州市,肃宁县",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Suning",
+    "mapZipCode": 62350
+}, {
+    "id": 130927,
+    "mapName": "南皮县",
+    "mapAbbreviation": "南皮",
+    "mapMergerName": "中国,河北省,沧州市,南皮县",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanpi",
+    "mapZipCode": 61500
+}, {
+    "id": 130928,
+    "mapName": "吴桥县",
+    "mapAbbreviation": "吴桥",
+    "mapMergerName": "中国,河北省,沧州市,吴桥县",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuqiao",
+    "mapZipCode": 61800
+}, {
+    "id": 130929,
+    "mapName": "献县",
+    "mapAbbreviation": "献县",
+    "mapMergerName": "中国,河北省,沧州市,献县",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xianxian",
+    "mapZipCode": 62250
+}, {
+    "id": 130930,
+    "mapName": "孟村回族自治县",
+    "mapAbbreviation": "孟村",
+    "mapMergerName": "中国,河北省,沧州市,孟村回族自治县",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Mengcun",
+    "mapZipCode": 61400
+}, {
+    "id": 130981,
+    "mapName": "泊头市",
+    "mapAbbreviation": "泊头",
+    "mapMergerName": "中国,河北省,沧州市,泊头市",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Botou",
+    "mapZipCode": 62150
+}, {
+    "id": 130982,
+    "mapName": "任丘市",
+    "mapAbbreviation": "任丘",
+    "mapMergerName": "中国,河北省,沧州市,任丘市",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Renqiu",
+    "mapZipCode": 62550
+}, {
+    "id": 130983,
+    "mapName": "黄骅市",
+    "mapAbbreviation": "黄骅",
+    "mapMergerName": "中国,河北省,沧州市,黄骅市",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Huanghua",
+    "mapZipCode": 61100
+}, {
+    "id": 130984,
+    "mapName": "河间市",
+    "mapAbbreviation": "河间",
+    "mapMergerName": "中国,河北省,沧州市,河间市",
+    "mapParentId": 130900,
+    "mapLevelType": 3,
+    "mapPinYin": "Hejian",
+    "mapZipCode": 62450
+}, {
+    "id": 131002,
+    "mapName": "安次区",
+    "mapAbbreviation": "安次",
+    "mapMergerName": "中国,河北省,廊坊市,安次区",
+    "mapParentId": 131000,
+    "mapLevelType": 3,
+    "mapPinYin": "Anci",
+    "mapZipCode": 65000
+}, {
+    "id": 131003,
+    "mapName": "广阳区",
+    "mapAbbreviation": "广阳",
+    "mapMergerName": "中国,河北省,廊坊市,广阳区",
+    "mapParentId": 131000,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangyang",
+    "mapZipCode": 65000
+}, {
+    "id": 131022,
+    "mapName": "固安县",
+    "mapAbbreviation": "固安",
+    "mapMergerName": "中国,河北省,廊坊市,固安县",
+    "mapParentId": 131000,
+    "mapLevelType": 3,
+    "mapPinYin": "Gu'an",
+    "mapZipCode": 65500
+}, {
+    "id": 131023,
+    "mapName": "永清县",
+    "mapAbbreviation": "永清",
+    "mapMergerName": "中国,河北省,廊坊市,永清县",
+    "mapParentId": 131000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongqing",
+    "mapZipCode": 65600
+}, {
+    "id": 131024,
+    "mapName": "香河县",
+    "mapAbbreviation": "香河",
+    "mapMergerName": "中国,河北省,廊坊市,香河县",
+    "mapParentId": 131000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xianghe",
+    "mapZipCode": 65400
+}, {
+    "id": 131025,
+    "mapName": "大城县",
+    "mapAbbreviation": "大城",
+    "mapMergerName": "中国,河北省,廊坊市,大城县",
+    "mapParentId": 131000,
+    "mapLevelType": 3,
+    "mapPinYin": "Daicheng",
+    "mapZipCode": 65900
+}, {
+    "id": 131026,
+    "mapName": "文安县",
+    "mapAbbreviation": "文安",
+    "mapMergerName": "中国,河北省,廊坊市,文安县",
+    "mapParentId": 131000,
+    "mapLevelType": 3,
+    "mapPinYin": "Wen'an",
+    "mapZipCode": 65800
+}, {
+    "id": 131028,
+    "mapName": "大厂回族自治县",
+    "mapAbbreviation": "大厂",
+    "mapMergerName": "中国,河北省,廊坊市,大厂回族自治县",
+    "mapParentId": 131000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dachang",
+    "mapZipCode": 65300
+}, {
+    "id": 131081,
+    "mapName": "霸州市",
+    "mapAbbreviation": "霸州",
+    "mapMergerName": "中国,河北省,廊坊市,霸州市",
+    "mapParentId": 131000,
+    "mapLevelType": 3,
+    "mapPinYin": "Bazhou",
+    "mapZipCode": 65700
+}, {
+    "id": 131082,
+    "mapName": "三河市",
+    "mapAbbreviation": "三河",
+    "mapMergerName": "中国,河北省,廊坊市,三河市",
+    "mapParentId": 131000,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanhe",
+    "mapZipCode": 65200
+}, {
+    "id": 131102,
+    "mapName": "桃城区",
+    "mapAbbreviation": "桃城",
+    "mapMergerName": "中国,河北省,衡水市,桃城区",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Taocheng",
+    "mapZipCode": 53000
+}, {
+    "id": 131121,
+    "mapName": "枣强县",
+    "mapAbbreviation": "枣强",
+    "mapMergerName": "中国,河北省,衡水市,枣强县",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zaoqiang",
+    "mapZipCode": 53100
+}, {
+    "id": 131122,
+    "mapName": "武邑县",
+    "mapAbbreviation": "武邑",
+    "mapMergerName": "中国,河北省,衡水市,武邑县",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuyi",
+    "mapZipCode": 53400
+}, {
+    "id": 131123,
+    "mapName": "武强县",
+    "mapAbbreviation": "武强",
+    "mapMergerName": "中国,河北省,衡水市,武强县",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuqiang",
+    "mapZipCode": 53300
+}, {
+    "id": 131124,
+    "mapName": "饶阳县",
+    "mapAbbreviation": "饶阳",
+    "mapMergerName": "中国,河北省,衡水市,饶阳县",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Raoyang",
+    "mapZipCode": 53900
+}, {
+    "id": 131125,
+    "mapName": "安平县",
+    "mapAbbreviation": "安平",
+    "mapMergerName": "中国,河北省,衡水市,安平县",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Anping",
+    "mapZipCode": 53600
+}, {
+    "id": 131126,
+    "mapName": "故城县",
+    "mapAbbreviation": "故城",
+    "mapMergerName": "中国,河北省,衡水市,故城县",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gucheng",
+    "mapZipCode": 53800
+}, {
+    "id": 131127,
+    "mapName": "景县",
+    "mapAbbreviation": "景县",
+    "mapMergerName": "中国,河北省,衡水市,景县",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingxian",
+    "mapZipCode": 53500
+}, {
+    "id": 131128,
+    "mapName": "阜城县",
+    "mapAbbreviation": "阜城",
+    "mapMergerName": "中国,河北省,衡水市,阜城县",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fucheng",
+    "mapZipCode": 53700
+}, {
+    "id": 131181,
+    "mapName": "冀州市",
+    "mapAbbreviation": "冀州",
+    "mapMergerName": "中国,河北省,衡水市,冀州市",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jizhou",
+    "mapZipCode": 53200
+}, {
+    "id": 131182,
+    "mapName": "深州市",
+    "mapAbbreviation": "深州",
+    "mapMergerName": "中国,河北省,衡水市,深州市",
+    "mapParentId": 131100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenzhou",
+    "mapZipCode": 53800
+}, {
+    "id": 140105,
+    "mapName": "小店区",
+    "mapAbbreviation": "小店",
+    "mapMergerName": "中国,山西省,太原市,小店区",
+    "mapParentId": 140100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaodian",
+    "mapZipCode": 30032
+}, {
+    "id": 140106,
+    "mapName": "迎泽区",
+    "mapAbbreviation": "迎泽",
+    "mapMergerName": "中国,山西省,太原市,迎泽区",
+    "mapParentId": 140100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingze",
+    "mapZipCode": 30002
+}, {
+    "id": 140107,
+    "mapName": "杏花岭区",
+    "mapAbbreviation": "杏花岭",
+    "mapMergerName": "中国,山西省,太原市,杏花岭区",
+    "mapParentId": 140100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinghualing",
+    "mapZipCode": 30009
+}, {
+    "id": 140108,
+    "mapName": "尖草坪区",
+    "mapAbbreviation": "尖草坪",
+    "mapMergerName": "中国,山西省,太原市,尖草坪区",
+    "mapParentId": 140100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiancaoping",
+    "mapZipCode": 30023
+}, {
+    "id": 140109,
+    "mapName": "万柏林区",
+    "mapAbbreviation": "万柏林",
+    "mapMergerName": "中国,山西省,太原市,万柏林区",
+    "mapParentId": 140100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanbailin",
+    "mapZipCode": 30024
+}, {
+    "id": 140110,
+    "mapName": "晋源区",
+    "mapAbbreviation": "晋源",
+    "mapMergerName": "中国,山西省,太原市,晋源区",
+    "mapParentId": 140100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinyuan",
+    "mapZipCode": 30025
+}, {
+    "id": 140121,
+    "mapName": "清徐县",
+    "mapAbbreviation": "清徐",
+    "mapMergerName": "中国,山西省,太原市,清徐县",
+    "mapParentId": 140100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingxu",
+    "mapZipCode": 30400
+}, {
+    "id": 140122,
+    "mapName": "阳曲县",
+    "mapAbbreviation": "阳曲",
+    "mapMergerName": "中国,山西省,太原市,阳曲县",
+    "mapParentId": 140100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangqu",
+    "mapZipCode": 30100
+}, {
+    "id": 140123,
+    "mapName": "娄烦县",
+    "mapAbbreviation": "娄烦",
+    "mapMergerName": "中国,山西省,太原市,娄烦县",
+    "mapParentId": 140100,
+    "mapLevelType": 3,
+    "mapPinYin": "Loufan",
+    "mapZipCode": 30300
+}, {
+    "id": 140181,
+    "mapName": "古交市",
+    "mapAbbreviation": "古交",
+    "mapMergerName": "中国,山西省,太原市,古交市",
+    "mapParentId": 140100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gujiao",
+    "mapZipCode": 30200
+}, {
+    "id": 140202,
+    "mapName": "城区",
+    "mapAbbreviation": "城区",
+    "mapMergerName": "中国,山西省,大同市,城区",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengqu",
+    "mapZipCode": 37008
+}, {
+    "id": 140203,
+    "mapName": "矿区",
+    "mapAbbreviation": "矿区",
+    "mapMergerName": "中国,山西省,大同市,矿区",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Kuangqu",
+    "mapZipCode": 37003
+}, {
+    "id": 140211,
+    "mapName": "南郊区",
+    "mapAbbreviation": "南郊",
+    "mapMergerName": "中国,山西省,大同市,南郊区",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanjiao",
+    "mapZipCode": 37001
+}, {
+    "id": 140212,
+    "mapName": "新荣区",
+    "mapAbbreviation": "新荣",
+    "mapMergerName": "中国,山西省,大同市,新荣区",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinrong",
+    "mapZipCode": 37002
+}, {
+    "id": 140221,
+    "mapName": "阳高县",
+    "mapAbbreviation": "阳高",
+    "mapMergerName": "中国,山西省,大同市,阳高县",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanggao",
+    "mapZipCode": 38100
+}, {
+    "id": 140222,
+    "mapName": "天镇县",
+    "mapAbbreviation": "天镇",
+    "mapMergerName": "中国,山西省,大同市,天镇县",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianzhen",
+    "mapZipCode": 38200
+}, {
+    "id": 140223,
+    "mapName": "广灵县",
+    "mapAbbreviation": "广灵",
+    "mapMergerName": "中国,山西省,大同市,广灵县",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangling",
+    "mapZipCode": 37500
+}, {
+    "id": 140224,
+    "mapName": "灵丘县",
+    "mapAbbreviation": "灵丘",
+    "mapMergerName": "中国,山西省,大同市,灵丘县",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingqiu",
+    "mapZipCode": 34400
+}, {
+    "id": 140225,
+    "mapName": "浑源县",
+    "mapAbbreviation": "浑源",
+    "mapMergerName": "中国,山西省,大同市,浑源县",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hunyuan",
+    "mapZipCode": 37400
+}, {
+    "id": 140226,
+    "mapName": "左云县",
+    "mapAbbreviation": "左云",
+    "mapMergerName": "中国,山西省,大同市,左云县",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zuoyun",
+    "mapZipCode": 37100
+}, {
+    "id": 140227,
+    "mapName": "大同县",
+    "mapAbbreviation": "大同",
+    "mapMergerName": "中国,山西省,大同市,大同县",
+    "mapParentId": 140200,
+    "mapLevelType": 3,
+    "mapPinYin": "Datong",
+    "mapZipCode": 37300
+}, {
+    "id": 140302,
+    "mapName": "城区",
+    "mapAbbreviation": "城区",
+    "mapMergerName": "中国,山西省,阳泉市,城区",
+    "mapParentId": 140300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengqu",
+    "mapZipCode": 45000
+}, {
+    "id": 140303,
+    "mapName": "矿区",
+    "mapAbbreviation": "矿区",
+    "mapMergerName": "中国,山西省,阳泉市,矿区",
+    "mapParentId": 140300,
+    "mapLevelType": 3,
+    "mapPinYin": "Kuangqu",
+    "mapZipCode": 45000
+}, {
+    "id": 140311,
+    "mapName": "郊区",
+    "mapAbbreviation": "郊区",
+    "mapMergerName": "中国,山西省,阳泉市,郊区",
+    "mapParentId": 140300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaoqu",
+    "mapZipCode": 45011
+}, {
+    "id": 140321,
+    "mapName": "平定县",
+    "mapAbbreviation": "平定",
+    "mapMergerName": "中国,山西省,阳泉市,平定县",
+    "mapParentId": 140300,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingding",
+    "mapZipCode": 45200
+}, {
+    "id": 140322,
+    "mapName": "盂县",
+    "mapAbbreviation": "盂县",
+    "mapMergerName": "中国,山西省,阳泉市,盂县",
+    "mapParentId": 140300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuxian",
+    "mapZipCode": 45100
+}, {
+    "id": 140402,
+    "mapName": "城区",
+    "mapAbbreviation": "城区",
+    "mapMergerName": "中国,山西省,长治市,城区",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengqu",
+    "mapZipCode": 46011
+}, {
+    "id": 140411,
+    "mapName": "郊区",
+    "mapAbbreviation": "郊区",
+    "mapMergerName": "中国,山西省,长治市,郊区",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaoqu",
+    "mapZipCode": 46011
+}, {
+    "id": 140421,
+    "mapName": "长治县",
+    "mapAbbreviation": "长治",
+    "mapMergerName": "中国,山西省,长治市,长治县",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Changzhi",
+    "mapZipCode": 47100
+}, {
+    "id": 140423,
+    "mapName": "襄垣县",
+    "mapAbbreviation": "襄垣",
+    "mapMergerName": "中国,山西省,长治市,襄垣县",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangyuan",
+    "mapZipCode": 46200
+}, {
+    "id": 140424,
+    "mapName": "屯留县",
+    "mapAbbreviation": "屯留",
+    "mapMergerName": "中国,山西省,长治市,屯留县",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Tunliu",
+    "mapZipCode": 46100
+}, {
+    "id": 140425,
+    "mapName": "平顺县",
+    "mapAbbreviation": "平顺",
+    "mapMergerName": "中国,山西省,长治市,平顺县",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingshun",
+    "mapZipCode": 47400
+}, {
+    "id": 140426,
+    "mapName": "黎城县",
+    "mapAbbreviation": "黎城",
+    "mapMergerName": "中国,山西省,长治市,黎城县",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Licheng",
+    "mapZipCode": 47600
+}, {
+    "id": 140427,
+    "mapName": "壶关县",
+    "mapAbbreviation": "壶关",
+    "mapMergerName": "中国,山西省,长治市,壶关县",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Huguan",
+    "mapZipCode": 47300
+}, {
+    "id": 140428,
+    "mapName": "长子县",
+    "mapAbbreviation": "长子",
+    "mapMergerName": "中国,山西省,长治市,长子县",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangzi",
+    "mapZipCode": 46600
+}, {
+    "id": 140429,
+    "mapName": "武乡县",
+    "mapAbbreviation": "武乡",
+    "mapMergerName": "中国,山西省,长治市,武乡县",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuxiang",
+    "mapZipCode": 46300
+}, {
+    "id": 140430,
+    "mapName": "沁县",
+    "mapAbbreviation": "沁县",
+    "mapMergerName": "中国,山西省,长治市,沁县",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinxian",
+    "mapZipCode": 46400
+}, {
+    "id": 140431,
+    "mapName": "沁源县",
+    "mapAbbreviation": "沁源",
+    "mapMergerName": "中国,山西省,长治市,沁源县",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinyuan",
+    "mapZipCode": 46500
+}, {
+    "id": 140481,
+    "mapName": "潞城市",
+    "mapAbbreviation": "潞城",
+    "mapMergerName": "中国,山西省,长治市,潞城市",
+    "mapParentId": 140400,
+    "mapLevelType": 3,
+    "mapPinYin": "Lucheng",
+    "mapZipCode": 47500
+}, {
+    "id": 140502,
+    "mapName": "城区",
+    "mapAbbreviation": "城区",
+    "mapMergerName": "中国,山西省,晋城市,城区",
+    "mapParentId": 140500,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengqu",
+    "mapZipCode": 48000
+}, {
+    "id": 140521,
+    "mapName": "沁水县",
+    "mapAbbreviation": "沁水",
+    "mapMergerName": "中国,山西省,晋城市,沁水县",
+    "mapParentId": 140500,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinshui",
+    "mapZipCode": 48200
+}, {
+    "id": 140522,
+    "mapName": "阳城县",
+    "mapAbbreviation": "阳城",
+    "mapMergerName": "中国,山西省,晋城市,阳城县",
+    "mapParentId": 140500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangcheng",
+    "mapZipCode": 48100
+}, {
+    "id": 140524,
+    "mapName": "陵川县",
+    "mapAbbreviation": "陵川",
+    "mapMergerName": "中国,山西省,晋城市,陵川县",
+    "mapParentId": 140500,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingchuan",
+    "mapZipCode": 48300
+}, {
+    "id": 140525,
+    "mapName": "泽州县",
+    "mapAbbreviation": "泽州",
+    "mapMergerName": "中国,山西省,晋城市,泽州县",
+    "mapParentId": 140500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zezhou",
+    "mapZipCode": 48012
+}, {
+    "id": 140581,
+    "mapName": "高平市",
+    "mapAbbreviation": "高平",
+    "mapMergerName": "中国,山西省,晋城市,高平市",
+    "mapParentId": 140500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoping",
+    "mapZipCode": 48400
+}, {
+    "id": 140602,
+    "mapName": "朔城区",
+    "mapAbbreviation": "朔城",
+    "mapMergerName": "中国,山西省,朔州市,朔城区",
+    "mapParentId": 140600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuocheng",
+    "mapZipCode": 36000
+}, {
+    "id": 140603,
+    "mapName": "平鲁区",
+    "mapAbbreviation": "平鲁",
+    "mapMergerName": "中国,山西省,朔州市,平鲁区",
+    "mapParentId": 140600,
+    "mapLevelType": 3,
+    "mapPinYin": "Pinglu",
+    "mapZipCode": 38600
+}, {
+    "id": 140621,
+    "mapName": "山阴县",
+    "mapAbbreviation": "山阴",
+    "mapMergerName": "中国,山西省,朔州市,山阴县",
+    "mapParentId": 140600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanyin",
+    "mapZipCode": 36900
+}, {
+    "id": 140622,
+    "mapName": "应县",
+    "mapAbbreviation": "应县",
+    "mapMergerName": "中国,山西省,朔州市,应县",
+    "mapParentId": 140600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingxian",
+    "mapZipCode": 37600
+}, {
+    "id": 140623,
+    "mapName": "右玉县",
+    "mapAbbreviation": "右玉",
+    "mapMergerName": "中国,山西省,朔州市,右玉县",
+    "mapParentId": 140600,
+    "mapLevelType": 3,
+    "mapPinYin": "Youyu",
+    "mapZipCode": 37200
+}, {
+    "id": 140624,
+    "mapName": "怀仁县",
+    "mapAbbreviation": "怀仁",
+    "mapMergerName": "中国,山西省,朔州市,怀仁县",
+    "mapParentId": 140600,
+    "mapLevelType": 3,
+    "mapPinYin": "Huairen",
+    "mapZipCode": 38300
+}, {
+    "id": 140702,
+    "mapName": "榆次区",
+    "mapAbbreviation": "榆次",
+    "mapMergerName": "中国,山西省,晋中市,榆次区",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuci",
+    "mapZipCode": 30600
+}, {
+    "id": 140721,
+    "mapName": "榆社县",
+    "mapAbbreviation": "榆社",
+    "mapMergerName": "中国,山西省,晋中市,榆社县",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yushe",
+    "mapZipCode": 31800
+}, {
+    "id": 140722,
+    "mapName": "左权县",
+    "mapAbbreviation": "左权",
+    "mapMergerName": "中国,山西省,晋中市,左权县",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zuoquan",
+    "mapZipCode": 32600
+}, {
+    "id": 140723,
+    "mapName": "和顺县",
+    "mapAbbreviation": "和顺",
+    "mapMergerName": "中国,山西省,晋中市,和顺县",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Heshun",
+    "mapZipCode": 32700
+}, {
+    "id": 140724,
+    "mapName": "昔阳县",
+    "mapAbbreviation": "昔阳",
+    "mapMergerName": "中国,山西省,晋中市,昔阳县",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiyang",
+    "mapZipCode": 45300
+}, {
+    "id": 140725,
+    "mapName": "寿阳县",
+    "mapAbbreviation": "寿阳",
+    "mapMergerName": "中国,山西省,晋中市,寿阳县",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shouyang",
+    "mapZipCode": 45400
+}, {
+    "id": 140726,
+    "mapName": "太谷县",
+    "mapAbbreviation": "太谷",
+    "mapMergerName": "中国,山西省,晋中市,太谷县",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Taigu",
+    "mapZipCode": 30800
+}, {
+    "id": 140727,
+    "mapName": "祁县",
+    "mapAbbreviation": "祁县",
+    "mapMergerName": "中国,山西省,晋中市,祁县",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Qixian",
+    "mapZipCode": 30900
+}, {
+    "id": 140728,
+    "mapName": "平遥县",
+    "mapAbbreviation": "平遥",
+    "mapMergerName": "中国,山西省,晋中市,平遥县",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingyao",
+    "mapZipCode": 31100
+}, {
+    "id": 140729,
+    "mapName": "灵石县",
+    "mapAbbreviation": "灵石",
+    "mapMergerName": "中国,山西省,晋中市,灵石县",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingshi",
+    "mapZipCode": 31300
+}, {
+    "id": 140781,
+    "mapName": "介休市",
+    "mapAbbreviation": "介休",
+    "mapMergerName": "中国,山西省,晋中市,介休市",
+    "mapParentId": 140700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiexiu",
+    "mapZipCode": 32000
+}, {
+    "id": 140802,
+    "mapName": "盐湖区",
+    "mapAbbreviation": "盐湖",
+    "mapMergerName": "中国,山西省,运城市,盐湖区",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanhu",
+    "mapZipCode": 44000
+}, {
+    "id": 140821,
+    "mapName": "临猗县",
+    "mapAbbreviation": "临猗",
+    "mapMergerName": "中国,山西省,运城市,临猗县",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Linyi",
+    "mapZipCode": 44100
+}, {
+    "id": 140822,
+    "mapName": "万荣县",
+    "mapAbbreviation": "万荣",
+    "mapMergerName": "中国,山西省,运城市,万荣县",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanrong",
+    "mapZipCode": 44200
+}, {
+    "id": 140823,
+    "mapName": "闻喜县",
+    "mapAbbreviation": "闻喜",
+    "mapMergerName": "中国,山西省,运城市,闻喜县",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenxi",
+    "mapZipCode": 43800
+}, {
+    "id": 140824,
+    "mapName": "稷山县",
+    "mapAbbreviation": "稷山",
+    "mapMergerName": "中国,山西省,运城市,稷山县",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jishan",
+    "mapZipCode": 43200
+}, {
+    "id": 140825,
+    "mapName": "新绛县",
+    "mapAbbreviation": "新绛",
+    "mapMergerName": "中国,山西省,运城市,新绛县",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinjiang",
+    "mapZipCode": 43100
+}, {
+    "id": 140826,
+    "mapName": "绛县",
+    "mapAbbreviation": "绛县",
+    "mapMergerName": "中国,山西省,运城市,绛县",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangxian",
+    "mapZipCode": 43600
+}, {
+    "id": 140827,
+    "mapName": "垣曲县",
+    "mapAbbreviation": "垣曲",
+    "mapMergerName": "中国,山西省,运城市,垣曲县",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanqu",
+    "mapZipCode": 43700
+}, {
+    "id": 140828,
+    "mapName": "夏县",
+    "mapAbbreviation": "夏县",
+    "mapMergerName": "中国,山西省,运城市,夏县",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaxian",
+    "mapZipCode": 44400
+}, {
+    "id": 140829,
+    "mapName": "平陆县",
+    "mapAbbreviation": "平陆",
+    "mapMergerName": "中国,山西省,运城市,平陆县",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Pinglu",
+    "mapZipCode": 44300
+}, {
+    "id": 140830,
+    "mapName": "芮城县",
+    "mapAbbreviation": "芮城",
+    "mapMergerName": "中国,山西省,运城市,芮城县",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruicheng",
+    "mapZipCode": 44600
+}, {
+    "id": 140881,
+    "mapName": "永济市",
+    "mapAbbreviation": "永济",
+    "mapMergerName": "中国,山西省,运城市,永济市",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongji",
+    "mapZipCode": 44500
+}, {
+    "id": 140882,
+    "mapName": "河津市",
+    "mapAbbreviation": "河津",
+    "mapMergerName": "中国,山西省,运城市,河津市",
+    "mapParentId": 140800,
+    "mapLevelType": 3,
+    "mapPinYin": "Hejin",
+    "mapZipCode": 43300
+}, {
+    "id": 140902,
+    "mapName": "忻府区",
+    "mapAbbreviation": "忻府",
+    "mapMergerName": "中国,山西省,忻州市,忻府区",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinfu",
+    "mapZipCode": 34000
+}, {
+    "id": 140921,
+    "mapName": "定襄县",
+    "mapAbbreviation": "定襄",
+    "mapMergerName": "中国,山西省,忻州市,定襄县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingxiang",
+    "mapZipCode": 35400
+}, {
+    "id": 140922,
+    "mapName": "五台县",
+    "mapAbbreviation": "五台",
+    "mapMergerName": "中国,山西省,忻州市,五台县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Wutai",
+    "mapZipCode": 35500
+}, {
+    "id": 140923,
+    "mapName": "代县",
+    "mapAbbreviation": "代县",
+    "mapMergerName": "中国,山西省,忻州市,代县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Daixian",
+    "mapZipCode": 34200
+}, {
+    "id": 140924,
+    "mapName": "繁峙县",
+    "mapAbbreviation": "繁峙",
+    "mapMergerName": "中国,山西省,忻州市,繁峙县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fanshi",
+    "mapZipCode": 34300
+}, {
+    "id": 140925,
+    "mapName": "宁武县",
+    "mapAbbreviation": "宁武",
+    "mapMergerName": "中国,山西省,忻州市,宁武县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningwu",
+    "mapZipCode": 36700
+}, {
+    "id": 140926,
+    "mapName": "静乐县",
+    "mapAbbreviation": "静乐",
+    "mapMergerName": "中国,山西省,忻州市,静乐县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingle",
+    "mapZipCode": 35100
+}, {
+    "id": 140927,
+    "mapName": "神池县",
+    "mapAbbreviation": "神池",
+    "mapMergerName": "中国,山西省,忻州市,神池县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenchi",
+    "mapZipCode": 36100
+}, {
+    "id": 140928,
+    "mapName": "五寨县",
+    "mapAbbreviation": "五寨",
+    "mapMergerName": "中国,山西省,忻州市,五寨县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuzhai",
+    "mapZipCode": 36200
+}, {
+    "id": 140929,
+    "mapName": "岢岚县",
+    "mapAbbreviation": "岢岚",
+    "mapMergerName": "中国,山西省,忻州市,岢岚县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Kelan",
+    "mapZipCode": 36300
+}, {
+    "id": 140930,
+    "mapName": "河曲县",
+    "mapAbbreviation": "河曲",
+    "mapMergerName": "中国,山西省,忻州市,河曲县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Hequ",
+    "mapZipCode": 36500
+}, {
+    "id": 140931,
+    "mapName": "保德县",
+    "mapAbbreviation": "保德",
+    "mapMergerName": "中国,山西省,忻州市,保德县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Baode",
+    "mapZipCode": 36600
+}, {
+    "id": 140932,
+    "mapName": "偏关县",
+    "mapAbbreviation": "偏关",
+    "mapMergerName": "中国,山西省,忻州市,偏关县",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Pianguan",
+    "mapZipCode": 36400
+}, {
+    "id": 140981,
+    "mapName": "原平市",
+    "mapAbbreviation": "原平",
+    "mapMergerName": "中国,山西省,忻州市,原平市",
+    "mapParentId": 140900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanping",
+    "mapZipCode": 34100
+}, {
+    "id": 141002,
+    "mapName": "尧都区",
+    "mapAbbreviation": "尧都",
+    "mapMergerName": "中国,山西省,临汾市,尧都区",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yaodu",
+    "mapZipCode": 41000
+}, {
+    "id": 141021,
+    "mapName": "曲沃县",
+    "mapAbbreviation": "曲沃",
+    "mapMergerName": "中国,山西省,临汾市,曲沃县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Quwo",
+    "mapZipCode": 43400
+}, {
+    "id": 141022,
+    "mapName": "翼城县",
+    "mapAbbreviation": "翼城",
+    "mapMergerName": "中国,山西省,临汾市,翼城县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yicheng",
+    "mapZipCode": 43500
+}, {
+    "id": 141023,
+    "mapName": "襄汾县",
+    "mapAbbreviation": "襄汾",
+    "mapMergerName": "中国,山西省,临汾市,襄汾县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangfen",
+    "mapZipCode": 41500
+}, {
+    "id": 141024,
+    "mapName": "洪洞县",
+    "mapAbbreviation": "洪洞",
+    "mapMergerName": "中国,山西省,临汾市,洪洞县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongtong",
+    "mapZipCode": 41600
+}, {
+    "id": 141025,
+    "mapName": "古县",
+    "mapAbbreviation": "古县",
+    "mapMergerName": "中国,山西省,临汾市,古县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Guxian",
+    "mapZipCode": 42400
+}, {
+    "id": 141026,
+    "mapName": "安泽县",
+    "mapAbbreviation": "安泽",
+    "mapMergerName": "中国,山西省,临汾市,安泽县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Anze",
+    "mapZipCode": 42500
+}, {
+    "id": 141027,
+    "mapName": "浮山县",
+    "mapAbbreviation": "浮山",
+    "mapMergerName": "中国,山西省,临汾市,浮山县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Fushan",
+    "mapZipCode": 42600
+}, {
+    "id": 141028,
+    "mapName": "吉县",
+    "mapAbbreviation": "吉县",
+    "mapMergerName": "中国,山西省,临汾市,吉县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jixian",
+    "mapZipCode": 42200
+}, {
+    "id": 141029,
+    "mapName": "乡宁县",
+    "mapAbbreviation": "乡宁",
+    "mapMergerName": "中国,山西省,临汾市,乡宁县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangning",
+    "mapZipCode": 42100
+}, {
+    "id": 141030,
+    "mapName": "大宁县",
+    "mapAbbreviation": "大宁",
+    "mapMergerName": "中国,山西省,临汾市,大宁县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Daning",
+    "mapZipCode": 42300
+}, {
+    "id": 141031,
+    "mapName": "隰县",
+    "mapAbbreviation": "隰县",
+    "mapMergerName": "中国,山西省,临汾市,隰县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xixian",
+    "mapZipCode": 41300
+}, {
+    "id": 141032,
+    "mapName": "永和县",
+    "mapAbbreviation": "永和",
+    "mapMergerName": "中国,山西省,临汾市,永和县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yonghe",
+    "mapZipCode": 41400
+}, {
+    "id": 141033,
+    "mapName": "蒲县",
+    "mapAbbreviation": "蒲县",
+    "mapMergerName": "中国,山西省,临汾市,蒲县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Puxian",
+    "mapZipCode": 41200
+}, {
+    "id": 141034,
+    "mapName": "汾西县",
+    "mapAbbreviation": "汾西",
+    "mapMergerName": "中国,山西省,临汾市,汾西县",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Fenxi",
+    "mapZipCode": 31500
+}, {
+    "id": 141081,
+    "mapName": "侯马市",
+    "mapAbbreviation": "侯马",
+    "mapMergerName": "中国,山西省,临汾市,侯马市",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Houma",
+    "mapZipCode": 43000
+}, {
+    "id": 141082,
+    "mapName": "霍州市",
+    "mapAbbreviation": "霍州",
+    "mapMergerName": "中国,山西省,临汾市,霍州市",
+    "mapParentId": 141000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huozhou",
+    "mapZipCode": 31400
+}, {
+    "id": 141102,
+    "mapName": "离石区",
+    "mapAbbreviation": "离石",
+    "mapMergerName": "中国,山西省,吕梁市,离石区",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lishi",
+    "mapZipCode": 33000
+}, {
+    "id": 141121,
+    "mapName": "文水县",
+    "mapAbbreviation": "文水",
+    "mapMergerName": "中国,山西省,吕梁市,文水县",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenshui",
+    "mapZipCode": 32100
+}, {
+    "id": 141122,
+    "mapName": "交城县",
+    "mapAbbreviation": "交城",
+    "mapMergerName": "中国,山西省,吕梁市,交城县",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaocheng",
+    "mapZipCode": 30500
+}, {
+    "id": 141123,
+    "mapName": "兴县",
+    "mapAbbreviation": "兴县",
+    "mapMergerName": "中国,山西省,吕梁市,兴县",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingxian",
+    "mapZipCode": 33600
+}, {
+    "id": 141124,
+    "mapName": "临县",
+    "mapAbbreviation": "临县",
+    "mapMergerName": "中国,山西省,吕梁市,临县",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Linxian",
+    "mapZipCode": 33200
+}, {
+    "id": 141125,
+    "mapName": "柳林县",
+    "mapAbbreviation": "柳林",
+    "mapMergerName": "中国,山西省,吕梁市,柳林县",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Liulin",
+    "mapZipCode": 33300
+}, {
+    "id": 141126,
+    "mapName": "石楼县",
+    "mapAbbreviation": "石楼",
+    "mapMergerName": "中国,山西省,吕梁市,石楼县",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shilou",
+    "mapZipCode": 32500
+}, {
+    "id": 141127,
+    "mapName": "岚县",
+    "mapAbbreviation": "岚县",
+    "mapMergerName": "中国,山西省,吕梁市,岚县",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lanxian",
+    "mapZipCode": 33500
+}, {
+    "id": 141128,
+    "mapName": "方山县",
+    "mapAbbreviation": "方山",
+    "mapMergerName": "中国,山西省,吕梁市,方山县",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fangshan",
+    "mapZipCode": 33100
+}, {
+    "id": 141129,
+    "mapName": "中阳县",
+    "mapAbbreviation": "中阳",
+    "mapMergerName": "中国,山西省,吕梁市,中阳县",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongyang",
+    "mapZipCode": 33400
+}, {
+    "id": 141130,
+    "mapName": "交口县",
+    "mapAbbreviation": "交口",
+    "mapMergerName": "中国,山西省,吕梁市,交口县",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaokou",
+    "mapZipCode": 32400
+}, {
+    "id": 141181,
+    "mapName": "孝义市",
+    "mapAbbreviation": "孝义",
+    "mapMergerName": "中国,山西省,吕梁市,孝义市",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaoyi",
+    "mapZipCode": 32300
+}, {
+    "id": 141182,
+    "mapName": "汾阳市",
+    "mapAbbreviation": "汾阳",
+    "mapMergerName": "中国,山西省,吕梁市,汾阳市",
+    "mapParentId": 141100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fenyang",
+    "mapZipCode": 32200
+}, {
+    "id": 150102,
+    "mapName": "新城区",
+    "mapAbbreviation": "新城",
+    "mapMergerName": "中国,内蒙古自治区,呼和浩特市,新城区",
+    "mapParentId": 150100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xincheng",
+    "mapZipCode": 10050
+}, {
+    "id": 150103,
+    "mapName": "回民区",
+    "mapAbbreviation": "回民",
+    "mapMergerName": "中国,内蒙古自治区,呼和浩特市,回民区",
+    "mapParentId": 150100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huimin",
+    "mapZipCode": 10030
+}, {
+    "id": 150104,
+    "mapName": "玉泉区",
+    "mapAbbreviation": "玉泉",
+    "mapMergerName": "中国,内蒙古自治区,呼和浩特市,玉泉区",
+    "mapParentId": 150100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuquan",
+    "mapZipCode": 10020
+}, {
+    "id": 150105,
+    "mapName": "赛罕区",
+    "mapAbbreviation": "赛罕",
+    "mapMergerName": "中国,内蒙古自治区,呼和浩特市,赛罕区",
+    "mapParentId": 150100,
+    "mapLevelType": 3,
+    "mapPinYin": "Saihan",
+    "mapZipCode": 10020
+}, {
+    "id": 150121,
+    "mapName": "土默特左旗",
+    "mapAbbreviation": "土默特左旗",
+    "mapMergerName": "中国,内蒙古自治区,呼和浩特市,土默特左旗",
+    "mapParentId": 150100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tumotezuoqi",
+    "mapZipCode": 10100
+}, {
+    "id": 150122,
+    "mapName": "托克托县",
+    "mapAbbreviation": "托克托",
+    "mapMergerName": "中国,内蒙古自治区,呼和浩特市,托克托县",
+    "mapParentId": 150100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tuoketuo",
+    "mapZipCode": 10200
+}, {
+    "id": 150123,
+    "mapName": "和林格尔县",
+    "mapAbbreviation": "和林格尔",
+    "mapMergerName": "中国,内蒙古自治区,呼和浩特市,和林格尔县",
+    "mapParentId": 150100,
+    "mapLevelType": 3,
+    "mapPinYin": "Helingeer",
+    "mapZipCode": 11500
+}, {
+    "id": 150124,
+    "mapName": "清水河县",
+    "mapAbbreviation": "清水河",
+    "mapMergerName": "中国,内蒙古自治区,呼和浩特市,清水河县",
+    "mapParentId": 150100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingshuihe",
+    "mapZipCode": 11600
+}, {
+    "id": 150125,
+    "mapName": "武川县",
+    "mapAbbreviation": "武川",
+    "mapMergerName": "中国,内蒙古自治区,呼和浩特市,武川县",
+    "mapParentId": 150100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuchuan",
+    "mapZipCode": 11700
+}, {
+    "id": 150202,
+    "mapName": "东河区",
+    "mapAbbreviation": "东河",
+    "mapMergerName": "中国,内蒙古自治区,包头市,东河区",
+    "mapParentId": 150200,
+    "mapLevelType": 3,
+    "mapPinYin": "Donghe",
+    "mapZipCode": 14040
+}, {
+    "id": 150203,
+    "mapName": "昆都仑区",
+    "mapAbbreviation": "昆都仑",
+    "mapMergerName": "中国,内蒙古自治区,包头市,昆都仑区",
+    "mapParentId": 150200,
+    "mapLevelType": 3,
+    "mapPinYin": "Kundulun",
+    "mapZipCode": 14010
+}, {
+    "id": 150204,
+    "mapName": "青山区",
+    "mapAbbreviation": "青山",
+    "mapMergerName": "中国,内蒙古自治区,包头市,青山区",
+    "mapParentId": 150200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingshan",
+    "mapZipCode": 14030
+}, {
+    "id": 150205,
+    "mapName": "石拐区",
+    "mapAbbreviation": "石拐",
+    "mapMergerName": "中国,内蒙古自治区,包头市,石拐区",
+    "mapParentId": 150200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shiguai",
+    "mapZipCode": 14070
+}, {
+    "id": 150206,
+    "mapName": "白云鄂博矿区",
+    "mapAbbreviation": "白云鄂博矿区",
+    "mapMergerName": "中国,内蒙古自治区,包头市,白云鄂博矿区",
+    "mapParentId": 150200,
+    "mapLevelType": 3,
+    "mapPinYin": "Baiyunebokuangqu",
+    "mapZipCode": 14080
+}, {
+    "id": 150207,
+    "mapName": "九原区",
+    "mapAbbreviation": "九原",
+    "mapMergerName": "中国,内蒙古自治区,包头市,九原区",
+    "mapParentId": 150200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiuyuan",
+    "mapZipCode": 14060
+}, {
+    "id": 150221,
+    "mapName": "土默特右旗",
+    "mapAbbreviation": "土默特右旗",
+    "mapMergerName": "中国,内蒙古自治区,包头市,土默特右旗",
+    "mapParentId": 150200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tumoteyouqi",
+    "mapZipCode": 14100
+}, {
+    "id": 150222,
+    "mapName": "固阳县",
+    "mapAbbreviation": "固阳",
+    "mapMergerName": "中国,内蒙古自治区,包头市,固阳县",
+    "mapParentId": 150200,
+    "mapLevelType": 3,
+    "mapPinYin": "Guyang",
+    "mapZipCode": 14200
+}, {
+    "id": 150223,
+    "mapName": "达尔罕茂明安联合旗",
+    "mapAbbreviation": "达茂旗",
+    "mapMergerName": "中国,内蒙古自治区,包头市,达尔罕茂明安联合旗",
+    "mapParentId": 150200,
+    "mapLevelType": 3,
+    "mapPinYin": "Damaoqi",
+    "mapZipCode": 14500
+}, {
+    "id": 150302,
+    "mapName": "海勃湾区",
+    "mapAbbreviation": "海勃湾",
+    "mapMergerName": "中国,内蒙古自治区,乌海市,海勃湾区",
+    "mapParentId": 150300,
+    "mapLevelType": 3,
+    "mapPinYin": "Haibowan",
+    "mapZipCode": 16000
+}, {
+    "id": 150303,
+    "mapName": "海南区",
+    "mapAbbreviation": "海南",
+    "mapMergerName": "中国,内蒙古自治区,乌海市,海南区",
+    "mapParentId": 150300,
+    "mapLevelType": 3,
+    "mapPinYin": "Hainan",
+    "mapZipCode": 16030
+}, {
+    "id": 150304,
+    "mapName": "乌达区",
+    "mapAbbreviation": "乌达",
+    "mapMergerName": "中国,内蒙古自治区,乌海市,乌达区",
+    "mapParentId": 150300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuda",
+    "mapZipCode": 16040
+}, {
+    "id": 150402,
+    "mapName": "红山区",
+    "mapAbbreviation": "红山",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,红山区",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongshan",
+    "mapZipCode": 24020
+}, {
+    "id": 150403,
+    "mapName": "元宝山区",
+    "mapAbbreviation": "元宝山",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,元宝山区",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanbaoshan",
+    "mapZipCode": 24076
+}, {
+    "id": 150404,
+    "mapName": "松山区",
+    "mapAbbreviation": "松山",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,松山区",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Songshan",
+    "mapZipCode": 24005
+}, {
+    "id": 150421,
+    "mapName": "阿鲁科尔沁旗",
+    "mapAbbreviation": "阿鲁科尔沁旗",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,阿鲁科尔沁旗",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Alukeerqinqi",
+    "mapZipCode": 25550
+}, {
+    "id": 150422,
+    "mapName": "巴林左旗",
+    "mapAbbreviation": "巴林左旗",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,巴林左旗",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Balinzuoqi",
+    "mapZipCode": 25450
+}, {
+    "id": 150423,
+    "mapName": "巴林右旗",
+    "mapAbbreviation": "巴林右旗",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,巴林右旗",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Balinyouqi",
+    "mapZipCode": 25150
+}, {
+    "id": 150424,
+    "mapName": "林西县",
+    "mapAbbreviation": "林西",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,林西县",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Linxi",
+    "mapZipCode": 25250
+}, {
+    "id": 150425,
+    "mapName": "克什克腾旗",
+    "mapAbbreviation": "克什克腾旗",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,克什克腾旗",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Keshiketengqi",
+    "mapZipCode": 25350
+}, {
+    "id": 150426,
+    "mapName": "翁牛特旗",
+    "mapAbbreviation": "翁牛特旗",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,翁牛特旗",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wengniuteqi",
+    "mapZipCode": 24500
+}, {
+    "id": 150428,
+    "mapName": "喀喇沁旗",
+    "mapAbbreviation": "喀喇沁旗",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,喀喇沁旗",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Kalaqinqi",
+    "mapZipCode": 24400
+}, {
+    "id": 150429,
+    "mapName": "宁城县",
+    "mapAbbreviation": "宁城",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,宁城县",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningcheng",
+    "mapZipCode": 24200
+}, {
+    "id": 150430,
+    "mapName": "敖汉旗",
+    "mapAbbreviation": "敖汉旗",
+    "mapMergerName": "中国,内蒙古自治区,赤峰市,敖汉旗",
+    "mapParentId": 150400,
+    "mapLevelType": 3,
+    "mapPinYin": "Aohanqi",
+    "mapZipCode": 24300
+}, {
+    "id": 150502,
+    "mapName": "科尔沁区",
+    "mapAbbreviation": "科尔沁",
+    "mapMergerName": "中国,内蒙古自治区,通辽市,科尔沁区",
+    "mapParentId": 150500,
+    "mapLevelType": 3,
+    "mapPinYin": "Keerqin",
+    "mapZipCode": 28000
+}, {
+    "id": 150521,
+    "mapName": "科尔沁左翼中旗",
+    "mapAbbreviation": "科尔沁左翼中旗",
+    "mapMergerName": "中国,内蒙古自治区,通辽市,科尔沁左翼中旗",
+    "mapParentId": 150500,
+    "mapLevelType": 3,
+    "mapPinYin": "Keerqinzuoyizhongqi",
+    "mapZipCode": 29300
+}, {
+    "id": 150522,
+    "mapName": "科尔沁左翼后旗",
+    "mapAbbreviation": "科尔沁左翼后旗",
+    "mapMergerName": "中国,内蒙古自治区,通辽市,科尔沁左翼后旗",
+    "mapParentId": 150500,
+    "mapLevelType": 3,
+    "mapPinYin": "Keerqinzuoyihouqi",
+    "mapZipCode": 28100
+}, {
+    "id": 150523,
+    "mapName": "开鲁县",
+    "mapAbbreviation": "开鲁",
+    "mapMergerName": "中国,内蒙古自治区,通辽市,开鲁县",
+    "mapParentId": 150500,
+    "mapLevelType": 3,
+    "mapPinYin": "Kailu",
+    "mapZipCode": 28400
+}, {
+    "id": 150524,
+    "mapName": "库伦旗",
+    "mapAbbreviation": "库伦旗",
+    "mapMergerName": "中国,内蒙古自治区,通辽市,库伦旗",
+    "mapParentId": 150500,
+    "mapLevelType": 3,
+    "mapPinYin": "Kulunqi",
+    "mapZipCode": 28200
+}, {
+    "id": 150525,
+    "mapName": "奈曼旗",
+    "mapAbbreviation": "奈曼旗",
+    "mapMergerName": "中国,内蒙古自治区,通辽市,奈曼旗",
+    "mapParentId": 150500,
+    "mapLevelType": 3,
+    "mapPinYin": "Naimanqi",
+    "mapZipCode": 28300
+}, {
+    "id": 150526,
+    "mapName": "扎鲁特旗",
+    "mapAbbreviation": "扎鲁特旗",
+    "mapMergerName": "中国,内蒙古自治区,通辽市,扎鲁特旗",
+    "mapParentId": 150500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaluteqi",
+    "mapZipCode": 29100
+}, {
+    "id": 150581,
+    "mapName": "霍林郭勒市",
+    "mapAbbreviation": "霍林郭勒",
+    "mapMergerName": "中国,内蒙古自治区,通辽市,霍林郭勒市",
+    "mapParentId": 150500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huolinguole",
+    "mapZipCode": 29200
+}, {
+    "id": 150602,
+    "mapName": "东胜区",
+    "mapAbbreviation": "东胜",
+    "mapMergerName": "中国,内蒙古自治区,鄂尔多斯市,东胜区",
+    "mapParentId": 150600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongsheng",
+    "mapZipCode": 17000
+}, {
+    "id": 150621,
+    "mapName": "达拉特旗",
+    "mapAbbreviation": "达拉特旗",
+    "mapMergerName": "中国,内蒙古自治区,鄂尔多斯市,达拉特旗",
+    "mapParentId": 150600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dalateqi",
+    "mapZipCode": 14300
+}, {
+    "id": 150622,
+    "mapName": "准格尔旗",
+    "mapAbbreviation": "准格尔旗",
+    "mapMergerName": "中国,内蒙古自治区,鄂尔多斯市,准格尔旗",
+    "mapParentId": 150600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhungeerqi",
+    "mapZipCode": 17100
+}, {
+    "id": 150623,
+    "mapName": "鄂托克前旗",
+    "mapAbbreviation": "鄂托克前旗",
+    "mapMergerName": "中国,内蒙古自治区,鄂尔多斯市,鄂托克前旗",
+    "mapParentId": 150600,
+    "mapLevelType": 3,
+    "mapPinYin": "Etuokeqianqi",
+    "mapZipCode": 16200
+}, {
+    "id": 150624,
+    "mapName": "鄂托克旗",
+    "mapAbbreviation": "鄂托克旗",
+    "mapMergerName": "中国,内蒙古自治区,鄂尔多斯市,鄂托克旗",
+    "mapParentId": 150600,
+    "mapLevelType": 3,
+    "mapPinYin": "Etuokeqi",
+    "mapZipCode": 16100
+}, {
+    "id": 150625,
+    "mapName": "杭锦旗",
+    "mapAbbreviation": "杭锦旗",
+    "mapMergerName": "中国,内蒙古自治区,鄂尔多斯市,杭锦旗",
+    "mapParentId": 150600,
+    "mapLevelType": 3,
+    "mapPinYin": "Hangjinqi",
+    "mapZipCode": 17400
+}, {
+    "id": 150626,
+    "mapName": "乌审旗",
+    "mapAbbreviation": "乌审旗",
+    "mapMergerName": "中国,内蒙古自治区,鄂尔多斯市,乌审旗",
+    "mapParentId": 150600,
+    "mapLevelType": 3,
+    "mapPinYin": "Wushenqi",
+    "mapZipCode": 17300
+}, {
+    "id": 150627,
+    "mapName": "伊金霍洛旗",
+    "mapAbbreviation": "伊金霍洛旗",
+    "mapMergerName": "中国,内蒙古自治区,鄂尔多斯市,伊金霍洛旗",
+    "mapParentId": 150600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yijinhuoluoqi",
+    "mapZipCode": 17200
+}, {
+    "id": 150702,
+    "mapName": "海拉尔区",
+    "mapAbbreviation": "海拉尔",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,海拉尔区",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Hailaer",
+    "mapZipCode": 21000
+}, {
+    "id": 150703,
+    "mapName": "扎赉诺尔区",
+    "mapAbbreviation": "扎赉诺尔",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,扎赉诺尔区",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhalainuoer",
+    "mapZipCode": 21410
+}, {
+    "id": 150721,
+    "mapName": "阿荣旗",
+    "mapAbbreviation": "阿荣旗",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,阿荣旗",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Arongqi",
+    "mapZipCode": 162750
+}, {
+    "id": 150722,
+    "mapName": "莫力达瓦达斡尔族自治旗",
+    "mapAbbreviation": "莫旗",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,莫力达瓦达斡尔族自治旗",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Moqi",
+    "mapZipCode": 162850
+}, {
+    "id": 150723,
+    "mapName": "鄂伦春自治旗",
+    "mapAbbreviation": "鄂伦春",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,鄂伦春自治旗",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Elunchun",
+    "mapZipCode": 165450
+}, {
+    "id": 150724,
+    "mapName": "鄂温克族自治旗",
+    "mapAbbreviation": "鄂温",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,鄂温克族自治旗",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Ewen",
+    "mapZipCode": 21100
+}, {
+    "id": 150725,
+    "mapName": "陈巴尔虎旗",
+    "mapAbbreviation": "陈巴尔虎旗",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,陈巴尔虎旗",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Chenbaerhuqi",
+    "mapZipCode": 21500
+}, {
+    "id": 150726,
+    "mapName": "新巴尔虎左旗",
+    "mapAbbreviation": "新巴尔虎左旗",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,新巴尔虎左旗",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinbaerhuzuoqi",
+    "mapZipCode": 21200
+}, {
+    "id": 150727,
+    "mapName": "新巴尔虎右旗",
+    "mapAbbreviation": "新巴尔虎右旗",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,新巴尔虎右旗",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinbaerhuyouqi",
+    "mapZipCode": 21300
+}, {
+    "id": 150781,
+    "mapName": "满洲里市",
+    "mapAbbreviation": "满洲里",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,满洲里市",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Manzhouli",
+    "mapZipCode": 21400
+}, {
+    "id": 150782,
+    "mapName": "牙克石市",
+    "mapAbbreviation": "牙克石",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,牙克石市",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yakeshi",
+    "mapZipCode": 22150
+}, {
+    "id": 150783,
+    "mapName": "扎兰屯市",
+    "mapAbbreviation": "扎兰屯",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,扎兰屯市",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhalantun",
+    "mapZipCode": 162650
+}, {
+    "id": 150784,
+    "mapName": "额尔古纳市",
+    "mapAbbreviation": "额尔古纳",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,额尔古纳市",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Eerguna",
+    "mapZipCode": 22250
+}, {
+    "id": 150785,
+    "mapName": "根河市",
+    "mapAbbreviation": "根河",
+    "mapMergerName": "中国,内蒙古自治区,呼伦贝尔市,根河市",
+    "mapParentId": 150700,
+    "mapLevelType": 3,
+    "mapPinYin": "Genhe",
+    "mapZipCode": 22350
+}, {
+    "id": 150802,
+    "mapName": "临河区",
+    "mapAbbreviation": "临河",
+    "mapMergerName": "中国,内蒙古自治区,巴彦淖尔市,临河区",
+    "mapParentId": 150800,
+    "mapLevelType": 3,
+    "mapPinYin": "Linhe",
+    "mapZipCode": 15001
+}, {
+    "id": 150821,
+    "mapName": "五原县",
+    "mapAbbreviation": "五原",
+    "mapMergerName": "中国,内蒙古自治区,巴彦淖尔市,五原县",
+    "mapParentId": 150800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuyuan",
+    "mapZipCode": 15100
+}, {
+    "id": 150822,
+    "mapName": "磴口县",
+    "mapAbbreviation": "磴口",
+    "mapMergerName": "中国,内蒙古自治区,巴彦淖尔市,磴口县",
+    "mapParentId": 150800,
+    "mapLevelType": 3,
+    "mapPinYin": "Dengkou",
+    "mapZipCode": 15200
+}, {
+    "id": 150823,
+    "mapName": "乌拉特前旗",
+    "mapAbbreviation": "乌拉特前旗",
+    "mapMergerName": "中国,内蒙古自治区,巴彦淖尔市,乌拉特前旗",
+    "mapParentId": 150800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wulateqianqi",
+    "mapZipCode": 14400
+}, {
+    "id": 150824,
+    "mapName": "乌拉特中旗",
+    "mapAbbreviation": "乌拉特中旗",
+    "mapMergerName": "中国,内蒙古自治区,巴彦淖尔市,乌拉特中旗",
+    "mapParentId": 150800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wulatezhongqi",
+    "mapZipCode": 15300
+}, {
+    "id": 150825,
+    "mapName": "乌拉特后旗",
+    "mapAbbreviation": "乌拉特后旗",
+    "mapMergerName": "中国,内蒙古自治区,巴彦淖尔市,乌拉特后旗",
+    "mapParentId": 150800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wulatehouqi",
+    "mapZipCode": 15500
+}, {
+    "id": 150826,
+    "mapName": "杭锦后旗",
+    "mapAbbreviation": "杭锦后旗",
+    "mapMergerName": "中国,内蒙古自治区,巴彦淖尔市,杭锦后旗",
+    "mapParentId": 150800,
+    "mapLevelType": 3,
+    "mapPinYin": "Hangjinhouqi",
+    "mapZipCode": 15400
+}, {
+    "id": 150902,
+    "mapName": "集宁区",
+    "mapAbbreviation": "集宁",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,集宁区",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Jining",
+    "mapZipCode": 12000
+}, {
+    "id": 150921,
+    "mapName": "卓资县",
+    "mapAbbreviation": "卓资",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,卓资县",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuozi",
+    "mapZipCode": 12300
+}, {
+    "id": 150922,
+    "mapName": "化德县",
+    "mapAbbreviation": "化德",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,化德县",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Huade",
+    "mapZipCode": 13350
+}, {
+    "id": 150923,
+    "mapName": "商都县",
+    "mapAbbreviation": "商都",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,商都县",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangdu",
+    "mapZipCode": 13450
+}, {
+    "id": 150924,
+    "mapName": "兴和县",
+    "mapAbbreviation": "兴和",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,兴和县",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinghe",
+    "mapZipCode": 13650
+}, {
+    "id": 150925,
+    "mapName": "凉城县",
+    "mapAbbreviation": "凉城",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,凉城县",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Liangcheng",
+    "mapZipCode": 13750
+}, {
+    "id": 150926,
+    "mapName": "察哈尔右翼前旗",
+    "mapAbbreviation": "察右前旗",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,察哈尔右翼前旗",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Chayouqianqi",
+    "mapZipCode": 12200
+}, {
+    "id": 150927,
+    "mapName": "察哈尔右翼中旗",
+    "mapAbbreviation": "察右中旗",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,察哈尔右翼中旗",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Chayouzhongqi",
+    "mapZipCode": 13550
+}, {
+    "id": 150928,
+    "mapName": "察哈尔右翼后旗",
+    "mapAbbreviation": "察右后旗",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,察哈尔右翼后旗",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Chayouhouqi",
+    "mapZipCode": 12400
+}, {
+    "id": 150929,
+    "mapName": "四子王旗",
+    "mapAbbreviation": "四子王旗",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,四子王旗",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Siziwangqi",
+    "mapZipCode": 11800
+}, {
+    "id": 150981,
+    "mapName": "丰镇市",
+    "mapAbbreviation": "丰镇",
+    "mapMergerName": "中国,内蒙古自治区,乌兰察布市,丰镇市",
+    "mapParentId": 150900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengzhen",
+    "mapZipCode": 12100
+}, {
+    "id": 152201,
+    "mapName": "乌兰浩特市",
+    "mapAbbreviation": "乌兰浩特",
+    "mapMergerName": "中国,内蒙古自治区,兴安盟,乌兰浩特市",
+    "mapParentId": 152200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wulanhaote",
+    "mapZipCode": 137401
+}, {
+    "id": 152202,
+    "mapName": "阿尔山市",
+    "mapAbbreviation": "阿尔山",
+    "mapMergerName": "中国,内蒙古自治区,兴安盟,阿尔山市",
+    "mapParentId": 152200,
+    "mapLevelType": 3,
+    "mapPinYin": "Aershan",
+    "mapZipCode": 137800
+}, {
+    "id": 152221,
+    "mapName": "科尔沁右翼前旗",
+    "mapAbbreviation": "科右前旗",
+    "mapMergerName": "中国,内蒙古自治区,兴安盟,科尔沁右翼前旗",
+    "mapParentId": 152200,
+    "mapLevelType": 3,
+    "mapPinYin": "Keyouqianqi",
+    "mapZipCode": 137423
+}, {
+    "id": 152222,
+    "mapName": "科尔沁右翼中旗",
+    "mapAbbreviation": "科右中旗",
+    "mapMergerName": "中国,内蒙古自治区,兴安盟,科尔沁右翼中旗",
+    "mapParentId": 152200,
+    "mapLevelType": 3,
+    "mapPinYin": "Keyouzhongqi",
+    "mapZipCode": 29400
+}, {
+    "id": 152223,
+    "mapName": "扎赉特旗",
+    "mapAbbreviation": "扎赉特旗",
+    "mapMergerName": "中国,内蒙古自治区,兴安盟,扎赉特旗",
+    "mapParentId": 152200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhalaiteqi",
+    "mapZipCode": 137600
+}, {
+    "id": 152224,
+    "mapName": "突泉县",
+    "mapAbbreviation": "突泉",
+    "mapMergerName": "中国,内蒙古自治区,兴安盟,突泉县",
+    "mapParentId": 152200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tuquan",
+    "mapZipCode": 137500
+}, {
+    "id": 152501,
+    "mapName": "二连浩特市",
+    "mapAbbreviation": "二连浩特",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,二连浩特市",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Erlianhaote",
+    "mapZipCode": 11100
+}, {
+    "id": 152502,
+    "mapName": "锡林浩特市",
+    "mapAbbreviation": "锡林浩特",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,锡林浩特市",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xilinhaote",
+    "mapZipCode": 26021
+}, {
+    "id": 152522,
+    "mapName": "阿巴嘎旗",
+    "mapAbbreviation": "阿巴嘎旗",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,阿巴嘎旗",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Abagaqi",
+    "mapZipCode": 11400
+}, {
+    "id": 152523,
+    "mapName": "苏尼特左旗",
+    "mapAbbreviation": "苏尼特左旗",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,苏尼特左旗",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Sunitezuoqi",
+    "mapZipCode": 11300
+}, {
+    "id": 152524,
+    "mapName": "苏尼特右旗",
+    "mapAbbreviation": "苏尼特右旗",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,苏尼特右旗",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Suniteyouqi",
+    "mapZipCode": 11200
+}, {
+    "id": 152525,
+    "mapName": "东乌珠穆沁旗",
+    "mapAbbreviation": "东乌旗",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,东乌珠穆沁旗",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongwuqi",
+    "mapZipCode": 26300
+}, {
+    "id": 152526,
+    "mapName": "西乌珠穆沁旗",
+    "mapAbbreviation": "西乌旗",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,西乌珠穆沁旗",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiwuqi",
+    "mapZipCode": 26200
+}, {
+    "id": 152527,
+    "mapName": "太仆寺旗",
+    "mapAbbreviation": "太仆寺旗",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,太仆寺旗",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Taipusiqi",
+    "mapZipCode": 27000
+}, {
+    "id": 152528,
+    "mapName": "镶黄旗",
+    "mapAbbreviation": "镶黄旗",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,镶黄旗",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xianghuangqi",
+    "mapZipCode": 13250
+}, {
+    "id": 152529,
+    "mapName": "正镶白旗",
+    "mapAbbreviation": "正镶白旗",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,正镶白旗",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhengxiangbaiqi",
+    "mapZipCode": 13800
+}, {
+    "id": 152530,
+    "mapName": "正蓝旗",
+    "mapAbbreviation": "正蓝旗",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,正蓝旗",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenglanqi",
+    "mapZipCode": 27200
+}, {
+    "id": 152531,
+    "mapName": "多伦县",
+    "mapAbbreviation": "多伦",
+    "mapMergerName": "中国,内蒙古自治区,锡林郭勒盟,多伦县",
+    "mapParentId": 152500,
+    "mapLevelType": 3,
+    "mapPinYin": "Duolun",
+    "mapZipCode": 27300
+}, {
+    "id": 152921,
+    "mapName": "阿拉善左旗",
+    "mapAbbreviation": "阿拉善左旗",
+    "mapMergerName": "中国,内蒙古自治区,阿拉善盟,阿拉善左旗",
+    "mapParentId": 152900,
+    "mapLevelType": 3,
+    "mapPinYin": "Alashanzuoqi",
+    "mapZipCode": 750306
+}, {
+    "id": 152922,
+    "mapName": "阿拉善右旗",
+    "mapAbbreviation": "阿拉善右旗",
+    "mapMergerName": "中国,内蒙古自治区,阿拉善盟,阿拉善右旗",
+    "mapParentId": 152900,
+    "mapLevelType": 3,
+    "mapPinYin": "Alashanyouqi",
+    "mapZipCode": 737300
+}, {
+    "id": 152923,
+    "mapName": "额济纳旗",
+    "mapAbbreviation": "额济纳旗",
+    "mapMergerName": "中国,内蒙古自治区,阿拉善盟,额济纳旗",
+    "mapParentId": 152900,
+    "mapLevelType": 3,
+    "mapPinYin": "Ejinaqi",
+    "mapZipCode": 735400
+}, {
+    "id": 210102,
+    "mapName": "和平区",
+    "mapAbbreviation": "和平",
+    "mapMergerName": "中国,辽宁省,沈阳市,和平区",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Heping",
+    "mapZipCode": 110001
+}, {
+    "id": 210103,
+    "mapName": "沈河区",
+    "mapAbbreviation": "沈河",
+    "mapMergerName": "中国,辽宁省,沈阳市,沈河区",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenhe",
+    "mapZipCode": 110011
+}, {
+    "id": 210104,
+    "mapName": "大东区",
+    "mapAbbreviation": "大东",
+    "mapMergerName": "中国,辽宁省,沈阳市,大东区",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dadong",
+    "mapZipCode": 110041
+}, {
+    "id": 210105,
+    "mapName": "皇姑区",
+    "mapAbbreviation": "皇姑",
+    "mapMergerName": "中国,辽宁省,沈阳市,皇姑区",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huanggu",
+    "mapZipCode": 110031
+}, {
+    "id": 210106,
+    "mapName": "铁西区",
+    "mapAbbreviation": "铁西",
+    "mapMergerName": "中国,辽宁省,沈阳市,铁西区",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiexi",
+    "mapZipCode": 110021
+}, {
+    "id": 210111,
+    "mapName": "苏家屯区",
+    "mapAbbreviation": "苏家屯",
+    "mapMergerName": "中国,辽宁省,沈阳市,苏家屯区",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Sujiatun",
+    "mapZipCode": 110101
+}, {
+    "id": 210112,
+    "mapName": "浑南区",
+    "mapAbbreviation": "浑南",
+    "mapMergerName": "中国,辽宁省,沈阳市,浑南区",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hunnan",
+    "mapZipCode": 110015
+}, {
+    "id": 210113,
+    "mapName": "沈北新区",
+    "mapAbbreviation": "沈北新区",
+    "mapMergerName": "中国,辽宁省,沈阳市,沈北新区",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenbeixinqu",
+    "mapZipCode": 110121
+}, {
+    "id": 210114,
+    "mapName": "于洪区",
+    "mapAbbreviation": "于洪",
+    "mapMergerName": "中国,辽宁省,沈阳市,于洪区",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuhong",
+    "mapZipCode": 110141
+}, {
+    "id": 210122,
+    "mapName": "辽中县",
+    "mapAbbreviation": "辽中",
+    "mapMergerName": "中国,辽宁省,沈阳市,辽中县",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Liaozhong",
+    "mapZipCode": 110200
+}, {
+    "id": 210123,
+    "mapName": "康平县",
+    "mapAbbreviation": "康平",
+    "mapMergerName": "中国,辽宁省,沈阳市,康平县",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Kangping",
+    "mapZipCode": 110500
+}, {
+    "id": 210124,
+    "mapName": "法库县",
+    "mapAbbreviation": "法库",
+    "mapMergerName": "中国,辽宁省,沈阳市,法库县",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Faku",
+    "mapZipCode": 110400
+}, {
+    "id": 210181,
+    "mapName": "新民市",
+    "mapAbbreviation": "新民",
+    "mapMergerName": "中国,辽宁省,沈阳市,新民市",
+    "mapParentId": 210100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinmin",
+    "mapZipCode": 110300
+}, {
+    "id": 210202,
+    "mapName": "中山区",
+    "mapAbbreviation": "中山",
+    "mapMergerName": "中国,辽宁省,大连市,中山区",
+    "mapParentId": 210200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongshan",
+    "mapZipCode": 116001
+}, {
+    "id": 210203,
+    "mapName": "西岗区",
+    "mapAbbreviation": "西岗",
+    "mapMergerName": "中国,辽宁省,大连市,西岗区",
+    "mapParentId": 210200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xigang",
+    "mapZipCode": 116011
+}, {
+    "id": 210204,
+    "mapName": "沙河口区",
+    "mapAbbreviation": "沙河口",
+    "mapMergerName": "中国,辽宁省,大连市,沙河口区",
+    "mapParentId": 210200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shahekou",
+    "mapZipCode": 116021
+}, {
+    "id": 210211,
+    "mapName": "甘井子区",
+    "mapAbbreviation": "甘井子",
+    "mapMergerName": "中国,辽宁省,大连市,甘井子区",
+    "mapParentId": 210200,
+    "mapLevelType": 3,
+    "mapPinYin": "Ganjingzi",
+    "mapZipCode": 116033
+}, {
+    "id": 210212,
+    "mapName": "旅顺口区",
+    "mapAbbreviation": "旅顺口",
+    "mapMergerName": "中国,辽宁省,大连市,旅顺口区",
+    "mapParentId": 210200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lvshunkou",
+    "mapZipCode": 116041
+}, {
+    "id": 210213,
+    "mapName": "金州区",
+    "mapAbbreviation": "金州",
+    "mapMergerName": "中国,辽宁省,大连市,金州区",
+    "mapParentId": 210200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinzhou",
+    "mapZipCode": 116100
+}, {
+    "id": 210224,
+    "mapName": "长海县",
+    "mapAbbreviation": "长海",
+    "mapMergerName": "中国,辽宁省,大连市,长海县",
+    "mapParentId": 210200,
+    "mapLevelType": 3,
+    "mapPinYin": "Changhai",
+    "mapZipCode": 116500
+}, {
+    "id": 210281,
+    "mapName": "瓦房店市",
+    "mapAbbreviation": "瓦房店",
+    "mapMergerName": "中国,辽宁省,大连市,瓦房店市",
+    "mapParentId": 210200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wafangdian",
+    "mapZipCode": 116300
+}, {
+    "id": 210282,
+    "mapName": "普兰店市",
+    "mapAbbreviation": "普兰店",
+    "mapMergerName": "中国,辽宁省,大连市,普兰店市",
+    "mapParentId": 210200,
+    "mapLevelType": 3,
+    "mapPinYin": "Pulandian",
+    "mapZipCode": 116200
+}, {
+    "id": 210283,
+    "mapName": "庄河市",
+    "mapAbbreviation": "庄河",
+    "mapMergerName": "中国,辽宁省,大连市,庄河市",
+    "mapParentId": 210200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuanghe",
+    "mapZipCode": 116400
+}, {
+    "id": 210302,
+    "mapName": "铁东区",
+    "mapAbbreviation": "铁东",
+    "mapMergerName": "中国,辽宁省,鞍山市,铁东区",
+    "mapParentId": 210300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiedong",
+    "mapZipCode": 114001
+}, {
+    "id": 210303,
+    "mapName": "铁西区",
+    "mapAbbreviation": "铁西",
+    "mapMergerName": "中国,辽宁省,鞍山市,铁西区",
+    "mapParentId": 210300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiexi",
+    "mapZipCode": 114013
+}, {
+    "id": 210304,
+    "mapName": "立山区",
+    "mapAbbreviation": "立山",
+    "mapMergerName": "中国,辽宁省,鞍山市,立山区",
+    "mapParentId": 210300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lishan",
+    "mapZipCode": 114031
+}, {
+    "id": 210311,
+    "mapName": "千山区",
+    "mapAbbreviation": "千山",
+    "mapMergerName": "中国,辽宁省,鞍山市,千山区",
+    "mapParentId": 210300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianshan",
+    "mapZipCode": 114041
+}, {
+    "id": 210321,
+    "mapName": "台安县",
+    "mapAbbreviation": "台安",
+    "mapMergerName": "中国,辽宁省,鞍山市,台安县",
+    "mapParentId": 210300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tai'an",
+    "mapZipCode": 114100
+}, {
+    "id": 210323,
+    "mapName": "岫岩满族自治县",
+    "mapAbbreviation": "岫岩",
+    "mapMergerName": "中国,辽宁省,鞍山市,岫岩满族自治县",
+    "mapParentId": 210300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiuyan",
+    "mapZipCode": 114300
+}, {
+    "id": 210381,
+    "mapName": "海城市",
+    "mapAbbreviation": "海城",
+    "mapMergerName": "中国,辽宁省,鞍山市,海城市",
+    "mapParentId": 210300,
+    "mapLevelType": 3,
+    "mapPinYin": "Haicheng",
+    "mapZipCode": 114200
+}, {
+    "id": 210402,
+    "mapName": "新抚区",
+    "mapAbbreviation": "新抚",
+    "mapMergerName": "中国,辽宁省,抚顺市,新抚区",
+    "mapParentId": 210400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinfu",
+    "mapZipCode": 113008
+}, {
+    "id": 210403,
+    "mapName": "东洲区",
+    "mapAbbreviation": "东洲",
+    "mapMergerName": "中国,辽宁省,抚顺市,东洲区",
+    "mapParentId": 210400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongzhou",
+    "mapZipCode": 113003
+}, {
+    "id": 210404,
+    "mapName": "望花区",
+    "mapAbbreviation": "望花",
+    "mapMergerName": "中国,辽宁省,抚顺市,望花区",
+    "mapParentId": 210400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanghua",
+    "mapZipCode": 113001
+}, {
+    "id": 210411,
+    "mapName": "顺城区",
+    "mapAbbreviation": "顺城",
+    "mapMergerName": "中国,辽宁省,抚顺市,顺城区",
+    "mapParentId": 210400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuncheng",
+    "mapZipCode": 113006
+}, {
+    "id": 210421,
+    "mapName": "抚顺县",
+    "mapAbbreviation": "抚顺",
+    "mapMergerName": "中国,辽宁省,抚顺市,抚顺县",
+    "mapParentId": 210400,
+    "mapLevelType": 3,
+    "mapPinYin": "Fushun",
+    "mapZipCode": 113006
+}, {
+    "id": 210422,
+    "mapName": "新宾满族自治县",
+    "mapAbbreviation": "新宾",
+    "mapMergerName": "中国,辽宁省,抚顺市,新宾满族自治县",
+    "mapParentId": 210400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinbin",
+    "mapZipCode": 113200
+}, {
+    "id": 210423,
+    "mapName": "清原满族自治县",
+    "mapAbbreviation": "清原",
+    "mapMergerName": "中国,辽宁省,抚顺市,清原满族自治县",
+    "mapParentId": 210400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingyuan",
+    "mapZipCode": 113300
+}, {
+    "id": 210502,
+    "mapName": "平山区",
+    "mapAbbreviation": "平山",
+    "mapMergerName": "中国,辽宁省,本溪市,平山区",
+    "mapParentId": 210500,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingshan",
+    "mapZipCode": 117000
+}, {
+    "id": 210503,
+    "mapName": "溪湖区",
+    "mapAbbreviation": "溪湖",
+    "mapMergerName": "中国,辽宁省,本溪市,溪湖区",
+    "mapParentId": 210500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xihu",
+    "mapZipCode": 117002
+}, {
+    "id": 210504,
+    "mapName": "明山区",
+    "mapAbbreviation": "明山",
+    "mapMergerName": "中国,辽宁省,本溪市,明山区",
+    "mapParentId": 210500,
+    "mapLevelType": 3,
+    "mapPinYin": "Mingshan",
+    "mapZipCode": 117021
+}, {
+    "id": 210505,
+    "mapName": "南芬区",
+    "mapAbbreviation": "南芬",
+    "mapMergerName": "中国,辽宁省,本溪市,南芬区",
+    "mapParentId": 210500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanfen",
+    "mapZipCode": 117014
+}, {
+    "id": 210521,
+    "mapName": "本溪满族自治县",
+    "mapAbbreviation": "本溪",
+    "mapMergerName": "中国,辽宁省,本溪市,本溪满族自治县",
+    "mapParentId": 210500,
+    "mapLevelType": 3,
+    "mapPinYin": "Benxi",
+    "mapZipCode": 117100
+}, {
+    "id": 210522,
+    "mapName": "桓仁满族自治县",
+    "mapAbbreviation": "桓仁",
+    "mapMergerName": "中国,辽宁省,本溪市,桓仁满族自治县",
+    "mapParentId": 210500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huanren",
+    "mapZipCode": 117200
+}, {
+    "id": 210602,
+    "mapName": "元宝区",
+    "mapAbbreviation": "元宝",
+    "mapMergerName": "中国,辽宁省,丹东市,元宝区",
+    "mapParentId": 210600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanbao",
+    "mapZipCode": 118000
+}, {
+    "id": 210603,
+    "mapName": "振兴区",
+    "mapAbbreviation": "振兴",
+    "mapMergerName": "中国,辽宁省,丹东市,振兴区",
+    "mapParentId": 210600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenxing",
+    "mapZipCode": 118002
+}, {
+    "id": 210604,
+    "mapName": "振安区",
+    "mapAbbreviation": "振安",
+    "mapMergerName": "中国,辽宁省,丹东市,振安区",
+    "mapParentId": 210600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhen'an",
+    "mapZipCode": 118001
+}, {
+    "id": 210624,
+    "mapName": "宽甸满族自治县",
+    "mapAbbreviation": "宽甸",
+    "mapMergerName": "中国,辽宁省,丹东市,宽甸满族自治县",
+    "mapParentId": 210600,
+    "mapLevelType": 3,
+    "mapPinYin": "Kuandian",
+    "mapZipCode": 118200
+}, {
+    "id": 210681,
+    "mapName": "东港市",
+    "mapAbbreviation": "东港",
+    "mapMergerName": "中国,辽宁省,丹东市,东港市",
+    "mapParentId": 210600,
+    "mapLevelType": 3,
+    "mapPinYin": "Donggang",
+    "mapZipCode": 118300
+}, {
+    "id": 210682,
+    "mapName": "凤城市",
+    "mapAbbreviation": "凤城",
+    "mapMergerName": "中国,辽宁省,丹东市,凤城市",
+    "mapParentId": 210600,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengcheng",
+    "mapZipCode": 118100
+}, {
+    "id": 210702,
+    "mapName": "古塔区",
+    "mapAbbreviation": "古塔",
+    "mapMergerName": "中国,辽宁省,锦州市,古塔区",
+    "mapParentId": 210700,
+    "mapLevelType": 3,
+    "mapPinYin": "Guta",
+    "mapZipCode": 121001
+}, {
+    "id": 210703,
+    "mapName": "凌河区",
+    "mapAbbreviation": "凌河",
+    "mapMergerName": "中国,辽宁省,锦州市,凌河区",
+    "mapParentId": 210700,
+    "mapLevelType": 3,
+    "mapPinYin": "Linghe",
+    "mapZipCode": 121000
+}, {
+    "id": 210711,
+    "mapName": "太和区",
+    "mapAbbreviation": "太和",
+    "mapMergerName": "中国,辽宁省,锦州市,太和区",
+    "mapParentId": 210700,
+    "mapLevelType": 3,
+    "mapPinYin": "Taihe",
+    "mapZipCode": 121011
+}, {
+    "id": 210726,
+    "mapName": "黑山县",
+    "mapAbbreviation": "黑山",
+    "mapMergerName": "中国,辽宁省,锦州市,黑山县",
+    "mapParentId": 210700,
+    "mapLevelType": 3,
+    "mapPinYin": "Heishan",
+    "mapZipCode": 121400
+}, {
+    "id": 210727,
+    "mapName": "义县",
+    "mapAbbreviation": "义县",
+    "mapMergerName": "中国,辽宁省,锦州市,义县",
+    "mapParentId": 210700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yixian",
+    "mapZipCode": 121100
+}, {
+    "id": 210781,
+    "mapName": "凌海市",
+    "mapAbbreviation": "凌海",
+    "mapMergerName": "中国,辽宁省,锦州市,凌海市",
+    "mapParentId": 210700,
+    "mapLevelType": 3,
+    "mapPinYin": "Linghai",
+    "mapZipCode": 121200
+}, {
+    "id": 210782,
+    "mapName": "北镇市",
+    "mapAbbreviation": "北镇",
+    "mapMergerName": "中国,辽宁省,锦州市,北镇市",
+    "mapParentId": 210700,
+    "mapLevelType": 3,
+    "mapPinYin": "Beizhen",
+    "mapZipCode": 121300
+}, {
+    "id": 210802,
+    "mapName": "站前区",
+    "mapAbbreviation": "站前",
+    "mapMergerName": "中国,辽宁省,营口市,站前区",
+    "mapParentId": 210800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhanqian",
+    "mapZipCode": 115002
+}, {
+    "id": 210803,
+    "mapName": "西市区",
+    "mapAbbreviation": "西市",
+    "mapMergerName": "中国,辽宁省,营口市,西市区",
+    "mapParentId": 210800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xishi",
+    "mapZipCode": 115004
+}, {
+    "id": 210804,
+    "mapName": "鲅鱼圈区",
+    "mapAbbreviation": "鲅鱼圈",
+    "mapMergerName": "中国,辽宁省,营口市,鲅鱼圈区",
+    "mapParentId": 210800,
+    "mapLevelType": 3,
+    "mapPinYin": "Bayuquan",
+    "mapZipCode": 115007
+}, {
+    "id": 210811,
+    "mapName": "老边区",
+    "mapAbbreviation": "老边",
+    "mapMergerName": "中国,辽宁省,营口市,老边区",
+    "mapParentId": 210800,
+    "mapLevelType": 3,
+    "mapPinYin": "Laobian",
+    "mapZipCode": 115005
+}, {
+    "id": 210881,
+    "mapName": "盖州市",
+    "mapAbbreviation": "盖州",
+    "mapMergerName": "中国,辽宁省,营口市,盖州市",
+    "mapParentId": 210800,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaizhou",
+    "mapZipCode": 115200
+}, {
+    "id": 210882,
+    "mapName": "大石桥市",
+    "mapAbbreviation": "大石桥",
+    "mapMergerName": "中国,辽宁省,营口市,大石桥市",
+    "mapParentId": 210800,
+    "mapLevelType": 3,
+    "mapPinYin": "Dashiqiao",
+    "mapZipCode": 115100
+}, {
+    "id": 210902,
+    "mapName": "海州区",
+    "mapAbbreviation": "海州",
+    "mapMergerName": "中国,辽宁省,阜新市,海州区",
+    "mapParentId": 210900,
+    "mapLevelType": 3,
+    "mapPinYin": "Haizhou",
+    "mapZipCode": 123000
+}, {
+    "id": 210903,
+    "mapName": "新邱区",
+    "mapAbbreviation": "新邱",
+    "mapMergerName": "中国,辽宁省,阜新市,新邱区",
+    "mapParentId": 210900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinqiu",
+    "mapZipCode": 123005
+}, {
+    "id": 210904,
+    "mapName": "太平区",
+    "mapAbbreviation": "太平",
+    "mapMergerName": "中国,辽宁省,阜新市,太平区",
+    "mapParentId": 210900,
+    "mapLevelType": 3,
+    "mapPinYin": "Taiping",
+    "mapZipCode": 123003
+}, {
+    "id": 210905,
+    "mapName": "清河门区",
+    "mapAbbreviation": "清河门",
+    "mapMergerName": "中国,辽宁省,阜新市,清河门区",
+    "mapParentId": 210900,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinghemen",
+    "mapZipCode": 123006
+}, {
+    "id": 210911,
+    "mapName": "细河区",
+    "mapAbbreviation": "细河",
+    "mapMergerName": "中国,辽宁省,阜新市,细河区",
+    "mapParentId": 210900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xihe",
+    "mapZipCode": 123000
+}, {
+    "id": 210921,
+    "mapName": "阜新蒙古族自治县",
+    "mapAbbreviation": "阜新",
+    "mapMergerName": "中国,辽宁省,阜新市,阜新蒙古族自治县",
+    "mapParentId": 210900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuxin",
+    "mapZipCode": 123100
+}, {
+    "id": 210922,
+    "mapName": "彰武县",
+    "mapAbbreviation": "彰武",
+    "mapMergerName": "中国,辽宁省,阜新市,彰武县",
+    "mapParentId": 210900,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangwu",
+    "mapZipCode": 123200
+}, {
+    "id": 211002,
+    "mapName": "白塔区",
+    "mapAbbreviation": "白塔",
+    "mapMergerName": "中国,辽宁省,辽阳市,白塔区",
+    "mapParentId": 211000,
+    "mapLevelType": 3,
+    "mapPinYin": "Baita",
+    "mapZipCode": 111000
+}, {
+    "id": 211003,
+    "mapName": "文圣区",
+    "mapAbbreviation": "文圣",
+    "mapMergerName": "中国,辽宁省,辽阳市,文圣区",
+    "mapParentId": 211000,
+    "mapLevelType": 3,
+    "mapPinYin": "Wensheng",
+    "mapZipCode": 111000
+}, {
+    "id": 211004,
+    "mapName": "宏伟区",
+    "mapAbbreviation": "宏伟",
+    "mapMergerName": "中国,辽宁省,辽阳市,宏伟区",
+    "mapParentId": 211000,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongwei",
+    "mapZipCode": 111003
+}, {
+    "id": 211005,
+    "mapName": "弓长岭区",
+    "mapAbbreviation": "弓长岭",
+    "mapMergerName": "中国,辽宁省,辽阳市,弓长岭区",
+    "mapParentId": 211000,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongchangling",
+    "mapZipCode": 111008
+}, {
+    "id": 211011,
+    "mapName": "太子河区",
+    "mapAbbreviation": "太子河",
+    "mapMergerName": "中国,辽宁省,辽阳市,太子河区",
+    "mapParentId": 211000,
+    "mapLevelType": 3,
+    "mapPinYin": "Taizihe",
+    "mapZipCode": 111000
+}, {
+    "id": 211021,
+    "mapName": "辽阳县",
+    "mapAbbreviation": "辽阳",
+    "mapMergerName": "中国,辽宁省,辽阳市,辽阳县",
+    "mapParentId": 211000,
+    "mapLevelType": 3,
+    "mapPinYin": "Liaoyang",
+    "mapZipCode": 111200
+}, {
+    "id": 211081,
+    "mapName": "灯塔市",
+    "mapAbbreviation": "灯塔",
+    "mapMergerName": "中国,辽宁省,辽阳市,灯塔市",
+    "mapParentId": 211000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dengta",
+    "mapZipCode": 111300
+}, {
+    "id": 211102,
+    "mapName": "双台子区",
+    "mapAbbreviation": "双台子",
+    "mapMergerName": "中国,辽宁省,盘锦市,双台子区",
+    "mapParentId": 211100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangtaizi",
+    "mapZipCode": 124000
+}, {
+    "id": 211103,
+    "mapName": "兴隆台区",
+    "mapAbbreviation": "兴隆台",
+    "mapMergerName": "中国,辽宁省,盘锦市,兴隆台区",
+    "mapParentId": 211100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinglongtai",
+    "mapZipCode": 124010
+}, {
+    "id": 211121,
+    "mapName": "大洼县",
+    "mapAbbreviation": "大洼",
+    "mapMergerName": "中国,辽宁省,盘锦市,大洼县",
+    "mapParentId": 211100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dawa",
+    "mapZipCode": 124200
+}, {
+    "id": 211122,
+    "mapName": "盘山县",
+    "mapAbbreviation": "盘山",
+    "mapMergerName": "中国,辽宁省,盘锦市,盘山县",
+    "mapParentId": 211100,
+    "mapLevelType": 3,
+    "mapPinYin": "Panshan",
+    "mapZipCode": 124000
+}, {
+    "id": 211202,
+    "mapName": "银州区",
+    "mapAbbreviation": "银州",
+    "mapMergerName": "中国,辽宁省,铁岭市,银州区",
+    "mapParentId": 211200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yinzhou",
+    "mapZipCode": 112000
+}, {
+    "id": 211204,
+    "mapName": "清河区",
+    "mapAbbreviation": "清河",
+    "mapMergerName": "中国,辽宁省,铁岭市,清河区",
+    "mapParentId": 211200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinghe",
+    "mapZipCode": 112003
+}, {
+    "id": 211221,
+    "mapName": "铁岭县",
+    "mapAbbreviation": "铁岭",
+    "mapMergerName": "中国,辽宁省,铁岭市,铁岭县",
+    "mapParentId": 211200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tieling",
+    "mapZipCode": 112000
+}, {
+    "id": 211223,
+    "mapName": "西丰县",
+    "mapAbbreviation": "西丰",
+    "mapMergerName": "中国,辽宁省,铁岭市,西丰县",
+    "mapParentId": 211200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xifeng",
+    "mapZipCode": 112400
+}, {
+    "id": 211224,
+    "mapName": "昌图县",
+    "mapAbbreviation": "昌图",
+    "mapMergerName": "中国,辽宁省,铁岭市,昌图县",
+    "mapParentId": 211200,
+    "mapLevelType": 3,
+    "mapPinYin": "Changtu",
+    "mapZipCode": 112500
+}, {
+    "id": 211281,
+    "mapName": "调兵山市",
+    "mapAbbreviation": "调兵山",
+    "mapMergerName": "中国,辽宁省,铁岭市,调兵山市",
+    "mapParentId": 211200,
+    "mapLevelType": 3,
+    "mapPinYin": "Diaobingshan",
+    "mapZipCode": 112700
+}, {
+    "id": 211282,
+    "mapName": "开原市",
+    "mapAbbreviation": "开原",
+    "mapMergerName": "中国,辽宁省,铁岭市,开原市",
+    "mapParentId": 211200,
+    "mapLevelType": 3,
+    "mapPinYin": "Kaiyuan",
+    "mapZipCode": 112300
+}, {
+    "id": 211302,
+    "mapName": "双塔区",
+    "mapAbbreviation": "双塔",
+    "mapMergerName": "中国,辽宁省,朝阳市,双塔区",
+    "mapParentId": 211300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangta",
+    "mapZipCode": 122000
+}, {
+    "id": 211303,
+    "mapName": "龙城区",
+    "mapAbbreviation": "龙城",
+    "mapMergerName": "中国,辽宁省,朝阳市,龙城区",
+    "mapParentId": 211300,
+    "mapLevelType": 3,
+    "mapPinYin": "Longcheng",
+    "mapZipCode": 122000
+}, {
+    "id": 211321,
+    "mapName": "朝阳县",
+    "mapAbbreviation": "朝阳",
+    "mapMergerName": "中国,辽宁省,朝阳市,朝阳县",
+    "mapParentId": 211300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chaoyang",
+    "mapZipCode": 122000
+}, {
+    "id": 211322,
+    "mapName": "建平县",
+    "mapAbbreviation": "建平",
+    "mapMergerName": "中国,辽宁省,朝阳市,建平县",
+    "mapParentId": 211300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianping",
+    "mapZipCode": 122400
+}, {
+    "id": 211324,
+    "mapName": "喀喇沁左翼蒙古族自治县",
+    "mapAbbreviation": "喀喇沁左翼",
+    "mapMergerName": "中国,辽宁省,朝阳市,喀喇沁左翼蒙古族自治县",
+    "mapParentId": 211300,
+    "mapLevelType": 3,
+    "mapPinYin": "Kalaqinzuoyi",
+    "mapZipCode": 122300
+}, {
+    "id": 211381,
+    "mapName": "北票市",
+    "mapAbbreviation": "北票",
+    "mapMergerName": "中国,辽宁省,朝阳市,北票市",
+    "mapParentId": 211300,
+    "mapLevelType": 3,
+    "mapPinYin": "Beipiao",
+    "mapZipCode": 122100
+}, {
+    "id": 211382,
+    "mapName": "凌源市",
+    "mapAbbreviation": "凌源",
+    "mapMergerName": "中国,辽宁省,朝阳市,凌源市",
+    "mapParentId": 211300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingyuan",
+    "mapZipCode": 122500
+}, {
+    "id": 211402,
+    "mapName": "连山区",
+    "mapAbbreviation": "连山",
+    "mapMergerName": "中国,辽宁省,葫芦岛市,连山区",
+    "mapParentId": 211400,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianshan",
+    "mapZipCode": 125001
+}, {
+    "id": 211403,
+    "mapName": "龙港区",
+    "mapAbbreviation": "龙港",
+    "mapMergerName": "中国,辽宁省,葫芦岛市,龙港区",
+    "mapParentId": 211400,
+    "mapLevelType": 3,
+    "mapPinYin": "Longgang",
+    "mapZipCode": 125003
+}, {
+    "id": 211404,
+    "mapName": "南票区",
+    "mapAbbreviation": "南票",
+    "mapMergerName": "中国,辽宁省,葫芦岛市,南票区",
+    "mapParentId": 211400,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanpiao",
+    "mapZipCode": 125027
+}, {
+    "id": 211421,
+    "mapName": "绥中县",
+    "mapAbbreviation": "绥中",
+    "mapMergerName": "中国,辽宁省,葫芦岛市,绥中县",
+    "mapParentId": 211400,
+    "mapLevelType": 3,
+    "mapPinYin": "Suizhong",
+    "mapZipCode": 125200
+}, {
+    "id": 211422,
+    "mapName": "建昌县",
+    "mapAbbreviation": "建昌",
+    "mapMergerName": "中国,辽宁省,葫芦岛市,建昌县",
+    "mapParentId": 211400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianchang",
+    "mapZipCode": 125300
+}, {
+    "id": 211481,
+    "mapName": "兴城市",
+    "mapAbbreviation": "兴城",
+    "mapMergerName": "中国,辽宁省,葫芦岛市,兴城市",
+    "mapParentId": 211400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingcheng",
+    "mapZipCode": 125100
+}, {
+    "id": 211501,
+    "mapName": "金州新区",
+    "mapAbbreviation": "金州新区",
+    "mapMergerName": "中国,辽宁省,金普新区,金州新区",
+    "mapParentId": 211500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinzhouxinqu",
+    "mapZipCode": 116100
+}, {
+    "id": 211502,
+    "mapName": "普湾新区",
+    "mapAbbreviation": "普湾新区",
+    "mapMergerName": "中国,辽宁省,金普新区,普湾新区",
+    "mapParentId": 211500,
+    "mapLevelType": 3,
+    "mapPinYin": "Puwanxinqu",
+    "mapZipCode": 116200
+}, {
+    "id": 211503,
+    "mapName": "保税区",
+    "mapAbbreviation": "保税区",
+    "mapMergerName": "中国,辽宁省,金普新区,保税区",
+    "mapParentId": 211500,
+    "mapLevelType": 3,
+    "mapPinYin": "Baoshuiqu",
+    "mapZipCode": 116100
+}, {
+    "id": 220102,
+    "mapName": "南关区",
+    "mapAbbreviation": "南关",
+    "mapMergerName": "中国,吉林省,长春市,南关区",
+    "mapParentId": 220100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanguan",
+    "mapZipCode": 130022
+}, {
+    "id": 220103,
+    "mapName": "宽城区",
+    "mapAbbreviation": "宽城",
+    "mapMergerName": "中国,吉林省,长春市,宽城区",
+    "mapParentId": 220100,
+    "mapLevelType": 3,
+    "mapPinYin": "Kuancheng",
+    "mapZipCode": 130051
+}, {
+    "id": 220104,
+    "mapName": "朝阳区",
+    "mapAbbreviation": "朝阳",
+    "mapMergerName": "中国,吉林省,长春市,朝阳区",
+    "mapParentId": 220100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chaoyang",
+    "mapZipCode": 130012
+}, {
+    "id": 220105,
+    "mapName": "二道区",
+    "mapAbbreviation": "二道",
+    "mapMergerName": "中国,吉林省,长春市,二道区",
+    "mapParentId": 220100,
+    "mapLevelType": 3,
+    "mapPinYin": "Erdao",
+    "mapZipCode": 130031
+}, {
+    "id": 220106,
+    "mapName": "绿园区",
+    "mapAbbreviation": "绿园",
+    "mapMergerName": "中国,吉林省,长春市,绿园区",
+    "mapParentId": 220100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lvyuan",
+    "mapZipCode": 130062
+}, {
+    "id": 220112,
+    "mapName": "双阳区",
+    "mapAbbreviation": "双阳",
+    "mapMergerName": "中国,吉林省,长春市,双阳区",
+    "mapParentId": 220100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangyang",
+    "mapZipCode": 130600
+}, {
+    "id": 220113,
+    "mapName": "九台区",
+    "mapAbbreviation": "九台",
+    "mapMergerName": "中国,吉林省,长春市,九台区",
+    "mapParentId": 220100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiutai",
+    "mapZipCode": 130500
+}, {
+    "id": 220122,
+    "mapName": "农安县",
+    "mapAbbreviation": "农安",
+    "mapMergerName": "中国,吉林省,长春市,农安县",
+    "mapParentId": 220100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nong'an",
+    "mapZipCode": 130200
+}, {
+    "id": 220182,
+    "mapName": "榆树市",
+    "mapAbbreviation": "榆树",
+    "mapMergerName": "中国,吉林省,长春市,榆树市",
+    "mapParentId": 220100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yushu",
+    "mapZipCode": 130400
+}, {
+    "id": 220183,
+    "mapName": "德惠市",
+    "mapAbbreviation": "德惠",
+    "mapMergerName": "中国,吉林省,长春市,德惠市",
+    "mapParentId": 220100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dehui",
+    "mapZipCode": 130300
+}, {
+    "id": 220202,
+    "mapName": "昌邑区",
+    "mapAbbreviation": "昌邑",
+    "mapMergerName": "中国,吉林省,吉林市,昌邑区",
+    "mapParentId": 220200,
+    "mapLevelType": 3,
+    "mapPinYin": "Changyi",
+    "mapZipCode": 132002
+}, {
+    "id": 220203,
+    "mapName": "龙潭区",
+    "mapAbbreviation": "龙潭",
+    "mapMergerName": "中国,吉林省,吉林市,龙潭区",
+    "mapParentId": 220200,
+    "mapLevelType": 3,
+    "mapPinYin": "Longtan",
+    "mapZipCode": 132021
+}, {
+    "id": 220204,
+    "mapName": "船营区",
+    "mapAbbreviation": "船营",
+    "mapMergerName": "中国,吉林省,吉林市,船营区",
+    "mapParentId": 220200,
+    "mapLevelType": 3,
+    "mapPinYin": "Chuanying",
+    "mapZipCode": 132011
+}, {
+    "id": 220211,
+    "mapName": "丰满区",
+    "mapAbbreviation": "丰满",
+    "mapMergerName": "中国,吉林省,吉林市,丰满区",
+    "mapParentId": 220200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengman",
+    "mapZipCode": 132013
+}, {
+    "id": 220221,
+    "mapName": "永吉县",
+    "mapAbbreviation": "永吉",
+    "mapMergerName": "中国,吉林省,吉林市,永吉县",
+    "mapParentId": 220200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongji",
+    "mapZipCode": 132200
+}, {
+    "id": 220281,
+    "mapName": "蛟河市",
+    "mapAbbreviation": "蛟河",
+    "mapMergerName": "中国,吉林省,吉林市,蛟河市",
+    "mapParentId": 220200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaohe",
+    "mapZipCode": 132500
+}, {
+    "id": 220282,
+    "mapName": "桦甸市",
+    "mapAbbreviation": "桦甸",
+    "mapMergerName": "中国,吉林省,吉林市,桦甸市",
+    "mapParentId": 220200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huadian",
+    "mapZipCode": 132400
+}, {
+    "id": 220283,
+    "mapName": "舒兰市",
+    "mapAbbreviation": "舒兰",
+    "mapMergerName": "中国,吉林省,吉林市,舒兰市",
+    "mapParentId": 220200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shulan",
+    "mapZipCode": 132600
+}, {
+    "id": 220284,
+    "mapName": "磐石市",
+    "mapAbbreviation": "磐石",
+    "mapMergerName": "中国,吉林省,吉林市,磐石市",
+    "mapParentId": 220200,
+    "mapLevelType": 3,
+    "mapPinYin": "Panshi",
+    "mapZipCode": 132300
+}, {
+    "id": 220302,
+    "mapName": "铁西区",
+    "mapAbbreviation": "铁西",
+    "mapMergerName": "中国,吉林省,四平市,铁西区",
+    "mapParentId": 220300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiexi",
+    "mapZipCode": 136000
+}, {
+    "id": 220303,
+    "mapName": "铁东区",
+    "mapAbbreviation": "铁东",
+    "mapMergerName": "中国,吉林省,四平市,铁东区",
+    "mapParentId": 220300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiedong",
+    "mapZipCode": 136001
+}, {
+    "id": 220322,
+    "mapName": "梨树县",
+    "mapAbbreviation": "梨树",
+    "mapMergerName": "中国,吉林省,四平市,梨树县",
+    "mapParentId": 220300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lishu",
+    "mapZipCode": 136500
+}, {
+    "id": 220323,
+    "mapName": "伊通满族自治县",
+    "mapAbbreviation": "伊通",
+    "mapMergerName": "中国,吉林省,四平市,伊通满族自治县",
+    "mapParentId": 220300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yitong",
+    "mapZipCode": 130700
+}, {
+    "id": 220381,
+    "mapName": "公主岭市",
+    "mapAbbreviation": "公主岭",
+    "mapMergerName": "中国,吉林省,四平市,公主岭市",
+    "mapParentId": 220300,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongzhuling",
+    "mapZipCode": 136100
+}, {
+    "id": 220382,
+    "mapName": "双辽市",
+    "mapAbbreviation": "双辽",
+    "mapMergerName": "中国,吉林省,四平市,双辽市",
+    "mapParentId": 220300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangliao",
+    "mapZipCode": 136400
+}, {
+    "id": 220402,
+    "mapName": "龙山区",
+    "mapAbbreviation": "龙山",
+    "mapMergerName": "中国,吉林省,辽源市,龙山区",
+    "mapParentId": 220400,
+    "mapLevelType": 3,
+    "mapPinYin": "Longshan",
+    "mapZipCode": 136200
+}, {
+    "id": 220403,
+    "mapName": "西安区",
+    "mapAbbreviation": "西安",
+    "mapMergerName": "中国,吉林省,辽源市,西安区",
+    "mapParentId": 220400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xi'an",
+    "mapZipCode": 136201
+}, {
+    "id": 220421,
+    "mapName": "东丰县",
+    "mapAbbreviation": "东丰",
+    "mapMergerName": "中国,吉林省,辽源市,东丰县",
+    "mapParentId": 220400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongfeng",
+    "mapZipCode": 136300
+}, {
+    "id": 220422,
+    "mapName": "东辽县",
+    "mapAbbreviation": "东辽",
+    "mapMergerName": "中国,吉林省,辽源市,东辽县",
+    "mapParentId": 220400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongliao",
+    "mapZipCode": 136600
+}, {
+    "id": 220502,
+    "mapName": "东昌区",
+    "mapAbbreviation": "东昌",
+    "mapMergerName": "中国,吉林省,通化市,东昌区",
+    "mapParentId": 220500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongchang",
+    "mapZipCode": 134001
+}, {
+    "id": 220503,
+    "mapName": "二道江区",
+    "mapAbbreviation": "二道江",
+    "mapMergerName": "中国,吉林省,通化市,二道江区",
+    "mapParentId": 220500,
+    "mapLevelType": 3,
+    "mapPinYin": "Erdaojiang",
+    "mapZipCode": 134003
+}, {
+    "id": 220521,
+    "mapName": "通化县",
+    "mapAbbreviation": "通化",
+    "mapMergerName": "中国,吉林省,通化市,通化县",
+    "mapParentId": 220500,
+    "mapLevelType": 3,
+    "mapPinYin": "Tonghua",
+    "mapZipCode": 134100
+}, {
+    "id": 220523,
+    "mapName": "辉南县",
+    "mapAbbreviation": "辉南",
+    "mapMergerName": "中国,吉林省,通化市,辉南县",
+    "mapParentId": 220500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huinan",
+    "mapZipCode": 135100
+}, {
+    "id": 220524,
+    "mapName": "柳河县",
+    "mapAbbreviation": "柳河",
+    "mapMergerName": "中国,吉林省,通化市,柳河县",
+    "mapParentId": 220500,
+    "mapLevelType": 3,
+    "mapPinYin": "Liuhe",
+    "mapZipCode": 135300
+}, {
+    "id": 220581,
+    "mapName": "梅河口市",
+    "mapAbbreviation": "梅河口",
+    "mapMergerName": "中国,吉林省,通化市,梅河口市",
+    "mapParentId": 220500,
+    "mapLevelType": 3,
+    "mapPinYin": "Meihekou",
+    "mapZipCode": 135000
+}, {
+    "id": 220582,
+    "mapName": "集安市",
+    "mapAbbreviation": "集安",
+    "mapMergerName": "中国,吉林省,通化市,集安市",
+    "mapParentId": 220500,
+    "mapLevelType": 3,
+    "mapPinYin": "Ji'an",
+    "mapZipCode": 134200
+}, {
+    "id": 220602,
+    "mapName": "浑江区",
+    "mapAbbreviation": "浑江",
+    "mapMergerName": "中国,吉林省,白山市,浑江区",
+    "mapParentId": 220600,
+    "mapLevelType": 3,
+    "mapPinYin": "Hunjiang",
+    "mapZipCode": 134300
+}, {
+    "id": 220605,
+    "mapName": "江源区",
+    "mapAbbreviation": "江源",
+    "mapMergerName": "中国,吉林省,白山市,江源区",
+    "mapParentId": 220600,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangyuan",
+    "mapZipCode": 134700
+}, {
+    "id": 220621,
+    "mapName": "抚松县",
+    "mapAbbreviation": "抚松",
+    "mapMergerName": "中国,吉林省,白山市,抚松县",
+    "mapParentId": 220600,
+    "mapLevelType": 3,
+    "mapPinYin": "Fusong",
+    "mapZipCode": 134500
+}, {
+    "id": 220622,
+    "mapName": "靖宇县",
+    "mapAbbreviation": "靖宇",
+    "mapMergerName": "中国,吉林省,白山市,靖宇县",
+    "mapParentId": 220600,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingyu",
+    "mapZipCode": 135200
+}, {
+    "id": 220623,
+    "mapName": "长白朝鲜族自治县",
+    "mapAbbreviation": "长白",
+    "mapMergerName": "中国,吉林省,白山市,长白朝鲜族自治县",
+    "mapParentId": 220600,
+    "mapLevelType": 3,
+    "mapPinYin": "Changbai",
+    "mapZipCode": 134400
+}, {
+    "id": 220681,
+    "mapName": "临江市",
+    "mapAbbreviation": "临江",
+    "mapMergerName": "中国,吉林省,白山市,临江市",
+    "mapParentId": 220600,
+    "mapLevelType": 3,
+    "mapPinYin": "Linjiang",
+    "mapZipCode": 134600
+}, {
+    "id": 220702,
+    "mapName": "宁江区",
+    "mapAbbreviation": "宁江",
+    "mapMergerName": "中国,吉林省,松原市,宁江区",
+    "mapParentId": 220700,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningjiang",
+    "mapZipCode": 138000
+}, {
+    "id": 220721,
+    "mapName": "前郭尔罗斯蒙古族自治县",
+    "mapAbbreviation": "前郭尔罗斯",
+    "mapMergerName": "中国,吉林省,松原市,前郭尔罗斯蒙古族自治县",
+    "mapParentId": 220700,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianguoerluosi",
+    "mapZipCode": 138000
+}, {
+    "id": 220722,
+    "mapName": "长岭县",
+    "mapAbbreviation": "长岭",
+    "mapMergerName": "中国,吉林省,松原市,长岭县",
+    "mapParentId": 220700,
+    "mapLevelType": 3,
+    "mapPinYin": "Changling",
+    "mapZipCode": 131500
+}, {
+    "id": 220723,
+    "mapName": "乾安县",
+    "mapAbbreviation": "乾安",
+    "mapMergerName": "中国,吉林省,松原市,乾安县",
+    "mapParentId": 220700,
+    "mapLevelType": 3,
+    "mapPinYin": "Qian'an",
+    "mapZipCode": 131400
+}, {
+    "id": 220781,
+    "mapName": "扶余市",
+    "mapAbbreviation": "扶余",
+    "mapMergerName": "中国,吉林省,松原市,扶余市",
+    "mapParentId": 220700,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuyu",
+    "mapZipCode": 131200
+}, {
+    "id": 220802,
+    "mapName": "洮北区",
+    "mapAbbreviation": "洮北",
+    "mapMergerName": "中国,吉林省,白城市,洮北区",
+    "mapParentId": 220800,
+    "mapLevelType": 3,
+    "mapPinYin": "Taobei",
+    "mapZipCode": 137000
+}, {
+    "id": 220821,
+    "mapName": "镇赉县",
+    "mapAbbreviation": "镇赉",
+    "mapMergerName": "中国,吉林省,白城市,镇赉县",
+    "mapParentId": 220800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenlai",
+    "mapZipCode": 137300
+}, {
+    "id": 220822,
+    "mapName": "通榆县",
+    "mapAbbreviation": "通榆",
+    "mapMergerName": "中国,吉林省,白城市,通榆县",
+    "mapParentId": 220800,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongyu",
+    "mapZipCode": 137200
+}, {
+    "id": 220881,
+    "mapName": "洮南市",
+    "mapAbbreviation": "洮南",
+    "mapMergerName": "中国,吉林省,白城市,洮南市",
+    "mapParentId": 220800,
+    "mapLevelType": 3,
+    "mapPinYin": "Taonan",
+    "mapZipCode": 137100
+}, {
+    "id": 220882,
+    "mapName": "大安市",
+    "mapAbbreviation": "大安",
+    "mapMergerName": "中国,吉林省,白城市,大安市",
+    "mapParentId": 220800,
+    "mapLevelType": 3,
+    "mapPinYin": "Da'an",
+    "mapZipCode": 131300
+}, {
+    "id": 222401,
+    "mapName": "延吉市",
+    "mapAbbreviation": "延吉",
+    "mapMergerName": "中国,吉林省,延边朝鲜族自治州,延吉市",
+    "mapParentId": 222400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanji",
+    "mapZipCode": 133000
+}, {
+    "id": 222402,
+    "mapName": "图们市",
+    "mapAbbreviation": "图们",
+    "mapMergerName": "中国,吉林省,延边朝鲜族自治州,图们市",
+    "mapParentId": 222400,
+    "mapLevelType": 3,
+    "mapPinYin": "Tumen",
+    "mapZipCode": 133100
+}, {
+    "id": 222403,
+    "mapName": "敦化市",
+    "mapAbbreviation": "敦化",
+    "mapMergerName": "中国,吉林省,延边朝鲜族自治州,敦化市",
+    "mapParentId": 222400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dunhua",
+    "mapZipCode": 133700
+}, {
+    "id": 222404,
+    "mapName": "珲春市",
+    "mapAbbreviation": "珲春",
+    "mapMergerName": "中国,吉林省,延边朝鲜族自治州,珲春市",
+    "mapParentId": 222400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hunchun",
+    "mapZipCode": 133300
+}, {
+    "id": 222405,
+    "mapName": "龙井市",
+    "mapAbbreviation": "龙井",
+    "mapMergerName": "中国,吉林省,延边朝鲜族自治州,龙井市",
+    "mapParentId": 222400,
+    "mapLevelType": 3,
+    "mapPinYin": "Longjing",
+    "mapZipCode": 133400
+}, {
+    "id": 222406,
+    "mapName": "和龙市",
+    "mapAbbreviation": "和龙",
+    "mapMergerName": "中国,吉林省,延边朝鲜族自治州,和龙市",
+    "mapParentId": 222400,
+    "mapLevelType": 3,
+    "mapPinYin": "Helong",
+    "mapZipCode": 133500
+}, {
+    "id": 222424,
+    "mapName": "汪清县",
+    "mapAbbreviation": "汪清",
+    "mapMergerName": "中国,吉林省,延边朝鲜族自治州,汪清县",
+    "mapParentId": 222400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wangqing",
+    "mapZipCode": 133200
+}, {
+    "id": 222426,
+    "mapName": "安图县",
+    "mapAbbreviation": "安图",
+    "mapMergerName": "中国,吉林省,延边朝鲜族自治州,安图县",
+    "mapParentId": 222400,
+    "mapLevelType": 3,
+    "mapPinYin": "Antu",
+    "mapZipCode": 133600
+}, {
+    "id": 230102,
+    "mapName": "道里区",
+    "mapAbbreviation": "道里",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,道里区",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Daoli",
+    "mapZipCode": 150010
+}, {
+    "id": 230103,
+    "mapName": "南岗区",
+    "mapAbbreviation": "南岗",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,南岗区",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nangang",
+    "mapZipCode": 150006
+}, {
+    "id": 230104,
+    "mapName": "道外区",
+    "mapAbbreviation": "道外",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,道外区",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Daowai",
+    "mapZipCode": 150020
+}, {
+    "id": 230108,
+    "mapName": "平房区",
+    "mapAbbreviation": "平房",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,平房区",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingfang",
+    "mapZipCode": 150060
+}, {
+    "id": 230109,
+    "mapName": "松北区",
+    "mapAbbreviation": "松北",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,松北区",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Songbei",
+    "mapZipCode": 150028
+}, {
+    "id": 230110,
+    "mapName": "香坊区",
+    "mapAbbreviation": "香坊",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,香坊区",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangfang",
+    "mapZipCode": 150036
+}, {
+    "id": 230111,
+    "mapName": "呼兰区",
+    "mapAbbreviation": "呼兰",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,呼兰区",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hulan",
+    "mapZipCode": 150500
+}, {
+    "id": 230112,
+    "mapName": "阿城区",
+    "mapAbbreviation": "阿城",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,阿城区",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "A'cheng",
+    "mapZipCode": 150300
+}, {
+    "id": 230113,
+    "mapName": "双城区",
+    "mapAbbreviation": "双城",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,双城区",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangcheng",
+    "mapZipCode": 150100
+}, {
+    "id": 230123,
+    "mapName": "依兰县",
+    "mapAbbreviation": "依兰",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,依兰县",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yilan",
+    "mapZipCode": 154800
+}, {
+    "id": 230124,
+    "mapName": "方正县",
+    "mapAbbreviation": "方正",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,方正县",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fangzheng",
+    "mapZipCode": 150800
+}, {
+    "id": 230125,
+    "mapName": "宾县",
+    "mapAbbreviation": "宾县",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,宾县",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Binxian",
+    "mapZipCode": 150400
+}, {
+    "id": 230126,
+    "mapName": "巴彦县",
+    "mapAbbreviation": "巴彦",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,巴彦县",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Bayan",
+    "mapZipCode": 151800
+}, {
+    "id": 230127,
+    "mapName": "木兰县",
+    "mapAbbreviation": "木兰",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,木兰县",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Mulan",
+    "mapZipCode": 151900
+}, {
+    "id": 230128,
+    "mapName": "通河县",
+    "mapAbbreviation": "通河",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,通河县",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tonghe",
+    "mapZipCode": 150900
+}, {
+    "id": 230129,
+    "mapName": "延寿县",
+    "mapAbbreviation": "延寿",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,延寿县",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanshou",
+    "mapZipCode": 150700
+}, {
+    "id": 230183,
+    "mapName": "尚志市",
+    "mapAbbreviation": "尚志",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,尚志市",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangzhi",
+    "mapZipCode": 150600
+}, {
+    "id": 230184,
+    "mapName": "五常市",
+    "mapAbbreviation": "五常",
+    "mapMergerName": "中国,黑龙江省,哈尔滨市,五常市",
+    "mapParentId": 230100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuchang",
+    "mapZipCode": 150200
+}, {
+    "id": 230202,
+    "mapName": "龙沙区",
+    "mapAbbreviation": "龙沙",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,龙沙区",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Longsha",
+    "mapZipCode": 161000
+}, {
+    "id": 230203,
+    "mapName": "建华区",
+    "mapAbbreviation": "建华",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,建华区",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianhua",
+    "mapZipCode": 161006
+}, {
+    "id": 230204,
+    "mapName": "铁锋区",
+    "mapAbbreviation": "铁锋",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,铁锋区",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiefeng",
+    "mapZipCode": 161000
+}, {
+    "id": 230205,
+    "mapName": "昂昂溪区",
+    "mapAbbreviation": "昂昂溪",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,昂昂溪区",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Angangxi",
+    "mapZipCode": 161031
+}, {
+    "id": 230206,
+    "mapName": "富拉尔基区",
+    "mapAbbreviation": "富拉尔基",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,富拉尔基区",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fulaerji",
+    "mapZipCode": 161041
+}, {
+    "id": 230207,
+    "mapName": "碾子山区",
+    "mapAbbreviation": "碾子山",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,碾子山区",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nianzishan",
+    "mapZipCode": 161046
+}, {
+    "id": 230208,
+    "mapName": "梅里斯达斡尔族区",
+    "mapAbbreviation": "梅里斯",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,梅里斯达斡尔族区",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Meilisi",
+    "mapZipCode": 161021
+}, {
+    "id": 230221,
+    "mapName": "龙江县",
+    "mapAbbreviation": "龙江",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,龙江县",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Longjiang",
+    "mapZipCode": 161100
+}, {
+    "id": 230223,
+    "mapName": "依安县",
+    "mapAbbreviation": "依安",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,依安县",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yi'an",
+    "mapZipCode": 161500
+}, {
+    "id": 230224,
+    "mapName": "泰来县",
+    "mapAbbreviation": "泰来",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,泰来县",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tailai",
+    "mapZipCode": 162400
+}, {
+    "id": 230225,
+    "mapName": "甘南县",
+    "mapAbbreviation": "甘南",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,甘南县",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Gannan",
+    "mapZipCode": 162100
+}, {
+    "id": 230227,
+    "mapName": "富裕县",
+    "mapAbbreviation": "富裕",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,富裕县",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuyu",
+    "mapZipCode": 161200
+}, {
+    "id": 230229,
+    "mapName": "克山县",
+    "mapAbbreviation": "克山",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,克山县",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Keshan",
+    "mapZipCode": 161600
+}, {
+    "id": 230230,
+    "mapName": "克东县",
+    "mapAbbreviation": "克东",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,克东县",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Kedong",
+    "mapZipCode": 164800
+}, {
+    "id": 230231,
+    "mapName": "拜泉县",
+    "mapAbbreviation": "拜泉",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,拜泉县",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Baiquan",
+    "mapZipCode": 164700
+}, {
+    "id": 230281,
+    "mapName": "讷河市",
+    "mapAbbreviation": "讷河",
+    "mapMergerName": "中国,黑龙江省,齐齐哈尔市,讷河市",
+    "mapParentId": 230200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nehe",
+    "mapZipCode": 161300
+}, {
+    "id": 230302,
+    "mapName": "鸡冠区",
+    "mapAbbreviation": "鸡冠",
+    "mapMergerName": "中国,黑龙江省,鸡西市,鸡冠区",
+    "mapParentId": 230300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiguan",
+    "mapZipCode": 158100
+}, {
+    "id": 230303,
+    "mapName": "恒山区",
+    "mapAbbreviation": "恒山",
+    "mapMergerName": "中国,黑龙江省,鸡西市,恒山区",
+    "mapParentId": 230300,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengshan",
+    "mapZipCode": 158130
+}, {
+    "id": 230304,
+    "mapName": "滴道区",
+    "mapAbbreviation": "滴道",
+    "mapMergerName": "中国,黑龙江省,鸡西市,滴道区",
+    "mapParentId": 230300,
+    "mapLevelType": 3,
+    "mapPinYin": "Didao",
+    "mapZipCode": 158150
+}, {
+    "id": 230305,
+    "mapName": "梨树区",
+    "mapAbbreviation": "梨树",
+    "mapMergerName": "中国,黑龙江省,鸡西市,梨树区",
+    "mapParentId": 230300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lishu",
+    "mapZipCode": 158160
+}, {
+    "id": 230306,
+    "mapName": "城子河区",
+    "mapAbbreviation": "城子河",
+    "mapMergerName": "中国,黑龙江省,鸡西市,城子河区",
+    "mapParentId": 230300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengzihe",
+    "mapZipCode": 158170
+}, {
+    "id": 230307,
+    "mapName": "麻山区",
+    "mapAbbreviation": "麻山",
+    "mapMergerName": "中国,黑龙江省,鸡西市,麻山区",
+    "mapParentId": 230300,
+    "mapLevelType": 3,
+    "mapPinYin": "Mashan",
+    "mapZipCode": 158180
+}, {
+    "id": 230321,
+    "mapName": "鸡东县",
+    "mapAbbreviation": "鸡东",
+    "mapMergerName": "中国,黑龙江省,鸡西市,鸡东县",
+    "mapParentId": 230300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jidong",
+    "mapZipCode": 158200
+}, {
+    "id": 230381,
+    "mapName": "虎林市",
+    "mapAbbreviation": "虎林",
+    "mapMergerName": "中国,黑龙江省,鸡西市,虎林市",
+    "mapParentId": 230300,
+    "mapLevelType": 3,
+    "mapPinYin": "Hulin",
+    "mapZipCode": 158400
+}, {
+    "id": 230382,
+    "mapName": "密山市",
+    "mapAbbreviation": "密山",
+    "mapMergerName": "中国,黑龙江省,鸡西市,密山市",
+    "mapParentId": 230300,
+    "mapLevelType": 3,
+    "mapPinYin": "Mishan",
+    "mapZipCode": 158300
+}, {
+    "id": 230402,
+    "mapName": "向阳区",
+    "mapAbbreviation": "向阳",
+    "mapMergerName": "中国,黑龙江省,鹤岗市,向阳区",
+    "mapParentId": 230400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangyang",
+    "mapZipCode": 154100
+}, {
+    "id": 230403,
+    "mapName": "工农区",
+    "mapAbbreviation": "工农",
+    "mapMergerName": "中国,黑龙江省,鹤岗市,工农区",
+    "mapParentId": 230400,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongnong",
+    "mapZipCode": 154101
+}, {
+    "id": 230404,
+    "mapName": "南山区",
+    "mapAbbreviation": "南山",
+    "mapMergerName": "中国,黑龙江省,鹤岗市,南山区",
+    "mapParentId": 230400,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanshan",
+    "mapZipCode": 154104
+}, {
+    "id": 230405,
+    "mapName": "兴安区",
+    "mapAbbreviation": "兴安",
+    "mapMergerName": "中国,黑龙江省,鹤岗市,兴安区",
+    "mapParentId": 230400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xing'an",
+    "mapZipCode": 154102
+}, {
+    "id": 230406,
+    "mapName": "东山区",
+    "mapAbbreviation": "东山",
+    "mapMergerName": "中国,黑龙江省,鹤岗市,东山区",
+    "mapParentId": 230400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongshan",
+    "mapZipCode": 154106
+}, {
+    "id": 230407,
+    "mapName": "兴山区",
+    "mapAbbreviation": "兴山",
+    "mapMergerName": "中国,黑龙江省,鹤岗市,兴山区",
+    "mapParentId": 230400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingshan",
+    "mapZipCode": 154105
+}, {
+    "id": 230421,
+    "mapName": "萝北县",
+    "mapAbbreviation": "萝北",
+    "mapMergerName": "中国,黑龙江省,鹤岗市,萝北县",
+    "mapParentId": 230400,
+    "mapLevelType": 3,
+    "mapPinYin": "Luobei",
+    "mapZipCode": 154200
+}, {
+    "id": 230422,
+    "mapName": "绥滨县",
+    "mapAbbreviation": "绥滨",
+    "mapMergerName": "中国,黑龙江省,鹤岗市,绥滨县",
+    "mapParentId": 230400,
+    "mapLevelType": 3,
+    "mapPinYin": "Suibin",
+    "mapZipCode": 156200
+}, {
+    "id": 230502,
+    "mapName": "尖山区",
+    "mapAbbreviation": "尖山",
+    "mapMergerName": "中国,黑龙江省,双鸭山市,尖山区",
+    "mapParentId": 230500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianshan",
+    "mapZipCode": 155100
+}, {
+    "id": 230503,
+    "mapName": "岭东区",
+    "mapAbbreviation": "岭东",
+    "mapMergerName": "中国,黑龙江省,双鸭山市,岭东区",
+    "mapParentId": 230500,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingdong",
+    "mapZipCode": 155120
+}, {
+    "id": 230505,
+    "mapName": "四方台区",
+    "mapAbbreviation": "四方台",
+    "mapMergerName": "中国,黑龙江省,双鸭山市,四方台区",
+    "mapParentId": 230500,
+    "mapLevelType": 3,
+    "mapPinYin": "Sifangtai",
+    "mapZipCode": 155130
+}, {
+    "id": 230506,
+    "mapName": "宝山区",
+    "mapAbbreviation": "宝山",
+    "mapMergerName": "中国,黑龙江省,双鸭山市,宝山区",
+    "mapParentId": 230500,
+    "mapLevelType": 3,
+    "mapPinYin": "Baoshan",
+    "mapZipCode": 155131
+}, {
+    "id": 230521,
+    "mapName": "集贤县",
+    "mapAbbreviation": "集贤",
+    "mapMergerName": "中国,黑龙江省,双鸭山市,集贤县",
+    "mapParentId": 230500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jixian",
+    "mapZipCode": 155900
+}, {
+    "id": 230522,
+    "mapName": "友谊县",
+    "mapAbbreviation": "友谊",
+    "mapMergerName": "中国,黑龙江省,双鸭山市,友谊县",
+    "mapParentId": 230500,
+    "mapLevelType": 3,
+    "mapPinYin": "Youyi",
+    "mapZipCode": 155800
+}, {
+    "id": 230523,
+    "mapName": "宝清县",
+    "mapAbbreviation": "宝清",
+    "mapMergerName": "中国,黑龙江省,双鸭山市,宝清县",
+    "mapParentId": 230500,
+    "mapLevelType": 3,
+    "mapPinYin": "Baoqing",
+    "mapZipCode": 155600
+}, {
+    "id": 230524,
+    "mapName": "饶河县",
+    "mapAbbreviation": "饶河",
+    "mapMergerName": "中国,黑龙江省,双鸭山市,饶河县",
+    "mapParentId": 230500,
+    "mapLevelType": 3,
+    "mapPinYin": "Raohe",
+    "mapZipCode": 155700
+}, {
+    "id": 230602,
+    "mapName": "萨尔图区",
+    "mapAbbreviation": "萨尔图",
+    "mapMergerName": "中国,黑龙江省,大庆市,萨尔图区",
+    "mapParentId": 230600,
+    "mapLevelType": 3,
+    "mapPinYin": "Saertu",
+    "mapZipCode": 163001
+}, {
+    "id": 230603,
+    "mapName": "龙凤区",
+    "mapAbbreviation": "龙凤",
+    "mapMergerName": "中国,黑龙江省,大庆市,龙凤区",
+    "mapParentId": 230600,
+    "mapLevelType": 3,
+    "mapPinYin": "Longfeng",
+    "mapZipCode": 163711
+}, {
+    "id": 230604,
+    "mapName": "让胡路区",
+    "mapAbbreviation": "让胡路",
+    "mapMergerName": "中国,黑龙江省,大庆市,让胡路区",
+    "mapParentId": 230600,
+    "mapLevelType": 3,
+    "mapPinYin": "Ranghulu",
+    "mapZipCode": 163712
+}, {
+    "id": 230605,
+    "mapName": "红岗区",
+    "mapAbbreviation": "红岗",
+    "mapMergerName": "中国,黑龙江省,大庆市,红岗区",
+    "mapParentId": 230600,
+    "mapLevelType": 3,
+    "mapPinYin": "Honggang",
+    "mapZipCode": 163511
+}, {
+    "id": 230606,
+    "mapName": "大同区",
+    "mapAbbreviation": "大同",
+    "mapMergerName": "中国,黑龙江省,大庆市,大同区",
+    "mapParentId": 230600,
+    "mapLevelType": 3,
+    "mapPinYin": "Datong",
+    "mapZipCode": 163515
+}, {
+    "id": 230621,
+    "mapName": "肇州县",
+    "mapAbbreviation": "肇州",
+    "mapMergerName": "中国,黑龙江省,大庆市,肇州县",
+    "mapParentId": 230600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaozhou",
+    "mapZipCode": 166400
+}, {
+    "id": 230622,
+    "mapName": "肇源县",
+    "mapAbbreviation": "肇源",
+    "mapMergerName": "中国,黑龙江省,大庆市,肇源县",
+    "mapParentId": 230600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaoyuan",
+    "mapZipCode": 166500
+}, {
+    "id": 230623,
+    "mapName": "林甸县",
+    "mapAbbreviation": "林甸",
+    "mapMergerName": "中国,黑龙江省,大庆市,林甸县",
+    "mapParentId": 230600,
+    "mapLevelType": 3,
+    "mapPinYin": "Lindian",
+    "mapZipCode": 166300
+}, {
+    "id": 230624,
+    "mapName": "杜尔伯特蒙古族自治县",
+    "mapAbbreviation": "杜尔伯特",
+    "mapMergerName": "中国,黑龙江省,大庆市,杜尔伯特蒙古族自治县",
+    "mapParentId": 230600,
+    "mapLevelType": 3,
+    "mapPinYin": "Duerbote",
+    "mapZipCode": 166200
+}, {
+    "id": 230702,
+    "mapName": "伊春区",
+    "mapAbbreviation": "伊春",
+    "mapMergerName": "中国,黑龙江省,伊春市,伊春区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yichun",
+    "mapZipCode": 153000
+}, {
+    "id": 230703,
+    "mapName": "南岔区",
+    "mapAbbreviation": "南岔",
+    "mapMergerName": "中国,黑龙江省,伊春市,南岔区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Nancha",
+    "mapZipCode": 153100
+}, {
+    "id": 230704,
+    "mapName": "友好区",
+    "mapAbbreviation": "友好",
+    "mapMergerName": "中国,黑龙江省,伊春市,友好区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Youhao",
+    "mapZipCode": 153031
+}, {
+    "id": 230705,
+    "mapName": "西林区",
+    "mapAbbreviation": "西林",
+    "mapMergerName": "中国,黑龙江省,伊春市,西林区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xilin",
+    "mapZipCode": 153025
+}, {
+    "id": 230706,
+    "mapName": "翠峦区",
+    "mapAbbreviation": "翠峦",
+    "mapMergerName": "中国,黑龙江省,伊春市,翠峦区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Cuiluan",
+    "mapZipCode": 153013
+}, {
+    "id": 230707,
+    "mapName": "新青区",
+    "mapAbbreviation": "新青",
+    "mapMergerName": "中国,黑龙江省,伊春市,新青区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinqing",
+    "mapZipCode": 153036
+}, {
+    "id": 230708,
+    "mapName": "美溪区",
+    "mapAbbreviation": "美溪",
+    "mapMergerName": "中国,黑龙江省,伊春市,美溪区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Meixi",
+    "mapZipCode": 153021
+}, {
+    "id": 230709,
+    "mapName": "金山屯区",
+    "mapAbbreviation": "金山屯",
+    "mapMergerName": "中国,黑龙江省,伊春市,金山屯区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinshantun",
+    "mapZipCode": 153026
+}, {
+    "id": 230710,
+    "mapName": "五营区",
+    "mapAbbreviation": "五营",
+    "mapMergerName": "中国,黑龙江省,伊春市,五营区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuying",
+    "mapZipCode": 153033
+}, {
+    "id": 230711,
+    "mapName": "乌马河区",
+    "mapAbbreviation": "乌马河",
+    "mapMergerName": "中国,黑龙江省,伊春市,乌马河区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wumahe",
+    "mapZipCode": 153011
+}, {
+    "id": 230712,
+    "mapName": "汤旺河区",
+    "mapAbbreviation": "汤旺河",
+    "mapMergerName": "中国,黑龙江省,伊春市,汤旺河区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Tangwanghe",
+    "mapZipCode": 153037
+}, {
+    "id": 230713,
+    "mapName": "带岭区",
+    "mapAbbreviation": "带岭",
+    "mapMergerName": "中国,黑龙江省,伊春市,带岭区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dailing",
+    "mapZipCode": 153106
+}, {
+    "id": 230714,
+    "mapName": "乌伊岭区",
+    "mapAbbreviation": "乌伊岭",
+    "mapMergerName": "中国,黑龙江省,伊春市,乌伊岭区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuyiling",
+    "mapZipCode": 153038
+}, {
+    "id": 230715,
+    "mapName": "红星区",
+    "mapAbbreviation": "红星",
+    "mapMergerName": "中国,黑龙江省,伊春市,红星区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongxing",
+    "mapZipCode": 153035
+}, {
+    "id": 230716,
+    "mapName": "上甘岭区",
+    "mapAbbreviation": "上甘岭",
+    "mapMergerName": "中国,黑龙江省,伊春市,上甘岭区",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangganling",
+    "mapZipCode": 153032
+}, {
+    "id": 230722,
+    "mapName": "嘉荫县",
+    "mapAbbreviation": "嘉荫",
+    "mapMergerName": "中国,黑龙江省,伊春市,嘉荫县",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiayin",
+    "mapZipCode": 153200
+}, {
+    "id": 230781,
+    "mapName": "铁力市",
+    "mapAbbreviation": "铁力",
+    "mapMergerName": "中国,黑龙江省,伊春市,铁力市",
+    "mapParentId": 230700,
+    "mapLevelType": 3,
+    "mapPinYin": "Tieli",
+    "mapZipCode": 152500
+}, {
+    "id": 230803,
+    "mapName": "向阳区",
+    "mapAbbreviation": "向阳",
+    "mapMergerName": "中国,黑龙江省,佳木斯市,向阳区",
+    "mapParentId": 230800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangyang",
+    "mapZipCode": 154002
+}, {
+    "id": 230804,
+    "mapName": "前进区",
+    "mapAbbreviation": "前进",
+    "mapMergerName": "中国,黑龙江省,佳木斯市,前进区",
+    "mapParentId": 230800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianjin",
+    "mapZipCode": 154002
+}, {
+    "id": 230805,
+    "mapName": "东风区",
+    "mapAbbreviation": "东风",
+    "mapMergerName": "中国,黑龙江省,佳木斯市,东风区",
+    "mapParentId": 230800,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongfeng",
+    "mapZipCode": 154005
+}, {
+    "id": 230811,
+    "mapName": "郊区",
+    "mapAbbreviation": "郊区",
+    "mapMergerName": "中国,黑龙江省,佳木斯市,郊区",
+    "mapParentId": 230800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaoqu",
+    "mapZipCode": 154004
+}, {
+    "id": 230822,
+    "mapName": "桦南县",
+    "mapAbbreviation": "桦南",
+    "mapMergerName": "中国,黑龙江省,佳木斯市,桦南县",
+    "mapParentId": 230800,
+    "mapLevelType": 3,
+    "mapPinYin": "Huanan",
+    "mapZipCode": 154400
+}, {
+    "id": 230826,
+    "mapName": "桦川县",
+    "mapAbbreviation": "桦川",
+    "mapMergerName": "中国,黑龙江省,佳木斯市,桦川县",
+    "mapParentId": 230800,
+    "mapLevelType": 3,
+    "mapPinYin": "Huachuan",
+    "mapZipCode": 154300
+}, {
+    "id": 230828,
+    "mapName": "汤原县",
+    "mapAbbreviation": "汤原",
+    "mapMergerName": "中国,黑龙江省,佳木斯市,汤原县",
+    "mapParentId": 230800,
+    "mapLevelType": 3,
+    "mapPinYin": "Tangyuan",
+    "mapZipCode": 154700
+}, {
+    "id": 230833,
+    "mapName": "抚远县",
+    "mapAbbreviation": "抚远",
+    "mapMergerName": "中国,黑龙江省,佳木斯市,抚远县",
+    "mapParentId": 230800,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuyuan",
+    "mapZipCode": 156500
+}, {
+    "id": 230881,
+    "mapName": "同江市",
+    "mapAbbreviation": "同江",
+    "mapMergerName": "中国,黑龙江省,佳木斯市,同江市",
+    "mapParentId": 230800,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongjiang",
+    "mapZipCode": 156400
+}, {
+    "id": 230882,
+    "mapName": "富锦市",
+    "mapAbbreviation": "富锦",
+    "mapMergerName": "中国,黑龙江省,佳木斯市,富锦市",
+    "mapParentId": 230800,
+    "mapLevelType": 3,
+    "mapPinYin": "Fujin",
+    "mapZipCode": 156100
+}, {
+    "id": 230902,
+    "mapName": "新兴区",
+    "mapAbbreviation": "新兴",
+    "mapMergerName": "中国,黑龙江省,七台河市,新兴区",
+    "mapParentId": 230900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinxing",
+    "mapZipCode": 154604
+}, {
+    "id": 230903,
+    "mapName": "桃山区",
+    "mapAbbreviation": "桃山",
+    "mapMergerName": "中国,黑龙江省,七台河市,桃山区",
+    "mapParentId": 230900,
+    "mapLevelType": 3,
+    "mapPinYin": "Taoshan",
+    "mapZipCode": 154600
+}, {
+    "id": 230904,
+    "mapName": "茄子河区",
+    "mapAbbreviation": "茄子河",
+    "mapMergerName": "中国,黑龙江省,七台河市,茄子河区",
+    "mapParentId": 230900,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiezihe",
+    "mapZipCode": 154622
+}, {
+    "id": 230921,
+    "mapName": "勃利县",
+    "mapAbbreviation": "勃利",
+    "mapMergerName": "中国,黑龙江省,七台河市,勃利县",
+    "mapParentId": 230900,
+    "mapLevelType": 3,
+    "mapPinYin": "Boli",
+    "mapZipCode": 154500
+}, {
+    "id": 231002,
+    "mapName": "东安区",
+    "mapAbbreviation": "东安",
+    "mapMergerName": "中国,黑龙江省,牡丹江市,东安区",
+    "mapParentId": 231000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dong'an",
+    "mapZipCode": 157000
+}, {
+    "id": 231003,
+    "mapName": "阳明区",
+    "mapAbbreviation": "阳明",
+    "mapMergerName": "中国,黑龙江省,牡丹江市,阳明区",
+    "mapParentId": 231000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangming",
+    "mapZipCode": 157013
+}, {
+    "id": 231004,
+    "mapName": "爱民区",
+    "mapAbbreviation": "爱民",
+    "mapMergerName": "中国,黑龙江省,牡丹江市,爱民区",
+    "mapParentId": 231000,
+    "mapLevelType": 3,
+    "mapPinYin": "Aimin",
+    "mapZipCode": 157009
+}, {
+    "id": 231005,
+    "mapName": "西安区",
+    "mapAbbreviation": "西安",
+    "mapMergerName": "中国,黑龙江省,牡丹江市,西安区",
+    "mapParentId": 231000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xi'an",
+    "mapZipCode": 157000
+}, {
+    "id": 231024,
+    "mapName": "东宁县",
+    "mapAbbreviation": "东宁",
+    "mapMergerName": "中国,黑龙江省,牡丹江市,东宁县",
+    "mapParentId": 231000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongning",
+    "mapZipCode": 157200
+}, {
+    "id": 231025,
+    "mapName": "林口县",
+    "mapAbbreviation": "林口",
+    "mapMergerName": "中国,黑龙江省,牡丹江市,林口县",
+    "mapParentId": 231000,
+    "mapLevelType": 3,
+    "mapPinYin": "Linkou",
+    "mapZipCode": 157600
+}, {
+    "id": 231081,
+    "mapName": "绥芬河市",
+    "mapAbbreviation": "绥芬河",
+    "mapMergerName": "中国,黑龙江省,牡丹江市,绥芬河市",
+    "mapParentId": 231000,
+    "mapLevelType": 3,
+    "mapPinYin": "Suifenhe",
+    "mapZipCode": 157300
+}, {
+    "id": 231083,
+    "mapName": "海林市",
+    "mapAbbreviation": "海林",
+    "mapMergerName": "中国,黑龙江省,牡丹江市,海林市",
+    "mapParentId": 231000,
+    "mapLevelType": 3,
+    "mapPinYin": "Hailin",
+    "mapZipCode": 157100
+}, {
+    "id": 231084,
+    "mapName": "宁安市",
+    "mapAbbreviation": "宁安",
+    "mapMergerName": "中国,黑龙江省,牡丹江市,宁安市",
+    "mapParentId": 231000,
+    "mapLevelType": 3,
+    "mapPinYin": "Ning'an",
+    "mapZipCode": 157400
+}, {
+    "id": 231085,
+    "mapName": "穆棱市",
+    "mapAbbreviation": "穆棱",
+    "mapMergerName": "中国,黑龙江省,牡丹江市,穆棱市",
+    "mapParentId": 231000,
+    "mapLevelType": 3,
+    "mapPinYin": "Muling",
+    "mapZipCode": 157500
+}, {
+    "id": 231102,
+    "mapName": "爱辉区",
+    "mapAbbreviation": "爱辉",
+    "mapMergerName": "中国,黑龙江省,黑河市,爱辉区",
+    "mapParentId": 231100,
+    "mapLevelType": 3,
+    "mapPinYin": "Aihui",
+    "mapZipCode": 164300
+}, {
+    "id": 231121,
+    "mapName": "嫩江县",
+    "mapAbbreviation": "嫩江",
+    "mapMergerName": "中国,黑龙江省,黑河市,嫩江县",
+    "mapParentId": 231100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nenjiang",
+    "mapZipCode": 161400
+}, {
+    "id": 231123,
+    "mapName": "逊克县",
+    "mapAbbreviation": "逊克",
+    "mapMergerName": "中国,黑龙江省,黑河市,逊克县",
+    "mapParentId": 231100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xunke",
+    "mapZipCode": 164400
+}, {
+    "id": 231124,
+    "mapName": "孙吴县",
+    "mapAbbreviation": "孙吴",
+    "mapMergerName": "中国,黑龙江省,黑河市,孙吴县",
+    "mapParentId": 231100,
+    "mapLevelType": 3,
+    "mapPinYin": "Sunwu",
+    "mapZipCode": 164200
+}, {
+    "id": 231181,
+    "mapName": "北安市",
+    "mapAbbreviation": "北安",
+    "mapMergerName": "中国,黑龙江省,黑河市,北安市",
+    "mapParentId": 231100,
+    "mapLevelType": 3,
+    "mapPinYin": "Bei'an",
+    "mapZipCode": 164000
+}, {
+    "id": 231182,
+    "mapName": "五大连池市",
+    "mapAbbreviation": "五大连池",
+    "mapMergerName": "中国,黑龙江省,黑河市,五大连池市",
+    "mapParentId": 231100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wudalianchi",
+    "mapZipCode": 164100
+}, {
+    "id": 231202,
+    "mapName": "北林区",
+    "mapAbbreviation": "北林",
+    "mapMergerName": "中国,黑龙江省,绥化市,北林区",
+    "mapParentId": 231200,
+    "mapLevelType": 3,
+    "mapPinYin": "Beilin",
+    "mapZipCode": 152000
+}, {
+    "id": 231221,
+    "mapName": "望奎县",
+    "mapAbbreviation": "望奎",
+    "mapMergerName": "中国,黑龙江省,绥化市,望奎县",
+    "mapParentId": 231200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wangkui",
+    "mapZipCode": 152100
+}, {
+    "id": 231222,
+    "mapName": "兰西县",
+    "mapAbbreviation": "兰西",
+    "mapMergerName": "中国,黑龙江省,绥化市,兰西县",
+    "mapParentId": 231200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lanxi",
+    "mapZipCode": 151500
+}, {
+    "id": 231223,
+    "mapName": "青冈县",
+    "mapAbbreviation": "青冈",
+    "mapMergerName": "中国,黑龙江省,绥化市,青冈县",
+    "mapParentId": 231200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinggang",
+    "mapZipCode": 151600
+}, {
+    "id": 231224,
+    "mapName": "庆安县",
+    "mapAbbreviation": "庆安",
+    "mapMergerName": "中国,黑龙江省,绥化市,庆安县",
+    "mapParentId": 231200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qing'an",
+    "mapZipCode": 152400
+}, {
+    "id": 231225,
+    "mapName": "明水县",
+    "mapAbbreviation": "明水",
+    "mapMergerName": "中国,黑龙江省,绥化市,明水县",
+    "mapParentId": 231200,
+    "mapLevelType": 3,
+    "mapPinYin": "Mingshui",
+    "mapZipCode": 151700
+}, {
+    "id": 231226,
+    "mapName": "绥棱县",
+    "mapAbbreviation": "绥棱",
+    "mapMergerName": "中国,黑龙江省,绥化市,绥棱县",
+    "mapParentId": 231200,
+    "mapLevelType": 3,
+    "mapPinYin": "Suileng",
+    "mapZipCode": 152200
+}, {
+    "id": 231281,
+    "mapName": "安达市",
+    "mapAbbreviation": "安达",
+    "mapMergerName": "中国,黑龙江省,绥化市,安达市",
+    "mapParentId": 231200,
+    "mapLevelType": 3,
+    "mapPinYin": "Anda",
+    "mapZipCode": 151400
+}, {
+    "id": 231282,
+    "mapName": "肇东市",
+    "mapAbbreviation": "肇东",
+    "mapMergerName": "中国,黑龙江省,绥化市,肇东市",
+    "mapParentId": 231200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaodong",
+    "mapZipCode": 151100
+}, {
+    "id": 231283,
+    "mapName": "海伦市",
+    "mapAbbreviation": "海伦",
+    "mapMergerName": "中国,黑龙江省,绥化市,海伦市",
+    "mapParentId": 231200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hailun",
+    "mapZipCode": 152300
+}, {
+    "id": 232701,
+    "mapName": "加格达奇区",
+    "mapAbbreviation": "加格达奇",
+    "mapMergerName": "中国,黑龙江省,大兴安岭地区,加格达奇区",
+    "mapParentId": 232700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiagedaqi",
+    "mapZipCode": 165000
+}, {
+    "id": 232702,
+    "mapName": "新林区",
+    "mapAbbreviation": "新林",
+    "mapMergerName": "中国,黑龙江省,大兴安岭地区,新林区",
+    "mapParentId": 232700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinlin",
+    "mapZipCode": 165000
+}, {
+    "id": 232703,
+    "mapName": "松岭区",
+    "mapAbbreviation": "松岭",
+    "mapMergerName": "中国,黑龙江省,大兴安岭地区,松岭区",
+    "mapParentId": 232700,
+    "mapLevelType": 3,
+    "mapPinYin": "Songling",
+    "mapZipCode": 165000
+}, {
+    "id": 232704,
+    "mapName": "呼中区",
+    "mapAbbreviation": "呼中",
+    "mapMergerName": "中国,黑龙江省,大兴安岭地区,呼中区",
+    "mapParentId": 232700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huzhong",
+    "mapZipCode": 165000
+}, {
+    "id": 232721,
+    "mapName": "呼玛县",
+    "mapAbbreviation": "呼玛",
+    "mapMergerName": "中国,黑龙江省,大兴安岭地区,呼玛县",
+    "mapParentId": 232700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huma",
+    "mapZipCode": 165100
+}, {
+    "id": 232722,
+    "mapName": "塔河县",
+    "mapAbbreviation": "塔河",
+    "mapMergerName": "中国,黑龙江省,大兴安岭地区,塔河县",
+    "mapParentId": 232700,
+    "mapLevelType": 3,
+    "mapPinYin": "Tahe",
+    "mapZipCode": 165200
+}, {
+    "id": 232723,
+    "mapName": "漠河县",
+    "mapAbbreviation": "漠河",
+    "mapMergerName": "中国,黑龙江省,大兴安岭地区,漠河县",
+    "mapParentId": 232700,
+    "mapLevelType": 3,
+    "mapPinYin": "Mohe",
+    "mapZipCode": 165300
+}, {
+    "id": 310101,
+    "mapName": "黄浦区",
+    "mapAbbreviation": "黄浦",
+    "mapMergerName": "中国,上海,上海市,黄浦区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangpu",
+    "mapZipCode": 200001
+}, {
+    "id": 310104,
+    "mapName": "徐汇区",
+    "mapAbbreviation": "徐汇",
+    "mapMergerName": "中国,上海,上海市,徐汇区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuhui",
+    "mapZipCode": 200030
+}, {
+    "id": 310105,
+    "mapName": "长宁区",
+    "mapAbbreviation": "长宁",
+    "mapMergerName": "中国,上海,上海市,长宁区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Changning",
+    "mapZipCode": 200050
+}, {
+    "id": 310106,
+    "mapName": "静安区",
+    "mapAbbreviation": "静安",
+    "mapMergerName": "中国,上海,上海市,静安区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jing'an",
+    "mapZipCode": 200040
+}, {
+    "id": 310107,
+    "mapName": "普陀区",
+    "mapAbbreviation": "普陀",
+    "mapMergerName": "中国,上海,上海市,普陀区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Putuo",
+    "mapZipCode": 200333
+}, {
+    "id": 310108,
+    "mapName": "闸北区",
+    "mapAbbreviation": "闸北",
+    "mapMergerName": "中国,上海,上海市,闸北区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhabei",
+    "mapZipCode": 200070
+}, {
+    "id": 310109,
+    "mapName": "虹口区",
+    "mapAbbreviation": "虹口",
+    "mapMergerName": "中国,上海,上海市,虹口区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongkou",
+    "mapZipCode": 200086
+}, {
+    "id": 310110,
+    "mapName": "杨浦区",
+    "mapAbbreviation": "杨浦",
+    "mapMergerName": "中国,上海,上海市,杨浦区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangpu",
+    "mapZipCode": 200082
+}, {
+    "id": 310112,
+    "mapName": "闵行区",
+    "mapAbbreviation": "闵行",
+    "mapMergerName": "中国,上海,上海市,闵行区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Minhang",
+    "mapZipCode": 201100
+}, {
+    "id": 310113,
+    "mapName": "宝山区",
+    "mapAbbreviation": "宝山",
+    "mapMergerName": "中国,上海,上海市,宝山区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Baoshan",
+    "mapZipCode": 201900
+}, {
+    "id": 310114,
+    "mapName": "嘉定区",
+    "mapAbbreviation": "嘉定",
+    "mapMergerName": "中国,上海,上海市,嘉定区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiading",
+    "mapZipCode": 201800
+}, {
+    "id": 310115,
+    "mapName": "浦东新区",
+    "mapAbbreviation": "浦东",
+    "mapMergerName": "中国,上海,上海市,浦东新区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pudong",
+    "mapZipCode": 200135
+}, {
+    "id": 310116,
+    "mapName": "金山区",
+    "mapAbbreviation": "金山",
+    "mapMergerName": "中国,上海,上海市,金山区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinshan",
+    "mapZipCode": 200540
+}, {
+    "id": 310117,
+    "mapName": "松江区",
+    "mapAbbreviation": "松江",
+    "mapMergerName": "中国,上海,上海市,松江区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Songjiang",
+    "mapZipCode": 201600
+}, {
+    "id": 310118,
+    "mapName": "青浦区",
+    "mapAbbreviation": "青浦",
+    "mapMergerName": "中国,上海,上海市,青浦区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingpu",
+    "mapZipCode": 201700
+}, {
+    "id": 310120,
+    "mapName": "奉贤区",
+    "mapAbbreviation": "奉贤",
+    "mapMergerName": "中国,上海,上海市,奉贤区",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengxian",
+    "mapZipCode": 201400
+}, {
+    "id": 310230,
+    "mapName": "崇明县",
+    "mapAbbreviation": "崇明",
+    "mapMergerName": "中国,上海,上海市,崇明县",
+    "mapParentId": 310100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chongming",
+    "mapZipCode": 202150
+}, {
+    "id": 320102,
+    "mapName": "玄武区",
+    "mapAbbreviation": "玄武",
+    "mapMergerName": "中国,江苏省,南京市,玄武区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuanwu",
+    "mapZipCode": 210018
+}, {
+    "id": 320104,
+    "mapName": "秦淮区",
+    "mapAbbreviation": "秦淮",
+    "mapMergerName": "中国,江苏省,南京市,秦淮区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinhuai",
+    "mapZipCode": 210001
+}, {
+    "id": 320105,
+    "mapName": "建邺区",
+    "mapAbbreviation": "建邺",
+    "mapMergerName": "中国,江苏省,南京市,建邺区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianye",
+    "mapZipCode": 210004
+}, {
+    "id": 320106,
+    "mapName": "鼓楼区",
+    "mapAbbreviation": "鼓楼",
+    "mapMergerName": "中国,江苏省,南京市,鼓楼区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gulou",
+    "mapZipCode": 210009
+}, {
+    "id": 320111,
+    "mapName": "浦口区",
+    "mapAbbreviation": "浦口",
+    "mapMergerName": "中国,江苏省,南京市,浦口区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pukou",
+    "mapZipCode": 211800
+}, {
+    "id": 320113,
+    "mapName": "栖霞区",
+    "mapAbbreviation": "栖霞",
+    "mapMergerName": "中国,江苏省,南京市,栖霞区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qixia",
+    "mapZipCode": 210046
+}, {
+    "id": 320114,
+    "mapName": "雨花台区",
+    "mapAbbreviation": "雨花台",
+    "mapMergerName": "中国,江苏省,南京市,雨花台区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuhuatai",
+    "mapZipCode": 210012
+}, {
+    "id": 320115,
+    "mapName": "江宁区",
+    "mapAbbreviation": "江宁",
+    "mapMergerName": "中国,江苏省,南京市,江宁区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangning",
+    "mapZipCode": 211100
+}, {
+    "id": 320116,
+    "mapName": "六合区",
+    "mapAbbreviation": "六合",
+    "mapMergerName": "中国,江苏省,南京市,六合区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Luhe",
+    "mapZipCode": 211500
+}, {
+    "id": 320117,
+    "mapName": "溧水区",
+    "mapAbbreviation": "溧水",
+    "mapMergerName": "中国,江苏省,南京市,溧水区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lishui",
+    "mapZipCode": 211200
+}, {
+    "id": 320118,
+    "mapName": "高淳区",
+    "mapAbbreviation": "高淳",
+    "mapMergerName": "中国,江苏省,南京市,高淳区",
+    "mapParentId": 320100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaochun",
+    "mapZipCode": 211300
+}, {
+    "id": 320202,
+    "mapName": "崇安区",
+    "mapAbbreviation": "崇安",
+    "mapMergerName": "中国,江苏省,无锡市,崇安区",
+    "mapParentId": 320200,
+    "mapLevelType": 3,
+    "mapPinYin": "Chong'an",
+    "mapZipCode": 214001
+}, {
+    "id": 320203,
+    "mapName": "南长区",
+    "mapAbbreviation": "南长",
+    "mapMergerName": "中国,江苏省,无锡市,南长区",
+    "mapParentId": 320200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanchang",
+    "mapZipCode": 214021
+}, {
+    "id": 320204,
+    "mapName": "北塘区",
+    "mapAbbreviation": "北塘",
+    "mapMergerName": "中国,江苏省,无锡市,北塘区",
+    "mapParentId": 320200,
+    "mapLevelType": 3,
+    "mapPinYin": "Beitang",
+    "mapZipCode": 214044
+}, {
+    "id": 320205,
+    "mapName": "锡山区",
+    "mapAbbreviation": "锡山",
+    "mapMergerName": "中国,江苏省,无锡市,锡山区",
+    "mapParentId": 320200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xishan",
+    "mapZipCode": 214101
+}, {
+    "id": 320206,
+    "mapName": "惠山区",
+    "mapAbbreviation": "惠山",
+    "mapMergerName": "中国,江苏省,无锡市,惠山区",
+    "mapParentId": 320200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huishan",
+    "mapZipCode": 214174
+}, {
+    "id": 320211,
+    "mapName": "滨湖区",
+    "mapAbbreviation": "滨湖",
+    "mapMergerName": "中国,江苏省,无锡市,滨湖区",
+    "mapParentId": 320200,
+    "mapLevelType": 3,
+    "mapPinYin": "Binhu",
+    "mapZipCode": 214123
+}, {
+    "id": 320281,
+    "mapName": "江阴市",
+    "mapAbbreviation": "江阴",
+    "mapMergerName": "中国,江苏省,无锡市,江阴市",
+    "mapParentId": 320200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangyin",
+    "mapZipCode": 214431
+}, {
+    "id": 320282,
+    "mapName": "宜兴市",
+    "mapAbbreviation": "宜兴",
+    "mapMergerName": "中国,江苏省,无锡市,宜兴市",
+    "mapParentId": 320200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yixing",
+    "mapZipCode": 214200
+}, {
+    "id": 320302,
+    "mapName": "鼓楼区",
+    "mapAbbreviation": "鼓楼",
+    "mapMergerName": "中国,江苏省,徐州市,鼓楼区",
+    "mapParentId": 320300,
+    "mapLevelType": 3,
+    "mapPinYin": "Gulou",
+    "mapZipCode": 221005
+}, {
+    "id": 320303,
+    "mapName": "云龙区",
+    "mapAbbreviation": "云龙",
+    "mapMergerName": "中国,江苏省,徐州市,云龙区",
+    "mapParentId": 320300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunlong",
+    "mapZipCode": 221007
+}, {
+    "id": 320305,
+    "mapName": "贾汪区",
+    "mapAbbreviation": "贾汪",
+    "mapMergerName": "中国,江苏省,徐州市,贾汪区",
+    "mapParentId": 320300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiawang",
+    "mapZipCode": 221003
+}, {
+    "id": 320311,
+    "mapName": "泉山区",
+    "mapAbbreviation": "泉山",
+    "mapMergerName": "中国,江苏省,徐州市,泉山区",
+    "mapParentId": 320300,
+    "mapLevelType": 3,
+    "mapPinYin": "Quanshan",
+    "mapZipCode": 221006
+}, {
+    "id": 320312,
+    "mapName": "铜山区",
+    "mapAbbreviation": "铜山",
+    "mapMergerName": "中国,江苏省,徐州市,铜山区",
+    "mapParentId": 320300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongshan",
+    "mapZipCode": 221106
+}, {
+    "id": 320321,
+    "mapName": "丰县",
+    "mapAbbreviation": "丰县",
+    "mapMergerName": "中国,江苏省,徐州市,丰县",
+    "mapParentId": 320300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengxian",
+    "mapZipCode": 221700
+}, {
+    "id": 320322,
+    "mapName": "沛县",
+    "mapAbbreviation": "沛县",
+    "mapMergerName": "中国,江苏省,徐州市,沛县",
+    "mapParentId": 320300,
+    "mapLevelType": 3,
+    "mapPinYin": "Peixian",
+    "mapZipCode": 221600
+}, {
+    "id": 320324,
+    "mapName": "睢宁县",
+    "mapAbbreviation": "睢宁",
+    "mapMergerName": "中国,江苏省,徐州市,睢宁县",
+    "mapParentId": 320300,
+    "mapLevelType": 3,
+    "mapPinYin": "Suining",
+    "mapZipCode": 221200
+}, {
+    "id": 320381,
+    "mapName": "新沂市",
+    "mapAbbreviation": "新沂",
+    "mapMergerName": "中国,江苏省,徐州市,新沂市",
+    "mapParentId": 320300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinyi",
+    "mapZipCode": 221400
+}, {
+    "id": 320382,
+    "mapName": "邳州市",
+    "mapAbbreviation": "邳州",
+    "mapMergerName": "中国,江苏省,徐州市,邳州市",
+    "mapParentId": 320300,
+    "mapLevelType": 3,
+    "mapPinYin": "Pizhou",
+    "mapZipCode": 221300
+}, {
+    "id": 320402,
+    "mapName": "天宁区",
+    "mapAbbreviation": "天宁",
+    "mapMergerName": "中国,江苏省,常州市,天宁区",
+    "mapParentId": 320400,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianning",
+    "mapZipCode": 213000
+}, {
+    "id": 320404,
+    "mapName": "钟楼区",
+    "mapAbbreviation": "钟楼",
+    "mapMergerName": "中国,江苏省,常州市,钟楼区",
+    "mapParentId": 320400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhonglou",
+    "mapZipCode": 213023
+}, {
+    "id": 320405,
+    "mapName": "戚墅堰区",
+    "mapAbbreviation": "戚墅堰",
+    "mapMergerName": "中国,江苏省,常州市,戚墅堰区",
+    "mapParentId": 320400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qishuyan",
+    "mapZipCode": 213025
+}, {
+    "id": 320411,
+    "mapName": "新北区",
+    "mapAbbreviation": "新北",
+    "mapMergerName": "中国,江苏省,常州市,新北区",
+    "mapParentId": 320400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinbei",
+    "mapZipCode": 213022
+}, {
+    "id": 320412,
+    "mapName": "武进区",
+    "mapAbbreviation": "武进",
+    "mapMergerName": "中国,江苏省,常州市,武进区",
+    "mapParentId": 320400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wujin",
+    "mapZipCode": 213100
+}, {
+    "id": 320481,
+    "mapName": "溧阳市",
+    "mapAbbreviation": "溧阳",
+    "mapMergerName": "中国,江苏省,常州市,溧阳市",
+    "mapParentId": 320400,
+    "mapLevelType": 3,
+    "mapPinYin": "Liyang",
+    "mapZipCode": 213300
+}, {
+    "id": 320482,
+    "mapName": "金坛市",
+    "mapAbbreviation": "金坛",
+    "mapMergerName": "中国,江苏省,常州市,金坛市",
+    "mapParentId": 320400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jintan",
+    "mapZipCode": 213200
+}, {
+    "id": 320505,
+    "mapName": "虎丘区",
+    "mapAbbreviation": "虎丘",
+    "mapMergerName": "中国,江苏省,苏州市,虎丘区",
+    "mapParentId": 320500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huqiu",
+    "mapZipCode": 215004
+}, {
+    "id": 320506,
+    "mapName": "吴中区",
+    "mapAbbreviation": "吴中",
+    "mapMergerName": "中国,江苏省,苏州市,吴中区",
+    "mapParentId": 320500,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuzhong",
+    "mapZipCode": 215128
+}, {
+    "id": 320507,
+    "mapName": "相城区",
+    "mapAbbreviation": "相城",
+    "mapMergerName": "中国,江苏省,苏州市,相城区",
+    "mapParentId": 320500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangcheng",
+    "mapZipCode": 215131
+}, {
+    "id": 320508,
+    "mapName": "姑苏区",
+    "mapAbbreviation": "姑苏",
+    "mapMergerName": "中国,江苏省,苏州市,姑苏区",
+    "mapParentId": 320500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gusu",
+    "mapZipCode": 215031
+}, {
+    "id": 320509,
+    "mapName": "吴江区",
+    "mapAbbreviation": "吴江",
+    "mapMergerName": "中国,江苏省,苏州市,吴江区",
+    "mapParentId": 320500,
+    "mapLevelType": 3,
+    "mapPinYin": "Wujiang",
+    "mapZipCode": 215200
+}, {
+    "id": 320581,
+    "mapName": "常熟市",
+    "mapAbbreviation": "常熟",
+    "mapMergerName": "中国,江苏省,苏州市,常熟市",
+    "mapParentId": 320500,
+    "mapLevelType": 3,
+    "mapPinYin": "Changshu",
+    "mapZipCode": 215500
+}, {
+    "id": 320582,
+    "mapName": "张家港市",
+    "mapAbbreviation": "张家港",
+    "mapMergerName": "中国,江苏省,苏州市,张家港市",
+    "mapParentId": 320500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangjiagang",
+    "mapZipCode": 215600
+}, {
+    "id": 320583,
+    "mapName": "昆山市",
+    "mapAbbreviation": "昆山",
+    "mapMergerName": "中国,江苏省,苏州市,昆山市",
+    "mapParentId": 320500,
+    "mapLevelType": 3,
+    "mapPinYin": "Kunshan",
+    "mapZipCode": 215300
+}, {
+    "id": 320585,
+    "mapName": "太仓市",
+    "mapAbbreviation": "太仓",
+    "mapMergerName": "中国,江苏省,苏州市,太仓市",
+    "mapParentId": 320500,
+    "mapLevelType": 3,
+    "mapPinYin": "Taicang",
+    "mapZipCode": 215400
+}, {
+    "id": 320594,
+    "mapName": "新区",
+    "mapAbbreviation": "新区",
+    "mapMergerName": "中国,江苏省,苏州市,新区",
+    "mapParentId": 320500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinqu",
+    "mapZipCode": 215011
+}, {
+    "id": 320602,
+    "mapName": "崇川区",
+    "mapAbbreviation": "崇川",
+    "mapMergerName": "中国,江苏省,南通市,崇川区",
+    "mapParentId": 320600,
+    "mapLevelType": 3,
+    "mapPinYin": "Chongchuan",
+    "mapZipCode": 226001
+}, {
+    "id": 320611,
+    "mapName": "港闸区",
+    "mapAbbreviation": "港闸",
+    "mapMergerName": "中国,江苏省,南通市,港闸区",
+    "mapParentId": 320600,
+    "mapLevelType": 3,
+    "mapPinYin": "Gangzha",
+    "mapZipCode": 226001
+}, {
+    "id": 320612,
+    "mapName": "通州区",
+    "mapAbbreviation": "通州",
+    "mapMergerName": "中国,江苏省,南通市,通州区",
+    "mapParentId": 320600,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongzhou",
+    "mapZipCode": 226300
+}, {
+    "id": 320621,
+    "mapName": "海安县",
+    "mapAbbreviation": "海安",
+    "mapMergerName": "中国,江苏省,南通市,海安县",
+    "mapParentId": 320600,
+    "mapLevelType": 3,
+    "mapPinYin": "Hai'an",
+    "mapZipCode": 226600
+}, {
+    "id": 320623,
+    "mapName": "如东县",
+    "mapAbbreviation": "如东",
+    "mapMergerName": "中国,江苏省,南通市,如东县",
+    "mapParentId": 320600,
+    "mapLevelType": 3,
+    "mapPinYin": "Rudong",
+    "mapZipCode": 226400
+}, {
+    "id": 320681,
+    "mapName": "启东市",
+    "mapAbbreviation": "启东",
+    "mapMergerName": "中国,江苏省,南通市,启东市",
+    "mapParentId": 320600,
+    "mapLevelType": 3,
+    "mapPinYin": "Qidong",
+    "mapZipCode": 226200
+}, {
+    "id": 320682,
+    "mapName": "如皋市",
+    "mapAbbreviation": "如皋",
+    "mapMergerName": "中国,江苏省,南通市,如皋市",
+    "mapParentId": 320600,
+    "mapLevelType": 3,
+    "mapPinYin": "Rugao",
+    "mapZipCode": 226500
+}, {
+    "id": 320684,
+    "mapName": "海门市",
+    "mapAbbreviation": "海门",
+    "mapMergerName": "中国,江苏省,南通市,海门市",
+    "mapParentId": 320600,
+    "mapLevelType": 3,
+    "mapPinYin": "Haimen",
+    "mapZipCode": 226100
+}, {
+    "id": 320703,
+    "mapName": "连云区",
+    "mapAbbreviation": "连云",
+    "mapMergerName": "中国,江苏省,连云港市,连云区",
+    "mapParentId": 320700,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianyun",
+    "mapZipCode": 222042
+}, {
+    "id": 320706,
+    "mapName": "海州区",
+    "mapAbbreviation": "海州",
+    "mapMergerName": "中国,江苏省,连云港市,海州区",
+    "mapParentId": 320700,
+    "mapLevelType": 3,
+    "mapPinYin": "Haizhou",
+    "mapZipCode": 222003
+}, {
+    "id": 320707,
+    "mapName": "赣榆区",
+    "mapAbbreviation": "赣榆",
+    "mapMergerName": "中国,江苏省,连云港市,赣榆区",
+    "mapParentId": 320700,
+    "mapLevelType": 3,
+    "mapPinYin": "Ganyu",
+    "mapZipCode": 222100
+}, {
+    "id": 320722,
+    "mapName": "东海县",
+    "mapAbbreviation": "东海",
+    "mapMergerName": "中国,江苏省,连云港市,东海县",
+    "mapParentId": 320700,
+    "mapLevelType": 3,
+    "mapPinYin": "Donghai",
+    "mapZipCode": 222300
+}, {
+    "id": 320723,
+    "mapName": "灌云县",
+    "mapAbbreviation": "灌云",
+    "mapMergerName": "中国,江苏省,连云港市,灌云县",
+    "mapParentId": 320700,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanyun",
+    "mapZipCode": 222200
+}, {
+    "id": 320724,
+    "mapName": "灌南县",
+    "mapAbbreviation": "灌南",
+    "mapMergerName": "中国,江苏省,连云港市,灌南县",
+    "mapParentId": 320700,
+    "mapLevelType": 3,
+    "mapPinYin": "Guannan",
+    "mapZipCode": 222500
+}, {
+    "id": 320802,
+    "mapName": "清河区",
+    "mapAbbreviation": "清河",
+    "mapMergerName": "中国,江苏省,淮安市,清河区",
+    "mapParentId": 320800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinghe",
+    "mapZipCode": 223001
+}, {
+    "id": 320803,
+    "mapName": "淮安区",
+    "mapAbbreviation": "淮安",
+    "mapMergerName": "中国,江苏省,淮安市,淮安区",
+    "mapParentId": 320800,
+    "mapLevelType": 3,
+    "mapPinYin": "Huai'an",
+    "mapZipCode": 223200
+}, {
+    "id": 320804,
+    "mapName": "淮阴区",
+    "mapAbbreviation": "淮阴",
+    "mapMergerName": "中国,江苏省,淮安市,淮阴区",
+    "mapParentId": 320800,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaiyin",
+    "mapZipCode": 223300
+}, {
+    "id": 320811,
+    "mapName": "清浦区",
+    "mapAbbreviation": "清浦",
+    "mapMergerName": "中国,江苏省,淮安市,清浦区",
+    "mapParentId": 320800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingpu",
+    "mapZipCode": 223002
+}, {
+    "id": 320826,
+    "mapName": "涟水县",
+    "mapAbbreviation": "涟水",
+    "mapMergerName": "中国,江苏省,淮安市,涟水县",
+    "mapParentId": 320800,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianshui",
+    "mapZipCode": 223400
+}, {
+    "id": 320829,
+    "mapName": "洪泽县",
+    "mapAbbreviation": "洪泽",
+    "mapMergerName": "中国,江苏省,淮安市,洪泽县",
+    "mapParentId": 320800,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongze",
+    "mapZipCode": 223100
+}, {
+    "id": 320830,
+    "mapName": "盱眙县",
+    "mapAbbreviation": "盱眙",
+    "mapMergerName": "中国,江苏省,淮安市,盱眙县",
+    "mapParentId": 320800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuyi",
+    "mapZipCode": 211700
+}, {
+    "id": 320831,
+    "mapName": "金湖县",
+    "mapAbbreviation": "金湖",
+    "mapMergerName": "中国,江苏省,淮安市,金湖县",
+    "mapParentId": 320800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinhu",
+    "mapZipCode": 211600
+}, {
+    "id": 320902,
+    "mapName": "亭湖区",
+    "mapAbbreviation": "亭湖",
+    "mapMergerName": "中国,江苏省,盐城市,亭湖区",
+    "mapParentId": 320900,
+    "mapLevelType": 3,
+    "mapPinYin": "Tinghu",
+    "mapZipCode": 224005
+}, {
+    "id": 320903,
+    "mapName": "盐都区",
+    "mapAbbreviation": "盐都",
+    "mapMergerName": "中国,江苏省,盐城市,盐都区",
+    "mapParentId": 320900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yandu",
+    "mapZipCode": 224055
+}, {
+    "id": 320921,
+    "mapName": "响水县",
+    "mapAbbreviation": "响水",
+    "mapMergerName": "中国,江苏省,盐城市,响水县",
+    "mapParentId": 320900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangshui",
+    "mapZipCode": 224600
+}, {
+    "id": 320922,
+    "mapName": "滨海县",
+    "mapAbbreviation": "滨海",
+    "mapMergerName": "中国,江苏省,盐城市,滨海县",
+    "mapParentId": 320900,
+    "mapLevelType": 3,
+    "mapPinYin": "Binhai",
+    "mapZipCode": 224500
+}, {
+    "id": 320923,
+    "mapName": "阜宁县",
+    "mapAbbreviation": "阜宁",
+    "mapMergerName": "中国,江苏省,盐城市,阜宁县",
+    "mapParentId": 320900,
+    "mapLevelType": 3,
+    "mapPinYin": "Funing",
+    "mapZipCode": 224400
+}, {
+    "id": 320924,
+    "mapName": "射阳县",
+    "mapAbbreviation": "射阳",
+    "mapMergerName": "中国,江苏省,盐城市,射阳县",
+    "mapParentId": 320900,
+    "mapLevelType": 3,
+    "mapPinYin": "Sheyang",
+    "mapZipCode": 224300
+}, {
+    "id": 320925,
+    "mapName": "建湖县",
+    "mapAbbreviation": "建湖",
+    "mapMergerName": "中国,江苏省,盐城市,建湖县",
+    "mapParentId": 320900,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianhu",
+    "mapZipCode": 224700
+}, {
+    "id": 320981,
+    "mapName": "东台市",
+    "mapAbbreviation": "东台",
+    "mapMergerName": "中国,江苏省,盐城市,东台市",
+    "mapParentId": 320900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongtai",
+    "mapZipCode": 224200
+}, {
+    "id": 320982,
+    "mapName": "大丰市",
+    "mapAbbreviation": "大丰",
+    "mapMergerName": "中国,江苏省,盐城市,大丰市",
+    "mapParentId": 320900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dafeng",
+    "mapZipCode": 224100
+}, {
+    "id": 321002,
+    "mapName": "广陵区",
+    "mapAbbreviation": "广陵",
+    "mapMergerName": "中国,江苏省,扬州市,广陵区",
+    "mapParentId": 321000,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangling",
+    "mapZipCode": 225002
+}, {
+    "id": 321003,
+    "mapName": "邗江区",
+    "mapAbbreviation": "邗江",
+    "mapMergerName": "中国,江苏省,扬州市,邗江区",
+    "mapParentId": 321000,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanjiang",
+    "mapZipCode": 225002
+}, {
+    "id": 321012,
+    "mapName": "江都区",
+    "mapAbbreviation": "江都",
+    "mapMergerName": "中国,江苏省,扬州市,江都区",
+    "mapParentId": 321000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangdu",
+    "mapZipCode": 225200
+}, {
+    "id": 321023,
+    "mapName": "宝应县",
+    "mapAbbreviation": "宝应",
+    "mapMergerName": "中国,江苏省,扬州市,宝应县",
+    "mapParentId": 321000,
+    "mapLevelType": 3,
+    "mapPinYin": "Baoying",
+    "mapZipCode": 225800
+}, {
+    "id": 321081,
+    "mapName": "仪征市",
+    "mapAbbreviation": "仪征",
+    "mapMergerName": "中国,江苏省,扬州市,仪征市",
+    "mapParentId": 321000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yizheng",
+    "mapZipCode": 211400
+}, {
+    "id": 321084,
+    "mapName": "高邮市",
+    "mapAbbreviation": "高邮",
+    "mapMergerName": "中国,江苏省,扬州市,高邮市",
+    "mapParentId": 321000,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoyou",
+    "mapZipCode": 225600
+}, {
+    "id": 321102,
+    "mapName": "京口区",
+    "mapAbbreviation": "京口",
+    "mapMergerName": "中国,江苏省,镇江市,京口区",
+    "mapParentId": 321100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingkou",
+    "mapZipCode": 212003
+}, {
+    "id": 321111,
+    "mapName": "润州区",
+    "mapAbbreviation": "润州",
+    "mapMergerName": "中国,江苏省,镇江市,润州区",
+    "mapParentId": 321100,
+    "mapLevelType": 3,
+    "mapPinYin": "Runzhou",
+    "mapZipCode": 212005
+}, {
+    "id": 321112,
+    "mapName": "丹徒区",
+    "mapAbbreviation": "丹徒",
+    "mapMergerName": "中国,江苏省,镇江市,丹徒区",
+    "mapParentId": 321100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dantu",
+    "mapZipCode": 212028
+}, {
+    "id": 321181,
+    "mapName": "丹阳市",
+    "mapAbbreviation": "丹阳",
+    "mapMergerName": "中国,江苏省,镇江市,丹阳市",
+    "mapParentId": 321100,
+    "mapLevelType": 3,
+    "mapPinYin": "Danyang",
+    "mapZipCode": 212300
+}, {
+    "id": 321182,
+    "mapName": "扬中市",
+    "mapAbbreviation": "扬中",
+    "mapMergerName": "中国,江苏省,镇江市,扬中市",
+    "mapParentId": 321100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangzhong",
+    "mapZipCode": 212200
+}, {
+    "id": 321183,
+    "mapName": "句容市",
+    "mapAbbreviation": "句容",
+    "mapMergerName": "中国,江苏省,镇江市,句容市",
+    "mapParentId": 321100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jurong",
+    "mapZipCode": 212400
+}, {
+    "id": 321202,
+    "mapName": "海陵区",
+    "mapAbbreviation": "海陵",
+    "mapMergerName": "中国,江苏省,泰州市,海陵区",
+    "mapParentId": 321200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hailing",
+    "mapZipCode": 225300
+}, {
+    "id": 321203,
+    "mapName": "高港区",
+    "mapAbbreviation": "高港",
+    "mapMergerName": "中国,江苏省,泰州市,高港区",
+    "mapParentId": 321200,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaogang",
+    "mapZipCode": 225321
+}, {
+    "id": 321204,
+    "mapName": "姜堰区",
+    "mapAbbreviation": "姜堰",
+    "mapMergerName": "中国,江苏省,泰州市,姜堰区",
+    "mapParentId": 321200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangyan",
+    "mapZipCode": 225500
+}, {
+    "id": 321281,
+    "mapName": "兴化市",
+    "mapAbbreviation": "兴化",
+    "mapMergerName": "中国,江苏省,泰州市,兴化市",
+    "mapParentId": 321200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinghua",
+    "mapZipCode": 225700
+}, {
+    "id": 321282,
+    "mapName": "靖江市",
+    "mapAbbreviation": "靖江",
+    "mapMergerName": "中国,江苏省,泰州市,靖江市",
+    "mapParentId": 321200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingjiang",
+    "mapZipCode": 214500
+}, {
+    "id": 321283,
+    "mapName": "泰兴市",
+    "mapAbbreviation": "泰兴",
+    "mapMergerName": "中国,江苏省,泰州市,泰兴市",
+    "mapParentId": 321200,
+    "mapLevelType": 3,
+    "mapPinYin": "Taixing",
+    "mapZipCode": 225400
+}, {
+    "id": 321302,
+    "mapName": "宿城区",
+    "mapAbbreviation": "宿城",
+    "mapMergerName": "中国,江苏省,宿迁市,宿城区",
+    "mapParentId": 321300,
+    "mapLevelType": 3,
+    "mapPinYin": "Sucheng",
+    "mapZipCode": 223800
+}, {
+    "id": 321311,
+    "mapName": "宿豫区",
+    "mapAbbreviation": "宿豫",
+    "mapMergerName": "中国,江苏省,宿迁市,宿豫区",
+    "mapParentId": 321300,
+    "mapLevelType": 3,
+    "mapPinYin": "Suyu",
+    "mapZipCode": 223800
+}, {
+    "id": 321322,
+    "mapName": "沭阳县",
+    "mapAbbreviation": "沭阳",
+    "mapMergerName": "中国,江苏省,宿迁市,沭阳县",
+    "mapParentId": 321300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuyang",
+    "mapZipCode": 223600
+}, {
+    "id": 321323,
+    "mapName": "泗阳县",
+    "mapAbbreviation": "泗阳",
+    "mapMergerName": "中国,江苏省,宿迁市,泗阳县",
+    "mapParentId": 321300,
+    "mapLevelType": 3,
+    "mapPinYin": "Siyang",
+    "mapZipCode": 223700
+}, {
+    "id": 321324,
+    "mapName": "泗洪县",
+    "mapAbbreviation": "泗洪",
+    "mapMergerName": "中国,江苏省,宿迁市,泗洪县",
+    "mapParentId": 321300,
+    "mapLevelType": 3,
+    "mapPinYin": "Sihong",
+    "mapZipCode": 223900
+}, {
+    "id": 330102,
+    "mapName": "上城区",
+    "mapAbbreviation": "上城",
+    "mapMergerName": "中国,浙江省,杭州市,上城区",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangcheng",
+    "mapZipCode": 310002
+}, {
+    "id": 330103,
+    "mapName": "下城区",
+    "mapAbbreviation": "下城",
+    "mapMergerName": "中国,浙江省,杭州市,下城区",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiacheng",
+    "mapZipCode": 310006
+}, {
+    "id": 330104,
+    "mapName": "江干区",
+    "mapAbbreviation": "江干",
+    "mapMergerName": "中国,浙江省,杭州市,江干区",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianggan",
+    "mapZipCode": 310016
+}, {
+    "id": 330105,
+    "mapName": "拱墅区",
+    "mapAbbreviation": "拱墅",
+    "mapMergerName": "中国,浙江省,杭州市,拱墅区",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongshu",
+    "mapZipCode": 310011
+}, {
+    "id": 330106,
+    "mapName": "西湖区",
+    "mapAbbreviation": "西湖",
+    "mapMergerName": "中国,浙江省,杭州市,西湖区",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xihu",
+    "mapZipCode": 310013
+}, {
+    "id": 330108,
+    "mapName": "滨江区",
+    "mapAbbreviation": "滨江",
+    "mapMergerName": "中国,浙江省,杭州市,滨江区",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Binjiang",
+    "mapZipCode": 310051
+}, {
+    "id": 330109,
+    "mapName": "萧山区",
+    "mapAbbreviation": "萧山",
+    "mapMergerName": "中国,浙江省,杭州市,萧山区",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaoshan",
+    "mapZipCode": 311200
+}, {
+    "id": 330110,
+    "mapName": "余杭区",
+    "mapAbbreviation": "余杭",
+    "mapMergerName": "中国,浙江省,杭州市,余杭区",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuhang",
+    "mapZipCode": 311100
+}, {
+    "id": 330122,
+    "mapName": "桐庐县",
+    "mapAbbreviation": "桐庐",
+    "mapMergerName": "中国,浙江省,杭州市,桐庐县",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tonglu",
+    "mapZipCode": 311500
+}, {
+    "id": 330127,
+    "mapName": "淳安县",
+    "mapAbbreviation": "淳安",
+    "mapMergerName": "中国,浙江省,杭州市,淳安县",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chun'an",
+    "mapZipCode": 311700
+}, {
+    "id": 330182,
+    "mapName": "建德市",
+    "mapAbbreviation": "建德",
+    "mapMergerName": "中国,浙江省,杭州市,建德市",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiande",
+    "mapZipCode": 311600
+}, {
+    "id": 330183,
+    "mapName": "富阳区",
+    "mapAbbreviation": "富阳",
+    "mapMergerName": "中国,浙江省,杭州市,富阳区",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuyang",
+    "mapZipCode": 311400
+}, {
+    "id": 330185,
+    "mapName": "临安市",
+    "mapAbbreviation": "临安",
+    "mapMergerName": "中国,浙江省,杭州市,临安市",
+    "mapParentId": 330100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lin'an",
+    "mapZipCode": 311300
+}, {
+    "id": 330203,
+    "mapName": "海曙区",
+    "mapAbbreviation": "海曙",
+    "mapMergerName": "中国,浙江省,宁波市,海曙区",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Haishu",
+    "mapZipCode": 315000
+}, {
+    "id": 330204,
+    "mapName": "江东区",
+    "mapAbbreviation": "江东",
+    "mapMergerName": "中国,浙江省,宁波市,江东区",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangdong",
+    "mapZipCode": 315040
+}, {
+    "id": 330205,
+    "mapName": "江北区",
+    "mapAbbreviation": "江北",
+    "mapMergerName": "中国,浙江省,宁波市,江北区",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangbei",
+    "mapZipCode": 315020
+}, {
+    "id": 330206,
+    "mapName": "北仑区",
+    "mapAbbreviation": "北仑",
+    "mapMergerName": "中国,浙江省,宁波市,北仑区",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Beilun",
+    "mapZipCode": 315800
+}, {
+    "id": 330211,
+    "mapName": "镇海区",
+    "mapAbbreviation": "镇海",
+    "mapMergerName": "中国,浙江省,宁波市,镇海区",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenhai",
+    "mapZipCode": 315200
+}, {
+    "id": 330212,
+    "mapName": "鄞州区",
+    "mapAbbreviation": "鄞州",
+    "mapMergerName": "中国,浙江省,宁波市,鄞州区",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yinzhou",
+    "mapZipCode": 315100
+}, {
+    "id": 330225,
+    "mapName": "象山县",
+    "mapAbbreviation": "象山",
+    "mapMergerName": "中国,浙江省,宁波市,象山县",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangshan",
+    "mapZipCode": 315700
+}, {
+    "id": 330226,
+    "mapName": "宁海县",
+    "mapAbbreviation": "宁海",
+    "mapMergerName": "中国,浙江省,宁波市,宁海县",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Ninghai",
+    "mapZipCode": 315600
+}, {
+    "id": 330281,
+    "mapName": "余姚市",
+    "mapAbbreviation": "余姚",
+    "mapMergerName": "中国,浙江省,宁波市,余姚市",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuyao",
+    "mapZipCode": 315400
+}, {
+    "id": 330282,
+    "mapName": "慈溪市",
+    "mapAbbreviation": "慈溪",
+    "mapMergerName": "中国,浙江省,宁波市,慈溪市",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Cixi",
+    "mapZipCode": 315300
+}, {
+    "id": 330283,
+    "mapName": "奉化市",
+    "mapAbbreviation": "奉化",
+    "mapMergerName": "中国,浙江省,宁波市,奉化市",
+    "mapParentId": 330200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fenghua",
+    "mapZipCode": 315500
+}, {
+    "id": 330302,
+    "mapName": "鹿城区",
+    "mapAbbreviation": "鹿城",
+    "mapMergerName": "中国,浙江省,温州市,鹿城区",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lucheng",
+    "mapZipCode": 325000
+}, {
+    "id": 330303,
+    "mapName": "龙湾区",
+    "mapAbbreviation": "龙湾",
+    "mapMergerName": "中国,浙江省,温州市,龙湾区",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Longwan",
+    "mapZipCode": 325013
+}, {
+    "id": 330304,
+    "mapName": "瓯海区",
+    "mapAbbreviation": "瓯海",
+    "mapMergerName": "中国,浙江省,温州市,瓯海区",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Ouhai",
+    "mapZipCode": 325005
+}, {
+    "id": 330322,
+    "mapName": "洞头县",
+    "mapAbbreviation": "洞头",
+    "mapMergerName": "中国,浙江省,温州市,洞头县",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongtou",
+    "mapZipCode": 325700
+}, {
+    "id": 330324,
+    "mapName": "永嘉县",
+    "mapAbbreviation": "永嘉",
+    "mapMergerName": "中国,浙江省,温州市,永嘉县",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongjia",
+    "mapZipCode": 325100
+}, {
+    "id": 330326,
+    "mapName": "平阳县",
+    "mapAbbreviation": "平阳",
+    "mapMergerName": "中国,浙江省,温州市,平阳县",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingyang",
+    "mapZipCode": 325400
+}, {
+    "id": 330327,
+    "mapName": "苍南县",
+    "mapAbbreviation": "苍南",
+    "mapMergerName": "中国,浙江省,温州市,苍南县",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Cangnan",
+    "mapZipCode": 325800
+}, {
+    "id": 330328,
+    "mapName": "文成县",
+    "mapAbbreviation": "文成",
+    "mapMergerName": "中国,浙江省,温州市,文成县",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wencheng",
+    "mapZipCode": 325300
+}, {
+    "id": 330329,
+    "mapName": "泰顺县",
+    "mapAbbreviation": "泰顺",
+    "mapMergerName": "中国,浙江省,温州市,泰顺县",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Taishun",
+    "mapZipCode": 325500
+}, {
+    "id": 330381,
+    "mapName": "瑞安市",
+    "mapAbbreviation": "瑞安",
+    "mapMergerName": "中国,浙江省,温州市,瑞安市",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Rui'an",
+    "mapZipCode": 325200
+}, {
+    "id": 330382,
+    "mapName": "乐清市",
+    "mapAbbreviation": "乐清",
+    "mapMergerName": "中国,浙江省,温州市,乐清市",
+    "mapParentId": 330300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yueqing",
+    "mapZipCode": 325600
+}, {
+    "id": 330402,
+    "mapName": "南湖区",
+    "mapAbbreviation": "南湖",
+    "mapMergerName": "中国,浙江省,嘉兴市,南湖区",
+    "mapParentId": 330400,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanhu",
+    "mapZipCode": 314051
+}, {
+    "id": 330411,
+    "mapName": "秀洲区",
+    "mapAbbreviation": "秀洲",
+    "mapMergerName": "中国,浙江省,嘉兴市,秀洲区",
+    "mapParentId": 330400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiuzhou",
+    "mapZipCode": 314031
+}, {
+    "id": 330421,
+    "mapName": "嘉善县",
+    "mapAbbreviation": "嘉善",
+    "mapMergerName": "中国,浙江省,嘉兴市,嘉善县",
+    "mapParentId": 330400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiashan",
+    "mapZipCode": 314100
+}, {
+    "id": 330424,
+    "mapName": "海盐县",
+    "mapAbbreviation": "海盐",
+    "mapMergerName": "中国,浙江省,嘉兴市,海盐县",
+    "mapParentId": 330400,
+    "mapLevelType": 3,
+    "mapPinYin": "Haiyan",
+    "mapZipCode": 314300
+}, {
+    "id": 330481,
+    "mapName": "海宁市",
+    "mapAbbreviation": "海宁",
+    "mapMergerName": "中国,浙江省,嘉兴市,海宁市",
+    "mapParentId": 330400,
+    "mapLevelType": 3,
+    "mapPinYin": "Haining",
+    "mapZipCode": 314400
+}, {
+    "id": 330482,
+    "mapName": "平湖市",
+    "mapAbbreviation": "平湖",
+    "mapMergerName": "中国,浙江省,嘉兴市,平湖市",
+    "mapParentId": 330400,
+    "mapLevelType": 3,
+    "mapPinYin": "Pinghu",
+    "mapZipCode": 314200
+}, {
+    "id": 330483,
+    "mapName": "桐乡市",
+    "mapAbbreviation": "桐乡",
+    "mapMergerName": "中国,浙江省,嘉兴市,桐乡市",
+    "mapParentId": 330400,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongxiang",
+    "mapZipCode": 314500
+}, {
+    "id": 330502,
+    "mapName": "吴兴区",
+    "mapAbbreviation": "吴兴",
+    "mapMergerName": "中国,浙江省,湖州市,吴兴区",
+    "mapParentId": 330500,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuxing",
+    "mapZipCode": 313000
+}, {
+    "id": 330503,
+    "mapName": "南浔区",
+    "mapAbbreviation": "南浔",
+    "mapMergerName": "中国,浙江省,湖州市,南浔区",
+    "mapParentId": 330500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanxun",
+    "mapZipCode": 313009
+}, {
+    "id": 330521,
+    "mapName": "德清县",
+    "mapAbbreviation": "德清",
+    "mapMergerName": "中国,浙江省,湖州市,德清县",
+    "mapParentId": 330500,
+    "mapLevelType": 3,
+    "mapPinYin": "Deqing",
+    "mapZipCode": 313200
+}, {
+    "id": 330522,
+    "mapName": "长兴县",
+    "mapAbbreviation": "长兴",
+    "mapMergerName": "中国,浙江省,湖州市,长兴县",
+    "mapParentId": 330500,
+    "mapLevelType": 3,
+    "mapPinYin": "Changxing",
+    "mapZipCode": 313100
+}, {
+    "id": 330523,
+    "mapName": "安吉县",
+    "mapAbbreviation": "安吉",
+    "mapMergerName": "中国,浙江省,湖州市,安吉县",
+    "mapParentId": 330500,
+    "mapLevelType": 3,
+    "mapPinYin": "Anji",
+    "mapZipCode": 313300
+}, {
+    "id": 330602,
+    "mapName": "越城区",
+    "mapAbbreviation": "越城",
+    "mapMergerName": "中国,浙江省,绍兴市,越城区",
+    "mapParentId": 330600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuecheng",
+    "mapZipCode": 312000
+}, {
+    "id": 330603,
+    "mapName": "柯桥区",
+    "mapAbbreviation": "柯桥",
+    "mapMergerName": "中国,浙江省,绍兴市,柯桥区",
+    "mapParentId": 330600,
+    "mapLevelType": 3,
+    "mapPinYin": "Keqiao ",
+    "mapZipCode": 312030
+}, {
+    "id": 330604,
+    "mapName": "上虞区",
+    "mapAbbreviation": "上虞",
+    "mapMergerName": "中国,浙江省,绍兴市,上虞区",
+    "mapParentId": 330600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangyu",
+    "mapZipCode": 312300
+}, {
+    "id": 330624,
+    "mapName": "新昌县",
+    "mapAbbreviation": "新昌",
+    "mapMergerName": "中国,浙江省,绍兴市,新昌县",
+    "mapParentId": 330600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinchang",
+    "mapZipCode": 312500
+}, {
+    "id": 330681,
+    "mapName": "诸暨市",
+    "mapAbbreviation": "诸暨",
+    "mapMergerName": "中国,浙江省,绍兴市,诸暨市",
+    "mapParentId": 330600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuji",
+    "mapZipCode": 311800
+}, {
+    "id": 330683,
+    "mapName": "嵊州市",
+    "mapAbbreviation": "嵊州",
+    "mapMergerName": "中国,浙江省,绍兴市,嵊州市",
+    "mapParentId": 330600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shengzhou",
+    "mapZipCode": 312400
+}, {
+    "id": 330702,
+    "mapName": "婺城区",
+    "mapAbbreviation": "婺城",
+    "mapMergerName": "中国,浙江省,金华市,婺城区",
+    "mapParentId": 330700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wucheng",
+    "mapZipCode": 321000
+}, {
+    "id": 330703,
+    "mapName": "金东区",
+    "mapAbbreviation": "金东",
+    "mapMergerName": "中国,浙江省,金华市,金东区",
+    "mapParentId": 330700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jindong",
+    "mapZipCode": 321000
+}, {
+    "id": 330723,
+    "mapName": "武义县",
+    "mapAbbreviation": "武义",
+    "mapMergerName": "中国,浙江省,金华市,武义县",
+    "mapParentId": 330700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuyi",
+    "mapZipCode": 321200
+}, {
+    "id": 330726,
+    "mapName": "浦江县",
+    "mapAbbreviation": "浦江",
+    "mapMergerName": "中国,浙江省,金华市,浦江县",
+    "mapParentId": 330700,
+    "mapLevelType": 3,
+    "mapPinYin": "Pujiang",
+    "mapZipCode": 322200
+}, {
+    "id": 330727,
+    "mapName": "磐安县",
+    "mapAbbreviation": "磐安",
+    "mapMergerName": "中国,浙江省,金华市,磐安县",
+    "mapParentId": 330700,
+    "mapLevelType": 3,
+    "mapPinYin": "Pan'an",
+    "mapZipCode": 322300
+}, {
+    "id": 330781,
+    "mapName": "兰溪市",
+    "mapAbbreviation": "兰溪",
+    "mapMergerName": "中国,浙江省,金华市,兰溪市",
+    "mapParentId": 330700,
+    "mapLevelType": 3,
+    "mapPinYin": "Lanxi",
+    "mapZipCode": 321100
+}, {
+    "id": 330782,
+    "mapName": "义乌市",
+    "mapAbbreviation": "义乌",
+    "mapMergerName": "中国,浙江省,金华市,义乌市",
+    "mapParentId": 330700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yiwu",
+    "mapZipCode": 322000
+}, {
+    "id": 330783,
+    "mapName": "东阳市",
+    "mapAbbreviation": "东阳",
+    "mapMergerName": "中国,浙江省,金华市,东阳市",
+    "mapParentId": 330700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongyang",
+    "mapZipCode": 322100
+}, {
+    "id": 330784,
+    "mapName": "永康市",
+    "mapAbbreviation": "永康",
+    "mapMergerName": "中国,浙江省,金华市,永康市",
+    "mapParentId": 330700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongkang",
+    "mapZipCode": 321300
+}, {
+    "id": 330802,
+    "mapName": "柯城区",
+    "mapAbbreviation": "柯城",
+    "mapMergerName": "中国,浙江省,衢州市,柯城区",
+    "mapParentId": 330800,
+    "mapLevelType": 3,
+    "mapPinYin": "Kecheng",
+    "mapZipCode": 324100
+}, {
+    "id": 330803,
+    "mapName": "衢江区",
+    "mapAbbreviation": "衢江",
+    "mapMergerName": "中国,浙江省,衢州市,衢江区",
+    "mapParentId": 330800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qujiang",
+    "mapZipCode": 324022
+}, {
+    "id": 330822,
+    "mapName": "常山县",
+    "mapAbbreviation": "常山",
+    "mapMergerName": "中国,浙江省,衢州市,常山县",
+    "mapParentId": 330800,
+    "mapLevelType": 3,
+    "mapPinYin": "Changshan",
+    "mapZipCode": 324200
+}, {
+    "id": 330824,
+    "mapName": "开化县",
+    "mapAbbreviation": "开化",
+    "mapMergerName": "中国,浙江省,衢州市,开化县",
+    "mapParentId": 330800,
+    "mapLevelType": 3,
+    "mapPinYin": "Kaihua",
+    "mapZipCode": 324300
+}, {
+    "id": 330825,
+    "mapName": "龙游县",
+    "mapAbbreviation": "龙游",
+    "mapMergerName": "中国,浙江省,衢州市,龙游县",
+    "mapParentId": 330800,
+    "mapLevelType": 3,
+    "mapPinYin": "Longyou",
+    "mapZipCode": 324400
+}, {
+    "id": 330881,
+    "mapName": "江山市",
+    "mapAbbreviation": "江山",
+    "mapMergerName": "中国,浙江省,衢州市,江山市",
+    "mapParentId": 330800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangshan",
+    "mapZipCode": 324100
+}, {
+    "id": 330902,
+    "mapName": "定海区",
+    "mapAbbreviation": "定海",
+    "mapMergerName": "中国,浙江省,舟山市,定海区",
+    "mapParentId": 330900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dinghai",
+    "mapZipCode": 316000
+}, {
+    "id": 330903,
+    "mapName": "普陀区",
+    "mapAbbreviation": "普陀",
+    "mapMergerName": "中国,浙江省,舟山市,普陀区",
+    "mapParentId": 330900,
+    "mapLevelType": 3,
+    "mapPinYin": "Putuo",
+    "mapZipCode": 316100
+}, {
+    "id": 330921,
+    "mapName": "岱山县",
+    "mapAbbreviation": "岱山",
+    "mapMergerName": "中国,浙江省,舟山市,岱山县",
+    "mapParentId": 330900,
+    "mapLevelType": 3,
+    "mapPinYin": "Daishan",
+    "mapZipCode": 316200
+}, {
+    "id": 330922,
+    "mapName": "嵊泗县",
+    "mapAbbreviation": "嵊泗",
+    "mapMergerName": "中国,浙江省,舟山市,嵊泗县",
+    "mapParentId": 330900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shengsi",
+    "mapZipCode": 202450
+}, {
+    "id": 331002,
+    "mapName": "椒江区",
+    "mapAbbreviation": "椒江",
+    "mapMergerName": "中国,浙江省,台州市,椒江区",
+    "mapParentId": 331000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaojiang",
+    "mapZipCode": 318000
+}, {
+    "id": 331003,
+    "mapName": "黄岩区",
+    "mapAbbreviation": "黄岩",
+    "mapMergerName": "中国,浙江省,台州市,黄岩区",
+    "mapParentId": 331000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangyan",
+    "mapZipCode": 318020
+}, {
+    "id": 331004,
+    "mapName": "路桥区",
+    "mapAbbreviation": "路桥",
+    "mapMergerName": "中国,浙江省,台州市,路桥区",
+    "mapParentId": 331000,
+    "mapLevelType": 3,
+    "mapPinYin": "Luqiao",
+    "mapZipCode": 318050
+}, {
+    "id": 331021,
+    "mapName": "玉环县",
+    "mapAbbreviation": "玉环",
+    "mapMergerName": "中国,浙江省,台州市,玉环县",
+    "mapParentId": 331000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuhuan",
+    "mapZipCode": 317600
+}, {
+    "id": 331022,
+    "mapName": "三门县",
+    "mapAbbreviation": "三门",
+    "mapMergerName": "中国,浙江省,台州市,三门县",
+    "mapParentId": 331000,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanmen",
+    "mapZipCode": 317100
+}, {
+    "id": 331023,
+    "mapName": "天台县",
+    "mapAbbreviation": "天台",
+    "mapMergerName": "中国,浙江省,台州市,天台县",
+    "mapParentId": 331000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiantai",
+    "mapZipCode": 317200
+}, {
+    "id": 331024,
+    "mapName": "仙居县",
+    "mapAbbreviation": "仙居",
+    "mapMergerName": "中国,浙江省,台州市,仙居县",
+    "mapParentId": 331000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xianju",
+    "mapZipCode": 317300
+}, {
+    "id": 331081,
+    "mapName": "温岭市",
+    "mapAbbreviation": "温岭",
+    "mapMergerName": "中国,浙江省,台州市,温岭市",
+    "mapParentId": 331000,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenling",
+    "mapZipCode": 317500
+}, {
+    "id": 331082,
+    "mapName": "临海市",
+    "mapAbbreviation": "临海",
+    "mapMergerName": "中国,浙江省,台州市,临海市",
+    "mapParentId": 331000,
+    "mapLevelType": 3,
+    "mapPinYin": "Linhai",
+    "mapZipCode": 317000
+}, {
+    "id": 331102,
+    "mapName": "莲都区",
+    "mapAbbreviation": "莲都",
+    "mapMergerName": "中国,浙江省,丽水市,莲都区",
+    "mapParentId": 331100,
+    "mapLevelType": 3,
+    "mapPinYin": "Liandu",
+    "mapZipCode": 323000
+}, {
+    "id": 331121,
+    "mapName": "青田县",
+    "mapAbbreviation": "青田",
+    "mapMergerName": "中国,浙江省,丽水市,青田县",
+    "mapParentId": 331100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingtian",
+    "mapZipCode": 323900
+}, {
+    "id": 331122,
+    "mapName": "缙云县",
+    "mapAbbreviation": "缙云",
+    "mapMergerName": "中国,浙江省,丽水市,缙云县",
+    "mapParentId": 331100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinyun",
+    "mapZipCode": 321400
+}, {
+    "id": 331123,
+    "mapName": "遂昌县",
+    "mapAbbreviation": "遂昌",
+    "mapMergerName": "中国,浙江省,丽水市,遂昌县",
+    "mapParentId": 331100,
+    "mapLevelType": 3,
+    "mapPinYin": "Suichang",
+    "mapZipCode": 323300
+}, {
+    "id": 331124,
+    "mapName": "松阳县",
+    "mapAbbreviation": "松阳",
+    "mapMergerName": "中国,浙江省,丽水市,松阳县",
+    "mapParentId": 331100,
+    "mapLevelType": 3,
+    "mapPinYin": "Songyang",
+    "mapZipCode": 323400
+}, {
+    "id": 331125,
+    "mapName": "云和县",
+    "mapAbbreviation": "云和",
+    "mapMergerName": "中国,浙江省,丽水市,云和县",
+    "mapParentId": 331100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunhe",
+    "mapZipCode": 323600
+}, {
+    "id": 331126,
+    "mapName": "庆元县",
+    "mapAbbreviation": "庆元",
+    "mapMergerName": "中国,浙江省,丽水市,庆元县",
+    "mapParentId": 331100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingyuan",
+    "mapZipCode": 323800
+}, {
+    "id": 331127,
+    "mapName": "景宁畲族自治县",
+    "mapAbbreviation": "景宁",
+    "mapMergerName": "中国,浙江省,丽水市,景宁畲族自治县",
+    "mapParentId": 331100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingning",
+    "mapZipCode": 323500
+}, {
+    "id": 331181,
+    "mapName": "龙泉市",
+    "mapAbbreviation": "龙泉",
+    "mapMergerName": "中国,浙江省,丽水市,龙泉市",
+    "mapParentId": 331100,
+    "mapLevelType": 3,
+    "mapPinYin": "Longquan",
+    "mapZipCode": 323700
+}, {
+    "id": 331201,
+    "mapName": "金塘岛",
+    "mapAbbreviation": "金塘",
+    "mapMergerName": "中国,浙江省,舟山群岛新区,金塘岛",
+    "mapParentId": 331200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jintang",
+    "mapZipCode": 316000
+}, {
+    "id": 331202,
+    "mapName": "六横岛",
+    "mapAbbreviation": "六横",
+    "mapMergerName": "中国,浙江省,舟山群岛新区,六横岛",
+    "mapParentId": 331200,
+    "mapLevelType": 3,
+    "mapPinYin": "Liuheng",
+    "mapZipCode": 316000
+}, {
+    "id": 331203,
+    "mapName": "衢山岛",
+    "mapAbbreviation": "衢山",
+    "mapMergerName": "中国,浙江省,舟山群岛新区,衢山岛",
+    "mapParentId": 331200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qushan",
+    "mapZipCode": 316000
+}, {
+    "id": 331204,
+    "mapName": "舟山本岛西北部",
+    "mapAbbreviation": "舟山",
+    "mapMergerName": "中国,浙江省,舟山群岛新区,舟山本岛西北部",
+    "mapParentId": 331200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhoushan",
+    "mapZipCode": 316000
+}, {
+    "id": 331205,
+    "mapName": "岱山岛西南部",
+    "mapAbbreviation": "岱山",
+    "mapMergerName": "中国,浙江省,舟山群岛新区,岱山岛西南部",
+    "mapParentId": 331200,
+    "mapLevelType": 3,
+    "mapPinYin": "Daishan",
+    "mapZipCode": 316000
+}, {
+    "id": 331206,
+    "mapName": "泗礁岛",
+    "mapAbbreviation": "泗礁",
+    "mapMergerName": "中国,浙江省,舟山群岛新区,泗礁岛",
+    "mapParentId": 331200,
+    "mapLevelType": 3,
+    "mapPinYin": "Sijiao",
+    "mapZipCode": 316000
+}, {
+    "id": 331207,
+    "mapName": "朱家尖岛",
+    "mapAbbreviation": "朱家尖",
+    "mapMergerName": "中国,浙江省,舟山群岛新区,朱家尖岛",
+    "mapParentId": 331200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhujiajian",
+    "mapZipCode": 316000
+}, {
+    "id": 331208,
+    "mapName": "洋山岛",
+    "mapAbbreviation": "洋山",
+    "mapMergerName": "中国,浙江省,舟山群岛新区,洋山岛",
+    "mapParentId": 331200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangshan",
+    "mapZipCode": 316000
+}, {
+    "id": 331209,
+    "mapName": "长涂岛",
+    "mapAbbreviation": "长涂",
+    "mapMergerName": "中国,浙江省,舟山群岛新区,长涂岛",
+    "mapParentId": 331200,
+    "mapLevelType": 3,
+    "mapPinYin": "Changtu",
+    "mapZipCode": 316000
+}, {
+    "id": 331210,
+    "mapName": "虾峙岛",
+    "mapAbbreviation": "虾峙",
+    "mapMergerName": "中国,浙江省,舟山群岛新区,虾峙岛",
+    "mapParentId": 331200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiazhi",
+    "mapZipCode": 316000
+}, {
+    "id": 340102,
+    "mapName": "瑶海区",
+    "mapAbbreviation": "瑶海",
+    "mapMergerName": "中国,安徽省,合肥市,瑶海区",
+    "mapParentId": 340100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yaohai",
+    "mapZipCode": 230011
+}, {
+    "id": 340103,
+    "mapName": "庐阳区",
+    "mapAbbreviation": "庐阳",
+    "mapMergerName": "中国,安徽省,合肥市,庐阳区",
+    "mapParentId": 340100,
+    "mapLevelType": 3,
+    "mapPinYin": "Luyang",
+    "mapZipCode": 230001
+}, {
+    "id": 340104,
+    "mapName": "蜀山区",
+    "mapAbbreviation": "蜀山",
+    "mapMergerName": "中国,安徽省,合肥市,蜀山区",
+    "mapParentId": 340100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shushan",
+    "mapZipCode": 230031
+}, {
+    "id": 340111,
+    "mapName": "包河区",
+    "mapAbbreviation": "包河",
+    "mapMergerName": "中国,安徽省,合肥市,包河区",
+    "mapParentId": 340100,
+    "mapLevelType": 3,
+    "mapPinYin": "Baohe",
+    "mapZipCode": 230041
+}, {
+    "id": 340121,
+    "mapName": "长丰县",
+    "mapAbbreviation": "长丰",
+    "mapMergerName": "中国,安徽省,合肥市,长丰县",
+    "mapParentId": 340100,
+    "mapLevelType": 3,
+    "mapPinYin": "Changfeng",
+    "mapZipCode": 231100
+}, {
+    "id": 340122,
+    "mapName": "肥东县",
+    "mapAbbreviation": "肥东",
+    "mapMergerName": "中国,安徽省,合肥市,肥东县",
+    "mapParentId": 340100,
+    "mapLevelType": 3,
+    "mapPinYin": "Feidong",
+    "mapZipCode": 231600
+}, {
+    "id": 340123,
+    "mapName": "肥西县",
+    "mapAbbreviation": "肥西",
+    "mapMergerName": "中国,安徽省,合肥市,肥西县",
+    "mapParentId": 340100,
+    "mapLevelType": 3,
+    "mapPinYin": "Feixi",
+    "mapZipCode": 231200
+}, {
+    "id": 340124,
+    "mapName": "庐江县",
+    "mapAbbreviation": "庐江",
+    "mapMergerName": "中国,安徽省,合肥市,庐江县",
+    "mapParentId": 340100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lujiang",
+    "mapZipCode": 231500
+}, {
+    "id": 340181,
+    "mapName": "巢湖市",
+    "mapAbbreviation": "巢湖",
+    "mapMergerName": "中国,安徽省,合肥市,巢湖市",
+    "mapParentId": 340100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chaohu",
+    "mapZipCode": 238000
+}, {
+    "id": 340202,
+    "mapName": "镜湖区",
+    "mapAbbreviation": "镜湖",
+    "mapMergerName": "中国,安徽省,芜湖市,镜湖区",
+    "mapParentId": 340200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinghu",
+    "mapZipCode": 241000
+}, {
+    "id": 340203,
+    "mapName": "弋江区",
+    "mapAbbreviation": "弋江",
+    "mapMergerName": "中国,安徽省,芜湖市,弋江区",
+    "mapParentId": 340200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yijiang",
+    "mapZipCode": 241000
+}, {
+    "id": 340207,
+    "mapName": "鸠江区",
+    "mapAbbreviation": "鸠江",
+    "mapMergerName": "中国,安徽省,芜湖市,鸠江区",
+    "mapParentId": 340200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiujiang",
+    "mapZipCode": 241000
+}, {
+    "id": 340208,
+    "mapName": "三山区",
+    "mapAbbreviation": "三山",
+    "mapMergerName": "中国,安徽省,芜湖市,三山区",
+    "mapParentId": 340200,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanshan",
+    "mapZipCode": 241000
+}, {
+    "id": 340221,
+    "mapName": "芜湖县",
+    "mapAbbreviation": "芜湖",
+    "mapMergerName": "中国,安徽省,芜湖市,芜湖县",
+    "mapParentId": 340200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuhu",
+    "mapZipCode": 241100
+}, {
+    "id": 340222,
+    "mapName": "繁昌县",
+    "mapAbbreviation": "繁昌",
+    "mapMergerName": "中国,安徽省,芜湖市,繁昌县",
+    "mapParentId": 340200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fanchang",
+    "mapZipCode": 241200
+}, {
+    "id": 340223,
+    "mapName": "南陵县",
+    "mapAbbreviation": "南陵",
+    "mapMergerName": "中国,安徽省,芜湖市,南陵县",
+    "mapParentId": 340200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanling",
+    "mapZipCode": 242400
+}, {
+    "id": 340225,
+    "mapName": "无为县",
+    "mapAbbreviation": "无为",
+    "mapMergerName": "中国,安徽省,芜湖市,无为县",
+    "mapParentId": 340200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuwei",
+    "mapZipCode": 238300
+}, {
+    "id": 340302,
+    "mapName": "龙子湖区",
+    "mapAbbreviation": "龙子湖",
+    "mapMergerName": "中国,安徽省,蚌埠市,龙子湖区",
+    "mapParentId": 340300,
+    "mapLevelType": 3,
+    "mapPinYin": "Longzihu",
+    "mapZipCode": 233000
+}, {
+    "id": 340303,
+    "mapName": "蚌山区",
+    "mapAbbreviation": "蚌山",
+    "mapMergerName": "中国,安徽省,蚌埠市,蚌山区",
+    "mapParentId": 340300,
+    "mapLevelType": 3,
+    "mapPinYin": "Bengshan",
+    "mapZipCode": 233000
+}, {
+    "id": 340304,
+    "mapName": "禹会区",
+    "mapAbbreviation": "禹会",
+    "mapMergerName": "中国,安徽省,蚌埠市,禹会区",
+    "mapParentId": 340300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuhui",
+    "mapZipCode": 233010
+}, {
+    "id": 340311,
+    "mapName": "淮上区",
+    "mapAbbreviation": "淮上",
+    "mapMergerName": "中国,安徽省,蚌埠市,淮上区",
+    "mapParentId": 340300,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaishang",
+    "mapZipCode": 233002
+}, {
+    "id": 340321,
+    "mapName": "怀远县",
+    "mapAbbreviation": "怀远",
+    "mapMergerName": "中国,安徽省,蚌埠市,怀远县",
+    "mapParentId": 340300,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaiyuan",
+    "mapZipCode": 233400
+}, {
+    "id": 340322,
+    "mapName": "五河县",
+    "mapAbbreviation": "五河",
+    "mapMergerName": "中国,安徽省,蚌埠市,五河县",
+    "mapParentId": 340300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuhe",
+    "mapZipCode": 233300
+}, {
+    "id": 340323,
+    "mapName": "固镇县",
+    "mapAbbreviation": "固镇",
+    "mapMergerName": "中国,安徽省,蚌埠市,固镇县",
+    "mapParentId": 340300,
+    "mapLevelType": 3,
+    "mapPinYin": "Guzhen",
+    "mapZipCode": 233700
+}, {
+    "id": 340402,
+    "mapName": "大通区",
+    "mapAbbreviation": "大通",
+    "mapMergerName": "中国,安徽省,淮南市,大通区",
+    "mapParentId": 340400,
+    "mapLevelType": 3,
+    "mapPinYin": "Datong",
+    "mapZipCode": 232033
+}, {
+    "id": 340403,
+    "mapName": "田家庵区",
+    "mapAbbreviation": "田家庵",
+    "mapMergerName": "中国,安徽省,淮南市,田家庵区",
+    "mapParentId": 340400,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianjiaan",
+    "mapZipCode": 232000
+}, {
+    "id": 340404,
+    "mapName": "谢家集区",
+    "mapAbbreviation": "谢家集",
+    "mapMergerName": "中国,安徽省,淮南市,谢家集区",
+    "mapParentId": 340400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiejiaji",
+    "mapZipCode": 232052
+}, {
+    "id": 340405,
+    "mapName": "八公山区",
+    "mapAbbreviation": "八公山",
+    "mapMergerName": "中国,安徽省,淮南市,八公山区",
+    "mapParentId": 340400,
+    "mapLevelType": 3,
+    "mapPinYin": "Bagongshan",
+    "mapZipCode": 232072
+}, {
+    "id": 340406,
+    "mapName": "潘集区",
+    "mapAbbreviation": "潘集",
+    "mapMergerName": "中国,安徽省,淮南市,潘集区",
+    "mapParentId": 340400,
+    "mapLevelType": 3,
+    "mapPinYin": "Panji",
+    "mapZipCode": 232082
+}, {
+    "id": 340421,
+    "mapName": "凤台县",
+    "mapAbbreviation": "凤台",
+    "mapMergerName": "中国,安徽省,淮南市,凤台县",
+    "mapParentId": 340400,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengtai",
+    "mapZipCode": 232100
+}, {
+    "id": 340503,
+    "mapName": "花山区",
+    "mapAbbreviation": "花山",
+    "mapMergerName": "中国,安徽省,马鞍山市,花山区",
+    "mapParentId": 340500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huashan",
+    "mapZipCode": 243000
+}, {
+    "id": 340504,
+    "mapName": "雨山区",
+    "mapAbbreviation": "雨山",
+    "mapMergerName": "中国,安徽省,马鞍山市,雨山区",
+    "mapParentId": 340500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yushan",
+    "mapZipCode": 243071
+}, {
+    "id": 340506,
+    "mapName": "博望区",
+    "mapAbbreviation": "博望",
+    "mapMergerName": "中国,安徽省,马鞍山市,博望区",
+    "mapParentId": 340500,
+    "mapLevelType": 3,
+    "mapPinYin": "Bowang",
+    "mapZipCode": 243131
+}, {
+    "id": 340521,
+    "mapName": "当涂县",
+    "mapAbbreviation": "当涂",
+    "mapMergerName": "中国,安徽省,马鞍山市,当涂县",
+    "mapParentId": 340500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dangtu",
+    "mapZipCode": 243100
+}, {
+    "id": 340522,
+    "mapName": "含山县",
+    "mapAbbreviation": "含山",
+    "mapMergerName": "中国,安徽省,马鞍山市,含山县",
+    "mapParentId": 340500,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanshan ",
+    "mapZipCode": 238100
+}, {
+    "id": 340523,
+    "mapName": "和县",
+    "mapAbbreviation": "和县",
+    "mapMergerName": "中国,安徽省,马鞍山市,和县",
+    "mapParentId": 340500,
+    "mapLevelType": 3,
+    "mapPinYin": "Hexian",
+    "mapZipCode": 238200
+}, {
+    "id": 340602,
+    "mapName": "杜集区",
+    "mapAbbreviation": "杜集",
+    "mapMergerName": "中国,安徽省,淮北市,杜集区",
+    "mapParentId": 340600,
+    "mapLevelType": 3,
+    "mapPinYin": "Duji",
+    "mapZipCode": 235000
+}, {
+    "id": 340603,
+    "mapName": "相山区",
+    "mapAbbreviation": "相山",
+    "mapMergerName": "中国,安徽省,淮北市,相山区",
+    "mapParentId": 340600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangshan",
+    "mapZipCode": 235000
+}, {
+    "id": 340604,
+    "mapName": "烈山区",
+    "mapAbbreviation": "烈山",
+    "mapMergerName": "中国,安徽省,淮北市,烈山区",
+    "mapParentId": 340600,
+    "mapLevelType": 3,
+    "mapPinYin": "Lieshan",
+    "mapZipCode": 235000
+}, {
+    "id": 340621,
+    "mapName": "濉溪县",
+    "mapAbbreviation": "濉溪",
+    "mapMergerName": "中国,安徽省,淮北市,濉溪县",
+    "mapParentId": 340600,
+    "mapLevelType": 3,
+    "mapPinYin": "Suixi",
+    "mapZipCode": 235100
+}, {
+    "id": 340702,
+    "mapName": "铜官山区",
+    "mapAbbreviation": "铜官山",
+    "mapMergerName": "中国,安徽省,铜陵市,铜官山区",
+    "mapParentId": 340700,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongguanshan",
+    "mapZipCode": 244000
+}, {
+    "id": 340703,
+    "mapName": "狮子山区",
+    "mapAbbreviation": "狮子山",
+    "mapMergerName": "中国,安徽省,铜陵市,狮子山区",
+    "mapParentId": 340700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shizishan",
+    "mapZipCode": 244000
+}, {
+    "id": 340711,
+    "mapName": "郊区",
+    "mapAbbreviation": "郊区",
+    "mapMergerName": "中国,安徽省,铜陵市,郊区",
+    "mapParentId": 340700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaoqu",
+    "mapZipCode": 244000
+}, {
+    "id": 340721,
+    "mapName": "铜陵县",
+    "mapAbbreviation": "铜陵",
+    "mapMergerName": "中国,安徽省,铜陵市,铜陵县",
+    "mapParentId": 340700,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongling",
+    "mapZipCode": 244100
+}, {
+    "id": 340802,
+    "mapName": "迎江区",
+    "mapAbbreviation": "迎江",
+    "mapMergerName": "中国,安徽省,安庆市,迎江区",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingjiang",
+    "mapZipCode": 246001
+}, {
+    "id": 340803,
+    "mapName": "大观区",
+    "mapAbbreviation": "大观",
+    "mapMergerName": "中国,安徽省,安庆市,大观区",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Daguan",
+    "mapZipCode": 246002
+}, {
+    "id": 340811,
+    "mapName": "宜秀区",
+    "mapAbbreviation": "宜秀",
+    "mapMergerName": "中国,安徽省,安庆市,宜秀区",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yixiu",
+    "mapZipCode": 246003
+}, {
+    "id": 340822,
+    "mapName": "怀宁县",
+    "mapAbbreviation": "怀宁",
+    "mapMergerName": "中国,安徽省,安庆市,怀宁县",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaining",
+    "mapZipCode": 246100
+}, {
+    "id": 340823,
+    "mapName": "枞阳县",
+    "mapAbbreviation": "枞阳",
+    "mapMergerName": "中国,安徽省,安庆市,枞阳县",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zongyang",
+    "mapZipCode": 246700
+}, {
+    "id": 340824,
+    "mapName": "潜山县",
+    "mapAbbreviation": "潜山",
+    "mapMergerName": "中国,安徽省,安庆市,潜山县",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianshan",
+    "mapZipCode": 246300
+}, {
+    "id": 340825,
+    "mapName": "太湖县",
+    "mapAbbreviation": "太湖",
+    "mapMergerName": "中国,安徽省,安庆市,太湖县",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Taihu",
+    "mapZipCode": 246400
+}, {
+    "id": 340826,
+    "mapName": "宿松县",
+    "mapAbbreviation": "宿松",
+    "mapMergerName": "中国,安徽省,安庆市,宿松县",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Susong",
+    "mapZipCode": 246500
+}, {
+    "id": 340827,
+    "mapName": "望江县",
+    "mapAbbreviation": "望江",
+    "mapMergerName": "中国,安徽省,安庆市,望江县",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wangjiang",
+    "mapZipCode": 246200
+}, {
+    "id": 340828,
+    "mapName": "岳西县",
+    "mapAbbreviation": "岳西",
+    "mapMergerName": "中国,安徽省,安庆市,岳西县",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuexi",
+    "mapZipCode": 246600
+}, {
+    "id": 340881,
+    "mapName": "桐城市",
+    "mapAbbreviation": "桐城",
+    "mapMergerName": "中国,安徽省,安庆市,桐城市",
+    "mapParentId": 340800,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongcheng",
+    "mapZipCode": 231400
+}, {
+    "id": 341002,
+    "mapName": "屯溪区",
+    "mapAbbreviation": "屯溪",
+    "mapMergerName": "中国,安徽省,黄山市,屯溪区",
+    "mapParentId": 341000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tunxi",
+    "mapZipCode": 245000
+}, {
+    "id": 341003,
+    "mapName": "黄山区",
+    "mapAbbreviation": "黄山",
+    "mapMergerName": "中国,安徽省,黄山市,黄山区",
+    "mapParentId": 341000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangshan",
+    "mapZipCode": 242700
+}, {
+    "id": 341004,
+    "mapName": "徽州区",
+    "mapAbbreviation": "徽州",
+    "mapMergerName": "中国,安徽省,黄山市,徽州区",
+    "mapParentId": 341000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huizhou",
+    "mapZipCode": 245061
+}, {
+    "id": 341021,
+    "mapName": "歙县",
+    "mapAbbreviation": "歙县",
+    "mapMergerName": "中国,安徽省,黄山市,歙县",
+    "mapParentId": 341000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shexian",
+    "mapZipCode": 245200
+}, {
+    "id": 341022,
+    "mapName": "休宁县",
+    "mapAbbreviation": "休宁",
+    "mapMergerName": "中国,安徽省,黄山市,休宁县",
+    "mapParentId": 341000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiuning",
+    "mapZipCode": 245400
+}, {
+    "id": 341023,
+    "mapName": "黟县",
+    "mapAbbreviation": "黟县",
+    "mapMergerName": "中国,安徽省,黄山市,黟县",
+    "mapParentId": 341000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yixian",
+    "mapZipCode": 245500
+}, {
+    "id": 341024,
+    "mapName": "祁门县",
+    "mapAbbreviation": "祁门",
+    "mapMergerName": "中国,安徽省,黄山市,祁门县",
+    "mapParentId": 341000,
+    "mapLevelType": 3,
+    "mapPinYin": "Qimen",
+    "mapZipCode": 245600
+}, {
+    "id": 341102,
+    "mapName": "琅琊区",
+    "mapAbbreviation": "琅琊",
+    "mapMergerName": "中国,安徽省,滁州市,琅琊区",
+    "mapParentId": 341100,
+    "mapLevelType": 3,
+    "mapPinYin": "Langya",
+    "mapZipCode": 239000
+}, {
+    "id": 341103,
+    "mapName": "南谯区",
+    "mapAbbreviation": "南谯",
+    "mapMergerName": "中国,安徽省,滁州市,南谯区",
+    "mapParentId": 341100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanqiao",
+    "mapZipCode": 239000
+}, {
+    "id": 341122,
+    "mapName": "来安县",
+    "mapAbbreviation": "来安",
+    "mapMergerName": "中国,安徽省,滁州市,来安县",
+    "mapParentId": 341100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lai'an",
+    "mapZipCode": 239200
+}, {
+    "id": 341124,
+    "mapName": "全椒县",
+    "mapAbbreviation": "全椒",
+    "mapMergerName": "中国,安徽省,滁州市,全椒县",
+    "mapParentId": 341100,
+    "mapLevelType": 3,
+    "mapPinYin": "Quanjiao",
+    "mapZipCode": 239500
+}, {
+    "id": 341125,
+    "mapName": "定远县",
+    "mapAbbreviation": "定远",
+    "mapMergerName": "中国,安徽省,滁州市,定远县",
+    "mapParentId": 341100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingyuan",
+    "mapZipCode": 233200
+}, {
+    "id": 341126,
+    "mapName": "凤阳县",
+    "mapAbbreviation": "凤阳",
+    "mapMergerName": "中国,安徽省,滁州市,凤阳县",
+    "mapParentId": 341100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengyang",
+    "mapZipCode": 233100
+}, {
+    "id": 341181,
+    "mapName": "天长市",
+    "mapAbbreviation": "天长",
+    "mapMergerName": "中国,安徽省,滁州市,天长市",
+    "mapParentId": 341100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianchang",
+    "mapZipCode": 239300
+}, {
+    "id": 341182,
+    "mapName": "明光市",
+    "mapAbbreviation": "明光",
+    "mapMergerName": "中国,安徽省,滁州市,明光市",
+    "mapParentId": 341100,
+    "mapLevelType": 3,
+    "mapPinYin": "Mingguang",
+    "mapZipCode": 239400
+}, {
+    "id": 341202,
+    "mapName": "颍州区",
+    "mapAbbreviation": "颍州",
+    "mapMergerName": "中国,安徽省,阜阳市,颍州区",
+    "mapParentId": 341200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingzhou",
+    "mapZipCode": 236001
+}, {
+    "id": 341203,
+    "mapName": "颍东区",
+    "mapAbbreviation": "颍东",
+    "mapMergerName": "中国,安徽省,阜阳市,颍东区",
+    "mapParentId": 341200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingdong",
+    "mapZipCode": 236058
+}, {
+    "id": 341204,
+    "mapName": "颍泉区",
+    "mapAbbreviation": "颍泉",
+    "mapMergerName": "中国,安徽省,阜阳市,颍泉区",
+    "mapParentId": 341200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingquan",
+    "mapZipCode": 236045
+}, {
+    "id": 341221,
+    "mapName": "临泉县",
+    "mapAbbreviation": "临泉",
+    "mapMergerName": "中国,安徽省,阜阳市,临泉县",
+    "mapParentId": 341200,
+    "mapLevelType": 3,
+    "mapPinYin": "Linquan",
+    "mapZipCode": 236400
+}, {
+    "id": 341222,
+    "mapName": "太和县",
+    "mapAbbreviation": "太和",
+    "mapMergerName": "中国,安徽省,阜阳市,太和县",
+    "mapParentId": 341200,
+    "mapLevelType": 3,
+    "mapPinYin": "Taihe",
+    "mapZipCode": 236600
+}, {
+    "id": 341225,
+    "mapName": "阜南县",
+    "mapAbbreviation": "阜南",
+    "mapMergerName": "中国,安徽省,阜阳市,阜南县",
+    "mapParentId": 341200,
+    "mapLevelType": 3,
+    "mapPinYin": "Funan",
+    "mapZipCode": 236300
+}, {
+    "id": 341226,
+    "mapName": "颍上县",
+    "mapAbbreviation": "颍上",
+    "mapMergerName": "中国,安徽省,阜阳市,颍上县",
+    "mapParentId": 341200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingshang",
+    "mapZipCode": 236200
+}, {
+    "id": 341282,
+    "mapName": "界首市",
+    "mapAbbreviation": "界首",
+    "mapMergerName": "中国,安徽省,阜阳市,界首市",
+    "mapParentId": 341200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jieshou",
+    "mapZipCode": 236500
+}, {
+    "id": 341302,
+    "mapName": "埇桥区",
+    "mapAbbreviation": "埇桥",
+    "mapMergerName": "中国,安徽省,宿州市,埇桥区",
+    "mapParentId": 341300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongqiao",
+    "mapZipCode": 234000
+}, {
+    "id": 341321,
+    "mapName": "砀山县",
+    "mapAbbreviation": "砀山",
+    "mapMergerName": "中国,安徽省,宿州市,砀山县",
+    "mapParentId": 341300,
+    "mapLevelType": 3,
+    "mapPinYin": "Dangshan",
+    "mapZipCode": 235300
+}, {
+    "id": 341322,
+    "mapName": "萧县",
+    "mapAbbreviation": "萧县",
+    "mapMergerName": "中国,安徽省,宿州市,萧县",
+    "mapParentId": 341300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaoxian",
+    "mapZipCode": 235200
+}, {
+    "id": 341323,
+    "mapName": "灵璧县",
+    "mapAbbreviation": "灵璧",
+    "mapMergerName": "中国,安徽省,宿州市,灵璧县",
+    "mapParentId": 341300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingbi",
+    "mapZipCode": 234200
+}, {
+    "id": 341324,
+    "mapName": "泗县",
+    "mapAbbreviation": "泗县",
+    "mapMergerName": "中国,安徽省,宿州市,泗县",
+    "mapParentId": 341300,
+    "mapLevelType": 3,
+    "mapPinYin": "Sixian",
+    "mapZipCode": 234300
+}, {
+    "id": 341502,
+    "mapName": "金安区",
+    "mapAbbreviation": "金安",
+    "mapMergerName": "中国,安徽省,六安市,金安区",
+    "mapParentId": 341500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jin'an",
+    "mapZipCode": 237005
+}, {
+    "id": 341503,
+    "mapName": "裕安区",
+    "mapAbbreviation": "裕安",
+    "mapMergerName": "中国,安徽省,六安市,裕安区",
+    "mapParentId": 341500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yu'an",
+    "mapZipCode": 237010
+}, {
+    "id": 341521,
+    "mapName": "寿县",
+    "mapAbbreviation": "寿县",
+    "mapMergerName": "中国,安徽省,六安市,寿县",
+    "mapParentId": 341500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shouxian",
+    "mapZipCode": 232200
+}, {
+    "id": 341522,
+    "mapName": "霍邱县",
+    "mapAbbreviation": "霍邱",
+    "mapMergerName": "中国,安徽省,六安市,霍邱县",
+    "mapParentId": 341500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huoqiu",
+    "mapZipCode": 237400
+}, {
+    "id": 341523,
+    "mapName": "舒城县",
+    "mapAbbreviation": "舒城",
+    "mapMergerName": "中国,安徽省,六安市,舒城县",
+    "mapParentId": 341500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shucheng",
+    "mapZipCode": 231300
+}, {
+    "id": 341524,
+    "mapName": "金寨县",
+    "mapAbbreviation": "金寨",
+    "mapMergerName": "中国,安徽省,六安市,金寨县",
+    "mapParentId": 341500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinzhai",
+    "mapZipCode": 237300
+}, {
+    "id": 341525,
+    "mapName": "霍山县",
+    "mapAbbreviation": "霍山",
+    "mapMergerName": "中国,安徽省,六安市,霍山县",
+    "mapParentId": 341500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huoshan",
+    "mapZipCode": 237200
+}, {
+    "id": 341602,
+    "mapName": "谯城区",
+    "mapAbbreviation": "谯城",
+    "mapMergerName": "中国,安徽省,亳州市,谯城区",
+    "mapParentId": 341600,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiaocheng",
+    "mapZipCode": 236800
+}, {
+    "id": 341621,
+    "mapName": "涡阳县",
+    "mapAbbreviation": "涡阳",
+    "mapMergerName": "中国,安徽省,亳州市,涡阳县",
+    "mapParentId": 341600,
+    "mapLevelType": 3,
+    "mapPinYin": "Guoyang",
+    "mapZipCode": 233600
+}, {
+    "id": 341622,
+    "mapName": "蒙城县",
+    "mapAbbreviation": "蒙城",
+    "mapMergerName": "中国,安徽省,亳州市,蒙城县",
+    "mapParentId": 341600,
+    "mapLevelType": 3,
+    "mapPinYin": "Mengcheng",
+    "mapZipCode": 233500
+}, {
+    "id": 341623,
+    "mapName": "利辛县",
+    "mapAbbreviation": "利辛",
+    "mapMergerName": "中国,安徽省,亳州市,利辛县",
+    "mapParentId": 341600,
+    "mapLevelType": 3,
+    "mapPinYin": "Lixin",
+    "mapZipCode": 236700
+}, {
+    "id": 341702,
+    "mapName": "贵池区",
+    "mapAbbreviation": "贵池",
+    "mapMergerName": "中国,安徽省,池州市,贵池区",
+    "mapParentId": 341700,
+    "mapLevelType": 3,
+    "mapPinYin": "Guichi",
+    "mapZipCode": 247100
+}, {
+    "id": 341721,
+    "mapName": "东至县",
+    "mapAbbreviation": "东至",
+    "mapMergerName": "中国,安徽省,池州市,东至县",
+    "mapParentId": 341700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongzhi",
+    "mapZipCode": 247200
+}, {
+    "id": 341722,
+    "mapName": "石台县",
+    "mapAbbreviation": "石台",
+    "mapMergerName": "中国,安徽省,池州市,石台县",
+    "mapParentId": 341700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shitai",
+    "mapZipCode": 245100
+}, {
+    "id": 341723,
+    "mapName": "青阳县",
+    "mapAbbreviation": "青阳",
+    "mapMergerName": "中国,安徽省,池州市,青阳县",
+    "mapParentId": 341700,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingyang",
+    "mapZipCode": 242800
+}, {
+    "id": 341802,
+    "mapName": "宣州区",
+    "mapAbbreviation": "宣州",
+    "mapMergerName": "中国,安徽省,宣城市,宣州区",
+    "mapParentId": 341800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuanzhou",
+    "mapZipCode": 242000
+}, {
+    "id": 341821,
+    "mapName": "郎溪县",
+    "mapAbbreviation": "郎溪",
+    "mapMergerName": "中国,安徽省,宣城市,郎溪县",
+    "mapParentId": 341800,
+    "mapLevelType": 3,
+    "mapPinYin": "Langxi",
+    "mapZipCode": 242100
+}, {
+    "id": 341822,
+    "mapName": "广德县",
+    "mapAbbreviation": "广德",
+    "mapMergerName": "中国,安徽省,宣城市,广德县",
+    "mapParentId": 341800,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangde",
+    "mapZipCode": 242200
+}, {
+    "id": 341823,
+    "mapName": "泾县",
+    "mapAbbreviation": "泾县",
+    "mapMergerName": "中国,安徽省,宣城市,泾县",
+    "mapParentId": 341800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingxian",
+    "mapZipCode": 242500
+}, {
+    "id": 341824,
+    "mapName": "绩溪县",
+    "mapAbbreviation": "绩溪",
+    "mapMergerName": "中国,安徽省,宣城市,绩溪县",
+    "mapParentId": 341800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jixi",
+    "mapZipCode": 245300
+}, {
+    "id": 341825,
+    "mapName": "旌德县",
+    "mapAbbreviation": "旌德",
+    "mapMergerName": "中国,安徽省,宣城市,旌德县",
+    "mapParentId": 341800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingde",
+    "mapZipCode": 242600
+}, {
+    "id": 341881,
+    "mapName": "宁国市",
+    "mapAbbreviation": "宁国",
+    "mapMergerName": "中国,安徽省,宣城市,宁国市",
+    "mapParentId": 341800,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningguo",
+    "mapZipCode": 242300
+}, {
+    "id": 350102,
+    "mapName": "鼓楼区",
+    "mapAbbreviation": "鼓楼",
+    "mapMergerName": "中国,福建省,福州市,鼓楼区",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gulou",
+    "mapZipCode": 350001
+}, {
+    "id": 350103,
+    "mapName": "台江区",
+    "mapAbbreviation": "台江",
+    "mapMergerName": "中国,福建省,福州市,台江区",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Taijiang",
+    "mapZipCode": 350004
+}, {
+    "id": 350104,
+    "mapName": "仓山区",
+    "mapAbbreviation": "仓山",
+    "mapMergerName": "中国,福建省,福州市,仓山区",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Cangshan",
+    "mapZipCode": 350007
+}, {
+    "id": 350105,
+    "mapName": "马尾区",
+    "mapAbbreviation": "马尾",
+    "mapMergerName": "中国,福建省,福州市,马尾区",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Mawei",
+    "mapZipCode": 350015
+}, {
+    "id": 350111,
+    "mapName": "晋安区",
+    "mapAbbreviation": "晋安",
+    "mapMergerName": "中国,福建省,福州市,晋安区",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jin'an",
+    "mapZipCode": 350011
+}, {
+    "id": 350121,
+    "mapName": "闽侯县",
+    "mapAbbreviation": "闽侯",
+    "mapMergerName": "中国,福建省,福州市,闽侯县",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Minhou",
+    "mapZipCode": 350100
+}, {
+    "id": 350122,
+    "mapName": "连江县",
+    "mapAbbreviation": "连江",
+    "mapMergerName": "中国,福建省,福州市,连江县",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianjiang",
+    "mapZipCode": 350500
+}, {
+    "id": 350123,
+    "mapName": "罗源县",
+    "mapAbbreviation": "罗源",
+    "mapMergerName": "中国,福建省,福州市,罗源县",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Luoyuan",
+    "mapZipCode": 350600
+}, {
+    "id": 350124,
+    "mapName": "闽清县",
+    "mapAbbreviation": "闽清",
+    "mapMergerName": "中国,福建省,福州市,闽清县",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Minqing",
+    "mapZipCode": 350800
+}, {
+    "id": 350125,
+    "mapName": "永泰县",
+    "mapAbbreviation": "永泰",
+    "mapMergerName": "中国,福建省,福州市,永泰县",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongtai",
+    "mapZipCode": 350700
+}, {
+    "id": 350128,
+    "mapName": "平潭县",
+    "mapAbbreviation": "平潭",
+    "mapMergerName": "中国,福建省,福州市,平潭县",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingtan",
+    "mapZipCode": 350400
+}, {
+    "id": 350181,
+    "mapName": "福清市",
+    "mapAbbreviation": "福清",
+    "mapMergerName": "中国,福建省,福州市,福清市",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuqing",
+    "mapZipCode": 350300
+}, {
+    "id": 350182,
+    "mapName": "长乐市",
+    "mapAbbreviation": "长乐",
+    "mapMergerName": "中国,福建省,福州市,长乐市",
+    "mapParentId": 350100,
+    "mapLevelType": 3,
+    "mapPinYin": "Changle",
+    "mapZipCode": 350200
+}, {
+    "id": 350203,
+    "mapName": "思明区",
+    "mapAbbreviation": "思明",
+    "mapMergerName": "中国,福建省,厦门市,思明区",
+    "mapParentId": 350200,
+    "mapLevelType": 3,
+    "mapPinYin": "Siming",
+    "mapZipCode": 361001
+}, {
+    "id": 350205,
+    "mapName": "海沧区",
+    "mapAbbreviation": "海沧",
+    "mapMergerName": "中国,福建省,厦门市,海沧区",
+    "mapParentId": 350200,
+    "mapLevelType": 3,
+    "mapPinYin": "Haicang",
+    "mapZipCode": 361026
+}, {
+    "id": 350206,
+    "mapName": "湖里区",
+    "mapAbbreviation": "湖里",
+    "mapMergerName": "中国,福建省,厦门市,湖里区",
+    "mapParentId": 350200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huli",
+    "mapZipCode": 361006
+}, {
+    "id": 350211,
+    "mapName": "集美区",
+    "mapAbbreviation": "集美",
+    "mapMergerName": "中国,福建省,厦门市,集美区",
+    "mapParentId": 350200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jimei",
+    "mapZipCode": 361021
+}, {
+    "id": 350212,
+    "mapName": "同安区",
+    "mapAbbreviation": "同安",
+    "mapMergerName": "中国,福建省,厦门市,同安区",
+    "mapParentId": 350200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tong'an",
+    "mapZipCode": 361100
+}, {
+    "id": 350213,
+    "mapName": "翔安区",
+    "mapAbbreviation": "翔安",
+    "mapMergerName": "中国,福建省,厦门市,翔安区",
+    "mapParentId": 350200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiang'an",
+    "mapZipCode": 361101
+}, {
+    "id": 350302,
+    "mapName": "城厢区",
+    "mapAbbreviation": "城厢",
+    "mapMergerName": "中国,福建省,莆田市,城厢区",
+    "mapParentId": 350300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengxiang",
+    "mapZipCode": 351100
+}, {
+    "id": 350303,
+    "mapName": "涵江区",
+    "mapAbbreviation": "涵江",
+    "mapMergerName": "中国,福建省,莆田市,涵江区",
+    "mapParentId": 350300,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanjiang",
+    "mapZipCode": 351111
+}, {
+    "id": 350304,
+    "mapName": "荔城区",
+    "mapAbbreviation": "荔城",
+    "mapMergerName": "中国,福建省,莆田市,荔城区",
+    "mapParentId": 350300,
+    "mapLevelType": 3,
+    "mapPinYin": "Licheng",
+    "mapZipCode": 351100
+}, {
+    "id": 350305,
+    "mapName": "秀屿区",
+    "mapAbbreviation": "秀屿",
+    "mapMergerName": "中国,福建省,莆田市,秀屿区",
+    "mapParentId": 350300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiuyu",
+    "mapZipCode": 351152
+}, {
+    "id": 350322,
+    "mapName": "仙游县",
+    "mapAbbreviation": "仙游",
+    "mapMergerName": "中国,福建省,莆田市,仙游县",
+    "mapParentId": 350300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xianyou",
+    "mapZipCode": 351200
+}, {
+    "id": 350402,
+    "mapName": "梅列区",
+    "mapAbbreviation": "梅列",
+    "mapMergerName": "中国,福建省,三明市,梅列区",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Meilie",
+    "mapZipCode": 365000
+}, {
+    "id": 350403,
+    "mapName": "三元区",
+    "mapAbbreviation": "三元",
+    "mapMergerName": "中国,福建省,三明市,三元区",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanyuan",
+    "mapZipCode": 365001
+}, {
+    "id": 350421,
+    "mapName": "明溪县",
+    "mapAbbreviation": "明溪",
+    "mapMergerName": "中国,福建省,三明市,明溪县",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Mingxi",
+    "mapZipCode": 365200
+}, {
+    "id": 350423,
+    "mapName": "清流县",
+    "mapAbbreviation": "清流",
+    "mapMergerName": "中国,福建省,三明市,清流县",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingliu",
+    "mapZipCode": 365300
+}, {
+    "id": 350424,
+    "mapName": "宁化县",
+    "mapAbbreviation": "宁化",
+    "mapMergerName": "中国,福建省,三明市,宁化县",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Ninghua",
+    "mapZipCode": 365400
+}, {
+    "id": 350425,
+    "mapName": "大田县",
+    "mapAbbreviation": "大田",
+    "mapMergerName": "中国,福建省,三明市,大田县",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Datian",
+    "mapZipCode": 366100
+}, {
+    "id": 350426,
+    "mapName": "尤溪县",
+    "mapAbbreviation": "尤溪",
+    "mapMergerName": "中国,福建省,三明市,尤溪县",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Youxi",
+    "mapZipCode": 365100
+}, {
+    "id": 350427,
+    "mapName": "沙县",
+    "mapAbbreviation": "沙县",
+    "mapMergerName": "中国,福建省,三明市,沙县",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shaxian",
+    "mapZipCode": 365500
+}, {
+    "id": 350428,
+    "mapName": "将乐县",
+    "mapAbbreviation": "将乐",
+    "mapMergerName": "中国,福建省,三明市,将乐县",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangle",
+    "mapZipCode": 353300
+}, {
+    "id": 350429,
+    "mapName": "泰宁县",
+    "mapAbbreviation": "泰宁",
+    "mapMergerName": "中国,福建省,三明市,泰宁县",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Taining",
+    "mapZipCode": 354400
+}, {
+    "id": 350430,
+    "mapName": "建宁县",
+    "mapAbbreviation": "建宁",
+    "mapMergerName": "中国,福建省,三明市,建宁县",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianning",
+    "mapZipCode": 354500
+}, {
+    "id": 350481,
+    "mapName": "永安市",
+    "mapAbbreviation": "永安",
+    "mapMergerName": "中国,福建省,三明市,永安市",
+    "mapParentId": 350400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yong'an",
+    "mapZipCode": 366000
+}, {
+    "id": 350502,
+    "mapName": "鲤城区",
+    "mapAbbreviation": "鲤城",
+    "mapMergerName": "中国,福建省,泉州市,鲤城区",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Licheng",
+    "mapZipCode": 362000
+}, {
+    "id": 350503,
+    "mapName": "丰泽区",
+    "mapAbbreviation": "丰泽",
+    "mapMergerName": "中国,福建省,泉州市,丰泽区",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengze",
+    "mapZipCode": 362000
+}, {
+    "id": 350504,
+    "mapName": "洛江区",
+    "mapAbbreviation": "洛江",
+    "mapMergerName": "中国,福建省,泉州市,洛江区",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Luojiang",
+    "mapZipCode": 362011
+}, {
+    "id": 350505,
+    "mapName": "泉港区",
+    "mapAbbreviation": "泉港",
+    "mapMergerName": "中国,福建省,泉州市,泉港区",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Quangang",
+    "mapZipCode": 362114
+}, {
+    "id": 350521,
+    "mapName": "惠安县",
+    "mapAbbreviation": "惠安",
+    "mapMergerName": "中国,福建省,泉州市,惠安县",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Hui'an",
+    "mapZipCode": 362100
+}, {
+    "id": 350524,
+    "mapName": "安溪县",
+    "mapAbbreviation": "安溪",
+    "mapMergerName": "中国,福建省,泉州市,安溪县",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Anxi",
+    "mapZipCode": 362400
+}, {
+    "id": 350525,
+    "mapName": "永春县",
+    "mapAbbreviation": "永春",
+    "mapMergerName": "中国,福建省,泉州市,永春县",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongchun",
+    "mapZipCode": 362600
+}, {
+    "id": 350526,
+    "mapName": "德化县",
+    "mapAbbreviation": "德化",
+    "mapMergerName": "中国,福建省,泉州市,德化县",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dehua",
+    "mapZipCode": 362500
+}, {
+    "id": 350527,
+    "mapName": "金门县",
+    "mapAbbreviation": "金门",
+    "mapMergerName": "中国,福建省,泉州市,金门县",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinmen",
+    "mapZipCode": null
+}, {
+    "id": 350581,
+    "mapName": "石狮市",
+    "mapAbbreviation": "石狮",
+    "mapMergerName": "中国,福建省,泉州市,石狮市",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shishi",
+    "mapZipCode": 362700
+}, {
+    "id": 350582,
+    "mapName": "晋江市",
+    "mapAbbreviation": "晋江",
+    "mapMergerName": "中国,福建省,泉州市,晋江市",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinjiang",
+    "mapZipCode": 362200
+}, {
+    "id": 350583,
+    "mapName": "南安市",
+    "mapAbbreviation": "南安",
+    "mapMergerName": "中国,福建省,泉州市,南安市",
+    "mapParentId": 350500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nan'an",
+    "mapZipCode": 362300
+}, {
+    "id": 350602,
+    "mapName": "芗城区",
+    "mapAbbreviation": "芗城",
+    "mapMergerName": "中国,福建省,漳州市,芗城区",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangcheng",
+    "mapZipCode": 363000
+}, {
+    "id": 350603,
+    "mapName": "龙文区",
+    "mapAbbreviation": "龙文",
+    "mapMergerName": "中国,福建省,漳州市,龙文区",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Longwen",
+    "mapZipCode": 363005
+}, {
+    "id": 350622,
+    "mapName": "云霄县",
+    "mapAbbreviation": "云霄",
+    "mapMergerName": "中国,福建省,漳州市,云霄县",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunxiao",
+    "mapZipCode": 363300
+}, {
+    "id": 350623,
+    "mapName": "漳浦县",
+    "mapAbbreviation": "漳浦",
+    "mapMergerName": "中国,福建省,漳州市,漳浦县",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangpu",
+    "mapZipCode": 363200
+}, {
+    "id": 350624,
+    "mapName": "诏安县",
+    "mapAbbreviation": "诏安",
+    "mapMergerName": "中国,福建省,漳州市,诏安县",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhao'an",
+    "mapZipCode": 363500
+}, {
+    "id": 350625,
+    "mapName": "长泰县",
+    "mapAbbreviation": "长泰",
+    "mapMergerName": "中国,福建省,漳州市,长泰县",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Changtai",
+    "mapZipCode": 363900
+}, {
+    "id": 350626,
+    "mapName": "东山县",
+    "mapAbbreviation": "东山",
+    "mapMergerName": "中国,福建省,漳州市,东山县",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongshan",
+    "mapZipCode": 363400
+}, {
+    "id": 350627,
+    "mapName": "南靖县",
+    "mapAbbreviation": "南靖",
+    "mapMergerName": "中国,福建省,漳州市,南靖县",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanjing",
+    "mapZipCode": 363600
+}, {
+    "id": 350628,
+    "mapName": "平和县",
+    "mapAbbreviation": "平和",
+    "mapMergerName": "中国,福建省,漳州市,平和县",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Pinghe",
+    "mapZipCode": 363700
+}, {
+    "id": 350629,
+    "mapName": "华安县",
+    "mapAbbreviation": "华安",
+    "mapMergerName": "中国,福建省,漳州市,华安县",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Hua'an",
+    "mapZipCode": 363800
+}, {
+    "id": 350681,
+    "mapName": "龙海市",
+    "mapAbbreviation": "龙海",
+    "mapMergerName": "中国,福建省,漳州市,龙海市",
+    "mapParentId": 350600,
+    "mapLevelType": 3,
+    "mapPinYin": "Longhai",
+    "mapZipCode": 363100
+}, {
+    "id": 350702,
+    "mapName": "延平区",
+    "mapAbbreviation": "延平",
+    "mapMergerName": "中国,福建省,南平市,延平区",
+    "mapParentId": 350700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanping",
+    "mapZipCode": 353000
+}, {
+    "id": 350703,
+    "mapName": "建阳区",
+    "mapAbbreviation": "建阳",
+    "mapMergerName": "中国,福建省,南平市,建阳区",
+    "mapParentId": 350700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianyang",
+    "mapZipCode": 354200
+}, {
+    "id": 350721,
+    "mapName": "顺昌县",
+    "mapAbbreviation": "顺昌",
+    "mapMergerName": "中国,福建省,南平市,顺昌县",
+    "mapParentId": 350700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shunchang",
+    "mapZipCode": 353200
+}, {
+    "id": 350722,
+    "mapName": "浦城县",
+    "mapAbbreviation": "浦城",
+    "mapMergerName": "中国,福建省,南平市,浦城县",
+    "mapParentId": 350700,
+    "mapLevelType": 3,
+    "mapPinYin": "Pucheng",
+    "mapZipCode": 353400
+}, {
+    "id": 350723,
+    "mapName": "光泽县",
+    "mapAbbreviation": "光泽",
+    "mapMergerName": "中国,福建省,南平市,光泽县",
+    "mapParentId": 350700,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangze",
+    "mapZipCode": 354100
+}, {
+    "id": 350724,
+    "mapName": "松溪县",
+    "mapAbbreviation": "松溪",
+    "mapMergerName": "中国,福建省,南平市,松溪县",
+    "mapParentId": 350700,
+    "mapLevelType": 3,
+    "mapPinYin": "Songxi",
+    "mapZipCode": 353500
+}, {
+    "id": 350725,
+    "mapName": "政和县",
+    "mapAbbreviation": "政和",
+    "mapMergerName": "中国,福建省,南平市,政和县",
+    "mapParentId": 350700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenghe",
+    "mapZipCode": 353600
+}, {
+    "id": 350781,
+    "mapName": "邵武市",
+    "mapAbbreviation": "邵武",
+    "mapMergerName": "中国,福建省,南平市,邵武市",
+    "mapParentId": 350700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shaowu",
+    "mapZipCode": 354000
+}, {
+    "id": 350782,
+    "mapName": "武夷山市",
+    "mapAbbreviation": "武夷山",
+    "mapMergerName": "中国,福建省,南平市,武夷山市",
+    "mapParentId": 350700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuyishan",
+    "mapZipCode": 354300
+}, {
+    "id": 350783,
+    "mapName": "建瓯市",
+    "mapAbbreviation": "建瓯",
+    "mapMergerName": "中国,福建省,南平市,建瓯市",
+    "mapParentId": 350700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianou",
+    "mapZipCode": 353100
+}, {
+    "id": 350802,
+    "mapName": "新罗区",
+    "mapAbbreviation": "新罗",
+    "mapMergerName": "中国,福建省,龙岩市,新罗区",
+    "mapParentId": 350800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinluo",
+    "mapZipCode": 364000
+}, {
+    "id": 350821,
+    "mapName": "长汀县",
+    "mapAbbreviation": "长汀",
+    "mapMergerName": "中国,福建省,龙岩市,长汀县",
+    "mapParentId": 350800,
+    "mapLevelType": 3,
+    "mapPinYin": "Changting",
+    "mapZipCode": 366300
+}, {
+    "id": 350822,
+    "mapName": "永定区",
+    "mapAbbreviation": "永定",
+    "mapMergerName": "中国,福建省,龙岩市,永定区",
+    "mapParentId": 350800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongding",
+    "mapZipCode": 364100
+}, {
+    "id": 350823,
+    "mapName": "上杭县",
+    "mapAbbreviation": "上杭",
+    "mapMergerName": "中国,福建省,龙岩市,上杭县",
+    "mapParentId": 350800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanghang",
+    "mapZipCode": 364200
+}, {
+    "id": 350824,
+    "mapName": "武平县",
+    "mapAbbreviation": "武平",
+    "mapMergerName": "中国,福建省,龙岩市,武平县",
+    "mapParentId": 350800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuping",
+    "mapZipCode": 364300
+}, {
+    "id": 350825,
+    "mapName": "连城县",
+    "mapAbbreviation": "连城",
+    "mapMergerName": "中国,福建省,龙岩市,连城县",
+    "mapParentId": 350800,
+    "mapLevelType": 3,
+    "mapPinYin": "Liancheng",
+    "mapZipCode": 366200
+}, {
+    "id": 350881,
+    "mapName": "漳平市",
+    "mapAbbreviation": "漳平",
+    "mapMergerName": "中国,福建省,龙岩市,漳平市",
+    "mapParentId": 350800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangping",
+    "mapZipCode": 364400
+}, {
+    "id": 350902,
+    "mapName": "蕉城区",
+    "mapAbbreviation": "蕉城",
+    "mapMergerName": "中国,福建省,宁德市,蕉城区",
+    "mapParentId": 350900,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaocheng",
+    "mapZipCode": 352100
+}, {
+    "id": 350921,
+    "mapName": "霞浦县",
+    "mapAbbreviation": "霞浦",
+    "mapMergerName": "中国,福建省,宁德市,霞浦县",
+    "mapParentId": 350900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiapu",
+    "mapZipCode": 355100
+}, {
+    "id": 350922,
+    "mapName": "古田县",
+    "mapAbbreviation": "古田",
+    "mapMergerName": "中国,福建省,宁德市,古田县",
+    "mapParentId": 350900,
+    "mapLevelType": 3,
+    "mapPinYin": "Gutian",
+    "mapZipCode": 352200
+}, {
+    "id": 350923,
+    "mapName": "屏南县",
+    "mapAbbreviation": "屏南",
+    "mapMergerName": "中国,福建省,宁德市,屏南县",
+    "mapParentId": 350900,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingnan",
+    "mapZipCode": 352300
+}, {
+    "id": 350924,
+    "mapName": "寿宁县",
+    "mapAbbreviation": "寿宁",
+    "mapMergerName": "中国,福建省,宁德市,寿宁县",
+    "mapParentId": 350900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shouning",
+    "mapZipCode": 355500
+}, {
+    "id": 350925,
+    "mapName": "周宁县",
+    "mapAbbreviation": "周宁",
+    "mapMergerName": "中国,福建省,宁德市,周宁县",
+    "mapParentId": 350900,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhouning",
+    "mapZipCode": 355400
+}, {
+    "id": 350926,
+    "mapName": "柘荣县",
+    "mapAbbreviation": "柘荣",
+    "mapMergerName": "中国,福建省,宁德市,柘荣县",
+    "mapParentId": 350900,
+    "mapLevelType": 3,
+    "mapPinYin": "Zherong",
+    "mapZipCode": 355300
+}, {
+    "id": 350981,
+    "mapName": "福安市",
+    "mapAbbreviation": "福安",
+    "mapMergerName": "中国,福建省,宁德市,福安市",
+    "mapParentId": 350900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fu'an",
+    "mapZipCode": 355000
+}, {
+    "id": 350982,
+    "mapName": "福鼎市",
+    "mapAbbreviation": "福鼎",
+    "mapMergerName": "中国,福建省,宁德市,福鼎市",
+    "mapParentId": 350900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuding",
+    "mapZipCode": 355200
+}, {
+    "id": 360102,
+    "mapName": "东湖区",
+    "mapAbbreviation": "东湖",
+    "mapMergerName": "中国,江西省,南昌市,东湖区",
+    "mapParentId": 360100,
+    "mapLevelType": 3,
+    "mapPinYin": "Donghu",
+    "mapZipCode": 330006
+}, {
+    "id": 360103,
+    "mapName": "西湖区",
+    "mapAbbreviation": "西湖",
+    "mapMergerName": "中国,江西省,南昌市,西湖区",
+    "mapParentId": 360100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xihu",
+    "mapZipCode": 330009
+}, {
+    "id": 360104,
+    "mapName": "青云谱区",
+    "mapAbbreviation": "青云谱",
+    "mapMergerName": "中国,江西省,南昌市,青云谱区",
+    "mapParentId": 360100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingyunpu",
+    "mapZipCode": 330001
+}, {
+    "id": 360105,
+    "mapName": "湾里区",
+    "mapAbbreviation": "湾里",
+    "mapMergerName": "中国,江西省,南昌市,湾里区",
+    "mapParentId": 360100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanli",
+    "mapZipCode": 330004
+}, {
+    "id": 360111,
+    "mapName": "青山湖区",
+    "mapAbbreviation": "青山湖",
+    "mapMergerName": "中国,江西省,南昌市,青山湖区",
+    "mapParentId": 360100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingshanhu",
+    "mapZipCode": 330029
+}, {
+    "id": 360121,
+    "mapName": "南昌县",
+    "mapAbbreviation": "南昌",
+    "mapMergerName": "中国,江西省,南昌市,南昌县",
+    "mapParentId": 360100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanchang",
+    "mapZipCode": 330200
+}, {
+    "id": 360122,
+    "mapName": "新建县",
+    "mapAbbreviation": "新建",
+    "mapMergerName": "中国,江西省,南昌市,新建县",
+    "mapParentId": 360100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinjian",
+    "mapZipCode": 330100
+}, {
+    "id": 360123,
+    "mapName": "安义县",
+    "mapAbbreviation": "安义",
+    "mapMergerName": "中国,江西省,南昌市,安义县",
+    "mapParentId": 360100,
+    "mapLevelType": 3,
+    "mapPinYin": "Anyi",
+    "mapZipCode": 330500
+}, {
+    "id": 360124,
+    "mapName": "进贤县",
+    "mapAbbreviation": "进贤",
+    "mapMergerName": "中国,江西省,南昌市,进贤县",
+    "mapParentId": 360100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinxian",
+    "mapZipCode": 331700
+}, {
+    "id": 360202,
+    "mapName": "昌江区",
+    "mapAbbreviation": "昌江",
+    "mapMergerName": "中国,江西省,景德镇市,昌江区",
+    "mapParentId": 360200,
+    "mapLevelType": 3,
+    "mapPinYin": "Changjiang",
+    "mapZipCode": 333000
+}, {
+    "id": 360203,
+    "mapName": "珠山区",
+    "mapAbbreviation": "珠山",
+    "mapMergerName": "中国,江西省,景德镇市,珠山区",
+    "mapParentId": 360200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhushan",
+    "mapZipCode": 333000
+}, {
+    "id": 360222,
+    "mapName": "浮梁县",
+    "mapAbbreviation": "浮梁",
+    "mapMergerName": "中国,江西省,景德镇市,浮梁县",
+    "mapParentId": 360200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuliang",
+    "mapZipCode": 333400
+}, {
+    "id": 360281,
+    "mapName": "乐平市",
+    "mapAbbreviation": "乐平",
+    "mapMergerName": "中国,江西省,景德镇市,乐平市",
+    "mapParentId": 360200,
+    "mapLevelType": 3,
+    "mapPinYin": "Leping",
+    "mapZipCode": 333300
+}, {
+    "id": 360302,
+    "mapName": "安源区",
+    "mapAbbreviation": "安源",
+    "mapMergerName": "中国,江西省,萍乡市,安源区",
+    "mapParentId": 360300,
+    "mapLevelType": 3,
+    "mapPinYin": "Anyuan",
+    "mapZipCode": 337000
+}, {
+    "id": 360313,
+    "mapName": "湘东区",
+    "mapAbbreviation": "湘东",
+    "mapMergerName": "中国,江西省,萍乡市,湘东区",
+    "mapParentId": 360300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangdong",
+    "mapZipCode": 337016
+}, {
+    "id": 360321,
+    "mapName": "莲花县",
+    "mapAbbreviation": "莲花",
+    "mapMergerName": "中国,江西省,萍乡市,莲花县",
+    "mapParentId": 360300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianhua",
+    "mapZipCode": 337100
+}, {
+    "id": 360322,
+    "mapName": "上栗县",
+    "mapAbbreviation": "上栗",
+    "mapMergerName": "中国,江西省,萍乡市,上栗县",
+    "mapParentId": 360300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangli",
+    "mapZipCode": 337009
+}, {
+    "id": 360323,
+    "mapName": "芦溪县",
+    "mapAbbreviation": "芦溪",
+    "mapMergerName": "中国,江西省,萍乡市,芦溪县",
+    "mapParentId": 360300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luxi",
+    "mapZipCode": 337053
+}, {
+    "id": 360402,
+    "mapName": "庐山区",
+    "mapAbbreviation": "庐山",
+    "mapMergerName": "中国,江西省,九江市,庐山区",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Lushan",
+    "mapZipCode": 332005
+}, {
+    "id": 360403,
+    "mapName": "浔阳区",
+    "mapAbbreviation": "浔阳",
+    "mapMergerName": "中国,江西省,九江市,浔阳区",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xunyang",
+    "mapZipCode": 332000
+}, {
+    "id": 360421,
+    "mapName": "九江县",
+    "mapAbbreviation": "九江",
+    "mapMergerName": "中国,江西省,九江市,九江县",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiujiang",
+    "mapZipCode": 332100
+}, {
+    "id": 360423,
+    "mapName": "武宁县",
+    "mapAbbreviation": "武宁",
+    "mapMergerName": "中国,江西省,九江市,武宁县",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuning",
+    "mapZipCode": 332300
+}, {
+    "id": 360424,
+    "mapName": "修水县",
+    "mapAbbreviation": "修水",
+    "mapMergerName": "中国,江西省,九江市,修水县",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiushui",
+    "mapZipCode": 332400
+}, {
+    "id": 360425,
+    "mapName": "永修县",
+    "mapAbbreviation": "永修",
+    "mapMergerName": "中国,江西省,九江市,永修县",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongxiu",
+    "mapZipCode": 330300
+}, {
+    "id": 360426,
+    "mapName": "德安县",
+    "mapAbbreviation": "德安",
+    "mapMergerName": "中国,江西省,九江市,德安县",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "De'an",
+    "mapZipCode": 330400
+}, {
+    "id": 360427,
+    "mapName": "星子县",
+    "mapAbbreviation": "星子",
+    "mapMergerName": "中国,江西省,九江市,星子县",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingzi",
+    "mapZipCode": 332800
+}, {
+    "id": 360428,
+    "mapName": "都昌县",
+    "mapAbbreviation": "都昌",
+    "mapMergerName": "中国,江西省,九江市,都昌县",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Duchang",
+    "mapZipCode": 332600
+}, {
+    "id": 360429,
+    "mapName": "湖口县",
+    "mapAbbreviation": "湖口",
+    "mapMergerName": "中国,江西省,九江市,湖口县",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hukou",
+    "mapZipCode": 332500
+}, {
+    "id": 360430,
+    "mapName": "彭泽县",
+    "mapAbbreviation": "彭泽",
+    "mapMergerName": "中国,江西省,九江市,彭泽县",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Pengze",
+    "mapZipCode": 332700
+}, {
+    "id": 360481,
+    "mapName": "瑞昌市",
+    "mapAbbreviation": "瑞昌",
+    "mapMergerName": "中国,江西省,九江市,瑞昌市",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruichang",
+    "mapZipCode": 332200
+}, {
+    "id": 360482,
+    "mapName": "共青城市",
+    "mapAbbreviation": "共青城",
+    "mapMergerName": "中国,江西省,九江市,共青城市",
+    "mapParentId": 360400,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongqingcheng",
+    "mapZipCode": 332020
+}, {
+    "id": 360502,
+    "mapName": "渝水区",
+    "mapAbbreviation": "渝水",
+    "mapMergerName": "中国,江西省,新余市,渝水区",
+    "mapParentId": 360500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yushui",
+    "mapZipCode": 338025
+}, {
+    "id": 360521,
+    "mapName": "分宜县",
+    "mapAbbreviation": "分宜",
+    "mapMergerName": "中国,江西省,新余市,分宜县",
+    "mapParentId": 360500,
+    "mapLevelType": 3,
+    "mapPinYin": "Fenyi",
+    "mapZipCode": 336600
+}, {
+    "id": 360602,
+    "mapName": "月湖区",
+    "mapAbbreviation": "月湖",
+    "mapMergerName": "中国,江西省,鹰潭市,月湖区",
+    "mapParentId": 360600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuehu",
+    "mapZipCode": 335000
+}, {
+    "id": 360622,
+    "mapName": "余江县",
+    "mapAbbreviation": "余江",
+    "mapMergerName": "中国,江西省,鹰潭市,余江县",
+    "mapParentId": 360600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yujiang",
+    "mapZipCode": 335200
+}, {
+    "id": 360681,
+    "mapName": "贵溪市",
+    "mapAbbreviation": "贵溪",
+    "mapMergerName": "中国,江西省,鹰潭市,贵溪市",
+    "mapParentId": 360600,
+    "mapLevelType": 3,
+    "mapPinYin": "Guixi",
+    "mapZipCode": 335400
+}, {
+    "id": 360702,
+    "mapName": "章贡区",
+    "mapAbbreviation": "章贡",
+    "mapMergerName": "中国,江西省,赣州市,章贡区",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhanggong",
+    "mapZipCode": 341000
+}, {
+    "id": 360703,
+    "mapName": "南康区",
+    "mapAbbreviation": "南康",
+    "mapMergerName": "中国,江西省,赣州市,南康区",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Nankang",
+    "mapZipCode": 341400
+}, {
+    "id": 360721,
+    "mapName": "赣县",
+    "mapAbbreviation": "赣县",
+    "mapMergerName": "中国,江西省,赣州市,赣县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Ganxian",
+    "mapZipCode": 341100
+}, {
+    "id": 360722,
+    "mapName": "信丰县",
+    "mapAbbreviation": "信丰",
+    "mapMergerName": "中国,江西省,赣州市,信丰县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinfeng",
+    "mapZipCode": 341600
+}, {
+    "id": 360723,
+    "mapName": "大余县",
+    "mapAbbreviation": "大余",
+    "mapMergerName": "中国,江西省,赣州市,大余县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dayu",
+    "mapZipCode": 341500
+}, {
+    "id": 360724,
+    "mapName": "上犹县",
+    "mapAbbreviation": "上犹",
+    "mapMergerName": "中国,江西省,赣州市,上犹县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangyou",
+    "mapZipCode": 341200
+}, {
+    "id": 360725,
+    "mapName": "崇义县",
+    "mapAbbreviation": "崇义",
+    "mapMergerName": "中国,江西省,赣州市,崇义县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Chongyi",
+    "mapZipCode": 341300
+}, {
+    "id": 360726,
+    "mapName": "安远县",
+    "mapAbbreviation": "安远",
+    "mapMergerName": "中国,江西省,赣州市,安远县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Anyuan",
+    "mapZipCode": 342100
+}, {
+    "id": 360727,
+    "mapName": "龙南县",
+    "mapAbbreviation": "龙南",
+    "mapMergerName": "中国,江西省,赣州市,龙南县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Longnan",
+    "mapZipCode": 341700
+}, {
+    "id": 360728,
+    "mapName": "定南县",
+    "mapAbbreviation": "定南",
+    "mapMergerName": "中国,江西省,赣州市,定南县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingnan",
+    "mapZipCode": 341900
+}, {
+    "id": 360729,
+    "mapName": "全南县",
+    "mapAbbreviation": "全南",
+    "mapMergerName": "中国,江西省,赣州市,全南县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Quannan",
+    "mapZipCode": 341800
+}, {
+    "id": 360730,
+    "mapName": "宁都县",
+    "mapAbbreviation": "宁都",
+    "mapMergerName": "中国,江西省,赣州市,宁都县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningdu",
+    "mapZipCode": 342800
+}, {
+    "id": 360731,
+    "mapName": "于都县",
+    "mapAbbreviation": "于都",
+    "mapMergerName": "中国,江西省,赣州市,于都县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yudu",
+    "mapZipCode": 342300
+}, {
+    "id": 360732,
+    "mapName": "兴国县",
+    "mapAbbreviation": "兴国",
+    "mapMergerName": "中国,江西省,赣州市,兴国县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingguo",
+    "mapZipCode": 342400
+}, {
+    "id": 360733,
+    "mapName": "会昌县",
+    "mapAbbreviation": "会昌",
+    "mapMergerName": "中国,江西省,赣州市,会昌县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huichang",
+    "mapZipCode": 342600
+}, {
+    "id": 360734,
+    "mapName": "寻乌县",
+    "mapAbbreviation": "寻乌",
+    "mapMergerName": "中国,江西省,赣州市,寻乌县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xunwu",
+    "mapZipCode": 342200
+}, {
+    "id": 360735,
+    "mapName": "石城县",
+    "mapAbbreviation": "石城",
+    "mapMergerName": "中国,江西省,赣州市,石城县",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shicheng",
+    "mapZipCode": 342700
+}, {
+    "id": 360781,
+    "mapName": "瑞金市",
+    "mapAbbreviation": "瑞金",
+    "mapMergerName": "中国,江西省,赣州市,瑞金市",
+    "mapParentId": 360700,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruijin",
+    "mapZipCode": 342500
+}, {
+    "id": 360802,
+    "mapName": "吉州区",
+    "mapAbbreviation": "吉州",
+    "mapMergerName": "中国,江西省,吉安市,吉州区",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jizhou",
+    "mapZipCode": 343000
+}, {
+    "id": 360803,
+    "mapName": "青原区",
+    "mapAbbreviation": "青原",
+    "mapMergerName": "中国,江西省,吉安市,青原区",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingyuan",
+    "mapZipCode": 343009
+}, {
+    "id": 360821,
+    "mapName": "吉安县",
+    "mapAbbreviation": "吉安",
+    "mapMergerName": "中国,江西省,吉安市,吉安县",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Ji'an",
+    "mapZipCode": 343100
+}, {
+    "id": 360822,
+    "mapName": "吉水县",
+    "mapAbbreviation": "吉水",
+    "mapMergerName": "中国,江西省,吉安市,吉水县",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jishui",
+    "mapZipCode": 331600
+}, {
+    "id": 360823,
+    "mapName": "峡江县",
+    "mapAbbreviation": "峡江",
+    "mapMergerName": "中国,江西省,吉安市,峡江县",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiajiang",
+    "mapZipCode": 331409
+}, {
+    "id": 360824,
+    "mapName": "新干县",
+    "mapAbbreviation": "新干",
+    "mapMergerName": "中国,江西省,吉安市,新干县",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingan",
+    "mapZipCode": 331300
+}, {
+    "id": 360825,
+    "mapName": "永丰县",
+    "mapAbbreviation": "永丰",
+    "mapMergerName": "中国,江西省,吉安市,永丰县",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongfeng",
+    "mapZipCode": 331500
+}, {
+    "id": 360826,
+    "mapName": "泰和县",
+    "mapAbbreviation": "泰和",
+    "mapMergerName": "中国,江西省,吉安市,泰和县",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Taihe",
+    "mapZipCode": 343700
+}, {
+    "id": 360827,
+    "mapName": "遂川县",
+    "mapAbbreviation": "遂川",
+    "mapMergerName": "中国,江西省,吉安市,遂川县",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Suichuan",
+    "mapZipCode": 343900
+}, {
+    "id": 360828,
+    "mapName": "万安县",
+    "mapAbbreviation": "万安",
+    "mapMergerName": "中国,江西省,吉安市,万安县",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wan'an",
+    "mapZipCode": 343800
+}, {
+    "id": 360829,
+    "mapName": "安福县",
+    "mapAbbreviation": "安福",
+    "mapMergerName": "中国,江西省,吉安市,安福县",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Anfu",
+    "mapZipCode": 343200
+}, {
+    "id": 360830,
+    "mapName": "永新县",
+    "mapAbbreviation": "永新",
+    "mapMergerName": "中国,江西省,吉安市,永新县",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongxin",
+    "mapZipCode": 343400
+}, {
+    "id": 360881,
+    "mapName": "井冈山市",
+    "mapAbbreviation": "井冈山",
+    "mapMergerName": "中国,江西省,吉安市,井冈山市",
+    "mapParentId": 360800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinggangshan",
+    "mapZipCode": 343600
+}, {
+    "id": 360902,
+    "mapName": "袁州区",
+    "mapAbbreviation": "袁州",
+    "mapMergerName": "中国,江西省,宜春市,袁州区",
+    "mapParentId": 360900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanzhou",
+    "mapZipCode": 336000
+}, {
+    "id": 360921,
+    "mapName": "奉新县",
+    "mapAbbreviation": "奉新",
+    "mapMergerName": "中国,江西省,宜春市,奉新县",
+    "mapParentId": 360900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengxin",
+    "mapZipCode": 330700
+}, {
+    "id": 360922,
+    "mapName": "万载县",
+    "mapAbbreviation": "万载",
+    "mapMergerName": "中国,江西省,宜春市,万载县",
+    "mapParentId": 360900,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanzai",
+    "mapZipCode": 336100
+}, {
+    "id": 360923,
+    "mapName": "上高县",
+    "mapAbbreviation": "上高",
+    "mapMergerName": "中国,江西省,宜春市,上高县",
+    "mapParentId": 360900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanggao",
+    "mapZipCode": 336400
+}, {
+    "id": 360924,
+    "mapName": "宜丰县",
+    "mapAbbreviation": "宜丰",
+    "mapMergerName": "中国,江西省,宜春市,宜丰县",
+    "mapParentId": 360900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yifeng",
+    "mapZipCode": 336300
+}, {
+    "id": 360925,
+    "mapName": "靖安县",
+    "mapAbbreviation": "靖安",
+    "mapMergerName": "中国,江西省,宜春市,靖安县",
+    "mapParentId": 360900,
+    "mapLevelType": 3,
+    "mapPinYin": "Jing'an",
+    "mapZipCode": 330600
+}, {
+    "id": 360926,
+    "mapName": "铜鼓县",
+    "mapAbbreviation": "铜鼓",
+    "mapMergerName": "中国,江西省,宜春市,铜鼓县",
+    "mapParentId": 360900,
+    "mapLevelType": 3,
+    "mapPinYin": "Tonggu",
+    "mapZipCode": 336200
+}, {
+    "id": 360981,
+    "mapName": "丰城市",
+    "mapAbbreviation": "丰城",
+    "mapMergerName": "中国,江西省,宜春市,丰城市",
+    "mapParentId": 360900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengcheng",
+    "mapZipCode": 331100
+}, {
+    "id": 360982,
+    "mapName": "樟树市",
+    "mapAbbreviation": "樟树",
+    "mapMergerName": "中国,江西省,宜春市,樟树市",
+    "mapParentId": 360900,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangshu",
+    "mapZipCode": 331200
+}, {
+    "id": 360983,
+    "mapName": "高安市",
+    "mapAbbreviation": "高安",
+    "mapMergerName": "中国,江西省,宜春市,高安市",
+    "mapParentId": 360900,
+    "mapLevelType": 3,
+    "mapPinYin": "Gao'an",
+    "mapZipCode": 330800
+}, {
+    "id": 361002,
+    "mapName": "临川区",
+    "mapAbbreviation": "临川",
+    "mapMergerName": "中国,江西省,抚州市,临川区",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Linchuan",
+    "mapZipCode": 344000
+}, {
+    "id": 361021,
+    "mapName": "南城县",
+    "mapAbbreviation": "南城",
+    "mapMergerName": "中国,江西省,抚州市,南城县",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Nancheng",
+    "mapZipCode": 344700
+}, {
+    "id": 361022,
+    "mapName": "黎川县",
+    "mapAbbreviation": "黎川",
+    "mapMergerName": "中国,江西省,抚州市,黎川县",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Lichuan",
+    "mapZipCode": 344600
+}, {
+    "id": 361023,
+    "mapName": "南丰县",
+    "mapAbbreviation": "南丰",
+    "mapMergerName": "中国,江西省,抚州市,南丰县",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanfeng",
+    "mapZipCode": 344500
+}, {
+    "id": 361024,
+    "mapName": "崇仁县",
+    "mapAbbreviation": "崇仁",
+    "mapMergerName": "中国,江西省,抚州市,崇仁县",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Chongren",
+    "mapZipCode": 344200
+}, {
+    "id": 361025,
+    "mapName": "乐安县",
+    "mapAbbreviation": "乐安",
+    "mapMergerName": "中国,江西省,抚州市,乐安县",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Le'an",
+    "mapZipCode": 344300
+}, {
+    "id": 361026,
+    "mapName": "宜黄县",
+    "mapAbbreviation": "宜黄",
+    "mapMergerName": "中国,江西省,抚州市,宜黄县",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yihuang",
+    "mapZipCode": 344400
+}, {
+    "id": 361027,
+    "mapName": "金溪县",
+    "mapAbbreviation": "金溪",
+    "mapMergerName": "中国,江西省,抚州市,金溪县",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinxi",
+    "mapZipCode": 344800
+}, {
+    "id": 361028,
+    "mapName": "资溪县",
+    "mapAbbreviation": "资溪",
+    "mapMergerName": "中国,江西省,抚州市,资溪县",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zixi",
+    "mapZipCode": 335300
+}, {
+    "id": 361029,
+    "mapName": "东乡县",
+    "mapAbbreviation": "东乡",
+    "mapMergerName": "中国,江西省,抚州市,东乡县",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongxiang",
+    "mapZipCode": 331800
+}, {
+    "id": 361030,
+    "mapName": "广昌县",
+    "mapAbbreviation": "广昌",
+    "mapMergerName": "中国,江西省,抚州市,广昌县",
+    "mapParentId": 361000,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangchang",
+    "mapZipCode": 344900
+}, {
+    "id": 361102,
+    "mapName": "信州区",
+    "mapAbbreviation": "信州",
+    "mapMergerName": "中国,江西省,上饶市,信州区",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinzhou",
+    "mapZipCode": 334000
+}, {
+    "id": 361121,
+    "mapName": "上饶县",
+    "mapAbbreviation": "上饶",
+    "mapMergerName": "中国,江西省,上饶市,上饶县",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangrao",
+    "mapZipCode": 334100
+}, {
+    "id": 361122,
+    "mapName": "广丰县",
+    "mapAbbreviation": "广丰",
+    "mapMergerName": "中国,江西省,上饶市,广丰县",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangfeng",
+    "mapZipCode": 334600
+}, {
+    "id": 361123,
+    "mapName": "玉山县",
+    "mapAbbreviation": "玉山",
+    "mapMergerName": "中国,江西省,上饶市,玉山县",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yushan",
+    "mapZipCode": 334700
+}, {
+    "id": 361124,
+    "mapName": "铅山县",
+    "mapAbbreviation": "铅山",
+    "mapMergerName": "中国,江西省,上饶市,铅山县",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanshan",
+    "mapZipCode": 334500
+}, {
+    "id": 361125,
+    "mapName": "横峰县",
+    "mapAbbreviation": "横峰",
+    "mapMergerName": "中国,江西省,上饶市,横峰县",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengfeng",
+    "mapZipCode": 334300
+}, {
+    "id": 361126,
+    "mapName": "弋阳县",
+    "mapAbbreviation": "弋阳",
+    "mapMergerName": "中国,江西省,上饶市,弋阳县",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yiyang",
+    "mapZipCode": 334400
+}, {
+    "id": 361127,
+    "mapName": "余干县",
+    "mapAbbreviation": "余干",
+    "mapMergerName": "中国,江西省,上饶市,余干县",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yugan",
+    "mapZipCode": 335100
+}, {
+    "id": 361128,
+    "mapName": "鄱阳县",
+    "mapAbbreviation": "鄱阳",
+    "mapMergerName": "中国,江西省,上饶市,鄱阳县",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Poyang",
+    "mapZipCode": 333100
+}, {
+    "id": 361129,
+    "mapName": "万年县",
+    "mapAbbreviation": "万年",
+    "mapMergerName": "中国,江西省,上饶市,万年县",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wannian",
+    "mapZipCode": 335500
+}, {
+    "id": 361130,
+    "mapName": "婺源县",
+    "mapAbbreviation": "婺源",
+    "mapMergerName": "中国,江西省,上饶市,婺源县",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuyuan",
+    "mapZipCode": 333200
+}, {
+    "id": 361181,
+    "mapName": "德兴市",
+    "mapAbbreviation": "德兴",
+    "mapMergerName": "中国,江西省,上饶市,德兴市",
+    "mapParentId": 361100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dexing",
+    "mapZipCode": 334200
+}, {
+    "id": 370102,
+    "mapName": "历下区",
+    "mapAbbreviation": "历下",
+    "mapMergerName": "中国,山东省,济南市,历下区",
+    "mapParentId": 370100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lixia",
+    "mapZipCode": 250014
+}, {
+    "id": 370103,
+    "mapName": "市中区",
+    "mapAbbreviation": "市中区",
+    "mapMergerName": "中国,山东省,济南市,市中区",
+    "mapParentId": 370100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shizhongqu",
+    "mapZipCode": 250001
+}, {
+    "id": 370104,
+    "mapName": "槐荫区",
+    "mapAbbreviation": "槐荫",
+    "mapMergerName": "中国,山东省,济南市,槐荫区",
+    "mapParentId": 370100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaiyin",
+    "mapZipCode": 250117
+}, {
+    "id": 370105,
+    "mapName": "天桥区",
+    "mapAbbreviation": "天桥",
+    "mapMergerName": "中国,山东省,济南市,天桥区",
+    "mapParentId": 370100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianqiao",
+    "mapZipCode": 250031
+}, {
+    "id": 370112,
+    "mapName": "历城区",
+    "mapAbbreviation": "历城",
+    "mapMergerName": "中国,山东省,济南市,历城区",
+    "mapParentId": 370100,
+    "mapLevelType": 3,
+    "mapPinYin": "Licheng",
+    "mapZipCode": 250100
+}, {
+    "id": 370113,
+    "mapName": "长清区",
+    "mapAbbreviation": "长清",
+    "mapMergerName": "中国,山东省,济南市,长清区",
+    "mapParentId": 370100,
+    "mapLevelType": 3,
+    "mapPinYin": "Changqing",
+    "mapZipCode": 250300
+}, {
+    "id": 370124,
+    "mapName": "平阴县",
+    "mapAbbreviation": "平阴",
+    "mapMergerName": "中国,山东省,济南市,平阴县",
+    "mapParentId": 370100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingyin",
+    "mapZipCode": 250400
+}, {
+    "id": 370125,
+    "mapName": "济阳县",
+    "mapAbbreviation": "济阳",
+    "mapMergerName": "中国,山东省,济南市,济阳县",
+    "mapParentId": 370100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiyang",
+    "mapZipCode": 251400
+}, {
+    "id": 370126,
+    "mapName": "商河县",
+    "mapAbbreviation": "商河",
+    "mapMergerName": "中国,山东省,济南市,商河县",
+    "mapParentId": 370100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanghe",
+    "mapZipCode": 251600
+}, {
+    "id": 370181,
+    "mapName": "章丘市",
+    "mapAbbreviation": "章丘",
+    "mapMergerName": "中国,山东省,济南市,章丘市",
+    "mapParentId": 370100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangqiu",
+    "mapZipCode": 250200
+}, {
+    "id": 370202,
+    "mapName": "市南区",
+    "mapAbbreviation": "市南",
+    "mapMergerName": "中国,山东省,青岛市,市南区",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shinan",
+    "mapZipCode": 266001
+}, {
+    "id": 370203,
+    "mapName": "市北区",
+    "mapAbbreviation": "市北",
+    "mapMergerName": "中国,山东省,青岛市,市北区",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shibei",
+    "mapZipCode": 266011
+}, {
+    "id": 370211,
+    "mapName": "黄岛区",
+    "mapAbbreviation": "黄岛",
+    "mapMergerName": "中国,山东省,青岛市,黄岛区",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangdao",
+    "mapZipCode": 266500
+}, {
+    "id": 370212,
+    "mapName": "崂山区",
+    "mapAbbreviation": "崂山",
+    "mapMergerName": "中国,山东省,青岛市,崂山区",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Laoshan",
+    "mapZipCode": 266100
+}, {
+    "id": 370213,
+    "mapName": "李沧区",
+    "mapAbbreviation": "李沧",
+    "mapMergerName": "中国,山东省,青岛市,李沧区",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Licang",
+    "mapZipCode": 266021
+}, {
+    "id": 370214,
+    "mapName": "城阳区",
+    "mapAbbreviation": "城阳",
+    "mapMergerName": "中国,山东省,青岛市,城阳区",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengyang",
+    "mapZipCode": 266041
+}, {
+    "id": 370281,
+    "mapName": "胶州市",
+    "mapAbbreviation": "胶州",
+    "mapMergerName": "中国,山东省,青岛市,胶州市",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaozhou",
+    "mapZipCode": 266300
+}, {
+    "id": 370282,
+    "mapName": "即墨市",
+    "mapAbbreviation": "即墨",
+    "mapMergerName": "中国,山东省,青岛市,即墨市",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jimo",
+    "mapZipCode": 266200
+}, {
+    "id": 370283,
+    "mapName": "平度市",
+    "mapAbbreviation": "平度",
+    "mapMergerName": "中国,山东省,青岛市,平度市",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingdu",
+    "mapZipCode": 266700
+}, {
+    "id": 370285,
+    "mapName": "莱西市",
+    "mapAbbreviation": "莱西",
+    "mapMergerName": "中国,山东省,青岛市,莱西市",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Laixi",
+    "mapZipCode": 266600
+}, {
+    "id": 370286,
+    "mapName": "西海岸新区",
+    "mapAbbreviation": "西海岸",
+    "mapMergerName": "中国,山东省,青岛市,西海岸新区",
+    "mapParentId": 370200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xihai'an",
+    "mapZipCode": 266500
+}, {
+    "id": 370302,
+    "mapName": "淄川区",
+    "mapAbbreviation": "淄川",
+    "mapMergerName": "中国,山东省,淄博市,淄川区",
+    "mapParentId": 370300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zichuan",
+    "mapZipCode": 255100
+}, {
+    "id": 370303,
+    "mapName": "张店区",
+    "mapAbbreviation": "张店",
+    "mapMergerName": "中国,山东省,淄博市,张店区",
+    "mapParentId": 370300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangdian",
+    "mapZipCode": 255022
+}, {
+    "id": 370304,
+    "mapName": "博山区",
+    "mapAbbreviation": "博山",
+    "mapMergerName": "中国,山东省,淄博市,博山区",
+    "mapParentId": 370300,
+    "mapLevelType": 3,
+    "mapPinYin": "Boshan",
+    "mapZipCode": 255200
+}, {
+    "id": 370305,
+    "mapName": "临淄区",
+    "mapAbbreviation": "临淄",
+    "mapMergerName": "中国,山东省,淄博市,临淄区",
+    "mapParentId": 370300,
+    "mapLevelType": 3,
+    "mapPinYin": "Linzi",
+    "mapZipCode": 255400
+}, {
+    "id": 370306,
+    "mapName": "周村区",
+    "mapAbbreviation": "周村",
+    "mapMergerName": "中国,山东省,淄博市,周村区",
+    "mapParentId": 370300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhoucun",
+    "mapZipCode": 255300
+}, {
+    "id": 370321,
+    "mapName": "桓台县",
+    "mapAbbreviation": "桓台",
+    "mapMergerName": "中国,山东省,淄博市,桓台县",
+    "mapParentId": 370300,
+    "mapLevelType": 3,
+    "mapPinYin": "Huantai",
+    "mapZipCode": 256400
+}, {
+    "id": 370322,
+    "mapName": "高青县",
+    "mapAbbreviation": "高青",
+    "mapMergerName": "中国,山东省,淄博市,高青县",
+    "mapParentId": 370300,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoqing",
+    "mapZipCode": 256300
+}, {
+    "id": 370323,
+    "mapName": "沂源县",
+    "mapAbbreviation": "沂源",
+    "mapMergerName": "中国,山东省,淄博市,沂源县",
+    "mapParentId": 370300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yiyuan",
+    "mapZipCode": 256100
+}, {
+    "id": 370402,
+    "mapName": "市中区",
+    "mapAbbreviation": "市中区",
+    "mapMergerName": "中国,山东省,枣庄市,市中区",
+    "mapParentId": 370400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shizhongqu",
+    "mapZipCode": 277101
+}, {
+    "id": 370403,
+    "mapName": "薛城区",
+    "mapAbbreviation": "薛城",
+    "mapMergerName": "中国,山东省,枣庄市,薛城区",
+    "mapParentId": 370400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuecheng",
+    "mapZipCode": 277000
+}, {
+    "id": 370404,
+    "mapName": "峄城区",
+    "mapAbbreviation": "峄城",
+    "mapMergerName": "中国,山东省,枣庄市,峄城区",
+    "mapParentId": 370400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yicheng",
+    "mapZipCode": 277300
+}, {
+    "id": 370405,
+    "mapName": "台儿庄区",
+    "mapAbbreviation": "台儿庄",
+    "mapMergerName": "中国,山东省,枣庄市,台儿庄区",
+    "mapParentId": 370400,
+    "mapLevelType": 3,
+    "mapPinYin": "Taierzhuang",
+    "mapZipCode": 277400
+}, {
+    "id": 370406,
+    "mapName": "山亭区",
+    "mapAbbreviation": "山亭",
+    "mapMergerName": "中国,山东省,枣庄市,山亭区",
+    "mapParentId": 370400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanting",
+    "mapZipCode": 277200
+}, {
+    "id": 370481,
+    "mapName": "滕州市",
+    "mapAbbreviation": "滕州",
+    "mapMergerName": "中国,山东省,枣庄市,滕州市",
+    "mapParentId": 370400,
+    "mapLevelType": 3,
+    "mapPinYin": "Tengzhou",
+    "mapZipCode": 277500
+}, {
+    "id": 370502,
+    "mapName": "东营区",
+    "mapAbbreviation": "东营",
+    "mapMergerName": "中国,山东省,东营市,东营区",
+    "mapParentId": 370500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongying",
+    "mapZipCode": 257029
+}, {
+    "id": 370503,
+    "mapName": "河口区",
+    "mapAbbreviation": "河口",
+    "mapMergerName": "中国,山东省,东营市,河口区",
+    "mapParentId": 370500,
+    "mapLevelType": 3,
+    "mapPinYin": "Hekou",
+    "mapZipCode": 257200
+}, {
+    "id": 370521,
+    "mapName": "垦利县",
+    "mapAbbreviation": "垦利",
+    "mapMergerName": "中国,山东省,东营市,垦利县",
+    "mapParentId": 370500,
+    "mapLevelType": 3,
+    "mapPinYin": "Kenli",
+    "mapZipCode": 257500
+}, {
+    "id": 370522,
+    "mapName": "利津县",
+    "mapAbbreviation": "利津",
+    "mapMergerName": "中国,山东省,东营市,利津县",
+    "mapParentId": 370500,
+    "mapLevelType": 3,
+    "mapPinYin": "Lijin",
+    "mapZipCode": 257400
+}, {
+    "id": 370523,
+    "mapName": "广饶县",
+    "mapAbbreviation": "广饶",
+    "mapMergerName": "中国,山东省,东营市,广饶县",
+    "mapParentId": 370500,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangrao",
+    "mapZipCode": 257300
+}, {
+    "id": 370602,
+    "mapName": "芝罘区",
+    "mapAbbreviation": "芝罘",
+    "mapMergerName": "中国,山东省,烟台市,芝罘区",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhifu",
+    "mapZipCode": 264001
+}, {
+    "id": 370611,
+    "mapName": "福山区",
+    "mapAbbreviation": "福山",
+    "mapMergerName": "中国,山东省,烟台市,福山区",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Fushan",
+    "mapZipCode": 265500
+}, {
+    "id": 370612,
+    "mapName": "牟平区",
+    "mapAbbreviation": "牟平",
+    "mapMergerName": "中国,山东省,烟台市,牟平区",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Muping",
+    "mapZipCode": 264100
+}, {
+    "id": 370613,
+    "mapName": "莱山区",
+    "mapAbbreviation": "莱山",
+    "mapMergerName": "中国,山东省,烟台市,莱山区",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Laishan",
+    "mapZipCode": 264600
+}, {
+    "id": 370634,
+    "mapName": "长岛县",
+    "mapAbbreviation": "长岛",
+    "mapMergerName": "中国,山东省,烟台市,长岛县",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Changdao",
+    "mapZipCode": 265800
+}, {
+    "id": 370681,
+    "mapName": "龙口市",
+    "mapAbbreviation": "龙口",
+    "mapMergerName": "中国,山东省,烟台市,龙口市",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Longkou",
+    "mapZipCode": 265700
+}, {
+    "id": 370682,
+    "mapName": "莱阳市",
+    "mapAbbreviation": "莱阳",
+    "mapMergerName": "中国,山东省,烟台市,莱阳市",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Laiyang",
+    "mapZipCode": 265200
+}, {
+    "id": 370683,
+    "mapName": "莱州市",
+    "mapAbbreviation": "莱州",
+    "mapMergerName": "中国,山东省,烟台市,莱州市",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Laizhou",
+    "mapZipCode": 261400
+}, {
+    "id": 370684,
+    "mapName": "蓬莱市",
+    "mapAbbreviation": "蓬莱",
+    "mapMergerName": "中国,山东省,烟台市,蓬莱市",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Penglai",
+    "mapZipCode": 265600
+}, {
+    "id": 370685,
+    "mapName": "招远市",
+    "mapAbbreviation": "招远",
+    "mapMergerName": "中国,山东省,烟台市,招远市",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaoyuan",
+    "mapZipCode": 265400
+}, {
+    "id": 370686,
+    "mapName": "栖霞市",
+    "mapAbbreviation": "栖霞",
+    "mapMergerName": "中国,山东省,烟台市,栖霞市",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Qixia",
+    "mapZipCode": 265300
+}, {
+    "id": 370687,
+    "mapName": "海阳市",
+    "mapAbbreviation": "海阳",
+    "mapMergerName": "中国,山东省,烟台市,海阳市",
+    "mapParentId": 370600,
+    "mapLevelType": 3,
+    "mapPinYin": "Haiyang",
+    "mapZipCode": 265100
+}, {
+    "id": 370702,
+    "mapName": "潍城区",
+    "mapAbbreviation": "潍城",
+    "mapMergerName": "中国,山东省,潍坊市,潍城区",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Weicheng",
+    "mapZipCode": 261021
+}, {
+    "id": 370703,
+    "mapName": "寒亭区",
+    "mapAbbreviation": "寒亭",
+    "mapMergerName": "中国,山东省,潍坊市,寒亭区",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanting",
+    "mapZipCode": 261100
+}, {
+    "id": 370704,
+    "mapName": "坊子区",
+    "mapAbbreviation": "坊子",
+    "mapMergerName": "中国,山东省,潍坊市,坊子区",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Fangzi",
+    "mapZipCode": 261200
+}, {
+    "id": 370705,
+    "mapName": "奎文区",
+    "mapAbbreviation": "奎文",
+    "mapMergerName": "中国,山东省,潍坊市,奎文区",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Kuiwen",
+    "mapZipCode": 261031
+}, {
+    "id": 370724,
+    "mapName": "临朐县",
+    "mapAbbreviation": "临朐",
+    "mapMergerName": "中国,山东省,潍坊市,临朐县",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Linqu",
+    "mapZipCode": 262600
+}, {
+    "id": 370725,
+    "mapName": "昌乐县",
+    "mapAbbreviation": "昌乐",
+    "mapMergerName": "中国,山东省,潍坊市,昌乐县",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Changle",
+    "mapZipCode": 262400
+}, {
+    "id": 370781,
+    "mapName": "青州市",
+    "mapAbbreviation": "青州",
+    "mapMergerName": "中国,山东省,潍坊市,青州市",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingzhou",
+    "mapZipCode": 262500
+}, {
+    "id": 370782,
+    "mapName": "诸城市",
+    "mapAbbreviation": "诸城",
+    "mapMergerName": "中国,山东省,潍坊市,诸城市",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhucheng",
+    "mapZipCode": 262200
+}, {
+    "id": 370783,
+    "mapName": "寿光市",
+    "mapAbbreviation": "寿光",
+    "mapMergerName": "中国,山东省,潍坊市,寿光市",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shouguang",
+    "mapZipCode": 262700
+}, {
+    "id": 370784,
+    "mapName": "安丘市",
+    "mapAbbreviation": "安丘",
+    "mapMergerName": "中国,山东省,潍坊市,安丘市",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Anqiu",
+    "mapZipCode": 262100
+}, {
+    "id": 370785,
+    "mapName": "高密市",
+    "mapAbbreviation": "高密",
+    "mapMergerName": "中国,山东省,潍坊市,高密市",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaomi",
+    "mapZipCode": 261500
+}, {
+    "id": 370786,
+    "mapName": "昌邑市",
+    "mapAbbreviation": "昌邑",
+    "mapMergerName": "中国,山东省,潍坊市,昌邑市",
+    "mapParentId": 370700,
+    "mapLevelType": 3,
+    "mapPinYin": "Changyi",
+    "mapZipCode": 261300
+}, {
+    "id": 370811,
+    "mapName": "任城区",
+    "mapAbbreviation": "任城",
+    "mapMergerName": "中国,山东省,济宁市,任城区",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Rencheng",
+    "mapZipCode": 272113
+}, {
+    "id": 370812,
+    "mapName": "兖州区",
+    "mapAbbreviation": "兖州",
+    "mapMergerName": "中国,山东省,济宁市,兖州区",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanzhou ",
+    "mapZipCode": 272000
+}, {
+    "id": 370826,
+    "mapName": "微山县",
+    "mapAbbreviation": "微山",
+    "mapMergerName": "中国,山东省,济宁市,微山县",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Weishan",
+    "mapZipCode": 277600
+}, {
+    "id": 370827,
+    "mapName": "鱼台县",
+    "mapAbbreviation": "鱼台",
+    "mapMergerName": "中国,山东省,济宁市,鱼台县",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yutai",
+    "mapZipCode": 272300
+}, {
+    "id": 370828,
+    "mapName": "金乡县",
+    "mapAbbreviation": "金乡",
+    "mapMergerName": "中国,山东省,济宁市,金乡县",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinxiang",
+    "mapZipCode": 272200
+}, {
+    "id": 370829,
+    "mapName": "嘉祥县",
+    "mapAbbreviation": "嘉祥",
+    "mapMergerName": "中国,山东省,济宁市,嘉祥县",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaxiang",
+    "mapZipCode": 272400
+}, {
+    "id": 370830,
+    "mapName": "汶上县",
+    "mapAbbreviation": "汶上",
+    "mapMergerName": "中国,山东省,济宁市,汶上县",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenshang",
+    "mapZipCode": 272501
+}, {
+    "id": 370831,
+    "mapName": "泗水县",
+    "mapAbbreviation": "泗水",
+    "mapMergerName": "中国,山东省,济宁市,泗水县",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Sishui",
+    "mapZipCode": 273200
+}, {
+    "id": 370832,
+    "mapName": "梁山县",
+    "mapAbbreviation": "梁山",
+    "mapMergerName": "中国,山东省,济宁市,梁山县",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Liangshan",
+    "mapZipCode": 272600
+}, {
+    "id": 370881,
+    "mapName": "曲阜市",
+    "mapAbbreviation": "曲阜",
+    "mapMergerName": "中国,山东省,济宁市,曲阜市",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qufu",
+    "mapZipCode": 273100
+}, {
+    "id": 370883,
+    "mapName": "邹城市",
+    "mapAbbreviation": "邹城",
+    "mapMergerName": "中国,山东省,济宁市,邹城市",
+    "mapParentId": 370800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zoucheng",
+    "mapZipCode": 273500
+}, {
+    "id": 370902,
+    "mapName": "泰山区",
+    "mapAbbreviation": "泰山",
+    "mapMergerName": "中国,山东省,泰安市,泰山区",
+    "mapParentId": 370900,
+    "mapLevelType": 3,
+    "mapPinYin": "Taishan",
+    "mapZipCode": 271000
+}, {
+    "id": 370911,
+    "mapName": "岱岳区",
+    "mapAbbreviation": "岱岳",
+    "mapMergerName": "中国,山东省,泰安市,岱岳区",
+    "mapParentId": 370900,
+    "mapLevelType": 3,
+    "mapPinYin": "Daiyue",
+    "mapZipCode": 271000
+}, {
+    "id": 370921,
+    "mapName": "宁阳县",
+    "mapAbbreviation": "宁阳",
+    "mapMergerName": "中国,山东省,泰安市,宁阳县",
+    "mapParentId": 370900,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningyang",
+    "mapZipCode": 271400
+}, {
+    "id": 370923,
+    "mapName": "东平县",
+    "mapAbbreviation": "东平",
+    "mapMergerName": "中国,山东省,泰安市,东平县",
+    "mapParentId": 370900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongping",
+    "mapZipCode": 271500
+}, {
+    "id": 370982,
+    "mapName": "新泰市",
+    "mapAbbreviation": "新泰",
+    "mapMergerName": "中国,山东省,泰安市,新泰市",
+    "mapParentId": 370900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xintai",
+    "mapZipCode": 271200
+}, {
+    "id": 370983,
+    "mapName": "肥城市",
+    "mapAbbreviation": "肥城",
+    "mapMergerName": "中国,山东省,泰安市,肥城市",
+    "mapParentId": 370900,
+    "mapLevelType": 3,
+    "mapPinYin": "Feicheng",
+    "mapZipCode": 271600
+}, {
+    "id": 371002,
+    "mapName": "环翠区",
+    "mapAbbreviation": "环翠",
+    "mapMergerName": "中国,山东省,威海市,环翠区",
+    "mapParentId": 371000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huancui",
+    "mapZipCode": 264200
+}, {
+    "id": 371003,
+    "mapName": "文登区",
+    "mapAbbreviation": "文登",
+    "mapMergerName": "中国,山东省,威海市,文登区",
+    "mapParentId": 371000,
+    "mapLevelType": 3,
+    "mapPinYin": "Wendeng",
+    "mapZipCode": 266440
+}, {
+    "id": 371082,
+    "mapName": "荣成市",
+    "mapAbbreviation": "荣成",
+    "mapMergerName": "中国,山东省,威海市,荣成市",
+    "mapParentId": 371000,
+    "mapLevelType": 3,
+    "mapPinYin": "Rongcheng",
+    "mapZipCode": 264300
+}, {
+    "id": 371083,
+    "mapName": "乳山市",
+    "mapAbbreviation": "乳山",
+    "mapMergerName": "中国,山东省,威海市,乳山市",
+    "mapParentId": 371000,
+    "mapLevelType": 3,
+    "mapPinYin": "Rushan",
+    "mapZipCode": 264500
+}, {
+    "id": 371102,
+    "mapName": "东港区",
+    "mapAbbreviation": "东港",
+    "mapMergerName": "中国,山东省,日照市,东港区",
+    "mapParentId": 371100,
+    "mapLevelType": 3,
+    "mapPinYin": "Donggang",
+    "mapZipCode": 276800
+}, {
+    "id": 371103,
+    "mapName": "岚山区",
+    "mapAbbreviation": "岚山",
+    "mapMergerName": "中国,山东省,日照市,岚山区",
+    "mapParentId": 371100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lanshan",
+    "mapZipCode": 276808
+}, {
+    "id": 371121,
+    "mapName": "五莲县",
+    "mapAbbreviation": "五莲",
+    "mapMergerName": "中国,山东省,日照市,五莲县",
+    "mapParentId": 371100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wulian",
+    "mapZipCode": 262300
+}, {
+    "id": 371122,
+    "mapName": "莒县",
+    "mapAbbreviation": "莒县",
+    "mapMergerName": "中国,山东省,日照市,莒县",
+    "mapParentId": 371100,
+    "mapLevelType": 3,
+    "mapPinYin": "Juxian",
+    "mapZipCode": 276500
+}, {
+    "id": 371202,
+    "mapName": "莱城区",
+    "mapAbbreviation": "莱城",
+    "mapMergerName": "中国,山东省,莱芜市,莱城区",
+    "mapParentId": 371200,
+    "mapLevelType": 3,
+    "mapPinYin": "Laicheng",
+    "mapZipCode": 271199
+}, {
+    "id": 371203,
+    "mapName": "钢城区",
+    "mapAbbreviation": "钢城",
+    "mapMergerName": "中国,山东省,莱芜市,钢城区",
+    "mapParentId": 371200,
+    "mapLevelType": 3,
+    "mapPinYin": "Gangcheng",
+    "mapZipCode": 271100
+}, {
+    "id": 371302,
+    "mapName": "兰山区",
+    "mapAbbreviation": "兰山",
+    "mapMergerName": "中国,山东省,临沂市,兰山区",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lanshan",
+    "mapZipCode": 276002
+}, {
+    "id": 371311,
+    "mapName": "罗庄区",
+    "mapAbbreviation": "罗庄",
+    "mapMergerName": "中国,山东省,临沂市,罗庄区",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luozhuang",
+    "mapZipCode": 276022
+}, {
+    "id": 371312,
+    "mapName": "河东区",
+    "mapAbbreviation": "河东",
+    "mapMergerName": "中国,山东省,临沂市,河东区",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Hedong",
+    "mapZipCode": 276034
+}, {
+    "id": 371321,
+    "mapName": "沂南县",
+    "mapAbbreviation": "沂南",
+    "mapMergerName": "中国,山东省,临沂市,沂南县",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yinan",
+    "mapZipCode": 276300
+}, {
+    "id": 371322,
+    "mapName": "郯城县",
+    "mapAbbreviation": "郯城",
+    "mapMergerName": "中国,山东省,临沂市,郯城县",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tancheng",
+    "mapZipCode": 276100
+}, {
+    "id": 371323,
+    "mapName": "沂水县",
+    "mapAbbreviation": "沂水",
+    "mapMergerName": "中国,山东省,临沂市,沂水县",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yishui",
+    "mapZipCode": 276400
+}, {
+    "id": 371324,
+    "mapName": "兰陵县",
+    "mapAbbreviation": "兰陵",
+    "mapMergerName": "中国,山东省,临沂市,兰陵县",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lanling",
+    "mapZipCode": 277700
+}, {
+    "id": 371325,
+    "mapName": "费县",
+    "mapAbbreviation": "费县",
+    "mapMergerName": "中国,山东省,临沂市,费县",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Feixian",
+    "mapZipCode": 273400
+}, {
+    "id": 371326,
+    "mapName": "平邑县",
+    "mapAbbreviation": "平邑",
+    "mapMergerName": "中国,山东省,临沂市,平邑县",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingyi",
+    "mapZipCode": 273300
+}, {
+    "id": 371327,
+    "mapName": "莒南县",
+    "mapAbbreviation": "莒南",
+    "mapMergerName": "中国,山东省,临沂市,莒南县",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Junan",
+    "mapZipCode": 276600
+}, {
+    "id": 371328,
+    "mapName": "蒙阴县",
+    "mapAbbreviation": "蒙阴",
+    "mapMergerName": "中国,山东省,临沂市,蒙阴县",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Mengyin",
+    "mapZipCode": 276200
+}, {
+    "id": 371329,
+    "mapName": "临沭县",
+    "mapAbbreviation": "临沭",
+    "mapMergerName": "中国,山东省,临沂市,临沭县",
+    "mapParentId": 371300,
+    "mapLevelType": 3,
+    "mapPinYin": "Linshu",
+    "mapZipCode": 276700
+}, {
+    "id": 371402,
+    "mapName": "德城区",
+    "mapAbbreviation": "德城",
+    "mapMergerName": "中国,山东省,德州市,德城区",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Decheng",
+    "mapZipCode": 253012
+}, {
+    "id": 371403,
+    "mapName": "陵城区",
+    "mapAbbreviation": "陵城",
+    "mapMergerName": "中国,山东省,德州市,陵城区",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingcheng",
+    "mapZipCode": 253500
+}, {
+    "id": 371422,
+    "mapName": "宁津县",
+    "mapAbbreviation": "宁津",
+    "mapMergerName": "中国,山东省,德州市,宁津县",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningjin",
+    "mapZipCode": 253400
+}, {
+    "id": 371423,
+    "mapName": "庆云县",
+    "mapAbbreviation": "庆云",
+    "mapMergerName": "中国,山东省,德州市,庆云县",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingyun",
+    "mapZipCode": 253700
+}, {
+    "id": 371424,
+    "mapName": "临邑县",
+    "mapAbbreviation": "临邑",
+    "mapMergerName": "中国,山东省,德州市,临邑县",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Linyi",
+    "mapZipCode": 251500
+}, {
+    "id": 371425,
+    "mapName": "齐河县",
+    "mapAbbreviation": "齐河",
+    "mapMergerName": "中国,山东省,德州市,齐河县",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qihe",
+    "mapZipCode": 251100
+}, {
+    "id": 371426,
+    "mapName": "平原县",
+    "mapAbbreviation": "平原",
+    "mapMergerName": "中国,山东省,德州市,平原县",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingyuan",
+    "mapZipCode": 253100
+}, {
+    "id": 371427,
+    "mapName": "夏津县",
+    "mapAbbreviation": "夏津",
+    "mapMergerName": "中国,山东省,德州市,夏津县",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiajin",
+    "mapZipCode": 253200
+}, {
+    "id": 371428,
+    "mapName": "武城县",
+    "mapAbbreviation": "武城",
+    "mapMergerName": "中国,山东省,德州市,武城县",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wucheng",
+    "mapZipCode": 253300
+}, {
+    "id": 371481,
+    "mapName": "乐陵市",
+    "mapAbbreviation": "乐陵",
+    "mapMergerName": "中国,山东省,德州市,乐陵市",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Leling",
+    "mapZipCode": 253600
+}, {
+    "id": 371482,
+    "mapName": "禹城市",
+    "mapAbbreviation": "禹城",
+    "mapMergerName": "中国,山东省,德州市,禹城市",
+    "mapParentId": 371400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yucheng",
+    "mapZipCode": 251200
+}, {
+    "id": 371502,
+    "mapName": "东昌府区",
+    "mapAbbreviation": "东昌府",
+    "mapMergerName": "中国,山东省,聊城市,东昌府区",
+    "mapParentId": 371500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongchangfu",
+    "mapZipCode": 252000
+}, {
+    "id": 371521,
+    "mapName": "阳谷县",
+    "mapAbbreviation": "阳谷",
+    "mapMergerName": "中国,山东省,聊城市,阳谷县",
+    "mapParentId": 371500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanggu",
+    "mapZipCode": 252300
+}, {
+    "id": 371522,
+    "mapName": "莘县",
+    "mapAbbreviation": "莘县",
+    "mapMergerName": "中国,山东省,聊城市,莘县",
+    "mapParentId": 371500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenxian",
+    "mapZipCode": 252400
+}, {
+    "id": 371523,
+    "mapName": "茌平县",
+    "mapAbbreviation": "茌平",
+    "mapMergerName": "中国,山东省,聊城市,茌平县",
+    "mapParentId": 371500,
+    "mapLevelType": 3,
+    "mapPinYin": "Chiping",
+    "mapZipCode": 252100
+}, {
+    "id": 371524,
+    "mapName": "东阿县",
+    "mapAbbreviation": "东阿",
+    "mapMergerName": "中国,山东省,聊城市,东阿县",
+    "mapParentId": 371500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dong'e",
+    "mapZipCode": 252200
+}, {
+    "id": 371525,
+    "mapName": "冠县",
+    "mapAbbreviation": "冠县",
+    "mapMergerName": "中国,山东省,聊城市,冠县",
+    "mapParentId": 371500,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanxian",
+    "mapZipCode": 252500
+}, {
+    "id": 371526,
+    "mapName": "高唐县",
+    "mapAbbreviation": "高唐",
+    "mapMergerName": "中国,山东省,聊城市,高唐县",
+    "mapParentId": 371500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaotang",
+    "mapZipCode": 252800
+}, {
+    "id": 371581,
+    "mapName": "临清市",
+    "mapAbbreviation": "临清",
+    "mapMergerName": "中国,山东省,聊城市,临清市",
+    "mapParentId": 371500,
+    "mapLevelType": 3,
+    "mapPinYin": "Linqing",
+    "mapZipCode": 252600
+}, {
+    "id": 371602,
+    "mapName": "滨城区",
+    "mapAbbreviation": "滨城",
+    "mapMergerName": "中国,山东省,滨州市,滨城区",
+    "mapParentId": 371600,
+    "mapLevelType": 3,
+    "mapPinYin": "Bincheng",
+    "mapZipCode": 256613
+}, {
+    "id": 371603,
+    "mapName": "沾化区",
+    "mapAbbreviation": "沾化",
+    "mapMergerName": "中国,山东省,滨州市,沾化区",
+    "mapParentId": 371600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhanhua",
+    "mapZipCode": 256800
+}, {
+    "id": 371621,
+    "mapName": "惠民县",
+    "mapAbbreviation": "惠民",
+    "mapMergerName": "中国,山东省,滨州市,惠民县",
+    "mapParentId": 371600,
+    "mapLevelType": 3,
+    "mapPinYin": "Huimin",
+    "mapZipCode": 251700
+}, {
+    "id": 371622,
+    "mapName": "阳信县",
+    "mapAbbreviation": "阳信",
+    "mapMergerName": "中国,山东省,滨州市,阳信县",
+    "mapParentId": 371600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangxin",
+    "mapZipCode": 251800
+}, {
+    "id": 371623,
+    "mapName": "无棣县",
+    "mapAbbreviation": "无棣",
+    "mapMergerName": "中国,山东省,滨州市,无棣县",
+    "mapParentId": 371600,
+    "mapLevelType": 3,
+    "mapPinYin": "Wudi",
+    "mapZipCode": 251900
+}, {
+    "id": 371625,
+    "mapName": "博兴县",
+    "mapAbbreviation": "博兴",
+    "mapMergerName": "中国,山东省,滨州市,博兴县",
+    "mapParentId": 371600,
+    "mapLevelType": 3,
+    "mapPinYin": "Boxing",
+    "mapZipCode": 256500
+}, {
+    "id": 371626,
+    "mapName": "邹平县",
+    "mapAbbreviation": "邹平",
+    "mapMergerName": "中国,山东省,滨州市,邹平县",
+    "mapParentId": 371600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zouping",
+    "mapZipCode": 256200
+}, {
+    "id": 371627,
+    "mapName": "北海新区",
+    "mapAbbreviation": "北海新区",
+    "mapMergerName": "中国,山东省,滨州市,北海新区",
+    "mapParentId": 371600,
+    "mapLevelType": 3,
+    "mapPinYin": "Beihaixinqu",
+    "mapZipCode": 256200
+}, {
+    "id": 371702,
+    "mapName": "牡丹区",
+    "mapAbbreviation": "牡丹",
+    "mapMergerName": "中国,山东省,菏泽市,牡丹区",
+    "mapParentId": 371700,
+    "mapLevelType": 3,
+    "mapPinYin": "Mudan",
+    "mapZipCode": 274009
+}, {
+    "id": 371721,
+    "mapName": "曹县",
+    "mapAbbreviation": "曹县",
+    "mapMergerName": "中国,山东省,菏泽市,曹县",
+    "mapParentId": 371700,
+    "mapLevelType": 3,
+    "mapPinYin": "Caoxian",
+    "mapZipCode": 274400
+}, {
+    "id": 371722,
+    "mapName": "单县",
+    "mapAbbreviation": "单县",
+    "mapMergerName": "中国,山东省,菏泽市,单县",
+    "mapParentId": 371700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanxian",
+    "mapZipCode": 273700
+}, {
+    "id": 371723,
+    "mapName": "成武县",
+    "mapAbbreviation": "成武",
+    "mapMergerName": "中国,山东省,菏泽市,成武县",
+    "mapParentId": 371700,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengwu",
+    "mapZipCode": 274200
+}, {
+    "id": 371724,
+    "mapName": "巨野县",
+    "mapAbbreviation": "巨野",
+    "mapMergerName": "中国,山东省,菏泽市,巨野县",
+    "mapParentId": 371700,
+    "mapLevelType": 3,
+    "mapPinYin": "Juye",
+    "mapZipCode": 274900
+}, {
+    "id": 371725,
+    "mapName": "郓城县",
+    "mapAbbreviation": "郓城",
+    "mapMergerName": "中国,山东省,菏泽市,郓城县",
+    "mapParentId": 371700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuncheng",
+    "mapZipCode": 274700
+}, {
+    "id": 371726,
+    "mapName": "鄄城县",
+    "mapAbbreviation": "鄄城",
+    "mapMergerName": "中国,山东省,菏泽市,鄄城县",
+    "mapParentId": 371700,
+    "mapLevelType": 3,
+    "mapPinYin": "Juancheng",
+    "mapZipCode": 274600
+}, {
+    "id": 371727,
+    "mapName": "定陶县",
+    "mapAbbreviation": "定陶",
+    "mapMergerName": "中国,山东省,菏泽市,定陶县",
+    "mapParentId": 371700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingtao",
+    "mapZipCode": 274100
+}, {
+    "id": 371728,
+    "mapName": "东明县",
+    "mapAbbreviation": "东明",
+    "mapMergerName": "中国,山东省,菏泽市,东明县",
+    "mapParentId": 371700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongming",
+    "mapZipCode": 274500
+}, {
+    "id": 410102,
+    "mapName": "中原区",
+    "mapAbbreviation": "中原",
+    "mapMergerName": "中国,河南省,郑州市,中原区",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongyuan",
+    "mapZipCode": 450007
+}, {
+    "id": 410103,
+    "mapName": "二七区",
+    "mapAbbreviation": "二七",
+    "mapMergerName": "中国,河南省,郑州市,二七区",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Erqi",
+    "mapZipCode": 450052
+}, {
+    "id": 410104,
+    "mapName": "管城回族区",
+    "mapAbbreviation": "管城",
+    "mapMergerName": "中国,河南省,郑州市,管城回族区",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Guancheng",
+    "mapZipCode": 450000
+}, {
+    "id": 410105,
+    "mapName": "金水区",
+    "mapAbbreviation": "金水",
+    "mapMergerName": "中国,河南省,郑州市,金水区",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinshui",
+    "mapZipCode": 450003
+}, {
+    "id": 410106,
+    "mapName": "上街区",
+    "mapAbbreviation": "上街",
+    "mapMergerName": "中国,河南省,郑州市,上街区",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangjie",
+    "mapZipCode": 450041
+}, {
+    "id": 410108,
+    "mapName": "惠济区",
+    "mapAbbreviation": "惠济",
+    "mapMergerName": "中国,河南省,郑州市,惠济区",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huiji",
+    "mapZipCode": 450053
+}, {
+    "id": 410122,
+    "mapName": "中牟县",
+    "mapAbbreviation": "中牟",
+    "mapMergerName": "中国,河南省,郑州市,中牟县",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongmu",
+    "mapZipCode": 451450
+}, {
+    "id": 410181,
+    "mapName": "巩义市",
+    "mapAbbreviation": "巩义",
+    "mapMergerName": "中国,河南省,郑州市,巩义市",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongyi",
+    "mapZipCode": 451200
+}, {
+    "id": 410182,
+    "mapName": "荥阳市",
+    "mapAbbreviation": "荥阳",
+    "mapMergerName": "中国,河南省,郑州市,荥阳市",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingyang",
+    "mapZipCode": 450100
+}, {
+    "id": 410183,
+    "mapName": "新密市",
+    "mapAbbreviation": "新密",
+    "mapMergerName": "中国,河南省,郑州市,新密市",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinmi",
+    "mapZipCode": 452300
+}, {
+    "id": 410184,
+    "mapName": "新郑市",
+    "mapAbbreviation": "新郑",
+    "mapMergerName": "中国,河南省,郑州市,新郑市",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinzheng",
+    "mapZipCode": 451100
+}, {
+    "id": 410185,
+    "mapName": "登封市",
+    "mapAbbreviation": "登封",
+    "mapMergerName": "中国,河南省,郑州市,登封市",
+    "mapParentId": 410100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dengfeng",
+    "mapZipCode": 452470
+}, {
+    "id": 410202,
+    "mapName": "龙亭区",
+    "mapAbbreviation": "龙亭",
+    "mapMergerName": "中国,河南省,开封市,龙亭区",
+    "mapParentId": 410200,
+    "mapLevelType": 3,
+    "mapPinYin": "Longting",
+    "mapZipCode": 475100
+}, {
+    "id": 410203,
+    "mapName": "顺河回族区",
+    "mapAbbreviation": "顺河",
+    "mapMergerName": "中国,河南省,开封市,顺河回族区",
+    "mapParentId": 410200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shunhe",
+    "mapZipCode": 475000
+}, {
+    "id": 410204,
+    "mapName": "鼓楼区",
+    "mapAbbreviation": "鼓楼",
+    "mapMergerName": "中国,河南省,开封市,鼓楼区",
+    "mapParentId": 410200,
+    "mapLevelType": 3,
+    "mapPinYin": "Gulou",
+    "mapZipCode": 475000
+}, {
+    "id": 410205,
+    "mapName": "禹王台区",
+    "mapAbbreviation": "禹王台",
+    "mapMergerName": "中国,河南省,开封市,禹王台区",
+    "mapParentId": 410200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuwangtai",
+    "mapZipCode": 475003
+}, {
+    "id": 410212,
+    "mapName": "祥符区",
+    "mapAbbreviation": "祥符",
+    "mapMergerName": "中国,河南省,开封市,祥符区",
+    "mapParentId": 410200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangfu",
+    "mapZipCode": 475100
+}, {
+    "id": 410221,
+    "mapName": "杞县",
+    "mapAbbreviation": "杞县",
+    "mapMergerName": "中国,河南省,开封市,杞县",
+    "mapParentId": 410200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qixian",
+    "mapZipCode": 475200
+}, {
+    "id": 410222,
+    "mapName": "通许县",
+    "mapAbbreviation": "通许",
+    "mapMergerName": "中国,河南省,开封市,通许县",
+    "mapParentId": 410200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongxu",
+    "mapZipCode": 475400
+}, {
+    "id": 410223,
+    "mapName": "尉氏县",
+    "mapAbbreviation": "尉氏",
+    "mapMergerName": "中国,河南省,开封市,尉氏县",
+    "mapParentId": 410200,
+    "mapLevelType": 3,
+    "mapPinYin": "Weishi",
+    "mapZipCode": 475500
+}, {
+    "id": 410225,
+    "mapName": "兰考县",
+    "mapAbbreviation": "兰考",
+    "mapMergerName": "中国,河南省,开封市,兰考县",
+    "mapParentId": 410200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lankao",
+    "mapZipCode": 475300
+}, {
+    "id": 410302,
+    "mapName": "老城区",
+    "mapAbbreviation": "老城",
+    "mapMergerName": "中国,河南省,洛阳市,老城区",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Laocheng",
+    "mapZipCode": 471002
+}, {
+    "id": 410303,
+    "mapName": "西工区",
+    "mapAbbreviation": "西工",
+    "mapMergerName": "中国,河南省,洛阳市,西工区",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xigong",
+    "mapZipCode": 471000
+}, {
+    "id": 410304,
+    "mapName": "瀍河回族区",
+    "mapAbbreviation": "瀍河",
+    "mapMergerName": "中国,河南省,洛阳市,瀍河回族区",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chanhe",
+    "mapZipCode": 471002
+}, {
+    "id": 410305,
+    "mapName": "涧西区",
+    "mapAbbreviation": "涧西",
+    "mapMergerName": "中国,河南省,洛阳市,涧西区",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianxi",
+    "mapZipCode": 471003
+}, {
+    "id": 410306,
+    "mapName": "吉利区",
+    "mapAbbreviation": "吉利",
+    "mapMergerName": "中国,河南省,洛阳市,吉利区",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jili",
+    "mapZipCode": 471012
+}, {
+    "id": 410311,
+    "mapName": "洛龙区",
+    "mapAbbreviation": "洛龙",
+    "mapMergerName": "中国,河南省,洛阳市,洛龙区",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luolong",
+    "mapZipCode": 471000
+}, {
+    "id": 410322,
+    "mapName": "孟津县",
+    "mapAbbreviation": "孟津",
+    "mapMergerName": "中国,河南省,洛阳市,孟津县",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Mengjin",
+    "mapZipCode": 471100
+}, {
+    "id": 410323,
+    "mapName": "新安县",
+    "mapAbbreviation": "新安",
+    "mapMergerName": "中国,河南省,洛阳市,新安县",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xin'an",
+    "mapZipCode": 471800
+}, {
+    "id": 410324,
+    "mapName": "栾川县",
+    "mapAbbreviation": "栾川",
+    "mapMergerName": "中国,河南省,洛阳市,栾川县",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luanchuan",
+    "mapZipCode": 471500
+}, {
+    "id": 410325,
+    "mapName": "嵩县",
+    "mapAbbreviation": "嵩县",
+    "mapMergerName": "中国,河南省,洛阳市,嵩县",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Songxian",
+    "mapZipCode": 471400
+}, {
+    "id": 410326,
+    "mapName": "汝阳县",
+    "mapAbbreviation": "汝阳",
+    "mapMergerName": "中国,河南省,洛阳市,汝阳县",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruyang",
+    "mapZipCode": 471200
+}, {
+    "id": 410327,
+    "mapName": "宜阳县",
+    "mapAbbreviation": "宜阳",
+    "mapMergerName": "中国,河南省,洛阳市,宜阳县",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yiyang",
+    "mapZipCode": 471600
+}, {
+    "id": 410328,
+    "mapName": "洛宁县",
+    "mapAbbreviation": "洛宁",
+    "mapMergerName": "中国,河南省,洛阳市,洛宁县",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luoning",
+    "mapZipCode": 471700
+}, {
+    "id": 410329,
+    "mapName": "伊川县",
+    "mapAbbreviation": "伊川",
+    "mapMergerName": "中国,河南省,洛阳市,伊川县",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yichuan",
+    "mapZipCode": 471300
+}, {
+    "id": 410381,
+    "mapName": "偃师市",
+    "mapAbbreviation": "偃师",
+    "mapMergerName": "中国,河南省,洛阳市,偃师市",
+    "mapParentId": 410300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanshi",
+    "mapZipCode": 471900
+}, {
+    "id": 410402,
+    "mapName": "新华区",
+    "mapAbbreviation": "新华",
+    "mapMergerName": "中国,河南省,平顶山市,新华区",
+    "mapParentId": 410400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinhua",
+    "mapZipCode": 467002
+}, {
+    "id": 410403,
+    "mapName": "卫东区",
+    "mapAbbreviation": "卫东",
+    "mapMergerName": "中国,河南省,平顶山市,卫东区",
+    "mapParentId": 410400,
+    "mapLevelType": 3,
+    "mapPinYin": "Weidong",
+    "mapZipCode": 467021
+}, {
+    "id": 410404,
+    "mapName": "石龙区",
+    "mapAbbreviation": "石龙",
+    "mapMergerName": "中国,河南省,平顶山市,石龙区",
+    "mapParentId": 410400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shilong",
+    "mapZipCode": 467045
+}, {
+    "id": 410411,
+    "mapName": "湛河区",
+    "mapAbbreviation": "湛河",
+    "mapMergerName": "中国,河南省,平顶山市,湛河区",
+    "mapParentId": 410400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhanhe",
+    "mapZipCode": 467000
+}, {
+    "id": 410421,
+    "mapName": "宝丰县",
+    "mapAbbreviation": "宝丰",
+    "mapMergerName": "中国,河南省,平顶山市,宝丰县",
+    "mapParentId": 410400,
+    "mapLevelType": 3,
+    "mapPinYin": "Baofeng",
+    "mapZipCode": 467400
+}, {
+    "id": 410422,
+    "mapName": "叶县",
+    "mapAbbreviation": "叶县",
+    "mapMergerName": "中国,河南省,平顶山市,叶县",
+    "mapParentId": 410400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yexian",
+    "mapZipCode": 467200
+}, {
+    "id": 410423,
+    "mapName": "鲁山县",
+    "mapAbbreviation": "鲁山",
+    "mapMergerName": "中国,河南省,平顶山市,鲁山县",
+    "mapParentId": 410400,
+    "mapLevelType": 3,
+    "mapPinYin": "Lushan",
+    "mapZipCode": 467300
+}, {
+    "id": 410425,
+    "mapName": "郏县",
+    "mapAbbreviation": "郏县",
+    "mapMergerName": "中国,河南省,平顶山市,郏县",
+    "mapParentId": 410400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaxian",
+    "mapZipCode": 467100
+}, {
+    "id": 410481,
+    "mapName": "舞钢市",
+    "mapAbbreviation": "舞钢",
+    "mapMergerName": "中国,河南省,平顶山市,舞钢市",
+    "mapParentId": 410400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wugang",
+    "mapZipCode": 462500
+}, {
+    "id": 410482,
+    "mapName": "汝州市",
+    "mapAbbreviation": "汝州",
+    "mapMergerName": "中国,河南省,平顶山市,汝州市",
+    "mapParentId": 410400,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruzhou",
+    "mapZipCode": 467500
+}, {
+    "id": 410502,
+    "mapName": "文峰区",
+    "mapAbbreviation": "文峰",
+    "mapMergerName": "中国,河南省,安阳市,文峰区",
+    "mapParentId": 410500,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenfeng",
+    "mapZipCode": 455000
+}, {
+    "id": 410503,
+    "mapName": "北关区",
+    "mapAbbreviation": "北关",
+    "mapMergerName": "中国,河南省,安阳市,北关区",
+    "mapParentId": 410500,
+    "mapLevelType": 3,
+    "mapPinYin": "Beiguan",
+    "mapZipCode": 455001
+}, {
+    "id": 410505,
+    "mapName": "殷都区",
+    "mapAbbreviation": "殷都",
+    "mapMergerName": "中国,河南省,安阳市,殷都区",
+    "mapParentId": 410500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yindu",
+    "mapZipCode": 455004
+}, {
+    "id": 410506,
+    "mapName": "龙安区",
+    "mapAbbreviation": "龙安",
+    "mapMergerName": "中国,河南省,安阳市,龙安区",
+    "mapParentId": 410500,
+    "mapLevelType": 3,
+    "mapPinYin": "Long'an",
+    "mapZipCode": 455001
+}, {
+    "id": 410522,
+    "mapName": "安阳县",
+    "mapAbbreviation": "安阳",
+    "mapMergerName": "中国,河南省,安阳市,安阳县",
+    "mapParentId": 410500,
+    "mapLevelType": 3,
+    "mapPinYin": "Anyang",
+    "mapZipCode": 455000
+}, {
+    "id": 410523,
+    "mapName": "汤阴县",
+    "mapAbbreviation": "汤阴",
+    "mapMergerName": "中国,河南省,安阳市,汤阴县",
+    "mapParentId": 410500,
+    "mapLevelType": 3,
+    "mapPinYin": "Tangyin",
+    "mapZipCode": 456150
+}, {
+    "id": 410526,
+    "mapName": "滑县",
+    "mapAbbreviation": "滑县",
+    "mapMergerName": "中国,河南省,安阳市,滑县",
+    "mapParentId": 410500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaxian",
+    "mapZipCode": 456400
+}, {
+    "id": 410527,
+    "mapName": "内黄县",
+    "mapAbbreviation": "内黄",
+    "mapMergerName": "中国,河南省,安阳市,内黄县",
+    "mapParentId": 410500,
+    "mapLevelType": 3,
+    "mapPinYin": "Neihuang",
+    "mapZipCode": 456350
+}, {
+    "id": 410581,
+    "mapName": "林州市",
+    "mapAbbreviation": "林州",
+    "mapMergerName": "中国,河南省,安阳市,林州市",
+    "mapParentId": 410500,
+    "mapLevelType": 3,
+    "mapPinYin": "Linzhou",
+    "mapZipCode": 456550
+}, {
+    "id": 410602,
+    "mapName": "鹤山区",
+    "mapAbbreviation": "鹤山",
+    "mapMergerName": "中国,河南省,鹤壁市,鹤山区",
+    "mapParentId": 410600,
+    "mapLevelType": 3,
+    "mapPinYin": "Heshan",
+    "mapZipCode": 458010
+}, {
+    "id": 410603,
+    "mapName": "山城区",
+    "mapAbbreviation": "山城",
+    "mapMergerName": "中国,河南省,鹤壁市,山城区",
+    "mapParentId": 410600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shancheng",
+    "mapZipCode": 458000
+}, {
+    "id": 410611,
+    "mapName": "淇滨区",
+    "mapAbbreviation": "淇滨",
+    "mapMergerName": "中国,河南省,鹤壁市,淇滨区",
+    "mapParentId": 410600,
+    "mapLevelType": 3,
+    "mapPinYin": "Qibin",
+    "mapZipCode": 458000
+}, {
+    "id": 410621,
+    "mapName": "浚县",
+    "mapAbbreviation": "浚县",
+    "mapMergerName": "中国,河南省,鹤壁市,浚县",
+    "mapParentId": 410600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xunxian",
+    "mapZipCode": 456250
+}, {
+    "id": 410622,
+    "mapName": "淇县",
+    "mapAbbreviation": "淇县",
+    "mapMergerName": "中国,河南省,鹤壁市,淇县",
+    "mapParentId": 410600,
+    "mapLevelType": 3,
+    "mapPinYin": "Qixian",
+    "mapZipCode": 456750
+}, {
+    "id": 410702,
+    "mapName": "红旗区",
+    "mapAbbreviation": "红旗",
+    "mapMergerName": "中国,河南省,新乡市,红旗区",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongqi",
+    "mapZipCode": 453000
+}, {
+    "id": 410703,
+    "mapName": "卫滨区",
+    "mapAbbreviation": "卫滨",
+    "mapMergerName": "中国,河南省,新乡市,卫滨区",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Weibin",
+    "mapZipCode": 453000
+}, {
+    "id": 410704,
+    "mapName": "凤泉区",
+    "mapAbbreviation": "凤泉",
+    "mapMergerName": "中国,河南省,新乡市,凤泉区",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengquan",
+    "mapZipCode": 453011
+}, {
+    "id": 410711,
+    "mapName": "牧野区",
+    "mapAbbreviation": "牧野",
+    "mapMergerName": "中国,河南省,新乡市,牧野区",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Muye",
+    "mapZipCode": 453002
+}, {
+    "id": 410721,
+    "mapName": "新乡县",
+    "mapAbbreviation": "新乡",
+    "mapMergerName": "中国,河南省,新乡市,新乡县",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinxiang",
+    "mapZipCode": 453700
+}, {
+    "id": 410724,
+    "mapName": "获嘉县",
+    "mapAbbreviation": "获嘉",
+    "mapMergerName": "中国,河南省,新乡市,获嘉县",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huojia",
+    "mapZipCode": 453800
+}, {
+    "id": 410725,
+    "mapName": "原阳县",
+    "mapAbbreviation": "原阳",
+    "mapMergerName": "中国,河南省,新乡市,原阳县",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanyang",
+    "mapZipCode": 453500
+}, {
+    "id": 410726,
+    "mapName": "延津县",
+    "mapAbbreviation": "延津",
+    "mapMergerName": "中国,河南省,新乡市,延津县",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanjin",
+    "mapZipCode": 453200
+}, {
+    "id": 410727,
+    "mapName": "封丘县",
+    "mapAbbreviation": "封丘",
+    "mapMergerName": "中国,河南省,新乡市,封丘县",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengqiu",
+    "mapZipCode": 453300
+}, {
+    "id": 410728,
+    "mapName": "长垣县",
+    "mapAbbreviation": "长垣",
+    "mapMergerName": "中国,河南省,新乡市,长垣县",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Changyuan",
+    "mapZipCode": 453400
+}, {
+    "id": 410781,
+    "mapName": "卫辉市",
+    "mapAbbreviation": "卫辉",
+    "mapMergerName": "中国,河南省,新乡市,卫辉市",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Weihui",
+    "mapZipCode": 453100
+}, {
+    "id": 410782,
+    "mapName": "辉县市",
+    "mapAbbreviation": "辉县",
+    "mapMergerName": "中国,河南省,新乡市,辉县市",
+    "mapParentId": 410700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huixian",
+    "mapZipCode": 453600
+}, {
+    "id": 410802,
+    "mapName": "解放区",
+    "mapAbbreviation": "解放",
+    "mapMergerName": "中国,河南省,焦作市,解放区",
+    "mapParentId": 410800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiefang",
+    "mapZipCode": 454000
+}, {
+    "id": 410803,
+    "mapName": "中站区",
+    "mapAbbreviation": "中站",
+    "mapMergerName": "中国,河南省,焦作市,中站区",
+    "mapParentId": 410800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongzhan",
+    "mapZipCode": 454191
+}, {
+    "id": 410804,
+    "mapName": "马村区",
+    "mapAbbreviation": "马村",
+    "mapMergerName": "中国,河南省,焦作市,马村区",
+    "mapParentId": 410800,
+    "mapLevelType": 3,
+    "mapPinYin": "Macun",
+    "mapZipCode": 454171
+}, {
+    "id": 410811,
+    "mapName": "山阳区",
+    "mapAbbreviation": "山阳",
+    "mapMergerName": "中国,河南省,焦作市,山阳区",
+    "mapParentId": 410800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanyang",
+    "mapZipCode": 454002
+}, {
+    "id": 410821,
+    "mapName": "修武县",
+    "mapAbbreviation": "修武",
+    "mapMergerName": "中国,河南省,焦作市,修武县",
+    "mapParentId": 410800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiuwu",
+    "mapZipCode": 454350
+}, {
+    "id": 410822,
+    "mapName": "博爱县",
+    "mapAbbreviation": "博爱",
+    "mapMergerName": "中国,河南省,焦作市,博爱县",
+    "mapParentId": 410800,
+    "mapLevelType": 3,
+    "mapPinYin": "Boai",
+    "mapZipCode": 454450
+}, {
+    "id": 410823,
+    "mapName": "武陟县",
+    "mapAbbreviation": "武陟",
+    "mapMergerName": "中国,河南省,焦作市,武陟县",
+    "mapParentId": 410800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuzhi",
+    "mapZipCode": 454950
+}, {
+    "id": 410825,
+    "mapName": "温县",
+    "mapAbbreviation": "温县",
+    "mapMergerName": "中国,河南省,焦作市,温县",
+    "mapParentId": 410800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenxian",
+    "mapZipCode": 454850
+}, {
+    "id": 410882,
+    "mapName": "沁阳市",
+    "mapAbbreviation": "沁阳",
+    "mapMergerName": "中国,河南省,焦作市,沁阳市",
+    "mapParentId": 410800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinyang",
+    "mapZipCode": 454550
+}, {
+    "id": 410883,
+    "mapName": "孟州市",
+    "mapAbbreviation": "孟州",
+    "mapMergerName": "中国,河南省,焦作市,孟州市",
+    "mapParentId": 410800,
+    "mapLevelType": 3,
+    "mapPinYin": "Mengzhou",
+    "mapZipCode": 454750
+}, {
+    "id": 410902,
+    "mapName": "华龙区",
+    "mapAbbreviation": "华龙",
+    "mapMergerName": "中国,河南省,濮阳市,华龙区",
+    "mapParentId": 410900,
+    "mapLevelType": 3,
+    "mapPinYin": "Hualong",
+    "mapZipCode": 457001
+}, {
+    "id": 410922,
+    "mapName": "清丰县",
+    "mapAbbreviation": "清丰",
+    "mapMergerName": "中国,河南省,濮阳市,清丰县",
+    "mapParentId": 410900,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingfeng",
+    "mapZipCode": 457300
+}, {
+    "id": 410923,
+    "mapName": "南乐县",
+    "mapAbbreviation": "南乐",
+    "mapMergerName": "中国,河南省,濮阳市,南乐县",
+    "mapParentId": 410900,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanle",
+    "mapZipCode": 457400
+}, {
+    "id": 410926,
+    "mapName": "范县",
+    "mapAbbreviation": "范县",
+    "mapMergerName": "中国,河南省,濮阳市,范县",
+    "mapParentId": 410900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fanxian",
+    "mapZipCode": 457500
+}, {
+    "id": 410927,
+    "mapName": "台前县",
+    "mapAbbreviation": "台前",
+    "mapMergerName": "中国,河南省,濮阳市,台前县",
+    "mapParentId": 410900,
+    "mapLevelType": 3,
+    "mapPinYin": "Taiqian",
+    "mapZipCode": 457600
+}, {
+    "id": 410928,
+    "mapName": "濮阳县",
+    "mapAbbreviation": "濮阳",
+    "mapMergerName": "中国,河南省,濮阳市,濮阳县",
+    "mapParentId": 410900,
+    "mapLevelType": 3,
+    "mapPinYin": "Puyang",
+    "mapZipCode": 457100
+}, {
+    "id": 411002,
+    "mapName": "魏都区",
+    "mapAbbreviation": "魏都",
+    "mapMergerName": "中国,河南省,许昌市,魏都区",
+    "mapParentId": 411000,
+    "mapLevelType": 3,
+    "mapPinYin": "Weidu",
+    "mapZipCode": 461000
+}, {
+    "id": 411023,
+    "mapName": "许昌县",
+    "mapAbbreviation": "许昌",
+    "mapMergerName": "中国,河南省,许昌市,许昌县",
+    "mapParentId": 411000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuchang",
+    "mapZipCode": 461100
+}, {
+    "id": 411024,
+    "mapName": "鄢陵县",
+    "mapAbbreviation": "鄢陵",
+    "mapMergerName": "中国,河南省,许昌市,鄢陵县",
+    "mapParentId": 411000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanling",
+    "mapZipCode": 461200
+}, {
+    "id": 411025,
+    "mapName": "襄城县",
+    "mapAbbreviation": "襄城",
+    "mapMergerName": "中国,河南省,许昌市,襄城县",
+    "mapParentId": 411000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangcheng",
+    "mapZipCode": 461700
+}, {
+    "id": 411081,
+    "mapName": "禹州市",
+    "mapAbbreviation": "禹州",
+    "mapMergerName": "中国,河南省,许昌市,禹州市",
+    "mapParentId": 411000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuzhou",
+    "mapZipCode": 461670
+}, {
+    "id": 411082,
+    "mapName": "长葛市",
+    "mapAbbreviation": "长葛",
+    "mapMergerName": "中国,河南省,许昌市,长葛市",
+    "mapParentId": 411000,
+    "mapLevelType": 3,
+    "mapPinYin": "Changge",
+    "mapZipCode": 461500
+}, {
+    "id": 411102,
+    "mapName": "源汇区",
+    "mapAbbreviation": "源汇",
+    "mapMergerName": "中国,河南省,漯河市,源汇区",
+    "mapParentId": 411100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanhui",
+    "mapZipCode": 462000
+}, {
+    "id": 411103,
+    "mapName": "郾城区",
+    "mapAbbreviation": "郾城",
+    "mapMergerName": "中国,河南省,漯河市,郾城区",
+    "mapParentId": 411100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yancheng",
+    "mapZipCode": 462300
+}, {
+    "id": 411104,
+    "mapName": "召陵区",
+    "mapAbbreviation": "召陵",
+    "mapMergerName": "中国,河南省,漯河市,召陵区",
+    "mapParentId": 411100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaoling",
+    "mapZipCode": 462300
+}, {
+    "id": 411121,
+    "mapName": "舞阳县",
+    "mapAbbreviation": "舞阳",
+    "mapMergerName": "中国,河南省,漯河市,舞阳县",
+    "mapParentId": 411100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuyang",
+    "mapZipCode": 462400
+}, {
+    "id": 411122,
+    "mapName": "临颍县",
+    "mapAbbreviation": "临颍",
+    "mapMergerName": "中国,河南省,漯河市,临颍县",
+    "mapParentId": 411100,
+    "mapLevelType": 3,
+    "mapPinYin": "Linying",
+    "mapZipCode": 462600
+}, {
+    "id": 411202,
+    "mapName": "湖滨区",
+    "mapAbbreviation": "湖滨",
+    "mapMergerName": "中国,河南省,三门峡市,湖滨区",
+    "mapParentId": 411200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hubin",
+    "mapZipCode": 472000
+}, {
+    "id": 411221,
+    "mapName": "渑池县",
+    "mapAbbreviation": "渑池",
+    "mapMergerName": "中国,河南省,三门峡市,渑池县",
+    "mapParentId": 411200,
+    "mapLevelType": 3,
+    "mapPinYin": "Mianchi",
+    "mapZipCode": 472400
+}, {
+    "id": 411222,
+    "mapName": "陕县",
+    "mapAbbreviation": "陕县",
+    "mapMergerName": "中国,河南省,三门峡市,陕县",
+    "mapParentId": 411200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanxian",
+    "mapZipCode": 472100
+}, {
+    "id": 411224,
+    "mapName": "卢氏县",
+    "mapAbbreviation": "卢氏",
+    "mapMergerName": "中国,河南省,三门峡市,卢氏县",
+    "mapParentId": 411200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lushi",
+    "mapZipCode": 472200
+}, {
+    "id": 411281,
+    "mapName": "义马市",
+    "mapAbbreviation": "义马",
+    "mapMergerName": "中国,河南省,三门峡市,义马市",
+    "mapParentId": 411200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yima",
+    "mapZipCode": 472300
+}, {
+    "id": 411282,
+    "mapName": "灵宝市",
+    "mapAbbreviation": "灵宝",
+    "mapMergerName": "中国,河南省,三门峡市,灵宝市",
+    "mapParentId": 411200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingbao",
+    "mapZipCode": 472500
+}, {
+    "id": 411302,
+    "mapName": "宛城区",
+    "mapAbbreviation": "宛城",
+    "mapMergerName": "中国,河南省,南阳市,宛城区",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wancheng",
+    "mapZipCode": 473001
+}, {
+    "id": 411303,
+    "mapName": "卧龙区",
+    "mapAbbreviation": "卧龙",
+    "mapMergerName": "中国,河南省,南阳市,卧龙区",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wolong",
+    "mapZipCode": 473003
+}, {
+    "id": 411321,
+    "mapName": "南召县",
+    "mapAbbreviation": "南召",
+    "mapMergerName": "中国,河南省,南阳市,南召县",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanzhao",
+    "mapZipCode": 474650
+}, {
+    "id": 411322,
+    "mapName": "方城县",
+    "mapAbbreviation": "方城",
+    "mapMergerName": "中国,河南省,南阳市,方城县",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fangcheng",
+    "mapZipCode": 473200
+}, {
+    "id": 411323,
+    "mapName": "西峡县",
+    "mapAbbreviation": "西峡",
+    "mapMergerName": "中国,河南省,南阳市,西峡县",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xixia",
+    "mapZipCode": 474550
+}, {
+    "id": 411324,
+    "mapName": "镇平县",
+    "mapAbbreviation": "镇平",
+    "mapMergerName": "中国,河南省,南阳市,镇平县",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenping",
+    "mapZipCode": 474250
+}, {
+    "id": 411325,
+    "mapName": "内乡县",
+    "mapAbbreviation": "内乡",
+    "mapMergerName": "中国,河南省,南阳市,内乡县",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Neixiang",
+    "mapZipCode": 474350
+}, {
+    "id": 411326,
+    "mapName": "淅川县",
+    "mapAbbreviation": "淅川",
+    "mapMergerName": "中国,河南省,南阳市,淅川县",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xichuan",
+    "mapZipCode": 474450
+}, {
+    "id": 411327,
+    "mapName": "社旗县",
+    "mapAbbreviation": "社旗",
+    "mapMergerName": "中国,河南省,南阳市,社旗县",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Sheqi",
+    "mapZipCode": 473300
+}, {
+    "id": 411328,
+    "mapName": "唐河县",
+    "mapAbbreviation": "唐河",
+    "mapMergerName": "中国,河南省,南阳市,唐河县",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tanghe",
+    "mapZipCode": 473400
+}, {
+    "id": 411329,
+    "mapName": "新野县",
+    "mapAbbreviation": "新野",
+    "mapMergerName": "中国,河南省,南阳市,新野县",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinye",
+    "mapZipCode": 473500
+}, {
+    "id": 411330,
+    "mapName": "桐柏县",
+    "mapAbbreviation": "桐柏",
+    "mapMergerName": "中国,河南省,南阳市,桐柏县",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongbai",
+    "mapZipCode": 474750
+}, {
+    "id": 411381,
+    "mapName": "邓州市",
+    "mapAbbreviation": "邓州",
+    "mapMergerName": "中国,河南省,南阳市,邓州市",
+    "mapParentId": 411300,
+    "mapLevelType": 3,
+    "mapPinYin": "Dengzhou",
+    "mapZipCode": 474150
+}, {
+    "id": 411402,
+    "mapName": "梁园区",
+    "mapAbbreviation": "梁园",
+    "mapMergerName": "中国,河南省,商丘市,梁园区",
+    "mapParentId": 411400,
+    "mapLevelType": 3,
+    "mapPinYin": "Liangyuan",
+    "mapZipCode": 476000
+}, {
+    "id": 411403,
+    "mapName": "睢阳区",
+    "mapAbbreviation": "睢阳",
+    "mapMergerName": "中国,河南省,商丘市,睢阳区",
+    "mapParentId": 411400,
+    "mapLevelType": 3,
+    "mapPinYin": "Suiyang",
+    "mapZipCode": 476100
+}, {
+    "id": 411421,
+    "mapName": "民权县",
+    "mapAbbreviation": "民权",
+    "mapMergerName": "中国,河南省,商丘市,民权县",
+    "mapParentId": 411400,
+    "mapLevelType": 3,
+    "mapPinYin": "Minquan",
+    "mapZipCode": 476800
+}, {
+    "id": 411422,
+    "mapName": "睢县",
+    "mapAbbreviation": "睢县",
+    "mapMergerName": "中国,河南省,商丘市,睢县",
+    "mapParentId": 411400,
+    "mapLevelType": 3,
+    "mapPinYin": "Suixian",
+    "mapZipCode": 476900
+}, {
+    "id": 411423,
+    "mapName": "宁陵县",
+    "mapAbbreviation": "宁陵",
+    "mapMergerName": "中国,河南省,商丘市,宁陵县",
+    "mapParentId": 411400,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningling",
+    "mapZipCode": 476700
+}, {
+    "id": 411424,
+    "mapName": "柘城县",
+    "mapAbbreviation": "柘城",
+    "mapMergerName": "中国,河南省,商丘市,柘城县",
+    "mapParentId": 411400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhecheng",
+    "mapZipCode": 476200
+}, {
+    "id": 411425,
+    "mapName": "虞城县",
+    "mapAbbreviation": "虞城",
+    "mapMergerName": "中国,河南省,商丘市,虞城县",
+    "mapParentId": 411400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yucheng",
+    "mapZipCode": 476300
+}, {
+    "id": 411426,
+    "mapName": "夏邑县",
+    "mapAbbreviation": "夏邑",
+    "mapMergerName": "中国,河南省,商丘市,夏邑县",
+    "mapParentId": 411400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiayi",
+    "mapZipCode": 476400
+}, {
+    "id": 411481,
+    "mapName": "永城市",
+    "mapAbbreviation": "永城",
+    "mapMergerName": "中国,河南省,商丘市,永城市",
+    "mapParentId": 411400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongcheng",
+    "mapZipCode": 476600
+}, {
+    "id": 411502,
+    "mapName": "浉河区",
+    "mapAbbreviation": "浉河",
+    "mapMergerName": "中国,河南省,信阳市,浉河区",
+    "mapParentId": 411500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shihe",
+    "mapZipCode": 464000
+}, {
+    "id": 411503,
+    "mapName": "平桥区",
+    "mapAbbreviation": "平桥",
+    "mapMergerName": "中国,河南省,信阳市,平桥区",
+    "mapParentId": 411500,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingqiao",
+    "mapZipCode": 464100
+}, {
+    "id": 411521,
+    "mapName": "罗山县",
+    "mapAbbreviation": "罗山",
+    "mapMergerName": "中国,河南省,信阳市,罗山县",
+    "mapParentId": 411500,
+    "mapLevelType": 3,
+    "mapPinYin": "Luoshan",
+    "mapZipCode": 464200
+}, {
+    "id": 411522,
+    "mapName": "光山县",
+    "mapAbbreviation": "光山",
+    "mapMergerName": "中国,河南省,信阳市,光山县",
+    "mapParentId": 411500,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangshan",
+    "mapZipCode": 465450
+}, {
+    "id": 411523,
+    "mapName": "新县",
+    "mapAbbreviation": "新县",
+    "mapMergerName": "中国,河南省,信阳市,新县",
+    "mapParentId": 411500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinxian",
+    "mapZipCode": 465550
+}, {
+    "id": 411524,
+    "mapName": "商城县",
+    "mapAbbreviation": "商城",
+    "mapMergerName": "中国,河南省,信阳市,商城县",
+    "mapParentId": 411500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangcheng",
+    "mapZipCode": 465350
+}, {
+    "id": 411525,
+    "mapName": "固始县",
+    "mapAbbreviation": "固始",
+    "mapMergerName": "中国,河南省,信阳市,固始县",
+    "mapParentId": 411500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gushi",
+    "mapZipCode": 465250
+}, {
+    "id": 411526,
+    "mapName": "潢川县",
+    "mapAbbreviation": "潢川",
+    "mapMergerName": "中国,河南省,信阳市,潢川县",
+    "mapParentId": 411500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangchuan",
+    "mapZipCode": 465150
+}, {
+    "id": 411527,
+    "mapName": "淮滨县",
+    "mapAbbreviation": "淮滨",
+    "mapMergerName": "中国,河南省,信阳市,淮滨县",
+    "mapParentId": 411500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaibin",
+    "mapZipCode": 464400
+}, {
+    "id": 411528,
+    "mapName": "息县",
+    "mapAbbreviation": "息县",
+    "mapMergerName": "中国,河南省,信阳市,息县",
+    "mapParentId": 411500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xixian",
+    "mapZipCode": 464300
+}, {
+    "id": 411602,
+    "mapName": "川汇区",
+    "mapAbbreviation": "川汇",
+    "mapMergerName": "中国,河南省,周口市,川汇区",
+    "mapParentId": 411600,
+    "mapLevelType": 3,
+    "mapPinYin": "Chuanhui",
+    "mapZipCode": 466000
+}, {
+    "id": 411621,
+    "mapName": "扶沟县",
+    "mapAbbreviation": "扶沟",
+    "mapMergerName": "中国,河南省,周口市,扶沟县",
+    "mapParentId": 411600,
+    "mapLevelType": 3,
+    "mapPinYin": "Fugou",
+    "mapZipCode": 461300
+}, {
+    "id": 411622,
+    "mapName": "西华县",
+    "mapAbbreviation": "西华",
+    "mapMergerName": "中国,河南省,周口市,西华县",
+    "mapParentId": 411600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xihua",
+    "mapZipCode": 466600
+}, {
+    "id": 411623,
+    "mapName": "商水县",
+    "mapAbbreviation": "商水",
+    "mapMergerName": "中国,河南省,周口市,商水县",
+    "mapParentId": 411600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangshui",
+    "mapZipCode": 466100
+}, {
+    "id": 411624,
+    "mapName": "沈丘县",
+    "mapAbbreviation": "沈丘",
+    "mapMergerName": "中国,河南省,周口市,沈丘县",
+    "mapParentId": 411600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenqiu",
+    "mapZipCode": 466300
+}, {
+    "id": 411625,
+    "mapName": "郸城县",
+    "mapAbbreviation": "郸城",
+    "mapMergerName": "中国,河南省,周口市,郸城县",
+    "mapParentId": 411600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dancheng",
+    "mapZipCode": 477150
+}, {
+    "id": 411626,
+    "mapName": "淮阳县",
+    "mapAbbreviation": "淮阳",
+    "mapMergerName": "中国,河南省,周口市,淮阳县",
+    "mapParentId": 411600,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaiyang",
+    "mapZipCode": 466700
+}, {
+    "id": 411627,
+    "mapName": "太康县",
+    "mapAbbreviation": "太康",
+    "mapMergerName": "中国,河南省,周口市,太康县",
+    "mapParentId": 411600,
+    "mapLevelType": 3,
+    "mapPinYin": "Taikang",
+    "mapZipCode": 461400
+}, {
+    "id": 411628,
+    "mapName": "鹿邑县",
+    "mapAbbreviation": "鹿邑",
+    "mapMergerName": "中国,河南省,周口市,鹿邑县",
+    "mapParentId": 411600,
+    "mapLevelType": 3,
+    "mapPinYin": "Luyi",
+    "mapZipCode": 477200
+}, {
+    "id": 411681,
+    "mapName": "项城市",
+    "mapAbbreviation": "项城",
+    "mapMergerName": "中国,河南省,周口市,项城市",
+    "mapParentId": 411600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangcheng",
+    "mapZipCode": 466200
+}, {
+    "id": 411702,
+    "mapName": "驿城区",
+    "mapAbbreviation": "驿城",
+    "mapMergerName": "中国,河南省,驻马店市,驿城区",
+    "mapParentId": 411700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yicheng",
+    "mapZipCode": 463000
+}, {
+    "id": 411721,
+    "mapName": "西平县",
+    "mapAbbreviation": "西平",
+    "mapMergerName": "中国,河南省,驻马店市,西平县",
+    "mapParentId": 411700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiping",
+    "mapZipCode": 463900
+}, {
+    "id": 411722,
+    "mapName": "上蔡县",
+    "mapAbbreviation": "上蔡",
+    "mapMergerName": "中国,河南省,驻马店市,上蔡县",
+    "mapParentId": 411700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangcai",
+    "mapZipCode": 463800
+}, {
+    "id": 411723,
+    "mapName": "平舆县",
+    "mapAbbreviation": "平舆",
+    "mapMergerName": "中国,河南省,驻马店市,平舆县",
+    "mapParentId": 411700,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingyu",
+    "mapZipCode": 463400
+}, {
+    "id": 411724,
+    "mapName": "正阳县",
+    "mapAbbreviation": "正阳",
+    "mapMergerName": "中国,河南省,驻马店市,正阳县",
+    "mapParentId": 411700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhengyang",
+    "mapZipCode": 463600
+}, {
+    "id": 411725,
+    "mapName": "确山县",
+    "mapAbbreviation": "确山",
+    "mapMergerName": "中国,河南省,驻马店市,确山县",
+    "mapParentId": 411700,
+    "mapLevelType": 3,
+    "mapPinYin": "Queshan",
+    "mapZipCode": 463200
+}, {
+    "id": 411726,
+    "mapName": "泌阳县",
+    "mapAbbreviation": "泌阳",
+    "mapMergerName": "中国,河南省,驻马店市,泌阳县",
+    "mapParentId": 411700,
+    "mapLevelType": 3,
+    "mapPinYin": "Biyang",
+    "mapZipCode": 463700
+}, {
+    "id": 411727,
+    "mapName": "汝南县",
+    "mapAbbreviation": "汝南",
+    "mapMergerName": "中国,河南省,驻马店市,汝南县",
+    "mapParentId": 411700,
+    "mapLevelType": 3,
+    "mapPinYin": "Runan",
+    "mapZipCode": 463300
+}, {
+    "id": 411728,
+    "mapName": "遂平县",
+    "mapAbbreviation": "遂平",
+    "mapMergerName": "中国,河南省,驻马店市,遂平县",
+    "mapParentId": 411700,
+    "mapLevelType": 3,
+    "mapPinYin": "Suiping",
+    "mapZipCode": 463100
+}, {
+    "id": 411729,
+    "mapName": "新蔡县",
+    "mapAbbreviation": "新蔡",
+    "mapMergerName": "中国,河南省,驻马店市,新蔡县",
+    "mapParentId": 411700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xincai",
+    "mapZipCode": 463500
+}, {
+    "id": 419001,
+    "mapName": "济源市",
+    "mapAbbreviation": "济源",
+    "mapMergerName": "中国,河南省,直辖县级,济源市",
+    "mapParentId": 419000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiyuan",
+    "mapZipCode": 454650
+}, {
+    "id": 420102,
+    "mapName": "江岸区",
+    "mapAbbreviation": "江岸",
+    "mapMergerName": "中国,湖北省,武汉市,江岸区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiang'an",
+    "mapZipCode": 430014
+}, {
+    "id": 420103,
+    "mapName": "江汉区",
+    "mapAbbreviation": "江汉",
+    "mapMergerName": "中国,湖北省,武汉市,江汉区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianghan",
+    "mapZipCode": 430021
+}, {
+    "id": 420104,
+    "mapName": "硚口区",
+    "mapAbbreviation": "硚口",
+    "mapMergerName": "中国,湖北省,武汉市,硚口区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiaokou",
+    "mapZipCode": 430033
+}, {
+    "id": 420105,
+    "mapName": "汉阳区",
+    "mapAbbreviation": "汉阳",
+    "mapMergerName": "中国,湖北省,武汉市,汉阳区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanyang",
+    "mapZipCode": 430050
+}, {
+    "id": 420106,
+    "mapName": "武昌区",
+    "mapAbbreviation": "武昌",
+    "mapMergerName": "中国,湖北省,武汉市,武昌区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuchang",
+    "mapZipCode": 430061
+}, {
+    "id": 420107,
+    "mapName": "青山区",
+    "mapAbbreviation": "青山",
+    "mapMergerName": "中国,湖北省,武汉市,青山区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingshan",
+    "mapZipCode": 430080
+}, {
+    "id": 420111,
+    "mapName": "洪山区",
+    "mapAbbreviation": "洪山",
+    "mapMergerName": "中国,湖北省,武汉市,洪山区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongshan",
+    "mapZipCode": 430070
+}, {
+    "id": 420112,
+    "mapName": "东西湖区",
+    "mapAbbreviation": "东西湖",
+    "mapMergerName": "中国,湖北省,武汉市,东西湖区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongxihu",
+    "mapZipCode": 430040
+}, {
+    "id": 420113,
+    "mapName": "汉南区",
+    "mapAbbreviation": "汉南",
+    "mapMergerName": "中国,湖北省,武汉市,汉南区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hannan",
+    "mapZipCode": 430090
+}, {
+    "id": 420114,
+    "mapName": "蔡甸区",
+    "mapAbbreviation": "蔡甸",
+    "mapMergerName": "中国,湖北省,武汉市,蔡甸区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Caidian",
+    "mapZipCode": 430100
+}, {
+    "id": 420115,
+    "mapName": "江夏区",
+    "mapAbbreviation": "江夏",
+    "mapMergerName": "中国,湖北省,武汉市,江夏区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangxia",
+    "mapZipCode": 430200
+}, {
+    "id": 420116,
+    "mapName": "黄陂区",
+    "mapAbbreviation": "黄陂",
+    "mapMergerName": "中国,湖北省,武汉市,黄陂区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangpi",
+    "mapZipCode": 432200
+}, {
+    "id": 420117,
+    "mapName": "新洲区",
+    "mapAbbreviation": "新洲",
+    "mapMergerName": "中国,湖北省,武汉市,新洲区",
+    "mapParentId": 420100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinzhou",
+    "mapZipCode": 431400
+}, {
+    "id": 420202,
+    "mapName": "黄石港区",
+    "mapAbbreviation": "黄石港",
+    "mapMergerName": "中国,湖北省,黄石市,黄石港区",
+    "mapParentId": 420200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangshigang",
+    "mapZipCode": 435000
+}, {
+    "id": 420203,
+    "mapName": "西塞山区",
+    "mapAbbreviation": "西塞山",
+    "mapMergerName": "中国,湖北省,黄石市,西塞山区",
+    "mapParentId": 420200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xisaishan",
+    "mapZipCode": 435001
+}, {
+    "id": 420204,
+    "mapName": "下陆区",
+    "mapAbbreviation": "下陆",
+    "mapMergerName": "中国,湖北省,黄石市,下陆区",
+    "mapParentId": 420200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xialu",
+    "mapZipCode": 435005
+}, {
+    "id": 420205,
+    "mapName": "铁山区",
+    "mapAbbreviation": "铁山",
+    "mapMergerName": "中国,湖北省,黄石市,铁山区",
+    "mapParentId": 420200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tieshan",
+    "mapZipCode": 435006
+}, {
+    "id": 420222,
+    "mapName": "阳新县",
+    "mapAbbreviation": "阳新",
+    "mapMergerName": "中国,湖北省,黄石市,阳新县",
+    "mapParentId": 420200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangxin",
+    "mapZipCode": 435200
+}, {
+    "id": 420281,
+    "mapName": "大冶市",
+    "mapAbbreviation": "大冶",
+    "mapMergerName": "中国,湖北省,黄石市,大冶市",
+    "mapParentId": 420200,
+    "mapLevelType": 3,
+    "mapPinYin": "Daye",
+    "mapZipCode": 435100
+}, {
+    "id": 420302,
+    "mapName": "茅箭区",
+    "mapAbbreviation": "茅箭",
+    "mapMergerName": "中国,湖北省,十堰市,茅箭区",
+    "mapParentId": 420300,
+    "mapLevelType": 3,
+    "mapPinYin": "Maojian",
+    "mapZipCode": 442012
+}, {
+    "id": 420303,
+    "mapName": "张湾区",
+    "mapAbbreviation": "张湾",
+    "mapMergerName": "中国,湖北省,十堰市,张湾区",
+    "mapParentId": 420300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangwan",
+    "mapZipCode": 442001
+}, {
+    "id": 420304,
+    "mapName": "郧阳区",
+    "mapAbbreviation": "郧阳",
+    "mapMergerName": "中国,湖北省,十堰市,郧阳区",
+    "mapParentId": 420300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunyang",
+    "mapZipCode": 442500
+}, {
+    "id": 420322,
+    "mapName": "郧西县",
+    "mapAbbreviation": "郧西",
+    "mapMergerName": "中国,湖北省,十堰市,郧西县",
+    "mapParentId": 420300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunxi",
+    "mapZipCode": 442600
+}, {
+    "id": 420323,
+    "mapName": "竹山县",
+    "mapAbbreviation": "竹山",
+    "mapMergerName": "中国,湖北省,十堰市,竹山县",
+    "mapParentId": 420300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhushan",
+    "mapZipCode": 442200
+}, {
+    "id": 420324,
+    "mapName": "竹溪县",
+    "mapAbbreviation": "竹溪",
+    "mapMergerName": "中国,湖北省,十堰市,竹溪县",
+    "mapParentId": 420300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuxi",
+    "mapZipCode": 442300
+}, {
+    "id": 420325,
+    "mapName": "房县",
+    "mapAbbreviation": "房县",
+    "mapMergerName": "中国,湖北省,十堰市,房县",
+    "mapParentId": 420300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fangxian",
+    "mapZipCode": 442100
+}, {
+    "id": 420381,
+    "mapName": "丹江口市",
+    "mapAbbreviation": "丹江口",
+    "mapMergerName": "中国,湖北省,十堰市,丹江口市",
+    "mapParentId": 420300,
+    "mapLevelType": 3,
+    "mapPinYin": "Danjiangkou",
+    "mapZipCode": 442700
+}, {
+    "id": 420502,
+    "mapName": "西陵区",
+    "mapAbbreviation": "西陵",
+    "mapMergerName": "中国,湖北省,宜昌市,西陵区",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiling",
+    "mapZipCode": 443000
+}, {
+    "id": 420503,
+    "mapName": "伍家岗区",
+    "mapAbbreviation": "伍家岗",
+    "mapMergerName": "中国,湖北省,宜昌市,伍家岗区",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Wujiagang",
+    "mapZipCode": 443001
+}, {
+    "id": 420504,
+    "mapName": "点军区",
+    "mapAbbreviation": "点军",
+    "mapMergerName": "中国,湖北省,宜昌市,点军区",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dianjun",
+    "mapZipCode": 443006
+}, {
+    "id": 420505,
+    "mapName": "猇亭区",
+    "mapAbbreviation": "猇亭",
+    "mapMergerName": "中国,湖北省,宜昌市,猇亭区",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaoting",
+    "mapZipCode": 443007
+}, {
+    "id": 420506,
+    "mapName": "夷陵区",
+    "mapAbbreviation": "夷陵",
+    "mapMergerName": "中国,湖北省,宜昌市,夷陵区",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yiling",
+    "mapZipCode": 443100
+}, {
+    "id": 420525,
+    "mapName": "远安县",
+    "mapAbbreviation": "远安",
+    "mapMergerName": "中国,湖北省,宜昌市,远安县",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuan'an",
+    "mapZipCode": 444200
+}, {
+    "id": 420526,
+    "mapName": "兴山县",
+    "mapAbbreviation": "兴山",
+    "mapMergerName": "中国,湖北省,宜昌市,兴山县",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingshan",
+    "mapZipCode": 443711
+}, {
+    "id": 420527,
+    "mapName": "秭归县",
+    "mapAbbreviation": "秭归",
+    "mapMergerName": "中国,湖北省,宜昌市,秭归县",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zigui",
+    "mapZipCode": 443600
+}, {
+    "id": 420528,
+    "mapName": "长阳土家族自治县",
+    "mapAbbreviation": "长阳",
+    "mapMergerName": "中国,湖北省,宜昌市,长阳土家族自治县",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Changyang",
+    "mapZipCode": 443500
+}, {
+    "id": 420529,
+    "mapName": "五峰土家族自治县",
+    "mapAbbreviation": "五峰",
+    "mapMergerName": "中国,湖北省,宜昌市,五峰土家族自治县",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Wufeng",
+    "mapZipCode": 443413
+}, {
+    "id": 420581,
+    "mapName": "宜都市",
+    "mapAbbreviation": "宜都",
+    "mapMergerName": "中国,湖北省,宜昌市,宜都市",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yidu",
+    "mapZipCode": 443300
+}, {
+    "id": 420582,
+    "mapName": "当阳市",
+    "mapAbbreviation": "当阳",
+    "mapMergerName": "中国,湖北省,宜昌市,当阳市",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dangyang",
+    "mapZipCode": 444100
+}, {
+    "id": 420583,
+    "mapName": "枝江市",
+    "mapAbbreviation": "枝江",
+    "mapMergerName": "中国,湖北省,宜昌市,枝江市",
+    "mapParentId": 420500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhijiang",
+    "mapZipCode": 443200
+}, {
+    "id": 420602,
+    "mapName": "襄城区",
+    "mapAbbreviation": "襄城",
+    "mapMergerName": "中国,湖北省,襄阳市,襄城区",
+    "mapParentId": 420600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangcheng",
+    "mapZipCode": 441021
+}, {
+    "id": 420606,
+    "mapName": "樊城区",
+    "mapAbbreviation": "樊城",
+    "mapMergerName": "中国,湖北省,襄阳市,樊城区",
+    "mapParentId": 420600,
+    "mapLevelType": 3,
+    "mapPinYin": "Fancheng",
+    "mapZipCode": 441001
+}, {
+    "id": 420607,
+    "mapName": "襄州区",
+    "mapAbbreviation": "襄州",
+    "mapMergerName": "中国,湖北省,襄阳市,襄州区",
+    "mapParentId": 420600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangzhou",
+    "mapZipCode": 441100
+}, {
+    "id": 420624,
+    "mapName": "南漳县",
+    "mapAbbreviation": "南漳",
+    "mapMergerName": "中国,湖北省,襄阳市,南漳县",
+    "mapParentId": 420600,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanzhang",
+    "mapZipCode": 441500
+}, {
+    "id": 420625,
+    "mapName": "谷城县",
+    "mapAbbreviation": "谷城",
+    "mapMergerName": "中国,湖北省,襄阳市,谷城县",
+    "mapParentId": 420600,
+    "mapLevelType": 3,
+    "mapPinYin": "Gucheng",
+    "mapZipCode": 441700
+}, {
+    "id": 420626,
+    "mapName": "保康县",
+    "mapAbbreviation": "保康",
+    "mapMergerName": "中国,湖北省,襄阳市,保康县",
+    "mapParentId": 420600,
+    "mapLevelType": 3,
+    "mapPinYin": "Baokang",
+    "mapZipCode": 441600
+}, {
+    "id": 420682,
+    "mapName": "老河口市",
+    "mapAbbreviation": "老河口",
+    "mapMergerName": "中国,湖北省,襄阳市,老河口市",
+    "mapParentId": 420600,
+    "mapLevelType": 3,
+    "mapPinYin": "Laohekou",
+    "mapZipCode": 441800
+}, {
+    "id": 420683,
+    "mapName": "枣阳市",
+    "mapAbbreviation": "枣阳",
+    "mapMergerName": "中国,湖北省,襄阳市,枣阳市",
+    "mapParentId": 420600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zaoyang",
+    "mapZipCode": 441200
+}, {
+    "id": 420684,
+    "mapName": "宜城市",
+    "mapAbbreviation": "宜城",
+    "mapMergerName": "中国,湖北省,襄阳市,宜城市",
+    "mapParentId": 420600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yicheng",
+    "mapZipCode": 441400
+}, {
+    "id": 420702,
+    "mapName": "梁子湖区",
+    "mapAbbreviation": "梁子湖",
+    "mapMergerName": "中国,湖北省,鄂州市,梁子湖区",
+    "mapParentId": 420700,
+    "mapLevelType": 3,
+    "mapPinYin": "Liangzihu",
+    "mapZipCode": 436064
+}, {
+    "id": 420703,
+    "mapName": "华容区",
+    "mapAbbreviation": "华容",
+    "mapMergerName": "中国,湖北省,鄂州市,华容区",
+    "mapParentId": 420700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huarong",
+    "mapZipCode": 436030
+}, {
+    "id": 420704,
+    "mapName": "鄂城区",
+    "mapAbbreviation": "鄂城",
+    "mapMergerName": "中国,湖北省,鄂州市,鄂城区",
+    "mapParentId": 420700,
+    "mapLevelType": 3,
+    "mapPinYin": "Echeng",
+    "mapZipCode": 436000
+}, {
+    "id": 420802,
+    "mapName": "东宝区",
+    "mapAbbreviation": "东宝",
+    "mapMergerName": "中国,湖北省,荆门市,东宝区",
+    "mapParentId": 420800,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongbao",
+    "mapZipCode": 448004
+}, {
+    "id": 420804,
+    "mapName": "掇刀区",
+    "mapAbbreviation": "掇刀",
+    "mapMergerName": "中国,湖北省,荆门市,掇刀区",
+    "mapParentId": 420800,
+    "mapLevelType": 3,
+    "mapPinYin": "Duodao",
+    "mapZipCode": 448124
+}, {
+    "id": 420821,
+    "mapName": "京山县",
+    "mapAbbreviation": "京山",
+    "mapMergerName": "中国,湖北省,荆门市,京山县",
+    "mapParentId": 420800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingshan",
+    "mapZipCode": 431800
+}, {
+    "id": 420822,
+    "mapName": "沙洋县",
+    "mapAbbreviation": "沙洋",
+    "mapMergerName": "中国,湖北省,荆门市,沙洋县",
+    "mapParentId": 420800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shayang",
+    "mapZipCode": 448200
+}, {
+    "id": 420881,
+    "mapName": "钟祥市",
+    "mapAbbreviation": "钟祥",
+    "mapMergerName": "中国,湖北省,荆门市,钟祥市",
+    "mapParentId": 420800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongxiang",
+    "mapZipCode": 431900
+}, {
+    "id": 420902,
+    "mapName": "孝南区",
+    "mapAbbreviation": "孝南",
+    "mapMergerName": "中国,湖北省,孝感市,孝南区",
+    "mapParentId": 420900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaonan",
+    "mapZipCode": 432100
+}, {
+    "id": 420921,
+    "mapName": "孝昌县",
+    "mapAbbreviation": "孝昌",
+    "mapMergerName": "中国,湖北省,孝感市,孝昌县",
+    "mapParentId": 420900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaochang",
+    "mapZipCode": 432900
+}, {
+    "id": 420922,
+    "mapName": "大悟县",
+    "mapAbbreviation": "大悟",
+    "mapMergerName": "中国,湖北省,孝感市,大悟县",
+    "mapParentId": 420900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dawu",
+    "mapZipCode": 432800
+}, {
+    "id": 420923,
+    "mapName": "云梦县",
+    "mapAbbreviation": "云梦",
+    "mapMergerName": "中国,湖北省,孝感市,云梦县",
+    "mapParentId": 420900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunmeng",
+    "mapZipCode": 432500
+}, {
+    "id": 420981,
+    "mapName": "应城市",
+    "mapAbbreviation": "应城",
+    "mapMergerName": "中国,湖北省,孝感市,应城市",
+    "mapParentId": 420900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingcheng",
+    "mapZipCode": 432400
+}, {
+    "id": 420982,
+    "mapName": "安陆市",
+    "mapAbbreviation": "安陆",
+    "mapMergerName": "中国,湖北省,孝感市,安陆市",
+    "mapParentId": 420900,
+    "mapLevelType": 3,
+    "mapPinYin": "Anlu",
+    "mapZipCode": 432600
+}, {
+    "id": 420984,
+    "mapName": "汉川市",
+    "mapAbbreviation": "汉川",
+    "mapMergerName": "中国,湖北省,孝感市,汉川市",
+    "mapParentId": 420900,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanchuan",
+    "mapZipCode": 432300
+}, {
+    "id": 421002,
+    "mapName": "沙市区",
+    "mapAbbreviation": "沙市",
+    "mapMergerName": "中国,湖北省,荆州市,沙市区",
+    "mapParentId": 421000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shashi",
+    "mapZipCode": 434000
+}, {
+    "id": 421003,
+    "mapName": "荆州区",
+    "mapAbbreviation": "荆州",
+    "mapMergerName": "中国,湖北省,荆州市,荆州区",
+    "mapParentId": 421000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingzhou",
+    "mapZipCode": 434020
+}, {
+    "id": 421022,
+    "mapName": "公安县",
+    "mapAbbreviation": "公安",
+    "mapMergerName": "中国,湖北省,荆州市,公安县",
+    "mapParentId": 421000,
+    "mapLevelType": 3,
+    "mapPinYin": "Gong'an",
+    "mapZipCode": 434300
+}, {
+    "id": 421023,
+    "mapName": "监利县",
+    "mapAbbreviation": "监利",
+    "mapMergerName": "中国,湖北省,荆州市,监利县",
+    "mapParentId": 421000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianli",
+    "mapZipCode": 433300
+}, {
+    "id": 421024,
+    "mapName": "江陵县",
+    "mapAbbreviation": "江陵",
+    "mapMergerName": "中国,湖北省,荆州市,江陵县",
+    "mapParentId": 421000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangling",
+    "mapZipCode": 434101
+}, {
+    "id": 421081,
+    "mapName": "石首市",
+    "mapAbbreviation": "石首",
+    "mapMergerName": "中国,湖北省,荆州市,石首市",
+    "mapParentId": 421000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shishou",
+    "mapZipCode": 434400
+}, {
+    "id": 421083,
+    "mapName": "洪湖市",
+    "mapAbbreviation": "洪湖",
+    "mapMergerName": "中国,湖北省,荆州市,洪湖市",
+    "mapParentId": 421000,
+    "mapLevelType": 3,
+    "mapPinYin": "Honghu",
+    "mapZipCode": 433200
+}, {
+    "id": 421087,
+    "mapName": "松滋市",
+    "mapAbbreviation": "松滋",
+    "mapMergerName": "中国,湖北省,荆州市,松滋市",
+    "mapParentId": 421000,
+    "mapLevelType": 3,
+    "mapPinYin": "Songzi",
+    "mapZipCode": 434200
+}, {
+    "id": 421102,
+    "mapName": "黄州区",
+    "mapAbbreviation": "黄州",
+    "mapMergerName": "中国,湖北省,黄冈市,黄州区",
+    "mapParentId": 421100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangzhou",
+    "mapZipCode": 438000
+}, {
+    "id": 421121,
+    "mapName": "团风县",
+    "mapAbbreviation": "团风",
+    "mapMergerName": "中国,湖北省,黄冈市,团风县",
+    "mapParentId": 421100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tuanfeng",
+    "mapZipCode": 438800
+}, {
+    "id": 421122,
+    "mapName": "红安县",
+    "mapAbbreviation": "红安",
+    "mapMergerName": "中国,湖北省,黄冈市,红安县",
+    "mapParentId": 421100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hong'an",
+    "mapZipCode": 438401
+}, {
+    "id": 421123,
+    "mapName": "罗田县",
+    "mapAbbreviation": "罗田",
+    "mapMergerName": "中国,湖北省,黄冈市,罗田县",
+    "mapParentId": 421100,
+    "mapLevelType": 3,
+    "mapPinYin": "Luotian",
+    "mapZipCode": 438600
+}, {
+    "id": 421124,
+    "mapName": "英山县",
+    "mapAbbreviation": "英山",
+    "mapMergerName": "中国,湖北省,黄冈市,英山县",
+    "mapParentId": 421100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingshan",
+    "mapZipCode": 438700
+}, {
+    "id": 421125,
+    "mapName": "浠水县",
+    "mapAbbreviation": "浠水",
+    "mapMergerName": "中国,湖北省,黄冈市,浠水县",
+    "mapParentId": 421100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xishui",
+    "mapZipCode": 438200
+}, {
+    "id": 421126,
+    "mapName": "蕲春县",
+    "mapAbbreviation": "蕲春",
+    "mapMergerName": "中国,湖北省,黄冈市,蕲春县",
+    "mapParentId": 421100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qichun",
+    "mapZipCode": 435300
+}, {
+    "id": 421127,
+    "mapName": "黄梅县",
+    "mapAbbreviation": "黄梅",
+    "mapMergerName": "中国,湖北省,黄冈市,黄梅县",
+    "mapParentId": 421100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangmei",
+    "mapZipCode": 435500
+}, {
+    "id": 421181,
+    "mapName": "麻城市",
+    "mapAbbreviation": "麻城",
+    "mapMergerName": "中国,湖北省,黄冈市,麻城市",
+    "mapParentId": 421100,
+    "mapLevelType": 3,
+    "mapPinYin": "Macheng",
+    "mapZipCode": 438300
+}, {
+    "id": 421182,
+    "mapName": "武穴市",
+    "mapAbbreviation": "武穴",
+    "mapMergerName": "中国,湖北省,黄冈市,武穴市",
+    "mapParentId": 421100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuxue",
+    "mapZipCode": 435400
+}, {
+    "id": 421202,
+    "mapName": "咸安区",
+    "mapAbbreviation": "咸安",
+    "mapMergerName": "中国,湖北省,咸宁市,咸安区",
+    "mapParentId": 421200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xian'an",
+    "mapZipCode": 437000
+}, {
+    "id": 421221,
+    "mapName": "嘉鱼县",
+    "mapAbbreviation": "嘉鱼",
+    "mapMergerName": "中国,湖北省,咸宁市,嘉鱼县",
+    "mapParentId": 421200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiayu",
+    "mapZipCode": 437200
+}, {
+    "id": 421222,
+    "mapName": "通城县",
+    "mapAbbreviation": "通城",
+    "mapMergerName": "中国,湖北省,咸宁市,通城县",
+    "mapParentId": 421200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongcheng",
+    "mapZipCode": 437400
+}, {
+    "id": 421223,
+    "mapName": "崇阳县",
+    "mapAbbreviation": "崇阳",
+    "mapMergerName": "中国,湖北省,咸宁市,崇阳县",
+    "mapParentId": 421200,
+    "mapLevelType": 3,
+    "mapPinYin": "Chongyang",
+    "mapZipCode": 437500
+}, {
+    "id": 421224,
+    "mapName": "通山县",
+    "mapAbbreviation": "通山",
+    "mapMergerName": "中国,湖北省,咸宁市,通山县",
+    "mapParentId": 421200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongshan",
+    "mapZipCode": 437600
+}, {
+    "id": 421281,
+    "mapName": "赤壁市",
+    "mapAbbreviation": "赤壁",
+    "mapMergerName": "中国,湖北省,咸宁市,赤壁市",
+    "mapParentId": 421200,
+    "mapLevelType": 3,
+    "mapPinYin": "Chibi",
+    "mapZipCode": 437300
+}, {
+    "id": 421303,
+    "mapName": "曾都区",
+    "mapAbbreviation": "曾都",
+    "mapMergerName": "中国,湖北省,随州市,曾都区",
+    "mapParentId": 421300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zengdu",
+    "mapZipCode": 441300
+}, {
+    "id": 421321,
+    "mapName": "随县",
+    "mapAbbreviation": "随县",
+    "mapMergerName": "中国,湖北省,随州市,随县",
+    "mapParentId": 421300,
+    "mapLevelType": 3,
+    "mapPinYin": "Suixian",
+    "mapZipCode": 441309
+}, {
+    "id": 421381,
+    "mapName": "广水市",
+    "mapAbbreviation": "广水",
+    "mapMergerName": "中国,湖北省,随州市,广水市",
+    "mapParentId": 421300,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangshui",
+    "mapZipCode": 432700
+}, {
+    "id": 422801,
+    "mapName": "恩施市",
+    "mapAbbreviation": "恩施",
+    "mapMergerName": "中国,湖北省,恩施土家族苗族自治州,恩施市",
+    "mapParentId": 422800,
+    "mapLevelType": 3,
+    "mapPinYin": "Enshi",
+    "mapZipCode": 445000
+}, {
+    "id": 422802,
+    "mapName": "利川市",
+    "mapAbbreviation": "利川",
+    "mapMergerName": "中国,湖北省,恩施土家族苗族自治州,利川市",
+    "mapParentId": 422800,
+    "mapLevelType": 3,
+    "mapPinYin": "Lichuan",
+    "mapZipCode": 445400
+}, {
+    "id": 422822,
+    "mapName": "建始县",
+    "mapAbbreviation": "建始",
+    "mapMergerName": "中国,湖北省,恩施土家族苗族自治州,建始县",
+    "mapParentId": 422800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianshi",
+    "mapZipCode": 445300
+}, {
+    "id": 422823,
+    "mapName": "巴东县",
+    "mapAbbreviation": "巴东",
+    "mapMergerName": "中国,湖北省,恩施土家族苗族自治州,巴东县",
+    "mapParentId": 422800,
+    "mapLevelType": 3,
+    "mapPinYin": "Badong",
+    "mapZipCode": 444300
+}, {
+    "id": 422825,
+    "mapName": "宣恩县",
+    "mapAbbreviation": "宣恩",
+    "mapMergerName": "中国,湖北省,恩施土家族苗族自治州,宣恩县",
+    "mapParentId": 422800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuanen",
+    "mapZipCode": 445500
+}, {
+    "id": 422826,
+    "mapName": "咸丰县",
+    "mapAbbreviation": "咸丰",
+    "mapMergerName": "中国,湖北省,恩施土家族苗族自治州,咸丰县",
+    "mapParentId": 422800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xianfeng",
+    "mapZipCode": 445600
+}, {
+    "id": 422827,
+    "mapName": "来凤县",
+    "mapAbbreviation": "来凤",
+    "mapMergerName": "中国,湖北省,恩施土家族苗族自治州,来凤县",
+    "mapParentId": 422800,
+    "mapLevelType": 3,
+    "mapPinYin": "Laifeng",
+    "mapZipCode": 445700
+}, {
+    "id": 422828,
+    "mapName": "鹤峰县",
+    "mapAbbreviation": "鹤峰",
+    "mapMergerName": "中国,湖北省,恩施土家族苗族自治州,鹤峰县",
+    "mapParentId": 422800,
+    "mapLevelType": 3,
+    "mapPinYin": "Hefeng",
+    "mapZipCode": 445800
+}, {
+    "id": 429004,
+    "mapName": "仙桃市",
+    "mapAbbreviation": "仙桃",
+    "mapMergerName": "中国,湖北省,直辖县级,仙桃市",
+    "mapParentId": 429000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiantao",
+    "mapZipCode": 433000
+}, {
+    "id": 429005,
+    "mapName": "潜江市",
+    "mapAbbreviation": "潜江",
+    "mapMergerName": "中国,湖北省,直辖县级,潜江市",
+    "mapParentId": 429000,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianjiang",
+    "mapZipCode": 433100
+}, {
+    "id": 429006,
+    "mapName": "天门市",
+    "mapAbbreviation": "天门",
+    "mapMergerName": "中国,湖北省,直辖县级,天门市",
+    "mapParentId": 429000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianmen",
+    "mapZipCode": 431700
+}, {
+    "id": 429021,
+    "mapName": "神农架林区",
+    "mapAbbreviation": "神农架",
+    "mapMergerName": "中国,湖北省,直辖县级,神农架林区",
+    "mapParentId": 429000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shennongjia",
+    "mapZipCode": 442400
+}, {
+    "id": 430102,
+    "mapName": "芙蓉区",
+    "mapAbbreviation": "芙蓉",
+    "mapMergerName": "中国,湖南省,长沙市,芙蓉区",
+    "mapParentId": 430100,
+    "mapLevelType": 3,
+    "mapPinYin": "Furong",
+    "mapZipCode": 410011
+}, {
+    "id": 430103,
+    "mapName": "天心区",
+    "mapAbbreviation": "天心",
+    "mapMergerName": "中国,湖南省,长沙市,天心区",
+    "mapParentId": 430100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianxin",
+    "mapZipCode": 410004
+}, {
+    "id": 430104,
+    "mapName": "岳麓区",
+    "mapAbbreviation": "岳麓",
+    "mapMergerName": "中国,湖南省,长沙市,岳麓区",
+    "mapParentId": 430100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuelu",
+    "mapZipCode": 410013
+}, {
+    "id": 430105,
+    "mapName": "开福区",
+    "mapAbbreviation": "开福",
+    "mapMergerName": "中国,湖南省,长沙市,开福区",
+    "mapParentId": 430100,
+    "mapLevelType": 3,
+    "mapPinYin": "Kaifu",
+    "mapZipCode": 410008
+}, {
+    "id": 430111,
+    "mapName": "雨花区",
+    "mapAbbreviation": "雨花",
+    "mapMergerName": "中国,湖南省,长沙市,雨花区",
+    "mapParentId": 430100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuhua",
+    "mapZipCode": 410011
+}, {
+    "id": 430112,
+    "mapName": "望城区",
+    "mapAbbreviation": "望城",
+    "mapMergerName": "中国,湖南省,长沙市,望城区",
+    "mapParentId": 430100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wangcheng",
+    "mapZipCode": 410200
+}, {
+    "id": 430121,
+    "mapName": "长沙县",
+    "mapAbbreviation": "长沙",
+    "mapMergerName": "中国,湖南省,长沙市,长沙县",
+    "mapParentId": 430100,
+    "mapLevelType": 3,
+    "mapPinYin": "Changsha",
+    "mapZipCode": 410100
+}, {
+    "id": 430124,
+    "mapName": "宁乡县",
+    "mapAbbreviation": "宁乡",
+    "mapMergerName": "中国,湖南省,长沙市,宁乡县",
+    "mapParentId": 430100,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningxiang",
+    "mapZipCode": 410600
+}, {
+    "id": 430181,
+    "mapName": "浏阳市",
+    "mapAbbreviation": "浏阳",
+    "mapMergerName": "中国,湖南省,长沙市,浏阳市",
+    "mapParentId": 430100,
+    "mapLevelType": 3,
+    "mapPinYin": "Liuyang",
+    "mapZipCode": 410300
+}, {
+    "id": 430202,
+    "mapName": "荷塘区",
+    "mapAbbreviation": "荷塘",
+    "mapMergerName": "中国,湖南省,株洲市,荷塘区",
+    "mapParentId": 430200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hetang",
+    "mapZipCode": 412000
+}, {
+    "id": 430203,
+    "mapName": "芦淞区",
+    "mapAbbreviation": "芦淞",
+    "mapMergerName": "中国,湖南省,株洲市,芦淞区",
+    "mapParentId": 430200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lusong",
+    "mapZipCode": 412000
+}, {
+    "id": 430204,
+    "mapName": "石峰区",
+    "mapAbbreviation": "石峰",
+    "mapMergerName": "中国,湖南省,株洲市,石峰区",
+    "mapParentId": 430200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shifeng",
+    "mapZipCode": 412005
+}, {
+    "id": 430211,
+    "mapName": "天元区",
+    "mapAbbreviation": "天元",
+    "mapMergerName": "中国,湖南省,株洲市,天元区",
+    "mapParentId": 430200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianyuan",
+    "mapZipCode": 412007
+}, {
+    "id": 430221,
+    "mapName": "株洲县",
+    "mapAbbreviation": "株洲",
+    "mapMergerName": "中国,湖南省,株洲市,株洲县",
+    "mapParentId": 430200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuzhou",
+    "mapZipCode": 412100
+}, {
+    "id": 430223,
+    "mapName": "攸县",
+    "mapAbbreviation": "攸县",
+    "mapMergerName": "中国,湖南省,株洲市,攸县",
+    "mapParentId": 430200,
+    "mapLevelType": 3,
+    "mapPinYin": "Youxian",
+    "mapZipCode": 412300
+}, {
+    "id": 430224,
+    "mapName": "茶陵县",
+    "mapAbbreviation": "茶陵",
+    "mapMergerName": "中国,湖南省,株洲市,茶陵县",
+    "mapParentId": 430200,
+    "mapLevelType": 3,
+    "mapPinYin": "Chaling",
+    "mapZipCode": 412400
+}, {
+    "id": 430225,
+    "mapName": "炎陵县",
+    "mapAbbreviation": "炎陵",
+    "mapMergerName": "中国,湖南省,株洲市,炎陵县",
+    "mapParentId": 430200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanling",
+    "mapZipCode": 412500
+}, {
+    "id": 430281,
+    "mapName": "醴陵市",
+    "mapAbbreviation": "醴陵",
+    "mapMergerName": "中国,湖南省,株洲市,醴陵市",
+    "mapParentId": 430200,
+    "mapLevelType": 3,
+    "mapPinYin": "Liling",
+    "mapZipCode": 412200
+}, {
+    "id": 430302,
+    "mapName": "雨湖区",
+    "mapAbbreviation": "雨湖",
+    "mapMergerName": "中国,湖南省,湘潭市,雨湖区",
+    "mapParentId": 430300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuhu",
+    "mapZipCode": 411100
+}, {
+    "id": 430304,
+    "mapName": "岳塘区",
+    "mapAbbreviation": "岳塘",
+    "mapMergerName": "中国,湖南省,湘潭市,岳塘区",
+    "mapParentId": 430300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuetang",
+    "mapZipCode": 411101
+}, {
+    "id": 430321,
+    "mapName": "湘潭县",
+    "mapAbbreviation": "湘潭",
+    "mapMergerName": "中国,湖南省,湘潭市,湘潭县",
+    "mapParentId": 430300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangtan",
+    "mapZipCode": 411228
+}, {
+    "id": 430381,
+    "mapName": "湘乡市",
+    "mapAbbreviation": "湘乡",
+    "mapMergerName": "中国,湖南省,湘潭市,湘乡市",
+    "mapParentId": 430300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangxiang",
+    "mapZipCode": 411400
+}, {
+    "id": 430382,
+    "mapName": "韶山市",
+    "mapAbbreviation": "韶山",
+    "mapMergerName": "中国,湖南省,湘潭市,韶山市",
+    "mapParentId": 430300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shaoshan",
+    "mapZipCode": 411300
+}, {
+    "id": 430405,
+    "mapName": "珠晖区",
+    "mapAbbreviation": "珠晖",
+    "mapMergerName": "中国,湖南省,衡阳市,珠晖区",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuhui",
+    "mapZipCode": 421002
+}, {
+    "id": 430406,
+    "mapName": "雁峰区",
+    "mapAbbreviation": "雁峰",
+    "mapMergerName": "中国,湖南省,衡阳市,雁峰区",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanfeng",
+    "mapZipCode": 421001
+}, {
+    "id": 430407,
+    "mapName": "石鼓区",
+    "mapAbbreviation": "石鼓",
+    "mapMergerName": "中国,湖南省,衡阳市,石鼓区",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shigu",
+    "mapZipCode": 421005
+}, {
+    "id": 430408,
+    "mapName": "蒸湘区",
+    "mapAbbreviation": "蒸湘",
+    "mapMergerName": "中国,湖南省,衡阳市,蒸湘区",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhengxiang",
+    "mapZipCode": 421001
+}, {
+    "id": 430412,
+    "mapName": "南岳区",
+    "mapAbbreviation": "南岳",
+    "mapMergerName": "中国,湖南省,衡阳市,南岳区",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanyue",
+    "mapZipCode": 421900
+}, {
+    "id": 430421,
+    "mapName": "衡阳县",
+    "mapAbbreviation": "衡阳",
+    "mapMergerName": "中国,湖南省,衡阳市,衡阳县",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengyang",
+    "mapZipCode": 421200
+}, {
+    "id": 430422,
+    "mapName": "衡南县",
+    "mapAbbreviation": "衡南",
+    "mapMergerName": "中国,湖南省,衡阳市,衡南县",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengnan",
+    "mapZipCode": 421131
+}, {
+    "id": 430423,
+    "mapName": "衡山县",
+    "mapAbbreviation": "衡山",
+    "mapMergerName": "中国,湖南省,衡阳市,衡山县",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengshan",
+    "mapZipCode": 421300
+}, {
+    "id": 430424,
+    "mapName": "衡东县",
+    "mapAbbreviation": "衡东",
+    "mapMergerName": "中国,湖南省,衡阳市,衡东县",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengdong",
+    "mapZipCode": 421400
+}, {
+    "id": 430426,
+    "mapName": "祁东县",
+    "mapAbbreviation": "祁东",
+    "mapMergerName": "中国,湖南省,衡阳市,祁东县",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qidong",
+    "mapZipCode": 421600
+}, {
+    "id": 430481,
+    "mapName": "耒阳市",
+    "mapAbbreviation": "耒阳",
+    "mapMergerName": "中国,湖南省,衡阳市,耒阳市",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Leiyang",
+    "mapZipCode": 421800
+}, {
+    "id": 430482,
+    "mapName": "常宁市",
+    "mapAbbreviation": "常宁",
+    "mapMergerName": "中国,湖南省,衡阳市,常宁市",
+    "mapParentId": 430400,
+    "mapLevelType": 3,
+    "mapPinYin": "Changning",
+    "mapZipCode": 421500
+}, {
+    "id": 430502,
+    "mapName": "双清区",
+    "mapAbbreviation": "双清",
+    "mapMergerName": "中国,湖南省,邵阳市,双清区",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangqing",
+    "mapZipCode": 422001
+}, {
+    "id": 430503,
+    "mapName": "大祥区",
+    "mapAbbreviation": "大祥",
+    "mapMergerName": "中国,湖南省,邵阳市,大祥区",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Daxiang",
+    "mapZipCode": 422000
+}, {
+    "id": 430511,
+    "mapName": "北塔区",
+    "mapAbbreviation": "北塔",
+    "mapMergerName": "中国,湖南省,邵阳市,北塔区",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Beita",
+    "mapZipCode": 422007
+}, {
+    "id": 430521,
+    "mapName": "邵东县",
+    "mapAbbreviation": "邵东",
+    "mapMergerName": "中国,湖南省,邵阳市,邵东县",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shaodong",
+    "mapZipCode": 422800
+}, {
+    "id": 430522,
+    "mapName": "新邵县",
+    "mapAbbreviation": "新邵",
+    "mapMergerName": "中国,湖南省,邵阳市,新邵县",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinshao",
+    "mapZipCode": 422900
+}, {
+    "id": 430523,
+    "mapName": "邵阳县",
+    "mapAbbreviation": "邵阳",
+    "mapMergerName": "中国,湖南省,邵阳市,邵阳县",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shaoyang",
+    "mapZipCode": 422100
+}, {
+    "id": 430524,
+    "mapName": "隆回县",
+    "mapAbbreviation": "隆回",
+    "mapMergerName": "中国,湖南省,邵阳市,隆回县",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Longhui",
+    "mapZipCode": 422200
+}, {
+    "id": 430525,
+    "mapName": "洞口县",
+    "mapAbbreviation": "洞口",
+    "mapMergerName": "中国,湖南省,邵阳市,洞口县",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongkou",
+    "mapZipCode": 422300
+}, {
+    "id": 430527,
+    "mapName": "绥宁县",
+    "mapAbbreviation": "绥宁",
+    "mapMergerName": "中国,湖南省,邵阳市,绥宁县",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Suining",
+    "mapZipCode": 422600
+}, {
+    "id": 430528,
+    "mapName": "新宁县",
+    "mapAbbreviation": "新宁",
+    "mapMergerName": "中国,湖南省,邵阳市,新宁县",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinning",
+    "mapZipCode": 422700
+}, {
+    "id": 430529,
+    "mapName": "城步苗族自治县",
+    "mapAbbreviation": "城步",
+    "mapMergerName": "中国,湖南省,邵阳市,城步苗族自治县",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengbu",
+    "mapZipCode": 422500
+}, {
+    "id": 430581,
+    "mapName": "武冈市",
+    "mapAbbreviation": "武冈",
+    "mapMergerName": "中国,湖南省,邵阳市,武冈市",
+    "mapParentId": 430500,
+    "mapLevelType": 3,
+    "mapPinYin": "Wugang",
+    "mapZipCode": 422400
+}, {
+    "id": 430602,
+    "mapName": "岳阳楼区",
+    "mapAbbreviation": "岳阳楼",
+    "mapMergerName": "中国,湖南省,岳阳市,岳阳楼区",
+    "mapParentId": 430600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yueyanglou",
+    "mapZipCode": 414000
+}, {
+    "id": 430603,
+    "mapName": "云溪区",
+    "mapAbbreviation": "云溪",
+    "mapMergerName": "中国,湖南省,岳阳市,云溪区",
+    "mapParentId": 430600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunxi",
+    "mapZipCode": 414009
+}, {
+    "id": 430611,
+    "mapName": "君山区",
+    "mapAbbreviation": "君山",
+    "mapMergerName": "中国,湖南省,岳阳市,君山区",
+    "mapParentId": 430600,
+    "mapLevelType": 3,
+    "mapPinYin": "Junshan",
+    "mapZipCode": 414005
+}, {
+    "id": 430621,
+    "mapName": "岳阳县",
+    "mapAbbreviation": "岳阳",
+    "mapMergerName": "中国,湖南省,岳阳市,岳阳县",
+    "mapParentId": 430600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yueyang",
+    "mapZipCode": 414100
+}, {
+    "id": 430623,
+    "mapName": "华容县",
+    "mapAbbreviation": "华容",
+    "mapMergerName": "中国,湖南省,岳阳市,华容县",
+    "mapParentId": 430600,
+    "mapLevelType": 3,
+    "mapPinYin": "Huarong",
+    "mapZipCode": 414200
+}, {
+    "id": 430624,
+    "mapName": "湘阴县",
+    "mapAbbreviation": "湘阴",
+    "mapMergerName": "中国,湖南省,岳阳市,湘阴县",
+    "mapParentId": 430600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangyin",
+    "mapZipCode": 414600
+}, {
+    "id": 430626,
+    "mapName": "平江县",
+    "mapAbbreviation": "平江",
+    "mapMergerName": "中国,湖南省,岳阳市,平江县",
+    "mapParentId": 430600,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingjiang",
+    "mapZipCode": 414500
+}, {
+    "id": 430681,
+    "mapName": "汨罗市",
+    "mapAbbreviation": "汨罗",
+    "mapMergerName": "中国,湖南省,岳阳市,汨罗市",
+    "mapParentId": 430600,
+    "mapLevelType": 3,
+    "mapPinYin": "Miluo",
+    "mapZipCode": 414400
+}, {
+    "id": 430682,
+    "mapName": "临湘市",
+    "mapAbbreviation": "临湘",
+    "mapMergerName": "中国,湖南省,岳阳市,临湘市",
+    "mapParentId": 430600,
+    "mapLevelType": 3,
+    "mapPinYin": "Linxiang",
+    "mapZipCode": 414300
+}, {
+    "id": 430702,
+    "mapName": "武陵区",
+    "mapAbbreviation": "武陵",
+    "mapMergerName": "中国,湖南省,常德市,武陵区",
+    "mapParentId": 430700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuling",
+    "mapZipCode": 415000
+}, {
+    "id": 430703,
+    "mapName": "鼎城区",
+    "mapAbbreviation": "鼎城",
+    "mapMergerName": "中国,湖南省,常德市,鼎城区",
+    "mapParentId": 430700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingcheng",
+    "mapZipCode": 415101
+}, {
+    "id": 430721,
+    "mapName": "安乡县",
+    "mapAbbreviation": "安乡",
+    "mapMergerName": "中国,湖南省,常德市,安乡县",
+    "mapParentId": 430700,
+    "mapLevelType": 3,
+    "mapPinYin": "Anxiang",
+    "mapZipCode": 415600
+}, {
+    "id": 430722,
+    "mapName": "汉寿县",
+    "mapAbbreviation": "汉寿",
+    "mapMergerName": "中国,湖南省,常德市,汉寿县",
+    "mapParentId": 430700,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanshou",
+    "mapZipCode": 415900
+}, {
+    "id": 430723,
+    "mapName": "澧县",
+    "mapAbbreviation": "澧县",
+    "mapMergerName": "中国,湖南省,常德市,澧县",
+    "mapParentId": 430700,
+    "mapLevelType": 3,
+    "mapPinYin": "Lixian",
+    "mapZipCode": 415500
+}, {
+    "id": 430724,
+    "mapName": "临澧县",
+    "mapAbbreviation": "临澧",
+    "mapMergerName": "中国,湖南省,常德市,临澧县",
+    "mapParentId": 430700,
+    "mapLevelType": 3,
+    "mapPinYin": "Linli",
+    "mapZipCode": 415200
+}, {
+    "id": 430725,
+    "mapName": "桃源县",
+    "mapAbbreviation": "桃源",
+    "mapMergerName": "中国,湖南省,常德市,桃源县",
+    "mapParentId": 430700,
+    "mapLevelType": 3,
+    "mapPinYin": "Taoyuan",
+    "mapZipCode": 415700
+}, {
+    "id": 430726,
+    "mapName": "石门县",
+    "mapAbbreviation": "石门",
+    "mapMergerName": "中国,湖南省,常德市,石门县",
+    "mapParentId": 430700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shimen",
+    "mapZipCode": 415300
+}, {
+    "id": 430781,
+    "mapName": "津市市",
+    "mapAbbreviation": "津市",
+    "mapMergerName": "中国,湖南省,常德市,津市市",
+    "mapParentId": 430700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinshi",
+    "mapZipCode": 415400
+}, {
+    "id": 430802,
+    "mapName": "永定区",
+    "mapAbbreviation": "永定",
+    "mapMergerName": "中国,湖南省,张家界市,永定区",
+    "mapParentId": 430800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongding",
+    "mapZipCode": 427000
+}, {
+    "id": 430811,
+    "mapName": "武陵源区",
+    "mapAbbreviation": "武陵源",
+    "mapMergerName": "中国,湖南省,张家界市,武陵源区",
+    "mapParentId": 430800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wulingyuan",
+    "mapZipCode": 427400
+}, {
+    "id": 430821,
+    "mapName": "慈利县",
+    "mapAbbreviation": "慈利",
+    "mapMergerName": "中国,湖南省,张家界市,慈利县",
+    "mapParentId": 430800,
+    "mapLevelType": 3,
+    "mapPinYin": "Cili",
+    "mapZipCode": 427200
+}, {
+    "id": 430822,
+    "mapName": "桑植县",
+    "mapAbbreviation": "桑植",
+    "mapMergerName": "中国,湖南省,张家界市,桑植县",
+    "mapParentId": 430800,
+    "mapLevelType": 3,
+    "mapPinYin": "Sangzhi",
+    "mapZipCode": 427100
+}, {
+    "id": 430902,
+    "mapName": "资阳区",
+    "mapAbbreviation": "资阳",
+    "mapMergerName": "中国,湖南省,益阳市,资阳区",
+    "mapParentId": 430900,
+    "mapLevelType": 3,
+    "mapPinYin": "Ziyang",
+    "mapZipCode": 413001
+}, {
+    "id": 430903,
+    "mapName": "赫山区",
+    "mapAbbreviation": "赫山",
+    "mapMergerName": "中国,湖南省,益阳市,赫山区",
+    "mapParentId": 430900,
+    "mapLevelType": 3,
+    "mapPinYin": "Heshan",
+    "mapZipCode": 413002
+}, {
+    "id": 430921,
+    "mapName": "南县",
+    "mapAbbreviation": "南县",
+    "mapMergerName": "中国,湖南省,益阳市,南县",
+    "mapParentId": 430900,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanxian",
+    "mapZipCode": 413200
+}, {
+    "id": 430922,
+    "mapName": "桃江县",
+    "mapAbbreviation": "桃江",
+    "mapMergerName": "中国,湖南省,益阳市,桃江县",
+    "mapParentId": 430900,
+    "mapLevelType": 3,
+    "mapPinYin": "Taojiang",
+    "mapZipCode": 413400
+}, {
+    "id": 430923,
+    "mapName": "安化县",
+    "mapAbbreviation": "安化",
+    "mapMergerName": "中国,湖南省,益阳市,安化县",
+    "mapParentId": 430900,
+    "mapLevelType": 3,
+    "mapPinYin": "Anhua",
+    "mapZipCode": 413500
+}, {
+    "id": 430981,
+    "mapName": "沅江市",
+    "mapAbbreviation": "沅江",
+    "mapMergerName": "中国,湖南省,益阳市,沅江市",
+    "mapParentId": 430900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanjiang",
+    "mapZipCode": 413100
+}, {
+    "id": 431002,
+    "mapName": "北湖区",
+    "mapAbbreviation": "北湖",
+    "mapMergerName": "中国,湖南省,郴州市,北湖区",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Beihu",
+    "mapZipCode": 423000
+}, {
+    "id": 431003,
+    "mapName": "苏仙区",
+    "mapAbbreviation": "苏仙",
+    "mapMergerName": "中国,湖南省,郴州市,苏仙区",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Suxian",
+    "mapZipCode": 423000
+}, {
+    "id": 431021,
+    "mapName": "桂阳县",
+    "mapAbbreviation": "桂阳",
+    "mapMergerName": "中国,湖南省,郴州市,桂阳县",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Guiyang",
+    "mapZipCode": 424400
+}, {
+    "id": 431022,
+    "mapName": "宜章县",
+    "mapAbbreviation": "宜章",
+    "mapMergerName": "中国,湖南省,郴州市,宜章县",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yizhang",
+    "mapZipCode": 424200
+}, {
+    "id": 431023,
+    "mapName": "永兴县",
+    "mapAbbreviation": "永兴",
+    "mapMergerName": "中国,湖南省,郴州市,永兴县",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongxing",
+    "mapZipCode": 423300
+}, {
+    "id": 431024,
+    "mapName": "嘉禾县",
+    "mapAbbreviation": "嘉禾",
+    "mapMergerName": "中国,湖南省,郴州市,嘉禾县",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiahe",
+    "mapZipCode": 424500
+}, {
+    "id": 431025,
+    "mapName": "临武县",
+    "mapAbbreviation": "临武",
+    "mapMergerName": "中国,湖南省,郴州市,临武县",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Linwu",
+    "mapZipCode": 424300
+}, {
+    "id": 431026,
+    "mapName": "汝城县",
+    "mapAbbreviation": "汝城",
+    "mapMergerName": "中国,湖南省,郴州市,汝城县",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Rucheng",
+    "mapZipCode": 424100
+}, {
+    "id": 431027,
+    "mapName": "桂东县",
+    "mapAbbreviation": "桂东",
+    "mapMergerName": "中国,湖南省,郴州市,桂东县",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Guidong",
+    "mapZipCode": 423500
+}, {
+    "id": 431028,
+    "mapName": "安仁县",
+    "mapAbbreviation": "安仁",
+    "mapMergerName": "中国,湖南省,郴州市,安仁县",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Anren",
+    "mapZipCode": 423600
+}, {
+    "id": 431081,
+    "mapName": "资兴市",
+    "mapAbbreviation": "资兴",
+    "mapMergerName": "中国,湖南省,郴州市,资兴市",
+    "mapParentId": 431000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zixing",
+    "mapZipCode": 423400
+}, {
+    "id": 431102,
+    "mapName": "零陵区",
+    "mapAbbreviation": "零陵",
+    "mapMergerName": "中国,湖南省,永州市,零陵区",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingling",
+    "mapZipCode": 425100
+}, {
+    "id": 431103,
+    "mapName": "冷水滩区",
+    "mapAbbreviation": "冷水滩",
+    "mapMergerName": "中国,湖南省,永州市,冷水滩区",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lengshuitan",
+    "mapZipCode": 425100
+}, {
+    "id": 431121,
+    "mapName": "祁阳县",
+    "mapAbbreviation": "祁阳",
+    "mapMergerName": "中国,湖南省,永州市,祁阳县",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiyang",
+    "mapZipCode": 426100
+}, {
+    "id": 431122,
+    "mapName": "东安县",
+    "mapAbbreviation": "东安",
+    "mapMergerName": "中国,湖南省,永州市,东安县",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dong'an",
+    "mapZipCode": 425900
+}, {
+    "id": 431123,
+    "mapName": "双牌县",
+    "mapAbbreviation": "双牌",
+    "mapMergerName": "中国,湖南省,永州市,双牌县",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangpai",
+    "mapZipCode": 425200
+}, {
+    "id": 431124,
+    "mapName": "道县",
+    "mapAbbreviation": "道县",
+    "mapMergerName": "中国,湖南省,永州市,道县",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Daoxian",
+    "mapZipCode": 425300
+}, {
+    "id": 431125,
+    "mapName": "江永县",
+    "mapAbbreviation": "江永",
+    "mapMergerName": "中国,湖南省,永州市,江永县",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangyong",
+    "mapZipCode": 425400
+}, {
+    "id": 431126,
+    "mapName": "宁远县",
+    "mapAbbreviation": "宁远",
+    "mapMergerName": "中国,湖南省,永州市,宁远县",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningyuan",
+    "mapZipCode": 425600
+}, {
+    "id": 431127,
+    "mapName": "蓝山县",
+    "mapAbbreviation": "蓝山",
+    "mapMergerName": "中国,湖南省,永州市,蓝山县",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lanshan",
+    "mapZipCode": 425800
+}, {
+    "id": 431128,
+    "mapName": "新田县",
+    "mapAbbreviation": "新田",
+    "mapMergerName": "中国,湖南省,永州市,新田县",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xintian",
+    "mapZipCode": 425700
+}, {
+    "id": 431129,
+    "mapName": "江华瑶族自治县",
+    "mapAbbreviation": "江华",
+    "mapMergerName": "中国,湖南省,永州市,江华瑶族自治县",
+    "mapParentId": 431100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianghua",
+    "mapZipCode": 425500
+}, {
+    "id": 431202,
+    "mapName": "鹤城区",
+    "mapAbbreviation": "鹤城",
+    "mapMergerName": "中国,湖南省,怀化市,鹤城区",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hecheng",
+    "mapZipCode": 418000
+}, {
+    "id": 431221,
+    "mapName": "中方县",
+    "mapAbbreviation": "中方",
+    "mapMergerName": "中国,湖南省,怀化市,中方县",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongfang",
+    "mapZipCode": 418005
+}, {
+    "id": 431222,
+    "mapName": "沅陵县",
+    "mapAbbreviation": "沅陵",
+    "mapMergerName": "中国,湖南省,怀化市,沅陵县",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanling",
+    "mapZipCode": 419600
+}, {
+    "id": 431223,
+    "mapName": "辰溪县",
+    "mapAbbreviation": "辰溪",
+    "mapMergerName": "中国,湖南省,怀化市,辰溪县",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Chenxi",
+    "mapZipCode": 419500
+}, {
+    "id": 431224,
+    "mapName": "溆浦县",
+    "mapAbbreviation": "溆浦",
+    "mapMergerName": "中国,湖南省,怀化市,溆浦县",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xupu",
+    "mapZipCode": 419300
+}, {
+    "id": 431225,
+    "mapName": "会同县",
+    "mapAbbreviation": "会同",
+    "mapMergerName": "中国,湖南省,怀化市,会同县",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huitong",
+    "mapZipCode": 418300
+}, {
+    "id": 431226,
+    "mapName": "麻阳苗族自治县",
+    "mapAbbreviation": "麻阳",
+    "mapMergerName": "中国,湖南省,怀化市,麻阳苗族自治县",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Mayang",
+    "mapZipCode": 419400
+}, {
+    "id": 431227,
+    "mapName": "新晃侗族自治县",
+    "mapAbbreviation": "新晃",
+    "mapMergerName": "中国,湖南省,怀化市,新晃侗族自治县",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinhuang",
+    "mapZipCode": 419200
+}, {
+    "id": 431228,
+    "mapName": "芷江侗族自治县",
+    "mapAbbreviation": "芷江",
+    "mapMergerName": "中国,湖南省,怀化市,芷江侗族自治县",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhijiang",
+    "mapZipCode": 419100
+}, {
+    "id": 431229,
+    "mapName": "靖州苗族侗族自治县",
+    "mapAbbreviation": "靖州",
+    "mapMergerName": "中国,湖南省,怀化市,靖州苗族侗族自治县",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingzhou",
+    "mapZipCode": 418400
+}, {
+    "id": 431230,
+    "mapName": "通道侗族自治县",
+    "mapAbbreviation": "通道",
+    "mapMergerName": "中国,湖南省,怀化市,通道侗族自治县",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongdao",
+    "mapZipCode": 418500
+}, {
+    "id": 431281,
+    "mapName": "洪江市",
+    "mapAbbreviation": "洪江",
+    "mapMergerName": "中国,湖南省,怀化市,洪江市",
+    "mapParentId": 431200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongjiang",
+    "mapZipCode": 418100
+}, {
+    "id": 431302,
+    "mapName": "娄星区",
+    "mapAbbreviation": "娄星",
+    "mapMergerName": "中国,湖南省,娄底市,娄星区",
+    "mapParentId": 431300,
+    "mapLevelType": 3,
+    "mapPinYin": "Louxing",
+    "mapZipCode": 417000
+}, {
+    "id": 431321,
+    "mapName": "双峰县",
+    "mapAbbreviation": "双峰",
+    "mapMergerName": "中国,湖南省,娄底市,双峰县",
+    "mapParentId": 431300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangfeng",
+    "mapZipCode": 417700
+}, {
+    "id": 431322,
+    "mapName": "新化县",
+    "mapAbbreviation": "新化",
+    "mapMergerName": "中国,湖南省,娄底市,新化县",
+    "mapParentId": 431300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinhua",
+    "mapZipCode": 417600
+}, {
+    "id": 431381,
+    "mapName": "冷水江市",
+    "mapAbbreviation": "冷水江",
+    "mapMergerName": "中国,湖南省,娄底市,冷水江市",
+    "mapParentId": 431300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lengshuijiang",
+    "mapZipCode": 417500
+}, {
+    "id": 431382,
+    "mapName": "涟源市",
+    "mapAbbreviation": "涟源",
+    "mapMergerName": "中国,湖南省,娄底市,涟源市",
+    "mapParentId": 431300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianyuan",
+    "mapZipCode": 417100
+}, {
+    "id": 433101,
+    "mapName": "吉首市",
+    "mapAbbreviation": "吉首",
+    "mapMergerName": "中国,湖南省,湘西土家族苗族自治州,吉首市",
+    "mapParentId": 433100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jishou",
+    "mapZipCode": 416000
+}, {
+    "id": 433122,
+    "mapName": "泸溪县",
+    "mapAbbreviation": "泸溪",
+    "mapMergerName": "中国,湖南省,湘西土家族苗族自治州,泸溪县",
+    "mapParentId": 433100,
+    "mapLevelType": 3,
+    "mapPinYin": "Luxi",
+    "mapZipCode": 416100
+}, {
+    "id": 433123,
+    "mapName": "凤凰县",
+    "mapAbbreviation": "凤凰",
+    "mapMergerName": "中国,湖南省,湘西土家族苗族自治州,凤凰县",
+    "mapParentId": 433100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fenghuang",
+    "mapZipCode": 416200
+}, {
+    "id": 433124,
+    "mapName": "花垣县",
+    "mapAbbreviation": "花垣",
+    "mapMergerName": "中国,湖南省,湘西土家族苗族自治州,花垣县",
+    "mapParentId": 433100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huayuan",
+    "mapZipCode": 416400
+}, {
+    "id": 433125,
+    "mapName": "保靖县",
+    "mapAbbreviation": "保靖",
+    "mapMergerName": "中国,湖南省,湘西土家族苗族自治州,保靖县",
+    "mapParentId": 433100,
+    "mapLevelType": 3,
+    "mapPinYin": "Baojing",
+    "mapZipCode": 416500
+}, {
+    "id": 433126,
+    "mapName": "古丈县",
+    "mapAbbreviation": "古丈",
+    "mapMergerName": "中国,湖南省,湘西土家族苗族自治州,古丈县",
+    "mapParentId": 433100,
+    "mapLevelType": 3,
+    "mapPinYin": "Guzhang",
+    "mapZipCode": 416300
+}, {
+    "id": 433127,
+    "mapName": "永顺县",
+    "mapAbbreviation": "永顺",
+    "mapMergerName": "中国,湖南省,湘西土家族苗族自治州,永顺县",
+    "mapParentId": 433100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongshun",
+    "mapZipCode": 416700
+}, {
+    "id": 433130,
+    "mapName": "龙山县",
+    "mapAbbreviation": "龙山",
+    "mapMergerName": "中国,湖南省,湘西土家族苗族自治州,龙山县",
+    "mapParentId": 433100,
+    "mapLevelType": 3,
+    "mapPinYin": "Longshan",
+    "mapZipCode": 416800
+}, {
+    "id": 440103,
+    "mapName": "荔湾区",
+    "mapAbbreviation": "荔湾",
+    "mapMergerName": "中国,广东省,广州市,荔湾区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Liwan",
+    "mapZipCode": 510170
+}, {
+    "id": 440104,
+    "mapName": "越秀区",
+    "mapAbbreviation": "越秀",
+    "mapMergerName": "中国,广东省,广州市,越秀区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuexiu",
+    "mapZipCode": 510030
+}, {
+    "id": 440105,
+    "mapName": "海珠区",
+    "mapAbbreviation": "海珠",
+    "mapMergerName": "中国,广东省,广州市,海珠区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Haizhu",
+    "mapZipCode": 510300
+}, {
+    "id": 440106,
+    "mapName": "天河区",
+    "mapAbbreviation": "天河",
+    "mapMergerName": "中国,广东省,广州市,天河区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianhe",
+    "mapZipCode": 510665
+}, {
+    "id": 440111,
+    "mapName": "白云区",
+    "mapAbbreviation": "白云",
+    "mapMergerName": "中国,广东省,广州市,白云区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Baiyun",
+    "mapZipCode": 510405
+}, {
+    "id": 440112,
+    "mapName": "黄埔区",
+    "mapAbbreviation": "黄埔",
+    "mapMergerName": "中国,广东省,广州市,黄埔区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangpu",
+    "mapZipCode": 510700
+}, {
+    "id": 440113,
+    "mapName": "番禺区",
+    "mapAbbreviation": "番禺",
+    "mapMergerName": "中国,广东省,广州市,番禺区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Panyu",
+    "mapZipCode": 511400
+}, {
+    "id": 440114,
+    "mapName": "花都区",
+    "mapAbbreviation": "花都",
+    "mapMergerName": "中国,广东省,广州市,花都区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huadu",
+    "mapZipCode": 510800
+}, {
+    "id": 440115,
+    "mapName": "南沙区",
+    "mapAbbreviation": "南沙",
+    "mapMergerName": "中国,广东省,广州市,南沙区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nansha",
+    "mapZipCode": 511458
+}, {
+    "id": 440117,
+    "mapName": "从化区",
+    "mapAbbreviation": "从化",
+    "mapMergerName": "中国,广东省,广州市,从化区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Conghua",
+    "mapZipCode": 510900
+}, {
+    "id": 440118,
+    "mapName": "增城区",
+    "mapAbbreviation": "增城",
+    "mapMergerName": "中国,广东省,广州市,增城区",
+    "mapParentId": 440100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zengcheng",
+    "mapZipCode": 511300
+}, {
+    "id": 440203,
+    "mapName": "武江区",
+    "mapAbbreviation": "武江",
+    "mapMergerName": "中国,广东省,韶关市,武江区",
+    "mapParentId": 440200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wujiang",
+    "mapZipCode": 512026
+}, {
+    "id": 440204,
+    "mapName": "浈江区",
+    "mapAbbreviation": "浈江",
+    "mapMergerName": "中国,广东省,韶关市,浈江区",
+    "mapParentId": 440200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenjiang",
+    "mapZipCode": 512023
+}, {
+    "id": 440205,
+    "mapName": "曲江区",
+    "mapAbbreviation": "曲江",
+    "mapMergerName": "中国,广东省,韶关市,曲江区",
+    "mapParentId": 440200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qujiang",
+    "mapZipCode": 512101
+}, {
+    "id": 440222,
+    "mapName": "始兴县",
+    "mapAbbreviation": "始兴",
+    "mapMergerName": "中国,广东省,韶关市,始兴县",
+    "mapParentId": 440200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shixing",
+    "mapZipCode": 512500
+}, {
+    "id": 440224,
+    "mapName": "仁化县",
+    "mapAbbreviation": "仁化",
+    "mapMergerName": "中国,广东省,韶关市,仁化县",
+    "mapParentId": 440200,
+    "mapLevelType": 3,
+    "mapPinYin": "Renhua",
+    "mapZipCode": 512300
+}, {
+    "id": 440229,
+    "mapName": "翁源县",
+    "mapAbbreviation": "翁源",
+    "mapMergerName": "中国,广东省,韶关市,翁源县",
+    "mapParentId": 440200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wengyuan",
+    "mapZipCode": 512600
+}, {
+    "id": 440232,
+    "mapName": "乳源瑶族自治县",
+    "mapAbbreviation": "乳源",
+    "mapMergerName": "中国,广东省,韶关市,乳源瑶族自治县",
+    "mapParentId": 440200,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruyuan",
+    "mapZipCode": 512700
+}, {
+    "id": 440233,
+    "mapName": "新丰县",
+    "mapAbbreviation": "新丰",
+    "mapMergerName": "中国,广东省,韶关市,新丰县",
+    "mapParentId": 440200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinfeng",
+    "mapZipCode": 511100
+}, {
+    "id": 440281,
+    "mapName": "乐昌市",
+    "mapAbbreviation": "乐昌",
+    "mapMergerName": "中国,广东省,韶关市,乐昌市",
+    "mapParentId": 440200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lechang",
+    "mapZipCode": 512200
+}, {
+    "id": 440282,
+    "mapName": "南雄市",
+    "mapAbbreviation": "南雄",
+    "mapMergerName": "中国,广东省,韶关市,南雄市",
+    "mapParentId": 440200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanxiong",
+    "mapZipCode": 512400
+}, {
+    "id": 440303,
+    "mapName": "罗湖区",
+    "mapAbbreviation": "罗湖",
+    "mapMergerName": "中国,广东省,深圳市,罗湖区",
+    "mapParentId": 440300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luohu",
+    "mapZipCode": 518021
+}, {
+    "id": 440304,
+    "mapName": "福田区",
+    "mapAbbreviation": "福田",
+    "mapMergerName": "中国,广东省,深圳市,福田区",
+    "mapParentId": 440300,
+    "mapLevelType": 3,
+    "mapPinYin": "Futian",
+    "mapZipCode": 518048
+}, {
+    "id": 440305,
+    "mapName": "南山区",
+    "mapAbbreviation": "南山",
+    "mapMergerName": "中国,广东省,深圳市,南山区",
+    "mapParentId": 440300,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanshan",
+    "mapZipCode": 518051
+}, {
+    "id": 440306,
+    "mapName": "宝安区",
+    "mapAbbreviation": "宝安",
+    "mapMergerName": "中国,广东省,深圳市,宝安区",
+    "mapParentId": 440300,
+    "mapLevelType": 3,
+    "mapPinYin": "Bao'an",
+    "mapZipCode": 518101
+}, {
+    "id": 440307,
+    "mapName": "龙岗区",
+    "mapAbbreviation": "龙岗",
+    "mapMergerName": "中国,广东省,深圳市,龙岗区",
+    "mapParentId": 440300,
+    "mapLevelType": 3,
+    "mapPinYin": "Longgang",
+    "mapZipCode": 518172
+}, {
+    "id": 440308,
+    "mapName": "盐田区",
+    "mapAbbreviation": "盐田",
+    "mapMergerName": "中国,广东省,深圳市,盐田区",
+    "mapParentId": 440300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yantian",
+    "mapZipCode": 518081
+}, {
+    "id": 440309,
+    "mapName": "光明新区",
+    "mapAbbreviation": "光明新区",
+    "mapMergerName": "中国,广东省,深圳市,光明新区",
+    "mapParentId": 440300,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangmingxinqu",
+    "mapZipCode": 518100
+}, {
+    "id": 440310,
+    "mapName": "坪山新区",
+    "mapAbbreviation": "坪山新区",
+    "mapMergerName": "中国,广东省,深圳市,坪山新区",
+    "mapParentId": 440300,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingshanxinqu",
+    "mapZipCode": 518000
+}, {
+    "id": 440311,
+    "mapName": "大鹏新区",
+    "mapAbbreviation": "大鹏新区",
+    "mapMergerName": "中国,广东省,深圳市,大鹏新区",
+    "mapParentId": 440300,
+    "mapLevelType": 3,
+    "mapPinYin": "Dapengxinqu",
+    "mapZipCode": 518000
+}, {
+    "id": 440312,
+    "mapName": "龙华新区",
+    "mapAbbreviation": "龙华新区",
+    "mapMergerName": "中国,广东省,深圳市,龙华新区",
+    "mapParentId": 440300,
+    "mapLevelType": 3,
+    "mapPinYin": "Longhuaxinqu",
+    "mapZipCode": 518100
+}, {
+    "id": 440402,
+    "mapName": "香洲区",
+    "mapAbbreviation": "香洲",
+    "mapMergerName": "中国,广东省,珠海市,香洲区",
+    "mapParentId": 440400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangzhou",
+    "mapZipCode": 519000
+}, {
+    "id": 440403,
+    "mapName": "斗门区",
+    "mapAbbreviation": "斗门",
+    "mapMergerName": "中国,广东省,珠海市,斗门区",
+    "mapParentId": 440400,
+    "mapLevelType": 3,
+    "mapPinYin": "Doumen",
+    "mapZipCode": 519110
+}, {
+    "id": 440404,
+    "mapName": "金湾区",
+    "mapAbbreviation": "金湾",
+    "mapMergerName": "中国,广东省,珠海市,金湾区",
+    "mapParentId": 440400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinwan",
+    "mapZipCode": 519040
+}, {
+    "id": 440507,
+    "mapName": "龙湖区",
+    "mapAbbreviation": "龙湖",
+    "mapMergerName": "中国,广东省,汕头市,龙湖区",
+    "mapParentId": 440500,
+    "mapLevelType": 3,
+    "mapPinYin": "Longhu",
+    "mapZipCode": 515041
+}, {
+    "id": 440511,
+    "mapName": "金平区",
+    "mapAbbreviation": "金平",
+    "mapMergerName": "中国,广东省,汕头市,金平区",
+    "mapParentId": 440500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinping",
+    "mapZipCode": 515041
+}, {
+    "id": 440512,
+    "mapName": "濠江区",
+    "mapAbbreviation": "濠江",
+    "mapMergerName": "中国,广东省,汕头市,濠江区",
+    "mapParentId": 440500,
+    "mapLevelType": 3,
+    "mapPinYin": "Haojiang",
+    "mapZipCode": 515071
+}, {
+    "id": 440513,
+    "mapName": "潮阳区",
+    "mapAbbreviation": "潮阳",
+    "mapMergerName": "中国,广东省,汕头市,潮阳区",
+    "mapParentId": 440500,
+    "mapLevelType": 3,
+    "mapPinYin": "Chaoyang",
+    "mapZipCode": 515100
+}, {
+    "id": 440514,
+    "mapName": "潮南区",
+    "mapAbbreviation": "潮南",
+    "mapMergerName": "中国,广东省,汕头市,潮南区",
+    "mapParentId": 440500,
+    "mapLevelType": 3,
+    "mapPinYin": "Chaonan",
+    "mapZipCode": 515144
+}, {
+    "id": 440515,
+    "mapName": "澄海区",
+    "mapAbbreviation": "澄海",
+    "mapMergerName": "中国,广东省,汕头市,澄海区",
+    "mapParentId": 440500,
+    "mapLevelType": 3,
+    "mapPinYin": "Chenghai",
+    "mapZipCode": 515800
+}, {
+    "id": 440523,
+    "mapName": "南澳县",
+    "mapAbbreviation": "南澳",
+    "mapMergerName": "中国,广东省,汕头市,南澳县",
+    "mapParentId": 440500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanao",
+    "mapZipCode": 515900
+}, {
+    "id": 440604,
+    "mapName": "禅城区",
+    "mapAbbreviation": "禅城",
+    "mapMergerName": "中国,广东省,佛山市,禅城区",
+    "mapParentId": 440600,
+    "mapLevelType": 3,
+    "mapPinYin": "Chancheng",
+    "mapZipCode": 528000
+}, {
+    "id": 440605,
+    "mapName": "南海区",
+    "mapAbbreviation": "南海",
+    "mapMergerName": "中国,广东省,佛山市,南海区",
+    "mapParentId": 440600,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanhai",
+    "mapZipCode": 528251
+}, {
+    "id": 440606,
+    "mapName": "顺德区",
+    "mapAbbreviation": "顺德",
+    "mapMergerName": "中国,广东省,佛山市,顺德区",
+    "mapParentId": 440600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shunde",
+    "mapZipCode": 528300
+}, {
+    "id": 440607,
+    "mapName": "三水区",
+    "mapAbbreviation": "三水",
+    "mapMergerName": "中国,广东省,佛山市,三水区",
+    "mapParentId": 440600,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanshui",
+    "mapZipCode": 528133
+}, {
+    "id": 440608,
+    "mapName": "高明区",
+    "mapAbbreviation": "高明",
+    "mapMergerName": "中国,广东省,佛山市,高明区",
+    "mapParentId": 440600,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoming",
+    "mapZipCode": 528500
+}, {
+    "id": 440703,
+    "mapName": "蓬江区",
+    "mapAbbreviation": "蓬江",
+    "mapMergerName": "中国,广东省,江门市,蓬江区",
+    "mapParentId": 440700,
+    "mapLevelType": 3,
+    "mapPinYin": "Pengjiang",
+    "mapZipCode": 529000
+}, {
+    "id": 440704,
+    "mapName": "江海区",
+    "mapAbbreviation": "江海",
+    "mapMergerName": "中国,广东省,江门市,江海区",
+    "mapParentId": 440700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianghai",
+    "mapZipCode": 529040
+}, {
+    "id": 440705,
+    "mapName": "新会区",
+    "mapAbbreviation": "新会",
+    "mapMergerName": "中国,广东省,江门市,新会区",
+    "mapParentId": 440700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinhui",
+    "mapZipCode": 529100
+}, {
+    "id": 440781,
+    "mapName": "台山市",
+    "mapAbbreviation": "台山",
+    "mapMergerName": "中国,广东省,江门市,台山市",
+    "mapParentId": 440700,
+    "mapLevelType": 3,
+    "mapPinYin": "Taishan",
+    "mapZipCode": 529200
+}, {
+    "id": 440783,
+    "mapName": "开平市",
+    "mapAbbreviation": "开平",
+    "mapMergerName": "中国,广东省,江门市,开平市",
+    "mapParentId": 440700,
+    "mapLevelType": 3,
+    "mapPinYin": "Kaiping",
+    "mapZipCode": 529337
+}, {
+    "id": 440784,
+    "mapName": "鹤山市",
+    "mapAbbreviation": "鹤山",
+    "mapMergerName": "中国,广东省,江门市,鹤山市",
+    "mapParentId": 440700,
+    "mapLevelType": 3,
+    "mapPinYin": "Heshan",
+    "mapZipCode": 529700
+}, {
+    "id": 440785,
+    "mapName": "恩平市",
+    "mapAbbreviation": "恩平",
+    "mapMergerName": "中国,广东省,江门市,恩平市",
+    "mapParentId": 440700,
+    "mapLevelType": 3,
+    "mapPinYin": "Enping",
+    "mapZipCode": 529400
+}, {
+    "id": 440802,
+    "mapName": "赤坎区",
+    "mapAbbreviation": "赤坎",
+    "mapMergerName": "中国,广东省,湛江市,赤坎区",
+    "mapParentId": 440800,
+    "mapLevelType": 3,
+    "mapPinYin": "Chikan",
+    "mapZipCode": 524033
+}, {
+    "id": 440803,
+    "mapName": "霞山区",
+    "mapAbbreviation": "霞山",
+    "mapMergerName": "中国,广东省,湛江市,霞山区",
+    "mapParentId": 440800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiashan",
+    "mapZipCode": 524011
+}, {
+    "id": 440804,
+    "mapName": "坡头区",
+    "mapAbbreviation": "坡头",
+    "mapMergerName": "中国,广东省,湛江市,坡头区",
+    "mapParentId": 440800,
+    "mapLevelType": 3,
+    "mapPinYin": "Potou",
+    "mapZipCode": 524057
+}, {
+    "id": 440811,
+    "mapName": "麻章区",
+    "mapAbbreviation": "麻章",
+    "mapMergerName": "中国,广东省,湛江市,麻章区",
+    "mapParentId": 440800,
+    "mapLevelType": 3,
+    "mapPinYin": "Mazhang",
+    "mapZipCode": 524094
+}, {
+    "id": 440823,
+    "mapName": "遂溪县",
+    "mapAbbreviation": "遂溪",
+    "mapMergerName": "中国,广东省,湛江市,遂溪县",
+    "mapParentId": 440800,
+    "mapLevelType": 3,
+    "mapPinYin": "Suixi",
+    "mapZipCode": 524300
+}, {
+    "id": 440825,
+    "mapName": "徐闻县",
+    "mapAbbreviation": "徐闻",
+    "mapMergerName": "中国,广东省,湛江市,徐闻县",
+    "mapParentId": 440800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuwen",
+    "mapZipCode": 524100
+}, {
+    "id": 440881,
+    "mapName": "廉江市",
+    "mapAbbreviation": "廉江",
+    "mapMergerName": "中国,广东省,湛江市,廉江市",
+    "mapParentId": 440800,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianjiang",
+    "mapZipCode": 524400
+}, {
+    "id": 440882,
+    "mapName": "雷州市",
+    "mapAbbreviation": "雷州",
+    "mapMergerName": "中国,广东省,湛江市,雷州市",
+    "mapParentId": 440800,
+    "mapLevelType": 3,
+    "mapPinYin": "Leizhou",
+    "mapZipCode": 524200
+}, {
+    "id": 440883,
+    "mapName": "吴川市",
+    "mapAbbreviation": "吴川",
+    "mapMergerName": "中国,广东省,湛江市,吴川市",
+    "mapParentId": 440800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuchuan",
+    "mapZipCode": 524500
+}, {
+    "id": 440902,
+    "mapName": "茂南区",
+    "mapAbbreviation": "茂南",
+    "mapMergerName": "中国,广东省,茂名市,茂南区",
+    "mapParentId": 440900,
+    "mapLevelType": 3,
+    "mapPinYin": "Maonan",
+    "mapZipCode": 525000
+}, {
+    "id": 440904,
+    "mapName": "电白区",
+    "mapAbbreviation": "电白",
+    "mapMergerName": "中国,广东省,茂名市,电白区",
+    "mapParentId": 440900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dianbai",
+    "mapZipCode": 525400
+}, {
+    "id": 440981,
+    "mapName": "高州市",
+    "mapAbbreviation": "高州",
+    "mapMergerName": "中国,广东省,茂名市,高州市",
+    "mapParentId": 440900,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaozhou",
+    "mapZipCode": 525200
+}, {
+    "id": 440982,
+    "mapName": "化州市",
+    "mapAbbreviation": "化州",
+    "mapMergerName": "中国,广东省,茂名市,化州市",
+    "mapParentId": 440900,
+    "mapLevelType": 3,
+    "mapPinYin": "Huazhou",
+    "mapZipCode": 525100
+}, {
+    "id": 440983,
+    "mapName": "信宜市",
+    "mapAbbreviation": "信宜",
+    "mapMergerName": "中国,广东省,茂名市,信宜市",
+    "mapParentId": 440900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinyi",
+    "mapZipCode": 525300
+}, {
+    "id": 441202,
+    "mapName": "端州区",
+    "mapAbbreviation": "端州",
+    "mapMergerName": "中国,广东省,肇庆市,端州区",
+    "mapParentId": 441200,
+    "mapLevelType": 3,
+    "mapPinYin": "Duanzhou",
+    "mapZipCode": 526060
+}, {
+    "id": 441203,
+    "mapName": "鼎湖区",
+    "mapAbbreviation": "鼎湖",
+    "mapMergerName": "中国,广东省,肇庆市,鼎湖区",
+    "mapParentId": 441200,
+    "mapLevelType": 3,
+    "mapPinYin": "Dinghu",
+    "mapZipCode": 526070
+}, {
+    "id": 441223,
+    "mapName": "广宁县",
+    "mapAbbreviation": "广宁",
+    "mapMergerName": "中国,广东省,肇庆市,广宁县",
+    "mapParentId": 441200,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangning",
+    "mapZipCode": 526300
+}, {
+    "id": 441224,
+    "mapName": "怀集县",
+    "mapAbbreviation": "怀集",
+    "mapMergerName": "中国,广东省,肇庆市,怀集县",
+    "mapParentId": 441200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaiji",
+    "mapZipCode": 526400
+}, {
+    "id": 441225,
+    "mapName": "封开县",
+    "mapAbbreviation": "封开",
+    "mapMergerName": "中国,广东省,肇庆市,封开县",
+    "mapParentId": 441200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengkai",
+    "mapZipCode": 526500
+}, {
+    "id": 441226,
+    "mapName": "德庆县",
+    "mapAbbreviation": "德庆",
+    "mapMergerName": "中国,广东省,肇庆市,德庆县",
+    "mapParentId": 441200,
+    "mapLevelType": 3,
+    "mapPinYin": "Deqing",
+    "mapZipCode": 526600
+}, {
+    "id": 441283,
+    "mapName": "高要市",
+    "mapAbbreviation": "高要",
+    "mapMergerName": "中国,广东省,肇庆市,高要市",
+    "mapParentId": 441200,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoyao",
+    "mapZipCode": 526100
+}, {
+    "id": 441284,
+    "mapName": "四会市",
+    "mapAbbreviation": "四会",
+    "mapMergerName": "中国,广东省,肇庆市,四会市",
+    "mapParentId": 441200,
+    "mapLevelType": 3,
+    "mapPinYin": "Sihui",
+    "mapZipCode": 526200
+}, {
+    "id": 441302,
+    "mapName": "惠城区",
+    "mapAbbreviation": "惠城",
+    "mapMergerName": "中国,广东省,惠州市,惠城区",
+    "mapParentId": 441300,
+    "mapLevelType": 3,
+    "mapPinYin": "Huicheng",
+    "mapZipCode": 516008
+}, {
+    "id": 441303,
+    "mapName": "惠阳区",
+    "mapAbbreviation": "惠阳",
+    "mapMergerName": "中国,广东省,惠州市,惠阳区",
+    "mapParentId": 441300,
+    "mapLevelType": 3,
+    "mapPinYin": "Huiyang",
+    "mapZipCode": 516211
+}, {
+    "id": 441322,
+    "mapName": "博罗县",
+    "mapAbbreviation": "博罗",
+    "mapMergerName": "中国,广东省,惠州市,博罗县",
+    "mapParentId": 441300,
+    "mapLevelType": 3,
+    "mapPinYin": "Boluo",
+    "mapZipCode": 516100
+}, {
+    "id": 441323,
+    "mapName": "惠东县",
+    "mapAbbreviation": "惠东",
+    "mapMergerName": "中国,广东省,惠州市,惠东县",
+    "mapParentId": 441300,
+    "mapLevelType": 3,
+    "mapPinYin": "Huidong",
+    "mapZipCode": 516300
+}, {
+    "id": 441324,
+    "mapName": "龙门县",
+    "mapAbbreviation": "龙门",
+    "mapMergerName": "中国,广东省,惠州市,龙门县",
+    "mapParentId": 441300,
+    "mapLevelType": 3,
+    "mapPinYin": "Longmen",
+    "mapZipCode": 516800
+}, {
+    "id": 441402,
+    "mapName": "梅江区",
+    "mapAbbreviation": "梅江",
+    "mapMergerName": "中国,广东省,梅州市,梅江区",
+    "mapParentId": 441400,
+    "mapLevelType": 3,
+    "mapPinYin": "Meijiang",
+    "mapZipCode": 514000
+}, {
+    "id": 441403,
+    "mapName": "梅县区",
+    "mapAbbreviation": "梅县",
+    "mapMergerName": "中国,广东省,梅州市,梅县区",
+    "mapParentId": 441400,
+    "mapLevelType": 3,
+    "mapPinYin": "Meixian",
+    "mapZipCode": 514787
+}, {
+    "id": 441422,
+    "mapName": "大埔县",
+    "mapAbbreviation": "大埔",
+    "mapMergerName": "中国,广东省,梅州市,大埔县",
+    "mapParentId": 441400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dabu",
+    "mapZipCode": 514200
+}, {
+    "id": 441423,
+    "mapName": "丰顺县",
+    "mapAbbreviation": "丰顺",
+    "mapMergerName": "中国,广东省,梅州市,丰顺县",
+    "mapParentId": 441400,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengshun",
+    "mapZipCode": 514300
+}, {
+    "id": 441424,
+    "mapName": "五华县",
+    "mapAbbreviation": "五华",
+    "mapMergerName": "中国,广东省,梅州市,五华县",
+    "mapParentId": 441400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuhua",
+    "mapZipCode": 514400
+}, {
+    "id": 441426,
+    "mapName": "平远县",
+    "mapAbbreviation": "平远",
+    "mapMergerName": "中国,广东省,梅州市,平远县",
+    "mapParentId": 441400,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingyuan",
+    "mapZipCode": 514600
+}, {
+    "id": 441427,
+    "mapName": "蕉岭县",
+    "mapAbbreviation": "蕉岭",
+    "mapMergerName": "中国,广东省,梅州市,蕉岭县",
+    "mapParentId": 441400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaoling",
+    "mapZipCode": 514100
+}, {
+    "id": 441481,
+    "mapName": "兴宁市",
+    "mapAbbreviation": "兴宁",
+    "mapMergerName": "中国,广东省,梅州市,兴宁市",
+    "mapParentId": 441400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingning",
+    "mapZipCode": 514500
+}, {
+    "id": 441502,
+    "mapName": "城区",
+    "mapAbbreviation": "城区",
+    "mapMergerName": "中国,广东省,汕尾市,城区",
+    "mapParentId": 441500,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengqu",
+    "mapZipCode": 516600
+}, {
+    "id": 441521,
+    "mapName": "海丰县",
+    "mapAbbreviation": "海丰",
+    "mapMergerName": "中国,广东省,汕尾市,海丰县",
+    "mapParentId": 441500,
+    "mapLevelType": 3,
+    "mapPinYin": "Haifeng",
+    "mapZipCode": 516400
+}, {
+    "id": 441523,
+    "mapName": "陆河县",
+    "mapAbbreviation": "陆河",
+    "mapMergerName": "中国,广东省,汕尾市,陆河县",
+    "mapParentId": 441500,
+    "mapLevelType": 3,
+    "mapPinYin": "Luhe",
+    "mapZipCode": 516700
+}, {
+    "id": 441581,
+    "mapName": "陆丰市",
+    "mapAbbreviation": "陆丰",
+    "mapMergerName": "中国,广东省,汕尾市,陆丰市",
+    "mapParentId": 441500,
+    "mapLevelType": 3,
+    "mapPinYin": "Lufeng",
+    "mapZipCode": 516500
+}, {
+    "id": 441602,
+    "mapName": "源城区",
+    "mapAbbreviation": "源城",
+    "mapMergerName": "中国,广东省,河源市,源城区",
+    "mapParentId": 441600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuancheng",
+    "mapZipCode": 517000
+}, {
+    "id": 441621,
+    "mapName": "紫金县",
+    "mapAbbreviation": "紫金",
+    "mapMergerName": "中国,广东省,河源市,紫金县",
+    "mapParentId": 441600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zijin",
+    "mapZipCode": 517400
+}, {
+    "id": 441622,
+    "mapName": "龙川县",
+    "mapAbbreviation": "龙川",
+    "mapMergerName": "中国,广东省,河源市,龙川县",
+    "mapParentId": 441600,
+    "mapLevelType": 3,
+    "mapPinYin": "Longchuan",
+    "mapZipCode": 517300
+}, {
+    "id": 441623,
+    "mapName": "连平县",
+    "mapAbbreviation": "连平",
+    "mapMergerName": "中国,广东省,河源市,连平县",
+    "mapParentId": 441600,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianping",
+    "mapZipCode": 517100
+}, {
+    "id": 441624,
+    "mapName": "和平县",
+    "mapAbbreviation": "和平",
+    "mapMergerName": "中国,广东省,河源市,和平县",
+    "mapParentId": 441600,
+    "mapLevelType": 3,
+    "mapPinYin": "Heping",
+    "mapZipCode": 517200
+}, {
+    "id": 441625,
+    "mapName": "东源县",
+    "mapAbbreviation": "东源",
+    "mapMergerName": "中国,广东省,河源市,东源县",
+    "mapParentId": 441600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongyuan",
+    "mapZipCode": 517583
+}, {
+    "id": 441702,
+    "mapName": "江城区",
+    "mapAbbreviation": "江城",
+    "mapMergerName": "中国,广东省,阳江市,江城区",
+    "mapParentId": 441700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangcheng",
+    "mapZipCode": 529500
+}, {
+    "id": 441704,
+    "mapName": "阳东区",
+    "mapAbbreviation": "阳东",
+    "mapMergerName": "中国,广东省,阳江市,阳东区",
+    "mapParentId": 441700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangdong",
+    "mapZipCode": 529900
+}, {
+    "id": 441721,
+    "mapName": "阳西县",
+    "mapAbbreviation": "阳西",
+    "mapMergerName": "中国,广东省,阳江市,阳西县",
+    "mapParentId": 441700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangxi",
+    "mapZipCode": 529800
+}, {
+    "id": 441781,
+    "mapName": "阳春市",
+    "mapAbbreviation": "阳春",
+    "mapMergerName": "中国,广东省,阳江市,阳春市",
+    "mapParentId": 441700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangchun",
+    "mapZipCode": 529600
+}, {
+    "id": 441802,
+    "mapName": "清城区",
+    "mapAbbreviation": "清城",
+    "mapMergerName": "中国,广东省,清远市,清城区",
+    "mapParentId": 441800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingcheng",
+    "mapZipCode": 511515
+}, {
+    "id": 441803,
+    "mapName": "清新区",
+    "mapAbbreviation": "清新",
+    "mapMergerName": "中国,广东省,清远市,清新区",
+    "mapParentId": 441800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingxin",
+    "mapZipCode": 511810
+}, {
+    "id": 441821,
+    "mapName": "佛冈县",
+    "mapAbbreviation": "佛冈",
+    "mapMergerName": "中国,广东省,清远市,佛冈县",
+    "mapParentId": 441800,
+    "mapLevelType": 3,
+    "mapPinYin": "Fogang",
+    "mapZipCode": 511600
+}, {
+    "id": 441823,
+    "mapName": "阳山县",
+    "mapAbbreviation": "阳山",
+    "mapMergerName": "中国,广东省,清远市,阳山县",
+    "mapParentId": 441800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangshan",
+    "mapZipCode": 513100
+}, {
+    "id": 441825,
+    "mapName": "连山壮族瑶族自治县",
+    "mapAbbreviation": "连山",
+    "mapMergerName": "中国,广东省,清远市,连山壮族瑶族自治县",
+    "mapParentId": 441800,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianshan",
+    "mapZipCode": 513200
+}, {
+    "id": 441826,
+    "mapName": "连南瑶族自治县",
+    "mapAbbreviation": "连南",
+    "mapMergerName": "中国,广东省,清远市,连南瑶族自治县",
+    "mapParentId": 441800,
+    "mapLevelType": 3,
+    "mapPinYin": "Liannan",
+    "mapZipCode": 513300
+}, {
+    "id": 441881,
+    "mapName": "英德市",
+    "mapAbbreviation": "英德",
+    "mapMergerName": "中国,广东省,清远市,英德市",
+    "mapParentId": 441800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingde",
+    "mapZipCode": 513000
+}, {
+    "id": 441882,
+    "mapName": "连州市",
+    "mapAbbreviation": "连州",
+    "mapMergerName": "中国,广东省,清远市,连州市",
+    "mapParentId": 441800,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianzhou",
+    "mapZipCode": 513400
+}, {
+    "id": 441901,
+    "mapName": "莞城区",
+    "mapAbbreviation": "莞城",
+    "mapMergerName": "中国,广东省,东莞市,莞城区",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Guancheng",
+    "mapZipCode": 523128
+}, {
+    "id": 441902,
+    "mapName": "南城区",
+    "mapAbbreviation": "南城",
+    "mapMergerName": "中国,广东省,东莞市,南城区",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Nancheng",
+    "mapZipCode": 523617
+}, {
+    "id": 441904,
+    "mapName": "万江区",
+    "mapAbbreviation": "万江",
+    "mapMergerName": "中国,广东省,东莞市,万江区",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanjiang",
+    "mapZipCode": 523039
+}, {
+    "id": 441905,
+    "mapName": "石碣镇",
+    "mapAbbreviation": "石碣",
+    "mapMergerName": "中国,广东省,东莞市,石碣镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shijie",
+    "mapZipCode": 523290
+}, {
+    "id": 441906,
+    "mapName": "石龙镇",
+    "mapAbbreviation": "石龙",
+    "mapMergerName": "中国,广东省,东莞市,石龙镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shilong",
+    "mapZipCode": 523326
+}, {
+    "id": 441907,
+    "mapName": "茶山镇",
+    "mapAbbreviation": "茶山",
+    "mapMergerName": "中国,广东省,东莞市,茶山镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Chashan",
+    "mapZipCode": 523380
+}, {
+    "id": 441908,
+    "mapName": "石排镇",
+    "mapAbbreviation": "石排",
+    "mapMergerName": "中国,广东省,东莞市,石排镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shipai",
+    "mapZipCode": 523346
+}, {
+    "id": 441909,
+    "mapName": "企石镇",
+    "mapAbbreviation": "企石",
+    "mapMergerName": "中国,广东省,东莞市,企石镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Qishi",
+    "mapZipCode": 523507
+}, {
+    "id": 441910,
+    "mapName": "横沥镇",
+    "mapAbbreviation": "横沥",
+    "mapMergerName": "中国,广东省,东莞市,横沥镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengli",
+    "mapZipCode": 523471
+}, {
+    "id": 441911,
+    "mapName": "桥头镇",
+    "mapAbbreviation": "桥头",
+    "mapMergerName": "中国,广东省,东莞市,桥头镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiaotou",
+    "mapZipCode": 523520
+}, {
+    "id": 441912,
+    "mapName": "谢岗镇",
+    "mapAbbreviation": "谢岗",
+    "mapMergerName": "中国,广东省,东莞市,谢岗镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiegang",
+    "mapZipCode": 523592
+}, {
+    "id": 441913,
+    "mapName": "东坑镇",
+    "mapAbbreviation": "东坑",
+    "mapMergerName": "中国,广东省,东莞市,东坑镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongkeng",
+    "mapZipCode": 523451
+}, {
+    "id": 441914,
+    "mapName": "常平镇",
+    "mapAbbreviation": "常平",
+    "mapMergerName": "中国,广东省,东莞市,常平镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Changping",
+    "mapZipCode": 523560
+}, {
+    "id": 441915,
+    "mapName": "寮步镇",
+    "mapAbbreviation": "寮步",
+    "mapMergerName": "中国,广东省,东莞市,寮步镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Liaobu",
+    "mapZipCode": 523411
+}, {
+    "id": 441916,
+    "mapName": "大朗镇",
+    "mapAbbreviation": "大朗",
+    "mapMergerName": "中国,广东省,东莞市,大朗镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dalang",
+    "mapZipCode": 523770
+}, {
+    "id": 441917,
+    "mapName": "麻涌镇",
+    "mapAbbreviation": "麻涌",
+    "mapMergerName": "中国,广东省,东莞市,麻涌镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Machong",
+    "mapZipCode": 523143
+}, {
+    "id": 441918,
+    "mapName": "中堂镇",
+    "mapAbbreviation": "中堂",
+    "mapMergerName": "中国,广东省,东莞市,中堂镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongtang",
+    "mapZipCode": 523233
+}, {
+    "id": 441919,
+    "mapName": "高埗镇",
+    "mapAbbreviation": "高埗",
+    "mapMergerName": "中国,广东省,东莞市,高埗镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaobu",
+    "mapZipCode": 523282
+}, {
+    "id": 441920,
+    "mapName": "樟木头镇",
+    "mapAbbreviation": "樟木头",
+    "mapMergerName": "中国,广东省,东莞市,樟木头镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangmutou",
+    "mapZipCode": 523619
+}, {
+    "id": 441921,
+    "mapName": "大岭山镇",
+    "mapAbbreviation": "大岭山",
+    "mapMergerName": "中国,广东省,东莞市,大岭山镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dalingshan",
+    "mapZipCode": 523835
+}, {
+    "id": 441922,
+    "mapName": "望牛墩镇",
+    "mapAbbreviation": "望牛墩",
+    "mapMergerName": "中国,广东省,东莞市,望牛墩镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Wangniudun",
+    "mapZipCode": 523203
+}, {
+    "id": 441923,
+    "mapName": "黄江镇",
+    "mapAbbreviation": "黄江",
+    "mapMergerName": "中国,广东省,东莞市,黄江镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangjiang",
+    "mapZipCode": 523755
+}, {
+    "id": 441924,
+    "mapName": "洪梅镇",
+    "mapAbbreviation": "洪梅",
+    "mapMergerName": "中国,广东省,东莞市,洪梅镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongmei",
+    "mapZipCode": 523163
+}, {
+    "id": 441925,
+    "mapName": "清溪镇",
+    "mapAbbreviation": "清溪",
+    "mapMergerName": "中国,广东省,东莞市,清溪镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingxi",
+    "mapZipCode": 523660
+}, {
+    "id": 441926,
+    "mapName": "沙田镇",
+    "mapAbbreviation": "沙田",
+    "mapMergerName": "中国,广东省,东莞市,沙田镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shatian",
+    "mapZipCode": 523988
+}, {
+    "id": 441927,
+    "mapName": "道滘镇",
+    "mapAbbreviation": "道滘",
+    "mapMergerName": "中国,广东省,东莞市,道滘镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Daojiao",
+    "mapZipCode": 523171
+}, {
+    "id": 441928,
+    "mapName": "塘厦镇",
+    "mapAbbreviation": "塘厦",
+    "mapMergerName": "中国,广东省,东莞市,塘厦镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Tangxia",
+    "mapZipCode": 523713
+}, {
+    "id": 441929,
+    "mapName": "虎门镇",
+    "mapAbbreviation": "虎门",
+    "mapMergerName": "中国,广东省,东莞市,虎门镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Humen",
+    "mapZipCode": 523932
+}, {
+    "id": 441930,
+    "mapName": "厚街镇",
+    "mapAbbreviation": "厚街",
+    "mapMergerName": "中国,广东省,东莞市,厚街镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Houjie",
+    "mapZipCode": 523960
+}, {
+    "id": 441931,
+    "mapName": "凤岗镇",
+    "mapAbbreviation": "凤岗",
+    "mapMergerName": "中国,广东省,东莞市,凤岗镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fenggang",
+    "mapZipCode": 523690
+}, {
+    "id": 441932,
+    "mapName": "长安镇",
+    "mapAbbreviation": "长安",
+    "mapMergerName": "中国,广东省,东莞市,长安镇",
+    "mapParentId": 441900,
+    "mapLevelType": 3,
+    "mapPinYin": "Chang'an",
+    "mapZipCode": 523850
+}, {
+    "id": 442001,
+    "mapName": "石岐区",
+    "mapAbbreviation": "石岐",
+    "mapMergerName": "中国,广东省,中山市,石岐区",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shiqi",
+    "mapZipCode": 528400
+}, {
+    "id": 442004,
+    "mapName": "南区",
+    "mapAbbreviation": "南区",
+    "mapMergerName": "中国,广东省,中山市,南区",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanqu",
+    "mapZipCode": 528400
+}, {
+    "id": 442005,
+    "mapName": "五桂山区",
+    "mapAbbreviation": "五桂山",
+    "mapMergerName": "中国,广东省,中山市,五桂山区",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuguishan",
+    "mapZipCode": 528458
+}, {
+    "id": 442006,
+    "mapName": "火炬开发区",
+    "mapAbbreviation": "火炬",
+    "mapMergerName": "中国,广东省,中山市,火炬开发区",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huoju",
+    "mapZipCode": 528437
+}, {
+    "id": 442007,
+    "mapName": "黄圃镇",
+    "mapAbbreviation": "黄圃",
+    "mapMergerName": "中国,广东省,中山市,黄圃镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangpu",
+    "mapZipCode": 528429
+}, {
+    "id": 442008,
+    "mapName": "南头镇",
+    "mapAbbreviation": "南头",
+    "mapMergerName": "中国,广东省,中山市,南头镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Nantou",
+    "mapZipCode": 528421
+}, {
+    "id": 442009,
+    "mapName": "东凤镇",
+    "mapAbbreviation": "东凤",
+    "mapMergerName": "中国,广东省,中山市,东凤镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongfeng",
+    "mapZipCode": 528425
+}, {
+    "id": 442010,
+    "mapName": "阜沙镇",
+    "mapAbbreviation": "阜沙",
+    "mapMergerName": "中国,广东省,中山市,阜沙镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Fusha",
+    "mapZipCode": 528434
+}, {
+    "id": 442011,
+    "mapName": "小榄镇",
+    "mapAbbreviation": "小榄",
+    "mapMergerName": "中国,广东省,中山市,小榄镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaolan",
+    "mapZipCode": 528415
+}, {
+    "id": 442012,
+    "mapName": "东升镇",
+    "mapAbbreviation": "东升",
+    "mapMergerName": "中国,广东省,中山市,东升镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongsheng",
+    "mapZipCode": 528400
+}, {
+    "id": 442013,
+    "mapName": "古镇镇",
+    "mapAbbreviation": "古镇",
+    "mapMergerName": "中国,广东省,中山市,古镇镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Guzhen",
+    "mapZipCode": 528422
+}, {
+    "id": 442014,
+    "mapName": "横栏镇",
+    "mapAbbreviation": "横栏",
+    "mapMergerName": "中国,广东省,中山市,横栏镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Henglan",
+    "mapZipCode": 528478
+}, {
+    "id": 442015,
+    "mapName": "三角镇",
+    "mapAbbreviation": "三角",
+    "mapMergerName": "中国,广东省,中山市,三角镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanjiao",
+    "mapZipCode": 528422
+}, {
+    "id": 442016,
+    "mapName": "民众镇",
+    "mapAbbreviation": "民众",
+    "mapMergerName": "中国,广东省,中山市,民众镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Minzhong",
+    "mapZipCode": 528441
+}, {
+    "id": 442017,
+    "mapName": "南朗镇",
+    "mapAbbreviation": "南朗",
+    "mapMergerName": "中国,广东省,中山市,南朗镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanlang",
+    "mapZipCode": 528454
+}, {
+    "id": 442018,
+    "mapName": "港口镇",
+    "mapAbbreviation": "港口",
+    "mapMergerName": "中国,广东省,中山市,港口镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Gangkou",
+    "mapZipCode": 528447
+}, {
+    "id": 442019,
+    "mapName": "大涌镇",
+    "mapAbbreviation": "大涌",
+    "mapMergerName": "中国,广东省,中山市,大涌镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dayong",
+    "mapZipCode": 528476
+}, {
+    "id": 442020,
+    "mapName": "沙溪镇",
+    "mapAbbreviation": "沙溪",
+    "mapMergerName": "中国,广东省,中山市,沙溪镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shaxi",
+    "mapZipCode": 528471
+}, {
+    "id": 442021,
+    "mapName": "三乡镇",
+    "mapAbbreviation": "三乡",
+    "mapMergerName": "中国,广东省,中山市,三乡镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanxiang",
+    "mapZipCode": 528463
+}, {
+    "id": 442022,
+    "mapName": "板芙镇",
+    "mapAbbreviation": "板芙",
+    "mapMergerName": "中国,广东省,中山市,板芙镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Banfu",
+    "mapZipCode": 528459
+}, {
+    "id": 442023,
+    "mapName": "神湾镇",
+    "mapAbbreviation": "神湾",
+    "mapMergerName": "中国,广东省,中山市,神湾镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenwan",
+    "mapZipCode": 528462
+}, {
+    "id": 442024,
+    "mapName": "坦洲镇",
+    "mapAbbreviation": "坦洲",
+    "mapMergerName": "中国,广东省,中山市,坦洲镇",
+    "mapParentId": 442000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tanzhou",
+    "mapZipCode": 528467
+}, {
+    "id": 445102,
+    "mapName": "湘桥区",
+    "mapAbbreviation": "湘桥",
+    "mapMergerName": "中国,广东省,潮州市,湘桥区",
+    "mapParentId": 445100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangqiao",
+    "mapZipCode": 521000
+}, {
+    "id": 445103,
+    "mapName": "潮安区",
+    "mapAbbreviation": "潮安",
+    "mapMergerName": "中国,广东省,潮州市,潮安区",
+    "mapParentId": 445100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chao'an",
+    "mapZipCode": 515638
+}, {
+    "id": 445122,
+    "mapName": "饶平县",
+    "mapAbbreviation": "饶平",
+    "mapMergerName": "中国,广东省,潮州市,饶平县",
+    "mapParentId": 445100,
+    "mapLevelType": 3,
+    "mapPinYin": "Raoping",
+    "mapZipCode": 515700
+}, {
+    "id": 445202,
+    "mapName": "榕城区",
+    "mapAbbreviation": "榕城",
+    "mapMergerName": "中国,广东省,揭阳市,榕城区",
+    "mapParentId": 445200,
+    "mapLevelType": 3,
+    "mapPinYin": "Rongcheng",
+    "mapZipCode": 522000
+}, {
+    "id": 445203,
+    "mapName": "揭东区",
+    "mapAbbreviation": "揭东",
+    "mapMergerName": "中国,广东省,揭阳市,揭东区",
+    "mapParentId": 445200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiedong",
+    "mapZipCode": 515500
+}, {
+    "id": 445222,
+    "mapName": "揭西县",
+    "mapAbbreviation": "揭西",
+    "mapMergerName": "中国,广东省,揭阳市,揭西县",
+    "mapParentId": 445200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiexi",
+    "mapZipCode": 515400
+}, {
+    "id": 445224,
+    "mapName": "惠来县",
+    "mapAbbreviation": "惠来",
+    "mapMergerName": "中国,广东省,揭阳市,惠来县",
+    "mapParentId": 445200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huilai",
+    "mapZipCode": 515200
+}, {
+    "id": 445281,
+    "mapName": "普宁市",
+    "mapAbbreviation": "普宁",
+    "mapMergerName": "中国,广东省,揭阳市,普宁市",
+    "mapParentId": 445200,
+    "mapLevelType": 3,
+    "mapPinYin": "Puning",
+    "mapZipCode": 515300
+}, {
+    "id": 445302,
+    "mapName": "云城区",
+    "mapAbbreviation": "云城",
+    "mapMergerName": "中国,广东省,云浮市,云城区",
+    "mapParentId": 445300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuncheng",
+    "mapZipCode": 527300
+}, {
+    "id": 445303,
+    "mapName": "云安区",
+    "mapAbbreviation": "云安",
+    "mapMergerName": "中国,广东省,云浮市,云安区",
+    "mapParentId": 445300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yun'an",
+    "mapZipCode": 527500
+}, {
+    "id": 445321,
+    "mapName": "新兴县",
+    "mapAbbreviation": "新兴",
+    "mapMergerName": "中国,广东省,云浮市,新兴县",
+    "mapParentId": 445300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinxing",
+    "mapZipCode": 527400
+}, {
+    "id": 445322,
+    "mapName": "郁南县",
+    "mapAbbreviation": "郁南",
+    "mapMergerName": "中国,广东省,云浮市,郁南县",
+    "mapParentId": 445300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunan",
+    "mapZipCode": 527100
+}, {
+    "id": 445381,
+    "mapName": "罗定市",
+    "mapAbbreviation": "罗定",
+    "mapMergerName": "中国,广东省,云浮市,罗定市",
+    "mapParentId": 445300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luoding",
+    "mapZipCode": 527200
+}, {
+    "id": 450102,
+    "mapName": "兴宁区",
+    "mapAbbreviation": "兴宁",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,兴宁区",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingning",
+    "mapZipCode": 530023
+}, {
+    "id": 450103,
+    "mapName": "青秀区",
+    "mapAbbreviation": "青秀",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,青秀区",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingxiu",
+    "mapZipCode": 530213
+}, {
+    "id": 450105,
+    "mapName": "江南区",
+    "mapAbbreviation": "江南",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,江南区",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangnan",
+    "mapZipCode": 530031
+}, {
+    "id": 450107,
+    "mapName": "西乡塘区",
+    "mapAbbreviation": "西乡塘",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,西乡塘区",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xixiangtang",
+    "mapZipCode": 530001
+}, {
+    "id": 450108,
+    "mapName": "良庆区",
+    "mapAbbreviation": "良庆",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,良庆区",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Liangqing",
+    "mapZipCode": 530219
+}, {
+    "id": 450109,
+    "mapName": "邕宁区",
+    "mapAbbreviation": "邕宁",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,邕宁区",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongning",
+    "mapZipCode": 530200
+}, {
+    "id": 450122,
+    "mapName": "武鸣县",
+    "mapAbbreviation": "武鸣",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,武鸣县",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuming",
+    "mapZipCode": 530100
+}, {
+    "id": 450123,
+    "mapName": "隆安县",
+    "mapAbbreviation": "隆安",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,隆安县",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Long'an",
+    "mapZipCode": 532700
+}, {
+    "id": 450124,
+    "mapName": "马山县",
+    "mapAbbreviation": "马山",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,马山县",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Mashan",
+    "mapZipCode": 530600
+}, {
+    "id": 450125,
+    "mapName": "上林县",
+    "mapAbbreviation": "上林",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,上林县",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanglin",
+    "mapZipCode": 530500
+}, {
+    "id": 450126,
+    "mapName": "宾阳县",
+    "mapAbbreviation": "宾阳",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,宾阳县",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Binyang",
+    "mapZipCode": 530400
+}, {
+    "id": 450127,
+    "mapName": "横县",
+    "mapAbbreviation": "横县",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,横县",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengxian",
+    "mapZipCode": 530300
+}, {
+    "id": 450128,
+    "mapName": "埌东新区",
+    "mapAbbreviation": "埌东",
+    "mapMergerName": "中国,广西壮族自治区,南宁市,埌东新区",
+    "mapParentId": 450100,
+    "mapLevelType": 3,
+    "mapPinYin": "Langdong",
+    "mapZipCode": 530000
+}, {
+    "id": 450202,
+    "mapName": "城中区",
+    "mapAbbreviation": "城中",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,城中区",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengzhong",
+    "mapZipCode": 545001
+}, {
+    "id": 450203,
+    "mapName": "鱼峰区",
+    "mapAbbreviation": "鱼峰",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,鱼峰区",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yufeng",
+    "mapZipCode": 545005
+}, {
+    "id": 450204,
+    "mapName": "柳南区",
+    "mapAbbreviation": "柳南",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,柳南区",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Liunan",
+    "mapZipCode": 545007
+}, {
+    "id": 450205,
+    "mapName": "柳北区",
+    "mapAbbreviation": "柳北",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,柳北区",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Liubei",
+    "mapZipCode": 545002
+}, {
+    "id": 450221,
+    "mapName": "柳江县",
+    "mapAbbreviation": "柳江",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,柳江县",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Liujiang",
+    "mapZipCode": 545100
+}, {
+    "id": 450222,
+    "mapName": "柳城县",
+    "mapAbbreviation": "柳城",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,柳城县",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Liucheng",
+    "mapZipCode": 545200
+}, {
+    "id": 450223,
+    "mapName": "鹿寨县",
+    "mapAbbreviation": "鹿寨",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,鹿寨县",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Luzhai",
+    "mapZipCode": 545600
+}, {
+    "id": 450224,
+    "mapName": "融安县",
+    "mapAbbreviation": "融安",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,融安县",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Rong'an",
+    "mapZipCode": 545400
+}, {
+    "id": 450225,
+    "mapName": "融水苗族自治县",
+    "mapAbbreviation": "融水",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,融水苗族自治县",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Rongshui",
+    "mapZipCode": 545300
+}, {
+    "id": 450226,
+    "mapName": "三江侗族自治县",
+    "mapAbbreviation": "三江",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,三江侗族自治县",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanjiang",
+    "mapZipCode": 545500
+}, {
+    "id": 450227,
+    "mapName": "柳东新区",
+    "mapAbbreviation": "柳东",
+    "mapMergerName": "中国,广西壮族自治区,柳州市,柳东新区",
+    "mapParentId": 450200,
+    "mapLevelType": 3,
+    "mapPinYin": "Liudong",
+    "mapZipCode": 545000
+}, {
+    "id": 450302,
+    "mapName": "秀峰区",
+    "mapAbbreviation": "秀峰",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,秀峰区",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiufeng",
+    "mapZipCode": 541001
+}, {
+    "id": 450303,
+    "mapName": "叠彩区",
+    "mapAbbreviation": "叠彩",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,叠彩区",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Diecai",
+    "mapZipCode": 541001
+}, {
+    "id": 450304,
+    "mapName": "象山区",
+    "mapAbbreviation": "象山",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,象山区",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangshan",
+    "mapZipCode": 541002
+}, {
+    "id": 450305,
+    "mapName": "七星区",
+    "mapAbbreviation": "七星",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,七星区",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qixing",
+    "mapZipCode": 541004
+}, {
+    "id": 450311,
+    "mapName": "雁山区",
+    "mapAbbreviation": "雁山",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,雁山区",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanshan",
+    "mapZipCode": 541006
+}, {
+    "id": 450312,
+    "mapName": "临桂区",
+    "mapAbbreviation": "临桂",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,临桂区",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingui",
+    "mapZipCode": 541100
+}, {
+    "id": 450321,
+    "mapName": "阳朔县",
+    "mapAbbreviation": "阳朔",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,阳朔县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangshuo",
+    "mapZipCode": 541900
+}, {
+    "id": 450323,
+    "mapName": "灵川县",
+    "mapAbbreviation": "灵川",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,灵川县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingchuan",
+    "mapZipCode": 541200
+}, {
+    "id": 450324,
+    "mapName": "全州县",
+    "mapAbbreviation": "全州",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,全州县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Quanzhou",
+    "mapZipCode": 541503
+}, {
+    "id": 450325,
+    "mapName": "兴安县",
+    "mapAbbreviation": "兴安",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,兴安县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xing'an",
+    "mapZipCode": 541300
+}, {
+    "id": 450326,
+    "mapName": "永福县",
+    "mapAbbreviation": "永福",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,永福县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongfu",
+    "mapZipCode": 541800
+}, {
+    "id": 450327,
+    "mapName": "灌阳县",
+    "mapAbbreviation": "灌阳",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,灌阳县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanyang",
+    "mapZipCode": 541600
+}, {
+    "id": 450328,
+    "mapName": "龙胜各族自治县",
+    "mapAbbreviation": "龙胜",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,龙胜各族自治县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Longsheng",
+    "mapZipCode": 541700
+}, {
+    "id": 450329,
+    "mapName": "资源县",
+    "mapAbbreviation": "资源",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,资源县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Ziyuan",
+    "mapZipCode": 541400
+}, {
+    "id": 450330,
+    "mapName": "平乐县",
+    "mapAbbreviation": "平乐",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,平乐县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingle",
+    "mapZipCode": 542400
+}, {
+    "id": 450331,
+    "mapName": "荔浦县",
+    "mapAbbreviation": "荔浦",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,荔浦县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lipu",
+    "mapZipCode": 546600
+}, {
+    "id": 450332,
+    "mapName": "恭城瑶族自治县",
+    "mapAbbreviation": "恭城",
+    "mapMergerName": "中国,广西壮族自治区,桂林市,恭城瑶族自治县",
+    "mapParentId": 450300,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongcheng",
+    "mapZipCode": 542500
+}, {
+    "id": 450403,
+    "mapName": "万秀区",
+    "mapAbbreviation": "万秀",
+    "mapMergerName": "中国,广西壮族自治区,梧州市,万秀区",
+    "mapParentId": 450400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanxiu",
+    "mapZipCode": 543000
+}, {
+    "id": 450405,
+    "mapName": "长洲区",
+    "mapAbbreviation": "长洲",
+    "mapMergerName": "中国,广西壮族自治区,梧州市,长洲区",
+    "mapParentId": 450400,
+    "mapLevelType": 3,
+    "mapPinYin": "Changzhou",
+    "mapZipCode": 543003
+}, {
+    "id": 450406,
+    "mapName": "龙圩区",
+    "mapAbbreviation": "龙圩",
+    "mapMergerName": "中国,广西壮族自治区,梧州市,龙圩区",
+    "mapParentId": 450400,
+    "mapLevelType": 3,
+    "mapPinYin": "Longxu",
+    "mapZipCode": 543002
+}, {
+    "id": 450421,
+    "mapName": "苍梧县",
+    "mapAbbreviation": "苍梧",
+    "mapMergerName": "中国,广西壮族自治区,梧州市,苍梧县",
+    "mapParentId": 450400,
+    "mapLevelType": 3,
+    "mapPinYin": "Cangwu",
+    "mapZipCode": 543100
+}, {
+    "id": 450422,
+    "mapName": "藤县",
+    "mapAbbreviation": "藤县",
+    "mapMergerName": "中国,广西壮族自治区,梧州市,藤县",
+    "mapParentId": 450400,
+    "mapLevelType": 3,
+    "mapPinYin": "Tengxian",
+    "mapZipCode": 543300
+}, {
+    "id": 450423,
+    "mapName": "蒙山县",
+    "mapAbbreviation": "蒙山",
+    "mapMergerName": "中国,广西壮族自治区,梧州市,蒙山县",
+    "mapParentId": 450400,
+    "mapLevelType": 3,
+    "mapPinYin": "Mengshan",
+    "mapZipCode": 546700
+}, {
+    "id": 450481,
+    "mapName": "岑溪市",
+    "mapAbbreviation": "岑溪",
+    "mapMergerName": "中国,广西壮族自治区,梧州市,岑溪市",
+    "mapParentId": 450400,
+    "mapLevelType": 3,
+    "mapPinYin": "Cenxi",
+    "mapZipCode": 543200
+}, {
+    "id": 450502,
+    "mapName": "海城区",
+    "mapAbbreviation": "海城",
+    "mapMergerName": "中国,广西壮族自治区,北海市,海城区",
+    "mapParentId": 450500,
+    "mapLevelType": 3,
+    "mapPinYin": "Haicheng",
+    "mapZipCode": 536000
+}, {
+    "id": 450503,
+    "mapName": "银海区",
+    "mapAbbreviation": "银海",
+    "mapMergerName": "中国,广西壮族自治区,北海市,银海区",
+    "mapParentId": 450500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yinhai",
+    "mapZipCode": 536000
+}, {
+    "id": 450512,
+    "mapName": "铁山港区",
+    "mapAbbreviation": "铁山港",
+    "mapMergerName": "中国,广西壮族自治区,北海市,铁山港区",
+    "mapParentId": 450500,
+    "mapLevelType": 3,
+    "mapPinYin": "Tieshangang",
+    "mapZipCode": 536017
+}, {
+    "id": 450521,
+    "mapName": "合浦县",
+    "mapAbbreviation": "合浦",
+    "mapMergerName": "中国,广西壮族自治区,北海市,合浦县",
+    "mapParentId": 450500,
+    "mapLevelType": 3,
+    "mapPinYin": "Hepu",
+    "mapZipCode": 536100
+}, {
+    "id": 450602,
+    "mapName": "港口区",
+    "mapAbbreviation": "港口",
+    "mapMergerName": "中国,广西壮族自治区,防城港市,港口区",
+    "mapParentId": 450600,
+    "mapLevelType": 3,
+    "mapPinYin": "Gangkou",
+    "mapZipCode": 538001
+}, {
+    "id": 450603,
+    "mapName": "防城区",
+    "mapAbbreviation": "防城",
+    "mapMergerName": "中国,广西壮族自治区,防城港市,防城区",
+    "mapParentId": 450600,
+    "mapLevelType": 3,
+    "mapPinYin": "Fangcheng",
+    "mapZipCode": 538021
+}, {
+    "id": 450621,
+    "mapName": "上思县",
+    "mapAbbreviation": "上思",
+    "mapMergerName": "中国,广西壮族自治区,防城港市,上思县",
+    "mapParentId": 450600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangsi",
+    "mapZipCode": 535500
+}, {
+    "id": 450681,
+    "mapName": "东兴市",
+    "mapAbbreviation": "东兴",
+    "mapMergerName": "中国,广西壮族自治区,防城港市,东兴市",
+    "mapParentId": 450600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongxing",
+    "mapZipCode": 538100
+}, {
+    "id": 450702,
+    "mapName": "钦南区",
+    "mapAbbreviation": "钦南",
+    "mapMergerName": "中国,广西壮族自治区,钦州市,钦南区",
+    "mapParentId": 450700,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinnan",
+    "mapZipCode": 535099
+}, {
+    "id": 450703,
+    "mapName": "钦北区",
+    "mapAbbreviation": "钦北",
+    "mapMergerName": "中国,广西壮族自治区,钦州市,钦北区",
+    "mapParentId": 450700,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinbei",
+    "mapZipCode": 535099
+}, {
+    "id": 450721,
+    "mapName": "灵山县",
+    "mapAbbreviation": "灵山",
+    "mapMergerName": "中国,广西壮族自治区,钦州市,灵山县",
+    "mapParentId": 450700,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingshan",
+    "mapZipCode": 535099
+}, {
+    "id": 450722,
+    "mapName": "浦北县",
+    "mapAbbreviation": "浦北",
+    "mapMergerName": "中国,广西壮族自治区,钦州市,浦北县",
+    "mapParentId": 450700,
+    "mapLevelType": 3,
+    "mapPinYin": "Pubei",
+    "mapZipCode": 535099
+}, {
+    "id": 450802,
+    "mapName": "港北区",
+    "mapAbbreviation": "港北",
+    "mapMergerName": "中国,广西壮族自治区,贵港市,港北区",
+    "mapParentId": 450800,
+    "mapLevelType": 3,
+    "mapPinYin": "Gangbei",
+    "mapZipCode": 537100
+}, {
+    "id": 450803,
+    "mapName": "港南区",
+    "mapAbbreviation": "港南",
+    "mapMergerName": "中国,广西壮族自治区,贵港市,港南区",
+    "mapParentId": 450800,
+    "mapLevelType": 3,
+    "mapPinYin": "Gangnan",
+    "mapZipCode": 537100
+}, {
+    "id": 450804,
+    "mapName": "覃塘区",
+    "mapAbbreviation": "覃塘",
+    "mapMergerName": "中国,广西壮族自治区,贵港市,覃塘区",
+    "mapParentId": 450800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qintang",
+    "mapZipCode": 537121
+}, {
+    "id": 450821,
+    "mapName": "平南县",
+    "mapAbbreviation": "平南",
+    "mapMergerName": "中国,广西壮族自治区,贵港市,平南县",
+    "mapParentId": 450800,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingnan",
+    "mapZipCode": 537300
+}, {
+    "id": 450881,
+    "mapName": "桂平市",
+    "mapAbbreviation": "桂平",
+    "mapMergerName": "中国,广西壮族自治区,贵港市,桂平市",
+    "mapParentId": 450800,
+    "mapLevelType": 3,
+    "mapPinYin": "Guiping",
+    "mapZipCode": 537200
+}, {
+    "id": 450902,
+    "mapName": "玉州区",
+    "mapAbbreviation": "玉州",
+    "mapMergerName": "中国,广西壮族自治区,玉林市,玉州区",
+    "mapParentId": 450900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuzhou",
+    "mapZipCode": 537000
+}, {
+    "id": 450903,
+    "mapName": "福绵区",
+    "mapAbbreviation": "福绵",
+    "mapMergerName": "中国,广西壮族自治区,玉林市,福绵区",
+    "mapParentId": 450900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fumian",
+    "mapZipCode": 537023
+}, {
+    "id": 450904,
+    "mapName": "玉东新区",
+    "mapAbbreviation": "玉东",
+    "mapMergerName": "中国,广西壮族自治区,玉林市,玉东新区",
+    "mapParentId": 450900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yudong",
+    "mapZipCode": 537000
+}, {
+    "id": 450921,
+    "mapName": "容县",
+    "mapAbbreviation": "容县",
+    "mapMergerName": "中国,广西壮族自治区,玉林市,容县",
+    "mapParentId": 450900,
+    "mapLevelType": 3,
+    "mapPinYin": "Rongxian",
+    "mapZipCode": 537500
+}, {
+    "id": 450922,
+    "mapName": "陆川县",
+    "mapAbbreviation": "陆川",
+    "mapMergerName": "中国,广西壮族自治区,玉林市,陆川县",
+    "mapParentId": 450900,
+    "mapLevelType": 3,
+    "mapPinYin": "Luchuan",
+    "mapZipCode": 537700
+}, {
+    "id": 450923,
+    "mapName": "博白县",
+    "mapAbbreviation": "博白",
+    "mapMergerName": "中国,广西壮族自治区,玉林市,博白县",
+    "mapParentId": 450900,
+    "mapLevelType": 3,
+    "mapPinYin": "Bobai",
+    "mapZipCode": 537600
+}, {
+    "id": 450924,
+    "mapName": "兴业县",
+    "mapAbbreviation": "兴业",
+    "mapMergerName": "中国,广西壮族自治区,玉林市,兴业县",
+    "mapParentId": 450900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingye",
+    "mapZipCode": 537800
+}, {
+    "id": 450981,
+    "mapName": "北流市",
+    "mapAbbreviation": "北流",
+    "mapMergerName": "中国,广西壮族自治区,玉林市,北流市",
+    "mapParentId": 450900,
+    "mapLevelType": 3,
+    "mapPinYin": "Beiliu",
+    "mapZipCode": 537400
+}, {
+    "id": 451002,
+    "mapName": "右江区",
+    "mapAbbreviation": "右江",
+    "mapMergerName": "中国,广西壮族自治区,百色市,右江区",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Youjiang",
+    "mapZipCode": 533000
+}, {
+    "id": 451021,
+    "mapName": "田阳县",
+    "mapAbbreviation": "田阳",
+    "mapMergerName": "中国,广西壮族自治区,百色市,田阳县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianyang",
+    "mapZipCode": 533600
+}, {
+    "id": 451022,
+    "mapName": "田东县",
+    "mapAbbreviation": "田东",
+    "mapMergerName": "中国,广西壮族自治区,百色市,田东县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiandong",
+    "mapZipCode": 531500
+}, {
+    "id": 451023,
+    "mapName": "平果县",
+    "mapAbbreviation": "平果",
+    "mapMergerName": "中国,广西壮族自治区,百色市,平果县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingguo",
+    "mapZipCode": 531400
+}, {
+    "id": 451024,
+    "mapName": "德保县",
+    "mapAbbreviation": "德保",
+    "mapMergerName": "中国,广西壮族自治区,百色市,德保县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Debao",
+    "mapZipCode": 533700
+}, {
+    "id": 451025,
+    "mapName": "靖西县",
+    "mapAbbreviation": "靖西",
+    "mapMergerName": "中国,广西壮族自治区,百色市,靖西县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingxi",
+    "mapZipCode": 533800
+}, {
+    "id": 451026,
+    "mapName": "那坡县",
+    "mapAbbreviation": "那坡",
+    "mapMergerName": "中国,广西壮族自治区,百色市,那坡县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Napo",
+    "mapZipCode": 533900
+}, {
+    "id": 451027,
+    "mapName": "凌云县",
+    "mapAbbreviation": "凌云",
+    "mapMergerName": "中国,广西壮族自治区,百色市,凌云县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingyun",
+    "mapZipCode": 533100
+}, {
+    "id": 451028,
+    "mapName": "乐业县",
+    "mapAbbreviation": "乐业",
+    "mapMergerName": "中国,广西壮族自治区,百色市,乐业县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Leye",
+    "mapZipCode": 533200
+}, {
+    "id": 451029,
+    "mapName": "田林县",
+    "mapAbbreviation": "田林",
+    "mapMergerName": "中国,广西壮族自治区,百色市,田林县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianlin",
+    "mapZipCode": 533300
+}, {
+    "id": 451030,
+    "mapName": "西林县",
+    "mapAbbreviation": "西林",
+    "mapMergerName": "中国,广西壮族自治区,百色市,西林县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xilin",
+    "mapZipCode": 533500
+}, {
+    "id": 451031,
+    "mapName": "隆林各族自治县",
+    "mapAbbreviation": "隆林",
+    "mapMergerName": "中国,广西壮族自治区,百色市,隆林各族自治县",
+    "mapParentId": 451000,
+    "mapLevelType": 3,
+    "mapPinYin": "Longlin",
+    "mapZipCode": 533400
+}, {
+    "id": 451102,
+    "mapName": "八步区",
+    "mapAbbreviation": "八步",
+    "mapMergerName": "中国,广西壮族自治区,贺州市,八步区",
+    "mapParentId": 451100,
+    "mapLevelType": 3,
+    "mapPinYin": "Babu",
+    "mapZipCode": 542800
+}, {
+    "id": 451121,
+    "mapName": "昭平县",
+    "mapAbbreviation": "昭平",
+    "mapMergerName": "中国,广西壮族自治区,贺州市,昭平县",
+    "mapParentId": 451100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaoping",
+    "mapZipCode": 546800
+}, {
+    "id": 451122,
+    "mapName": "钟山县",
+    "mapAbbreviation": "钟山",
+    "mapMergerName": "中国,广西壮族自治区,贺州市,钟山县",
+    "mapParentId": 451100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongshan",
+    "mapZipCode": 542600
+}, {
+    "id": 451123,
+    "mapName": "富川瑶族自治县",
+    "mapAbbreviation": "富川",
+    "mapMergerName": "中国,广西壮族自治区,贺州市,富川瑶族自治县",
+    "mapParentId": 451100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuchuan",
+    "mapZipCode": 542700
+}, {
+    "id": 451124,
+    "mapName": "平桂管理区",
+    "mapAbbreviation": "平桂",
+    "mapMergerName": "中国,广西壮族自治区,贺州市,平桂管理区",
+    "mapParentId": 451100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingui",
+    "mapZipCode": 542800
+}, {
+    "id": 451202,
+    "mapName": "金城江区",
+    "mapAbbreviation": "金城江",
+    "mapMergerName": "中国,广西壮族自治区,河池市,金城江区",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinchengjiang",
+    "mapZipCode": 547000
+}, {
+    "id": 451221,
+    "mapName": "南丹县",
+    "mapAbbreviation": "南丹",
+    "mapMergerName": "中国,广西壮族自治区,河池市,南丹县",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nandan",
+    "mapZipCode": 547200
+}, {
+    "id": 451222,
+    "mapName": "天峨县",
+    "mapAbbreviation": "天峨",
+    "mapMergerName": "中国,广西壮族自治区,河池市,天峨县",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiane",
+    "mapZipCode": 547300
+}, {
+    "id": 451223,
+    "mapName": "凤山县",
+    "mapAbbreviation": "凤山",
+    "mapMergerName": "中国,广西壮族自治区,河池市,凤山县",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengshan",
+    "mapZipCode": 547600
+}, {
+    "id": 451224,
+    "mapName": "东兰县",
+    "mapAbbreviation": "东兰",
+    "mapMergerName": "中国,广西壮族自治区,河池市,东兰县",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Donglan",
+    "mapZipCode": 547400
+}, {
+    "id": 451225,
+    "mapName": "罗城仫佬族自治县",
+    "mapAbbreviation": "罗城",
+    "mapMergerName": "中国,广西壮族自治区,河池市,罗城仫佬族自治县",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Luocheng",
+    "mapZipCode": 546400
+}, {
+    "id": 451226,
+    "mapName": "环江毛南族自治县",
+    "mapAbbreviation": "环江",
+    "mapMergerName": "中国,广西壮族自治区,河池市,环江毛南族自治县",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huanjiang",
+    "mapZipCode": 547100
+}, {
+    "id": 451227,
+    "mapName": "巴马瑶族自治县",
+    "mapAbbreviation": "巴马",
+    "mapMergerName": "中国,广西壮族自治区,河池市,巴马瑶族自治县",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Bama",
+    "mapZipCode": 547500
+}, {
+    "id": 451228,
+    "mapName": "都安瑶族自治县",
+    "mapAbbreviation": "都安",
+    "mapMergerName": "中国,广西壮族自治区,河池市,都安瑶族自治县",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Du'an",
+    "mapZipCode": 530700
+}, {
+    "id": 451229,
+    "mapName": "大化瑶族自治县",
+    "mapAbbreviation": "大化",
+    "mapMergerName": "中国,广西壮族自治区,河池市,大化瑶族自治县",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Dahua",
+    "mapZipCode": 530800
+}, {
+    "id": 451281,
+    "mapName": "宜州市",
+    "mapAbbreviation": "宜州",
+    "mapMergerName": "中国,广西壮族自治区,河池市,宜州市",
+    "mapParentId": 451200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yizhou",
+    "mapZipCode": 546300
+}, {
+    "id": 451302,
+    "mapName": "兴宾区",
+    "mapAbbreviation": "兴宾",
+    "mapMergerName": "中国,广西壮族自治区,来宾市,兴宾区",
+    "mapParentId": 451300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingbin",
+    "mapZipCode": 546100
+}, {
+    "id": 451321,
+    "mapName": "忻城县",
+    "mapAbbreviation": "忻城",
+    "mapMergerName": "中国,广西壮族自治区,来宾市,忻城县",
+    "mapParentId": 451300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xincheng",
+    "mapZipCode": 546200
+}, {
+    "id": 451322,
+    "mapName": "象州县",
+    "mapAbbreviation": "象州",
+    "mapMergerName": "中国,广西壮族自治区,来宾市,象州县",
+    "mapParentId": 451300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangzhou",
+    "mapZipCode": 545800
+}, {
+    "id": 451323,
+    "mapName": "武宣县",
+    "mapAbbreviation": "武宣",
+    "mapMergerName": "中国,广西壮族自治区,来宾市,武宣县",
+    "mapParentId": 451300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuxuan",
+    "mapZipCode": 545900
+}, {
+    "id": 451324,
+    "mapName": "金秀瑶族自治县",
+    "mapAbbreviation": "金秀",
+    "mapMergerName": "中国,广西壮族自治区,来宾市,金秀瑶族自治县",
+    "mapParentId": 451300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinxiu",
+    "mapZipCode": 545799
+}, {
+    "id": 451381,
+    "mapName": "合山市",
+    "mapAbbreviation": "合山",
+    "mapMergerName": "中国,广西壮族自治区,来宾市,合山市",
+    "mapParentId": 451300,
+    "mapLevelType": 3,
+    "mapPinYin": "Heshan",
+    "mapZipCode": 546500
+}, {
+    "id": 451402,
+    "mapName": "江州区",
+    "mapAbbreviation": "江州",
+    "mapMergerName": "中国,广西壮族自治区,崇左市,江州区",
+    "mapParentId": 451400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangzhou",
+    "mapZipCode": 532299
+}, {
+    "id": 451421,
+    "mapName": "扶绥县",
+    "mapAbbreviation": "扶绥",
+    "mapMergerName": "中国,广西壮族自治区,崇左市,扶绥县",
+    "mapParentId": 451400,
+    "mapLevelType": 3,
+    "mapPinYin": "Fusui",
+    "mapZipCode": 532199
+}, {
+    "id": 451422,
+    "mapName": "宁明县",
+    "mapAbbreviation": "宁明",
+    "mapMergerName": "中国,广西壮族自治区,崇左市,宁明县",
+    "mapParentId": 451400,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningming",
+    "mapZipCode": 532599
+}, {
+    "id": 451423,
+    "mapName": "龙州县",
+    "mapAbbreviation": "龙州",
+    "mapMergerName": "中国,广西壮族自治区,崇左市,龙州县",
+    "mapParentId": 451400,
+    "mapLevelType": 3,
+    "mapPinYin": "Longzhou",
+    "mapZipCode": 532499
+}, {
+    "id": 451424,
+    "mapName": "大新县",
+    "mapAbbreviation": "大新",
+    "mapMergerName": "中国,广西壮族自治区,崇左市,大新县",
+    "mapParentId": 451400,
+    "mapLevelType": 3,
+    "mapPinYin": "Daxin",
+    "mapZipCode": 532399
+}, {
+    "id": 451425,
+    "mapName": "天等县",
+    "mapAbbreviation": "天等",
+    "mapMergerName": "中国,广西壮族自治区,崇左市,天等县",
+    "mapParentId": 451400,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiandeng",
+    "mapZipCode": 532899
+}, {
+    "id": 451481,
+    "mapName": "凭祥市",
+    "mapAbbreviation": "凭祥",
+    "mapMergerName": "中国,广西壮族自治区,崇左市,凭祥市",
+    "mapParentId": 451400,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingxiang",
+    "mapZipCode": 532699
+}, {
+    "id": 460105,
+    "mapName": "秀英区",
+    "mapAbbreviation": "秀英",
+    "mapMergerName": "中国,海南省,海口市,秀英区",
+    "mapParentId": 460100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiuying",
+    "mapZipCode": 570311
+}, {
+    "id": 460106,
+    "mapName": "龙华区",
+    "mapAbbreviation": "龙华",
+    "mapMergerName": "中国,海南省,海口市,龙华区",
+    "mapParentId": 460100,
+    "mapLevelType": 3,
+    "mapPinYin": "Longhua",
+    "mapZipCode": 570145
+}, {
+    "id": 460107,
+    "mapName": "琼山区",
+    "mapAbbreviation": "琼山",
+    "mapMergerName": "中国,海南省,海口市,琼山区",
+    "mapParentId": 460100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiongshan",
+    "mapZipCode": 571100
+}, {
+    "id": 460108,
+    "mapName": "美兰区",
+    "mapAbbreviation": "美兰",
+    "mapMergerName": "中国,海南省,海口市,美兰区",
+    "mapParentId": 460100,
+    "mapLevelType": 3,
+    "mapPinYin": "Meilan",
+    "mapZipCode": 570203
+}, {
+    "id": 460202,
+    "mapName": "海棠区",
+    "mapAbbreviation": "海棠",
+    "mapMergerName": "中国,海南省,三亚市,海棠区",
+    "mapParentId": 460200,
+    "mapLevelType": 3,
+    "mapPinYin": "Haitang",
+    "mapZipCode": 572000
+}, {
+    "id": 460203,
+    "mapName": "吉阳区",
+    "mapAbbreviation": "吉阳",
+    "mapMergerName": "中国,海南省,三亚市,吉阳区",
+    "mapParentId": 460200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiyang",
+    "mapZipCode": 572000
+}, {
+    "id": 460204,
+    "mapName": "天涯区",
+    "mapAbbreviation": "天涯",
+    "mapMergerName": "中国,海南省,三亚市,天涯区",
+    "mapParentId": 460200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianya",
+    "mapZipCode": 572000
+}, {
+    "id": 460205,
+    "mapName": "崖州区",
+    "mapAbbreviation": "崖州",
+    "mapMergerName": "中国,海南省,三亚市,崖州区",
+    "mapParentId": 460200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yazhou",
+    "mapZipCode": 572000
+}, {
+    "id": 460321,
+    "mapName": "西沙群岛",
+    "mapAbbreviation": "西沙",
+    "mapMergerName": "中国,海南省,三沙市,西沙群岛",
+    "mapParentId": 460300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xisha Islands",
+    "mapZipCode": 572000
+}, {
+    "id": 460322,
+    "mapName": "南沙群岛",
+    "mapAbbreviation": "南沙",
+    "mapMergerName": "中国,海南省,三沙市,南沙群岛",
+    "mapParentId": 460300,
+    "mapLevelType": 3,
+    "mapPinYin": "Nansha Islands",
+    "mapZipCode": 573100
+}, {
+    "id": 460323,
+    "mapName": "中沙群岛",
+    "mapAbbreviation": "中沙",
+    "mapMergerName": "中国,海南省,三沙市,中沙群岛",
+    "mapParentId": 460300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongsha Islands",
+    "mapZipCode": 573100
+}, {
+    "id": 469001,
+    "mapName": "五指山市",
+    "mapAbbreviation": "五指山",
+    "mapMergerName": "中国,海南省,直辖县级,五指山市",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuzhishan",
+    "mapZipCode": 572200
+}, {
+    "id": 469002,
+    "mapName": "琼海市",
+    "mapAbbreviation": "琼海",
+    "mapMergerName": "中国,海南省,直辖县级,琼海市",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Qionghai",
+    "mapZipCode": 571400
+}, {
+    "id": 469003,
+    "mapName": "儋州市",
+    "mapAbbreviation": "儋州",
+    "mapMergerName": "中国,海南省,直辖县级,儋州市",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Danzhou",
+    "mapZipCode": 571700
+}, {
+    "id": 469005,
+    "mapName": "文昌市",
+    "mapAbbreviation": "文昌",
+    "mapMergerName": "中国,海南省,直辖县级,文昌市",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenchang",
+    "mapZipCode": 571339
+}, {
+    "id": 469006,
+    "mapName": "万宁市",
+    "mapAbbreviation": "万宁",
+    "mapMergerName": "中国,海南省,直辖县级,万宁市",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanning",
+    "mapZipCode": 571500
+}, {
+    "id": 469007,
+    "mapName": "东方市",
+    "mapAbbreviation": "东方",
+    "mapMergerName": "中国,海南省,直辖县级,东方市",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongfang",
+    "mapZipCode": 572600
+}, {
+    "id": 469021,
+    "mapName": "定安县",
+    "mapAbbreviation": "定安",
+    "mapMergerName": "中国,海南省,直辖县级,定安县",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Ding'an",
+    "mapZipCode": 571200
+}, {
+    "id": 469022,
+    "mapName": "屯昌县",
+    "mapAbbreviation": "屯昌",
+    "mapMergerName": "中国,海南省,直辖县级,屯昌县",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tunchang",
+    "mapZipCode": 571600
+}, {
+    "id": 469023,
+    "mapName": "澄迈县",
+    "mapAbbreviation": "澄迈",
+    "mapMergerName": "中国,海南省,直辖县级,澄迈县",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengmai",
+    "mapZipCode": 571900
+}, {
+    "id": 469024,
+    "mapName": "临高县",
+    "mapAbbreviation": "临高",
+    "mapMergerName": "中国,海南省,直辖县级,临高县",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingao",
+    "mapZipCode": 571800
+}, {
+    "id": 469025,
+    "mapName": "白沙黎族自治县",
+    "mapAbbreviation": "白沙",
+    "mapMergerName": "中国,海南省,直辖县级,白沙黎族自治县",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Baisha",
+    "mapZipCode": 572800
+}, {
+    "id": 469026,
+    "mapName": "昌江黎族自治县",
+    "mapAbbreviation": "昌江",
+    "mapMergerName": "中国,海南省,直辖县级,昌江黎族自治县",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Changjiang",
+    "mapZipCode": 572700
+}, {
+    "id": 469027,
+    "mapName": "乐东黎族自治县",
+    "mapAbbreviation": "乐东",
+    "mapMergerName": "中国,海南省,直辖县级,乐东黎族自治县",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Ledong",
+    "mapZipCode": 572500
+}, {
+    "id": 469028,
+    "mapName": "陵水黎族自治县",
+    "mapAbbreviation": "陵水",
+    "mapMergerName": "中国,海南省,直辖县级,陵水黎族自治县",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingshui",
+    "mapZipCode": 572400
+}, {
+    "id": 469029,
+    "mapName": "保亭黎族苗族自治县",
+    "mapAbbreviation": "保亭",
+    "mapMergerName": "中国,海南省,直辖县级,保亭黎族苗族自治县",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Baoting",
+    "mapZipCode": 572300
+}, {
+    "id": 469030,
+    "mapName": "琼中黎族苗族自治县",
+    "mapAbbreviation": "琼中",
+    "mapMergerName": "中国,海南省,直辖县级,琼中黎族苗族自治县",
+    "mapParentId": 469000,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiongzhong",
+    "mapZipCode": 572900
+}, {
+    "id": 500101,
+    "mapName": "万州区",
+    "mapAbbreviation": "万州",
+    "mapMergerName": "中国,重庆,重庆市,万州区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanzhou",
+    "mapZipCode": 404000
+}, {
+    "id": 500102,
+    "mapName": "涪陵区",
+    "mapAbbreviation": "涪陵",
+    "mapMergerName": "中国,重庆,重庆市,涪陵区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuling",
+    "mapZipCode": 408000
+}, {
+    "id": 500103,
+    "mapName": "渝中区",
+    "mapAbbreviation": "渝中",
+    "mapMergerName": "中国,重庆,重庆市,渝中区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuzhong",
+    "mapZipCode": 400010
+}, {
+    "id": 500104,
+    "mapName": "大渡口区",
+    "mapAbbreviation": "大渡口",
+    "mapMergerName": "中国,重庆,重庆市,大渡口区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dadukou",
+    "mapZipCode": 400080
+}, {
+    "id": 500105,
+    "mapName": "江北区",
+    "mapAbbreviation": "江北",
+    "mapMergerName": "中国,重庆,重庆市,江北区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangbei",
+    "mapZipCode": 400020
+}, {
+    "id": 500106,
+    "mapName": "沙坪坝区",
+    "mapAbbreviation": "沙坪坝",
+    "mapMergerName": "中国,重庆,重庆市,沙坪坝区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shapingba",
+    "mapZipCode": 400030
+}, {
+    "id": 500107,
+    "mapName": "九龙坡区",
+    "mapAbbreviation": "九龙坡",
+    "mapMergerName": "中国,重庆,重庆市,九龙坡区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiulongpo",
+    "mapZipCode": 400050
+}, {
+    "id": 500108,
+    "mapName": "南岸区",
+    "mapAbbreviation": "南岸",
+    "mapMergerName": "中国,重庆,重庆市,南岸区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nan'an",
+    "mapZipCode": 400064
+}, {
+    "id": 500109,
+    "mapName": "北碚区",
+    "mapAbbreviation": "北碚",
+    "mapMergerName": "中国,重庆,重庆市,北碚区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Beibei",
+    "mapZipCode": 400700
+}, {
+    "id": 500110,
+    "mapName": "綦江区",
+    "mapAbbreviation": "綦江",
+    "mapMergerName": "中国,重庆,重庆市,綦江区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qijiang",
+    "mapZipCode": 400800
+}, {
+    "id": 500111,
+    "mapName": "大足区",
+    "mapAbbreviation": "大足",
+    "mapMergerName": "中国,重庆,重庆市,大足区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dazu",
+    "mapZipCode": 400900
+}, {
+    "id": 500112,
+    "mapName": "渝北区",
+    "mapAbbreviation": "渝北",
+    "mapMergerName": "中国,重庆,重庆市,渝北区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yubei",
+    "mapZipCode": 401120
+}, {
+    "id": 500113,
+    "mapName": "巴南区",
+    "mapAbbreviation": "巴南",
+    "mapMergerName": "中国,重庆,重庆市,巴南区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Banan",
+    "mapZipCode": 401320
+}, {
+    "id": 500114,
+    "mapName": "黔江区",
+    "mapAbbreviation": "黔江",
+    "mapMergerName": "中国,重庆,重庆市,黔江区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianjiang",
+    "mapZipCode": 409700
+}, {
+    "id": 500115,
+    "mapName": "长寿区",
+    "mapAbbreviation": "长寿",
+    "mapMergerName": "中国,重庆,重庆市,长寿区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Changshou",
+    "mapZipCode": 401220
+}, {
+    "id": 500116,
+    "mapName": "江津区",
+    "mapAbbreviation": "江津",
+    "mapMergerName": "中国,重庆,重庆市,江津区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangjin",
+    "mapZipCode": 402260
+}, {
+    "id": 500117,
+    "mapName": "合川区",
+    "mapAbbreviation": "合川",
+    "mapMergerName": "中国,重庆,重庆市,合川区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Hechuan",
+    "mapZipCode": 401520
+}, {
+    "id": 500118,
+    "mapName": "永川区",
+    "mapAbbreviation": "永川",
+    "mapMergerName": "中国,重庆,重庆市,永川区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongchuan",
+    "mapZipCode": 402160
+}, {
+    "id": 500119,
+    "mapName": "南川区",
+    "mapAbbreviation": "南川",
+    "mapMergerName": "中国,重庆,重庆市,南川区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanchuan",
+    "mapZipCode": 408400
+}, {
+    "id": 500120,
+    "mapName": "璧山区",
+    "mapAbbreviation": "璧山",
+    "mapMergerName": "中国,重庆,重庆市,璧山区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Bishan",
+    "mapZipCode": 402760
+}, {
+    "id": 500151,
+    "mapName": "铜梁区",
+    "mapAbbreviation": "铜梁",
+    "mapMergerName": "中国,重庆,重庆市,铜梁区",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongliang",
+    "mapZipCode": 402560
+}, {
+    "id": 500223,
+    "mapName": "潼南县",
+    "mapAbbreviation": "潼南",
+    "mapMergerName": "中国,重庆,重庆市,潼南县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongnan",
+    "mapZipCode": 402660
+}, {
+    "id": 500226,
+    "mapName": "荣昌县",
+    "mapAbbreviation": "荣昌",
+    "mapMergerName": "中国,重庆,重庆市,荣昌县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Rongchang",
+    "mapZipCode": 402460
+}, {
+    "id": 500228,
+    "mapName": "梁平县",
+    "mapAbbreviation": "梁平",
+    "mapMergerName": "中国,重庆,重庆市,梁平县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Liangping",
+    "mapZipCode": 405200
+}, {
+    "id": 500229,
+    "mapName": "城口县",
+    "mapAbbreviation": "城口",
+    "mapMergerName": "中国,重庆,重庆市,城口县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengkou",
+    "mapZipCode": 405900
+}, {
+    "id": 500230,
+    "mapName": "丰都县",
+    "mapAbbreviation": "丰都",
+    "mapMergerName": "中国,重庆,重庆市,丰都县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengdu",
+    "mapZipCode": 408200
+}, {
+    "id": 500231,
+    "mapName": "垫江县",
+    "mapAbbreviation": "垫江",
+    "mapMergerName": "中国,重庆,重庆市,垫江县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dianjiang",
+    "mapZipCode": 408300
+}, {
+    "id": 500232,
+    "mapName": "武隆县",
+    "mapAbbreviation": "武隆",
+    "mapMergerName": "中国,重庆,重庆市,武隆县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wulong",
+    "mapZipCode": 408500
+}, {
+    "id": 500233,
+    "mapName": "忠县",
+    "mapAbbreviation": "忠县",
+    "mapMergerName": "中国,重庆,重庆市,忠县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongxian",
+    "mapZipCode": 404300
+}, {
+    "id": 500234,
+    "mapName": "开县",
+    "mapAbbreviation": "开县",
+    "mapMergerName": "中国,重庆,重庆市,开县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Kaixian",
+    "mapZipCode": 405400
+}, {
+    "id": 500235,
+    "mapName": "云阳县",
+    "mapAbbreviation": "云阳",
+    "mapMergerName": "中国,重庆,重庆市,云阳县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunyang",
+    "mapZipCode": 404500
+}, {
+    "id": 500236,
+    "mapName": "奉节县",
+    "mapAbbreviation": "奉节",
+    "mapMergerName": "中国,重庆,重庆市,奉节县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengjie",
+    "mapZipCode": 404600
+}, {
+    "id": 500237,
+    "mapName": "巫山县",
+    "mapAbbreviation": "巫山",
+    "mapMergerName": "中国,重庆,重庆市,巫山县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wushan",
+    "mapZipCode": 404700
+}, {
+    "id": 500238,
+    "mapName": "巫溪县",
+    "mapAbbreviation": "巫溪",
+    "mapMergerName": "中国,重庆,重庆市,巫溪县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuxi",
+    "mapZipCode": 405800
+}, {
+    "id": 500240,
+    "mapName": "石柱土家族自治县",
+    "mapAbbreviation": "石柱",
+    "mapMergerName": "中国,重庆,重庆市,石柱土家族自治县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shizhu",
+    "mapZipCode": 409100
+}, {
+    "id": 500241,
+    "mapName": "秀山土家族苗族自治县",
+    "mapAbbreviation": "秀山",
+    "mapMergerName": "中国,重庆,重庆市,秀山土家族苗族自治县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiushan",
+    "mapZipCode": 409900
+}, {
+    "id": 500242,
+    "mapName": "酉阳土家族苗族自治县",
+    "mapAbbreviation": "酉阳",
+    "mapMergerName": "中国,重庆,重庆市,酉阳土家族苗族自治县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Youyang",
+    "mapZipCode": 409800
+}, {
+    "id": 500243,
+    "mapName": "彭水苗族土家族自治县",
+    "mapAbbreviation": "彭水",
+    "mapMergerName": "中国,重庆,重庆市,彭水苗族土家族自治县",
+    "mapParentId": 500100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pengshui",
+    "mapZipCode": 409600
+}, {
+    "id": 500301,
+    "mapName": "北部新区",
+    "mapAbbreviation": "北部新区",
+    "mapMergerName": "中国,重庆,两江新区,北部新区",
+    "mapParentId": 500300,
+    "mapLevelType": 3,
+    "mapPinYin": "Beibuxinqu",
+    "mapZipCode": 400000
+}, {
+    "id": 500302,
+    "mapName": "保税港区",
+    "mapAbbreviation": "保税港区",
+    "mapMergerName": "中国,重庆,两江新区,保税港区",
+    "mapParentId": 500300,
+    "mapLevelType": 3,
+    "mapPinYin": "Baoshuigangqu",
+    "mapZipCode": 400000
+}, {
+    "id": 500303,
+    "mapName": "工业园区",
+    "mapAbbreviation": "工业园区",
+    "mapMergerName": "中国,重庆,两江新区,工业园区",
+    "mapParentId": 500300,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongyeyuanqu",
+    "mapZipCode": 400000
+}, {
+    "id": 510104,
+    "mapName": "锦江区",
+    "mapAbbreviation": "锦江",
+    "mapMergerName": "中国,四川省,成都市,锦江区",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinjiang",
+    "mapZipCode": 610021
+}, {
+    "id": 510105,
+    "mapName": "青羊区",
+    "mapAbbreviation": "青羊",
+    "mapMergerName": "中国,四川省,成都市,青羊区",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingyang",
+    "mapZipCode": 610031
+}, {
+    "id": 510106,
+    "mapName": "金牛区",
+    "mapAbbreviation": "金牛",
+    "mapMergerName": "中国,四川省,成都市,金牛区",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinniu",
+    "mapZipCode": 610036
+}, {
+    "id": 510107,
+    "mapName": "武侯区",
+    "mapAbbreviation": "武侯",
+    "mapMergerName": "中国,四川省,成都市,武侯区",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuhou",
+    "mapZipCode": 610041
+}, {
+    "id": 510108,
+    "mapName": "成华区",
+    "mapAbbreviation": "成华",
+    "mapMergerName": "中国,四川省,成都市,成华区",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chenghua",
+    "mapZipCode": 610066
+}, {
+    "id": 510112,
+    "mapName": "龙泉驿区",
+    "mapAbbreviation": "龙泉驿",
+    "mapMergerName": "中国,四川省,成都市,龙泉驿区",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Longquanyi",
+    "mapZipCode": 610100
+}, {
+    "id": 510113,
+    "mapName": "青白江区",
+    "mapAbbreviation": "青白江",
+    "mapMergerName": "中国,四川省,成都市,青白江区",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingbaijiang",
+    "mapZipCode": 610300
+}, {
+    "id": 510114,
+    "mapName": "新都区",
+    "mapAbbreviation": "新都",
+    "mapMergerName": "中国,四川省,成都市,新都区",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xindu",
+    "mapZipCode": 610500
+}, {
+    "id": 510115,
+    "mapName": "温江区",
+    "mapAbbreviation": "温江",
+    "mapMergerName": "中国,四川省,成都市,温江区",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenjiang",
+    "mapZipCode": 611130
+}, {
+    "id": 510121,
+    "mapName": "金堂县",
+    "mapAbbreviation": "金堂",
+    "mapMergerName": "中国,四川省,成都市,金堂县",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jintang",
+    "mapZipCode": 610400
+}, {
+    "id": 510122,
+    "mapName": "双流县",
+    "mapAbbreviation": "双流",
+    "mapMergerName": "中国,四川省,成都市,双流县",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangliu",
+    "mapZipCode": 610200
+}, {
+    "id": 510124,
+    "mapName": "郫县",
+    "mapAbbreviation": "郫县",
+    "mapMergerName": "中国,四川省,成都市,郫县",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pixian",
+    "mapZipCode": 611730
+}, {
+    "id": 510129,
+    "mapName": "大邑县",
+    "mapAbbreviation": "大邑",
+    "mapMergerName": "中国,四川省,成都市,大邑县",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dayi",
+    "mapZipCode": 611330
+}, {
+    "id": 510131,
+    "mapName": "蒲江县",
+    "mapAbbreviation": "蒲江",
+    "mapMergerName": "中国,四川省,成都市,蒲江县",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pujiang",
+    "mapZipCode": 611630
+}, {
+    "id": 510132,
+    "mapName": "新津县",
+    "mapAbbreviation": "新津",
+    "mapMergerName": "中国,四川省,成都市,新津县",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinjin",
+    "mapZipCode": 611430
+}, {
+    "id": 510181,
+    "mapName": "都江堰市",
+    "mapAbbreviation": "都江堰",
+    "mapMergerName": "中国,四川省,成都市,都江堰市",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dujiangyan",
+    "mapZipCode": 611830
+}, {
+    "id": 510182,
+    "mapName": "彭州市",
+    "mapAbbreviation": "彭州",
+    "mapMergerName": "中国,四川省,成都市,彭州市",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Pengzhou",
+    "mapZipCode": 611930
+}, {
+    "id": 510183,
+    "mapName": "邛崃市",
+    "mapAbbreviation": "邛崃",
+    "mapMergerName": "中国,四川省,成都市,邛崃市",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qionglai",
+    "mapZipCode": 611530
+}, {
+    "id": 510184,
+    "mapName": "崇州市",
+    "mapAbbreviation": "崇州",
+    "mapMergerName": "中国,四川省,成都市,崇州市",
+    "mapParentId": 510100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chongzhou",
+    "mapZipCode": 611230
+}, {
+    "id": 510302,
+    "mapName": "自流井区",
+    "mapAbbreviation": "自流井",
+    "mapMergerName": "中国,四川省,自贡市,自流井区",
+    "mapParentId": 510300,
+    "mapLevelType": 3,
+    "mapPinYin": "Ziliujing",
+    "mapZipCode": 643000
+}, {
+    "id": 510303,
+    "mapName": "贡井区",
+    "mapAbbreviation": "贡井",
+    "mapMergerName": "中国,四川省,自贡市,贡井区",
+    "mapParentId": 510300,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongjing",
+    "mapZipCode": 643020
+}, {
+    "id": 510304,
+    "mapName": "大安区",
+    "mapAbbreviation": "大安",
+    "mapMergerName": "中国,四川省,自贡市,大安区",
+    "mapParentId": 510300,
+    "mapLevelType": 3,
+    "mapPinYin": "Da'an",
+    "mapZipCode": 643010
+}, {
+    "id": 510311,
+    "mapName": "沿滩区",
+    "mapAbbreviation": "沿滩",
+    "mapMergerName": "中国,四川省,自贡市,沿滩区",
+    "mapParentId": 510300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yantan",
+    "mapZipCode": 643030
+}, {
+    "id": 510321,
+    "mapName": "荣县",
+    "mapAbbreviation": "荣县",
+    "mapMergerName": "中国,四川省,自贡市,荣县",
+    "mapParentId": 510300,
+    "mapLevelType": 3,
+    "mapPinYin": "Rongxian",
+    "mapZipCode": 643100
+}, {
+    "id": 510322,
+    "mapName": "富顺县",
+    "mapAbbreviation": "富顺",
+    "mapMergerName": "中国,四川省,自贡市,富顺县",
+    "mapParentId": 510300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fushun",
+    "mapZipCode": 643200
+}, {
+    "id": 510402,
+    "mapName": "东区",
+    "mapAbbreviation": "东区",
+    "mapMergerName": "中国,四川省,攀枝花市,东区",
+    "mapParentId": 510400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongqu",
+    "mapZipCode": 617067
+}, {
+    "id": 510403,
+    "mapName": "西区",
+    "mapAbbreviation": "西区",
+    "mapMergerName": "中国,四川省,攀枝花市,西区",
+    "mapParentId": 510400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiqu",
+    "mapZipCode": 617068
+}, {
+    "id": 510411,
+    "mapName": "仁和区",
+    "mapAbbreviation": "仁和",
+    "mapMergerName": "中国,四川省,攀枝花市,仁和区",
+    "mapParentId": 510400,
+    "mapLevelType": 3,
+    "mapPinYin": "Renhe",
+    "mapZipCode": 617061
+}, {
+    "id": 510421,
+    "mapName": "米易县",
+    "mapAbbreviation": "米易",
+    "mapMergerName": "中国,四川省,攀枝花市,米易县",
+    "mapParentId": 510400,
+    "mapLevelType": 3,
+    "mapPinYin": "Miyi",
+    "mapZipCode": 617200
+}, {
+    "id": 510422,
+    "mapName": "盐边县",
+    "mapAbbreviation": "盐边",
+    "mapMergerName": "中国,四川省,攀枝花市,盐边县",
+    "mapParentId": 510400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanbian",
+    "mapZipCode": 617100
+}, {
+    "id": 510502,
+    "mapName": "江阳区",
+    "mapAbbreviation": "江阳",
+    "mapMergerName": "中国,四川省,泸州市,江阳区",
+    "mapParentId": 510500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangyang",
+    "mapZipCode": 646000
+}, {
+    "id": 510503,
+    "mapName": "纳溪区",
+    "mapAbbreviation": "纳溪",
+    "mapMergerName": "中国,四川省,泸州市,纳溪区",
+    "mapParentId": 510500,
+    "mapLevelType": 3,
+    "mapPinYin": "Naxi",
+    "mapZipCode": 646300
+}, {
+    "id": 510504,
+    "mapName": "龙马潭区",
+    "mapAbbreviation": "龙马潭",
+    "mapMergerName": "中国,四川省,泸州市,龙马潭区",
+    "mapParentId": 510500,
+    "mapLevelType": 3,
+    "mapPinYin": "Longmatan",
+    "mapZipCode": 646000
+}, {
+    "id": 510521,
+    "mapName": "泸县",
+    "mapAbbreviation": "泸县",
+    "mapMergerName": "中国,四川省,泸州市,泸县",
+    "mapParentId": 510500,
+    "mapLevelType": 3,
+    "mapPinYin": "Luxian",
+    "mapZipCode": 646106
+}, {
+    "id": 510522,
+    "mapName": "合江县",
+    "mapAbbreviation": "合江",
+    "mapMergerName": "中国,四川省,泸州市,合江县",
+    "mapParentId": 510500,
+    "mapLevelType": 3,
+    "mapPinYin": "Hejiang",
+    "mapZipCode": 646200
+}, {
+    "id": 510524,
+    "mapName": "叙永县",
+    "mapAbbreviation": "叙永",
+    "mapMergerName": "中国,四川省,泸州市,叙永县",
+    "mapParentId": 510500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuyong",
+    "mapZipCode": 646400
+}, {
+    "id": 510525,
+    "mapName": "古蔺县",
+    "mapAbbreviation": "古蔺",
+    "mapMergerName": "中国,四川省,泸州市,古蔺县",
+    "mapParentId": 510500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gulin",
+    "mapZipCode": 646500
+}, {
+    "id": 510603,
+    "mapName": "旌阳区",
+    "mapAbbreviation": "旌阳",
+    "mapMergerName": "中国,四川省,德阳市,旌阳区",
+    "mapParentId": 510600,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingyang",
+    "mapZipCode": 618000
+}, {
+    "id": 510623,
+    "mapName": "中江县",
+    "mapAbbreviation": "中江",
+    "mapMergerName": "中国,四川省,德阳市,中江县",
+    "mapParentId": 510600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongjiang",
+    "mapZipCode": 618100
+}, {
+    "id": 510626,
+    "mapName": "罗江县",
+    "mapAbbreviation": "罗江",
+    "mapMergerName": "中国,四川省,德阳市,罗江县",
+    "mapParentId": 510600,
+    "mapLevelType": 3,
+    "mapPinYin": "Luojiang",
+    "mapZipCode": 618500
+}, {
+    "id": 510681,
+    "mapName": "广汉市",
+    "mapAbbreviation": "广汉",
+    "mapMergerName": "中国,四川省,德阳市,广汉市",
+    "mapParentId": 510600,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanghan",
+    "mapZipCode": 618300
+}, {
+    "id": 510682,
+    "mapName": "什邡市",
+    "mapAbbreviation": "什邡",
+    "mapMergerName": "中国,四川省,德阳市,什邡市",
+    "mapParentId": 510600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shifang",
+    "mapZipCode": 618400
+}, {
+    "id": 510683,
+    "mapName": "绵竹市",
+    "mapAbbreviation": "绵竹",
+    "mapMergerName": "中国,四川省,德阳市,绵竹市",
+    "mapParentId": 510600,
+    "mapLevelType": 3,
+    "mapPinYin": "Mianzhu",
+    "mapZipCode": 618200
+}, {
+    "id": 510703,
+    "mapName": "涪城区",
+    "mapAbbreviation": "涪城",
+    "mapMergerName": "中国,四川省,绵阳市,涪城区",
+    "mapParentId": 510700,
+    "mapLevelType": 3,
+    "mapPinYin": "Fucheng",
+    "mapZipCode": 621000
+}, {
+    "id": 510704,
+    "mapName": "游仙区",
+    "mapAbbreviation": "游仙",
+    "mapMergerName": "中国,四川省,绵阳市,游仙区",
+    "mapParentId": 510700,
+    "mapLevelType": 3,
+    "mapPinYin": "Youxian",
+    "mapZipCode": 621022
+}, {
+    "id": 510722,
+    "mapName": "三台县",
+    "mapAbbreviation": "三台",
+    "mapMergerName": "中国,四川省,绵阳市,三台县",
+    "mapParentId": 510700,
+    "mapLevelType": 3,
+    "mapPinYin": "Santai",
+    "mapZipCode": 621100
+}, {
+    "id": 510723,
+    "mapName": "盐亭县",
+    "mapAbbreviation": "盐亭",
+    "mapMergerName": "中国,四川省,绵阳市,盐亭县",
+    "mapParentId": 510700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanting",
+    "mapZipCode": 621600
+}, {
+    "id": 510724,
+    "mapName": "安县",
+    "mapAbbreviation": "安县",
+    "mapMergerName": "中国,四川省,绵阳市,安县",
+    "mapParentId": 510700,
+    "mapLevelType": 3,
+    "mapPinYin": "Anxian",
+    "mapZipCode": 622650
+}, {
+    "id": 510725,
+    "mapName": "梓潼县",
+    "mapAbbreviation": "梓潼",
+    "mapMergerName": "中国,四川省,绵阳市,梓潼县",
+    "mapParentId": 510700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zitong",
+    "mapZipCode": 622150
+}, {
+    "id": 510726,
+    "mapName": "北川羌族自治县",
+    "mapAbbreviation": "北川",
+    "mapMergerName": "中国,四川省,绵阳市,北川羌族自治县",
+    "mapParentId": 510700,
+    "mapLevelType": 3,
+    "mapPinYin": "Beichuan",
+    "mapZipCode": 622750
+}, {
+    "id": 510727,
+    "mapName": "平武县",
+    "mapAbbreviation": "平武",
+    "mapMergerName": "中国,四川省,绵阳市,平武县",
+    "mapParentId": 510700,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingwu",
+    "mapZipCode": 622550
+}, {
+    "id": 510781,
+    "mapName": "江油市",
+    "mapAbbreviation": "江油",
+    "mapMergerName": "中国,四川省,绵阳市,江油市",
+    "mapParentId": 510700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangyou",
+    "mapZipCode": 621700
+}, {
+    "id": 510802,
+    "mapName": "利州区",
+    "mapAbbreviation": "利州",
+    "mapMergerName": "中国,四川省,广元市,利州区",
+    "mapParentId": 510800,
+    "mapLevelType": 3,
+    "mapPinYin": "Lizhou",
+    "mapZipCode": 628017
+}, {
+    "id": 510811,
+    "mapName": "昭化区",
+    "mapAbbreviation": "昭化",
+    "mapMergerName": "中国,四川省,广元市,昭化区",
+    "mapParentId": 510800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaohua",
+    "mapZipCode": 628017
+}, {
+    "id": 510812,
+    "mapName": "朝天区",
+    "mapAbbreviation": "朝天",
+    "mapMergerName": "中国,四川省,广元市,朝天区",
+    "mapParentId": 510800,
+    "mapLevelType": 3,
+    "mapPinYin": "Chaotian",
+    "mapZipCode": 628017
+}, {
+    "id": 510821,
+    "mapName": "旺苍县",
+    "mapAbbreviation": "旺苍",
+    "mapMergerName": "中国,四川省,广元市,旺苍县",
+    "mapParentId": 510800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wangcang",
+    "mapZipCode": 628200
+}, {
+    "id": 510822,
+    "mapName": "青川县",
+    "mapAbbreviation": "青川",
+    "mapMergerName": "中国,四川省,广元市,青川县",
+    "mapParentId": 510800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingchuan",
+    "mapZipCode": 628100
+}, {
+    "id": 510823,
+    "mapName": "剑阁县",
+    "mapAbbreviation": "剑阁",
+    "mapMergerName": "中国,四川省,广元市,剑阁县",
+    "mapParentId": 510800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiange",
+    "mapZipCode": 628300
+}, {
+    "id": 510824,
+    "mapName": "苍溪县",
+    "mapAbbreviation": "苍溪",
+    "mapMergerName": "中国,四川省,广元市,苍溪县",
+    "mapParentId": 510800,
+    "mapLevelType": 3,
+    "mapPinYin": "Cangxi",
+    "mapZipCode": 628400
+}, {
+    "id": 510903,
+    "mapName": "船山区",
+    "mapAbbreviation": "船山",
+    "mapMergerName": "中国,四川省,遂宁市,船山区",
+    "mapParentId": 510900,
+    "mapLevelType": 3,
+    "mapPinYin": "Chuanshan",
+    "mapZipCode": 629000
+}, {
+    "id": 510904,
+    "mapName": "安居区",
+    "mapAbbreviation": "安居",
+    "mapMergerName": "中国,四川省,遂宁市,安居区",
+    "mapParentId": 510900,
+    "mapLevelType": 3,
+    "mapPinYin": "Anju",
+    "mapZipCode": 629000
+}, {
+    "id": 510921,
+    "mapName": "蓬溪县",
+    "mapAbbreviation": "蓬溪",
+    "mapMergerName": "中国,四川省,遂宁市,蓬溪县",
+    "mapParentId": 510900,
+    "mapLevelType": 3,
+    "mapPinYin": "Pengxi",
+    "mapZipCode": 629100
+}, {
+    "id": 510922,
+    "mapName": "射洪县",
+    "mapAbbreviation": "射洪",
+    "mapMergerName": "中国,四川省,遂宁市,射洪县",
+    "mapParentId": 510900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shehong",
+    "mapZipCode": 629200
+}, {
+    "id": 510923,
+    "mapName": "大英县",
+    "mapAbbreviation": "大英",
+    "mapMergerName": "中国,四川省,遂宁市,大英县",
+    "mapParentId": 510900,
+    "mapLevelType": 3,
+    "mapPinYin": "Daying",
+    "mapZipCode": 629300
+}, {
+    "id": 511002,
+    "mapName": "市中区",
+    "mapAbbreviation": "市中区",
+    "mapMergerName": "中国,四川省,内江市,市中区",
+    "mapParentId": 511000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shizhongqu",
+    "mapZipCode": 641000
+}, {
+    "id": 511011,
+    "mapName": "东兴区",
+    "mapAbbreviation": "东兴",
+    "mapMergerName": "中国,四川省,内江市,东兴区",
+    "mapParentId": 511000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongxing",
+    "mapZipCode": 641100
+}, {
+    "id": 511024,
+    "mapName": "威远县",
+    "mapAbbreviation": "威远",
+    "mapMergerName": "中国,四川省,内江市,威远县",
+    "mapParentId": 511000,
+    "mapLevelType": 3,
+    "mapPinYin": "Weiyuan",
+    "mapZipCode": 642450
+}, {
+    "id": 511025,
+    "mapName": "资中县",
+    "mapAbbreviation": "资中",
+    "mapMergerName": "中国,四川省,内江市,资中县",
+    "mapParentId": 511000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zizhong",
+    "mapZipCode": 641200
+}, {
+    "id": 511028,
+    "mapName": "隆昌县",
+    "mapAbbreviation": "隆昌",
+    "mapMergerName": "中国,四川省,内江市,隆昌县",
+    "mapParentId": 511000,
+    "mapLevelType": 3,
+    "mapPinYin": "Longchang",
+    "mapZipCode": 642150
+}, {
+    "id": 511102,
+    "mapName": "市中区",
+    "mapAbbreviation": "市中区",
+    "mapMergerName": "中国,四川省,乐山市,市中区",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shizhongqu",
+    "mapZipCode": 614000
+}, {
+    "id": 511111,
+    "mapName": "沙湾区",
+    "mapAbbreviation": "沙湾",
+    "mapMergerName": "中国,四川省,乐山市,沙湾区",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shawan",
+    "mapZipCode": 614900
+}, {
+    "id": 511112,
+    "mapName": "五通桥区",
+    "mapAbbreviation": "五通桥",
+    "mapMergerName": "中国,四川省,乐山市,五通桥区",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wutongqiao",
+    "mapZipCode": 614800
+}, {
+    "id": 511113,
+    "mapName": "金口河区",
+    "mapAbbreviation": "金口河",
+    "mapMergerName": "中国,四川省,乐山市,金口河区",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinkouhe",
+    "mapZipCode": 614700
+}, {
+    "id": 511123,
+    "mapName": "犍为县",
+    "mapAbbreviation": "犍为",
+    "mapMergerName": "中国,四川省,乐山市,犍为县",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianwei",
+    "mapZipCode": 614400
+}, {
+    "id": 511124,
+    "mapName": "井研县",
+    "mapAbbreviation": "井研",
+    "mapMergerName": "中国,四川省,乐山市,井研县",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingyan",
+    "mapZipCode": 613100
+}, {
+    "id": 511126,
+    "mapName": "夹江县",
+    "mapAbbreviation": "夹江",
+    "mapMergerName": "中国,四川省,乐山市,夹江县",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiajiang",
+    "mapZipCode": 614100
+}, {
+    "id": 511129,
+    "mapName": "沐川县",
+    "mapAbbreviation": "沐川",
+    "mapMergerName": "中国,四川省,乐山市,沐川县",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Muchuan",
+    "mapZipCode": 614500
+}, {
+    "id": 511132,
+    "mapName": "峨边彝族自治县",
+    "mapAbbreviation": "峨边",
+    "mapMergerName": "中国,四川省,乐山市,峨边彝族自治县",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Ebian",
+    "mapZipCode": 614300
+}, {
+    "id": 511133,
+    "mapName": "马边彝族自治县",
+    "mapAbbreviation": "马边",
+    "mapMergerName": "中国,四川省,乐山市,马边彝族自治县",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Mabian",
+    "mapZipCode": 614600
+}, {
+    "id": 511181,
+    "mapName": "峨眉山市",
+    "mapAbbreviation": "峨眉山",
+    "mapMergerName": "中国,四川省,乐山市,峨眉山市",
+    "mapParentId": 511100,
+    "mapLevelType": 3,
+    "mapPinYin": "Emeishan",
+    "mapZipCode": 614200
+}, {
+    "id": 511302,
+    "mapName": "顺庆区",
+    "mapAbbreviation": "顺庆",
+    "mapMergerName": "中国,四川省,南充市,顺庆区",
+    "mapParentId": 511300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shunqing",
+    "mapZipCode": 637000
+}, {
+    "id": 511303,
+    "mapName": "高坪区",
+    "mapAbbreviation": "高坪",
+    "mapMergerName": "中国,四川省,南充市,高坪区",
+    "mapParentId": 511300,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoping",
+    "mapZipCode": 637100
+}, {
+    "id": 511304,
+    "mapName": "嘉陵区",
+    "mapAbbreviation": "嘉陵",
+    "mapMergerName": "中国,四川省,南充市,嘉陵区",
+    "mapParentId": 511300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jialing",
+    "mapZipCode": 637100
+}, {
+    "id": 511321,
+    "mapName": "南部县",
+    "mapAbbreviation": "南部",
+    "mapMergerName": "中国,四川省,南充市,南部县",
+    "mapParentId": 511300,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanbu",
+    "mapZipCode": 637300
+}, {
+    "id": 511322,
+    "mapName": "营山县",
+    "mapAbbreviation": "营山",
+    "mapMergerName": "中国,四川省,南充市,营山县",
+    "mapParentId": 511300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingshan",
+    "mapZipCode": 637700
+}, {
+    "id": 511323,
+    "mapName": "蓬安县",
+    "mapAbbreviation": "蓬安",
+    "mapMergerName": "中国,四川省,南充市,蓬安县",
+    "mapParentId": 511300,
+    "mapLevelType": 3,
+    "mapPinYin": "Peng'an",
+    "mapZipCode": 637800
+}, {
+    "id": 511324,
+    "mapName": "仪陇县",
+    "mapAbbreviation": "仪陇",
+    "mapMergerName": "中国,四川省,南充市,仪陇县",
+    "mapParentId": 511300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yilong",
+    "mapZipCode": 637600
+}, {
+    "id": 511325,
+    "mapName": "西充县",
+    "mapAbbreviation": "西充",
+    "mapMergerName": "中国,四川省,南充市,西充县",
+    "mapParentId": 511300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xichong",
+    "mapZipCode": 637200
+}, {
+    "id": 511381,
+    "mapName": "阆中市",
+    "mapAbbreviation": "阆中",
+    "mapMergerName": "中国,四川省,南充市,阆中市",
+    "mapParentId": 511300,
+    "mapLevelType": 3,
+    "mapPinYin": "Langzhong",
+    "mapZipCode": 637400
+}, {
+    "id": 511402,
+    "mapName": "东坡区",
+    "mapAbbreviation": "东坡",
+    "mapMergerName": "中国,四川省,眉山市,东坡区",
+    "mapParentId": 511400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongpo",
+    "mapZipCode": 620010
+}, {
+    "id": 511403,
+    "mapName": "彭山区",
+    "mapAbbreviation": "彭山",
+    "mapMergerName": "中国,四川省,眉山市,彭山区",
+    "mapParentId": 511400,
+    "mapLevelType": 3,
+    "mapPinYin": "Pengshan",
+    "mapZipCode": 620860
+}, {
+    "id": 511421,
+    "mapName": "仁寿县",
+    "mapAbbreviation": "仁寿",
+    "mapMergerName": "中国,四川省,眉山市,仁寿县",
+    "mapParentId": 511400,
+    "mapLevelType": 3,
+    "mapPinYin": "Renshou",
+    "mapZipCode": 620500
+}, {
+    "id": 511423,
+    "mapName": "洪雅县",
+    "mapAbbreviation": "洪雅",
+    "mapMergerName": "中国,四川省,眉山市,洪雅县",
+    "mapParentId": 511400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongya",
+    "mapZipCode": 620360
+}, {
+    "id": 511424,
+    "mapName": "丹棱县",
+    "mapAbbreviation": "丹棱",
+    "mapMergerName": "中国,四川省,眉山市,丹棱县",
+    "mapParentId": 511400,
+    "mapLevelType": 3,
+    "mapPinYin": "Danling",
+    "mapZipCode": 620200
+}, {
+    "id": 511425,
+    "mapName": "青神县",
+    "mapAbbreviation": "青神",
+    "mapMergerName": "中国,四川省,眉山市,青神县",
+    "mapParentId": 511400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingshen",
+    "mapZipCode": 620460
+}, {
+    "id": 511502,
+    "mapName": "翠屏区",
+    "mapAbbreviation": "翠屏",
+    "mapMergerName": "中国,四川省,宜宾市,翠屏区",
+    "mapParentId": 511500,
+    "mapLevelType": 3,
+    "mapPinYin": "Cuiping",
+    "mapZipCode": 644000
+}, {
+    "id": 511503,
+    "mapName": "南溪区",
+    "mapAbbreviation": "南溪",
+    "mapMergerName": "中国,四川省,宜宾市,南溪区",
+    "mapParentId": 511500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanxi",
+    "mapZipCode": 644100
+}, {
+    "id": 511521,
+    "mapName": "宜宾县",
+    "mapAbbreviation": "宜宾",
+    "mapMergerName": "中国,四川省,宜宾市,宜宾县",
+    "mapParentId": 511500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yibin",
+    "mapZipCode": 644600
+}, {
+    "id": 511523,
+    "mapName": "江安县",
+    "mapAbbreviation": "江安",
+    "mapMergerName": "中国,四川省,宜宾市,江安县",
+    "mapParentId": 511500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiang'an",
+    "mapZipCode": 644200
+}, {
+    "id": 511524,
+    "mapName": "长宁县",
+    "mapAbbreviation": "长宁",
+    "mapMergerName": "中国,四川省,宜宾市,长宁县",
+    "mapParentId": 511500,
+    "mapLevelType": 3,
+    "mapPinYin": "Changning",
+    "mapZipCode": 644300
+}, {
+    "id": 511525,
+    "mapName": "高县",
+    "mapAbbreviation": "高县",
+    "mapMergerName": "中国,四川省,宜宾市,高县",
+    "mapParentId": 511500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoxian",
+    "mapZipCode": 645150
+}, {
+    "id": 511526,
+    "mapName": "珙县",
+    "mapAbbreviation": "珙县",
+    "mapMergerName": "中国,四川省,宜宾市,珙县",
+    "mapParentId": 511500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongxian",
+    "mapZipCode": 644500
+}, {
+    "id": 511527,
+    "mapName": "筠连县",
+    "mapAbbreviation": "筠连",
+    "mapMergerName": "中国,四川省,宜宾市,筠连县",
+    "mapParentId": 511500,
+    "mapLevelType": 3,
+    "mapPinYin": "Junlian",
+    "mapZipCode": 645250
+}, {
+    "id": 511528,
+    "mapName": "兴文县",
+    "mapAbbreviation": "兴文",
+    "mapMergerName": "中国,四川省,宜宾市,兴文县",
+    "mapParentId": 511500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingwen",
+    "mapZipCode": 644400
+}, {
+    "id": 511529,
+    "mapName": "屏山县",
+    "mapAbbreviation": "屏山",
+    "mapMergerName": "中国,四川省,宜宾市,屏山县",
+    "mapParentId": 511500,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingshan",
+    "mapZipCode": 645350
+}, {
+    "id": 511602,
+    "mapName": "广安区",
+    "mapAbbreviation": "广安",
+    "mapMergerName": "中国,四川省,广安市,广安区",
+    "mapParentId": 511600,
+    "mapLevelType": 3,
+    "mapPinYin": "Guang'an",
+    "mapZipCode": 638000
+}, {
+    "id": 511603,
+    "mapName": "前锋区",
+    "mapAbbreviation": "前锋",
+    "mapMergerName": "中国,四川省,广安市,前锋区",
+    "mapParentId": 511600,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianfeng",
+    "mapZipCode": 638019
+}, {
+    "id": 511621,
+    "mapName": "岳池县",
+    "mapAbbreviation": "岳池",
+    "mapMergerName": "中国,四川省,广安市,岳池县",
+    "mapParentId": 511600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuechi",
+    "mapZipCode": 638300
+}, {
+    "id": 511622,
+    "mapName": "武胜县",
+    "mapAbbreviation": "武胜",
+    "mapMergerName": "中国,四川省,广安市,武胜县",
+    "mapParentId": 511600,
+    "mapLevelType": 3,
+    "mapPinYin": "Wusheng",
+    "mapZipCode": 638400
+}, {
+    "id": 511623,
+    "mapName": "邻水县",
+    "mapAbbreviation": "邻水",
+    "mapMergerName": "中国,四川省,广安市,邻水县",
+    "mapParentId": 511600,
+    "mapLevelType": 3,
+    "mapPinYin": "Linshui",
+    "mapZipCode": 638500
+}, {
+    "id": 511681,
+    "mapName": "华蓥市",
+    "mapAbbreviation": "华蓥",
+    "mapMergerName": "中国,四川省,广安市,华蓥市",
+    "mapParentId": 511600,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaying",
+    "mapZipCode": 638600
+}, {
+    "id": 511702,
+    "mapName": "通川区",
+    "mapAbbreviation": "通川",
+    "mapMergerName": "中国,四川省,达州市,通川区",
+    "mapParentId": 511700,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongchuan",
+    "mapZipCode": 635000
+}, {
+    "id": 511703,
+    "mapName": "达川区",
+    "mapAbbreviation": "达川",
+    "mapMergerName": "中国,四川省,达州市,达川区",
+    "mapParentId": 511700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dachuan",
+    "mapZipCode": 635000
+}, {
+    "id": 511722,
+    "mapName": "宣汉县",
+    "mapAbbreviation": "宣汉",
+    "mapMergerName": "中国,四川省,达州市,宣汉县",
+    "mapParentId": 511700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuanhan",
+    "mapZipCode": 636150
+}, {
+    "id": 511723,
+    "mapName": "开江县",
+    "mapAbbreviation": "开江",
+    "mapMergerName": "中国,四川省,达州市,开江县",
+    "mapParentId": 511700,
+    "mapLevelType": 3,
+    "mapPinYin": "Kaijiang",
+    "mapZipCode": 636250
+}, {
+    "id": 511724,
+    "mapName": "大竹县",
+    "mapAbbreviation": "大竹",
+    "mapMergerName": "中国,四川省,达州市,大竹县",
+    "mapParentId": 511700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dazhu",
+    "mapZipCode": 635100
+}, {
+    "id": 511725,
+    "mapName": "渠县",
+    "mapAbbreviation": "渠县",
+    "mapMergerName": "中国,四川省,达州市,渠县",
+    "mapParentId": 511700,
+    "mapLevelType": 3,
+    "mapPinYin": "Quxian",
+    "mapZipCode": 635200
+}, {
+    "id": 511781,
+    "mapName": "万源市",
+    "mapAbbreviation": "万源",
+    "mapMergerName": "中国,四川省,达州市,万源市",
+    "mapParentId": 511700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanyuan",
+    "mapZipCode": 636350
+}, {
+    "id": 511802,
+    "mapName": "雨城区",
+    "mapAbbreviation": "雨城",
+    "mapMergerName": "中国,四川省,雅安市,雨城区",
+    "mapParentId": 511800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yucheng",
+    "mapZipCode": 625000
+}, {
+    "id": 511803,
+    "mapName": "名山区",
+    "mapAbbreviation": "名山",
+    "mapMergerName": "中国,四川省,雅安市,名山区",
+    "mapParentId": 511800,
+    "mapLevelType": 3,
+    "mapPinYin": "Mingshan",
+    "mapZipCode": 625100
+}, {
+    "id": 511822,
+    "mapName": "荥经县",
+    "mapAbbreviation": "荥经",
+    "mapMergerName": "中国,四川省,雅安市,荥经县",
+    "mapParentId": 511800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingjing",
+    "mapZipCode": 625200
+}, {
+    "id": 511823,
+    "mapName": "汉源县",
+    "mapAbbreviation": "汉源",
+    "mapMergerName": "中国,四川省,雅安市,汉源县",
+    "mapParentId": 511800,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanyuan",
+    "mapZipCode": 625300
+}, {
+    "id": 511824,
+    "mapName": "石棉县",
+    "mapAbbreviation": "石棉",
+    "mapMergerName": "中国,四川省,雅安市,石棉县",
+    "mapParentId": 511800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shimian",
+    "mapZipCode": 625400
+}, {
+    "id": 511825,
+    "mapName": "天全县",
+    "mapAbbreviation": "天全",
+    "mapMergerName": "中国,四川省,雅安市,天全县",
+    "mapParentId": 511800,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianquan",
+    "mapZipCode": 625500
+}, {
+    "id": 511826,
+    "mapName": "芦山县",
+    "mapAbbreviation": "芦山",
+    "mapMergerName": "中国,四川省,雅安市,芦山县",
+    "mapParentId": 511800,
+    "mapLevelType": 3,
+    "mapPinYin": "Lushan",
+    "mapZipCode": 625600
+}, {
+    "id": 511827,
+    "mapName": "宝兴县",
+    "mapAbbreviation": "宝兴",
+    "mapMergerName": "中国,四川省,雅安市,宝兴县",
+    "mapParentId": 511800,
+    "mapLevelType": 3,
+    "mapPinYin": "Baoxing",
+    "mapZipCode": 625700
+}, {
+    "id": 511902,
+    "mapName": "巴州区",
+    "mapAbbreviation": "巴州",
+    "mapMergerName": "中国,四川省,巴中市,巴州区",
+    "mapParentId": 511900,
+    "mapLevelType": 3,
+    "mapPinYin": "Bazhou",
+    "mapZipCode": 636001
+}, {
+    "id": 511903,
+    "mapName": "恩阳区",
+    "mapAbbreviation": "恩阳",
+    "mapMergerName": "中国,四川省,巴中市,恩阳区",
+    "mapParentId": 511900,
+    "mapLevelType": 3,
+    "mapPinYin": "Enyang",
+    "mapZipCode": 636064
+}, {
+    "id": 511921,
+    "mapName": "通江县",
+    "mapAbbreviation": "通江",
+    "mapMergerName": "中国,四川省,巴中市,通江县",
+    "mapParentId": 511900,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongjiang",
+    "mapZipCode": 636700
+}, {
+    "id": 511922,
+    "mapName": "南江县",
+    "mapAbbreviation": "南江",
+    "mapMergerName": "中国,四川省,巴中市,南江县",
+    "mapParentId": 511900,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanjiang",
+    "mapZipCode": 636600
+}, {
+    "id": 511923,
+    "mapName": "平昌县",
+    "mapAbbreviation": "平昌",
+    "mapMergerName": "中国,四川省,巴中市,平昌县",
+    "mapParentId": 511900,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingchang",
+    "mapZipCode": 636400
+}, {
+    "id": 512002,
+    "mapName": "雁江区",
+    "mapAbbreviation": "雁江",
+    "mapMergerName": "中国,四川省,资阳市,雁江区",
+    "mapParentId": 512000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanjiang",
+    "mapZipCode": 641300
+}, {
+    "id": 512021,
+    "mapName": "安岳县",
+    "mapAbbreviation": "安岳",
+    "mapMergerName": "中国,四川省,资阳市,安岳县",
+    "mapParentId": 512000,
+    "mapLevelType": 3,
+    "mapPinYin": "Anyue",
+    "mapZipCode": 642350
+}, {
+    "id": 512022,
+    "mapName": "乐至县",
+    "mapAbbreviation": "乐至",
+    "mapMergerName": "中国,四川省,资阳市,乐至县",
+    "mapParentId": 512000,
+    "mapLevelType": 3,
+    "mapPinYin": "Lezhi",
+    "mapZipCode": 641500
+}, {
+    "id": 512081,
+    "mapName": "简阳市",
+    "mapAbbreviation": "简阳",
+    "mapMergerName": "中国,四川省,资阳市,简阳市",
+    "mapParentId": 512000,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianyang",
+    "mapZipCode": 641400
+}, {
+    "id": 513221,
+    "mapName": "汶川县",
+    "mapAbbreviation": "汶川",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,汶川县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenchuan",
+    "mapZipCode": 623000
+}, {
+    "id": 513222,
+    "mapName": "理县",
+    "mapAbbreviation": "理县",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,理县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lixian",
+    "mapZipCode": 623100
+}, {
+    "id": 513223,
+    "mapName": "茂县",
+    "mapAbbreviation": "茂县",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,茂县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Maoxian",
+    "mapZipCode": 623200
+}, {
+    "id": 513224,
+    "mapName": "松潘县",
+    "mapAbbreviation": "松潘",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,松潘县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Songpan",
+    "mapZipCode": 623300
+}, {
+    "id": 513225,
+    "mapName": "九寨沟县",
+    "mapAbbreviation": "九寨沟",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,九寨沟县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiuzhaigou",
+    "mapZipCode": 623400
+}, {
+    "id": 513226,
+    "mapName": "金川县",
+    "mapAbbreviation": "金川",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,金川县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinchuan",
+    "mapZipCode": 624100
+}, {
+    "id": 513227,
+    "mapName": "小金县",
+    "mapAbbreviation": "小金",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,小金县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaojin",
+    "mapZipCode": 624200
+}, {
+    "id": 513228,
+    "mapName": "黑水县",
+    "mapAbbreviation": "黑水",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,黑水县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Heishui",
+    "mapZipCode": 623500
+}, {
+    "id": 513229,
+    "mapName": "马尔康县",
+    "mapAbbreviation": "马尔康",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,马尔康县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Maerkang",
+    "mapZipCode": 624000
+}, {
+    "id": 513230,
+    "mapName": "壤塘县",
+    "mapAbbreviation": "壤塘",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,壤塘县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Rangtang",
+    "mapZipCode": 624300
+}, {
+    "id": 513231,
+    "mapName": "阿坝县",
+    "mapAbbreviation": "阿坝",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,阿坝县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Aba",
+    "mapZipCode": 624600
+}, {
+    "id": 513232,
+    "mapName": "若尔盖县",
+    "mapAbbreviation": "若尔盖",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,若尔盖县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruoergai",
+    "mapZipCode": 624500
+}, {
+    "id": 513233,
+    "mapName": "红原县",
+    "mapAbbreviation": "红原",
+    "mapMergerName": "中国,四川省,阿坝藏族羌族自治州,红原县",
+    "mapParentId": 513200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongyuan",
+    "mapZipCode": 624400
+}, {
+    "id": 513321,
+    "mapName": "康定县",
+    "mapAbbreviation": "康定",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,康定县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Kangding",
+    "mapZipCode": 626000
+}, {
+    "id": 513322,
+    "mapName": "泸定县",
+    "mapAbbreviation": "泸定",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,泸定县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luding",
+    "mapZipCode": 626100
+}, {
+    "id": 513323,
+    "mapName": "丹巴县",
+    "mapAbbreviation": "丹巴",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,丹巴县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Danba",
+    "mapZipCode": 626300
+}, {
+    "id": 513324,
+    "mapName": "九龙县",
+    "mapAbbreviation": "九龙",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,九龙县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiulong",
+    "mapZipCode": 626200
+}, {
+    "id": 513325,
+    "mapName": "雅江县",
+    "mapAbbreviation": "雅江",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,雅江县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yajiang",
+    "mapZipCode": 627450
+}, {
+    "id": 513326,
+    "mapName": "道孚县",
+    "mapAbbreviation": "道孚",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,道孚县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Daofu",
+    "mapZipCode": 626400
+}, {
+    "id": 513327,
+    "mapName": "炉霍县",
+    "mapAbbreviation": "炉霍",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,炉霍县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luhuo",
+    "mapZipCode": 626500
+}, {
+    "id": 513328,
+    "mapName": "甘孜县",
+    "mapAbbreviation": "甘孜",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,甘孜县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Ganzi",
+    "mapZipCode": 626700
+}, {
+    "id": 513329,
+    "mapName": "新龙县",
+    "mapAbbreviation": "新龙",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,新龙县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinlong",
+    "mapZipCode": 626800
+}, {
+    "id": 513330,
+    "mapName": "德格县",
+    "mapAbbreviation": "德格",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,德格县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Dege",
+    "mapZipCode": 627250
+}, {
+    "id": 513331,
+    "mapName": "白玉县",
+    "mapAbbreviation": "白玉",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,白玉县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Baiyu",
+    "mapZipCode": 627150
+}, {
+    "id": 513332,
+    "mapName": "石渠县",
+    "mapAbbreviation": "石渠",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,石渠县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shiqu",
+    "mapZipCode": 627350
+}, {
+    "id": 513333,
+    "mapName": "色达县",
+    "mapAbbreviation": "色达",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,色达县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Seda",
+    "mapZipCode": 626600
+}, {
+    "id": 513334,
+    "mapName": "理塘县",
+    "mapAbbreviation": "理塘",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,理塘县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Litang",
+    "mapZipCode": 627550
+}, {
+    "id": 513335,
+    "mapName": "巴塘县",
+    "mapAbbreviation": "巴塘",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,巴塘县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Batang",
+    "mapZipCode": 627650
+}, {
+    "id": 513336,
+    "mapName": "乡城县",
+    "mapAbbreviation": "乡城",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,乡城县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangcheng",
+    "mapZipCode": 627850
+}, {
+    "id": 513337,
+    "mapName": "稻城县",
+    "mapAbbreviation": "稻城",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,稻城县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Daocheng",
+    "mapZipCode": 627750
+}, {
+    "id": 513338,
+    "mapName": "得荣县",
+    "mapAbbreviation": "得荣",
+    "mapMergerName": "中国,四川省,甘孜藏族自治州,得荣县",
+    "mapParentId": 513300,
+    "mapLevelType": 3,
+    "mapPinYin": "Derong",
+    "mapZipCode": 627950
+}, {
+    "id": 513401,
+    "mapName": "西昌市",
+    "mapAbbreviation": "西昌",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,西昌市",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xichang",
+    "mapZipCode": 615000
+}, {
+    "id": 513422,
+    "mapName": "木里藏族自治县",
+    "mapAbbreviation": "木里",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,木里藏族自治县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Muli",
+    "mapZipCode": 615800
+}, {
+    "id": 513423,
+    "mapName": "盐源县",
+    "mapAbbreviation": "盐源",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,盐源县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanyuan",
+    "mapZipCode": 615700
+}, {
+    "id": 513424,
+    "mapName": "德昌县",
+    "mapAbbreviation": "德昌",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,德昌县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dechang",
+    "mapZipCode": 615500
+}, {
+    "id": 513425,
+    "mapName": "会理县",
+    "mapAbbreviation": "会理",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,会理县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Huili",
+    "mapZipCode": 615100
+}, {
+    "id": 513426,
+    "mapName": "会东县",
+    "mapAbbreviation": "会东",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,会东县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Huidong",
+    "mapZipCode": 615200
+}, {
+    "id": 513427,
+    "mapName": "宁南县",
+    "mapAbbreviation": "宁南",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,宁南县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningnan",
+    "mapZipCode": 615400
+}, {
+    "id": 513428,
+    "mapName": "普格县",
+    "mapAbbreviation": "普格",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,普格县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Puge",
+    "mapZipCode": 615300
+}, {
+    "id": 513429,
+    "mapName": "布拖县",
+    "mapAbbreviation": "布拖",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,布拖县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Butuo",
+    "mapZipCode": 616350
+}, {
+    "id": 513430,
+    "mapName": "金阳县",
+    "mapAbbreviation": "金阳",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,金阳县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinyang",
+    "mapZipCode": 616250
+}, {
+    "id": 513431,
+    "mapName": "昭觉县",
+    "mapAbbreviation": "昭觉",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,昭觉县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaojue",
+    "mapZipCode": 616150
+}, {
+    "id": 513432,
+    "mapName": "喜德县",
+    "mapAbbreviation": "喜德",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,喜德县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xide",
+    "mapZipCode": 616750
+}, {
+    "id": 513433,
+    "mapName": "冕宁县",
+    "mapAbbreviation": "冕宁",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,冕宁县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Mianning",
+    "mapZipCode": 615600
+}, {
+    "id": 513434,
+    "mapName": "越西县",
+    "mapAbbreviation": "越西",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,越西县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuexi",
+    "mapZipCode": 616650
+}, {
+    "id": 513435,
+    "mapName": "甘洛县",
+    "mapAbbreviation": "甘洛",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,甘洛县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Ganluo",
+    "mapZipCode": 616850
+}, {
+    "id": 513436,
+    "mapName": "美姑县",
+    "mapAbbreviation": "美姑",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,美姑县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Meigu",
+    "mapZipCode": 616450
+}, {
+    "id": 513437,
+    "mapName": "雷波县",
+    "mapAbbreviation": "雷波",
+    "mapMergerName": "中国,四川省,凉山彝族自治州,雷波县",
+    "mapParentId": 513400,
+    "mapLevelType": 3,
+    "mapPinYin": "Leibo",
+    "mapZipCode": 616550
+}, {
+    "id": 520102,
+    "mapName": "南明区",
+    "mapAbbreviation": "南明",
+    "mapMergerName": "中国,贵州省,贵阳市,南明区",
+    "mapParentId": 520100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanming",
+    "mapZipCode": 550001
+}, {
+    "id": 520103,
+    "mapName": "云岩区",
+    "mapAbbreviation": "云岩",
+    "mapMergerName": "中国,贵州省,贵阳市,云岩区",
+    "mapParentId": 520100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunyan",
+    "mapZipCode": 550001
+}, {
+    "id": 520111,
+    "mapName": "花溪区",
+    "mapAbbreviation": "花溪",
+    "mapMergerName": "中国,贵州省,贵阳市,花溪区",
+    "mapParentId": 520100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaxi",
+    "mapZipCode": 550025
+}, {
+    "id": 520112,
+    "mapName": "乌当区",
+    "mapAbbreviation": "乌当",
+    "mapMergerName": "中国,贵州省,贵阳市,乌当区",
+    "mapParentId": 520100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wudang",
+    "mapZipCode": 550018
+}, {
+    "id": 520113,
+    "mapName": "白云区",
+    "mapAbbreviation": "白云",
+    "mapMergerName": "中国,贵州省,贵阳市,白云区",
+    "mapParentId": 520100,
+    "mapLevelType": 3,
+    "mapPinYin": "Baiyun",
+    "mapZipCode": 550014
+}, {
+    "id": 520115,
+    "mapName": "观山湖区",
+    "mapAbbreviation": "观山湖",
+    "mapMergerName": "中国,贵州省,贵阳市,观山湖区",
+    "mapParentId": 520100,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanshanhu",
+    "mapZipCode": 550009
+}, {
+    "id": 520121,
+    "mapName": "开阳县",
+    "mapAbbreviation": "开阳",
+    "mapMergerName": "中国,贵州省,贵阳市,开阳县",
+    "mapParentId": 520100,
+    "mapLevelType": 3,
+    "mapPinYin": "Kaiyang",
+    "mapZipCode": 550300
+}, {
+    "id": 520122,
+    "mapName": "息烽县",
+    "mapAbbreviation": "息烽",
+    "mapMergerName": "中国,贵州省,贵阳市,息烽县",
+    "mapParentId": 520100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xifeng",
+    "mapZipCode": 551100
+}, {
+    "id": 520123,
+    "mapName": "修文县",
+    "mapAbbreviation": "修文",
+    "mapMergerName": "中国,贵州省,贵阳市,修文县",
+    "mapParentId": 520100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiuwen",
+    "mapZipCode": 550200
+}, {
+    "id": 520181,
+    "mapName": "清镇市",
+    "mapAbbreviation": "清镇",
+    "mapMergerName": "中国,贵州省,贵阳市,清镇市",
+    "mapParentId": 520100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingzhen",
+    "mapZipCode": 551400
+}, {
+    "id": 520201,
+    "mapName": "钟山区",
+    "mapAbbreviation": "钟山",
+    "mapMergerName": "中国,贵州省,六盘水市,钟山区",
+    "mapParentId": 520200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongshan",
+    "mapZipCode": 553000
+}, {
+    "id": 520203,
+    "mapName": "六枝特区",
+    "mapAbbreviation": "六枝",
+    "mapMergerName": "中国,贵州省,六盘水市,六枝特区",
+    "mapParentId": 520200,
+    "mapLevelType": 3,
+    "mapPinYin": "Liuzhi",
+    "mapZipCode": 553400
+}, {
+    "id": 520221,
+    "mapName": "水城县",
+    "mapAbbreviation": "水城",
+    "mapMergerName": "中国,贵州省,六盘水市,水城县",
+    "mapParentId": 520200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuicheng",
+    "mapZipCode": 553000
+}, {
+    "id": 520222,
+    "mapName": "盘县",
+    "mapAbbreviation": "盘县",
+    "mapMergerName": "中国,贵州省,六盘水市,盘县",
+    "mapParentId": 520200,
+    "mapLevelType": 3,
+    "mapPinYin": "Panxian",
+    "mapZipCode": 561601
+}, {
+    "id": 520302,
+    "mapName": "红花岗区",
+    "mapAbbreviation": "红花岗",
+    "mapMergerName": "中国,贵州省,遵义市,红花岗区",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Honghuagang",
+    "mapZipCode": 563000
+}, {
+    "id": 520303,
+    "mapName": "汇川区",
+    "mapAbbreviation": "汇川",
+    "mapMergerName": "中国,贵州省,遵义市,汇川区",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Huichuan",
+    "mapZipCode": 563000
+}, {
+    "id": 520321,
+    "mapName": "遵义县",
+    "mapAbbreviation": "遵义",
+    "mapMergerName": "中国,贵州省,遵义市,遵义县",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zunyi",
+    "mapZipCode": 563100
+}, {
+    "id": 520322,
+    "mapName": "桐梓县",
+    "mapAbbreviation": "桐梓",
+    "mapMergerName": "中国,贵州省,遵义市,桐梓县",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongzi",
+    "mapZipCode": 563200
+}, {
+    "id": 520323,
+    "mapName": "绥阳县",
+    "mapAbbreviation": "绥阳",
+    "mapMergerName": "中国,贵州省,遵义市,绥阳县",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Suiyang",
+    "mapZipCode": 563300
+}, {
+    "id": 520324,
+    "mapName": "正安县",
+    "mapAbbreviation": "正安",
+    "mapMergerName": "中国,贵州省,遵义市,正安县",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zheng'an",
+    "mapZipCode": 563400
+}, {
+    "id": 520325,
+    "mapName": "道真仡佬族苗族自治县",
+    "mapAbbreviation": "道真",
+    "mapMergerName": "中国,贵州省,遵义市,道真仡佬族苗族自治县",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Daozhen",
+    "mapZipCode": 563500
+}, {
+    "id": 520326,
+    "mapName": "务川仡佬族苗族自治县",
+    "mapAbbreviation": "务川",
+    "mapMergerName": "中国,贵州省,遵义市,务川仡佬族苗族自治县",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuchuan",
+    "mapZipCode": 564300
+}, {
+    "id": 520327,
+    "mapName": "凤冈县",
+    "mapAbbreviation": "凤冈",
+    "mapMergerName": "中国,贵州省,遵义市,凤冈县",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fenggang",
+    "mapZipCode": 564200
+}, {
+    "id": 520328,
+    "mapName": "湄潭县",
+    "mapAbbreviation": "湄潭",
+    "mapMergerName": "中国,贵州省,遵义市,湄潭县",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Meitan",
+    "mapZipCode": 564100
+}, {
+    "id": 520329,
+    "mapName": "余庆县",
+    "mapAbbreviation": "余庆",
+    "mapMergerName": "中国,贵州省,遵义市,余庆县",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuqing",
+    "mapZipCode": 564400
+}, {
+    "id": 520330,
+    "mapName": "习水县",
+    "mapAbbreviation": "习水",
+    "mapMergerName": "中国,贵州省,遵义市,习水县",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xishui",
+    "mapZipCode": 564600
+}, {
+    "id": 520381,
+    "mapName": "赤水市",
+    "mapAbbreviation": "赤水",
+    "mapMergerName": "中国,贵州省,遵义市,赤水市",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chishui",
+    "mapZipCode": 564700
+}, {
+    "id": 520382,
+    "mapName": "仁怀市",
+    "mapAbbreviation": "仁怀",
+    "mapMergerName": "中国,贵州省,遵义市,仁怀市",
+    "mapParentId": 520300,
+    "mapLevelType": 3,
+    "mapPinYin": "Renhuai",
+    "mapZipCode": 564500
+}, {
+    "id": 520402,
+    "mapName": "西秀区",
+    "mapAbbreviation": "西秀",
+    "mapMergerName": "中国,贵州省,安顺市,西秀区",
+    "mapParentId": 520400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xixiu",
+    "mapZipCode": 561000
+}, {
+    "id": 520421,
+    "mapName": "平坝区",
+    "mapAbbreviation": "平坝",
+    "mapMergerName": "中国,贵州省,安顺市,平坝区",
+    "mapParentId": 520400,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingba",
+    "mapZipCode": 561100
+}, {
+    "id": 520422,
+    "mapName": "普定县",
+    "mapAbbreviation": "普定",
+    "mapMergerName": "中国,贵州省,安顺市,普定县",
+    "mapParentId": 520400,
+    "mapLevelType": 3,
+    "mapPinYin": "Puding",
+    "mapZipCode": 562100
+}, {
+    "id": 520423,
+    "mapName": "镇宁布依族苗族自治县",
+    "mapAbbreviation": "镇宁",
+    "mapMergerName": "中国,贵州省,安顺市,镇宁布依族苗族自治县",
+    "mapParentId": 520400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenning",
+    "mapZipCode": 561200
+}, {
+    "id": 520424,
+    "mapName": "关岭布依族苗族自治县",
+    "mapAbbreviation": "关岭",
+    "mapMergerName": "中国,贵州省,安顺市,关岭布依族苗族自治县",
+    "mapParentId": 520400,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanling",
+    "mapZipCode": 561300
+}, {
+    "id": 520425,
+    "mapName": "紫云苗族布依族自治县",
+    "mapAbbreviation": "紫云",
+    "mapMergerName": "中国,贵州省,安顺市,紫云苗族布依族自治县",
+    "mapParentId": 520400,
+    "mapLevelType": 3,
+    "mapPinYin": "Ziyun",
+    "mapZipCode": 550800
+}, {
+    "id": 520502,
+    "mapName": "七星关区",
+    "mapAbbreviation": "七星关",
+    "mapMergerName": "中国,贵州省,毕节市,七星关区",
+    "mapParentId": 520500,
+    "mapLevelType": 3,
+    "mapPinYin": "Qixingguan",
+    "mapZipCode": 551700
+}, {
+    "id": 520521,
+    "mapName": "大方县",
+    "mapAbbreviation": "大方",
+    "mapMergerName": "中国,贵州省,毕节市,大方县",
+    "mapParentId": 520500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dafang",
+    "mapZipCode": 551600
+}, {
+    "id": 520522,
+    "mapName": "黔西县",
+    "mapAbbreviation": "黔西",
+    "mapMergerName": "中国,贵州省,毕节市,黔西县",
+    "mapParentId": 520500,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianxi",
+    "mapZipCode": 551500
+}, {
+    "id": 520523,
+    "mapName": "金沙县",
+    "mapAbbreviation": "金沙",
+    "mapMergerName": "中国,贵州省,毕节市,金沙县",
+    "mapParentId": 520500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinsha",
+    "mapZipCode": 551800
+}, {
+    "id": 520524,
+    "mapName": "织金县",
+    "mapAbbreviation": "织金",
+    "mapMergerName": "中国,贵州省,毕节市,织金县",
+    "mapParentId": 520500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhijin",
+    "mapZipCode": 552100
+}, {
+    "id": 520525,
+    "mapName": "纳雍县",
+    "mapAbbreviation": "纳雍",
+    "mapMergerName": "中国,贵州省,毕节市,纳雍县",
+    "mapParentId": 520500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nayong",
+    "mapZipCode": 553300
+}, {
+    "id": 520526,
+    "mapName": "威宁彝族回族苗族自治县",
+    "mapAbbreviation": "威宁",
+    "mapMergerName": "中国,贵州省,毕节市,威宁彝族回族苗族自治县",
+    "mapParentId": 520500,
+    "mapLevelType": 3,
+    "mapPinYin": "Weining",
+    "mapZipCode": 553100
+}, {
+    "id": 520527,
+    "mapName": "赫章县",
+    "mapAbbreviation": "赫章",
+    "mapMergerName": "中国,贵州省,毕节市,赫章县",
+    "mapParentId": 520500,
+    "mapLevelType": 3,
+    "mapPinYin": "Hezhang",
+    "mapZipCode": 553200
+}, {
+    "id": 520602,
+    "mapName": "碧江区",
+    "mapAbbreviation": "碧江",
+    "mapMergerName": "中国,贵州省,铜仁市,碧江区",
+    "mapParentId": 520600,
+    "mapLevelType": 3,
+    "mapPinYin": "Bijiang",
+    "mapZipCode": 554300
+}, {
+    "id": 520603,
+    "mapName": "万山区",
+    "mapAbbreviation": "万山",
+    "mapMergerName": "中国,贵州省,铜仁市,万山区",
+    "mapParentId": 520600,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanshan",
+    "mapZipCode": 554200
+}, {
+    "id": 520621,
+    "mapName": "江口县",
+    "mapAbbreviation": "江口",
+    "mapMergerName": "中国,贵州省,铜仁市,江口县",
+    "mapParentId": 520600,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangkou",
+    "mapZipCode": 554400
+}, {
+    "id": 520622,
+    "mapName": "玉屏侗族自治县",
+    "mapAbbreviation": "玉屏",
+    "mapMergerName": "中国,贵州省,铜仁市,玉屏侗族自治县",
+    "mapParentId": 520600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuping",
+    "mapZipCode": 554004
+}, {
+    "id": 520623,
+    "mapName": "石阡县",
+    "mapAbbreviation": "石阡",
+    "mapMergerName": "中国,贵州省,铜仁市,石阡县",
+    "mapParentId": 520600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shiqian",
+    "mapZipCode": 555100
+}, {
+    "id": 520624,
+    "mapName": "思南县",
+    "mapAbbreviation": "思南",
+    "mapMergerName": "中国,贵州省,铜仁市,思南县",
+    "mapParentId": 520600,
+    "mapLevelType": 3,
+    "mapPinYin": "Sinan",
+    "mapZipCode": 565100
+}, {
+    "id": 520625,
+    "mapName": "印江土家族苗族自治县",
+    "mapAbbreviation": "印江",
+    "mapMergerName": "中国,贵州省,铜仁市,印江土家族苗族自治县",
+    "mapParentId": 520600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yinjiang",
+    "mapZipCode": 555200
+}, {
+    "id": 520626,
+    "mapName": "德江县",
+    "mapAbbreviation": "德江",
+    "mapMergerName": "中国,贵州省,铜仁市,德江县",
+    "mapParentId": 520600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dejiang",
+    "mapZipCode": 565200
+}, {
+    "id": 520627,
+    "mapName": "沿河土家族自治县",
+    "mapAbbreviation": "沿河",
+    "mapMergerName": "中国,贵州省,铜仁市,沿河土家族自治县",
+    "mapParentId": 520600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanhe",
+    "mapZipCode": 565300
+}, {
+    "id": 520628,
+    "mapName": "松桃苗族自治县",
+    "mapAbbreviation": "松桃",
+    "mapMergerName": "中国,贵州省,铜仁市,松桃苗族自治县",
+    "mapParentId": 520600,
+    "mapLevelType": 3,
+    "mapPinYin": "Songtao",
+    "mapZipCode": 554100
+}, {
+    "id": 522301,
+    "mapName": "兴义市",
+    "mapAbbreviation": "兴义",
+    "mapMergerName": "中国,贵州省,黔西南布依族苗族自治州,兴义市 ",
+    "mapParentId": 522300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingyi",
+    "mapZipCode": 562400
+}, {
+    "id": 522322,
+    "mapName": "兴仁县",
+    "mapAbbreviation": "兴仁",
+    "mapMergerName": "中国,贵州省,黔西南布依族苗族自治州,兴仁县",
+    "mapParentId": 522300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingren",
+    "mapZipCode": 562300
+}, {
+    "id": 522323,
+    "mapName": "普安县",
+    "mapAbbreviation": "普安",
+    "mapMergerName": "中国,贵州省,黔西南布依族苗族自治州,普安县",
+    "mapParentId": 522300,
+    "mapLevelType": 3,
+    "mapPinYin": "Pu'an",
+    "mapZipCode": 561500
+}, {
+    "id": 522324,
+    "mapName": "晴隆县",
+    "mapAbbreviation": "晴隆",
+    "mapMergerName": "中国,贵州省,黔西南布依族苗族自治州,晴隆县",
+    "mapParentId": 522300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinglong",
+    "mapZipCode": 561400
+}, {
+    "id": 522325,
+    "mapName": "贞丰县",
+    "mapAbbreviation": "贞丰",
+    "mapMergerName": "中国,贵州省,黔西南布依族苗族自治州,贞丰县",
+    "mapParentId": 522300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenfeng",
+    "mapZipCode": 562200
+}, {
+    "id": 522326,
+    "mapName": "望谟县",
+    "mapAbbreviation": "望谟",
+    "mapMergerName": "中国,贵州省,黔西南布依族苗族自治州,望谟县",
+    "mapParentId": 522300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wangmo",
+    "mapZipCode": 552300
+}, {
+    "id": 522327,
+    "mapName": "册亨县",
+    "mapAbbreviation": "册亨",
+    "mapMergerName": "中国,贵州省,黔西南布依族苗族自治州,册亨县",
+    "mapParentId": 522300,
+    "mapLevelType": 3,
+    "mapPinYin": "Ceheng",
+    "mapZipCode": 552200
+}, {
+    "id": 522328,
+    "mapName": "安龙县",
+    "mapAbbreviation": "安龙",
+    "mapMergerName": "中国,贵州省,黔西南布依族苗族自治州,安龙县",
+    "mapParentId": 522300,
+    "mapLevelType": 3,
+    "mapPinYin": "Anlong",
+    "mapZipCode": 552400
+}, {
+    "id": 522601,
+    "mapName": "凯里市",
+    "mapAbbreviation": "凯里",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,凯里市",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Kaili",
+    "mapZipCode": 556000
+}, {
+    "id": 522622,
+    "mapName": "黄平县",
+    "mapAbbreviation": "黄平",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,黄平县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangping",
+    "mapZipCode": 556100
+}, {
+    "id": 522623,
+    "mapName": "施秉县",
+    "mapAbbreviation": "施秉",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,施秉县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shibing",
+    "mapZipCode": 556200
+}, {
+    "id": 522624,
+    "mapName": "三穗县",
+    "mapAbbreviation": "三穗",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,三穗县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Sansui",
+    "mapZipCode": 556500
+}, {
+    "id": 522625,
+    "mapName": "镇远县",
+    "mapAbbreviation": "镇远",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,镇远县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenyuan",
+    "mapZipCode": 557700
+}, {
+    "id": 522626,
+    "mapName": "岑巩县",
+    "mapAbbreviation": "岑巩",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,岑巩县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Cengong",
+    "mapZipCode": 557800
+}, {
+    "id": 522627,
+    "mapName": "天柱县",
+    "mapAbbreviation": "天柱",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,天柱县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianzhu",
+    "mapZipCode": 556600
+}, {
+    "id": 522628,
+    "mapName": "锦屏县",
+    "mapAbbreviation": "锦屏",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,锦屏县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinping",
+    "mapZipCode": 556700
+}, {
+    "id": 522629,
+    "mapName": "剑河县",
+    "mapAbbreviation": "剑河",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,剑河县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianhe",
+    "mapZipCode": 556400
+}, {
+    "id": 522630,
+    "mapName": "台江县",
+    "mapAbbreviation": "台江",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,台江县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Taijiang",
+    "mapZipCode": 556300
+}, {
+    "id": 522631,
+    "mapName": "黎平县",
+    "mapAbbreviation": "黎平",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,黎平县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Liping",
+    "mapZipCode": 557300
+}, {
+    "id": 522632,
+    "mapName": "榕江县",
+    "mapAbbreviation": "榕江",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,榕江县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Rongjiang",
+    "mapZipCode": 557200
+}, {
+    "id": 522633,
+    "mapName": "从江县",
+    "mapAbbreviation": "从江",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,从江县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Congjiang",
+    "mapZipCode": 557400
+}, {
+    "id": 522634,
+    "mapName": "雷山县",
+    "mapAbbreviation": "雷山",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,雷山县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Leishan",
+    "mapZipCode": 557100
+}, {
+    "id": 522635,
+    "mapName": "麻江县",
+    "mapAbbreviation": "麻江",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,麻江县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Majiang",
+    "mapZipCode": 557600
+}, {
+    "id": 522636,
+    "mapName": "丹寨县",
+    "mapAbbreviation": "丹寨",
+    "mapMergerName": "中国,贵州省,黔东南苗族侗族自治州,丹寨县",
+    "mapParentId": 522600,
+    "mapLevelType": 3,
+    "mapPinYin": "Danzhai",
+    "mapZipCode": 557500
+}, {
+    "id": 522701,
+    "mapName": "都匀市",
+    "mapAbbreviation": "都匀",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,都匀市",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Duyun",
+    "mapZipCode": 558000
+}, {
+    "id": 522702,
+    "mapName": "福泉市",
+    "mapAbbreviation": "福泉",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,福泉市",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuquan",
+    "mapZipCode": 550500
+}, {
+    "id": 522722,
+    "mapName": "荔波县",
+    "mapAbbreviation": "荔波",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,荔波县",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Libo",
+    "mapZipCode": 558400
+}, {
+    "id": 522723,
+    "mapName": "贵定县",
+    "mapAbbreviation": "贵定",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,贵定县",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Guiding",
+    "mapZipCode": 551300
+}, {
+    "id": 522725,
+    "mapName": "瓮安县",
+    "mapAbbreviation": "瓮安",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,瓮安县",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Weng'an",
+    "mapZipCode": 550400
+}, {
+    "id": 522726,
+    "mapName": "独山县",
+    "mapAbbreviation": "独山",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,独山县",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dushan",
+    "mapZipCode": 558200
+}, {
+    "id": 522727,
+    "mapName": "平塘县",
+    "mapAbbreviation": "平塘",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,平塘县",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingtang",
+    "mapZipCode": 558300
+}, {
+    "id": 522728,
+    "mapName": "罗甸县",
+    "mapAbbreviation": "罗甸",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,罗甸县",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Luodian",
+    "mapZipCode": 550100
+}, {
+    "id": 522729,
+    "mapName": "长顺县",
+    "mapAbbreviation": "长顺",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,长顺县",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Changshun",
+    "mapZipCode": 550700
+}, {
+    "id": 522730,
+    "mapName": "龙里县",
+    "mapAbbreviation": "龙里",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,龙里县",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Longli",
+    "mapZipCode": 551200
+}, {
+    "id": 522731,
+    "mapName": "惠水县",
+    "mapAbbreviation": "惠水",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,惠水县",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huishui",
+    "mapZipCode": 550600
+}, {
+    "id": 522732,
+    "mapName": "三都水族自治县",
+    "mapAbbreviation": "三都",
+    "mapMergerName": "中国,贵州省,黔南布依族苗族自治州,三都水族自治县",
+    "mapParentId": 522700,
+    "mapLevelType": 3,
+    "mapPinYin": "Sandu",
+    "mapZipCode": 558100
+}, {
+    "id": 530102,
+    "mapName": "五华区",
+    "mapAbbreviation": "五华",
+    "mapMergerName": "中国,云南省,昆明市,五华区",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuhua",
+    "mapZipCode": 650021
+}, {
+    "id": 530103,
+    "mapName": "盘龙区",
+    "mapAbbreviation": "盘龙",
+    "mapMergerName": "中国,云南省,昆明市,盘龙区",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Panlong",
+    "mapZipCode": 650051
+}, {
+    "id": 530111,
+    "mapName": "官渡区",
+    "mapAbbreviation": "官渡",
+    "mapMergerName": "中国,云南省,昆明市,官渡区",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Guandu",
+    "mapZipCode": 650200
+}, {
+    "id": 530112,
+    "mapName": "西山区",
+    "mapAbbreviation": "西山",
+    "mapMergerName": "中国,云南省,昆明市,西山区",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xishan",
+    "mapZipCode": 650118
+}, {
+    "id": 530113,
+    "mapName": "东川区",
+    "mapAbbreviation": "东川",
+    "mapMergerName": "中国,云南省,昆明市,东川区",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongchuan",
+    "mapZipCode": 654100
+}, {
+    "id": 530114,
+    "mapName": "呈贡区",
+    "mapAbbreviation": "呈贡",
+    "mapMergerName": "中国,云南省,昆明市,呈贡区",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chenggong",
+    "mapZipCode": 650500
+}, {
+    "id": 530122,
+    "mapName": "晋宁县",
+    "mapAbbreviation": "晋宁",
+    "mapMergerName": "中国,云南省,昆明市,晋宁县",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinning",
+    "mapZipCode": 650600
+}, {
+    "id": 530124,
+    "mapName": "富民县",
+    "mapAbbreviation": "富民",
+    "mapMergerName": "中国,云南省,昆明市,富民县",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fumin",
+    "mapZipCode": 650400
+}, {
+    "id": 530125,
+    "mapName": "宜良县",
+    "mapAbbreviation": "宜良",
+    "mapMergerName": "中国,云南省,昆明市,宜良县",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yiliang",
+    "mapZipCode": 652100
+}, {
+    "id": 530126,
+    "mapName": "石林彝族自治县",
+    "mapAbbreviation": "石林",
+    "mapMergerName": "中国,云南省,昆明市,石林彝族自治县",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shilin",
+    "mapZipCode": 652200
+}, {
+    "id": 530127,
+    "mapName": "嵩明县",
+    "mapAbbreviation": "嵩明",
+    "mapMergerName": "中国,云南省,昆明市,嵩明县",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Songming",
+    "mapZipCode": 651700
+}, {
+    "id": 530128,
+    "mapName": "禄劝彝族苗族自治县",
+    "mapAbbreviation": "禄劝",
+    "mapMergerName": "中国,云南省,昆明市,禄劝彝族苗族自治县",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Luquan",
+    "mapZipCode": 651500
+}, {
+    "id": 530129,
+    "mapName": "寻甸回族彝族自治县 ",
+    "mapAbbreviation": "寻甸",
+    "mapMergerName": "中国,云南省,昆明市,寻甸回族彝族自治县 ",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xundian",
+    "mapZipCode": 655200
+}, {
+    "id": 530181,
+    "mapName": "安宁市",
+    "mapAbbreviation": "安宁",
+    "mapMergerName": "中国,云南省,昆明市,安宁市",
+    "mapParentId": 530100,
+    "mapLevelType": 3,
+    "mapPinYin": "Anning",
+    "mapZipCode": 650300
+}, {
+    "id": 530302,
+    "mapName": "麒麟区",
+    "mapAbbreviation": "麒麟",
+    "mapMergerName": "中国,云南省,曲靖市,麒麟区",
+    "mapParentId": 530300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qilin",
+    "mapZipCode": 655000
+}, {
+    "id": 530321,
+    "mapName": "马龙县",
+    "mapAbbreviation": "马龙",
+    "mapMergerName": "中国,云南省,曲靖市,马龙县",
+    "mapParentId": 530300,
+    "mapLevelType": 3,
+    "mapPinYin": "Malong",
+    "mapZipCode": 655100
+}, {
+    "id": 530322,
+    "mapName": "陆良县",
+    "mapAbbreviation": "陆良",
+    "mapMergerName": "中国,云南省,曲靖市,陆良县",
+    "mapParentId": 530300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luliang",
+    "mapZipCode": 655600
+}, {
+    "id": 530323,
+    "mapName": "师宗县",
+    "mapAbbreviation": "师宗",
+    "mapMergerName": "中国,云南省,曲靖市,师宗县",
+    "mapParentId": 530300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shizong",
+    "mapZipCode": 655700
+}, {
+    "id": 530324,
+    "mapName": "罗平县",
+    "mapAbbreviation": "罗平",
+    "mapMergerName": "中国,云南省,曲靖市,罗平县",
+    "mapParentId": 530300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luoping",
+    "mapZipCode": 655800
+}, {
+    "id": 530325,
+    "mapName": "富源县",
+    "mapAbbreviation": "富源",
+    "mapMergerName": "中国,云南省,曲靖市,富源县",
+    "mapParentId": 530300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuyuan",
+    "mapZipCode": 655500
+}, {
+    "id": 530326,
+    "mapName": "会泽县",
+    "mapAbbreviation": "会泽",
+    "mapMergerName": "中国,云南省,曲靖市,会泽县",
+    "mapParentId": 530300,
+    "mapLevelType": 3,
+    "mapPinYin": "Huize",
+    "mapZipCode": 654200
+}, {
+    "id": 530328,
+    "mapName": "沾益县",
+    "mapAbbreviation": "沾益",
+    "mapMergerName": "中国,云南省,曲靖市,沾益县",
+    "mapParentId": 530300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhanyi",
+    "mapZipCode": 655331
+}, {
+    "id": 530381,
+    "mapName": "宣威市",
+    "mapAbbreviation": "宣威",
+    "mapMergerName": "中国,云南省,曲靖市,宣威市",
+    "mapParentId": 530300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuanwei",
+    "mapZipCode": 655400
+}, {
+    "id": 530402,
+    "mapName": "红塔区",
+    "mapAbbreviation": "红塔",
+    "mapMergerName": "中国,云南省,玉溪市,红塔区",
+    "mapParentId": 530400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongta",
+    "mapZipCode": 653100
+}, {
+    "id": 530421,
+    "mapName": "江川县",
+    "mapAbbreviation": "江川",
+    "mapMergerName": "中国,云南省,玉溪市,江川县",
+    "mapParentId": 530400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangchuan",
+    "mapZipCode": 652600
+}, {
+    "id": 530422,
+    "mapName": "澄江县",
+    "mapAbbreviation": "澄江",
+    "mapMergerName": "中国,云南省,玉溪市,澄江县",
+    "mapParentId": 530400,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengjiang",
+    "mapZipCode": 652500
+}, {
+    "id": 530423,
+    "mapName": "通海县",
+    "mapAbbreviation": "通海",
+    "mapMergerName": "中国,云南省,玉溪市,通海县",
+    "mapParentId": 530400,
+    "mapLevelType": 3,
+    "mapPinYin": "Tonghai",
+    "mapZipCode": 652700
+}, {
+    "id": 530424,
+    "mapName": "华宁县",
+    "mapAbbreviation": "华宁",
+    "mapMergerName": "中国,云南省,玉溪市,华宁县",
+    "mapParentId": 530400,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaning",
+    "mapZipCode": 652800
+}, {
+    "id": 530425,
+    "mapName": "易门县",
+    "mapAbbreviation": "易门",
+    "mapMergerName": "中国,云南省,玉溪市,易门县",
+    "mapParentId": 530400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yimen",
+    "mapZipCode": 651100
+}, {
+    "id": 530426,
+    "mapName": "峨山彝族自治县",
+    "mapAbbreviation": "峨山",
+    "mapMergerName": "中国,云南省,玉溪市,峨山彝族自治县",
+    "mapParentId": 530400,
+    "mapLevelType": 3,
+    "mapPinYin": "Eshan",
+    "mapZipCode": 653200
+}, {
+    "id": 530427,
+    "mapName": "新平彝族傣族自治县",
+    "mapAbbreviation": "新平",
+    "mapMergerName": "中国,云南省,玉溪市,新平彝族傣族自治县",
+    "mapParentId": 530400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinping",
+    "mapZipCode": 653400
+}, {
+    "id": 530428,
+    "mapName": "元江哈尼族彝族傣族自治县",
+    "mapAbbreviation": "元江",
+    "mapMergerName": "中国,云南省,玉溪市,元江哈尼族彝族傣族自治县",
+    "mapParentId": 530400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanjiang",
+    "mapZipCode": 653300
+}, {
+    "id": 530502,
+    "mapName": "隆阳区",
+    "mapAbbreviation": "隆阳",
+    "mapMergerName": "中国,云南省,保山市,隆阳区",
+    "mapParentId": 530500,
+    "mapLevelType": 3,
+    "mapPinYin": "Longyang",
+    "mapZipCode": 678000
+}, {
+    "id": 530521,
+    "mapName": "施甸县",
+    "mapAbbreviation": "施甸",
+    "mapMergerName": "中国,云南省,保山市,施甸县",
+    "mapParentId": 530500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shidian",
+    "mapZipCode": 678200
+}, {
+    "id": 530522,
+    "mapName": "腾冲县",
+    "mapAbbreviation": "腾冲",
+    "mapMergerName": "中国,云南省,保山市,腾冲县",
+    "mapParentId": 530500,
+    "mapLevelType": 3,
+    "mapPinYin": "Tengchong",
+    "mapZipCode": 679100
+}, {
+    "id": 530523,
+    "mapName": "龙陵县",
+    "mapAbbreviation": "龙陵",
+    "mapMergerName": "中国,云南省,保山市,龙陵县",
+    "mapParentId": 530500,
+    "mapLevelType": 3,
+    "mapPinYin": "Longling",
+    "mapZipCode": 678300
+}, {
+    "id": 530524,
+    "mapName": "昌宁县",
+    "mapAbbreviation": "昌宁",
+    "mapMergerName": "中国,云南省,保山市,昌宁县",
+    "mapParentId": 530500,
+    "mapLevelType": 3,
+    "mapPinYin": "Changning",
+    "mapZipCode": 678100
+}, {
+    "id": 530602,
+    "mapName": "昭阳区",
+    "mapAbbreviation": "昭阳",
+    "mapMergerName": "中国,云南省,昭通市,昭阳区",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaoyang",
+    "mapZipCode": 657000
+}, {
+    "id": 530621,
+    "mapName": "鲁甸县",
+    "mapAbbreviation": "鲁甸",
+    "mapMergerName": "中国,云南省,昭通市,鲁甸县",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Ludian",
+    "mapZipCode": 657100
+}, {
+    "id": 530622,
+    "mapName": "巧家县",
+    "mapAbbreviation": "巧家",
+    "mapMergerName": "中国,云南省,昭通市,巧家县",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiaojia",
+    "mapZipCode": 654600
+}, {
+    "id": 530623,
+    "mapName": "盐津县",
+    "mapAbbreviation": "盐津",
+    "mapMergerName": "中国,云南省,昭通市,盐津县",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanjin",
+    "mapZipCode": 657500
+}, {
+    "id": 530624,
+    "mapName": "大关县",
+    "mapAbbreviation": "大关",
+    "mapMergerName": "中国,云南省,昭通市,大关县",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Daguan",
+    "mapZipCode": 657400
+}, {
+    "id": 530625,
+    "mapName": "永善县",
+    "mapAbbreviation": "永善",
+    "mapMergerName": "中国,云南省,昭通市,永善县",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongshan",
+    "mapZipCode": 657300
+}, {
+    "id": 530626,
+    "mapName": "绥江县",
+    "mapAbbreviation": "绥江",
+    "mapMergerName": "中国,云南省,昭通市,绥江县",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Suijiang",
+    "mapZipCode": 657700
+}, {
+    "id": 530627,
+    "mapName": "镇雄县",
+    "mapAbbreviation": "镇雄",
+    "mapMergerName": "中国,云南省,昭通市,镇雄县",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenxiong",
+    "mapZipCode": 657200
+}, {
+    "id": 530628,
+    "mapName": "彝良县",
+    "mapAbbreviation": "彝良",
+    "mapMergerName": "中国,云南省,昭通市,彝良县",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yiliang",
+    "mapZipCode": 657600
+}, {
+    "id": 530629,
+    "mapName": "威信县",
+    "mapAbbreviation": "威信",
+    "mapMergerName": "中国,云南省,昭通市,威信县",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Weixin",
+    "mapZipCode": 657900
+}, {
+    "id": 530630,
+    "mapName": "水富县",
+    "mapAbbreviation": "水富",
+    "mapMergerName": "中国,云南省,昭通市,水富县",
+    "mapParentId": 530600,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuifu",
+    "mapZipCode": 657800
+}, {
+    "id": 530702,
+    "mapName": "古城区",
+    "mapAbbreviation": "古城",
+    "mapMergerName": "中国,云南省,丽江市,古城区",
+    "mapParentId": 530700,
+    "mapLevelType": 3,
+    "mapPinYin": "Gucheng",
+    "mapZipCode": 674100
+}, {
+    "id": 530721,
+    "mapName": "玉龙纳西族自治县",
+    "mapAbbreviation": "玉龙",
+    "mapMergerName": "中国,云南省,丽江市,玉龙纳西族自治县",
+    "mapParentId": 530700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yulong",
+    "mapZipCode": 674100
+}, {
+    "id": 530722,
+    "mapName": "永胜县",
+    "mapAbbreviation": "永胜",
+    "mapMergerName": "中国,云南省,丽江市,永胜县",
+    "mapParentId": 530700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongsheng",
+    "mapZipCode": 674200
+}, {
+    "id": 530723,
+    "mapName": "华坪县",
+    "mapAbbreviation": "华坪",
+    "mapMergerName": "中国,云南省,丽江市,华坪县",
+    "mapParentId": 530700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaping",
+    "mapZipCode": 674800
+}, {
+    "id": 530724,
+    "mapName": "宁蒗彝族自治县",
+    "mapAbbreviation": "宁蒗",
+    "mapMergerName": "中国,云南省,丽江市,宁蒗彝族自治县",
+    "mapParentId": 530700,
+    "mapLevelType": 3,
+    "mapPinYin": "Ninglang",
+    "mapZipCode": 674300
+}, {
+    "id": 530802,
+    "mapName": "思茅区",
+    "mapAbbreviation": "思茅",
+    "mapMergerName": "中国,云南省,普洱市,思茅区",
+    "mapParentId": 530800,
+    "mapLevelType": 3,
+    "mapPinYin": "Simao",
+    "mapZipCode": 665000
+}, {
+    "id": 530821,
+    "mapName": "宁洱哈尼族彝族自治县",
+    "mapAbbreviation": "宁洱",
+    "mapMergerName": "中国,云南省,普洱市,宁洱哈尼族彝族自治县",
+    "mapParentId": 530800,
+    "mapLevelType": 3,
+    "mapPinYin": "Ninger",
+    "mapZipCode": 665100
+}, {
+    "id": 530822,
+    "mapName": "墨江哈尼族自治县",
+    "mapAbbreviation": "墨江",
+    "mapMergerName": "中国,云南省,普洱市,墨江哈尼族自治县",
+    "mapParentId": 530800,
+    "mapLevelType": 3,
+    "mapPinYin": "Mojiang",
+    "mapZipCode": 654800
+}, {
+    "id": 530823,
+    "mapName": "景东彝族自治县",
+    "mapAbbreviation": "景东",
+    "mapMergerName": "中国,云南省,普洱市,景东彝族自治县",
+    "mapParentId": 530800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingdong",
+    "mapZipCode": 676200
+}, {
+    "id": 530824,
+    "mapName": "景谷傣族彝族自治县",
+    "mapAbbreviation": "景谷",
+    "mapMergerName": "中国,云南省,普洱市,景谷傣族彝族自治县",
+    "mapParentId": 530800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinggu",
+    "mapZipCode": 666400
+}, {
+    "id": 530825,
+    "mapName": "镇沅彝族哈尼族拉祜族自治县",
+    "mapAbbreviation": "镇沅",
+    "mapMergerName": "中国,云南省,普洱市,镇沅彝族哈尼族拉祜族自治县",
+    "mapParentId": 530800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenyuan",
+    "mapZipCode": 666500
+}, {
+    "id": 530826,
+    "mapName": "江城哈尼族彝族自治县",
+    "mapAbbreviation": "江城",
+    "mapMergerName": "中国,云南省,普洱市,江城哈尼族彝族自治县",
+    "mapParentId": 530800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangcheng",
+    "mapZipCode": 665900
+}, {
+    "id": 530827,
+    "mapName": "孟连傣族拉祜族佤族自治县",
+    "mapAbbreviation": "孟连",
+    "mapMergerName": "中国,云南省,普洱市,孟连傣族拉祜族佤族自治县",
+    "mapParentId": 530800,
+    "mapLevelType": 3,
+    "mapPinYin": "Menglian",
+    "mapZipCode": 665800
+}, {
+    "id": 530828,
+    "mapName": "澜沧拉祜族自治县",
+    "mapAbbreviation": "澜沧",
+    "mapMergerName": "中国,云南省,普洱市,澜沧拉祜族自治县",
+    "mapParentId": 530800,
+    "mapLevelType": 3,
+    "mapPinYin": "Lancang",
+    "mapZipCode": 665600
+}, {
+    "id": 530829,
+    "mapName": "西盟佤族自治县",
+    "mapAbbreviation": "西盟",
+    "mapMergerName": "中国,云南省,普洱市,西盟佤族自治县",
+    "mapParentId": 530800,
+    "mapLevelType": 3,
+    "mapPinYin": "Ximeng",
+    "mapZipCode": 665700
+}, {
+    "id": 530902,
+    "mapName": "临翔区",
+    "mapAbbreviation": "临翔",
+    "mapMergerName": "中国,云南省,临沧市,临翔区",
+    "mapParentId": 530900,
+    "mapLevelType": 3,
+    "mapPinYin": "Linxiang",
+    "mapZipCode": 677000
+}, {
+    "id": 530921,
+    "mapName": "凤庆县",
+    "mapAbbreviation": "凤庆",
+    "mapMergerName": "中国,云南省,临沧市,凤庆县",
+    "mapParentId": 530900,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengqing",
+    "mapZipCode": 675900
+}, {
+    "id": 530922,
+    "mapName": "云县",
+    "mapAbbreviation": "云县",
+    "mapMergerName": "中国,云南省,临沧市,云县",
+    "mapParentId": 530900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunxian",
+    "mapZipCode": 675800
+}, {
+    "id": 530923,
+    "mapName": "永德县",
+    "mapAbbreviation": "永德",
+    "mapMergerName": "中国,云南省,临沧市,永德县",
+    "mapParentId": 530900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongde",
+    "mapZipCode": 677600
+}, {
+    "id": 530924,
+    "mapName": "镇康县",
+    "mapAbbreviation": "镇康",
+    "mapMergerName": "中国,云南省,临沧市,镇康县",
+    "mapParentId": 530900,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenkang",
+    "mapZipCode": 677704
+}, {
+    "id": 530925,
+    "mapName": "双江拉祜族佤族布朗族傣族自治县",
+    "mapAbbreviation": "双江",
+    "mapMergerName": "中国,云南省,临沧市,双江拉祜族佤族布朗族傣族自治县",
+    "mapParentId": 530900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangjiang",
+    "mapZipCode": 677300
+}, {
+    "id": 530926,
+    "mapName": "耿马傣族佤族自治县",
+    "mapAbbreviation": "耿马",
+    "mapMergerName": "中国,云南省,临沧市,耿马傣族佤族自治县",
+    "mapParentId": 530900,
+    "mapLevelType": 3,
+    "mapPinYin": "Gengma",
+    "mapZipCode": 677500
+}, {
+    "id": 530927,
+    "mapName": "沧源佤族自治县",
+    "mapAbbreviation": "沧源",
+    "mapMergerName": "中国,云南省,临沧市,沧源佤族自治县",
+    "mapParentId": 530900,
+    "mapLevelType": 3,
+    "mapPinYin": "Cangyuan",
+    "mapZipCode": 677400
+}, {
+    "id": 532301,
+    "mapName": "楚雄市",
+    "mapAbbreviation": "楚雄",
+    "mapMergerName": "中国,云南省,楚雄彝族自治州,楚雄市",
+    "mapParentId": 532300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chuxiong",
+    "mapZipCode": 675000
+}, {
+    "id": 532322,
+    "mapName": "双柏县",
+    "mapAbbreviation": "双柏",
+    "mapMergerName": "中国,云南省,楚雄彝族自治州,双柏县",
+    "mapParentId": 532300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangbai",
+    "mapZipCode": 675100
+}, {
+    "id": 532323,
+    "mapName": "牟定县",
+    "mapAbbreviation": "牟定",
+    "mapMergerName": "中国,云南省,楚雄彝族自治州,牟定县",
+    "mapParentId": 532300,
+    "mapLevelType": 3,
+    "mapPinYin": "Mouding",
+    "mapZipCode": 675500
+}, {
+    "id": 532324,
+    "mapName": "南华县",
+    "mapAbbreviation": "南华",
+    "mapMergerName": "中国,云南省,楚雄彝族自治州,南华县",
+    "mapParentId": 532300,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanhua",
+    "mapZipCode": 675200
+}, {
+    "id": 532325,
+    "mapName": "姚安县",
+    "mapAbbreviation": "姚安",
+    "mapMergerName": "中国,云南省,楚雄彝族自治州,姚安县",
+    "mapParentId": 532300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yao'an",
+    "mapZipCode": 675300
+}, {
+    "id": 532326,
+    "mapName": "大姚县",
+    "mapAbbreviation": "大姚",
+    "mapMergerName": "中国,云南省,楚雄彝族自治州,大姚县",
+    "mapParentId": 532300,
+    "mapLevelType": 3,
+    "mapPinYin": "Dayao",
+    "mapZipCode": 675400
+}, {
+    "id": 532327,
+    "mapName": "永仁县",
+    "mapAbbreviation": "永仁",
+    "mapMergerName": "中国,云南省,楚雄彝族自治州,永仁县",
+    "mapParentId": 532300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongren",
+    "mapZipCode": 651400
+}, {
+    "id": 532328,
+    "mapName": "元谋县",
+    "mapAbbreviation": "元谋",
+    "mapMergerName": "中国,云南省,楚雄彝族自治州,元谋县",
+    "mapParentId": 532300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanmou",
+    "mapZipCode": 651300
+}, {
+    "id": 532329,
+    "mapName": "武定县",
+    "mapAbbreviation": "武定",
+    "mapMergerName": "中国,云南省,楚雄彝族自治州,武定县",
+    "mapParentId": 532300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuding",
+    "mapZipCode": 651600
+}, {
+    "id": 532331,
+    "mapName": "禄丰县",
+    "mapAbbreviation": "禄丰",
+    "mapMergerName": "中国,云南省,楚雄彝族自治州,禄丰县",
+    "mapParentId": 532300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lufeng",
+    "mapZipCode": 651200
+}, {
+    "id": 532501,
+    "mapName": "个旧市",
+    "mapAbbreviation": "个旧",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,个旧市",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gejiu",
+    "mapZipCode": 661000
+}, {
+    "id": 532502,
+    "mapName": "开远市",
+    "mapAbbreviation": "开远",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,开远市",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Kaiyuan",
+    "mapZipCode": 661600
+}, {
+    "id": 532503,
+    "mapName": "蒙自市",
+    "mapAbbreviation": "蒙自",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,蒙自市",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Mengzi",
+    "mapZipCode": 661101
+}, {
+    "id": 532504,
+    "mapName": "弥勒市",
+    "mapAbbreviation": "弥勒",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,弥勒市",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Mile ",
+    "mapZipCode": 652300
+}, {
+    "id": 532523,
+    "mapName": "屏边苗族自治县",
+    "mapAbbreviation": "屏边",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,屏边苗族自治县",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingbian",
+    "mapZipCode": 661200
+}, {
+    "id": 532524,
+    "mapName": "建水县",
+    "mapAbbreviation": "建水",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,建水县",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianshui",
+    "mapZipCode": 654300
+}, {
+    "id": 532525,
+    "mapName": "石屏县",
+    "mapAbbreviation": "石屏",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,石屏县",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shiping",
+    "mapZipCode": 662200
+}, {
+    "id": 532527,
+    "mapName": "泸西县",
+    "mapAbbreviation": "泸西",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,泸西县",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Luxi",
+    "mapZipCode": 652400
+}, {
+    "id": 532528,
+    "mapName": "元阳县",
+    "mapAbbreviation": "元阳",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,元阳县",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanyang",
+    "mapZipCode": 662400
+}, {
+    "id": 532529,
+    "mapName": "红河县",
+    "mapAbbreviation": "红河县",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,红河县",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Honghexian",
+    "mapZipCode": 654400
+}, {
+    "id": 532530,
+    "mapName": "金平苗族瑶族傣族自治县",
+    "mapAbbreviation": "金平",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,金平苗族瑶族傣族自治县",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinping",
+    "mapZipCode": 661500
+}, {
+    "id": 532531,
+    "mapName": "绿春县",
+    "mapAbbreviation": "绿春",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,绿春县",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Lvchun",
+    "mapZipCode": 662500
+}, {
+    "id": 532532,
+    "mapName": "河口瑶族自治县",
+    "mapAbbreviation": "河口",
+    "mapMergerName": "中国,云南省,红河哈尼族彝族自治州,河口瑶族自治县",
+    "mapParentId": 532500,
+    "mapLevelType": 3,
+    "mapPinYin": "Hekou",
+    "mapZipCode": 661300
+}, {
+    "id": 532601,
+    "mapName": "文山市",
+    "mapAbbreviation": "文山",
+    "mapMergerName": "中国,云南省,文山壮族苗族自治州,文山市",
+    "mapParentId": 532600,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenshan",
+    "mapZipCode": 663000
+}, {
+    "id": 532622,
+    "mapName": "砚山县",
+    "mapAbbreviation": "砚山",
+    "mapMergerName": "中国,云南省,文山壮族苗族自治州,砚山县",
+    "mapParentId": 532600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanshan",
+    "mapZipCode": 663100
+}, {
+    "id": 532623,
+    "mapName": "西畴县",
+    "mapAbbreviation": "西畴",
+    "mapMergerName": "中国,云南省,文山壮族苗族自治州,西畴县",
+    "mapParentId": 532600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xichou",
+    "mapZipCode": 663500
+}, {
+    "id": 532624,
+    "mapName": "麻栗坡县",
+    "mapAbbreviation": "麻栗坡",
+    "mapMergerName": "中国,云南省,文山壮族苗族自治州,麻栗坡县",
+    "mapParentId": 532600,
+    "mapLevelType": 3,
+    "mapPinYin": "Malipo",
+    "mapZipCode": 663600
+}, {
+    "id": 532625,
+    "mapName": "马关县",
+    "mapAbbreviation": "马关",
+    "mapMergerName": "中国,云南省,文山壮族苗族自治州,马关县",
+    "mapParentId": 532600,
+    "mapLevelType": 3,
+    "mapPinYin": "Maguan",
+    "mapZipCode": 663700
+}, {
+    "id": 532626,
+    "mapName": "丘北县",
+    "mapAbbreviation": "丘北",
+    "mapMergerName": "中国,云南省,文山壮族苗族自治州,丘北县",
+    "mapParentId": 532600,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiubei",
+    "mapZipCode": 663200
+}, {
+    "id": 532627,
+    "mapName": "广南县",
+    "mapAbbreviation": "广南",
+    "mapMergerName": "中国,云南省,文山壮族苗族自治州,广南县",
+    "mapParentId": 532600,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangnan",
+    "mapZipCode": 663300
+}, {
+    "id": 532628,
+    "mapName": "富宁县",
+    "mapAbbreviation": "富宁",
+    "mapMergerName": "中国,云南省,文山壮族苗族自治州,富宁县",
+    "mapParentId": 532600,
+    "mapLevelType": 3,
+    "mapPinYin": "Funing",
+    "mapZipCode": 663400
+}, {
+    "id": 532801,
+    "mapName": "景洪市",
+    "mapAbbreviation": "景洪",
+    "mapMergerName": "中国,云南省,西双版纳傣族自治州,景洪市",
+    "mapParentId": 532800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinghong",
+    "mapZipCode": 666100
+}, {
+    "id": 532822,
+    "mapName": "勐海县",
+    "mapAbbreviation": "勐海",
+    "mapMergerName": "中国,云南省,西双版纳傣族自治州,勐海县",
+    "mapParentId": 532800,
+    "mapLevelType": 3,
+    "mapPinYin": "Menghai",
+    "mapZipCode": 666200
+}, {
+    "id": 532823,
+    "mapName": "勐腊县",
+    "mapAbbreviation": "勐腊",
+    "mapMergerName": "中国,云南省,西双版纳傣族自治州,勐腊县",
+    "mapParentId": 532800,
+    "mapLevelType": 3,
+    "mapPinYin": "Mengla",
+    "mapZipCode": 666300
+}, {
+    "id": 532901,
+    "mapName": "大理市",
+    "mapAbbreviation": "大理",
+    "mapMergerName": "中国,云南省,大理白族自治州,大理市",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dali",
+    "mapZipCode": 671000
+}, {
+    "id": 532922,
+    "mapName": "漾濞彝族自治县",
+    "mapAbbreviation": "漾濞",
+    "mapMergerName": "中国,云南省,大理白族自治州,漾濞彝族自治县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangbi",
+    "mapZipCode": 672500
+}, {
+    "id": 532923,
+    "mapName": "祥云县",
+    "mapAbbreviation": "祥云",
+    "mapMergerName": "中国,云南省,大理白族自治州,祥云县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangyun",
+    "mapZipCode": 672100
+}, {
+    "id": 532924,
+    "mapName": "宾川县",
+    "mapAbbreviation": "宾川",
+    "mapMergerName": "中国,云南省,大理白族自治州,宾川县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Binchuan",
+    "mapZipCode": 671600
+}, {
+    "id": 532925,
+    "mapName": "弥渡县",
+    "mapAbbreviation": "弥渡",
+    "mapMergerName": "中国,云南省,大理白族自治州,弥渡县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Midu",
+    "mapZipCode": 675600
+}, {
+    "id": 532926,
+    "mapName": "南涧彝族自治县",
+    "mapAbbreviation": "南涧",
+    "mapMergerName": "中国,云南省,大理白族自治州,南涧彝族自治县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanjian",
+    "mapZipCode": 675700
+}, {
+    "id": 532927,
+    "mapName": "巍山彝族回族自治县",
+    "mapAbbreviation": "巍山",
+    "mapMergerName": "中国,云南省,大理白族自治州,巍山彝族回族自治县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Weishan",
+    "mapZipCode": 672400
+}, {
+    "id": 532928,
+    "mapName": "永平县",
+    "mapAbbreviation": "永平",
+    "mapMergerName": "中国,云南省,大理白族自治州,永平县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongping",
+    "mapZipCode": 672600
+}, {
+    "id": 532929,
+    "mapName": "云龙县",
+    "mapAbbreviation": "云龙",
+    "mapMergerName": "中国,云南省,大理白族自治州,云龙县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yunlong",
+    "mapZipCode": 672700
+}, {
+    "id": 532930,
+    "mapName": "洱源县",
+    "mapAbbreviation": "洱源",
+    "mapMergerName": "中国,云南省,大理白族自治州,洱源县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Eryuan",
+    "mapZipCode": 671200
+}, {
+    "id": 532931,
+    "mapName": "剑川县",
+    "mapAbbreviation": "剑川",
+    "mapMergerName": "中国,云南省,大理白族自治州,剑川县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianchuan",
+    "mapZipCode": 671300
+}, {
+    "id": 532932,
+    "mapName": "鹤庆县",
+    "mapAbbreviation": "鹤庆",
+    "mapMergerName": "中国,云南省,大理白族自治州,鹤庆县",
+    "mapParentId": 532900,
+    "mapLevelType": 3,
+    "mapPinYin": "Heqing",
+    "mapZipCode": 671500
+}, {
+    "id": 533102,
+    "mapName": "瑞丽市",
+    "mapAbbreviation": "瑞丽",
+    "mapMergerName": "中国,云南省,德宏傣族景颇族自治州,瑞丽市",
+    "mapParentId": 533100,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruili",
+    "mapZipCode": 678600
+}, {
+    "id": 533103,
+    "mapName": "芒市",
+    "mapAbbreviation": "芒市",
+    "mapMergerName": "中国,云南省,德宏傣族景颇族自治州,芒市",
+    "mapParentId": 533100,
+    "mapLevelType": 3,
+    "mapPinYin": "Mangshi",
+    "mapZipCode": 678400
+}, {
+    "id": 533122,
+    "mapName": "梁河县",
+    "mapAbbreviation": "梁河",
+    "mapMergerName": "中国,云南省,德宏傣族景颇族自治州,梁河县",
+    "mapParentId": 533100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianghe",
+    "mapZipCode": 679200
+}, {
+    "id": 533123,
+    "mapName": "盈江县",
+    "mapAbbreviation": "盈江",
+    "mapMergerName": "中国,云南省,德宏傣族景颇族自治州,盈江县",
+    "mapParentId": 533100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingjiang",
+    "mapZipCode": 679300
+}, {
+    "id": 533124,
+    "mapName": "陇川县",
+    "mapAbbreviation": "陇川",
+    "mapMergerName": "中国,云南省,德宏傣族景颇族自治州,陇川县",
+    "mapParentId": 533100,
+    "mapLevelType": 3,
+    "mapPinYin": "Longchuan",
+    "mapZipCode": 678700
+}, {
+    "id": 533321,
+    "mapName": "泸水县",
+    "mapAbbreviation": "泸水",
+    "mapMergerName": "中国,云南省,怒江傈僳族自治州,泸水县",
+    "mapParentId": 533300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lushui",
+    "mapZipCode": 673100
+}, {
+    "id": 533323,
+    "mapName": "福贡县",
+    "mapAbbreviation": "福贡",
+    "mapMergerName": "中国,云南省,怒江傈僳族自治州,福贡县",
+    "mapParentId": 533300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fugong",
+    "mapZipCode": 673400
+}, {
+    "id": 533324,
+    "mapName": "贡山独龙族怒族自治县",
+    "mapAbbreviation": "贡山",
+    "mapMergerName": "中国,云南省,怒江傈僳族自治州,贡山独龙族怒族自治县",
+    "mapParentId": 533300,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongshan",
+    "mapZipCode": 673500
+}, {
+    "id": 533325,
+    "mapName": "兰坪白族普米族自治县",
+    "mapAbbreviation": "兰坪",
+    "mapMergerName": "中国,云南省,怒江傈僳族自治州,兰坪白族普米族自治县",
+    "mapParentId": 533300,
+    "mapLevelType": 3,
+    "mapPinYin": "Lanping",
+    "mapZipCode": 671400
+}, {
+    "id": 533421,
+    "mapName": "香格里拉市",
+    "mapAbbreviation": "香格里拉",
+    "mapMergerName": "中国,云南省,迪庆藏族自治州,香格里拉市",
+    "mapParentId": 533400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xianggelila",
+    "mapZipCode": 674400
+}, {
+    "id": 533422,
+    "mapName": "德钦县",
+    "mapAbbreviation": "德钦",
+    "mapMergerName": "中国,云南省,迪庆藏族自治州,德钦县",
+    "mapParentId": 533400,
+    "mapLevelType": 3,
+    "mapPinYin": "Deqin",
+    "mapZipCode": 674500
+}, {
+    "id": 533423,
+    "mapName": "维西傈僳族自治县",
+    "mapAbbreviation": "维西",
+    "mapMergerName": "中国,云南省,迪庆藏族自治州,维西傈僳族自治县",
+    "mapParentId": 533400,
+    "mapLevelType": 3,
+    "mapPinYin": "Weixi",
+    "mapZipCode": 674600
+}, {
+    "id": 540102,
+    "mapName": "城关区",
+    "mapAbbreviation": "城关",
+    "mapMergerName": "中国,西藏自治区,拉萨市,城关区",
+    "mapParentId": 540100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengguan",
+    "mapZipCode": 850000
+}, {
+    "id": 540121,
+    "mapName": "林周县",
+    "mapAbbreviation": "林周",
+    "mapMergerName": "中国,西藏自治区,拉萨市,林周县",
+    "mapParentId": 540100,
+    "mapLevelType": 3,
+    "mapPinYin": "Linzhou",
+    "mapZipCode": 851600
+}, {
+    "id": 540122,
+    "mapName": "当雄县",
+    "mapAbbreviation": "当雄",
+    "mapMergerName": "中国,西藏自治区,拉萨市,当雄县",
+    "mapParentId": 540100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dangxiong",
+    "mapZipCode": 851500
+}, {
+    "id": 540123,
+    "mapName": "尼木县",
+    "mapAbbreviation": "尼木",
+    "mapMergerName": "中国,西藏自治区,拉萨市,尼木县",
+    "mapParentId": 540100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nimu",
+    "mapZipCode": 851300
+}, {
+    "id": 540124,
+    "mapName": "曲水县",
+    "mapAbbreviation": "曲水",
+    "mapMergerName": "中国,西藏自治区,拉萨市,曲水县",
+    "mapParentId": 540100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qushui",
+    "mapZipCode": 850600
+}, {
+    "id": 540125,
+    "mapName": "堆龙德庆县",
+    "mapAbbreviation": "堆龙德庆",
+    "mapMergerName": "中国,西藏自治区,拉萨市,堆龙德庆县",
+    "mapParentId": 540100,
+    "mapLevelType": 3,
+    "mapPinYin": "Duilongdeqing",
+    "mapZipCode": 851400
+}, {
+    "id": 540126,
+    "mapName": "达孜县",
+    "mapAbbreviation": "达孜",
+    "mapMergerName": "中国,西藏自治区,拉萨市,达孜县",
+    "mapParentId": 540100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dazi",
+    "mapZipCode": 850100
+}, {
+    "id": 540127,
+    "mapName": "墨竹工卡县",
+    "mapAbbreviation": "墨竹工卡",
+    "mapMergerName": "中国,西藏自治区,拉萨市,墨竹工卡县",
+    "mapParentId": 540100,
+    "mapLevelType": 3,
+    "mapPinYin": "Mozhugongka",
+    "mapZipCode": 850200
+}, {
+    "id": 540202,
+    "mapName": "桑珠孜区",
+    "mapAbbreviation": "桑珠孜",
+    "mapMergerName": "中国,西藏自治区,日喀则市,桑珠孜区",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Sangzhuzi",
+    "mapZipCode": 857000
+}, {
+    "id": 540221,
+    "mapName": "南木林县",
+    "mapAbbreviation": "南木林",
+    "mapMergerName": "中国,西藏自治区,日喀则市,南木林县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanmulin",
+    "mapZipCode": 857100
+}, {
+    "id": 540222,
+    "mapName": "江孜县",
+    "mapAbbreviation": "江孜",
+    "mapMergerName": "中国,西藏自治区,日喀则市,江孜县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangzi",
+    "mapZipCode": 857400
+}, {
+    "id": 540223,
+    "mapName": "定日县",
+    "mapAbbreviation": "定日",
+    "mapMergerName": "中国,西藏自治区,日喀则市,定日县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingri",
+    "mapZipCode": 858200
+}, {
+    "id": 540224,
+    "mapName": "萨迦县",
+    "mapAbbreviation": "萨迦",
+    "mapMergerName": "中国,西藏自治区,日喀则市,萨迦县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Sajia",
+    "mapZipCode": 857800
+}, {
+    "id": 540225,
+    "mapName": "拉孜县",
+    "mapAbbreviation": "拉孜",
+    "mapMergerName": "中国,西藏自治区,日喀则市,拉孜县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lazi",
+    "mapZipCode": 858100
+}, {
+    "id": 540226,
+    "mapName": "昂仁县",
+    "mapAbbreviation": "昂仁",
+    "mapMergerName": "中国,西藏自治区,日喀则市,昂仁县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Angren",
+    "mapZipCode": 858500
+}, {
+    "id": 540227,
+    "mapName": "谢通门县",
+    "mapAbbreviation": "谢通门",
+    "mapMergerName": "中国,西藏自治区,日喀则市,谢通门县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xietongmen",
+    "mapZipCode": 858900
+}, {
+    "id": 540228,
+    "mapName": "白朗县",
+    "mapAbbreviation": "白朗",
+    "mapMergerName": "中国,西藏自治区,日喀则市,白朗县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Bailang",
+    "mapZipCode": 857300
+}, {
+    "id": 540229,
+    "mapName": "仁布县",
+    "mapAbbreviation": "仁布",
+    "mapMergerName": "中国,西藏自治区,日喀则市,仁布县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Renbu",
+    "mapZipCode": 857200
+}, {
+    "id": 540230,
+    "mapName": "康马县",
+    "mapAbbreviation": "康马",
+    "mapMergerName": "中国,西藏自治区,日喀则市,康马县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Kangma",
+    "mapZipCode": 857500
+}, {
+    "id": 540231,
+    "mapName": "定结县",
+    "mapAbbreviation": "定结",
+    "mapMergerName": "中国,西藏自治区,日喀则市,定结县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingjie",
+    "mapZipCode": 857900
+}, {
+    "id": 540232,
+    "mapName": "仲巴县",
+    "mapAbbreviation": "仲巴",
+    "mapMergerName": "中国,西藏自治区,日喀则市,仲巴县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongba",
+    "mapZipCode": 858800
+}, {
+    "id": 540233,
+    "mapName": "亚东县",
+    "mapAbbreviation": "亚东",
+    "mapMergerName": "中国,西藏自治区,日喀则市,亚东县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yadong",
+    "mapZipCode": 857600
+}, {
+    "id": 540234,
+    "mapName": "吉隆县",
+    "mapAbbreviation": "吉隆",
+    "mapMergerName": "中国,西藏自治区,日喀则市,吉隆县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jilong",
+    "mapZipCode": 858700
+}, {
+    "id": 540235,
+    "mapName": "聂拉木县",
+    "mapAbbreviation": "聂拉木",
+    "mapMergerName": "中国,西藏自治区,日喀则市,聂拉木县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nielamu",
+    "mapZipCode": 858300
+}, {
+    "id": 540236,
+    "mapName": "萨嘎县",
+    "mapAbbreviation": "萨嘎",
+    "mapMergerName": "中国,西藏自治区,日喀则市,萨嘎县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Saga",
+    "mapZipCode": 857800
+}, {
+    "id": 540237,
+    "mapName": "岗巴县",
+    "mapAbbreviation": "岗巴",
+    "mapMergerName": "中国,西藏自治区,日喀则市,岗巴县",
+    "mapParentId": 540200,
+    "mapLevelType": 3,
+    "mapPinYin": "Gangba",
+    "mapZipCode": 857700
+}, {
+    "id": 540302,
+    "mapName": "卡若区",
+    "mapAbbreviation": "昌都",
+    "mapMergerName": "中国,西藏自治区,昌都市,卡若区",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Karuo",
+    "mapZipCode": 854000
+}, {
+    "id": 540321,
+    "mapName": "江达县",
+    "mapAbbreviation": "江达",
+    "mapMergerName": "中国,西藏自治区,昌都市,江达县",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangda",
+    "mapZipCode": 854100
+}, {
+    "id": 540322,
+    "mapName": "贡觉县",
+    "mapAbbreviation": "贡觉",
+    "mapMergerName": "中国,西藏自治区,昌都市,贡觉县",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongjue",
+    "mapZipCode": 854200
+}, {
+    "id": 540323,
+    "mapName": "类乌齐县",
+    "mapAbbreviation": "类乌齐",
+    "mapMergerName": "中国,西藏自治区,昌都市,类乌齐县",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Leiwuqi",
+    "mapZipCode": 855600
+}, {
+    "id": 540324,
+    "mapName": "丁青县",
+    "mapAbbreviation": "丁青",
+    "mapMergerName": "中国,西藏自治区,昌都市,丁青县",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingqing",
+    "mapZipCode": 855700
+}, {
+    "id": 540325,
+    "mapName": "察雅县",
+    "mapAbbreviation": "察雅",
+    "mapMergerName": "中国,西藏自治区,昌都市,察雅县",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chaya",
+    "mapZipCode": 854300
+}, {
+    "id": 540326,
+    "mapName": "八宿县",
+    "mapAbbreviation": "八宿",
+    "mapMergerName": "中国,西藏自治区,昌都市,八宿县",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Basu",
+    "mapZipCode": 854600
+}, {
+    "id": 540327,
+    "mapName": "左贡县",
+    "mapAbbreviation": "左贡",
+    "mapMergerName": "中国,西藏自治区,昌都市,左贡县",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zuogong",
+    "mapZipCode": 854400
+}, {
+    "id": 540328,
+    "mapName": "芒康县",
+    "mapAbbreviation": "芒康",
+    "mapMergerName": "中国,西藏自治区,昌都市,芒康县",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Mangkang",
+    "mapZipCode": 854500
+}, {
+    "id": 540329,
+    "mapName": "洛隆县",
+    "mapAbbreviation": "洛隆",
+    "mapMergerName": "中国,西藏自治区,昌都市,洛隆县",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luolong",
+    "mapZipCode": 855400
+}, {
+    "id": 540330,
+    "mapName": "边坝县",
+    "mapAbbreviation": "边坝",
+    "mapMergerName": "中国,西藏自治区,昌都市,边坝县",
+    "mapParentId": 540300,
+    "mapLevelType": 3,
+    "mapPinYin": "Bianba",
+    "mapZipCode": 855500
+}, {
+    "id": 542221,
+    "mapName": "乃东县",
+    "mapAbbreviation": "乃东",
+    "mapMergerName": "中国,西藏自治区,山南地区,乃东县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Naidong",
+    "mapZipCode": 856100
+}, {
+    "id": 542222,
+    "mapName": "扎囊县",
+    "mapAbbreviation": "扎囊",
+    "mapMergerName": "中国,西藏自治区,山南地区,扎囊县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhanang",
+    "mapZipCode": 850800
+}, {
+    "id": 542223,
+    "mapName": "贡嘎县",
+    "mapAbbreviation": "贡嘎",
+    "mapMergerName": "中国,西藏自治区,山南地区,贡嘎县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongga",
+    "mapZipCode": 850700
+}, {
+    "id": 542224,
+    "mapName": "桑日县",
+    "mapAbbreviation": "桑日",
+    "mapMergerName": "中国,西藏自治区,山南地区,桑日县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Sangri",
+    "mapZipCode": 856200
+}, {
+    "id": 542225,
+    "mapName": "琼结县",
+    "mapAbbreviation": "琼结",
+    "mapMergerName": "中国,西藏自治区,山南地区,琼结县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiongjie",
+    "mapZipCode": 856800
+}, {
+    "id": 542226,
+    "mapName": "曲松县",
+    "mapAbbreviation": "曲松",
+    "mapMergerName": "中国,西藏自治区,山南地区,曲松县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qusong",
+    "mapZipCode": 856300
+}, {
+    "id": 542227,
+    "mapName": "措美县",
+    "mapAbbreviation": "措美",
+    "mapMergerName": "中国,西藏自治区,山南地区,措美县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Cuomei",
+    "mapZipCode": 856900
+}, {
+    "id": 542228,
+    "mapName": "洛扎县",
+    "mapAbbreviation": "洛扎",
+    "mapMergerName": "中国,西藏自治区,山南地区,洛扎县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Luozha",
+    "mapZipCode": 856600
+}, {
+    "id": 542229,
+    "mapName": "加查县",
+    "mapAbbreviation": "加查",
+    "mapMergerName": "中国,西藏自治区,山南地区,加查县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiacha",
+    "mapZipCode": 856400
+}, {
+    "id": 542231,
+    "mapName": "隆子县",
+    "mapAbbreviation": "隆子",
+    "mapMergerName": "中国,西藏自治区,山南地区,隆子县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Longzi",
+    "mapZipCode": 856600
+}, {
+    "id": 542232,
+    "mapName": "错那县",
+    "mapAbbreviation": "错那",
+    "mapMergerName": "中国,西藏自治区,山南地区,错那县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Cuona",
+    "mapZipCode": 856700
+}, {
+    "id": 542233,
+    "mapName": "浪卡子县",
+    "mapAbbreviation": "浪卡子",
+    "mapMergerName": "中国,西藏自治区,山南地区,浪卡子县",
+    "mapParentId": 542200,
+    "mapLevelType": 3,
+    "mapPinYin": "Langkazi",
+    "mapZipCode": 851100
+}, {
+    "id": 542421,
+    "mapName": "那曲县",
+    "mapAbbreviation": "那曲",
+    "mapMergerName": "中国,西藏自治区,那曲地区,那曲县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Naqu",
+    "mapZipCode": 852000
+}, {
+    "id": 542422,
+    "mapName": "嘉黎县",
+    "mapAbbreviation": "嘉黎",
+    "mapMergerName": "中国,西藏自治区,那曲地区,嘉黎县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiali",
+    "mapZipCode": 852400
+}, {
+    "id": 542423,
+    "mapName": "比如县",
+    "mapAbbreviation": "比如",
+    "mapMergerName": "中国,西藏自治区,那曲地区,比如县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Biru",
+    "mapZipCode": 852300
+}, {
+    "id": 542424,
+    "mapName": "聂荣县",
+    "mapAbbreviation": "聂荣",
+    "mapMergerName": "中国,西藏自治区,那曲地区,聂荣县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Nierong",
+    "mapZipCode": 853500
+}, {
+    "id": 542425,
+    "mapName": "安多县",
+    "mapAbbreviation": "安多",
+    "mapMergerName": "中国,西藏自治区,那曲地区,安多县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Anduo",
+    "mapZipCode": 853400
+}, {
+    "id": 542426,
+    "mapName": "申扎县",
+    "mapAbbreviation": "申扎",
+    "mapMergerName": "中国,西藏自治区,那曲地区,申扎县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenzha",
+    "mapZipCode": 853100
+}, {
+    "id": 542427,
+    "mapName": "索县",
+    "mapAbbreviation": "索县",
+    "mapMergerName": "中国,西藏自治区,那曲地区,索县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Suoxian",
+    "mapZipCode": 852200
+}, {
+    "id": 542428,
+    "mapName": "班戈县",
+    "mapAbbreviation": "班戈",
+    "mapMergerName": "中国,西藏自治区,那曲地区,班戈县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Bange",
+    "mapZipCode": 852500
+}, {
+    "id": 542429,
+    "mapName": "巴青县",
+    "mapAbbreviation": "巴青",
+    "mapMergerName": "中国,西藏自治区,那曲地区,巴青县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Baqing",
+    "mapZipCode": 852100
+}, {
+    "id": 542430,
+    "mapName": "尼玛县",
+    "mapAbbreviation": "尼玛",
+    "mapMergerName": "中国,西藏自治区,那曲地区,尼玛县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Nima",
+    "mapZipCode": 852600
+}, {
+    "id": 542431,
+    "mapName": "双湖县",
+    "mapAbbreviation": "双湖",
+    "mapMergerName": "中国,西藏自治区,那曲地区,双湖县",
+    "mapParentId": 542400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuanghu",
+    "mapZipCode": 852600
+}, {
+    "id": 542521,
+    "mapName": "普兰县",
+    "mapAbbreviation": "普兰",
+    "mapMergerName": "中国,西藏自治区,阿里地区,普兰县",
+    "mapParentId": 542500,
+    "mapLevelType": 3,
+    "mapPinYin": "Pulan",
+    "mapZipCode": 859500
+}, {
+    "id": 542522,
+    "mapName": "札达县",
+    "mapAbbreviation": "札达",
+    "mapMergerName": "中国,西藏自治区,阿里地区,札达县",
+    "mapParentId": 542500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhada",
+    "mapZipCode": 859600
+}, {
+    "id": 542523,
+    "mapName": "噶尔县",
+    "mapAbbreviation": "噶尔",
+    "mapMergerName": "中国,西藏自治区,阿里地区,噶尔县",
+    "mapParentId": 542500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaer",
+    "mapZipCode": 859400
+}, {
+    "id": 542524,
+    "mapName": "日土县",
+    "mapAbbreviation": "日土",
+    "mapMergerName": "中国,西藏自治区,阿里地区,日土县",
+    "mapParentId": 542500,
+    "mapLevelType": 3,
+    "mapPinYin": "Ritu",
+    "mapZipCode": 859700
+}, {
+    "id": 542525,
+    "mapName": "革吉县",
+    "mapAbbreviation": "革吉",
+    "mapMergerName": "中国,西藏自治区,阿里地区,革吉县",
+    "mapParentId": 542500,
+    "mapLevelType": 3,
+    "mapPinYin": "Geji",
+    "mapZipCode": 859100
+}, {
+    "id": 542526,
+    "mapName": "改则县",
+    "mapAbbreviation": "改则",
+    "mapMergerName": "中国,西藏自治区,阿里地区,改则县",
+    "mapParentId": 542500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaize",
+    "mapZipCode": 859200
+}, {
+    "id": 542527,
+    "mapName": "措勤县",
+    "mapAbbreviation": "措勤",
+    "mapMergerName": "中国,西藏自治区,阿里地区,措勤县",
+    "mapParentId": 542500,
+    "mapLevelType": 3,
+    "mapPinYin": "Cuoqin",
+    "mapZipCode": 859300
+}, {
+    "id": 542621,
+    "mapName": "林芝县",
+    "mapAbbreviation": "林芝",
+    "mapMergerName": "中国,西藏自治区,林芝地区,林芝县",
+    "mapParentId": 542600,
+    "mapLevelType": 3,
+    "mapPinYin": "Linzhi",
+    "mapZipCode": 850400
+}, {
+    "id": 542622,
+    "mapName": "工布江达县",
+    "mapAbbreviation": "工布江达",
+    "mapMergerName": "中国,西藏自治区,林芝地区,工布江达县",
+    "mapParentId": 542600,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongbujiangda",
+    "mapZipCode": 850300
+}, {
+    "id": 542623,
+    "mapName": "米林县",
+    "mapAbbreviation": "米林",
+    "mapMergerName": "中国,西藏自治区,林芝地区,米林县",
+    "mapParentId": 542600,
+    "mapLevelType": 3,
+    "mapPinYin": "Milin",
+    "mapZipCode": 850500
+}, {
+    "id": 542624,
+    "mapName": "墨脱县",
+    "mapAbbreviation": "墨脱",
+    "mapMergerName": "中国,西藏自治区,林芝地区,墨脱县",
+    "mapParentId": 542600,
+    "mapLevelType": 3,
+    "mapPinYin": "Motuo",
+    "mapZipCode": 855300
+}, {
+    "id": 542625,
+    "mapName": "波密县",
+    "mapAbbreviation": "波密",
+    "mapMergerName": "中国,西藏自治区,林芝地区,波密县",
+    "mapParentId": 542600,
+    "mapLevelType": 3,
+    "mapPinYin": "Bomi",
+    "mapZipCode": 855200
+}, {
+    "id": 542626,
+    "mapName": "察隅县",
+    "mapAbbreviation": "察隅",
+    "mapMergerName": "中国,西藏自治区,林芝地区,察隅县",
+    "mapParentId": 542600,
+    "mapLevelType": 3,
+    "mapPinYin": "Chayu",
+    "mapZipCode": 855100
+}, {
+    "id": 542627,
+    "mapName": "朗县",
+    "mapAbbreviation": "朗县",
+    "mapMergerName": "中国,西藏自治区,林芝地区,朗县",
+    "mapParentId": 542600,
+    "mapLevelType": 3,
+    "mapPinYin": "Langxian",
+    "mapZipCode": 856500
+}, {
+    "id": 610102,
+    "mapName": "新城区",
+    "mapAbbreviation": "新城",
+    "mapMergerName": "中国,陕西省,西安市,新城区",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xincheng",
+    "mapZipCode": 710004
+}, {
+    "id": 610103,
+    "mapName": "碑林区",
+    "mapAbbreviation": "碑林",
+    "mapMergerName": "中国,陕西省,西安市,碑林区",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Beilin",
+    "mapZipCode": 710001
+}, {
+    "id": 610104,
+    "mapName": "莲湖区",
+    "mapAbbreviation": "莲湖",
+    "mapMergerName": "中国,陕西省,西安市,莲湖区",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lianhu",
+    "mapZipCode": 710003
+}, {
+    "id": 610111,
+    "mapName": "灞桥区",
+    "mapAbbreviation": "灞桥",
+    "mapMergerName": "中国,陕西省,西安市,灞桥区",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Baqiao",
+    "mapZipCode": 710038
+}, {
+    "id": 610112,
+    "mapName": "未央区",
+    "mapAbbreviation": "未央",
+    "mapMergerName": "中国,陕西省,西安市,未央区",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Weiyang",
+    "mapZipCode": 710014
+}, {
+    "id": 610113,
+    "mapName": "雁塔区",
+    "mapAbbreviation": "雁塔",
+    "mapMergerName": "中国,陕西省,西安市,雁塔区",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanta",
+    "mapZipCode": 710061
+}, {
+    "id": 610114,
+    "mapName": "阎良区",
+    "mapAbbreviation": "阎良",
+    "mapMergerName": "中国,陕西省,西安市,阎良区",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanliang",
+    "mapZipCode": 710087
+}, {
+    "id": 610115,
+    "mapName": "临潼区",
+    "mapAbbreviation": "临潼",
+    "mapMergerName": "中国,陕西省,西安市,临潼区",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lintong",
+    "mapZipCode": 710600
+}, {
+    "id": 610116,
+    "mapName": "长安区",
+    "mapAbbreviation": "长安",
+    "mapMergerName": "中国,陕西省,西安市,长安区",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chang'an",
+    "mapZipCode": 710100
+}, {
+    "id": 610122,
+    "mapName": "蓝田县",
+    "mapAbbreviation": "蓝田",
+    "mapMergerName": "中国,陕西省,西安市,蓝田县",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lantian",
+    "mapZipCode": 710500
+}, {
+    "id": 610124,
+    "mapName": "周至县",
+    "mapAbbreviation": "周至",
+    "mapMergerName": "中国,陕西省,西安市,周至县",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhouzhi",
+    "mapZipCode": 710400
+}, {
+    "id": 610125,
+    "mapName": "户县",
+    "mapAbbreviation": "户县",
+    "mapMergerName": "中国,陕西省,西安市,户县",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huxian",
+    "mapZipCode": 710300
+}, {
+    "id": 610126,
+    "mapName": "高陵区",
+    "mapAbbreviation": "高陵",
+    "mapMergerName": "中国,陕西省,西安市,高陵区",
+    "mapParentId": 610100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoling",
+    "mapZipCode": 710200
+}, {
+    "id": 610202,
+    "mapName": "王益区",
+    "mapAbbreviation": "王益",
+    "mapMergerName": "中国,陕西省,铜川市,王益区",
+    "mapParentId": 610200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wangyi",
+    "mapZipCode": 727000
+}, {
+    "id": 610203,
+    "mapName": "印台区",
+    "mapAbbreviation": "印台",
+    "mapMergerName": "中国,陕西省,铜川市,印台区",
+    "mapParentId": 610200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yintai",
+    "mapZipCode": 727007
+}, {
+    "id": 610204,
+    "mapName": "耀州区",
+    "mapAbbreviation": "耀州",
+    "mapMergerName": "中国,陕西省,铜川市,耀州区",
+    "mapParentId": 610200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yaozhou",
+    "mapZipCode": 727100
+}, {
+    "id": 610222,
+    "mapName": "宜君县",
+    "mapAbbreviation": "宜君",
+    "mapMergerName": "中国,陕西省,铜川市,宜君县",
+    "mapParentId": 610200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yijun",
+    "mapZipCode": 727200
+}, {
+    "id": 610302,
+    "mapName": "渭滨区",
+    "mapAbbreviation": "渭滨",
+    "mapMergerName": "中国,陕西省,宝鸡市,渭滨区",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Weibin",
+    "mapZipCode": 721000
+}, {
+    "id": 610303,
+    "mapName": "金台区",
+    "mapAbbreviation": "金台",
+    "mapMergerName": "中国,陕西省,宝鸡市,金台区",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jintai",
+    "mapZipCode": 721000
+}, {
+    "id": 610304,
+    "mapName": "陈仓区",
+    "mapAbbreviation": "陈仓",
+    "mapMergerName": "中国,陕西省,宝鸡市,陈仓区",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chencang",
+    "mapZipCode": 721300
+}, {
+    "id": 610322,
+    "mapName": "凤翔县",
+    "mapAbbreviation": "凤翔",
+    "mapMergerName": "中国,陕西省,宝鸡市,凤翔县",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengxiang",
+    "mapZipCode": 721400
+}, {
+    "id": 610323,
+    "mapName": "岐山县",
+    "mapAbbreviation": "岐山",
+    "mapMergerName": "中国,陕西省,宝鸡市,岐山县",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qishan",
+    "mapZipCode": 722400
+}, {
+    "id": 610324,
+    "mapName": "扶风县",
+    "mapAbbreviation": "扶风",
+    "mapMergerName": "中国,陕西省,宝鸡市,扶风县",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fufeng",
+    "mapZipCode": 722200
+}, {
+    "id": 610326,
+    "mapName": "眉县",
+    "mapAbbreviation": "眉县",
+    "mapMergerName": "中国,陕西省,宝鸡市,眉县",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Meixian",
+    "mapZipCode": 722300
+}, {
+    "id": 610327,
+    "mapName": "陇县",
+    "mapAbbreviation": "陇县",
+    "mapMergerName": "中国,陕西省,宝鸡市,陇县",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Longxian",
+    "mapZipCode": 721200
+}, {
+    "id": 610328,
+    "mapName": "千阳县",
+    "mapAbbreviation": "千阳",
+    "mapMergerName": "中国,陕西省,宝鸡市,千阳县",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianyang",
+    "mapZipCode": 721100
+}, {
+    "id": 610329,
+    "mapName": "麟游县",
+    "mapAbbreviation": "麟游",
+    "mapMergerName": "中国,陕西省,宝鸡市,麟游县",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Linyou",
+    "mapZipCode": 721500
+}, {
+    "id": 610330,
+    "mapName": "凤县",
+    "mapAbbreviation": "凤县",
+    "mapMergerName": "中国,陕西省,宝鸡市,凤县",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengxian",
+    "mapZipCode": 721700
+}, {
+    "id": 610331,
+    "mapName": "太白县",
+    "mapAbbreviation": "太白",
+    "mapMergerName": "中国,陕西省,宝鸡市,太白县",
+    "mapParentId": 610300,
+    "mapLevelType": 3,
+    "mapPinYin": "Taibai",
+    "mapZipCode": 721600
+}, {
+    "id": 610402,
+    "mapName": "秦都区",
+    "mapAbbreviation": "秦都",
+    "mapMergerName": "中国,陕西省,咸阳市,秦都区",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qindu",
+    "mapZipCode": 712000
+}, {
+    "id": 610403,
+    "mapName": "杨陵区",
+    "mapAbbreviation": "杨陵",
+    "mapMergerName": "中国,陕西省,咸阳市,杨陵区",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangling",
+    "mapZipCode": 712100
+}, {
+    "id": 610404,
+    "mapName": "渭城区",
+    "mapAbbreviation": "渭城",
+    "mapMergerName": "中国,陕西省,咸阳市,渭城区",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Weicheng",
+    "mapZipCode": 712000
+}, {
+    "id": 610422,
+    "mapName": "三原县",
+    "mapAbbreviation": "三原",
+    "mapMergerName": "中国,陕西省,咸阳市,三原县",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanyuan",
+    "mapZipCode": 713800
+}, {
+    "id": 610423,
+    "mapName": "泾阳县",
+    "mapAbbreviation": "泾阳",
+    "mapMergerName": "中国,陕西省,咸阳市,泾阳县",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingyang",
+    "mapZipCode": 713700
+}, {
+    "id": 610424,
+    "mapName": "乾县",
+    "mapAbbreviation": "乾县",
+    "mapMergerName": "中国,陕西省,咸阳市,乾县",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianxian",
+    "mapZipCode": 713300
+}, {
+    "id": 610425,
+    "mapName": "礼泉县",
+    "mapAbbreviation": "礼泉",
+    "mapMergerName": "中国,陕西省,咸阳市,礼泉县",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Liquan",
+    "mapZipCode": 713200
+}, {
+    "id": 610426,
+    "mapName": "永寿县",
+    "mapAbbreviation": "永寿",
+    "mapMergerName": "中国,陕西省,咸阳市,永寿县",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongshou",
+    "mapZipCode": 713400
+}, {
+    "id": 610427,
+    "mapName": "彬县",
+    "mapAbbreviation": "彬县",
+    "mapMergerName": "中国,陕西省,咸阳市,彬县",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Binxian",
+    "mapZipCode": 713500
+}, {
+    "id": 610428,
+    "mapName": "长武县",
+    "mapAbbreviation": "长武",
+    "mapMergerName": "中国,陕西省,咸阳市,长武县",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Changwu",
+    "mapZipCode": 713600
+}, {
+    "id": 610429,
+    "mapName": "旬邑县",
+    "mapAbbreviation": "旬邑",
+    "mapMergerName": "中国,陕西省,咸阳市,旬邑县",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xunyi",
+    "mapZipCode": 711300
+}, {
+    "id": 610430,
+    "mapName": "淳化县",
+    "mapAbbreviation": "淳化",
+    "mapMergerName": "中国,陕西省,咸阳市,淳化县",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Chunhua",
+    "mapZipCode": 711200
+}, {
+    "id": 610431,
+    "mapName": "武功县",
+    "mapAbbreviation": "武功",
+    "mapMergerName": "中国,陕西省,咸阳市,武功县",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wugong",
+    "mapZipCode": 712200
+}, {
+    "id": 610481,
+    "mapName": "兴平市",
+    "mapAbbreviation": "兴平",
+    "mapMergerName": "中国,陕西省,咸阳市,兴平市",
+    "mapParentId": 610400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingping",
+    "mapZipCode": 713100
+}, {
+    "id": 610502,
+    "mapName": "临渭区",
+    "mapAbbreviation": "临渭",
+    "mapMergerName": "中国,陕西省,渭南市,临渭区",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Linwei",
+    "mapZipCode": 714000
+}, {
+    "id": 610521,
+    "mapName": "华县",
+    "mapAbbreviation": "华县",
+    "mapMergerName": "中国,陕西省,渭南市,华县",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huaxian",
+    "mapZipCode": 714100
+}, {
+    "id": 610522,
+    "mapName": "潼关县",
+    "mapAbbreviation": "潼关",
+    "mapMergerName": "中国,陕西省,渭南市,潼关县",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongguan",
+    "mapZipCode": 714300
+}, {
+    "id": 610523,
+    "mapName": "大荔县",
+    "mapAbbreviation": "大荔",
+    "mapMergerName": "中国,陕西省,渭南市,大荔县",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dali",
+    "mapZipCode": 715100
+}, {
+    "id": 610524,
+    "mapName": "合阳县",
+    "mapAbbreviation": "合阳",
+    "mapMergerName": "中国,陕西省,渭南市,合阳县",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Heyang",
+    "mapZipCode": 715300
+}, {
+    "id": 610525,
+    "mapName": "澄城县",
+    "mapAbbreviation": "澄城",
+    "mapMergerName": "中国,陕西省,渭南市,澄城县",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengcheng",
+    "mapZipCode": 715200
+}, {
+    "id": 610526,
+    "mapName": "蒲城县",
+    "mapAbbreviation": "蒲城",
+    "mapMergerName": "中国,陕西省,渭南市,蒲城县",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Pucheng",
+    "mapZipCode": 715500
+}, {
+    "id": 610527,
+    "mapName": "白水县",
+    "mapAbbreviation": "白水",
+    "mapMergerName": "中国,陕西省,渭南市,白水县",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Baishui",
+    "mapZipCode": 715600
+}, {
+    "id": 610528,
+    "mapName": "富平县",
+    "mapAbbreviation": "富平",
+    "mapMergerName": "中国,陕西省,渭南市,富平县",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuping",
+    "mapZipCode": 711700
+}, {
+    "id": 610581,
+    "mapName": "韩城市",
+    "mapAbbreviation": "韩城",
+    "mapMergerName": "中国,陕西省,渭南市,韩城市",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Hancheng",
+    "mapZipCode": 715400
+}, {
+    "id": 610582,
+    "mapName": "华阴市",
+    "mapAbbreviation": "华阴",
+    "mapMergerName": "中国,陕西省,渭南市,华阴市",
+    "mapParentId": 610500,
+    "mapLevelType": 3,
+    "mapPinYin": "Huayin",
+    "mapZipCode": 714200
+}, {
+    "id": 610602,
+    "mapName": "宝塔区",
+    "mapAbbreviation": "宝塔",
+    "mapMergerName": "中国,陕西省,延安市,宝塔区",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Baota",
+    "mapZipCode": 716000
+}, {
+    "id": 610621,
+    "mapName": "延长县",
+    "mapAbbreviation": "延长",
+    "mapMergerName": "中国,陕西省,延安市,延长县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanchang",
+    "mapZipCode": 717100
+}, {
+    "id": 610622,
+    "mapName": "延川县",
+    "mapAbbreviation": "延川",
+    "mapMergerName": "中国,陕西省,延安市,延川县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanchuan",
+    "mapZipCode": 717200
+}, {
+    "id": 610623,
+    "mapName": "子长县",
+    "mapAbbreviation": "子长",
+    "mapMergerName": "中国,陕西省,延安市,子长县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zichang",
+    "mapZipCode": 717300
+}, {
+    "id": 610624,
+    "mapName": "安塞县",
+    "mapAbbreviation": "安塞",
+    "mapMergerName": "中国,陕西省,延安市,安塞县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Ansai",
+    "mapZipCode": 717400
+}, {
+    "id": 610625,
+    "mapName": "志丹县",
+    "mapAbbreviation": "志丹",
+    "mapMergerName": "中国,陕西省,延安市,志丹县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhidan",
+    "mapZipCode": 717500
+}, {
+    "id": 610626,
+    "mapName": "吴起县",
+    "mapAbbreviation": "吴起",
+    "mapMergerName": "中国,陕西省,延安市,吴起县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuqi",
+    "mapZipCode": 717600
+}, {
+    "id": 610627,
+    "mapName": "甘泉县",
+    "mapAbbreviation": "甘泉",
+    "mapMergerName": "中国,陕西省,延安市,甘泉县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Ganquan",
+    "mapZipCode": 716100
+}, {
+    "id": 610628,
+    "mapName": "富县",
+    "mapAbbreviation": "富县",
+    "mapMergerName": "中国,陕西省,延安市,富县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuxian",
+    "mapZipCode": 727500
+}, {
+    "id": 610629,
+    "mapName": "洛川县",
+    "mapAbbreviation": "洛川",
+    "mapMergerName": "中国,陕西省,延安市,洛川县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Luochuan",
+    "mapZipCode": 727400
+}, {
+    "id": 610630,
+    "mapName": "宜川县",
+    "mapAbbreviation": "宜川",
+    "mapMergerName": "中国,陕西省,延安市,宜川县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Yichuan",
+    "mapZipCode": 716200
+}, {
+    "id": 610631,
+    "mapName": "黄龙县",
+    "mapAbbreviation": "黄龙",
+    "mapMergerName": "中国,陕西省,延安市,黄龙县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Huanglong",
+    "mapZipCode": 715700
+}, {
+    "id": 610632,
+    "mapName": "黄陵县",
+    "mapAbbreviation": "黄陵",
+    "mapMergerName": "中国,陕西省,延安市,黄陵县",
+    "mapParentId": 610600,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangling",
+    "mapZipCode": 727300
+}, {
+    "id": 610702,
+    "mapName": "汉台区",
+    "mapAbbreviation": "汉台",
+    "mapMergerName": "中国,陕西省,汉中市,汉台区",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Hantai",
+    "mapZipCode": 723000
+}, {
+    "id": 610721,
+    "mapName": "南郑县",
+    "mapAbbreviation": "南郑",
+    "mapMergerName": "中国,陕西省,汉中市,南郑县",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanzheng",
+    "mapZipCode": 723100
+}, {
+    "id": 610722,
+    "mapName": "城固县",
+    "mapAbbreviation": "城固",
+    "mapMergerName": "中国,陕西省,汉中市,城固县",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Chenggu",
+    "mapZipCode": 723200
+}, {
+    "id": 610723,
+    "mapName": "洋县",
+    "mapAbbreviation": "洋县",
+    "mapMergerName": "中国,陕西省,汉中市,洋县",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangxian",
+    "mapZipCode": 723300
+}, {
+    "id": 610724,
+    "mapName": "西乡县",
+    "mapAbbreviation": "西乡",
+    "mapMergerName": "中国,陕西省,汉中市,西乡县",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xixiang",
+    "mapZipCode": 723500
+}, {
+    "id": 610725,
+    "mapName": "勉县",
+    "mapAbbreviation": "勉县",
+    "mapMergerName": "中国,陕西省,汉中市,勉县",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Mianxian",
+    "mapZipCode": 724200
+}, {
+    "id": 610726,
+    "mapName": "宁强县",
+    "mapAbbreviation": "宁强",
+    "mapMergerName": "中国,陕西省,汉中市,宁强县",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningqiang",
+    "mapZipCode": 724400
+}, {
+    "id": 610727,
+    "mapName": "略阳县",
+    "mapAbbreviation": "略阳",
+    "mapMergerName": "中国,陕西省,汉中市,略阳县",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Lueyang",
+    "mapZipCode": 724300
+}, {
+    "id": 610728,
+    "mapName": "镇巴县",
+    "mapAbbreviation": "镇巴",
+    "mapMergerName": "中国,陕西省,汉中市,镇巴县",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenba",
+    "mapZipCode": 723600
+}, {
+    "id": 610729,
+    "mapName": "留坝县",
+    "mapAbbreviation": "留坝",
+    "mapMergerName": "中国,陕西省,汉中市,留坝县",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Liuba",
+    "mapZipCode": 724100
+}, {
+    "id": 610730,
+    "mapName": "佛坪县",
+    "mapAbbreviation": "佛坪",
+    "mapMergerName": "中国,陕西省,汉中市,佛坪县",
+    "mapParentId": 610700,
+    "mapLevelType": 3,
+    "mapPinYin": "Foping",
+    "mapZipCode": 723400
+}, {
+    "id": 610802,
+    "mapName": "榆阳区",
+    "mapAbbreviation": "榆阳",
+    "mapMergerName": "中国,陕西省,榆林市,榆阳区",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuyang",
+    "mapZipCode": 719000
+}, {
+    "id": 610821,
+    "mapName": "神木县",
+    "mapAbbreviation": "神木",
+    "mapMergerName": "中国,陕西省,榆林市,神木县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenmu",
+    "mapZipCode": 719300
+}, {
+    "id": 610822,
+    "mapName": "府谷县",
+    "mapAbbreviation": "府谷",
+    "mapMergerName": "中国,陕西省,榆林市,府谷县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Fugu",
+    "mapZipCode": 719400
+}, {
+    "id": 610823,
+    "mapName": "横山县",
+    "mapAbbreviation": "横山",
+    "mapMergerName": "中国,陕西省,榆林市,横山县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengshan",
+    "mapZipCode": 719100
+}, {
+    "id": 610824,
+    "mapName": "靖边县",
+    "mapAbbreviation": "靖边",
+    "mapMergerName": "中国,陕西省,榆林市,靖边县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingbian",
+    "mapZipCode": 718500
+}, {
+    "id": 610825,
+    "mapName": "定边县",
+    "mapAbbreviation": "定边",
+    "mapMergerName": "中国,陕西省,榆林市,定边县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Dingbian",
+    "mapZipCode": 718600
+}, {
+    "id": 610826,
+    "mapName": "绥德县",
+    "mapAbbreviation": "绥德",
+    "mapMergerName": "中国,陕西省,榆林市,绥德县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Suide",
+    "mapZipCode": 718000
+}, {
+    "id": 610827,
+    "mapName": "米脂县",
+    "mapAbbreviation": "米脂",
+    "mapMergerName": "中国,陕西省,榆林市,米脂县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Mizhi",
+    "mapZipCode": 718100
+}, {
+    "id": 610828,
+    "mapName": "佳县",
+    "mapAbbreviation": "佳县",
+    "mapMergerName": "中国,陕西省,榆林市,佳县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaxian",
+    "mapZipCode": 719200
+}, {
+    "id": 610829,
+    "mapName": "吴堡县",
+    "mapAbbreviation": "吴堡",
+    "mapMergerName": "中国,陕西省,榆林市,吴堡县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wubu",
+    "mapZipCode": 718200
+}, {
+    "id": 610830,
+    "mapName": "清涧县",
+    "mapAbbreviation": "清涧",
+    "mapMergerName": "中国,陕西省,榆林市,清涧县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingjian",
+    "mapZipCode": 718300
+}, {
+    "id": 610831,
+    "mapName": "子洲县",
+    "mapAbbreviation": "子洲",
+    "mapMergerName": "中国,陕西省,榆林市,子洲县",
+    "mapParentId": 610800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zizhou",
+    "mapZipCode": 718400
+}, {
+    "id": 610902,
+    "mapName": "汉滨区",
+    "mapAbbreviation": "汉滨",
+    "mapMergerName": "中国,陕西省,安康市,汉滨区",
+    "mapParentId": 610900,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanbin",
+    "mapZipCode": 725000
+}, {
+    "id": 610921,
+    "mapName": "汉阴县",
+    "mapAbbreviation": "汉阴",
+    "mapMergerName": "中国,陕西省,安康市,汉阴县",
+    "mapParentId": 610900,
+    "mapLevelType": 3,
+    "mapPinYin": "Hanyin",
+    "mapZipCode": 725100
+}, {
+    "id": 610922,
+    "mapName": "石泉县",
+    "mapAbbreviation": "石泉",
+    "mapMergerName": "中国,陕西省,安康市,石泉县",
+    "mapParentId": 610900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shiquan",
+    "mapZipCode": 725200
+}, {
+    "id": 610923,
+    "mapName": "宁陕县",
+    "mapAbbreviation": "宁陕",
+    "mapMergerName": "中国,陕西省,安康市,宁陕县",
+    "mapParentId": 610900,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningshan",
+    "mapZipCode": 711600
+}, {
+    "id": 610924,
+    "mapName": "紫阳县",
+    "mapAbbreviation": "紫阳",
+    "mapMergerName": "中国,陕西省,安康市,紫阳县",
+    "mapParentId": 610900,
+    "mapLevelType": 3,
+    "mapPinYin": "Ziyang",
+    "mapZipCode": 725300
+}, {
+    "id": 610925,
+    "mapName": "岚皋县",
+    "mapAbbreviation": "岚皋",
+    "mapMergerName": "中国,陕西省,安康市,岚皋县",
+    "mapParentId": 610900,
+    "mapLevelType": 3,
+    "mapPinYin": "Langao",
+    "mapZipCode": 725400
+}, {
+    "id": 610926,
+    "mapName": "平利县",
+    "mapAbbreviation": "平利",
+    "mapMergerName": "中国,陕西省,安康市,平利县",
+    "mapParentId": 610900,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingli",
+    "mapZipCode": 725500
+}, {
+    "id": 610927,
+    "mapName": "镇坪县",
+    "mapAbbreviation": "镇坪",
+    "mapMergerName": "中国,陕西省,安康市,镇坪县",
+    "mapParentId": 610900,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenping",
+    "mapZipCode": 725600
+}, {
+    "id": 610928,
+    "mapName": "旬阳县",
+    "mapAbbreviation": "旬阳",
+    "mapMergerName": "中国,陕西省,安康市,旬阳县",
+    "mapParentId": 610900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xunyang",
+    "mapZipCode": 725700
+}, {
+    "id": 610929,
+    "mapName": "白河县",
+    "mapAbbreviation": "白河",
+    "mapMergerName": "中国,陕西省,安康市,白河县",
+    "mapParentId": 610900,
+    "mapLevelType": 3,
+    "mapPinYin": "Baihe",
+    "mapZipCode": 725800
+}, {
+    "id": 611002,
+    "mapName": "商州区",
+    "mapAbbreviation": "商州",
+    "mapMergerName": "中国,陕西省,商洛市,商州区",
+    "mapParentId": 611000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangzhou",
+    "mapZipCode": 726000
+}, {
+    "id": 611021,
+    "mapName": "洛南县",
+    "mapAbbreviation": "洛南",
+    "mapMergerName": "中国,陕西省,商洛市,洛南县",
+    "mapParentId": 611000,
+    "mapLevelType": 3,
+    "mapPinYin": "Luonan",
+    "mapZipCode": 726100
+}, {
+    "id": 611022,
+    "mapName": "丹凤县",
+    "mapAbbreviation": "丹凤",
+    "mapMergerName": "中国,陕西省,商洛市,丹凤县",
+    "mapParentId": 611000,
+    "mapLevelType": 3,
+    "mapPinYin": "Danfeng",
+    "mapZipCode": 726200
+}, {
+    "id": 611023,
+    "mapName": "商南县",
+    "mapAbbreviation": "商南",
+    "mapMergerName": "中国,陕西省,商洛市,商南县",
+    "mapParentId": 611000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shangnan",
+    "mapZipCode": 726300
+}, {
+    "id": 611024,
+    "mapName": "山阳县",
+    "mapAbbreviation": "山阳",
+    "mapMergerName": "中国,陕西省,商洛市,山阳县",
+    "mapParentId": 611000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanyang",
+    "mapZipCode": 726400
+}, {
+    "id": 611025,
+    "mapName": "镇安县",
+    "mapAbbreviation": "镇安",
+    "mapMergerName": "中国,陕西省,商洛市,镇安县",
+    "mapParentId": 611000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhen'an",
+    "mapZipCode": 711500
+}, {
+    "id": 611026,
+    "mapName": "柞水县",
+    "mapAbbreviation": "柞水",
+    "mapMergerName": "中国,陕西省,商洛市,柞水县",
+    "mapParentId": 611000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhashui",
+    "mapZipCode": 711400
+}, {
+    "id": 611101,
+    "mapName": "空港新城",
+    "mapAbbreviation": "空港",
+    "mapMergerName": "中国,陕西省,西咸新区,空港新城",
+    "mapParentId": 611100,
+    "mapLevelType": 3,
+    "mapPinYin": "Konggang",
+    "mapZipCode": 461000
+}, {
+    "id": 611102,
+    "mapName": "沣东新城",
+    "mapAbbreviation": "沣东",
+    "mapMergerName": "中国,陕西省,西咸新区,沣东新城",
+    "mapParentId": 611100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengdong",
+    "mapZipCode": 710000
+}, {
+    "id": 611103,
+    "mapName": "秦汉新城",
+    "mapAbbreviation": "秦汉",
+    "mapMergerName": "中国,陕西省,西咸新区,秦汉新城",
+    "mapParentId": 611100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinhan",
+    "mapZipCode": 712000
+}, {
+    "id": 611104,
+    "mapName": "沣西新城",
+    "mapAbbreviation": "沣西",
+    "mapMergerName": "中国,陕西省,西咸新区,沣西新城",
+    "mapParentId": 611100,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengxi",
+    "mapZipCode": 710000
+}, {
+    "id": 611105,
+    "mapName": "泾河新城",
+    "mapAbbreviation": "泾河",
+    "mapMergerName": "中国,陕西省,西咸新区,泾河新城",
+    "mapParentId": 611100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinghe",
+    "mapZipCode": 713700
+}, {
+    "id": 620102,
+    "mapName": "城关区",
+    "mapAbbreviation": "城关",
+    "mapMergerName": "中国,甘肃省,兰州市,城关区",
+    "mapParentId": 620100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengguan",
+    "mapZipCode": 730030
+}, {
+    "id": 620103,
+    "mapName": "七里河区",
+    "mapAbbreviation": "七里河",
+    "mapMergerName": "中国,甘肃省,兰州市,七里河区",
+    "mapParentId": 620100,
+    "mapLevelType": 3,
+    "mapPinYin": "Qilihe",
+    "mapZipCode": 730050
+}, {
+    "id": 620104,
+    "mapName": "西固区",
+    "mapAbbreviation": "西固",
+    "mapMergerName": "中国,甘肃省,兰州市,西固区",
+    "mapParentId": 620100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xigu",
+    "mapZipCode": 730060
+}, {
+    "id": 620105,
+    "mapName": "安宁区",
+    "mapAbbreviation": "安宁",
+    "mapMergerName": "中国,甘肃省,兰州市,安宁区",
+    "mapParentId": 620100,
+    "mapLevelType": 3,
+    "mapPinYin": "Anning",
+    "mapZipCode": 730070
+}, {
+    "id": 620111,
+    "mapName": "红古区",
+    "mapAbbreviation": "红古",
+    "mapMergerName": "中国,甘肃省,兰州市,红古区",
+    "mapParentId": 620100,
+    "mapLevelType": 3,
+    "mapPinYin": "Honggu",
+    "mapZipCode": 730084
+}, {
+    "id": 620121,
+    "mapName": "永登县",
+    "mapAbbreviation": "永登",
+    "mapMergerName": "中国,甘肃省,兰州市,永登县",
+    "mapParentId": 620100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongdeng",
+    "mapZipCode": 730300
+}, {
+    "id": 620122,
+    "mapName": "皋兰县",
+    "mapAbbreviation": "皋兰",
+    "mapMergerName": "中国,甘肃省,兰州市,皋兰县",
+    "mapParentId": 620100,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaolan",
+    "mapZipCode": 730200
+}, {
+    "id": 620123,
+    "mapName": "榆中县",
+    "mapAbbreviation": "榆中",
+    "mapMergerName": "中国,甘肃省,兰州市,榆中县",
+    "mapParentId": 620100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuzhong",
+    "mapZipCode": 730100
+}, {
+    "id": 620201,
+    "mapName": "雄关区",
+    "mapAbbreviation": "雄关",
+    "mapMergerName": "中国,甘肃省,嘉峪关市,雄关区",
+    "mapParentId": 620200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiongguan",
+    "mapZipCode": 735100
+}, {
+    "id": 620202,
+    "mapName": "长城区",
+    "mapAbbreviation": "长城",
+    "mapMergerName": "中国,甘肃省,嘉峪关市,长城区",
+    "mapParentId": 620200,
+    "mapLevelType": 3,
+    "mapPinYin": "Changcheng",
+    "mapZipCode": 735106
+}, {
+    "id": 620203,
+    "mapName": "镜铁区",
+    "mapAbbreviation": "镜铁",
+    "mapMergerName": "中国,甘肃省,嘉峪关市,镜铁区",
+    "mapParentId": 620200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingtie",
+    "mapZipCode": 735100
+}, {
+    "id": 620302,
+    "mapName": "金川区",
+    "mapAbbreviation": "金川",
+    "mapMergerName": "中国,甘肃省,金昌市,金川区",
+    "mapParentId": 620300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinchuan",
+    "mapZipCode": 737100
+}, {
+    "id": 620321,
+    "mapName": "永昌县",
+    "mapAbbreviation": "永昌",
+    "mapMergerName": "中国,甘肃省,金昌市,永昌县",
+    "mapParentId": 620300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongchang",
+    "mapZipCode": 737200
+}, {
+    "id": 620402,
+    "mapName": "白银区",
+    "mapAbbreviation": "白银",
+    "mapMergerName": "中国,甘肃省,白银市,白银区",
+    "mapParentId": 620400,
+    "mapLevelType": 3,
+    "mapPinYin": "Baiyin",
+    "mapZipCode": 730900
+}, {
+    "id": 620403,
+    "mapName": "平川区",
+    "mapAbbreviation": "平川",
+    "mapMergerName": "中国,甘肃省,白银市,平川区",
+    "mapParentId": 620400,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingchuan",
+    "mapZipCode": 730913
+}, {
+    "id": 620421,
+    "mapName": "靖远县",
+    "mapAbbreviation": "靖远",
+    "mapMergerName": "中国,甘肃省,白银市,靖远县",
+    "mapParentId": 620400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingyuan",
+    "mapZipCode": 730600
+}, {
+    "id": 620422,
+    "mapName": "会宁县",
+    "mapAbbreviation": "会宁",
+    "mapMergerName": "中国,甘肃省,白银市,会宁县",
+    "mapParentId": 620400,
+    "mapLevelType": 3,
+    "mapPinYin": "Huining",
+    "mapZipCode": 730700
+}, {
+    "id": 620423,
+    "mapName": "景泰县",
+    "mapAbbreviation": "景泰",
+    "mapMergerName": "中国,甘肃省,白银市,景泰县",
+    "mapParentId": 620400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingtai",
+    "mapZipCode": 730400
+}, {
+    "id": 620502,
+    "mapName": "秦州区",
+    "mapAbbreviation": "秦州",
+    "mapMergerName": "中国,甘肃省,天水市,秦州区",
+    "mapParentId": 620500,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinzhou",
+    "mapZipCode": 741000
+}, {
+    "id": 620503,
+    "mapName": "麦积区",
+    "mapAbbreviation": "麦积",
+    "mapMergerName": "中国,甘肃省,天水市,麦积区",
+    "mapParentId": 620500,
+    "mapLevelType": 3,
+    "mapPinYin": "Maiji",
+    "mapZipCode": 741020
+}, {
+    "id": 620521,
+    "mapName": "清水县",
+    "mapAbbreviation": "清水",
+    "mapMergerName": "中国,甘肃省,天水市,清水县",
+    "mapParentId": 620500,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingshui",
+    "mapZipCode": 741400
+}, {
+    "id": 620522,
+    "mapName": "秦安县",
+    "mapAbbreviation": "秦安",
+    "mapMergerName": "中国,甘肃省,天水市,秦安县",
+    "mapParentId": 620500,
+    "mapLevelType": 3,
+    "mapPinYin": "Qin'an",
+    "mapZipCode": 741600
+}, {
+    "id": 620523,
+    "mapName": "甘谷县",
+    "mapAbbreviation": "甘谷",
+    "mapMergerName": "中国,甘肃省,天水市,甘谷县",
+    "mapParentId": 620500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gangu",
+    "mapZipCode": 741200
+}, {
+    "id": 620524,
+    "mapName": "武山县",
+    "mapAbbreviation": "武山",
+    "mapMergerName": "中国,甘肃省,天水市,武山县",
+    "mapParentId": 620500,
+    "mapLevelType": 3,
+    "mapPinYin": "Wushan",
+    "mapZipCode": 741300
+}, {
+    "id": 620525,
+    "mapName": "张家川回族自治县",
+    "mapAbbreviation": "张家川",
+    "mapMergerName": "中国,甘肃省,天水市,张家川回族自治县",
+    "mapParentId": 620500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangjiachuan",
+    "mapZipCode": 741500
+}, {
+    "id": 620602,
+    "mapName": "凉州区",
+    "mapAbbreviation": "凉州",
+    "mapMergerName": "中国,甘肃省,武威市,凉州区",
+    "mapParentId": 620600,
+    "mapLevelType": 3,
+    "mapPinYin": "Liangzhou",
+    "mapZipCode": 733000
+}, {
+    "id": 620621,
+    "mapName": "民勤县",
+    "mapAbbreviation": "民勤",
+    "mapMergerName": "中国,甘肃省,武威市,民勤县",
+    "mapParentId": 620600,
+    "mapLevelType": 3,
+    "mapPinYin": "Minqin",
+    "mapZipCode": 733300
+}, {
+    "id": 620622,
+    "mapName": "古浪县",
+    "mapAbbreviation": "古浪",
+    "mapMergerName": "中国,甘肃省,武威市,古浪县",
+    "mapParentId": 620600,
+    "mapLevelType": 3,
+    "mapPinYin": "Gulang",
+    "mapZipCode": 733100
+}, {
+    "id": 620623,
+    "mapName": "天祝藏族自治县",
+    "mapAbbreviation": "天祝",
+    "mapMergerName": "中国,甘肃省,武威市,天祝藏族自治县",
+    "mapParentId": 620600,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianzhu",
+    "mapZipCode": 733200
+}, {
+    "id": 620702,
+    "mapName": "甘州区",
+    "mapAbbreviation": "甘州",
+    "mapMergerName": "中国,甘肃省,张掖市,甘州区",
+    "mapParentId": 620700,
+    "mapLevelType": 3,
+    "mapPinYin": "Ganzhou",
+    "mapZipCode": 734000
+}, {
+    "id": 620721,
+    "mapName": "肃南裕固族自治县",
+    "mapAbbreviation": "肃南",
+    "mapMergerName": "中国,甘肃省,张掖市,肃南裕固族自治县",
+    "mapParentId": 620700,
+    "mapLevelType": 3,
+    "mapPinYin": "Sunan",
+    "mapZipCode": 734400
+}, {
+    "id": 620722,
+    "mapName": "民乐县",
+    "mapAbbreviation": "民乐",
+    "mapMergerName": "中国,甘肃省,张掖市,民乐县",
+    "mapParentId": 620700,
+    "mapLevelType": 3,
+    "mapPinYin": "Minle",
+    "mapZipCode": 734500
+}, {
+    "id": 620723,
+    "mapName": "临泽县",
+    "mapAbbreviation": "临泽",
+    "mapMergerName": "中国,甘肃省,张掖市,临泽县",
+    "mapParentId": 620700,
+    "mapLevelType": 3,
+    "mapPinYin": "Linze",
+    "mapZipCode": 734200
+}, {
+    "id": 620724,
+    "mapName": "高台县",
+    "mapAbbreviation": "高台",
+    "mapMergerName": "中国,甘肃省,张掖市,高台县",
+    "mapParentId": 620700,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaotai",
+    "mapZipCode": 734300
+}, {
+    "id": 620725,
+    "mapName": "山丹县",
+    "mapAbbreviation": "山丹",
+    "mapMergerName": "中国,甘肃省,张掖市,山丹县",
+    "mapParentId": 620700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shandan",
+    "mapZipCode": 734100
+}, {
+    "id": 620802,
+    "mapName": "崆峒区",
+    "mapAbbreviation": "崆峒",
+    "mapMergerName": "中国,甘肃省,平凉市,崆峒区",
+    "mapParentId": 620800,
+    "mapLevelType": 3,
+    "mapPinYin": "Kongtong",
+    "mapZipCode": 744000
+}, {
+    "id": 620821,
+    "mapName": "泾川县",
+    "mapAbbreviation": "泾川",
+    "mapMergerName": "中国,甘肃省,平凉市,泾川县",
+    "mapParentId": 620800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingchuan",
+    "mapZipCode": 744300
+}, {
+    "id": 620822,
+    "mapName": "灵台县",
+    "mapAbbreviation": "灵台",
+    "mapMergerName": "中国,甘肃省,平凉市,灵台县",
+    "mapParentId": 620800,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingtai",
+    "mapZipCode": 744400
+}, {
+    "id": 620823,
+    "mapName": "崇信县",
+    "mapAbbreviation": "崇信",
+    "mapMergerName": "中国,甘肃省,平凉市,崇信县",
+    "mapParentId": 620800,
+    "mapLevelType": 3,
+    "mapPinYin": "Chongxin",
+    "mapZipCode": 744200
+}, {
+    "id": 620824,
+    "mapName": "华亭县",
+    "mapAbbreviation": "华亭",
+    "mapMergerName": "中国,甘肃省,平凉市,华亭县",
+    "mapParentId": 620800,
+    "mapLevelType": 3,
+    "mapPinYin": "Huating",
+    "mapZipCode": 744100
+}, {
+    "id": 620825,
+    "mapName": "庄浪县",
+    "mapAbbreviation": "庄浪",
+    "mapMergerName": "中国,甘肃省,平凉市,庄浪县",
+    "mapParentId": 620800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuanglang",
+    "mapZipCode": 744600
+}, {
+    "id": 620826,
+    "mapName": "静宁县",
+    "mapAbbreviation": "静宁",
+    "mapMergerName": "中国,甘肃省,平凉市,静宁县",
+    "mapParentId": 620800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingning",
+    "mapZipCode": 743400
+}, {
+    "id": 620902,
+    "mapName": "肃州区",
+    "mapAbbreviation": "肃州",
+    "mapMergerName": "中国,甘肃省,酒泉市,肃州区",
+    "mapParentId": 620900,
+    "mapLevelType": 3,
+    "mapPinYin": "Suzhou",
+    "mapZipCode": 735000
+}, {
+    "id": 620921,
+    "mapName": "金塔县",
+    "mapAbbreviation": "金塔",
+    "mapMergerName": "中国,甘肃省,酒泉市,金塔县",
+    "mapParentId": 620900,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinta",
+    "mapZipCode": 735300
+}, {
+    "id": 620922,
+    "mapName": "瓜州县",
+    "mapAbbreviation": "瓜州",
+    "mapMergerName": "中国,甘肃省,酒泉市,瓜州县",
+    "mapParentId": 620900,
+    "mapLevelType": 3,
+    "mapPinYin": "Guazhou",
+    "mapZipCode": 736100
+}, {
+    "id": 620923,
+    "mapName": "肃北蒙古族自治县",
+    "mapAbbreviation": "肃北",
+    "mapMergerName": "中国,甘肃省,酒泉市,肃北蒙古族自治县",
+    "mapParentId": 620900,
+    "mapLevelType": 3,
+    "mapPinYin": "Subei",
+    "mapZipCode": 736300
+}, {
+    "id": 620924,
+    "mapName": "阿克塞哈萨克族自治县",
+    "mapAbbreviation": "阿克塞",
+    "mapMergerName": "中国,甘肃省,酒泉市,阿克塞哈萨克族自治县",
+    "mapParentId": 620900,
+    "mapLevelType": 3,
+    "mapPinYin": "Akesai",
+    "mapZipCode": 736400
+}, {
+    "id": 620981,
+    "mapName": "玉门市",
+    "mapAbbreviation": "玉门",
+    "mapMergerName": "中国,甘肃省,酒泉市,玉门市",
+    "mapParentId": 620900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yumen",
+    "mapZipCode": 735200
+}, {
+    "id": 620982,
+    "mapName": "敦煌市",
+    "mapAbbreviation": "敦煌",
+    "mapMergerName": "中国,甘肃省,酒泉市,敦煌市",
+    "mapParentId": 620900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dunhuang",
+    "mapZipCode": 736200
+}, {
+    "id": 621002,
+    "mapName": "西峰区",
+    "mapAbbreviation": "西峰",
+    "mapMergerName": "中国,甘肃省,庆阳市,西峰区",
+    "mapParentId": 621000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xifeng",
+    "mapZipCode": 745000
+}, {
+    "id": 621021,
+    "mapName": "庆城县",
+    "mapAbbreviation": "庆城",
+    "mapMergerName": "中国,甘肃省,庆阳市,庆城县",
+    "mapParentId": 621000,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingcheng",
+    "mapZipCode": 745100
+}, {
+    "id": 621022,
+    "mapName": "环县",
+    "mapAbbreviation": "环县",
+    "mapMergerName": "中国,甘肃省,庆阳市,环县",
+    "mapParentId": 621000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huanxian",
+    "mapZipCode": 745700
+}, {
+    "id": 621023,
+    "mapName": "华池县",
+    "mapAbbreviation": "华池",
+    "mapMergerName": "中国,甘肃省,庆阳市,华池县",
+    "mapParentId": 621000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huachi",
+    "mapZipCode": 745600
+}, {
+    "id": 621024,
+    "mapName": "合水县",
+    "mapAbbreviation": "合水",
+    "mapMergerName": "中国,甘肃省,庆阳市,合水县",
+    "mapParentId": 621000,
+    "mapLevelType": 3,
+    "mapPinYin": "Heshui",
+    "mapZipCode": 745400
+}, {
+    "id": 621025,
+    "mapName": "正宁县",
+    "mapAbbreviation": "正宁",
+    "mapMergerName": "中国,甘肃省,庆阳市,正宁县",
+    "mapParentId": 621000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhengning",
+    "mapZipCode": 745300
+}, {
+    "id": 621026,
+    "mapName": "宁县",
+    "mapAbbreviation": "宁县",
+    "mapMergerName": "中国,甘肃省,庆阳市,宁县",
+    "mapParentId": 621000,
+    "mapLevelType": 3,
+    "mapPinYin": "Ningxian",
+    "mapZipCode": 745200
+}, {
+    "id": 621027,
+    "mapName": "镇原县",
+    "mapAbbreviation": "镇原",
+    "mapMergerName": "中国,甘肃省,庆阳市,镇原县",
+    "mapParentId": 621000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhenyuan",
+    "mapZipCode": 744500
+}, {
+    "id": 621102,
+    "mapName": "安定区",
+    "mapAbbreviation": "安定",
+    "mapMergerName": "中国,甘肃省,定西市,安定区",
+    "mapParentId": 621100,
+    "mapLevelType": 3,
+    "mapPinYin": "Anding",
+    "mapZipCode": 743000
+}, {
+    "id": 621121,
+    "mapName": "通渭县",
+    "mapAbbreviation": "通渭",
+    "mapMergerName": "中国,甘肃省,定西市,通渭县",
+    "mapParentId": 621100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongwei",
+    "mapZipCode": 743300
+}, {
+    "id": 621122,
+    "mapName": "陇西县",
+    "mapAbbreviation": "陇西",
+    "mapMergerName": "中国,甘肃省,定西市,陇西县",
+    "mapParentId": 621100,
+    "mapLevelType": 3,
+    "mapPinYin": "Longxi",
+    "mapZipCode": 748100
+}, {
+    "id": 621123,
+    "mapName": "渭源县",
+    "mapAbbreviation": "渭源",
+    "mapMergerName": "中国,甘肃省,定西市,渭源县",
+    "mapParentId": 621100,
+    "mapLevelType": 3,
+    "mapPinYin": "Weiyuan",
+    "mapZipCode": 748200
+}, {
+    "id": 621124,
+    "mapName": "临洮县",
+    "mapAbbreviation": "临洮",
+    "mapMergerName": "中国,甘肃省,定西市,临洮县",
+    "mapParentId": 621100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lintao",
+    "mapZipCode": 730500
+}, {
+    "id": 621125,
+    "mapName": "漳县",
+    "mapAbbreviation": "漳县",
+    "mapMergerName": "中国,甘肃省,定西市,漳县",
+    "mapParentId": 621100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhangxian",
+    "mapZipCode": 748300
+}, {
+    "id": 621126,
+    "mapName": "岷县",
+    "mapAbbreviation": "岷县",
+    "mapMergerName": "中国,甘肃省,定西市,岷县",
+    "mapParentId": 621100,
+    "mapLevelType": 3,
+    "mapPinYin": "Minxian",
+    "mapZipCode": 748400
+}, {
+    "id": 621202,
+    "mapName": "武都区",
+    "mapAbbreviation": "武都",
+    "mapMergerName": "中国,甘肃省,陇南市,武都区",
+    "mapParentId": 621200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wudu",
+    "mapZipCode": 746000
+}, {
+    "id": 621221,
+    "mapName": "成县",
+    "mapAbbreviation": "成县",
+    "mapMergerName": "中国,甘肃省,陇南市,成县",
+    "mapParentId": 621200,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengxian",
+    "mapZipCode": 742500
+}, {
+    "id": 621222,
+    "mapName": "文县",
+    "mapAbbreviation": "文县",
+    "mapMergerName": "中国,甘肃省,陇南市,文县",
+    "mapParentId": 621200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenxian",
+    "mapZipCode": 746400
+}, {
+    "id": 621223,
+    "mapName": "宕昌县",
+    "mapAbbreviation": "宕昌",
+    "mapMergerName": "中国,甘肃省,陇南市,宕昌县",
+    "mapParentId": 621200,
+    "mapLevelType": 3,
+    "mapPinYin": "Dangchang",
+    "mapZipCode": 748500
+}, {
+    "id": 621224,
+    "mapName": "康县",
+    "mapAbbreviation": "康县",
+    "mapMergerName": "中国,甘肃省,陇南市,康县",
+    "mapParentId": 621200,
+    "mapLevelType": 3,
+    "mapPinYin": "Kangxian",
+    "mapZipCode": 746500
+}, {
+    "id": 621225,
+    "mapName": "西和县",
+    "mapAbbreviation": "西和",
+    "mapMergerName": "中国,甘肃省,陇南市,西和县",
+    "mapParentId": 621200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xihe",
+    "mapZipCode": 742100
+}, {
+    "id": 621226,
+    "mapName": "礼县",
+    "mapAbbreviation": "礼县",
+    "mapMergerName": "中国,甘肃省,陇南市,礼县",
+    "mapParentId": 621200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lixian",
+    "mapZipCode": 742200
+}, {
+    "id": 621227,
+    "mapName": "徽县",
+    "mapAbbreviation": "徽县",
+    "mapMergerName": "中国,甘肃省,陇南市,徽县",
+    "mapParentId": 621200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huixian",
+    "mapZipCode": 742300
+}, {
+    "id": 621228,
+    "mapName": "两当县",
+    "mapAbbreviation": "两当",
+    "mapMergerName": "中国,甘肃省,陇南市,两当县",
+    "mapParentId": 621200,
+    "mapLevelType": 3,
+    "mapPinYin": "Liangdang",
+    "mapZipCode": 742400
+}, {
+    "id": 622901,
+    "mapName": "临夏市",
+    "mapAbbreviation": "临夏",
+    "mapMergerName": "中国,甘肃省,临夏回族自治州,临夏市",
+    "mapParentId": 622900,
+    "mapLevelType": 3,
+    "mapPinYin": "Linxia",
+    "mapZipCode": 731100
+}, {
+    "id": 622921,
+    "mapName": "临夏县",
+    "mapAbbreviation": "临夏",
+    "mapMergerName": "中国,甘肃省,临夏回族自治州,临夏县",
+    "mapParentId": 622900,
+    "mapLevelType": 3,
+    "mapPinYin": "Linxia",
+    "mapZipCode": 731800
+}, {
+    "id": 622922,
+    "mapName": "康乐县",
+    "mapAbbreviation": "康乐",
+    "mapMergerName": "中国,甘肃省,临夏回族自治州,康乐县",
+    "mapParentId": 622900,
+    "mapLevelType": 3,
+    "mapPinYin": "Kangle",
+    "mapZipCode": 731500
+}, {
+    "id": 622923,
+    "mapName": "永靖县",
+    "mapAbbreviation": "永靖",
+    "mapMergerName": "中国,甘肃省,临夏回族自治州,永靖县",
+    "mapParentId": 622900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongjing",
+    "mapZipCode": 731600
+}, {
+    "id": 622924,
+    "mapName": "广河县",
+    "mapAbbreviation": "广河",
+    "mapMergerName": "中国,甘肃省,临夏回族自治州,广河县",
+    "mapParentId": 622900,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanghe",
+    "mapZipCode": 731300
+}, {
+    "id": 622925,
+    "mapName": "和政县",
+    "mapAbbreviation": "和政",
+    "mapMergerName": "中国,甘肃省,临夏回族自治州,和政县",
+    "mapParentId": 622900,
+    "mapLevelType": 3,
+    "mapPinYin": "Hezheng",
+    "mapZipCode": 731200
+}, {
+    "id": 622926,
+    "mapName": "东乡族自治县",
+    "mapAbbreviation": "东乡族",
+    "mapMergerName": "中国,甘肃省,临夏回族自治州,东乡族自治县",
+    "mapParentId": 622900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongxiangzu",
+    "mapZipCode": 731400
+}, {
+    "id": 622927,
+    "mapName": "积石山保安族东乡族撒拉族自治县",
+    "mapAbbreviation": "积石山",
+    "mapMergerName": "中国,甘肃省,临夏回族自治州,积石山保安族东乡族撒拉族自治县",
+    "mapParentId": 622900,
+    "mapLevelType": 3,
+    "mapPinYin": "Jishishan",
+    "mapZipCode": 731700
+}, {
+    "id": 623001,
+    "mapName": "合作市",
+    "mapAbbreviation": "合作",
+    "mapMergerName": "中国,甘肃省,甘南藏族自治州,合作市",
+    "mapParentId": 623000,
+    "mapLevelType": 3,
+    "mapPinYin": "Hezuo",
+    "mapZipCode": 747000
+}, {
+    "id": 623021,
+    "mapName": "临潭县",
+    "mapAbbreviation": "临潭",
+    "mapMergerName": "中国,甘肃省,甘南藏族自治州,临潭县",
+    "mapParentId": 623000,
+    "mapLevelType": 3,
+    "mapPinYin": "Lintan",
+    "mapZipCode": 747500
+}, {
+    "id": 623022,
+    "mapName": "卓尼县",
+    "mapAbbreviation": "卓尼",
+    "mapMergerName": "中国,甘肃省,甘南藏族自治州,卓尼县",
+    "mapParentId": 623000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuoni",
+    "mapZipCode": 747600
+}, {
+    "id": 623023,
+    "mapName": "舟曲县",
+    "mapAbbreviation": "舟曲",
+    "mapMergerName": "中国,甘肃省,甘南藏族自治州,舟曲县",
+    "mapParentId": 623000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhouqu",
+    "mapZipCode": 746300
+}, {
+    "id": 623024,
+    "mapName": "迭部县",
+    "mapAbbreviation": "迭部",
+    "mapMergerName": "中国,甘肃省,甘南藏族自治州,迭部县",
+    "mapParentId": 623000,
+    "mapLevelType": 3,
+    "mapPinYin": "Diebu",
+    "mapZipCode": 747400
+}, {
+    "id": 623025,
+    "mapName": "玛曲县",
+    "mapAbbreviation": "玛曲",
+    "mapMergerName": "中国,甘肃省,甘南藏族自治州,玛曲县",
+    "mapParentId": 623000,
+    "mapLevelType": 3,
+    "mapPinYin": "Maqu",
+    "mapZipCode": 747300
+}, {
+    "id": 623026,
+    "mapName": "碌曲县",
+    "mapAbbreviation": "碌曲",
+    "mapMergerName": "中国,甘肃省,甘南藏族自治州,碌曲县",
+    "mapParentId": 623000,
+    "mapLevelType": 3,
+    "mapPinYin": "Luqu",
+    "mapZipCode": 747200
+}, {
+    "id": 623027,
+    "mapName": "夏河县",
+    "mapAbbreviation": "夏河",
+    "mapMergerName": "中国,甘肃省,甘南藏族自治州,夏河县",
+    "mapParentId": 623000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiahe",
+    "mapZipCode": 747100
+}, {
+    "id": 630102,
+    "mapName": "城东区",
+    "mapAbbreviation": "城东",
+    "mapMergerName": "中国,青海省,西宁市,城东区",
+    "mapParentId": 630100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengdong",
+    "mapZipCode": 810007
+}, {
+    "id": 630103,
+    "mapName": "城中区",
+    "mapAbbreviation": "城中",
+    "mapMergerName": "中国,青海省,西宁市,城中区",
+    "mapParentId": 630100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengzhong",
+    "mapZipCode": 810000
+}, {
+    "id": 630104,
+    "mapName": "城西区",
+    "mapAbbreviation": "城西",
+    "mapMergerName": "中国,青海省,西宁市,城西区",
+    "mapParentId": 630100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengxi",
+    "mapZipCode": 810001
+}, {
+    "id": 630105,
+    "mapName": "城北区",
+    "mapAbbreviation": "城北",
+    "mapMergerName": "中国,青海省,西宁市,城北区",
+    "mapParentId": 630100,
+    "mapLevelType": 3,
+    "mapPinYin": "Chengbei",
+    "mapZipCode": 810003
+}, {
+    "id": 630121,
+    "mapName": "大通回族土族自治县",
+    "mapAbbreviation": "大通",
+    "mapMergerName": "中国,青海省,西宁市,大通回族土族自治县",
+    "mapParentId": 630100,
+    "mapLevelType": 3,
+    "mapPinYin": "Datong",
+    "mapZipCode": 810100
+}, {
+    "id": 630122,
+    "mapName": "湟中县",
+    "mapAbbreviation": "湟中",
+    "mapMergerName": "中国,青海省,西宁市,湟中县",
+    "mapParentId": 630100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangzhong",
+    "mapZipCode": 811600
+}, {
+    "id": 630123,
+    "mapName": "湟源县",
+    "mapAbbreviation": "湟源",
+    "mapMergerName": "中国,青海省,西宁市,湟源县",
+    "mapParentId": 630100,
+    "mapLevelType": 3,
+    "mapPinYin": "Huangyuan",
+    "mapZipCode": 812100
+}, {
+    "id": 630202,
+    "mapName": "乐都区",
+    "mapAbbreviation": "乐都",
+    "mapMergerName": "中国,青海省,海东市,乐都区",
+    "mapParentId": 630200,
+    "mapLevelType": 3,
+    "mapPinYin": "Ledu",
+    "mapZipCode": 810700
+}, {
+    "id": 630221,
+    "mapName": "平安县",
+    "mapAbbreviation": "平安",
+    "mapMergerName": "中国,青海省,海东市,平安县",
+    "mapParentId": 630200,
+    "mapLevelType": 3,
+    "mapPinYin": "Ping'an",
+    "mapZipCode": 810600
+}, {
+    "id": 630222,
+    "mapName": "民和回族土族自治县",
+    "mapAbbreviation": "民和",
+    "mapMergerName": "中国,青海省,海东市,民和回族土族自治县",
+    "mapParentId": 630200,
+    "mapLevelType": 3,
+    "mapPinYin": "Minhe",
+    "mapZipCode": 810800
+}, {
+    "id": 630223,
+    "mapName": "互助土族自治县",
+    "mapAbbreviation": "互助",
+    "mapMergerName": "中国,青海省,海东市,互助土族自治县",
+    "mapParentId": 630200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huzhu",
+    "mapZipCode": 810500
+}, {
+    "id": 630224,
+    "mapName": "化隆回族自治县",
+    "mapAbbreviation": "化隆",
+    "mapMergerName": "中国,青海省,海东市,化隆回族自治县",
+    "mapParentId": 630200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hualong",
+    "mapZipCode": 810900
+}, {
+    "id": 630225,
+    "mapName": "循化撒拉族自治县",
+    "mapAbbreviation": "循化",
+    "mapMergerName": "中国,青海省,海东市,循化撒拉族自治县",
+    "mapParentId": 630200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xunhua",
+    "mapZipCode": 811100
+}, {
+    "id": 632221,
+    "mapName": "门源回族自治县",
+    "mapAbbreviation": "门源",
+    "mapMergerName": "中国,青海省,海北藏族自治州,门源回族自治县",
+    "mapParentId": 632200,
+    "mapLevelType": 3,
+    "mapPinYin": "Menyuan",
+    "mapZipCode": 810300
+}, {
+    "id": 632222,
+    "mapName": "祁连县",
+    "mapAbbreviation": "祁连",
+    "mapMergerName": "中国,青海省,海北藏族自治州,祁连县",
+    "mapParentId": 632200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qilian",
+    "mapZipCode": 810400
+}, {
+    "id": 632223,
+    "mapName": "海晏县",
+    "mapAbbreviation": "海晏",
+    "mapMergerName": "中国,青海省,海北藏族自治州,海晏县",
+    "mapParentId": 632200,
+    "mapLevelType": 3,
+    "mapPinYin": "Haiyan",
+    "mapZipCode": 812200
+}, {
+    "id": 632224,
+    "mapName": "刚察县",
+    "mapAbbreviation": "刚察",
+    "mapMergerName": "中国,青海省,海北藏族自治州,刚察县",
+    "mapParentId": 632200,
+    "mapLevelType": 3,
+    "mapPinYin": "Gangcha",
+    "mapZipCode": 812300
+}, {
+    "id": 632321,
+    "mapName": "同仁县",
+    "mapAbbreviation": "同仁",
+    "mapMergerName": "中国,青海省,黄南藏族自治州,同仁县",
+    "mapParentId": 632300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongren",
+    "mapZipCode": 811300
+}, {
+    "id": 632322,
+    "mapName": "尖扎县",
+    "mapAbbreviation": "尖扎",
+    "mapMergerName": "中国,青海省,黄南藏族自治州,尖扎县",
+    "mapParentId": 632300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianzha",
+    "mapZipCode": 811200
+}, {
+    "id": 632323,
+    "mapName": "泽库县",
+    "mapAbbreviation": "泽库",
+    "mapMergerName": "中国,青海省,黄南藏族自治州,泽库县",
+    "mapParentId": 632300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zeku",
+    "mapZipCode": 811400
+}, {
+    "id": 632324,
+    "mapName": "河南蒙古族自治县",
+    "mapAbbreviation": "河南",
+    "mapMergerName": "中国,青海省,黄南藏族自治州,河南蒙古族自治县",
+    "mapParentId": 632300,
+    "mapLevelType": 3,
+    "mapPinYin": "Henan",
+    "mapZipCode": 811500
+}, {
+    "id": 632521,
+    "mapName": "共和县",
+    "mapAbbreviation": "共和",
+    "mapMergerName": "中国,青海省,海南藏族自治州,共和县",
+    "mapParentId": 632500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gonghe",
+    "mapZipCode": 813000
+}, {
+    "id": 632522,
+    "mapName": "同德县",
+    "mapAbbreviation": "同德",
+    "mapMergerName": "中国,青海省,海南藏族自治州,同德县",
+    "mapParentId": 632500,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongde",
+    "mapZipCode": 813200
+}, {
+    "id": 632523,
+    "mapName": "贵德县",
+    "mapAbbreviation": "贵德",
+    "mapMergerName": "中国,青海省,海南藏族自治州,贵德县",
+    "mapParentId": 632500,
+    "mapLevelType": 3,
+    "mapPinYin": "Guide",
+    "mapZipCode": 811700
+}, {
+    "id": 632524,
+    "mapName": "兴海县",
+    "mapAbbreviation": "兴海",
+    "mapMergerName": "中国,青海省,海南藏族自治州,兴海县",
+    "mapParentId": 632500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinghai",
+    "mapZipCode": 813300
+}, {
+    "id": 632525,
+    "mapName": "贵南县",
+    "mapAbbreviation": "贵南",
+    "mapMergerName": "中国,青海省,海南藏族自治州,贵南县",
+    "mapParentId": 632500,
+    "mapLevelType": 3,
+    "mapPinYin": "Guinan",
+    "mapZipCode": 813100
+}, {
+    "id": 632621,
+    "mapName": "玛沁县",
+    "mapAbbreviation": "玛沁",
+    "mapMergerName": "中国,青海省,果洛藏族自治州,玛沁县",
+    "mapParentId": 632600,
+    "mapLevelType": 3,
+    "mapPinYin": "Maqin",
+    "mapZipCode": 814000
+}, {
+    "id": 632622,
+    "mapName": "班玛县",
+    "mapAbbreviation": "班玛",
+    "mapMergerName": "中国,青海省,果洛藏族自治州,班玛县",
+    "mapParentId": 632600,
+    "mapLevelType": 3,
+    "mapPinYin": "Banma",
+    "mapZipCode": 814300
+}, {
+    "id": 632623,
+    "mapName": "甘德县",
+    "mapAbbreviation": "甘德",
+    "mapMergerName": "中国,青海省,果洛藏族自治州,甘德县",
+    "mapParentId": 632600,
+    "mapLevelType": 3,
+    "mapPinYin": "Gande",
+    "mapZipCode": 814100
+}, {
+    "id": 632624,
+    "mapName": "达日县",
+    "mapAbbreviation": "达日",
+    "mapMergerName": "中国,青海省,果洛藏族自治州,达日县",
+    "mapParentId": 632600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dari",
+    "mapZipCode": 814200
+}, {
+    "id": 632625,
+    "mapName": "久治县",
+    "mapAbbreviation": "久治",
+    "mapMergerName": "中国,青海省,果洛藏族自治州,久治县",
+    "mapParentId": 632600,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiuzhi",
+    "mapZipCode": 624700
+}, {
+    "id": 632626,
+    "mapName": "玛多县",
+    "mapAbbreviation": "玛多",
+    "mapMergerName": "中国,青海省,果洛藏族自治州,玛多县",
+    "mapParentId": 632600,
+    "mapLevelType": 3,
+    "mapPinYin": "Maduo",
+    "mapZipCode": 813500
+}, {
+    "id": 632701,
+    "mapName": "玉树市",
+    "mapAbbreviation": "玉树",
+    "mapMergerName": "中国,青海省,玉树藏族自治州,玉树市",
+    "mapParentId": 632700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yushu",
+    "mapZipCode": 815000
+}, {
+    "id": 632722,
+    "mapName": "杂多县",
+    "mapAbbreviation": "杂多",
+    "mapMergerName": "中国,青海省,玉树藏族自治州,杂多县",
+    "mapParentId": 632700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zaduo",
+    "mapZipCode": 815300
+}, {
+    "id": 632723,
+    "mapName": "称多县",
+    "mapAbbreviation": "称多",
+    "mapMergerName": "中国,青海省,玉树藏族自治州,称多县",
+    "mapParentId": 632700,
+    "mapLevelType": 3,
+    "mapPinYin": "Chenduo",
+    "mapZipCode": 815100
+}, {
+    "id": 632724,
+    "mapName": "治多县",
+    "mapAbbreviation": "治多",
+    "mapMergerName": "中国,青海省,玉树藏族自治州,治多县",
+    "mapParentId": 632700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhiduo",
+    "mapZipCode": 815400
+}, {
+    "id": 632725,
+    "mapName": "囊谦县",
+    "mapAbbreviation": "囊谦",
+    "mapMergerName": "中国,青海省,玉树藏族自治州,囊谦县",
+    "mapParentId": 632700,
+    "mapLevelType": 3,
+    "mapPinYin": "Nangqian",
+    "mapZipCode": 815200
+}, {
+    "id": 632726,
+    "mapName": "曲麻莱县",
+    "mapAbbreviation": "曲麻莱",
+    "mapMergerName": "中国,青海省,玉树藏族自治州,曲麻莱县",
+    "mapParentId": 632700,
+    "mapLevelType": 3,
+    "mapPinYin": "Qumalai",
+    "mapZipCode": 815500
+}, {
+    "id": 632801,
+    "mapName": "格尔木市",
+    "mapAbbreviation": "格尔木",
+    "mapMergerName": "中国,青海省,海西蒙古族藏族自治州,格尔木市",
+    "mapParentId": 632800,
+    "mapLevelType": 3,
+    "mapPinYin": "Geermu",
+    "mapZipCode": 816000
+}, {
+    "id": 632802,
+    "mapName": "德令哈市",
+    "mapAbbreviation": "德令哈",
+    "mapMergerName": "中国,青海省,海西蒙古族藏族自治州,德令哈市",
+    "mapParentId": 632800,
+    "mapLevelType": 3,
+    "mapPinYin": "Delingha",
+    "mapZipCode": 817000
+}, {
+    "id": 632821,
+    "mapName": "乌兰县",
+    "mapAbbreviation": "乌兰",
+    "mapMergerName": "中国,青海省,海西蒙古族藏族自治州,乌兰县",
+    "mapParentId": 632800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wulan",
+    "mapZipCode": 817100
+}, {
+    "id": 632822,
+    "mapName": "都兰县",
+    "mapAbbreviation": "都兰",
+    "mapMergerName": "中国,青海省,海西蒙古族藏族自治州,都兰县",
+    "mapParentId": 632800,
+    "mapLevelType": 3,
+    "mapPinYin": "Dulan",
+    "mapZipCode": 816100
+}, {
+    "id": 632823,
+    "mapName": "天峻县",
+    "mapAbbreviation": "天峻",
+    "mapMergerName": "中国,青海省,海西蒙古族藏族自治州,天峻县",
+    "mapParentId": 632800,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianjun",
+    "mapZipCode": 817200
+}, {
+    "id": 640104,
+    "mapName": "兴庆区",
+    "mapAbbreviation": "兴庆",
+    "mapMergerName": "中国,宁夏回族自治区,银川市,兴庆区",
+    "mapParentId": 640100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingqing",
+    "mapZipCode": 750001
+}, {
+    "id": 640105,
+    "mapName": "西夏区",
+    "mapAbbreviation": "西夏",
+    "mapMergerName": "中国,宁夏回族自治区,银川市,西夏区",
+    "mapParentId": 640100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xixia",
+    "mapZipCode": 750021
+}, {
+    "id": 640106,
+    "mapName": "金凤区",
+    "mapAbbreviation": "金凤",
+    "mapMergerName": "中国,宁夏回族自治区,银川市,金凤区",
+    "mapParentId": 640100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinfeng",
+    "mapZipCode": 750011
+}, {
+    "id": 640121,
+    "mapName": "永宁县",
+    "mapAbbreviation": "永宁",
+    "mapMergerName": "中国,宁夏回族自治区,银川市,永宁县",
+    "mapParentId": 640100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongning",
+    "mapZipCode": 750100
+}, {
+    "id": 640122,
+    "mapName": "贺兰县",
+    "mapAbbreviation": "贺兰",
+    "mapMergerName": "中国,宁夏回族自治区,银川市,贺兰县",
+    "mapParentId": 640100,
+    "mapLevelType": 3,
+    "mapPinYin": "Helan",
+    "mapZipCode": 750200
+}, {
+    "id": 640181,
+    "mapName": "灵武市",
+    "mapAbbreviation": "灵武",
+    "mapMergerName": "中国,宁夏回族自治区,银川市,灵武市",
+    "mapParentId": 640100,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingwu",
+    "mapZipCode": 750004
+}, {
+    "id": 640202,
+    "mapName": "大武口区",
+    "mapAbbreviation": "大武口",
+    "mapMergerName": "中国,宁夏回族自治区,石嘴山市,大武口区",
+    "mapParentId": 640200,
+    "mapLevelType": 3,
+    "mapPinYin": "Dawukou",
+    "mapZipCode": 753000
+}, {
+    "id": 640205,
+    "mapName": "惠农区",
+    "mapAbbreviation": "惠农",
+    "mapMergerName": "中国,宁夏回族自治区,石嘴山市,惠农区",
+    "mapParentId": 640200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huinong",
+    "mapZipCode": 753600
+}, {
+    "id": 640221,
+    "mapName": "平罗县",
+    "mapAbbreviation": "平罗",
+    "mapMergerName": "中国,宁夏回族自治区,石嘴山市,平罗县",
+    "mapParentId": 640200,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingluo",
+    "mapZipCode": 753400
+}, {
+    "id": 640302,
+    "mapName": "利通区",
+    "mapAbbreviation": "利通",
+    "mapMergerName": "中国,宁夏回族自治区,吴忠市,利通区",
+    "mapParentId": 640300,
+    "mapLevelType": 3,
+    "mapPinYin": "Litong",
+    "mapZipCode": 751100
+}, {
+    "id": 640303,
+    "mapName": "红寺堡区",
+    "mapAbbreviation": "红寺堡",
+    "mapMergerName": "中国,宁夏回族自治区,吴忠市,红寺堡区",
+    "mapParentId": 640300,
+    "mapLevelType": 3,
+    "mapPinYin": "Hongsibao",
+    "mapZipCode": 751900
+}, {
+    "id": 640323,
+    "mapName": "盐池县",
+    "mapAbbreviation": "盐池",
+    "mapMergerName": "中国,宁夏回族自治区,吴忠市,盐池县",
+    "mapParentId": 640300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanchi",
+    "mapZipCode": 751500
+}, {
+    "id": 640324,
+    "mapName": "同心县",
+    "mapAbbreviation": "同心",
+    "mapMergerName": "中国,宁夏回族自治区,吴忠市,同心县",
+    "mapParentId": 640300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongxin",
+    "mapZipCode": 751300
+}, {
+    "id": 640381,
+    "mapName": "青铜峡市",
+    "mapAbbreviation": "青铜峡",
+    "mapMergerName": "中国,宁夏回族自治区,吴忠市,青铜峡市",
+    "mapParentId": 640300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingtongxia",
+    "mapZipCode": 751600
+}, {
+    "id": 640402,
+    "mapName": "原州区",
+    "mapAbbreviation": "原州",
+    "mapMergerName": "中国,宁夏回族自治区,固原市,原州区",
+    "mapParentId": 640400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanzhou",
+    "mapZipCode": 756000
+}, {
+    "id": 640422,
+    "mapName": "西吉县",
+    "mapAbbreviation": "西吉",
+    "mapMergerName": "中国,宁夏回族自治区,固原市,西吉县",
+    "mapParentId": 640400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiji",
+    "mapZipCode": 756200
+}, {
+    "id": 640423,
+    "mapName": "隆德县",
+    "mapAbbreviation": "隆德",
+    "mapMergerName": "中国,宁夏回族自治区,固原市,隆德县",
+    "mapParentId": 640400,
+    "mapLevelType": 3,
+    "mapPinYin": "Longde",
+    "mapZipCode": 756300
+}, {
+    "id": 640424,
+    "mapName": "泾源县",
+    "mapAbbreviation": "泾源",
+    "mapMergerName": "中国,宁夏回族自治区,固原市,泾源县",
+    "mapParentId": 640400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jingyuan",
+    "mapZipCode": 756400
+}, {
+    "id": 640425,
+    "mapName": "彭阳县",
+    "mapAbbreviation": "彭阳",
+    "mapMergerName": "中国,宁夏回族自治区,固原市,彭阳县",
+    "mapParentId": 640400,
+    "mapLevelType": 3,
+    "mapPinYin": "Pengyang",
+    "mapZipCode": 756500
+}, {
+    "id": 640502,
+    "mapName": "沙坡头区",
+    "mapAbbreviation": "沙坡头",
+    "mapMergerName": "中国,宁夏回族自治区,中卫市,沙坡头区",
+    "mapParentId": 640500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shapotou",
+    "mapZipCode": 755000
+}, {
+    "id": 640521,
+    "mapName": "中宁县",
+    "mapAbbreviation": "中宁",
+    "mapMergerName": "中国,宁夏回族自治区,中卫市,中宁县",
+    "mapParentId": 640500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongning",
+    "mapZipCode": 751200
+}, {
+    "id": 640522,
+    "mapName": "海原县",
+    "mapAbbreviation": "海原",
+    "mapMergerName": "中国,宁夏回族自治区,中卫市,海原县",
+    "mapParentId": 640500,
+    "mapLevelType": 3,
+    "mapPinYin": "Haiyuan",
+    "mapZipCode": 751800
+}, {
+    "id": 650102,
+    "mapName": "天山区",
+    "mapAbbreviation": "天山",
+    "mapMergerName": "中国,新疆维吾尔自治区,乌鲁木齐市,天山区",
+    "mapParentId": 650100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianshan",
+    "mapZipCode": 830002
+}, {
+    "id": 650103,
+    "mapName": "沙依巴克区",
+    "mapAbbreviation": "沙依巴克",
+    "mapMergerName": "中国,新疆维吾尔自治区,乌鲁木齐市,沙依巴克区",
+    "mapParentId": 650100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shayibake",
+    "mapZipCode": 830000
+}, {
+    "id": 650104,
+    "mapName": "新市区",
+    "mapAbbreviation": "新市",
+    "mapMergerName": "中国,新疆维吾尔自治区,乌鲁木齐市,新市区",
+    "mapParentId": 650100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinshi",
+    "mapZipCode": 830011
+}, {
+    "id": 650105,
+    "mapName": "水磨沟区",
+    "mapAbbreviation": "水磨沟",
+    "mapMergerName": "中国,新疆维吾尔自治区,乌鲁木齐市,水磨沟区",
+    "mapParentId": 650100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuimogou",
+    "mapZipCode": 830017
+}, {
+    "id": 650106,
+    "mapName": "头屯河区",
+    "mapAbbreviation": "头屯河",
+    "mapMergerName": "中国,新疆维吾尔自治区,乌鲁木齐市,头屯河区",
+    "mapParentId": 650100,
+    "mapLevelType": 3,
+    "mapPinYin": "Toutunhe",
+    "mapZipCode": 830022
+}, {
+    "id": 650107,
+    "mapName": "达坂城区",
+    "mapAbbreviation": "达坂城",
+    "mapMergerName": "中国,新疆维吾尔自治区,乌鲁木齐市,达坂城区",
+    "mapParentId": 650100,
+    "mapLevelType": 3,
+    "mapPinYin": "Dabancheng",
+    "mapZipCode": 830039
+}, {
+    "id": 650109,
+    "mapName": "米东区",
+    "mapAbbreviation": "米东",
+    "mapMergerName": "中国,新疆维吾尔自治区,乌鲁木齐市,米东区",
+    "mapParentId": 650100,
+    "mapLevelType": 3,
+    "mapPinYin": "Midong",
+    "mapZipCode": 830019
+}, {
+    "id": 650121,
+    "mapName": "乌鲁木齐县",
+    "mapAbbreviation": "乌鲁木齐",
+    "mapMergerName": "中国,新疆维吾尔自治区,乌鲁木齐市,乌鲁木齐县",
+    "mapParentId": 650100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wulumuqi",
+    "mapZipCode": 830063
+}, {
+    "id": 650202,
+    "mapName": "独山子区",
+    "mapAbbreviation": "独山子",
+    "mapMergerName": "中国,新疆维吾尔自治区,克拉玛依市,独山子区",
+    "mapParentId": 650200,
+    "mapLevelType": 3,
+    "mapPinYin": "Dushanzi",
+    "mapZipCode": 834021
+}, {
+    "id": 650203,
+    "mapName": "克拉玛依区",
+    "mapAbbreviation": "克拉玛依",
+    "mapMergerName": "中国,新疆维吾尔自治区,克拉玛依市,克拉玛依区",
+    "mapParentId": 650200,
+    "mapLevelType": 3,
+    "mapPinYin": "Kelamayi",
+    "mapZipCode": 834000
+}, {
+    "id": 650204,
+    "mapName": "白碱滩区",
+    "mapAbbreviation": "白碱滩",
+    "mapMergerName": "中国,新疆维吾尔自治区,克拉玛依市,白碱滩区",
+    "mapParentId": 650200,
+    "mapLevelType": 3,
+    "mapPinYin": "Baijiantan",
+    "mapZipCode": 834008
+}, {
+    "id": 650205,
+    "mapName": "乌尔禾区",
+    "mapAbbreviation": "乌尔禾",
+    "mapMergerName": "中国,新疆维吾尔自治区,克拉玛依市,乌尔禾区",
+    "mapParentId": 650200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuerhe",
+    "mapZipCode": 834012
+}, {
+    "id": 652101,
+    "mapName": "吐鲁番市",
+    "mapAbbreviation": "吐鲁番",
+    "mapMergerName": "中国,新疆维吾尔自治区,吐鲁番地区,吐鲁番市",
+    "mapParentId": 652100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tulufan",
+    "mapZipCode": 838000
+}, {
+    "id": 652122,
+    "mapName": "鄯善县",
+    "mapAbbreviation": "鄯善",
+    "mapMergerName": "中国,新疆维吾尔自治区,吐鲁番地区,鄯善县",
+    "mapParentId": 652100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanshan",
+    "mapZipCode": 838200
+}, {
+    "id": 652123,
+    "mapName": "托克逊县",
+    "mapAbbreviation": "托克逊",
+    "mapMergerName": "中国,新疆维吾尔自治区,吐鲁番地区,托克逊县",
+    "mapParentId": 652100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tuokexun",
+    "mapZipCode": 838100
+}, {
+    "id": 652201,
+    "mapName": "哈密市",
+    "mapAbbreviation": "哈密",
+    "mapMergerName": "中国,新疆维吾尔自治区,哈密地区,哈密市",
+    "mapParentId": 652200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hami",
+    "mapZipCode": 839000
+}, {
+    "id": 652222,
+    "mapName": "巴里坤哈萨克自治县",
+    "mapAbbreviation": "巴里坤",
+    "mapMergerName": "中国,新疆维吾尔自治区,哈密地区,巴里坤哈萨克自治县",
+    "mapParentId": 652200,
+    "mapLevelType": 3,
+    "mapPinYin": "Balikun",
+    "mapZipCode": 839200
+}, {
+    "id": 652223,
+    "mapName": "伊吾县",
+    "mapAbbreviation": "伊吾",
+    "mapMergerName": "中国,新疆维吾尔自治区,哈密地区,伊吾县",
+    "mapParentId": 652200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yiwu",
+    "mapZipCode": 839300
+}, {
+    "id": 652301,
+    "mapName": "昌吉市",
+    "mapAbbreviation": "昌吉",
+    "mapMergerName": "中国,新疆维吾尔自治区,昌吉回族自治州,昌吉市",
+    "mapParentId": 652300,
+    "mapLevelType": 3,
+    "mapPinYin": "Changji",
+    "mapZipCode": 831100
+}, {
+    "id": 652302,
+    "mapName": "阜康市",
+    "mapAbbreviation": "阜康",
+    "mapMergerName": "中国,新疆维吾尔自治区,昌吉回族自治州,阜康市",
+    "mapParentId": 652300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fukang",
+    "mapZipCode": 831500
+}, {
+    "id": 652323,
+    "mapName": "呼图壁县",
+    "mapAbbreviation": "呼图壁",
+    "mapMergerName": "中国,新疆维吾尔自治区,昌吉回族自治州,呼图壁县",
+    "mapParentId": 652300,
+    "mapLevelType": 3,
+    "mapPinYin": "Hutubi",
+    "mapZipCode": 831200
+}, {
+    "id": 652324,
+    "mapName": "玛纳斯县",
+    "mapAbbreviation": "玛纳斯",
+    "mapMergerName": "中国,新疆维吾尔自治区,昌吉回族自治州,玛纳斯县",
+    "mapParentId": 652300,
+    "mapLevelType": 3,
+    "mapPinYin": "Manasi",
+    "mapZipCode": 832200
+}, {
+    "id": 652325,
+    "mapName": "奇台县",
+    "mapAbbreviation": "奇台",
+    "mapMergerName": "中国,新疆维吾尔自治区,昌吉回族自治州,奇台县",
+    "mapParentId": 652300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qitai",
+    "mapZipCode": 831800
+}, {
+    "id": 652327,
+    "mapName": "吉木萨尔县",
+    "mapAbbreviation": "吉木萨尔",
+    "mapMergerName": "中国,新疆维吾尔自治区,昌吉回族自治州,吉木萨尔县",
+    "mapParentId": 652300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jimusaer",
+    "mapZipCode": 831700
+}, {
+    "id": 652328,
+    "mapName": "木垒哈萨克自治县",
+    "mapAbbreviation": "木垒",
+    "mapMergerName": "中国,新疆维吾尔自治区,昌吉回族自治州,木垒哈萨克自治县",
+    "mapParentId": 652300,
+    "mapLevelType": 3,
+    "mapPinYin": "Mulei",
+    "mapZipCode": 831900
+}, {
+    "id": 652701,
+    "mapName": "博乐市",
+    "mapAbbreviation": "博乐",
+    "mapMergerName": "中国,新疆维吾尔自治区,博尔塔拉蒙古自治州,博乐市",
+    "mapParentId": 652700,
+    "mapLevelType": 3,
+    "mapPinYin": "Bole",
+    "mapZipCode": 833400
+}, {
+    "id": 652702,
+    "mapName": "阿拉山口市",
+    "mapAbbreviation": "阿拉山口",
+    "mapMergerName": "中国,新疆维吾尔自治区,博尔塔拉蒙古自治州,阿拉山口市",
+    "mapParentId": 652700,
+    "mapLevelType": 3,
+    "mapPinYin": "Alashankou",
+    "mapZipCode": 833400
+}, {
+    "id": 652722,
+    "mapName": "精河县",
+    "mapAbbreviation": "精河",
+    "mapMergerName": "中国,新疆维吾尔自治区,博尔塔拉蒙古自治州,精河县",
+    "mapParentId": 652700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinghe",
+    "mapZipCode": 833300
+}, {
+    "id": 652723,
+    "mapName": "温泉县",
+    "mapAbbreviation": "温泉",
+    "mapMergerName": "中国,新疆维吾尔自治区,博尔塔拉蒙古自治州,温泉县",
+    "mapParentId": 652700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenquan",
+    "mapZipCode": 833500
+}, {
+    "id": 652801,
+    "mapName": "库尔勒市",
+    "mapAbbreviation": "库尔勒",
+    "mapMergerName": "中国,新疆维吾尔自治区,巴音郭楞蒙古自治州,库尔勒市",
+    "mapParentId": 652800,
+    "mapLevelType": 3,
+    "mapPinYin": "Kuerle",
+    "mapZipCode": 841000
+}, {
+    "id": 652822,
+    "mapName": "轮台县",
+    "mapAbbreviation": "轮台",
+    "mapMergerName": "中国,新疆维吾尔自治区,巴音郭楞蒙古自治州,轮台县",
+    "mapParentId": 652800,
+    "mapLevelType": 3,
+    "mapPinYin": "Luntai",
+    "mapZipCode": 841600
+}, {
+    "id": 652823,
+    "mapName": "尉犁县",
+    "mapAbbreviation": "尉犁",
+    "mapMergerName": "中国,新疆维吾尔自治区,巴音郭楞蒙古自治州,尉犁县",
+    "mapParentId": 652800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuli",
+    "mapZipCode": 841500
+}, {
+    "id": 652824,
+    "mapName": "若羌县",
+    "mapAbbreviation": "若羌",
+    "mapMergerName": "中国,新疆维吾尔自治区,巴音郭楞蒙古自治州,若羌县",
+    "mapParentId": 652800,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruoqiang",
+    "mapZipCode": 841800
+}, {
+    "id": 652825,
+    "mapName": "且末县",
+    "mapAbbreviation": "且末",
+    "mapMergerName": "中国,新疆维吾尔自治区,巴音郭楞蒙古自治州,且末县",
+    "mapParentId": 652800,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiemo",
+    "mapZipCode": 841900
+}, {
+    "id": 652826,
+    "mapName": "焉耆回族自治县",
+    "mapAbbreviation": "焉耆",
+    "mapMergerName": "中国,新疆维吾尔自治区,巴音郭楞蒙古自治州,焉耆回族自治县",
+    "mapParentId": 652800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanqi",
+    "mapZipCode": 841100
+}, {
+    "id": 652827,
+    "mapName": "和静县",
+    "mapAbbreviation": "和静",
+    "mapMergerName": "中国,新疆维吾尔自治区,巴音郭楞蒙古自治州,和静县",
+    "mapParentId": 652800,
+    "mapLevelType": 3,
+    "mapPinYin": "Hejing",
+    "mapZipCode": 841300
+}, {
+    "id": 652828,
+    "mapName": "和硕县",
+    "mapAbbreviation": "和硕",
+    "mapMergerName": "中国,新疆维吾尔自治区,巴音郭楞蒙古自治州,和硕县",
+    "mapParentId": 652800,
+    "mapLevelType": 3,
+    "mapPinYin": "Heshuo",
+    "mapZipCode": 841200
+}, {
+    "id": 652829,
+    "mapName": "博湖县",
+    "mapAbbreviation": "博湖",
+    "mapMergerName": "中国,新疆维吾尔自治区,巴音郭楞蒙古自治州,博湖县",
+    "mapParentId": 652800,
+    "mapLevelType": 3,
+    "mapPinYin": "Bohu",
+    "mapZipCode": 841400
+}, {
+    "id": 652901,
+    "mapName": "阿克苏市",
+    "mapAbbreviation": "阿克苏",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿克苏地区,阿克苏市",
+    "mapParentId": 652900,
+    "mapLevelType": 3,
+    "mapPinYin": "Akesu",
+    "mapZipCode": 843000
+}, {
+    "id": 652922,
+    "mapName": "温宿县",
+    "mapAbbreviation": "温宿",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿克苏地区,温宿县",
+    "mapParentId": 652900,
+    "mapLevelType": 3,
+    "mapPinYin": "Wensu",
+    "mapZipCode": 843100
+}, {
+    "id": 652923,
+    "mapName": "库车县",
+    "mapAbbreviation": "库车",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿克苏地区,库车县",
+    "mapParentId": 652900,
+    "mapLevelType": 3,
+    "mapPinYin": "Kuche",
+    "mapZipCode": 842000
+}, {
+    "id": 652924,
+    "mapName": "沙雅县",
+    "mapAbbreviation": "沙雅",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿克苏地区,沙雅县",
+    "mapParentId": 652900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shaya",
+    "mapZipCode": 842200
+}, {
+    "id": 652925,
+    "mapName": "新和县",
+    "mapAbbreviation": "新和",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿克苏地区,新和县",
+    "mapParentId": 652900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinhe",
+    "mapZipCode": 842100
+}, {
+    "id": 652926,
+    "mapName": "拜城县",
+    "mapAbbreviation": "拜城",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿克苏地区,拜城县",
+    "mapParentId": 652900,
+    "mapLevelType": 3,
+    "mapPinYin": "Baicheng",
+    "mapZipCode": 842300
+}, {
+    "id": 652927,
+    "mapName": "乌什县",
+    "mapAbbreviation": "乌什",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿克苏地区,乌什县",
+    "mapParentId": 652900,
+    "mapLevelType": 3,
+    "mapPinYin": "Wushi",
+    "mapZipCode": 843400
+}, {
+    "id": 652928,
+    "mapName": "阿瓦提县",
+    "mapAbbreviation": "阿瓦提",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿克苏地区,阿瓦提县",
+    "mapParentId": 652900,
+    "mapLevelType": 3,
+    "mapPinYin": "Awati",
+    "mapZipCode": 843200
+}, {
+    "id": 652929,
+    "mapName": "柯坪县",
+    "mapAbbreviation": "柯坪",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿克苏地区,柯坪县",
+    "mapParentId": 652900,
+    "mapLevelType": 3,
+    "mapPinYin": "Keping",
+    "mapZipCode": 843600
+}, {
+    "id": 653001,
+    "mapName": "阿图什市",
+    "mapAbbreviation": "阿图什",
+    "mapMergerName": "中国,新疆维吾尔自治区,克孜勒苏柯尔克孜自治州,阿图什市",
+    "mapParentId": 653000,
+    "mapLevelType": 3,
+    "mapPinYin": "Atushi",
+    "mapZipCode": 845350
+}, {
+    "id": 653022,
+    "mapName": "阿克陶县",
+    "mapAbbreviation": "阿克陶",
+    "mapMergerName": "中国,新疆维吾尔自治区,克孜勒苏柯尔克孜自治州,阿克陶县",
+    "mapParentId": 653000,
+    "mapLevelType": 3,
+    "mapPinYin": "Aketao",
+    "mapZipCode": 845550
+}, {
+    "id": 653023,
+    "mapName": "阿合奇县",
+    "mapAbbreviation": "阿合奇",
+    "mapMergerName": "中国,新疆维吾尔自治区,克孜勒苏柯尔克孜自治州,阿合奇县",
+    "mapParentId": 653000,
+    "mapLevelType": 3,
+    "mapPinYin": "Aheqi",
+    "mapZipCode": 843500
+}, {
+    "id": 653024,
+    "mapName": "乌恰县",
+    "mapAbbreviation": "乌恰",
+    "mapMergerName": "中国,新疆维吾尔自治区,克孜勒苏柯尔克孜自治州,乌恰县",
+    "mapParentId": 653000,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuqia",
+    "mapZipCode": 845450
+}, {
+    "id": 653101,
+    "mapName": "喀什市",
+    "mapAbbreviation": "喀什",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,喀什市",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Kashi",
+    "mapZipCode": 844000
+}, {
+    "id": 653121,
+    "mapName": "疏附县",
+    "mapAbbreviation": "疏附",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,疏附县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shufu",
+    "mapZipCode": 844100
+}, {
+    "id": 653122,
+    "mapName": "疏勒县",
+    "mapAbbreviation": "疏勒",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,疏勒县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shule",
+    "mapZipCode": 844200
+}, {
+    "id": 653123,
+    "mapName": "英吉沙县",
+    "mapAbbreviation": "英吉沙",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,英吉沙县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingjisha",
+    "mapZipCode": 844500
+}, {
+    "id": 653124,
+    "mapName": "泽普县",
+    "mapAbbreviation": "泽普",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,泽普县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zepu",
+    "mapZipCode": 844800
+}, {
+    "id": 653125,
+    "mapName": "莎车县",
+    "mapAbbreviation": "莎车",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,莎车县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shache",
+    "mapZipCode": 844700
+}, {
+    "id": 653126,
+    "mapName": "叶城县",
+    "mapAbbreviation": "叶城",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,叶城县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yecheng",
+    "mapZipCode": 844900
+}, {
+    "id": 653127,
+    "mapName": "麦盖提县",
+    "mapAbbreviation": "麦盖提",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,麦盖提县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Maigaiti",
+    "mapZipCode": 844600
+}, {
+    "id": 653128,
+    "mapName": "岳普湖县",
+    "mapAbbreviation": "岳普湖",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,岳普湖县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuepuhu",
+    "mapZipCode": 844400
+}, {
+    "id": 653129,
+    "mapName": "伽师县",
+    "mapAbbreviation": "伽师",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,伽师县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiashi",
+    "mapZipCode": 844300
+}, {
+    "id": 653130,
+    "mapName": "巴楚县",
+    "mapAbbreviation": "巴楚",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,巴楚县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Bachu",
+    "mapZipCode": 843800
+}, {
+    "id": 653131,
+    "mapName": "塔什库尔干塔吉克自治县",
+    "mapAbbreviation": "塔什库尔干塔吉克",
+    "mapMergerName": "中国,新疆维吾尔自治区,喀什地区,塔什库尔干塔吉克自治县",
+    "mapParentId": 653100,
+    "mapLevelType": 3,
+    "mapPinYin": "Tashikuergantajike",
+    "mapZipCode": 845250
+}, {
+    "id": 653201,
+    "mapName": "和田市",
+    "mapAbbreviation": "和田市",
+    "mapMergerName": "中国,新疆维吾尔自治区,和田地区,和田市",
+    "mapParentId": 653200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hetianshi",
+    "mapZipCode": 848000
+}, {
+    "id": 653221,
+    "mapName": "和田县",
+    "mapAbbreviation": "和田县",
+    "mapMergerName": "中国,新疆维吾尔自治区,和田地区,和田县",
+    "mapParentId": 653200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hetianxian",
+    "mapZipCode": 848000
+}, {
+    "id": 653222,
+    "mapName": "墨玉县",
+    "mapAbbreviation": "墨玉",
+    "mapMergerName": "中国,新疆维吾尔自治区,和田地区,墨玉县",
+    "mapParentId": 653200,
+    "mapLevelType": 3,
+    "mapPinYin": "Moyu",
+    "mapZipCode": 848100
+}, {
+    "id": 653223,
+    "mapName": "皮山县",
+    "mapAbbreviation": "皮山",
+    "mapMergerName": "中国,新疆维吾尔自治区,和田地区,皮山县",
+    "mapParentId": 653200,
+    "mapLevelType": 3,
+    "mapPinYin": "Pishan",
+    "mapZipCode": 845150
+}, {
+    "id": 653224,
+    "mapName": "洛浦县",
+    "mapAbbreviation": "洛浦",
+    "mapMergerName": "中国,新疆维吾尔自治区,和田地区,洛浦县",
+    "mapParentId": 653200,
+    "mapLevelType": 3,
+    "mapPinYin": "Luopu",
+    "mapZipCode": 848200
+}, {
+    "id": 653225,
+    "mapName": "策勒县",
+    "mapAbbreviation": "策勒",
+    "mapMergerName": "中国,新疆维吾尔自治区,和田地区,策勒县",
+    "mapParentId": 653200,
+    "mapLevelType": 3,
+    "mapPinYin": "Cele",
+    "mapZipCode": 848300
+}, {
+    "id": 653226,
+    "mapName": "于田县",
+    "mapAbbreviation": "于田",
+    "mapMergerName": "中国,新疆维吾尔自治区,和田地区,于田县",
+    "mapParentId": 653200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yutian",
+    "mapZipCode": 848400
+}, {
+    "id": 653227,
+    "mapName": "民丰县",
+    "mapAbbreviation": "民丰",
+    "mapMergerName": "中国,新疆维吾尔自治区,和田地区,民丰县",
+    "mapParentId": 653200,
+    "mapLevelType": 3,
+    "mapPinYin": "Minfeng",
+    "mapZipCode": 848500
+}, {
+    "id": 654002,
+    "mapName": "伊宁市",
+    "mapAbbreviation": "伊宁",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,伊宁市",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yining",
+    "mapZipCode": 835000
+}, {
+    "id": 654003,
+    "mapName": "奎屯市",
+    "mapAbbreviation": "奎屯",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,奎屯市",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Kuitun",
+    "mapZipCode": 833200
+}, {
+    "id": 654004,
+    "mapName": "霍尔果斯市",
+    "mapAbbreviation": "霍尔果斯",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,霍尔果斯市",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huoerguosi",
+    "mapZipCode": 835221
+}, {
+    "id": 654021,
+    "mapName": "伊宁县",
+    "mapAbbreviation": "伊宁",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,伊宁县",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yining",
+    "mapZipCode": 835100
+}, {
+    "id": 654022,
+    "mapName": "察布查尔锡伯自治县",
+    "mapAbbreviation": "察布查尔锡伯",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,察布查尔锡伯自治县",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Chabuchaerxibo",
+    "mapZipCode": 835300
+}, {
+    "id": 654023,
+    "mapName": "霍城县",
+    "mapAbbreviation": "霍城",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,霍城县",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Huocheng",
+    "mapZipCode": 835200
+}, {
+    "id": 654024,
+    "mapName": "巩留县",
+    "mapAbbreviation": "巩留",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,巩留县",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongliu",
+    "mapZipCode": 835400
+}, {
+    "id": 654025,
+    "mapName": "新源县",
+    "mapAbbreviation": "新源",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,新源县",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinyuan",
+    "mapZipCode": 835800
+}, {
+    "id": 654026,
+    "mapName": "昭苏县",
+    "mapAbbreviation": "昭苏",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,昭苏县",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhaosu",
+    "mapZipCode": 835600
+}, {
+    "id": 654027,
+    "mapName": "特克斯县",
+    "mapAbbreviation": "特克斯",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,特克斯县",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tekesi",
+    "mapZipCode": 835500
+}, {
+    "id": 654028,
+    "mapName": "尼勒克县",
+    "mapAbbreviation": "尼勒克",
+    "mapMergerName": "中国,新疆维吾尔自治区,伊犁哈萨克自治州,尼勒克县",
+    "mapParentId": 654000,
+    "mapLevelType": 3,
+    "mapPinYin": "Nileke",
+    "mapZipCode": 835700
+}, {
+    "id": 654201,
+    "mapName": "塔城市",
+    "mapAbbreviation": "塔城",
+    "mapMergerName": "中国,新疆维吾尔自治区,塔城地区,塔城市",
+    "mapParentId": 654200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tacheng",
+    "mapZipCode": 834700
+}, {
+    "id": 654202,
+    "mapName": "乌苏市",
+    "mapAbbreviation": "乌苏",
+    "mapMergerName": "中国,新疆维吾尔自治区,塔城地区,乌苏市",
+    "mapParentId": 654200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wusu",
+    "mapZipCode": 833000
+}, {
+    "id": 654221,
+    "mapName": "额敏县",
+    "mapAbbreviation": "额敏",
+    "mapMergerName": "中国,新疆维吾尔自治区,塔城地区,额敏县",
+    "mapParentId": 654200,
+    "mapLevelType": 3,
+    "mapPinYin": "Emin",
+    "mapZipCode": 834600
+}, {
+    "id": 654223,
+    "mapName": "沙湾县",
+    "mapAbbreviation": "沙湾",
+    "mapMergerName": "中国,新疆维吾尔自治区,塔城地区,沙湾县",
+    "mapParentId": 654200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shawan",
+    "mapZipCode": 832100
+}, {
+    "id": 654224,
+    "mapName": "托里县",
+    "mapAbbreviation": "托里",
+    "mapMergerName": "中国,新疆维吾尔自治区,塔城地区,托里县",
+    "mapParentId": 654200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tuoli",
+    "mapZipCode": 834500
+}, {
+    "id": 654225,
+    "mapName": "裕民县",
+    "mapAbbreviation": "裕民",
+    "mapMergerName": "中国,新疆维吾尔自治区,塔城地区,裕民县",
+    "mapParentId": 654200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yumin",
+    "mapZipCode": 834800
+}, {
+    "id": 654226,
+    "mapName": "和布克赛尔蒙古自治县",
+    "mapAbbreviation": "和布克赛尔",
+    "mapMergerName": "中国,新疆维吾尔自治区,塔城地区,和布克赛尔蒙古自治县",
+    "mapParentId": 654200,
+    "mapLevelType": 3,
+    "mapPinYin": "Hebukesaier",
+    "mapZipCode": 834400
+}, {
+    "id": 654301,
+    "mapName": "阿勒泰市",
+    "mapAbbreviation": "阿勒泰",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿勒泰地区,阿勒泰市",
+    "mapParentId": 654300,
+    "mapLevelType": 3,
+    "mapPinYin": "Aletai",
+    "mapZipCode": 836500
+}, {
+    "id": 654321,
+    "mapName": "布尔津县",
+    "mapAbbreviation": "布尔津",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿勒泰地区,布尔津县",
+    "mapParentId": 654300,
+    "mapLevelType": 3,
+    "mapPinYin": "Buerjin",
+    "mapZipCode": 836600
+}, {
+    "id": 654322,
+    "mapName": "富蕴县",
+    "mapAbbreviation": "富蕴",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿勒泰地区,富蕴县",
+    "mapParentId": 654300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuyun",
+    "mapZipCode": 836100
+}, {
+    "id": 654323,
+    "mapName": "福海县",
+    "mapAbbreviation": "福海",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿勒泰地区,福海县",
+    "mapParentId": 654300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuhai",
+    "mapZipCode": 836400
+}, {
+    "id": 654324,
+    "mapName": "哈巴河县",
+    "mapAbbreviation": "哈巴河",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿勒泰地区,哈巴河县",
+    "mapParentId": 654300,
+    "mapLevelType": 3,
+    "mapPinYin": "Habahe",
+    "mapZipCode": 836700
+}, {
+    "id": 654325,
+    "mapName": "青河县",
+    "mapAbbreviation": "青河",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿勒泰地区,青河县",
+    "mapParentId": 654300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qinghe",
+    "mapZipCode": 836200
+}, {
+    "id": 654326,
+    "mapName": "吉木乃县",
+    "mapAbbreviation": "吉木乃",
+    "mapMergerName": "中国,新疆维吾尔自治区,阿勒泰地区,吉木乃县",
+    "mapParentId": 654300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jimunai",
+    "mapZipCode": 836800
+}, {
+    "id": 659001,
+    "mapName": "石河子市",
+    "mapAbbreviation": "石河子",
+    "mapMergerName": "中国,新疆维吾尔自治区,直辖县级,石河子市",
+    "mapParentId": 659000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shihezi",
+    "mapZipCode": 832000
+}, {
+    "id": 659002,
+    "mapName": "阿拉尔市",
+    "mapAbbreviation": "阿拉尔",
+    "mapMergerName": "中国,新疆维吾尔自治区,直辖县级,阿拉尔市",
+    "mapParentId": 659000,
+    "mapLevelType": 3,
+    "mapPinYin": "Aral",
+    "mapZipCode": 843300
+}, {
+    "id": 659003,
+    "mapName": "图木舒克市",
+    "mapAbbreviation": "图木舒克",
+    "mapMergerName": "中国,新疆维吾尔自治区,直辖县级,图木舒克市",
+    "mapParentId": 659000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tumxuk",
+    "mapZipCode": 843806
+}, {
+    "id": 659004,
+    "mapName": "五家渠市",
+    "mapAbbreviation": "五家渠",
+    "mapMergerName": "中国,新疆维吾尔自治区,直辖县级,五家渠市",
+    "mapParentId": 659000,
+    "mapLevelType": 3,
+    "mapPinYin": "Wujiaqu",
+    "mapZipCode": 831300
+}, {
+    "id": 659005,
+    "mapName": "北屯市",
+    "mapAbbreviation": "北屯",
+    "mapMergerName": "中国,新疆维吾尔自治区,直辖县级,北屯市",
+    "mapParentId": 659000,
+    "mapLevelType": 3,
+    "mapPinYin": "Beitun",
+    "mapZipCode": 836000
+}, {
+    "id": 659006,
+    "mapName": "铁门关市",
+    "mapAbbreviation": "铁门关",
+    "mapMergerName": "中国,新疆维吾尔自治区,直辖县级,铁门关市",
+    "mapParentId": 659000,
+    "mapLevelType": 3,
+    "mapPinYin": "Tiemenguan",
+    "mapZipCode": 836000
+}, {
+    "id": 659007,
+    "mapName": "双河市",
+    "mapAbbreviation": "双河",
+    "mapMergerName": "中国,新疆维吾尔自治区,直辖县级,双河市",
+    "mapParentId": 659000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuanghe",
+    "mapZipCode": 833408
+}, {
+    "id": 710101,
+    "mapName": "松山区",
+    "mapAbbreviation": "松山",
+    "mapMergerName": "中国,台湾,台北市,松山区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Songshan",
+    "mapZipCode": 105
+}, {
+    "id": 710102,
+    "mapName": "信义区",
+    "mapAbbreviation": "信义",
+    "mapMergerName": "中国,台湾,台北市,信义区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinyi",
+    "mapZipCode": 110
+}, {
+    "id": 710103,
+    "mapName": "大安区",
+    "mapAbbreviation": "大安",
+    "mapMergerName": "中国,台湾,台北市,大安区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Da'an",
+    "mapZipCode": 106
+}, {
+    "id": 710104,
+    "mapName": "中山区",
+    "mapAbbreviation": "中山",
+    "mapMergerName": "中国,台湾,台北市,中山区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongshan",
+    "mapZipCode": 104
+}, {
+    "id": 710105,
+    "mapName": "中正区",
+    "mapAbbreviation": "中正",
+    "mapMergerName": "中国,台湾,台北市,中正区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongzheng",
+    "mapZipCode": 100
+}, {
+    "id": 710106,
+    "mapName": "大同区",
+    "mapAbbreviation": "大同",
+    "mapMergerName": "中国,台湾,台北市,大同区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Datong",
+    "mapZipCode": 103
+}, {
+    "id": 710107,
+    "mapName": "万华区",
+    "mapAbbreviation": "万华",
+    "mapMergerName": "中国,台湾,台北市,万华区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanhua",
+    "mapZipCode": 108
+}, {
+    "id": 710108,
+    "mapName": "文山区",
+    "mapAbbreviation": "文山",
+    "mapMergerName": "中国,台湾,台北市,文山区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wenshan",
+    "mapZipCode": 116
+}, {
+    "id": 710109,
+    "mapName": "南港区",
+    "mapAbbreviation": "南港",
+    "mapMergerName": "中国,台湾,台北市,南港区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nangang",
+    "mapZipCode": 115
+}, {
+    "id": 710110,
+    "mapName": "内湖区",
+    "mapAbbreviation": "内湖",
+    "mapMergerName": "中国,台湾,台北市,内湖区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nahu",
+    "mapZipCode": 114
+}, {
+    "id": 710111,
+    "mapName": "士林区",
+    "mapAbbreviation": "士林",
+    "mapMergerName": "中国,台湾,台北市,士林区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Shilin",
+    "mapZipCode": 111
+}, {
+    "id": 710112,
+    "mapName": "北投区",
+    "mapAbbreviation": "北投",
+    "mapMergerName": "中国,台湾,台北市,北投区",
+    "mapParentId": 710100,
+    "mapLevelType": 3,
+    "mapPinYin": "Beitou",
+    "mapZipCode": 112
+}, {
+    "id": 710201,
+    "mapName": "盐埕区",
+    "mapAbbreviation": "盐埕",
+    "mapMergerName": "中国,台湾,高雄市,盐埕区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yancheng",
+    "mapZipCode": 803
+}, {
+    "id": 710202,
+    "mapName": "鼓山区",
+    "mapAbbreviation": "鼓山",
+    "mapMergerName": "中国,台湾,高雄市,鼓山区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Gushan",
+    "mapZipCode": 804
+}, {
+    "id": 710203,
+    "mapName": "左营区",
+    "mapAbbreviation": "左营",
+    "mapMergerName": "中国,台湾,高雄市,左营区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zuoying",
+    "mapZipCode": 813
+}, {
+    "id": 710204,
+    "mapName": "楠梓区",
+    "mapAbbreviation": "楠梓",
+    "mapMergerName": "中国,台湾,高雄市,楠梓区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanzi",
+    "mapZipCode": 811
+}, {
+    "id": 710205,
+    "mapName": "三民区",
+    "mapAbbreviation": "三民",
+    "mapMergerName": "中国,台湾,高雄市,三民区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanmin",
+    "mapZipCode": 807
+}, {
+    "id": 710206,
+    "mapName": "新兴区",
+    "mapAbbreviation": "新兴",
+    "mapMergerName": "中国,台湾,高雄市,新兴区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinxing",
+    "mapZipCode": 800
+}, {
+    "id": 710207,
+    "mapName": "前金区",
+    "mapAbbreviation": "前金",
+    "mapMergerName": "中国,台湾,高雄市,前金区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianjin",
+    "mapZipCode": 801
+}, {
+    "id": 710208,
+    "mapName": "苓雅区",
+    "mapAbbreviation": "苓雅",
+    "mapMergerName": "中国,台湾,高雄市,苓雅区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Lingya",
+    "mapZipCode": 802
+}, {
+    "id": 710209,
+    "mapName": "前镇区",
+    "mapAbbreviation": "前镇",
+    "mapMergerName": "中国,台湾,高雄市,前镇区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qianzhen",
+    "mapZipCode": 806
+}, {
+    "id": 710210,
+    "mapName": "旗津区",
+    "mapAbbreviation": "旗津",
+    "mapMergerName": "中国,台湾,高雄市,旗津区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qijin",
+    "mapZipCode": 805
+}, {
+    "id": 710211,
+    "mapName": "小港区",
+    "mapAbbreviation": "小港",
+    "mapMergerName": "中国,台湾,高雄市,小港区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaogang",
+    "mapZipCode": 812
+}, {
+    "id": 710212,
+    "mapName": "凤山区",
+    "mapAbbreviation": "凤山",
+    "mapMergerName": "中国,台湾,高雄市,凤山区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengshan",
+    "mapZipCode": 830
+}, {
+    "id": 710213,
+    "mapName": "林园区",
+    "mapAbbreviation": "林园",
+    "mapMergerName": "中国,台湾,高雄市,林园区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Linyuan",
+    "mapZipCode": 832
+}, {
+    "id": 710214,
+    "mapName": "大寮区",
+    "mapAbbreviation": "大寮",
+    "mapMergerName": "中国,台湾,高雄市,大寮区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Daliao",
+    "mapZipCode": 831
+}, {
+    "id": 710215,
+    "mapName": "大树区",
+    "mapAbbreviation": "大树",
+    "mapMergerName": "中国,台湾,高雄市,大树区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Dashu",
+    "mapZipCode": 840
+}, {
+    "id": 710216,
+    "mapName": "大社区",
+    "mapAbbreviation": "大社",
+    "mapMergerName": "中国,台湾,高雄市,大社区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Dashe",
+    "mapZipCode": 815
+}, {
+    "id": 710217,
+    "mapName": "仁武区",
+    "mapAbbreviation": "仁武",
+    "mapMergerName": "中国,台湾,高雄市,仁武区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Renwu",
+    "mapZipCode": 814
+}, {
+    "id": 710218,
+    "mapName": "鸟松区",
+    "mapAbbreviation": "鸟松",
+    "mapMergerName": "中国,台湾,高雄市,鸟松区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Niaosong",
+    "mapZipCode": 833
+}, {
+    "id": 710219,
+    "mapName": "冈山区",
+    "mapAbbreviation": "冈山",
+    "mapMergerName": "中国,台湾,高雄市,冈山区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Gangshan",
+    "mapZipCode": 820
+}, {
+    "id": 710220,
+    "mapName": "桥头区",
+    "mapAbbreviation": "桥头",
+    "mapMergerName": "中国,台湾,高雄市,桥头区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qiaotou",
+    "mapZipCode": 825
+}, {
+    "id": 710221,
+    "mapName": "燕巢区",
+    "mapAbbreviation": "燕巢",
+    "mapMergerName": "中国,台湾,高雄市,燕巢区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanchao",
+    "mapZipCode": 824
+}, {
+    "id": 710222,
+    "mapName": "田寮区",
+    "mapAbbreviation": "田寮",
+    "mapMergerName": "中国,台湾,高雄市,田寮区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianliao",
+    "mapZipCode": 823
+}, {
+    "id": 710223,
+    "mapName": "阿莲区",
+    "mapAbbreviation": "阿莲",
+    "mapMergerName": "中国,台湾,高雄市,阿莲区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Alian",
+    "mapZipCode": 822
+}, {
+    "id": 710224,
+    "mapName": "路竹区",
+    "mapAbbreviation": "路竹",
+    "mapMergerName": "中国,台湾,高雄市,路竹区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Luzhu",
+    "mapZipCode": 821
+}, {
+    "id": 710225,
+    "mapName": "湖内区",
+    "mapAbbreviation": "湖内",
+    "mapMergerName": "中国,台湾,高雄市,湖内区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Huna",
+    "mapZipCode": 829
+}, {
+    "id": 710226,
+    "mapName": "茄萣区",
+    "mapAbbreviation": "茄萣",
+    "mapMergerName": "中国,台湾,高雄市,茄萣区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qieding",
+    "mapZipCode": 852
+}, {
+    "id": 710227,
+    "mapName": "永安区",
+    "mapAbbreviation": "永安",
+    "mapMergerName": "中国,台湾,高雄市,永安区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yong'an",
+    "mapZipCode": 828
+}, {
+    "id": 710228,
+    "mapName": "弥陀区",
+    "mapAbbreviation": "弥陀",
+    "mapMergerName": "中国,台湾,高雄市,弥陀区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Mituo",
+    "mapZipCode": 827
+}, {
+    "id": 710229,
+    "mapName": "梓官区",
+    "mapAbbreviation": "梓官",
+    "mapMergerName": "中国,台湾,高雄市,梓官区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Ziguan",
+    "mapZipCode": 826
+}, {
+    "id": 710230,
+    "mapName": "旗山区",
+    "mapAbbreviation": "旗山",
+    "mapMergerName": "中国,台湾,高雄市,旗山区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Qishan",
+    "mapZipCode": 842
+}, {
+    "id": 710231,
+    "mapName": "美浓区",
+    "mapAbbreviation": "美浓",
+    "mapMergerName": "中国,台湾,高雄市,美浓区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Meinong",
+    "mapZipCode": 843
+}, {
+    "id": 710232,
+    "mapName": "六龟区",
+    "mapAbbreviation": "六龟",
+    "mapMergerName": "中国,台湾,高雄市,六龟区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Liugui",
+    "mapZipCode": 844
+}, {
+    "id": 710233,
+    "mapName": "甲仙区",
+    "mapAbbreviation": "甲仙",
+    "mapMergerName": "中国,台湾,高雄市,甲仙区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaxian",
+    "mapZipCode": 847
+}, {
+    "id": 710234,
+    "mapName": "杉林区",
+    "mapAbbreviation": "杉林",
+    "mapMergerName": "中国,台湾,高雄市,杉林区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanlin",
+    "mapZipCode": 846
+}, {
+    "id": 710235,
+    "mapName": "内门区",
+    "mapAbbreviation": "内门",
+    "mapMergerName": "中国,台湾,高雄市,内门区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Namen",
+    "mapZipCode": 845
+}, {
+    "id": 710236,
+    "mapName": "茂林区",
+    "mapAbbreviation": "茂林",
+    "mapMergerName": "中国,台湾,高雄市,茂林区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Maolin",
+    "mapZipCode": 851
+}, {
+    "id": 710237,
+    "mapName": "桃源区",
+    "mapAbbreviation": "桃源",
+    "mapMergerName": "中国,台湾,高雄市,桃源区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Taoyuan",
+    "mapZipCode": 848
+}, {
+    "id": 710238,
+    "mapName": "那玛夏区",
+    "mapAbbreviation": "那玛夏",
+    "mapMergerName": "中国,台湾,高雄市,那玛夏区",
+    "mapParentId": 710200,
+    "mapLevelType": 3,
+    "mapPinYin": "Namaxia",
+    "mapZipCode": 849
+}, {
+    "id": 710301,
+    "mapName": "中正区",
+    "mapAbbreviation": "中正",
+    "mapMergerName": "中国,台湾,基隆市,中正区",
+    "mapParentId": 710300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongzheng",
+    "mapZipCode": 202
+}, {
+    "id": 710302,
+    "mapName": "七堵区",
+    "mapAbbreviation": "七堵",
+    "mapMergerName": "中国,台湾,基隆市,七堵区",
+    "mapParentId": 710300,
+    "mapLevelType": 3,
+    "mapPinYin": "Qidu",
+    "mapZipCode": 206
+}, {
+    "id": 710303,
+    "mapName": "暖暖区",
+    "mapAbbreviation": "暖暖",
+    "mapMergerName": "中国,台湾,基隆市,暖暖区",
+    "mapParentId": 710300,
+    "mapLevelType": 3,
+    "mapPinYin": "Nuannuan",
+    "mapZipCode": 205
+}, {
+    "id": 710304,
+    "mapName": "仁爱区",
+    "mapAbbreviation": "仁爱",
+    "mapMergerName": "中国,台湾,基隆市,仁爱区",
+    "mapParentId": 710300,
+    "mapLevelType": 3,
+    "mapPinYin": "Renai",
+    "mapZipCode": 200
+}, {
+    "id": 710305,
+    "mapName": "中山区",
+    "mapAbbreviation": "中山",
+    "mapMergerName": "中国,台湾,基隆市,中山区",
+    "mapParentId": 710300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongshan",
+    "mapZipCode": 203
+}, {
+    "id": 710306,
+    "mapName": "安乐区",
+    "mapAbbreviation": "安乐",
+    "mapMergerName": "中国,台湾,基隆市,安乐区",
+    "mapParentId": 710300,
+    "mapLevelType": 3,
+    "mapPinYin": "Anle",
+    "mapZipCode": 204
+}, {
+    "id": 710307,
+    "mapName": "信义区",
+    "mapAbbreviation": "信义",
+    "mapMergerName": "中国,台湾,基隆市,信义区",
+    "mapParentId": 710300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinyi",
+    "mapZipCode": 201
+}, {
+    "id": 710401,
+    "mapName": "中区",
+    "mapAbbreviation": "中区",
+    "mapMergerName": "中国,台湾,台中市,中区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongqu",
+    "mapZipCode": 400
+}, {
+    "id": 710402,
+    "mapName": "东区",
+    "mapAbbreviation": "东区",
+    "mapMergerName": "中国,台湾,台中市,东区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongqu",
+    "mapZipCode": 401
+}, {
+    "id": 710403,
+    "mapName": "南区",
+    "mapAbbreviation": "南区",
+    "mapMergerName": "中国,台湾,台中市,南区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanqu",
+    "mapZipCode": 402
+}, {
+    "id": 710404,
+    "mapName": "西区",
+    "mapAbbreviation": "西区",
+    "mapMergerName": "中国,台湾,台中市,西区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiqu",
+    "mapZipCode": 403
+}, {
+    "id": 710405,
+    "mapName": "北区",
+    "mapAbbreviation": "北区",
+    "mapMergerName": "中国,台湾,台中市,北区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Beiqu",
+    "mapZipCode": 404
+}, {
+    "id": 710406,
+    "mapName": "西屯区",
+    "mapAbbreviation": "西屯",
+    "mapMergerName": "中国,台湾,台中市,西屯区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xitun",
+    "mapZipCode": 407
+}, {
+    "id": 710407,
+    "mapName": "南屯区",
+    "mapAbbreviation": "南屯",
+    "mapMergerName": "中国,台湾,台中市,南屯区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Nantun",
+    "mapZipCode": 408
+}, {
+    "id": 710408,
+    "mapName": "北屯区",
+    "mapAbbreviation": "北屯",
+    "mapMergerName": "中国,台湾,台中市,北屯区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Beitun",
+    "mapZipCode": 406
+}, {
+    "id": 710409,
+    "mapName": "丰原区",
+    "mapAbbreviation": "丰原",
+    "mapMergerName": "中国,台湾,台中市,丰原区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengyuan",
+    "mapZipCode": 420
+}, {
+    "id": 710410,
+    "mapName": "东势区",
+    "mapAbbreviation": "东势",
+    "mapMergerName": "中国,台湾,台中市,东势区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongshi",
+    "mapZipCode": 423
+}, {
+    "id": 710411,
+    "mapName": "大甲区",
+    "mapAbbreviation": "大甲",
+    "mapMergerName": "中国,台湾,台中市,大甲区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dajia",
+    "mapZipCode": 437
+}, {
+    "id": 710412,
+    "mapName": "清水区",
+    "mapAbbreviation": "清水",
+    "mapMergerName": "中国,台湾,台中市,清水区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Qingshui",
+    "mapZipCode": 436
+}, {
+    "id": 710413,
+    "mapName": "沙鹿区",
+    "mapAbbreviation": "沙鹿",
+    "mapMergerName": "中国,台湾,台中市,沙鹿区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shalu",
+    "mapZipCode": 433
+}, {
+    "id": 710414,
+    "mapName": "梧栖区",
+    "mapAbbreviation": "梧栖",
+    "mapMergerName": "中国,台湾,台中市,梧栖区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuqi",
+    "mapZipCode": 435
+}, {
+    "id": 710415,
+    "mapName": "后里区",
+    "mapAbbreviation": "后里",
+    "mapMergerName": "中国,台湾,台中市,后里区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Houli",
+    "mapZipCode": 421
+}, {
+    "id": 710416,
+    "mapName": "神冈区",
+    "mapAbbreviation": "神冈",
+    "mapMergerName": "中国,台湾,台中市,神冈区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shengang",
+    "mapZipCode": 429
+}, {
+    "id": 710417,
+    "mapName": "潭子区",
+    "mapAbbreviation": "潭子",
+    "mapMergerName": "中国,台湾,台中市,潭子区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Tanzi",
+    "mapZipCode": 427
+}, {
+    "id": 710418,
+    "mapName": "大雅区",
+    "mapAbbreviation": "大雅",
+    "mapMergerName": "中国,台湾,台中市,大雅区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Daya",
+    "mapZipCode": 428
+}, {
+    "id": 710419,
+    "mapName": "新社区",
+    "mapAbbreviation": "新社",
+    "mapMergerName": "中国,台湾,台中市,新社区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinshe",
+    "mapZipCode": 426
+}, {
+    "id": 710420,
+    "mapName": "石冈区",
+    "mapAbbreviation": "石冈",
+    "mapMergerName": "中国,台湾,台中市,石冈区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Shigang",
+    "mapZipCode": 422
+}, {
+    "id": 710421,
+    "mapName": "外埔区",
+    "mapAbbreviation": "外埔",
+    "mapMergerName": "中国,台湾,台中市,外埔区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Waipu",
+    "mapZipCode": 438
+}, {
+    "id": 710422,
+    "mapName": "大安区",
+    "mapAbbreviation": "大安",
+    "mapMergerName": "中国,台湾,台中市,大安区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Da'an",
+    "mapZipCode": 439
+}, {
+    "id": 710423,
+    "mapName": "乌日区",
+    "mapAbbreviation": "乌日",
+    "mapMergerName": "中国,台湾,台中市,乌日区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuri",
+    "mapZipCode": 414
+}, {
+    "id": 710424,
+    "mapName": "大肚区",
+    "mapAbbreviation": "大肚",
+    "mapMergerName": "中国,台湾,台中市,大肚区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dadu",
+    "mapZipCode": 432
+}, {
+    "id": 710425,
+    "mapName": "龙井区",
+    "mapAbbreviation": "龙井",
+    "mapMergerName": "中国,台湾,台中市,龙井区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Longjing",
+    "mapZipCode": 434
+}, {
+    "id": 710426,
+    "mapName": "雾峰区",
+    "mapAbbreviation": "雾峰",
+    "mapMergerName": "中国,台湾,台中市,雾峰区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wufeng",
+    "mapZipCode": 413
+}, {
+    "id": 710427,
+    "mapName": "太平区",
+    "mapAbbreviation": "太平",
+    "mapMergerName": "中国,台湾,台中市,太平区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Taiping",
+    "mapZipCode": 411
+}, {
+    "id": 710428,
+    "mapName": "大里区",
+    "mapAbbreviation": "大里",
+    "mapMergerName": "中国,台湾,台中市,大里区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dali",
+    "mapZipCode": 412
+}, {
+    "id": 710429,
+    "mapName": "和平区",
+    "mapAbbreviation": "和平",
+    "mapMergerName": "中国,台湾,台中市,和平区",
+    "mapParentId": 710400,
+    "mapLevelType": 3,
+    "mapPinYin": "Heping",
+    "mapZipCode": 424
+}, {
+    "id": 710501,
+    "mapName": "东区",
+    "mapAbbreviation": "东区",
+    "mapMergerName": "中国,台湾,台南市,东区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongqu",
+    "mapZipCode": 701
+}, {
+    "id": 710502,
+    "mapName": "南区",
+    "mapAbbreviation": "南区",
+    "mapMergerName": "中国,台湾,台南市,南区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanqu",
+    "mapZipCode": 702
+}, {
+    "id": 710504,
+    "mapName": "北区",
+    "mapAbbreviation": "北区",
+    "mapMergerName": "中国,台湾,台南市,北区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Beiqu",
+    "mapZipCode": 704
+}, {
+    "id": 710506,
+    "mapName": "安南区",
+    "mapAbbreviation": "安南",
+    "mapMergerName": "中国,台湾,台南市,安南区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Annan",
+    "mapZipCode": 709
+}, {
+    "id": 710507,
+    "mapName": "安平区",
+    "mapAbbreviation": "安平",
+    "mapMergerName": "中国,台湾,台南市,安平区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Anping",
+    "mapZipCode": 708
+}, {
+    "id": 710508,
+    "mapName": "中西区",
+    "mapAbbreviation": "中西",
+    "mapMergerName": "中国,台湾,台南市,中西区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongxi",
+    "mapZipCode": 700
+}, {
+    "id": 710509,
+    "mapName": "新营区",
+    "mapAbbreviation": "新营",
+    "mapMergerName": "中国,台湾,台南市,新营区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinying",
+    "mapZipCode": 730
+}, {
+    "id": 710510,
+    "mapName": "盐水区",
+    "mapAbbreviation": "盐水",
+    "mapMergerName": "中国,台湾,台南市,盐水区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanshui",
+    "mapZipCode": 737
+}, {
+    "id": 710511,
+    "mapName": "白河区",
+    "mapAbbreviation": "白河",
+    "mapMergerName": "中国,台湾,台南市,白河区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Baihe",
+    "mapZipCode": 732
+}, {
+    "id": 710512,
+    "mapName": "柳营区",
+    "mapAbbreviation": "柳营",
+    "mapMergerName": "中国,台湾,台南市,柳营区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Liuying",
+    "mapZipCode": 736
+}, {
+    "id": 710513,
+    "mapName": "后壁区",
+    "mapAbbreviation": "后壁",
+    "mapMergerName": "中国,台湾,台南市,后壁区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Houbi",
+    "mapZipCode": 731
+}, {
+    "id": 710514,
+    "mapName": "东山区",
+    "mapAbbreviation": "东山",
+    "mapMergerName": "中国,台湾,台南市,东山区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongshan",
+    "mapZipCode": 733
+}, {
+    "id": 710515,
+    "mapName": "麻豆区",
+    "mapAbbreviation": "麻豆",
+    "mapMergerName": "中国,台湾,台南市,麻豆区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Madou",
+    "mapZipCode": 721
+}, {
+    "id": 710516,
+    "mapName": "下营区",
+    "mapAbbreviation": "下营",
+    "mapMergerName": "中国,台湾,台南市,下营区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiaying",
+    "mapZipCode": 735
+}, {
+    "id": 710517,
+    "mapName": "六甲区",
+    "mapAbbreviation": "六甲",
+    "mapMergerName": "中国,台湾,台南市,六甲区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Liujia",
+    "mapZipCode": 734
+}, {
+    "id": 710518,
+    "mapName": "官田区",
+    "mapAbbreviation": "官田",
+    "mapMergerName": "中国,台湾,台南市,官田区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Guantian",
+    "mapZipCode": 720
+}, {
+    "id": 710519,
+    "mapName": "大内区",
+    "mapAbbreviation": "大内",
+    "mapMergerName": "中国,台湾,台南市,大内区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dana",
+    "mapZipCode": 742
+}, {
+    "id": 710520,
+    "mapName": "佳里区",
+    "mapAbbreviation": "佳里",
+    "mapMergerName": "中国,台湾,台南市,佳里区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiali",
+    "mapZipCode": 722
+}, {
+    "id": 710521,
+    "mapName": "学甲区",
+    "mapAbbreviation": "学甲",
+    "mapMergerName": "中国,台湾,台南市,学甲区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xuejia",
+    "mapZipCode": 726
+}, {
+    "id": 710522,
+    "mapName": "西港区",
+    "mapAbbreviation": "西港",
+    "mapMergerName": "中国,台湾,台南市,西港区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xigang",
+    "mapZipCode": 723
+}, {
+    "id": 710523,
+    "mapName": "七股区",
+    "mapAbbreviation": "七股",
+    "mapMergerName": "中国,台湾,台南市,七股区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Qigu",
+    "mapZipCode": 724
+}, {
+    "id": 710524,
+    "mapName": "将军区",
+    "mapAbbreviation": "将军",
+    "mapMergerName": "中国,台湾,台南市,将军区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiangjun",
+    "mapZipCode": 725
+}, {
+    "id": 710525,
+    "mapName": "北门区",
+    "mapAbbreviation": "北门",
+    "mapMergerName": "中国,台湾,台南市,北门区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Beimen",
+    "mapZipCode": 727
+}, {
+    "id": 710526,
+    "mapName": "新化区",
+    "mapAbbreviation": "新化",
+    "mapMergerName": "中国,台湾,台南市,新化区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinhua",
+    "mapZipCode": 712
+}, {
+    "id": 710527,
+    "mapName": "善化区",
+    "mapAbbreviation": "善化",
+    "mapMergerName": "中国,台湾,台南市,善化区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanhua",
+    "mapZipCode": 741
+}, {
+    "id": 710528,
+    "mapName": "新市区",
+    "mapAbbreviation": "新市",
+    "mapMergerName": "中国,台湾,台南市,新市区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinshi",
+    "mapZipCode": 744
+}, {
+    "id": 710529,
+    "mapName": "安定区",
+    "mapAbbreviation": "安定",
+    "mapMergerName": "中国,台湾,台南市,安定区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Anding",
+    "mapZipCode": 745
+}, {
+    "id": 710530,
+    "mapName": "山上区",
+    "mapAbbreviation": "山上",
+    "mapMergerName": "中国,台湾,台南市,山上区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shanshang",
+    "mapZipCode": 743
+}, {
+    "id": 710531,
+    "mapName": "玉井区",
+    "mapAbbreviation": "玉井",
+    "mapMergerName": "中国,台湾,台南市,玉井区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yujing",
+    "mapZipCode": 714
+}, {
+    "id": 710532,
+    "mapName": "楠西区",
+    "mapAbbreviation": "楠西",
+    "mapMergerName": "中国,台湾,台南市,楠西区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanxi",
+    "mapZipCode": 715
+}, {
+    "id": 710533,
+    "mapName": "南化区",
+    "mapAbbreviation": "南化",
+    "mapMergerName": "中国,台湾,台南市,南化区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanhua",
+    "mapZipCode": 716
+}, {
+    "id": 710534,
+    "mapName": "左镇区",
+    "mapAbbreviation": "左镇",
+    "mapMergerName": "中国,台湾,台南市,左镇区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zuozhen",
+    "mapZipCode": 713
+}, {
+    "id": 710535,
+    "mapName": "仁德区",
+    "mapAbbreviation": "仁德",
+    "mapMergerName": "中国,台湾,台南市,仁德区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Rende",
+    "mapZipCode": 717
+}, {
+    "id": 710536,
+    "mapName": "归仁区",
+    "mapAbbreviation": "归仁",
+    "mapMergerName": "中国,台湾,台南市,归仁区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Guiren",
+    "mapZipCode": 711
+}, {
+    "id": 710537,
+    "mapName": "关庙区",
+    "mapAbbreviation": "关庙",
+    "mapMergerName": "中国,台湾,台南市,关庙区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanmiao",
+    "mapZipCode": 718
+}, {
+    "id": 710538,
+    "mapName": "龙崎区",
+    "mapAbbreviation": "龙崎",
+    "mapMergerName": "中国,台湾,台南市,龙崎区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Longqi",
+    "mapZipCode": 719
+}, {
+    "id": 710539,
+    "mapName": "永康区",
+    "mapAbbreviation": "永康",
+    "mapMergerName": "中国,台湾,台南市,永康区",
+    "mapParentId": 710500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongkang",
+    "mapZipCode": 710
+}, {
+    "id": 710601,
+    "mapName": "东区",
+    "mapAbbreviation": "东区",
+    "mapMergerName": "中国,台湾,新竹市,东区",
+    "mapParentId": 710600,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongqu",
+    "mapZipCode": 300
+}, {
+    "id": 710602,
+    "mapName": "北区",
+    "mapAbbreviation": "北区",
+    "mapMergerName": "中国,台湾,新竹市,北区",
+    "mapParentId": 710600,
+    "mapLevelType": 3,
+    "mapPinYin": "Beiqu",
+    "mapZipCode": null
+}, {
+    "id": 710603,
+    "mapName": "香山区",
+    "mapAbbreviation": "香山",
+    "mapMergerName": "中国,台湾,新竹市,香山区",
+    "mapParentId": 710600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiangshan",
+    "mapZipCode": null
+}, {
+    "id": 710701,
+    "mapName": "东区",
+    "mapAbbreviation": "东区",
+    "mapMergerName": "中国,台湾,嘉义市,东区",
+    "mapParentId": 710700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongqu",
+    "mapZipCode": 600
+}, {
+    "id": 710702,
+    "mapName": "西区",
+    "mapAbbreviation": "西区",
+    "mapMergerName": "中国,台湾,嘉义市,西区",
+    "mapParentId": 710700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiqu",
+    "mapZipCode": 600
+}, {
+    "id": 710801,
+    "mapName": "板桥区",
+    "mapAbbreviation": "板桥",
+    "mapMergerName": "中国,台湾,新北市,板桥区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Banqiao",
+    "mapZipCode": 220
+}, {
+    "id": 710802,
+    "mapName": "三重区",
+    "mapAbbreviation": "三重",
+    "mapMergerName": "中国,台湾,新北市,三重区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanzhong",
+    "mapZipCode": 241
+}, {
+    "id": 710803,
+    "mapName": "中和区",
+    "mapAbbreviation": "中和",
+    "mapMergerName": "中国,台湾,新北市,中和区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhonghe",
+    "mapZipCode": 235
+}, {
+    "id": 710804,
+    "mapName": "永和区",
+    "mapAbbreviation": "永和",
+    "mapMergerName": "中国,台湾,新北市,永和区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yonghe",
+    "mapZipCode": 234
+}, {
+    "id": 710805,
+    "mapName": "新庄区",
+    "mapAbbreviation": "新庄",
+    "mapMergerName": "中国,台湾,新北市,新庄区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinzhuang",
+    "mapZipCode": 242
+}, {
+    "id": 710806,
+    "mapName": "新店区",
+    "mapAbbreviation": "新店",
+    "mapMergerName": "中国,台湾,新北市,新店区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xindian",
+    "mapZipCode": 231
+}, {
+    "id": 710807,
+    "mapName": "树林区",
+    "mapAbbreviation": "树林",
+    "mapMergerName": "中国,台湾,新北市,树林区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shulin",
+    "mapZipCode": 238
+}, {
+    "id": 710808,
+    "mapName": "莺歌区",
+    "mapAbbreviation": "莺歌",
+    "mapMergerName": "中国,台湾,新北市,莺歌区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yingge",
+    "mapZipCode": 239
+}, {
+    "id": 710809,
+    "mapName": "三峡区",
+    "mapAbbreviation": "三峡",
+    "mapMergerName": "中国,台湾,新北市,三峡区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanxia",
+    "mapZipCode": 237
+}, {
+    "id": 710810,
+    "mapName": "淡水区",
+    "mapAbbreviation": "淡水",
+    "mapMergerName": "中国,台湾,新北市,淡水区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Danshui",
+    "mapZipCode": 251
+}, {
+    "id": 710811,
+    "mapName": "汐止区",
+    "mapAbbreviation": "汐止",
+    "mapMergerName": "中国,台湾,新北市,汐止区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xizhi",
+    "mapZipCode": 221
+}, {
+    "id": 710812,
+    "mapName": "瑞芳区",
+    "mapAbbreviation": "瑞芳",
+    "mapMergerName": "中国,台湾,新北市,瑞芳区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruifang",
+    "mapZipCode": 224
+}, {
+    "id": 710813,
+    "mapName": "土城区",
+    "mapAbbreviation": "土城",
+    "mapMergerName": "中国,台湾,新北市,土城区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Tucheng",
+    "mapZipCode": 236
+}, {
+    "id": 710814,
+    "mapName": "芦洲区",
+    "mapAbbreviation": "芦洲",
+    "mapMergerName": "中国,台湾,新北市,芦洲区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Luzhou",
+    "mapZipCode": 247
+}, {
+    "id": 710815,
+    "mapName": "五股区",
+    "mapAbbreviation": "五股",
+    "mapMergerName": "中国,台湾,新北市,五股区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wugu",
+    "mapZipCode": 248
+}, {
+    "id": 710816,
+    "mapName": "泰山区",
+    "mapAbbreviation": "泰山",
+    "mapMergerName": "中国,台湾,新北市,泰山区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Taishan",
+    "mapZipCode": 243
+}, {
+    "id": 710817,
+    "mapName": "林口区",
+    "mapAbbreviation": "林口",
+    "mapMergerName": "中国,台湾,新北市,林口区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Linkou",
+    "mapZipCode": 244
+}, {
+    "id": 710818,
+    "mapName": "深坑区",
+    "mapAbbreviation": "深坑",
+    "mapMergerName": "中国,台湾,新北市,深坑区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shenkeng",
+    "mapZipCode": 222
+}, {
+    "id": 710819,
+    "mapName": "石碇区",
+    "mapAbbreviation": "石碇",
+    "mapMergerName": "中国,台湾,新北市,石碇区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shiding",
+    "mapZipCode": 223
+}, {
+    "id": 710820,
+    "mapName": "坪林区",
+    "mapAbbreviation": "坪林",
+    "mapMergerName": "中国,台湾,新北市,坪林区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Pinglin",
+    "mapZipCode": 232
+}, {
+    "id": 710821,
+    "mapName": "三芝区",
+    "mapAbbreviation": "三芝",
+    "mapMergerName": "中国,台湾,新北市,三芝区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanzhi",
+    "mapZipCode": 252
+}, {
+    "id": 710822,
+    "mapName": "石门区",
+    "mapAbbreviation": "石门",
+    "mapMergerName": "中国,台湾,新北市,石门区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shimen",
+    "mapZipCode": 253
+}, {
+    "id": 710823,
+    "mapName": "八里区",
+    "mapAbbreviation": "八里",
+    "mapMergerName": "中国,台湾,新北市,八里区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Bali",
+    "mapZipCode": 249
+}, {
+    "id": 710824,
+    "mapName": "平溪区",
+    "mapAbbreviation": "平溪",
+    "mapMergerName": "中国,台湾,新北市,平溪区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingxi",
+    "mapZipCode": 226
+}, {
+    "id": 710825,
+    "mapName": "双溪区",
+    "mapAbbreviation": "双溪",
+    "mapMergerName": "中国,台湾,新北市,双溪区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuangxi",
+    "mapZipCode": 227
+}, {
+    "id": 710826,
+    "mapName": "贡寮区",
+    "mapAbbreviation": "贡寮",
+    "mapMergerName": "中国,台湾,新北市,贡寮区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongliao",
+    "mapZipCode": 228
+}, {
+    "id": 710827,
+    "mapName": "金山区",
+    "mapAbbreviation": "金山",
+    "mapMergerName": "中国,台湾,新北市,金山区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinshan",
+    "mapZipCode": 208
+}, {
+    "id": 710828,
+    "mapName": "万里区",
+    "mapAbbreviation": "万里",
+    "mapMergerName": "中国,台湾,新北市,万里区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanli",
+    "mapZipCode": 207
+}, {
+    "id": 710829,
+    "mapName": "乌来区",
+    "mapAbbreviation": "乌来",
+    "mapMergerName": "中国,台湾,新北市,乌来区",
+    "mapParentId": 710800,
+    "mapLevelType": 3,
+    "mapPinYin": "Wulai",
+    "mapZipCode": 233
+}, {
+    "id": 712201,
+    "mapName": "宜兰市",
+    "mapAbbreviation": "宜兰",
+    "mapMergerName": "中国,台湾,宜兰县,宜兰市",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yilan",
+    "mapZipCode": 260
+}, {
+    "id": 712221,
+    "mapName": "罗东镇",
+    "mapAbbreviation": "罗东",
+    "mapMergerName": "中国,台湾,宜兰县,罗东镇",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Luodong",
+    "mapZipCode": 265
+}, {
+    "id": 712222,
+    "mapName": "苏澳镇",
+    "mapAbbreviation": "苏澳",
+    "mapMergerName": "中国,台湾,宜兰县,苏澳镇",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Suao",
+    "mapZipCode": 270
+}, {
+    "id": 712223,
+    "mapName": "头城镇",
+    "mapAbbreviation": "头城",
+    "mapMergerName": "中国,台湾,宜兰县,头城镇",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Toucheng",
+    "mapZipCode": 261
+}, {
+    "id": 712224,
+    "mapName": "礁溪乡",
+    "mapAbbreviation": "礁溪",
+    "mapMergerName": "中国,台湾,宜兰县,礁溪乡",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiaoxi",
+    "mapZipCode": 262
+}, {
+    "id": 712225,
+    "mapName": "壮围乡",
+    "mapAbbreviation": "壮围",
+    "mapMergerName": "中国,台湾,宜兰县,壮围乡",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuangwei",
+    "mapZipCode": 263
+}, {
+    "id": 712226,
+    "mapName": "员山乡",
+    "mapAbbreviation": "员山",
+    "mapMergerName": "中国,台湾,宜兰县,员山乡",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanshan",
+    "mapZipCode": 264
+}, {
+    "id": 712227,
+    "mapName": "冬山乡",
+    "mapAbbreviation": "冬山",
+    "mapMergerName": "中国,台湾,宜兰县,冬山乡",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongshan",
+    "mapZipCode": 269
+}, {
+    "id": 712228,
+    "mapName": "五结乡",
+    "mapAbbreviation": "五结",
+    "mapMergerName": "中国,台湾,宜兰县,五结乡",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wujie",
+    "mapZipCode": 268
+}, {
+    "id": 712229,
+    "mapName": "三星乡",
+    "mapAbbreviation": "三星",
+    "mapMergerName": "中国,台湾,宜兰县,三星乡",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanxing",
+    "mapZipCode": 266
+}, {
+    "id": 712230,
+    "mapName": "大同乡",
+    "mapAbbreviation": "大同",
+    "mapMergerName": "中国,台湾,宜兰县,大同乡",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Datong",
+    "mapZipCode": 267
+}, {
+    "id": 712231,
+    "mapName": "南澳乡",
+    "mapAbbreviation": "南澳",
+    "mapMergerName": "中国,台湾,宜兰县,南澳乡",
+    "mapParentId": 712200,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanao",
+    "mapZipCode": 272
+}, {
+    "id": 712301,
+    "mapName": "桃园市",
+    "mapAbbreviation": "桃园",
+    "mapMergerName": "中国,台湾,桃园县,桃园市",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Taoyuan",
+    "mapZipCode": 330
+}, {
+    "id": 712302,
+    "mapName": "中坜市",
+    "mapAbbreviation": "中坜",
+    "mapMergerName": "中国,台湾,桃园县,中坜市",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongli",
+    "mapZipCode": 320
+}, {
+    "id": 712303,
+    "mapName": "平镇市",
+    "mapAbbreviation": "平镇",
+    "mapMergerName": "中国,台湾,桃园县,平镇市",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingzhen",
+    "mapZipCode": 324
+}, {
+    "id": 712304,
+    "mapName": "八德市",
+    "mapAbbreviation": "八德",
+    "mapMergerName": "中国,台湾,桃园县,八德市",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Bade",
+    "mapZipCode": 334
+}, {
+    "id": 712305,
+    "mapName": "杨梅市",
+    "mapAbbreviation": "杨梅",
+    "mapMergerName": "中国,台湾,桃园县,杨梅市",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yangmei",
+    "mapZipCode": 326
+}, {
+    "id": 712306,
+    "mapName": "芦竹市",
+    "mapAbbreviation": "芦竹",
+    "mapMergerName": "中国,台湾,桃园县,芦竹市",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Luzhu",
+    "mapZipCode": 338
+}, {
+    "id": 712321,
+    "mapName": "大溪镇",
+    "mapAbbreviation": "大溪",
+    "mapMergerName": "中国,台湾,桃园县,大溪镇",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Daxi",
+    "mapZipCode": 335
+}, {
+    "id": 712324,
+    "mapName": "大园乡",
+    "mapAbbreviation": "大园",
+    "mapMergerName": "中国,台湾,桃园县,大园乡",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Dayuan",
+    "mapZipCode": 337
+}, {
+    "id": 712325,
+    "mapName": "龟山乡",
+    "mapAbbreviation": "龟山",
+    "mapMergerName": "中国,台湾,桃园县,龟山乡",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Guishan",
+    "mapZipCode": 333
+}, {
+    "id": 712327,
+    "mapName": "龙潭乡",
+    "mapAbbreviation": "龙潭",
+    "mapMergerName": "中国,台湾,桃园县,龙潭乡",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Longtan",
+    "mapZipCode": 325
+}, {
+    "id": 712329,
+    "mapName": "新屋乡",
+    "mapAbbreviation": "新屋",
+    "mapMergerName": "中国,台湾,桃园县,新屋乡",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinwu",
+    "mapZipCode": 327
+}, {
+    "id": 712330,
+    "mapName": "观音乡",
+    "mapAbbreviation": "观音",
+    "mapMergerName": "中国,台湾,桃园县,观音乡",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanyin",
+    "mapZipCode": 328
+}, {
+    "id": 712331,
+    "mapName": "复兴乡",
+    "mapAbbreviation": "复兴",
+    "mapMergerName": "中国,台湾,桃园县,复兴乡",
+    "mapParentId": 712300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuxing",
+    "mapZipCode": 336
+}, {
+    "id": 712401,
+    "mapName": "竹北市",
+    "mapAbbreviation": "竹北",
+    "mapMergerName": "中国,台湾,新竹县,竹北市",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhubei",
+    "mapZipCode": 302
+}, {
+    "id": 712421,
+    "mapName": "竹东镇",
+    "mapAbbreviation": "竹东",
+    "mapMergerName": "中国,台湾,新竹县,竹东镇",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhudong",
+    "mapZipCode": 310
+}, {
+    "id": 712422,
+    "mapName": "新埔镇",
+    "mapAbbreviation": "新埔",
+    "mapMergerName": "中国,台湾,新竹县,新埔镇",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinpu",
+    "mapZipCode": 305
+}, {
+    "id": 712423,
+    "mapName": "关西镇",
+    "mapAbbreviation": "关西",
+    "mapMergerName": "中国,台湾,新竹县,关西镇",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanxi",
+    "mapZipCode": 306
+}, {
+    "id": 712424,
+    "mapName": "湖口乡",
+    "mapAbbreviation": "湖口",
+    "mapMergerName": "中国,台湾,新竹县,湖口乡",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hukou",
+    "mapZipCode": 303
+}, {
+    "id": 712425,
+    "mapName": "新丰乡",
+    "mapAbbreviation": "新丰",
+    "mapMergerName": "中国,台湾,新竹县,新丰乡",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinfeng",
+    "mapZipCode": 304
+}, {
+    "id": 712426,
+    "mapName": "芎林乡",
+    "mapAbbreviation": "芎林",
+    "mapMergerName": "中国,台湾,新竹县,芎林乡",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Xionglin",
+    "mapZipCode": 307
+}, {
+    "id": 712427,
+    "mapName": "横山乡",
+    "mapAbbreviation": "横山",
+    "mapMergerName": "中国,台湾,新竹县,横山乡",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengshan",
+    "mapZipCode": 312
+}, {
+    "id": 712428,
+    "mapName": "北埔乡",
+    "mapAbbreviation": "北埔",
+    "mapMergerName": "中国,台湾,新竹县,北埔乡",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Beipu",
+    "mapZipCode": 314
+}, {
+    "id": 712429,
+    "mapName": "宝山乡",
+    "mapAbbreviation": "宝山",
+    "mapMergerName": "中国,台湾,新竹县,宝山乡",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Baoshan",
+    "mapZipCode": 308
+}, {
+    "id": 712430,
+    "mapName": "峨眉乡",
+    "mapAbbreviation": "峨眉",
+    "mapMergerName": "中国,台湾,新竹县,峨眉乡",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Emei",
+    "mapZipCode": 315
+}, {
+    "id": 712431,
+    "mapName": "尖石乡",
+    "mapAbbreviation": "尖石",
+    "mapMergerName": "中国,台湾,新竹县,尖石乡",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jianshi",
+    "mapZipCode": 313
+}, {
+    "id": 712432,
+    "mapName": "五峰乡",
+    "mapAbbreviation": "五峰",
+    "mapMergerName": "中国,台湾,新竹县,五峰乡",
+    "mapParentId": 712400,
+    "mapLevelType": 3,
+    "mapPinYin": "Wufeng",
+    "mapZipCode": 311
+}, {
+    "id": 712501,
+    "mapName": "苗栗市",
+    "mapAbbreviation": "苗栗",
+    "mapMergerName": "中国,台湾,苗栗县,苗栗市",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Miaoli",
+    "mapZipCode": 360
+}, {
+    "id": 712521,
+    "mapName": "苑里镇",
+    "mapAbbreviation": "苑里",
+    "mapMergerName": "中国,台湾,苗栗县,苑里镇",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanli",
+    "mapZipCode": 358
+}, {
+    "id": 712522,
+    "mapName": "通霄镇",
+    "mapAbbreviation": "通霄",
+    "mapMergerName": "中国,台湾,苗栗县,通霄镇",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongxiao",
+    "mapZipCode": 357
+}, {
+    "id": 712523,
+    "mapName": "竹南镇",
+    "mapAbbreviation": "竹南",
+    "mapMergerName": "中国,台湾,苗栗县,竹南镇",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhunan",
+    "mapZipCode": 350
+}, {
+    "id": 712524,
+    "mapName": "头份镇",
+    "mapAbbreviation": "头份",
+    "mapMergerName": "中国,台湾,苗栗县,头份镇",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Toufen",
+    "mapZipCode": 351
+}, {
+    "id": 712525,
+    "mapName": "后龙镇",
+    "mapAbbreviation": "后龙",
+    "mapMergerName": "中国,台湾,苗栗县,后龙镇",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Houlong",
+    "mapZipCode": 356
+}, {
+    "id": 712526,
+    "mapName": "卓兰镇",
+    "mapAbbreviation": "卓兰",
+    "mapMergerName": "中国,台湾,苗栗县,卓兰镇",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuolan",
+    "mapZipCode": 369
+}, {
+    "id": 712527,
+    "mapName": "大湖乡",
+    "mapAbbreviation": "大湖",
+    "mapMergerName": "中国,台湾,苗栗县,大湖乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Dahu",
+    "mapZipCode": 364
+}, {
+    "id": 712528,
+    "mapName": "公馆乡",
+    "mapAbbreviation": "公馆",
+    "mapMergerName": "中国,台湾,苗栗县,公馆乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Gongguan",
+    "mapZipCode": 363
+}, {
+    "id": 712529,
+    "mapName": "铜锣乡",
+    "mapAbbreviation": "铜锣",
+    "mapMergerName": "中国,台湾,苗栗县,铜锣乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Tongluo",
+    "mapZipCode": 366
+}, {
+    "id": 712530,
+    "mapName": "南庄乡",
+    "mapAbbreviation": "南庄",
+    "mapMergerName": "中国,台湾,苗栗县,南庄乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanzhuang",
+    "mapZipCode": 353
+}, {
+    "id": 712531,
+    "mapName": "头屋乡",
+    "mapAbbreviation": "头屋",
+    "mapMergerName": "中国,台湾,苗栗县,头屋乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Touwu",
+    "mapZipCode": 362
+}, {
+    "id": 712532,
+    "mapName": "三义乡",
+    "mapAbbreviation": "三义",
+    "mapMergerName": "中国,台湾,苗栗县,三义乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanyi",
+    "mapZipCode": 367
+}, {
+    "id": 712533,
+    "mapName": "西湖乡",
+    "mapAbbreviation": "西湖",
+    "mapMergerName": "中国,台湾,苗栗县,西湖乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xihu",
+    "mapZipCode": 368
+}, {
+    "id": 712534,
+    "mapName": "造桥乡",
+    "mapAbbreviation": "造桥",
+    "mapMergerName": "中国,台湾,苗栗县,造桥乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zaoqiao",
+    "mapZipCode": 361
+}, {
+    "id": 712535,
+    "mapName": "三湾乡",
+    "mapAbbreviation": "三湾",
+    "mapMergerName": "中国,台湾,苗栗县,三湾乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Sanwan",
+    "mapZipCode": 352
+}, {
+    "id": 712536,
+    "mapName": "狮潭乡",
+    "mapAbbreviation": "狮潭",
+    "mapMergerName": "中国,台湾,苗栗县,狮潭乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shitan",
+    "mapZipCode": 354
+}, {
+    "id": 712537,
+    "mapName": "泰安乡",
+    "mapAbbreviation": "泰安",
+    "mapMergerName": "中国,台湾,苗栗县,泰安乡",
+    "mapParentId": 712500,
+    "mapLevelType": 3,
+    "mapPinYin": "Tai'an",
+    "mapZipCode": 365
+}, {
+    "id": 712701,
+    "mapName": "彰化市",
+    "mapAbbreviation": "彰化市",
+    "mapMergerName": "中国,台湾,彰化县,彰化市",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhanghuashi",
+    "mapZipCode": 500
+}, {
+    "id": 712721,
+    "mapName": "鹿港镇",
+    "mapAbbreviation": "鹿港",
+    "mapMergerName": "中国,台湾,彰化县,鹿港镇",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Lugang",
+    "mapZipCode": 505
+}, {
+    "id": 712722,
+    "mapName": "和美镇",
+    "mapAbbreviation": "和美",
+    "mapMergerName": "中国,台湾,彰化县,和美镇",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Hemei",
+    "mapZipCode": 508
+}, {
+    "id": 712723,
+    "mapName": "线西乡",
+    "mapAbbreviation": "线西",
+    "mapMergerName": "中国,台湾,彰化县,线西乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xianxi",
+    "mapZipCode": 507
+}, {
+    "id": 712724,
+    "mapName": "伸港乡",
+    "mapAbbreviation": "伸港",
+    "mapMergerName": "中国,台湾,彰化县,伸港乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shengang",
+    "mapZipCode": 509
+}, {
+    "id": 712725,
+    "mapName": "福兴乡",
+    "mapAbbreviation": "福兴",
+    "mapMergerName": "中国,台湾,彰化县,福兴乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuxing",
+    "mapZipCode": 506
+}, {
+    "id": 712726,
+    "mapName": "秀水乡",
+    "mapAbbreviation": "秀水",
+    "mapMergerName": "中国,台湾,彰化县,秀水乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiushui",
+    "mapZipCode": 504
+}, {
+    "id": 712727,
+    "mapName": "花坛乡",
+    "mapAbbreviation": "花坛",
+    "mapMergerName": "中国,台湾,彰化县,花坛乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Huatan",
+    "mapZipCode": 503
+}, {
+    "id": 712728,
+    "mapName": "芬园乡",
+    "mapAbbreviation": "芬园",
+    "mapMergerName": "中国,台湾,彰化县,芬园乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Fenyuan",
+    "mapZipCode": 502
+}, {
+    "id": 712729,
+    "mapName": "员林镇",
+    "mapAbbreviation": "员林",
+    "mapMergerName": "中国,台湾,彰化县,员林镇",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanlin",
+    "mapZipCode": 510
+}, {
+    "id": 712730,
+    "mapName": "溪湖镇",
+    "mapAbbreviation": "溪湖",
+    "mapMergerName": "中国,台湾,彰化县,溪湖镇",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xihu",
+    "mapZipCode": 514
+}, {
+    "id": 712731,
+    "mapName": "田中镇",
+    "mapAbbreviation": "田中",
+    "mapMergerName": "中国,台湾,彰化县,田中镇",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianzhong",
+    "mapZipCode": 520
+}, {
+    "id": 712732,
+    "mapName": "大村乡",
+    "mapAbbreviation": "大村",
+    "mapMergerName": "中国,台湾,彰化县,大村乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dacun",
+    "mapZipCode": 515
+}, {
+    "id": 712733,
+    "mapName": "埔盐乡",
+    "mapAbbreviation": "埔盐",
+    "mapMergerName": "中国,台湾,彰化县,埔盐乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Puyan",
+    "mapZipCode": 516
+}, {
+    "id": 712734,
+    "mapName": "埔心乡",
+    "mapAbbreviation": "埔心",
+    "mapMergerName": "中国,台湾,彰化县,埔心乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Puxin",
+    "mapZipCode": 513
+}, {
+    "id": 712735,
+    "mapName": "永靖乡",
+    "mapAbbreviation": "永靖",
+    "mapMergerName": "中国,台湾,彰化县,永靖乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Yongjing",
+    "mapZipCode": 512
+}, {
+    "id": 712736,
+    "mapName": "社头乡",
+    "mapAbbreviation": "社头",
+    "mapMergerName": "中国,台湾,彰化县,社头乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Shetou",
+    "mapZipCode": 511
+}, {
+    "id": 712737,
+    "mapName": "二水乡",
+    "mapAbbreviation": "二水",
+    "mapMergerName": "中国,台湾,彰化县,二水乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Ershui",
+    "mapZipCode": 530
+}, {
+    "id": 712738,
+    "mapName": "北斗镇",
+    "mapAbbreviation": "北斗",
+    "mapMergerName": "中国,台湾,彰化县,北斗镇",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Beidou",
+    "mapZipCode": 521
+}, {
+    "id": 712739,
+    "mapName": "二林镇",
+    "mapAbbreviation": "二林",
+    "mapMergerName": "中国,台湾,彰化县,二林镇",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Erlin",
+    "mapZipCode": 526
+}, {
+    "id": 712740,
+    "mapName": "田尾乡",
+    "mapAbbreviation": "田尾",
+    "mapMergerName": "中国,台湾,彰化县,田尾乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Tianwei",
+    "mapZipCode": 522
+}, {
+    "id": 712741,
+    "mapName": "埤头乡",
+    "mapAbbreviation": "埤头",
+    "mapMergerName": "中国,台湾,彰化县,埤头乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Pitou",
+    "mapZipCode": 523
+}, {
+    "id": 712742,
+    "mapName": "芳苑乡",
+    "mapAbbreviation": "芳苑",
+    "mapMergerName": "中国,台湾,彰化县,芳苑乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Fangyuan",
+    "mapZipCode": 528
+}, {
+    "id": 712743,
+    "mapName": "大城乡",
+    "mapAbbreviation": "大城",
+    "mapMergerName": "中国,台湾,彰化县,大城乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Dacheng",
+    "mapZipCode": 527
+}, {
+    "id": 712744,
+    "mapName": "竹塘乡",
+    "mapAbbreviation": "竹塘",
+    "mapMergerName": "中国,台湾,彰化县,竹塘乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhutang",
+    "mapZipCode": 525
+}, {
+    "id": 712745,
+    "mapName": "溪州乡",
+    "mapAbbreviation": "溪州",
+    "mapMergerName": "中国,台湾,彰化县,溪州乡",
+    "mapParentId": 712700,
+    "mapLevelType": 3,
+    "mapPinYin": "Xizhou",
+    "mapZipCode": 524
+}, {
+    "id": 712801,
+    "mapName": "南投市",
+    "mapAbbreviation": "南投市",
+    "mapMergerName": "中国,台湾,南投县,南投市",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Nantoushi",
+    "mapZipCode": 540
+}, {
+    "id": 712821,
+    "mapName": "埔里镇",
+    "mapAbbreviation": "埔里",
+    "mapMergerName": "中国,台湾,南投县,埔里镇",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Puli",
+    "mapZipCode": 545
+}, {
+    "id": 712822,
+    "mapName": "草屯镇",
+    "mapAbbreviation": "草屯",
+    "mapMergerName": "中国,台湾,南投县,草屯镇",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Caotun",
+    "mapZipCode": 542
+}, {
+    "id": 712823,
+    "mapName": "竹山镇",
+    "mapAbbreviation": "竹山",
+    "mapMergerName": "中国,台湾,南投县,竹山镇",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhushan",
+    "mapZipCode": 557
+}, {
+    "id": 712824,
+    "mapName": "集集镇",
+    "mapAbbreviation": "集集",
+    "mapMergerName": "中国,台湾,南投县,集集镇",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiji",
+    "mapZipCode": 552
+}, {
+    "id": 712825,
+    "mapName": "名间乡",
+    "mapAbbreviation": "名间",
+    "mapMergerName": "中国,台湾,南投县,名间乡",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Mingjian",
+    "mapZipCode": 551
+}, {
+    "id": 712826,
+    "mapName": "鹿谷乡",
+    "mapAbbreviation": "鹿谷",
+    "mapMergerName": "中国,台湾,南投县,鹿谷乡",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Lugu",
+    "mapZipCode": 558
+}, {
+    "id": 712827,
+    "mapName": "中寮乡",
+    "mapAbbreviation": "中寮",
+    "mapMergerName": "中国,台湾,南投县,中寮乡",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongliao",
+    "mapZipCode": 541
+}, {
+    "id": 712828,
+    "mapName": "鱼池乡",
+    "mapAbbreviation": "鱼池",
+    "mapMergerName": "中国,台湾,南投县,鱼池乡",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuchi",
+    "mapZipCode": 555
+}, {
+    "id": 712829,
+    "mapName": "国姓乡",
+    "mapAbbreviation": "国姓",
+    "mapMergerName": "中国,台湾,南投县,国姓乡",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Guoxing",
+    "mapZipCode": 544
+}, {
+    "id": 712830,
+    "mapName": "水里乡",
+    "mapAbbreviation": "水里",
+    "mapMergerName": "中国,台湾,南投县,水里乡",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuili",
+    "mapZipCode": 553
+}, {
+    "id": 712831,
+    "mapName": "信义乡",
+    "mapAbbreviation": "信义",
+    "mapMergerName": "中国,台湾,南投县,信义乡",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinyi",
+    "mapZipCode": 556
+}, {
+    "id": 712832,
+    "mapName": "仁爱乡",
+    "mapAbbreviation": "仁爱",
+    "mapMergerName": "中国,台湾,南投县,仁爱乡",
+    "mapParentId": 712800,
+    "mapLevelType": 3,
+    "mapPinYin": "Renai",
+    "mapZipCode": 546
+}, {
+    "id": 712901,
+    "mapName": "斗六市",
+    "mapAbbreviation": "斗六",
+    "mapMergerName": "中国,台湾,云林县,斗六市",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Douliu",
+    "mapZipCode": 640
+}, {
+    "id": 712921,
+    "mapName": "斗南镇",
+    "mapAbbreviation": "斗南",
+    "mapMergerName": "中国,台湾,云林县,斗南镇",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dounan",
+    "mapZipCode": 630
+}, {
+    "id": 712922,
+    "mapName": "虎尾镇",
+    "mapAbbreviation": "虎尾",
+    "mapMergerName": "中国,台湾,云林县,虎尾镇",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Huwei",
+    "mapZipCode": 632
+}, {
+    "id": 712923,
+    "mapName": "西螺镇",
+    "mapAbbreviation": "西螺",
+    "mapMergerName": "中国,台湾,云林县,西螺镇",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiluo",
+    "mapZipCode": 648
+}, {
+    "id": 712924,
+    "mapName": "土库镇",
+    "mapAbbreviation": "土库",
+    "mapMergerName": "中国,台湾,云林县,土库镇",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Tuku",
+    "mapZipCode": 633
+}, {
+    "id": 712925,
+    "mapName": "北港镇",
+    "mapAbbreviation": "北港",
+    "mapMergerName": "中国,台湾,云林县,北港镇",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Beigang",
+    "mapZipCode": 651
+}, {
+    "id": 712926,
+    "mapName": "古坑乡",
+    "mapAbbreviation": "古坑",
+    "mapMergerName": "中国,台湾,云林县,古坑乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Gukeng",
+    "mapZipCode": 646
+}, {
+    "id": 712927,
+    "mapName": "大埤乡",
+    "mapAbbreviation": "大埤",
+    "mapMergerName": "中国,台湾,云林县,大埤乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dapi",
+    "mapZipCode": 631
+}, {
+    "id": 712928,
+    "mapName": "莿桐乡",
+    "mapAbbreviation": "莿桐",
+    "mapMergerName": "中国,台湾,云林县,莿桐乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Citong",
+    "mapZipCode": 647
+}, {
+    "id": 712929,
+    "mapName": "林内乡",
+    "mapAbbreviation": "林内",
+    "mapMergerName": "中国,台湾,云林县,林内乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Linna",
+    "mapZipCode": 643
+}, {
+    "id": 712930,
+    "mapName": "二仑乡",
+    "mapAbbreviation": "二仑",
+    "mapMergerName": "中国,台湾,云林县,二仑乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Erlun",
+    "mapZipCode": 649
+}, {
+    "id": 712931,
+    "mapName": "仑背乡",
+    "mapAbbreviation": "仑背",
+    "mapMergerName": "中国,台湾,云林县,仑背乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Lunbei",
+    "mapZipCode": 637
+}, {
+    "id": 712932,
+    "mapName": "麦寮乡",
+    "mapAbbreviation": "麦寮",
+    "mapMergerName": "中国,台湾,云林县,麦寮乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Mailiao",
+    "mapZipCode": 638
+}, {
+    "id": 712933,
+    "mapName": "东势乡",
+    "mapAbbreviation": "东势",
+    "mapMergerName": "中国,台湾,云林县,东势乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongshi",
+    "mapZipCode": 635
+}, {
+    "id": 712934,
+    "mapName": "褒忠乡",
+    "mapAbbreviation": "褒忠",
+    "mapMergerName": "中国,台湾,云林县,褒忠乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Baozhong",
+    "mapZipCode": 634
+}, {
+    "id": 712935,
+    "mapName": "台西乡",
+    "mapAbbreviation": "台西",
+    "mapMergerName": "中国,台湾,云林县,台西乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Taixi",
+    "mapZipCode": 636
+}, {
+    "id": 712936,
+    "mapName": "元长乡",
+    "mapAbbreviation": "元长",
+    "mapMergerName": "中国,台湾,云林县,元长乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuanchang",
+    "mapZipCode": 655
+}, {
+    "id": 712937,
+    "mapName": "四湖乡",
+    "mapAbbreviation": "四湖",
+    "mapMergerName": "中国,台湾,云林县,四湖乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Sihu",
+    "mapZipCode": 654
+}, {
+    "id": 712938,
+    "mapName": "口湖乡",
+    "mapAbbreviation": "口湖",
+    "mapMergerName": "中国,台湾,云林县,口湖乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Kouhu",
+    "mapZipCode": 653
+}, {
+    "id": 712939,
+    "mapName": "水林乡",
+    "mapAbbreviation": "水林",
+    "mapMergerName": "中国,台湾,云林县,水林乡",
+    "mapParentId": 712900,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuilin",
+    "mapZipCode": 652
+}, {
+    "id": 713001,
+    "mapName": "太保市",
+    "mapAbbreviation": "太保",
+    "mapMergerName": "中国,台湾,嘉义县,太保市",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Taibao",
+    "mapZipCode": 612
+}, {
+    "id": 713002,
+    "mapName": "朴子市",
+    "mapAbbreviation": "朴子",
+    "mapMergerName": "中国,台湾,嘉义县,朴子市",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Puzi",
+    "mapZipCode": 613
+}, {
+    "id": 713023,
+    "mapName": "布袋镇",
+    "mapAbbreviation": "布袋",
+    "mapMergerName": "中国,台湾,嘉义县,布袋镇",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Budai",
+    "mapZipCode": 625
+}, {
+    "id": 713024,
+    "mapName": "大林镇",
+    "mapAbbreviation": "大林",
+    "mapMergerName": "中国,台湾,嘉义县,大林镇",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dalin",
+    "mapZipCode": 622
+}, {
+    "id": 713025,
+    "mapName": "民雄乡",
+    "mapAbbreviation": "民雄",
+    "mapMergerName": "中国,台湾,嘉义县,民雄乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Minxiong",
+    "mapZipCode": 621
+}, {
+    "id": 713026,
+    "mapName": "溪口乡",
+    "mapAbbreviation": "溪口",
+    "mapMergerName": "中国,台湾,嘉义县,溪口乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xikou",
+    "mapZipCode": 623
+}, {
+    "id": 713027,
+    "mapName": "新港乡",
+    "mapAbbreviation": "新港",
+    "mapMergerName": "中国,台湾,嘉义县,新港乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Xingang",
+    "mapZipCode": 616
+}, {
+    "id": 713028,
+    "mapName": "六脚乡",
+    "mapAbbreviation": "六脚",
+    "mapMergerName": "中国,台湾,嘉义县,六脚乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Liujiao",
+    "mapZipCode": 615
+}, {
+    "id": 713029,
+    "mapName": "东石乡",
+    "mapAbbreviation": "东石",
+    "mapMergerName": "中国,台湾,嘉义县,东石乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongshi",
+    "mapZipCode": 614
+}, {
+    "id": 713030,
+    "mapName": "义竹乡",
+    "mapAbbreviation": "义竹",
+    "mapMergerName": "中国,台湾,嘉义县,义竹乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Yizhu",
+    "mapZipCode": 624
+}, {
+    "id": 713031,
+    "mapName": "鹿草乡",
+    "mapAbbreviation": "鹿草",
+    "mapMergerName": "中国,台湾,嘉义县,鹿草乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Lucao",
+    "mapZipCode": 611
+}, {
+    "id": 713032,
+    "mapName": "水上乡",
+    "mapAbbreviation": "水上",
+    "mapMergerName": "中国,台湾,嘉义县,水上乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Shuishang",
+    "mapZipCode": 608
+}, {
+    "id": 713033,
+    "mapName": "中埔乡",
+    "mapAbbreviation": "中埔",
+    "mapMergerName": "中国,台湾,嘉义县,中埔乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhongpu",
+    "mapZipCode": 606
+}, {
+    "id": 713034,
+    "mapName": "竹崎乡",
+    "mapAbbreviation": "竹崎",
+    "mapMergerName": "中国,台湾,嘉义县,竹崎乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuqi",
+    "mapZipCode": 604
+}, {
+    "id": 713035,
+    "mapName": "梅山乡",
+    "mapAbbreviation": "梅山",
+    "mapMergerName": "中国,台湾,嘉义县,梅山乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Meishan",
+    "mapZipCode": 603
+}, {
+    "id": 713036,
+    "mapName": "番路乡",
+    "mapAbbreviation": "番路",
+    "mapMergerName": "中国,台湾,嘉义县,番路乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Fanlu",
+    "mapZipCode": 602
+}, {
+    "id": 713037,
+    "mapName": "大埔乡",
+    "mapAbbreviation": "大埔",
+    "mapMergerName": "中国,台湾,嘉义县,大埔乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Dapu",
+    "mapZipCode": 607
+}, {
+    "id": 713038,
+    "mapName": "阿里山乡",
+    "mapAbbreviation": "阿里山",
+    "mapMergerName": "中国,台湾,嘉义县,阿里山乡",
+    "mapParentId": 713000,
+    "mapLevelType": 3,
+    "mapPinYin": "Alishan",
+    "mapZipCode": 605
+}, {
+    "id": 713301,
+    "mapName": "屏东市",
+    "mapAbbreviation": "屏东",
+    "mapMergerName": "中国,台湾,屏东县,屏东市",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Pingdong",
+    "mapZipCode": 900
+}, {
+    "id": 713321,
+    "mapName": "潮州镇",
+    "mapAbbreviation": "潮州",
+    "mapMergerName": "中国,台湾,屏东县,潮州镇",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chaozhou",
+    "mapZipCode": 920
+}, {
+    "id": 713322,
+    "mapName": "东港镇",
+    "mapAbbreviation": "东港",
+    "mapMergerName": "中国,台湾,屏东县,东港镇",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Donggang",
+    "mapZipCode": 928
+}, {
+    "id": 713323,
+    "mapName": "恒春镇",
+    "mapAbbreviation": "恒春",
+    "mapMergerName": "中国,台湾,屏东县,恒春镇",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Hengchun",
+    "mapZipCode": 946
+}, {
+    "id": 713324,
+    "mapName": "万丹乡",
+    "mapAbbreviation": "万丹",
+    "mapMergerName": "中国,台湾,屏东县,万丹乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wandan",
+    "mapZipCode": 913
+}, {
+    "id": 713325,
+    "mapName": "长治乡",
+    "mapAbbreviation": "长治",
+    "mapMergerName": "中国,台湾,屏东县,长治乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Changzhi",
+    "mapZipCode": 908
+}, {
+    "id": 713326,
+    "mapName": "麟洛乡",
+    "mapAbbreviation": "麟洛",
+    "mapMergerName": "中国,台湾,屏东县,麟洛乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Linluo",
+    "mapZipCode": 909
+}, {
+    "id": 713327,
+    "mapName": "九如乡",
+    "mapAbbreviation": "九如",
+    "mapMergerName": "中国,台湾,屏东县,九如乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiuru",
+    "mapZipCode": 904
+}, {
+    "id": 713328,
+    "mapName": "里港乡",
+    "mapAbbreviation": "里港",
+    "mapMergerName": "中国,台湾,屏东县,里港乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Ligang",
+    "mapZipCode": 905
+}, {
+    "id": 713329,
+    "mapName": "盐埔乡",
+    "mapAbbreviation": "盐埔",
+    "mapMergerName": "中国,台湾,屏东县,盐埔乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanpu",
+    "mapZipCode": 907
+}, {
+    "id": 713330,
+    "mapName": "高树乡",
+    "mapAbbreviation": "高树",
+    "mapMergerName": "中国,台湾,屏东县,高树乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Gaoshu",
+    "mapZipCode": 906
+}, {
+    "id": 713331,
+    "mapName": "万峦乡",
+    "mapAbbreviation": "万峦",
+    "mapMergerName": "中国,台湾,屏东县,万峦乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanluan",
+    "mapZipCode": 923
+}, {
+    "id": 713332,
+    "mapName": "内埔乡",
+    "mapAbbreviation": "内埔",
+    "mapMergerName": "中国,台湾,屏东县,内埔乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Napu",
+    "mapZipCode": 912
+}, {
+    "id": 713333,
+    "mapName": "竹田乡",
+    "mapAbbreviation": "竹田",
+    "mapMergerName": "中国,台湾,屏东县,竹田乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhutian",
+    "mapZipCode": 911
+}, {
+    "id": 713334,
+    "mapName": "新埤乡",
+    "mapAbbreviation": "新埤",
+    "mapMergerName": "中国,台湾,屏东县,新埤乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinpi",
+    "mapZipCode": 925
+}, {
+    "id": 713335,
+    "mapName": "枋寮乡",
+    "mapAbbreviation": "枋寮",
+    "mapMergerName": "中国,台湾,屏东县,枋寮乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fangliao",
+    "mapZipCode": 940
+}, {
+    "id": 713336,
+    "mapName": "新园乡",
+    "mapAbbreviation": "新园",
+    "mapMergerName": "中国,台湾,屏东县,新园乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Xinyuan",
+    "mapZipCode": 932
+}, {
+    "id": 713337,
+    "mapName": "崁顶乡",
+    "mapAbbreviation": "崁顶",
+    "mapMergerName": "中国,台湾,屏东县,崁顶乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Kanding",
+    "mapZipCode": 924
+}, {
+    "id": 713338,
+    "mapName": "林边乡",
+    "mapAbbreviation": "林边",
+    "mapMergerName": "中国,台湾,屏东县,林边乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Linbian",
+    "mapZipCode": 927
+}, {
+    "id": 713339,
+    "mapName": "南州乡",
+    "mapAbbreviation": "南州",
+    "mapMergerName": "中国,台湾,屏东县,南州乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Nanzhou",
+    "mapZipCode": 926
+}, {
+    "id": 713340,
+    "mapName": "佳冬乡",
+    "mapAbbreviation": "佳冬",
+    "mapMergerName": "中国,台湾,屏东县,佳冬乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiadong",
+    "mapZipCode": 931
+}, {
+    "id": 713341,
+    "mapName": "琉球乡",
+    "mapAbbreviation": "琉球",
+    "mapMergerName": "中国,台湾,屏东县,琉球乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Liuqiu",
+    "mapZipCode": 929
+}, {
+    "id": 713342,
+    "mapName": "车城乡",
+    "mapAbbreviation": "车城",
+    "mapMergerName": "中国,台湾,屏东县,车城乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Checheng",
+    "mapZipCode": 944
+}, {
+    "id": 713343,
+    "mapName": "满州乡",
+    "mapAbbreviation": "满州",
+    "mapMergerName": "中国,台湾,屏东县,满州乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Manzhou",
+    "mapZipCode": 947
+}, {
+    "id": 713344,
+    "mapName": "枋山乡",
+    "mapAbbreviation": "枋山",
+    "mapMergerName": "中国,台湾,屏东县,枋山乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Fangshan",
+    "mapZipCode": 941
+}, {
+    "id": 713345,
+    "mapName": "三地门乡",
+    "mapAbbreviation": "三地门",
+    "mapMergerName": "中国,台湾,屏东县,三地门乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Sandimen",
+    "mapZipCode": 901
+}, {
+    "id": 713346,
+    "mapName": "雾台乡",
+    "mapAbbreviation": "雾台",
+    "mapMergerName": "中国,台湾,屏东县,雾台乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Wutai",
+    "mapZipCode": 902
+}, {
+    "id": 713347,
+    "mapName": "玛家乡",
+    "mapAbbreviation": "玛家",
+    "mapMergerName": "中国,台湾,屏东县,玛家乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Majia",
+    "mapZipCode": 903
+}, {
+    "id": 713348,
+    "mapName": "泰武乡",
+    "mapAbbreviation": "泰武",
+    "mapMergerName": "中国,台湾,屏东县,泰武乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Taiwu",
+    "mapZipCode": 921
+}, {
+    "id": 713349,
+    "mapName": "来义乡",
+    "mapAbbreviation": "来义",
+    "mapMergerName": "中国,台湾,屏东县,来义乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Laiyi",
+    "mapZipCode": 922
+}, {
+    "id": 713350,
+    "mapName": "春日乡",
+    "mapAbbreviation": "春日",
+    "mapMergerName": "中国,台湾,屏东县,春日乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Chunri",
+    "mapZipCode": 942
+}, {
+    "id": 713351,
+    "mapName": "狮子乡",
+    "mapAbbreviation": "狮子",
+    "mapMergerName": "中国,台湾,屏东县,狮子乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Shizi",
+    "mapZipCode": 943
+}, {
+    "id": 713352,
+    "mapName": "牡丹乡",
+    "mapAbbreviation": "牡丹",
+    "mapMergerName": "中国,台湾,屏东县,牡丹乡",
+    "mapParentId": 713300,
+    "mapLevelType": 3,
+    "mapPinYin": "Mudan",
+    "mapZipCode": 945
+}, {
+    "id": 713401,
+    "mapName": "台东市",
+    "mapAbbreviation": "台东",
+    "mapMergerName": "中国,台湾,台东县,台东市",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Taidong",
+    "mapZipCode": 950
+}, {
+    "id": 713421,
+    "mapName": "成功镇",
+    "mapAbbreviation": "成功",
+    "mapMergerName": "中国,台湾,台东县,成功镇",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Chenggong",
+    "mapZipCode": 961
+}, {
+    "id": 713422,
+    "mapName": "关山镇",
+    "mapAbbreviation": "关山",
+    "mapMergerName": "中国,台湾,台东县,关山镇",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Guanshan",
+    "mapZipCode": 956
+}, {
+    "id": 713423,
+    "mapName": "卑南乡",
+    "mapAbbreviation": "卑南",
+    "mapMergerName": "中国,台湾,台东县,卑南乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Beinan",
+    "mapZipCode": 954
+}, {
+    "id": 713424,
+    "mapName": "鹿野乡",
+    "mapAbbreviation": "鹿野",
+    "mapMergerName": "中国,台湾,台东县,鹿野乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Luye",
+    "mapZipCode": 955
+}, {
+    "id": 713425,
+    "mapName": "池上乡",
+    "mapAbbreviation": "池上",
+    "mapMergerName": "中国,台湾,台东县,池上乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Chishang",
+    "mapZipCode": 958
+}, {
+    "id": 713426,
+    "mapName": "东河乡",
+    "mapAbbreviation": "东河",
+    "mapMergerName": "中国,台湾,台东县,东河乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Donghe",
+    "mapZipCode": 959
+}, {
+    "id": 713427,
+    "mapName": "长滨乡",
+    "mapAbbreviation": "长滨",
+    "mapMergerName": "中国,台湾,台东县,长滨乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Changbin",
+    "mapZipCode": 962
+}, {
+    "id": 713428,
+    "mapName": "太麻里乡",
+    "mapAbbreviation": "太麻里",
+    "mapMergerName": "中国,台湾,台东县,太麻里乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Taimali",
+    "mapZipCode": 963
+}, {
+    "id": 713429,
+    "mapName": "大武乡",
+    "mapAbbreviation": "大武",
+    "mapMergerName": "中国,台湾,台东县,大武乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Dawu",
+    "mapZipCode": 965
+}, {
+    "id": 713430,
+    "mapName": "绿岛乡",
+    "mapAbbreviation": "绿岛",
+    "mapMergerName": "中国,台湾,台东县,绿岛乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Lvdao",
+    "mapZipCode": 951
+}, {
+    "id": 713431,
+    "mapName": "海端乡",
+    "mapAbbreviation": "海端",
+    "mapMergerName": "中国,台湾,台东县,海端乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Haiduan",
+    "mapZipCode": 957
+}, {
+    "id": 713432,
+    "mapName": "延平乡",
+    "mapAbbreviation": "延平",
+    "mapMergerName": "中国,台湾,台东县,延平乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Yanping",
+    "mapZipCode": 953
+}, {
+    "id": 713433,
+    "mapName": "金峰乡",
+    "mapAbbreviation": "金峰",
+    "mapMergerName": "中国,台湾,台东县,金峰乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinfeng",
+    "mapZipCode": 964
+}, {
+    "id": 713434,
+    "mapName": "达仁乡",
+    "mapAbbreviation": "达仁",
+    "mapMergerName": "中国,台湾,台东县,达仁乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Daren",
+    "mapZipCode": 966
+}, {
+    "id": 713435,
+    "mapName": "兰屿乡",
+    "mapAbbreviation": "兰屿",
+    "mapMergerName": "中国,台湾,台东县,兰屿乡",
+    "mapParentId": 713400,
+    "mapLevelType": 3,
+    "mapPinYin": "Lanyu",
+    "mapZipCode": 952
+}, {
+    "id": 713501,
+    "mapName": "花莲市",
+    "mapAbbreviation": "花莲",
+    "mapMergerName": "中国,台湾,花莲县,花莲市",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Hualian",
+    "mapZipCode": 970
+}, {
+    "id": 713521,
+    "mapName": "凤林镇",
+    "mapAbbreviation": "凤林",
+    "mapMergerName": "中国,台湾,花莲县,凤林镇",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Fenglin",
+    "mapZipCode": 975
+}, {
+    "id": 713522,
+    "mapName": "玉里镇",
+    "mapAbbreviation": "玉里",
+    "mapMergerName": "中国,台湾,花莲县,玉里镇",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuli",
+    "mapZipCode": 981
+}, {
+    "id": 713523,
+    "mapName": "新城乡",
+    "mapAbbreviation": "新城",
+    "mapMergerName": "中国,台湾,花莲县,新城乡",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xincheng",
+    "mapZipCode": 971
+}, {
+    "id": 713524,
+    "mapName": "吉安乡",
+    "mapAbbreviation": "吉安",
+    "mapMergerName": "中国,台湾,花莲县,吉安乡",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Ji'an",
+    "mapZipCode": 973
+}, {
+    "id": 713525,
+    "mapName": "寿丰乡",
+    "mapAbbreviation": "寿丰",
+    "mapMergerName": "中国,台湾,花莲县,寿丰乡",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Shoufeng",
+    "mapZipCode": 974
+}, {
+    "id": 713526,
+    "mapName": "光复乡",
+    "mapAbbreviation": "光复",
+    "mapMergerName": "中国,台湾,花莲县,光复乡",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Guangfu",
+    "mapZipCode": 976
+}, {
+    "id": 713527,
+    "mapName": "丰滨乡",
+    "mapAbbreviation": "丰滨",
+    "mapMergerName": "中国,台湾,花莲县,丰滨乡",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Fengbin",
+    "mapZipCode": 977
+}, {
+    "id": 713528,
+    "mapName": "瑞穗乡",
+    "mapAbbreviation": "瑞穗",
+    "mapMergerName": "中国,台湾,花莲县,瑞穗乡",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Ruisui",
+    "mapZipCode": 978
+}, {
+    "id": 713529,
+    "mapName": "富里乡",
+    "mapAbbreviation": "富里",
+    "mapMergerName": "中国,台湾,花莲县,富里乡",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Fuli",
+    "mapZipCode": 983
+}, {
+    "id": 713530,
+    "mapName": "秀林乡",
+    "mapAbbreviation": "秀林",
+    "mapMergerName": "中国,台湾,花莲县,秀林乡",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiulin",
+    "mapZipCode": 972
+}, {
+    "id": 713531,
+    "mapName": "万荣乡",
+    "mapAbbreviation": "万荣",
+    "mapMergerName": "中国,台湾,花莲县,万荣乡",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Wanrong",
+    "mapZipCode": 979
+}, {
+    "id": 713532,
+    "mapName": "卓溪乡",
+    "mapAbbreviation": "卓溪",
+    "mapMergerName": "中国,台湾,花莲县,卓溪乡",
+    "mapParentId": 713500,
+    "mapLevelType": 3,
+    "mapPinYin": "Zhuoxi",
+    "mapZipCode": 982
+}, {
+    "id": 713601,
+    "mapName": "马公市",
+    "mapAbbreviation": "马公",
+    "mapMergerName": "中国,台湾,澎湖县,马公市",
+    "mapParentId": 713600,
+    "mapLevelType": 3,
+    "mapPinYin": "Magong",
+    "mapZipCode": 880
+}, {
+    "id": 713621,
+    "mapName": "湖西乡",
+    "mapAbbreviation": "湖西",
+    "mapMergerName": "中国,台湾,澎湖县,湖西乡",
+    "mapParentId": 713600,
+    "mapLevelType": 3,
+    "mapPinYin": "Huxi",
+    "mapZipCode": 885
+}, {
+    "id": 713622,
+    "mapName": "白沙乡",
+    "mapAbbreviation": "白沙",
+    "mapMergerName": "中国,台湾,澎湖县,白沙乡",
+    "mapParentId": 713600,
+    "mapLevelType": 3,
+    "mapPinYin": "Baisha",
+    "mapZipCode": 884
+}, {
+    "id": 713623,
+    "mapName": "西屿乡",
+    "mapAbbreviation": "西屿",
+    "mapMergerName": "中国,台湾,澎湖县,西屿乡",
+    "mapParentId": 713600,
+    "mapLevelType": 3,
+    "mapPinYin": "Xiyu",
+    "mapZipCode": 881
+}, {
+    "id": 713624,
+    "mapName": "望安乡",
+    "mapAbbreviation": "望安",
+    "mapMergerName": "中国,台湾,澎湖县,望安乡",
+    "mapParentId": 713600,
+    "mapLevelType": 3,
+    "mapPinYin": "Wang'an",
+    "mapZipCode": 882
+}, {
+    "id": 713625,
+    "mapName": "七美乡",
+    "mapAbbreviation": "七美",
+    "mapMergerName": "中国,台湾,澎湖县,七美乡",
+    "mapParentId": 713600,
+    "mapLevelType": 3,
+    "mapPinYin": "Qimei",
+    "mapZipCode": 883
+}, {
+    "id": 713701,
+    "mapName": "金城镇",
+    "mapAbbreviation": "金城",
+    "mapMergerName": "中国,台湾,金门县,金城镇",
+    "mapParentId": 713700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jincheng",
+    "mapZipCode": 893
+}, {
+    "id": 713702,
+    "mapName": "金湖镇",
+    "mapAbbreviation": "金湖",
+    "mapMergerName": "中国,台湾,金门县,金湖镇",
+    "mapParentId": 713700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinhu",
+    "mapZipCode": 891
+}, {
+    "id": 713703,
+    "mapName": "金沙镇",
+    "mapAbbreviation": "金沙",
+    "mapMergerName": "中国,台湾,金门县,金沙镇",
+    "mapParentId": 713700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinsha",
+    "mapZipCode": 890
+}, {
+    "id": 713704,
+    "mapName": "金宁乡",
+    "mapAbbreviation": "金宁",
+    "mapMergerName": "中国,台湾,金门县,金宁乡",
+    "mapParentId": 713700,
+    "mapLevelType": 3,
+    "mapPinYin": "Jinning",
+    "mapZipCode": 892
+}, {
+    "id": 713705,
+    "mapName": "烈屿乡",
+    "mapAbbreviation": "烈屿",
+    "mapMergerName": "中国,台湾,金门县,烈屿乡",
+    "mapParentId": 713700,
+    "mapLevelType": 3,
+    "mapPinYin": "Lieyu",
+    "mapZipCode": 894
+}, {
+    "id": 713706,
+    "mapName": "乌丘乡",
+    "mapAbbreviation": "乌丘",
+    "mapMergerName": "中国,台湾,金门县,乌丘乡",
+    "mapParentId": 713700,
+    "mapLevelType": 3,
+    "mapPinYin": "Wuqiu",
+    "mapZipCode": 896
+}, {
+    "id": 713801,
+    "mapName": "南竿乡",
+    "mapAbbreviation": "南竿",
+    "mapMergerName": "中国,台湾,连江县,南竿乡",
+    "mapParentId": 713800,
+    "mapLevelType": 3,
+    "mapPinYin": "Nangan",
+    "mapZipCode": 209
+}, {
+    "id": 713802,
+    "mapName": "北竿乡",
+    "mapAbbreviation": "北竿",
+    "mapMergerName": "中国,台湾,连江县,北竿乡",
+    "mapParentId": 713800,
+    "mapLevelType": 3,
+    "mapPinYin": "Beigan",
+    "mapZipCode": 210
+}, {
+    "id": 713803,
+    "mapName": "莒光乡",
+    "mapAbbreviation": "莒光",
+    "mapMergerName": "中国,台湾,连江县,莒光乡",
+    "mapParentId": 713800,
+    "mapLevelType": 3,
+    "mapPinYin": "Juguang",
+    "mapZipCode": 211
+}, {
+    "id": 713804,
+    "mapName": "东引乡",
+    "mapAbbreviation": "东引",
+    "mapMergerName": "中国,台湾,连江县,东引乡",
+    "mapParentId": 713800,
+    "mapLevelType": 3,
+    "mapPinYin": "Dongyin",
+    "mapZipCode": 212
+}, {
+    "id": 810101,
+    "mapName": "中西区",
+    "mapAbbreviation": "中西区",
+    "mapMergerName": "中国,香港特别行政区,香港岛,中西区",
+    "mapParentId": 810100,
+    "mapLevelType": 3,
+    "mapPinYin": "Central and Western District",
+    "mapZipCode": 999077
+}, {
+    "id": 810102,
+    "mapName": "湾仔区",
+    "mapAbbreviation": "湾仔区",
+    "mapMergerName": "中国,香港特别行政区,香港岛,湾仔区",
+    "mapParentId": 810100,
+    "mapLevelType": 3,
+    "mapPinYin": "Wan Chai District",
+    "mapZipCode": 999077
+}, {
+    "id": 810103,
+    "mapName": "东区",
+    "mapAbbreviation": "东区",
+    "mapMergerName": "中国,香港特别行政区,香港岛,东区",
+    "mapParentId": 810100,
+    "mapLevelType": 3,
+    "mapPinYin": "Eastern District",
+    "mapZipCode": 999077
+}, {
+    "id": 810104,
+    "mapName": "南区",
+    "mapAbbreviation": "南区",
+    "mapMergerName": "中国,香港特别行政区,香港岛,南区",
+    "mapParentId": 810100,
+    "mapLevelType": 3,
+    "mapPinYin": "Southern District",
+    "mapZipCode": 999077
+}, {
+    "id": 810201,
+    "mapName": "油尖旺区",
+    "mapAbbreviation": "油尖旺",
+    "mapMergerName": "中国,香港特别行政区,九龙,油尖旺区",
+    "mapParentId": 810200,
+    "mapLevelType": 3,
+    "mapPinYin": "Yau Tsim Mong",
+    "mapZipCode": 999077
+}, {
+    "id": 810202,
+    "mapName": "深水埗区",
+    "mapAbbreviation": "深水埗",
+    "mapMergerName": "中国,香港特别行政区,九龙,深水埗区",
+    "mapParentId": 810200,
+    "mapLevelType": 3,
+    "mapPinYin": "Sham Shui Po",
+    "mapZipCode": 999077
+}, {
+    "id": 810203,
+    "mapName": "九龙城区",
+    "mapAbbreviation": "九龙城",
+    "mapMergerName": "中国,香港特别行政区,九龙,九龙城区",
+    "mapParentId": 810200,
+    "mapLevelType": 3,
+    "mapPinYin": "Jiulongcheng",
+    "mapZipCode": 999077
+}, {
+    "id": 810204,
+    "mapName": "黄大仙区",
+    "mapAbbreviation": "黄大仙",
+    "mapMergerName": "中国,香港特别行政区,九龙,黄大仙区",
+    "mapParentId": 810200,
+    "mapLevelType": 3,
+    "mapPinYin": "Wong Tai Sin",
+    "mapZipCode": 999077
+}, {
+    "id": 810205,
+    "mapName": "观塘区",
+    "mapAbbreviation": "观塘",
+    "mapMergerName": "中国,香港特别行政区,九龙,观塘区",
+    "mapParentId": 810200,
+    "mapLevelType": 3,
+    "mapPinYin": "Kwun Tong",
+    "mapZipCode": 999077
+}, {
+    "id": 810301,
+    "mapName": "荃湾区",
+    "mapAbbreviation": "荃湾",
+    "mapMergerName": "中国,香港特别行政区,新界,荃湾区",
+    "mapParentId": 810300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tsuen Wan",
+    "mapZipCode": 999077
+}, {
+    "id": 810302,
+    "mapName": "屯门区",
+    "mapAbbreviation": "屯门",
+    "mapMergerName": "中国,香港特别行政区,新界,屯门区",
+    "mapParentId": 810300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tuen Mun",
+    "mapZipCode": 999077
+}, {
+    "id": 810303,
+    "mapName": "元朗区",
+    "mapAbbreviation": "元朗",
+    "mapMergerName": "中国,香港特别行政区,新界,元朗区",
+    "mapParentId": 810300,
+    "mapLevelType": 3,
+    "mapPinYin": "Yuen Long",
+    "mapZipCode": 999077
+}, {
+    "id": 810304,
+    "mapName": "北区",
+    "mapAbbreviation": "北区",
+    "mapMergerName": "中国,香港特别行政区,新界,北区",
+    "mapParentId": 810300,
+    "mapLevelType": 3,
+    "mapPinYin": "North District",
+    "mapZipCode": 999077
+}, {
+    "id": 810305,
+    "mapName": "大埔区",
+    "mapAbbreviation": "大埔",
+    "mapMergerName": "中国,香港特别行政区,新界,大埔区",
+    "mapParentId": 810300,
+    "mapLevelType": 3,
+    "mapPinYin": "Tai Po",
+    "mapZipCode": 999077
+}, {
+    "id": 810306,
+    "mapName": "西贡区",
+    "mapAbbreviation": "西贡",
+    "mapMergerName": "中国,香港特别行政区,新界,西贡区",
+    "mapParentId": 810300,
+    "mapLevelType": 3,
+    "mapPinYin": "Sai Kung",
+    "mapZipCode": 999077
+}, {
+    "id": 810307,
+    "mapName": "沙田区",
+    "mapAbbreviation": "沙田",
+    "mapMergerName": "中国,香港特别行政区,新界,沙田区",
+    "mapParentId": 810300,
+    "mapLevelType": 3,
+    "mapPinYin": "Sha Tin",
+    "mapZipCode": 999077
+}, {
+    "id": 810308,
+    "mapName": "葵青区",
+    "mapAbbreviation": "葵青",
+    "mapMergerName": "中国,香港特别行政区,新界,葵青区",
+    "mapParentId": 810300,
+    "mapLevelType": 3,
+    "mapPinYin": "Kwai Tsing",
+    "mapZipCode": 999077
+}, {
+    "id": 810309,
+    "mapName": "离岛区",
+    "mapAbbreviation": "离岛",
+    "mapMergerName": "中国,香港特别行政区,新界,离岛区",
+    "mapParentId": 810300,
+    "mapLevelType": 3,
+    "mapPinYin": "Outlying Islands",
+    "mapZipCode": 999077
+}, {
+    "id": 820101,
+    "mapName": "花地玛堂区",
+    "mapAbbreviation": "花地玛堂区",
+    "mapMergerName": "中国,澳门特别行政区,澳门半岛,花地玛堂区",
+    "mapParentId": 820100,
+    "mapLevelType": 3,
+    "mapPinYin": "Nossa Senhora de Fatima",
+    "mapZipCode": 999078
+}, {
+    "id": 820102,
+    "mapName": "圣安多尼堂区",
+    "mapAbbreviation": "圣安多尼堂区",
+    "mapMergerName": "中国,澳门特别行政区,澳门半岛,圣安多尼堂区",
+    "mapParentId": 820100,
+    "mapLevelType": 3,
+    "mapPinYin": "Santo Antonio",
+    "mapZipCode": 999078
+}, {
+    "id": 820103,
+    "mapName": "大堂区",
+    "mapAbbreviation": "大堂",
+    "mapMergerName": "中国,澳门特别行政区,澳门半岛,大堂区",
+    "mapParentId": 820100,
+    "mapLevelType": 3,
+    "mapPinYin": "Sé",
+    "mapZipCode": 999078
+}, {
+    "id": 820104,
+    "mapName": "望德堂区",
+    "mapAbbreviation": "望德堂区",
+    "mapMergerName": "中国,澳门特别行政区,澳门半岛,望德堂区",
+    "mapParentId": 820100,
+    "mapLevelType": 3,
+    "mapPinYin": "Sao Lazaro",
+    "mapZipCode": 999078
+}, {
+    "id": 820105,
+    "mapName": "风顺堂区",
+    "mapAbbreviation": "风顺堂区",
+    "mapMergerName": "中国,澳门特别行政区,澳门半岛,风顺堂区",
+    "mapParentId": 820100,
+    "mapLevelType": 3,
+    "mapPinYin": "Sao Lourenco",
+    "mapZipCode": 999078
+}, {
+    "id": 820201,
+    "mapName": "嘉模堂区",
+    "mapAbbreviation": "嘉模堂区",
+    "mapMergerName": "中国,澳门特别行政区,氹仔岛,嘉模堂区",
+    "mapParentId": 820200,
+    "mapLevelType": 3,
+    "mapPinYin": "Our Lady Of Carmel's Parish",
+    "mapZipCode": 999078
+}, {
+    "id": 820301,
+    "mapName": "圣方济各堂区",
+    "mapAbbreviation": "圣方济各堂区",
+    "mapMergerName": "中国,澳门特别行政区,路环岛,圣方济各堂区",
+    "mapParentId": 820300,
+    "mapLevelType": 3,
+    "mapPinYin": "St Francis Xavier's Parish",
+    "mapZipCode": 999078
+}]

@@ -1,0 +1,335 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: "微软雅黑", "黑体","宋体";;
+	width: 100%;
+	height: 100%;
+}
+
+.bid-main{
+	min-height: 100%;
+	margin: 0 12px;
+	position: relative;
+}
+
+.bid .bid-status{
+	font-size: 28px;
+	color: #4BADCD;
+	letter-spacing: 2px;
+	position: relative;
+	padding-top: 28px;
+}
+
+.bid .bid-status-fail{
+	color: #666666;
+}
+
+.bid .bid-status-success{
+	color: #D0465C;
+}
+
+.bid .bid-status-finish{
+	color: #f47f4c;
+}
+
+.bid .bid-time{
+	margin-top: 15px;
+}
+
+.bid .bid-status-prompt{
+	margin-top: 15px;
+}
+
+.bid .bid-time .bid-time-key{
+	color: #444444;
+	letter-spacing: 2px;
+}
+
+.bid .bid-time .bid-success-prompt{
+	color: #444444;
+	letter-spacing: 2px;
+}
+
+.address {
+	margin-top: 12px;
+}
+
+.address .origin{
+	height: 80px;
+	padding-left: 54px;
+	background: #4BADCD;
+	border-radius: 5px;
+	box-shadow: #ccc 0px 4px 8px;
+	position: relative;
+}
+
+.address .destination{
+	height: 80px;
+	padding-left: 54px;
+	margin-top: 20px;
+	background: #D0465C;
+	border-radius: 5px;
+	box-shadow: #ccc 0px 4px 8px;
+	position: relative;
+}
+
+.address .address-logo{
+	position: absolute;
+	left: 12px;
+	top: 16px;
+	height: 30px;
+	width: 30px;
+}
+
+.address .address-main{
+	color: white;
+	font-size: 18px;
+	letter-spacing: 1px;
+	position: relative;
+	top: 12px;
+}
+
+.address .address-detail{
+	color: white;
+	font-size: 15px;
+	letter-spacing: 1px;
+	position: relative;
+	top: 24px;
+}
+
+.bid-info{
+	margin-top: 20px;
+	padding-bottom: 80px;
+}
+
+.bid-info .bid-info-table{
+	width: 100%;
+	border-spacing:0px 10px;
+	border-radius: 6px;
+	box-shadow: #ccc 0px 4px 8px;  
+}
+
+.bid-info .bid-info-table tr{
+	
+}
+
+.bid-info .bid-info-table .bid-info-key{
+	width: 15%;
+	text-align: center;
+	letter-spacing: 5px;
+	color: #8F8F8F;
+}
+
+.bid-info-key-spc{
+	vertical-align: top;
+}
+
+.bid-info .bid-info-table .bid-info-value{
+	letter-spacing: 2px;
+	padding-left: 10px;
+}
+
+.bid-btn{
+	position: fixed;
+	width: 100%;
+	padding: 0 12px;
+	height: 70px;
+	bottom: 0px;
+	border-top: 1px solid #999999;
+	background-color: white;
+	box-sizing: border-box;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+}
+
+.bid-btn span{
+	display: inline-block;
+	width: 48%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-radius: 6px;
+	cursor: pointer;
+	text-align: center;
+	box-shadow: #ccc 0px 4px 8px;
+}
+
+.bid-btn .price{
+	background: white;
+	color: #4BADCD;
+}
+
+.bid-btn .unit-price{
+	background: #4BADCD;
+	color: white;
+}
+
+/*遮罩层*/
+.mask-bg{
+	display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:400;
+    -moz-opacity: 0.3;
+    opacity:.30;
+    filter: alpha(opacity=30);
+}
+
+/*一口价弹窗*/
+/*单价弹窗*/
+.price-dialog{
+	display: none;
+	position: fixed;
+	width: 310px;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	background: white;
+	border-radius: 6px;
+	z-index:500;
+}
+
+.price-dialog-move{
+	transform: translate(-50%, -60%);
+}
+
+.dialog-header{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+	height:50px;
+	line-height: 50px;
+	background: #4BADCD;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+
+}
+
+.dialog-header img{
+	height: 20px;
+	width: 20px;
+	top: 15px;
+	position: relative;
+	cursor: pointer;
+}
+
+.dialog-header span{
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.bid-info-write-table{
+	width: 100%;
+	padding: 0 10px;
+	
+}
+
+.bid-info-write-table tr{
+	height: 42px;
+}
+
+.bid-info-write-table td{
+	border-bottom:#E7E7E7 solid 1px;
+}
+
+.bid-info-write-table .bid-info-write-key{
+	width: 36%;
+	font-size: 15px;
+}
+
+.bid-info-write-table .bid-info-write-key-spc{
+	letter-spacing: 5px;
+}
+
+.bid-info-write-table .bid-info-write-value-spc input{
+	width: 100%;
+	padding-right: 45px;
+	box-sizing: border-box;
+}
+
+.bid-info-write-table .bid-info-write-value-spc span{
+	position: absolute;
+	right: 10px;
+}
+
+.bid-info-write-table .bid-info-write-value input{
+	border: 0;
+	outline: none;
+}
+
+.price-dialog .prompt{
+	width: 310px;
+	padding: 0 10px;
+	height:100px;
+	color: #D0465C;
+	text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bid-submit{
+	height: 50px;
+	line-height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bid-submit .cost{
+	padding-left: 10px;
+
+}
+
+.bid-submit .cost .cost-key{
+}
+
+.bid-submit .cost .cost-value{
+	display: inline-block;
+	width: 70px;
+	height: 50px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	color: #D0465C;
+	vertical-align: bottom;
+}
+
+.bid-submit .cost .cost-unit{
+	color: #D0465C;
+	position: relative;
+}
+
+.bid-submit .bid-submit-btn {
+	height: 100%;
+	width: 110px;
+	text-align: center;
+	background: #D0465C;
+	color: white;
+	cursor: pointer;
+	border-bottom-right-radius: 6px;
+}
+
+.dis-none{
+	display: none;
+}
+
+.dw{
+	position: fixed;
+}
+
+.dwbw{
+	float: right;
+}
+
+.android-ics.light .dwb-c .dwb{
+    border-right: 1px solid #dbdbdb;
+}

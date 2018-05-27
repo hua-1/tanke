@@ -1,0 +1,125 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+        ">
+    <!-- 引入配置文件 -->
+    <context:property-placeholder location="classpath*:*/*.properties"/>
+    <!-- spring可以自动去扫描base-pack下面或者子包下面的java文件，如果扫描到有@Component @Controller @Service等这些注解的类，则把这些类注册为bean -->
+    <context:component-scan base-package="api;biz;util"/>
+    <!-- 任务扫描-->
+    <task:annotation-driven/>
+    <!-- 对@Transactional这个注解进行的驱动-->
+    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
+    <!-- 数据源 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="driverClassName" value="${jdbc_driverClassName}"/>
+        <property name="url" value="${jdbc_url}"/>
+        <property name="username" value="${jdbc_username}"/>
+        <property name="password" value="${jdbc_password}"/>
+        <!-- 初始化连接大小 -->
+        <property name="initialSize" value="10"/>
+        <!-- 连接池最小空闲 -->
+        <property name="minIdle" value="10"/>
+        <!-- 连接池最大使用连接数量 -->
+        <property name="maxActive" value="30"/>
+        <!-- 获取连接最大等待时间 -->
+        <property name="maxWait" value="60000"/>
+        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        <property name="timeBetweenEvictionRunsMillis" value="60000"/>
+        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis" value="300000"/>
+        <!-- 验证数据库连接有效性，要求查询语句 -->
+        <property name="validationQuery" value="SELECT 'x'"/>
+        <!-- 建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。 -->
+        <property name="testWhileIdle" value="true"/>
+        <!-- 申请连接时执行validationQuery检测连接是否有效，配置true会降低性能。 -->
+        <property name="testOnBorrow" value="false"/>
+        <!-- 归还连接时执行validationQuery检测连接是否有效，配置true会降低性能 -->
+        <property name="testOnReturn" value="false"/>
+        <!-- 是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭。 -->
+        <property name="poolPreparedStatements" value="true"/>
+        <property name="maxPoolPreparedStatementPerConnectionSize" value="20"/>
+        <!-- 监控数据库 -->
+        <property name="filters" value="stat"/>
+    </bean>
+
+    <!-- 事物驱动 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!-- 事物模板 -->
+    <bean id="transactionTemplate" class="org.springframework.transaction.support.TransactionTemplate">
+        <property name="transactionManager" ref="transactionManager"/>
+    </bean>
+
+    <!-- mybatis mapper 映射-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="dao"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+    <!-- mybatis SqlSessionFactory 映射-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="typeAliasesPackage" value=""/>
+        <!--mybatis 分页插件 -->
+        <property name="plugins">
+            <list>
+                <bean class="com.github.pagehelper.PageHelper" >
+                    <property name="properties" value="mysql"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+
+    <!-- 异步顺路线程池 -->
+    <bean id="concurrentTaskExecutor" class="org.springframework.scheduling.concurrent.ConcurrentTaskExecutor"></bean>
+
+    <!-- 线程池 -->
+    <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <property name="corePoolSize" value="10"/>
+        <property name="maxPoolSize" value="30"/>
+        <property name="queueCapacity" value="1000"/>
+        <property name="keepAliveSeconds" value="1000"/>
+        <property name="rejectedExecutionHandler">
+            <bean class="java.util.concurrent.ThreadPoolExecutor$AbortPolicy"/>
+        </property>
+    </bean>
+
+
+    <!-- Rest Template -->
+    <bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
+        <property name="messageConverters">
+            <list>
+                <bean id="jsonConverter"
+                      class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+                    <property name="supportedMediaTypes">
+                        <list>
+                            <value>text/html;charset=UTF-8</value>
+                            <value>application/json; charset=UTF-8</value>
+                        </list>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>
+    <!--加载信息常量-->
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="config.restResource"/>
+    </bean>
+    <!--统一异常处理-->
+    <bean id="restControllerAdvice" class="util.exception.GlobalExceptionHandler"/>
+    <bean id="logInitialization" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+        <property name="targetClass" value="ch.qos.logback.ext.spring.LogbackConfigurer" />
+        <property name="targetMethod" value="initLogging" />
+        <property name="arguments">
+            <value>classpath:config/logback.xml</value>
+        </property>
+    </bean>
+</beans>

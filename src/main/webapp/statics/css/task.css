@@ -1,0 +1,117 @@
+#simpleInfo {font-size:16px;font-weight: normal;color:#0000FF;}
+#simpleInfo .label_content {margin-right:15px;}
+#simpleInfo hr{border:1px solid #0000FF;}
+
+
+ .button_style {
+    display: inline-block;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    background: #369dd9;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+#ticketInfo table{margin: 0 0 30px;  display: block;}
+#ticketInfo table th{background: #66A3FE}
+#ticketInfo table tr td{padding:5px 50px 5px 5px;}
+#ticketInfo table .label_td{text-align: right}
+#ticketInfo table .content_td label{margin-right:20px; }
+
+#productInfo table tr td,#productInfo table th{min-width:130px;text-align: center;padding:5px;}
+#div_productInfo{margin-left:40px; }
+
+.check_box {
+    width: 20px;
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+#quoteArea table tr td{padding:5px;}
+#quoteArea table input[type="text"],#quoteArea table select{width:120px;}
+
+
+.addressStyle{width:150px}
+.weightStyle{width:80px;}
+.rightStyle{margin-right: 15px;}
+
+#div_search select{height:26px;}
+#div_search,#grid{padding:20px 10px;}
+
+.w1000 {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+
+}
+.w1001{
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    padding:  15px;
+}
+
+.log_top {
+    height: 90px;
+    background: #369dd9;
+}
+ .log_top .logo {
+    float: left;
+    display: inline;
+    width: 361px;
+    height: 64px;
+    margin: 15px 0 0 5px;
+    background: url(../images/logistics.png) no-repeat 0 0;
+    position: relative;
+}
+.log_top .logo .top-phone {
+    position: absolute;
+    top: 14px;
+    left: 162px;
+    color: #fff;
+    font-size: 25px;
+    font-style: italic;
+}
+ .log_top .nav {
+    float: right;
+    display: inline;
+}
+.clearfix {
+    zoom: 1;
+}
+ .log_top .nav li {
+    float: left;
+    display: inline;
+    width: 120px;
+    height: 90px;
+}
+ .log_top .nav li a {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 120px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 18px;
+    color: #bbe3fa;
+    text-align: center;
+}
+.log_top .nav li a.active {
+    background: #368dbf;
+    color: #fff;
+}
+.log_top .nav li a:hover {
+    text-decoration: underline;
+}
+.log_top .nav li a.active i {
+    position: absolute;
+    bottom: 0;
+    left: 52px;
+    width: 16px;
+    height: 12px;
+    background: url(../images/logistics.png) no-repeat -304px -110px;
+    overflow: hidden;
+}
+
+
+

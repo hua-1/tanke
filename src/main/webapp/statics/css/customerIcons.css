@@ -1,0 +1,125 @@
+/*含保证金*/
+.icon-deposit {
+    background: url('icons/deposit.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+/*预付类型*/
+.icon-advance {
+    background: url('icons/yu.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+/*到付类型*/
+.icon-daofu {
+    background: url('icons/dao.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+/*月结类型*/
+.icon-yuejie {
+    background: url('icons/yue.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+/*项目物流*/
+.icon-project {
+    background: url('icons/project.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.icon-normal {
+    background: url('icons/u745.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.icon-disable {
+    background: url('icons/disable.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.icon-cang {
+    background: url('icons/cang.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.icon-jian {
+    background: url('icons/jian.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.icon-dan {
+    background: url('icons/dan.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.icon-mailer {
+    background: url('icons/mailer.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.icon-piao {
+    background: url('icons/piao.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.icon-ding {
+    background: url('icons/ding.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.icon-cclock {
+    background: url('icons/lock.png') no-repeat center center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    vertical-align: middle;
+}

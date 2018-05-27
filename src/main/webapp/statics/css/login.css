@@ -1,0 +1,113 @@
+﻿.login {
+    width: 440px;
+    border: solid #ccc 1px;
+    height: 320px;
+    margin:150px auto;
+    font-size: 12px;
+    font-family: "Microsoft YaHei","微软雅黑";
+}
+
+.login h2 {
+    color: #879299;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.login i {
+    margin: 0 5px 0 0;
+}
+
+.login .user {
+    position: relative;
+    width: 302px;
+    margin: 30px 0 0 0;
+    padding: 0 0 0 64px;
+    background: #fff;
+}
+
+.login .password {
+    position: relative;
+    width: 302px;
+    margin: 25px 0 0 0;
+    padding: 0 0 0 64px;
+    background: #fff;
+}
+
+.login .user .fail,
+.login .password .fail {
+    position: absolute;
+    top: 44px;
+    left: 49px;
+    width: 295px;
+    height: 17px;
+    padding: 3px 0 0 5px;
+    border: 1px solid #fac1bb;
+    border-top: 0;
+    line-height: 12px;
+    background: #ffeceb;
+    color: #f21f0c;
+}
+
+.login .user input,
+.login .password input {
+    width: 302px;
+    height: 44px;
+    margin: 0;
+    padding: 10px 5px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background: #fff;
+    line-height: 22px;
+    outline: none;
+}
+
+.login .user input.user_icon {
+    background: url(images/input.png) no-repeat 10px 13px;
+}
+
+.login .password input.password_icon {
+    background: url(images/input.png) no-repeat 10px -37px;
+}
+
+.login .user input.active,
+.login .password input.active {
+    border-color: #e65039;
+}
+
+.login .btn {
+    margin: 25px 0 0;
+    padding: 0 0 0 64px;
+}
+
+.login .btn input {
+    width: 302px;
+    height: 42px;
+    border: none;
+    border-bottom: 3px solid #cc5256;
+    line-height: 36px;
+    border-radius: 3px;
+    background: #f26166;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login .btn input:hover {
+    opacity: .9;
+}
+
+.foot {
+    line-height: 30px;
+    color: #666;
+    text-align: center;
+}
+
+.phone {
+    padding: 66px 0 0 136px;
+    font-size: 25px;
+    color: #ACACAC;
+    font-style: italic;
+}
+

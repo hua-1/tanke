@@ -1,0 +1,229 @@
+﻿.tableList {
+    border-collapse: collapse;
+}
+
+    .tableList tr {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .tableList td {
+        border: solid 1px #BED6E0;
+        white-space: nowrap;
+        /*padding:5px;*/
+    }
+
+.colortd {
+    background-color: #F8FEFF;
+}
+
+.tableList .tdtitle {
+    width: 130px;
+    text-align: right;
+    padding-right: 6px;
+    background-color: #F9FAFA;
+}
+
+.tableList .tdcontent {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.tableList .tdcontent1 {
+    width: 180px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.tableList .tdcontent200 {
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.tableList .tdcontent400 {
+    width: 400px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.tableList .tdcontent300 {
+    width: 300px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.tableList .chk20 {
+    width: 20px;
+    height: 1.4em;
+    vertical-align: middle;
+}
+
+.tableList .input60 {
+    width: 60px;
+}
+
+.tableList .input80 {
+    width: 80px;
+}
+
+.tableList .input100 {
+    width: 100px;
+}
+
+.tableList .input300 {
+    width: 300px;
+}
+
+.tableList .input150 {
+    width: 150px;
+}
+
+
+.tableList .chk20 {
+    width: 20px;
+    height: 1.4em;
+    vertical-align: middle;
+}
+
+.tableList .input60 {
+    width: 60px;
+}
+
+.tableList .input80 {
+    width: 80px;
+}
+
+.tableList .input100 {
+    width: 100px;
+}
+
+.tableList .input300 {
+    width: 300px;
+}
+
+.tableList .input150 {
+    width: 150px;
+}
+
+.tableList .select {
+    height: 25px;
+    line-height: 25px;
+}
+
+.tableList .select {
+    height: 25px;
+    line-height: 25px;
+}
+
+.tableList .select155 {
+    width: 155px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.tableList .textarea500 {
+    width: 500px;
+    height: 80px;
+}
+
+.tableList .textarea1000 {
+    width: 500px;
+    height: 80px;
+}
+
+.tableList .button {
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.button {
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.areasytle {
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.tableList .select {
+    height: 25px;
+    line-height: 25px;
+}
+
+.tableList .select {
+    height: 25px;
+    line-height: 25px;
+}
+
+.tableList .select155 {
+    width: 155px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.tableList .textarea500 {
+    width: 500px;
+    height: 80px;
+}
+
+.tableList .textarea1000 {
+    width: 1000px;
+    height: 80px;
+}
+
+.tableList .button {
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.button40 {
+    width: 40px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.button30 {
+    width: 30px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    line-height: 28px;
+}
+
+.areasytle {
+    width: 120px;
+}
+
+select {
+    white-space: nowrap;
+    height: 25px;
+    line-height: 25px;
+}
+
+.radio20 {
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.datagrid-body a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.textbox-text {
+    font-size: 12px;
+    padding: 4px;
+    white-space: normal;
+    vertical-align: top;
+    border: 1px solid #95B8E7;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    width:153px
+}
