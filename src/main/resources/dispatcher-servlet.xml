@@ -14,7 +14,7 @@
     <!-- 启动包扫描功能，以便注册带有@Controller、@service、@repository、@Component等注解的类成为spring的bean -->
     <context:component-scan base-package="api;biz"/>
 
-
+    <mvc:default-servlet-handler/>
     <!-- 对模型视图名称的解析，在请求时模型视图名称添加前后缀 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/page/"/>
@@ -26,8 +26,16 @@
         <property name="maxUploadSize" value="2097152"/>
         <property name="defaultEncoding" value="UTF-8"/>
     </bean>
+    <!--<bean class="util.base.MyResponseBodyAdvice"></bean>-->
 
-
+    <bean id="restHeartControllerBean" class="util.base.RestHeartControllerBean"/>
+    <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <prop key="/check.txt">restHeartControllerBean</prop>
+            </props>
+        </property>
+    </bean>
     <mvc:annotation-driven>
         <mvc:message-converters register-defaults="true">
             <!-- 将StringHttpMessageConverter的默认编码设为UTF-8 -->
@@ -42,5 +50,15 @@
     </mvc:annotation-driven>
 
     <mvc:resources mapping="/statics/**" location="/statics/"/>
-
+    <mvc:view-controller path="/" view-name="redirect:/login/login"/>
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <!-- 需排除拦截的地址 -->
+            <mvc:exclude-mapping path="/login/login"/>
+            <mvc:exclude-mapping path="/statics/**"/>
+            <mvc:exclude-mapping path="/userinfo/api/login"/>
+            <bean id="commonInterceptor" class="util.filter.CommonInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

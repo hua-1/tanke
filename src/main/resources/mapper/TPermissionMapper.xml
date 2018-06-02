@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.TPermissionMapper">
+  <resultMap id="BaseResultMap" type="entity.TPermission">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="permission_name" jdbcType="VARCHAR" property="permissionName" />
+    <result column="menu_url" jdbcType="VARCHAR" property="menuUrl" />
+    <result column="permission_code" jdbcType="VARCHAR" property="permissionCode" />
+    <result column="permission_type" jdbcType="INTEGER" property="permissionType" />
+    <result column="permission_sort" jdbcType="INTEGER" property="permissionSort" />
+    <result column="permission_img" jdbcType="VARCHAR" property="permissionImg" />
+    <result column="parent_id" jdbcType="BIGINT" property="parentId" />
+    <result column="enabled" jdbcType="INTEGER" property="enabled" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="last_modified_by" jdbcType="VARCHAR" property="lastModifiedBy" />
+    <result column="last_modified_time" jdbcType="TIMESTAMP" property="lastModifiedTime" />
+    <result column="valid" jdbcType="INTEGER" property="valid" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="application_id" jdbcType="BIGINT" property="applicationId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, permission_name, menu_url, permission_code, permission_type, permission_sort, 
+    permission_img, parent_id, enabled, created_by, created_time, last_modified_by, last_modified_time, 
+    valid, remark, application_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_permission
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from t_permission
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="entity.TPermission">
+    insert into t_permission (id, permission_name, menu_url, 
+      permission_code, permission_type, permission_sort, 
+      permission_img, parent_id, enabled, 
+      created_by, created_time, last_modified_by, 
+      last_modified_time, valid, remark, 
+      application_id)
+    values (#{id,jdbcType=BIGINT}, #{permissionName,jdbcType=VARCHAR}, #{menuUrl,jdbcType=VARCHAR}, 
+      #{permissionCode,jdbcType=VARCHAR}, #{permissionType,jdbcType=INTEGER}, #{permissionSort,jdbcType=INTEGER}, 
+      #{permissionImg,jdbcType=VARCHAR}, #{parentId,jdbcType=BIGINT}, #{enabled,jdbcType=INTEGER}, 
+      #{createdBy,jdbcType=VARCHAR}, #{createdTime,jdbcType=TIMESTAMP}, #{lastModifiedBy,jdbcType=VARCHAR}, 
+      #{lastModifiedTime,jdbcType=TIMESTAMP}, #{valid,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}, 
+      #{applicationId,jdbcType=BIGINT})
+  </insert>
+  <insert id="insertSelective" parameterType="entity.TPermission">
+    insert into t_permission
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="permissionName != null">
+        permission_name,
+      </if>
+      <if test="menuUrl != null">
+        menu_url,
+      </if>
+      <if test="permissionCode != null">
+        permission_code,
+      </if>
+      <if test="permissionType != null">
+        permission_type,
+      </if>
+      <if test="permissionSort != null">
+        permission_sort,
+      </if>
+      <if test="permissionImg != null">
+        permission_img,
+      </if>
+      <if test="parentId != null">
+        parent_id,
+      </if>
+      <if test="enabled != null">
+        enabled,
+      </if>
+      <if test="createdBy != null">
+        created_by,
+      </if>
+      <if test="createdTime != null">
+        created_time,
+      </if>
+      <if test="lastModifiedBy != null">
+        last_modified_by,
+      </if>
+      <if test="lastModifiedTime != null">
+        last_modified_time,
+      </if>
+      <if test="valid != null">
+        valid,
+      </if>
+      <if test="remark != null">
+        remark,
+      </if>
+      <if test="applicationId != null">
+        application_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="permissionName != null">
+        #{permissionName,jdbcType=VARCHAR},
+      </if>
+      <if test="menuUrl != null">
+        #{menuUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="permissionCode != null">
+        #{permissionCode,jdbcType=VARCHAR},
+      </if>
+      <if test="permissionType != null">
+        #{permissionType,jdbcType=INTEGER},
+      </if>
+      <if test="permissionSort != null">
+        #{permissionSort,jdbcType=INTEGER},
+      </if>
+      <if test="permissionImg != null">
+        #{permissionImg,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null">
+        #{parentId,jdbcType=BIGINT},
+      </if>
+      <if test="enabled != null">
+        #{enabled,jdbcType=INTEGER},
+      </if>
+      <if test="createdBy != null">
+        #{createdBy,jdbcType=VARCHAR},
+      </if>
+      <if test="createdTime != null">
+        #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastModifiedBy != null">
+        #{lastModifiedBy,jdbcType=VARCHAR},
+      </if>
+      <if test="lastModifiedTime != null">
+        #{lastModifiedTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="valid != null">
+        #{valid,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="applicationId != null">
+        #{applicationId,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="entity.TPermission">
+    update t_permission
+    <set>
+      <if test="permissionName != null">
+        permission_name = #{permissionName,jdbcType=VARCHAR},
+      </if>
+      <if test="menuUrl != null">
+        menu_url = #{menuUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="permissionCode != null">
+        permission_code = #{permissionCode,jdbcType=VARCHAR},
+      </if>
+      <if test="permissionType != null">
+        permission_type = #{permissionType,jdbcType=INTEGER},
+      </if>
+      <if test="permissionSort != null">
+        permission_sort = #{permissionSort,jdbcType=INTEGER},
+      </if>
+      <if test="permissionImg != null">
+        permission_img = #{permissionImg,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null">
+        parent_id = #{parentId,jdbcType=BIGINT},
+      </if>
+      <if test="enabled != null">
+        enabled = #{enabled,jdbcType=INTEGER},
+      </if>
+      <if test="createdBy != null">
+        created_by = #{createdBy,jdbcType=VARCHAR},
+      </if>
+      <if test="createdTime != null">
+        created_time = #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastModifiedBy != null">
+        last_modified_by = #{lastModifiedBy,jdbcType=VARCHAR},
+      </if>
+      <if test="lastModifiedTime != null">
+        last_modified_time = #{lastModifiedTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="valid != null">
+        valid = #{valid,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null">
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="applicationId != null">
+        application_id = #{applicationId,jdbcType=BIGINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="entity.TPermission">
+    update t_permission
+    set permission_name = #{permissionName,jdbcType=VARCHAR},
+      menu_url = #{menuUrl,jdbcType=VARCHAR},
+      permission_code = #{permissionCode,jdbcType=VARCHAR},
+      permission_type = #{permissionType,jdbcType=INTEGER},
+      permission_sort = #{permissionSort,jdbcType=INTEGER},
+      permission_img = #{permissionImg,jdbcType=VARCHAR},
+      parent_id = #{parentId,jdbcType=BIGINT},
+      enabled = #{enabled,jdbcType=INTEGER},
+      created_by = #{createdBy,jdbcType=VARCHAR},
+      created_time = #{createdTime,jdbcType=TIMESTAMP},
+      last_modified_by = #{lastModifiedBy,jdbcType=VARCHAR},
+      last_modified_time = #{lastModifiedTime,jdbcType=TIMESTAMP},
+      valid = #{valid,jdbcType=INTEGER},
+      remark = #{remark,jdbcType=VARCHAR},
+      application_id = #{applicationId,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="getAll" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_permission
+    where valid=1
+  </select>
+
+  <select id="selectByPermissionCode" resultMap="BaseResultMap">
+    SELECT
+    <include refid="Base_Column_List" />
+    FROM
+    t_permission tp
+    WHERE
+    tp.permission_code=#{code,jdbcType=VARCHAR} and tp.valid=1
+  </select>
+
+  <select id="getPermissionById" resultMap="BaseResultMap">
+    select * from t_permission p where  id=#{permissionId}  and valid=1
+  </select>
+</mapper>

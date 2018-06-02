@@ -9,5 +9,6 @@ public class CommonConstant {
     public static final String  SUCCESS="1";
     public static final String  FAIL="-1";
     public static final Long    LONG_ZREO = 0L;
+    public static final Integer INTEGER_ZREO = 0;
 
 }

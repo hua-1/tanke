@@ -7,7 +7,7 @@
           <element id="module-output" name="tanke" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.35" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.10.RELEASE" />

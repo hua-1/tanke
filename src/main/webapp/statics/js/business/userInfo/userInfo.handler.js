@@ -44,7 +44,7 @@ $.define('logistics.userInfo.gridPanel', {
         this.gridPanelObj.euiDataGrid({
             url: '/userinfo/api/searchList',
             method: "post",
-            queryParams: defParams,
+            queryParams: {},
             singleSelect: true,
             checkOnSelect: false,
             selectOnCheck: false,
@@ -52,7 +52,8 @@ $.define('logistics.userInfo.gridPanel', {
                 {field: 'ck', checkbox: true},
                 {
                     field: 'id', title: "操作", width: 150, align: 'center', formatter: function (val, row) {
-                    var html = "", handleStatus = parseInt(row.handleStatus);
+                    // var html = "", handleStatus = parseInt(row.handleStatus);
+                    var html = "",
                     // html = "<a class='disable_user' user_id='" + row.id + "'>禁用</a>" +
                     //     "&nbsp;&nbsp;&nbsp;<a class='enable_user' user_id='" + row.id + "' '>启用</a>" +
                     //     "&nbsp;&nbsp;&nbsp;<a class='del_user' user_id='" + row.id + "' '>删除</a>" +
@@ -134,25 +135,20 @@ $.define('logistics.userInfo.gridPanel', {
     editUser: function (userid, me) {
         $.ajax({
             type: "POST",
-            url: "/userInfo/api/getUserRole",
+            url: "/role/api/getUserRole",
             data: JSON.stringify({userId: userid}),
             dataType: 'json',
             contentType: 'application/json',
             success: function (data) {
-                if (data.success == "1") {
                     me.forReset("form_add_user");
-                    me.userDialog("编辑用户", data.id);
+                    me.userDialog("编辑用户", data.userId);
                     $('#form_add_user').form('load', data);
                     $("#txtUserAccount").textbox("readonly", true);
                     var roleStr = new Array();
-                    for (var i = 0; i < data.tUserRoleList.length; i++) {
-                        roleStr.push(data.tUserRoleList[i].roleId);
+                    for (var i = 0; i < data.list.length; i++) {
+                        roleStr.push(data.list[i].roleId);
                     }
                     $("#cmbUserRole").combotree("setValues", roleStr)
-                } else {
-                    logistics.utils.msgs.getMsg("信息", data.message);
-                    return false;
-                }
             }
         });
     },
@@ -214,7 +210,7 @@ $.define('logistics.userInfo.gridPanel', {
         if (me.verify("form_add_user")) {
             $.ajax({
                 type: "POST",
-                url: "/userInfo/api/saveUser",
+                url: "/userinfo/api/saveUser",
                 data: JSON.stringify(this.me.getParam()),
                 dataType: 'json',
                 contentType: 'application/json',
@@ -265,8 +261,9 @@ $.define('logistics.userInfo.gridPanel', {
 
     },
     initTreeGrid: function () {
+        debugger
         $('#cmbUserRole').combotree({
-            url: '/role/api/getApplicationRoleTree',
+            url: '/role/api/getRoleByUserInfo',
             required: true,
             valueField: 'id',
             textField: 'text',

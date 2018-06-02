@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="dao.TroltUserRoleeMapper" >
+  <resultMap id="BaseResultMap" type="entity.TroltUserRolee" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="user_id" property="userId" jdbcType="BIGINT" />
+    <result column="role_id" property="roleId" jdbcType="BIGINT" />
+    <result column="created_by" property="createdBy" jdbcType="VARCHAR" />
+    <result column="created_time" property="createdTime" jdbcType="TIMESTAMP" />
+    <result column="last_modified_by" property="lastModifiedBy" jdbcType="VARCHAR" />
+    <result column="last_modified_time" property="lastModifiedTime" jdbcType="TIMESTAMP" />
+    <result column="valid" property="valid" jdbcType="INTEGER" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="enabled" property="enabled" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, user_id, role_id, created_by, created_time, last_modified_by, last_modified_time, 
+    valid, remark, enabled
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_user_role
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from t_user_role
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="entity.TroltUserRolee" >
+    insert into t_user_role (id, user_id, role_id, 
+      created_by, created_time, last_modified_by, 
+      last_modified_time, valid, remark, 
+      enabled)
+    values (#{id,jdbcType=BIGINT}, #{userId,jdbcType=BIGINT}, #{roleId,jdbcType=BIGINT}, 
+      #{createdBy,jdbcType=VARCHAR}, #{createdTime,jdbcType=TIMESTAMP}, #{lastModifiedBy,jdbcType=VARCHAR}, 
+      #{lastModifiedTime,jdbcType=TIMESTAMP}, #{valid,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}, 
+      #{enabled,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="entity.TroltUserRolee" >
+    insert into t_user_role
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="userId != null" >
+        user_id,
+      </if>
+      <if test="roleId != null" >
+        role_id,
+      </if>
+      <if test="createdBy != null" >
+        created_by,
+      </if>
+      <if test="createdTime != null" >
+        created_time,
+      </if>
+      <if test="lastModifiedBy != null" >
+        last_modified_by,
+      </if>
+      <if test="lastModifiedTime != null" >
+        last_modified_time,
+      </if>
+      <if test="valid != null" >
+        valid,
+      </if>
+      <if test="remark != null" >
+        remark,
+      </if>
+      <if test="enabled != null" >
+        enabled,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="userId != null" >
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="roleId != null" >
+        #{roleId,jdbcType=BIGINT},
+      </if>
+      <if test="createdBy != null" >
+        #{createdBy,jdbcType=VARCHAR},
+      </if>
+      <if test="createdTime != null" >
+        #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastModifiedBy != null" >
+        #{lastModifiedBy,jdbcType=VARCHAR},
+      </if>
+      <if test="lastModifiedTime != null" >
+        #{lastModifiedTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="valid != null" >
+        #{valid,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null" >
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="enabled != null" >
+        #{enabled,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="entity.TroltUserRolee" >
+    update t_user_role
+    <set >
+      <if test="userId != null" >
+        user_id = #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="roleId != null" >
+        role_id = #{roleId,jdbcType=BIGINT},
+      </if>
+      <if test="createdBy != null" >
+        created_by = #{createdBy,jdbcType=VARCHAR},
+      </if>
+      <if test="createdTime != null" >
+        created_time = #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastModifiedBy != null" >
+        last_modified_by = #{lastModifiedBy,jdbcType=VARCHAR},
+      </if>
+      <if test="lastModifiedTime != null" >
+        last_modified_time = #{lastModifiedTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="valid != null" >
+        valid = #{valid,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null" >
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="enabled != null" >
+        enabled = #{enabled,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="entity.TroltUserRolee" >
+    update t_user_role
+    set user_id = #{userId,jdbcType=BIGINT},
+      role_id = #{roleId,jdbcType=BIGINT},
+      created_by = #{createdBy,jdbcType=VARCHAR},
+      created_time = #{createdTime,jdbcType=TIMESTAMP},
+      last_modified_by = #{lastModifiedBy,jdbcType=VARCHAR},
+      last_modified_time = #{lastModifiedTime,jdbcType=TIMESTAMP},
+      valid = #{valid,jdbcType=INTEGER},
+      remark = #{remark,jdbcType=VARCHAR},
+      enabled = #{enabled,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <insert id="batchInsertTuserRole">
+    <foreach collection="list" item="item" index="index" separator=";">
+    insert into t_user_role
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="item.id != null" >
+        id,
+      </if>
+      <if test="item.userId != null" >
+        user_id,
+      </if>
+      <if test="item.roleId != null" >
+        role_id,
+      </if>
+      <if test="item.createdBy != null" >
+        created_by,
+      </if>
+      <if test="item.createdTime != null" >
+        created_time,
+      </if>
+      <if test="item.lastModifiedBy != null" >
+        last_modified_by,
+      </if>
+      <if test="item.lastModifiedTime != null" >
+        last_modified_time,
+      </if>
+      <if test="item.valid != null" >
+        valid,
+      </if>
+      <if test="item.remark != null" >
+        remark,
+      </if>
+      <if test="item.enabled != null" >
+        enabled,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="item.id != null" >
+        #{item.id,jdbcType=BIGINT},
+      </if>
+      <if test="item.userId != null" >
+        #{item.userId,jdbcType=BIGINT},
+      </if>
+      <if test="item.roleId != null" >
+        #{item.roleId,jdbcType=BIGINT},
+      </if>
+      <if test="item.createdBy != null" >
+        #{item.createdBy,jdbcType=VARCHAR},
+      </if>
+      <if test="item.createdTime != null" >
+        #{item.createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="item.lastModifiedBy != null" >
+        #{item.lastModifiedBy,jdbcType=VARCHAR},
+      </if>
+      <if test="item.lastModifiedTime != null" >
+        #{item.lastModifiedTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="item.valid != null" >
+        #{item.valid,jdbcType=INTEGER},
+      </if>
+      <if test="item.remark != null" >
+        #{item.remark,jdbcType=VARCHAR},
+      </if>
+      <if test="item.enabled != null" >
+        #{item.enabled,jdbcType=INTEGER},
+      </if>
+    </trim>
+    </foreach>
+  </insert>
+
+  <update id="updateBatchTuserRole" parameterType="long" >
+    update t_user_role set  valid = 0 where user_id = #{userId,jdbcType=BIGINT}
+  </update>
+  <resultMap id="UserRoleMap" type="model.userRole.UserRoleResponseModel">
+    <id column="id" property="userId" jdbcType="BIGINT" />
+    <result column="enabled" property="enabled" jdbcType="INTEGER" />
+    <result column="user_name" property="userName" jdbcType="VARCHAR" />
+    <result column="user_account" property="userAccount" jdbcType="VARCHAR" />
+    <result column="mobile_phone" property="mobilePhone" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+  <collection property="list" ofType="model.userRole.UserRoleModel" javaType="java.util.ArrayList">
+    <result column="role_id" property="roleId" jdbcType="BIGINT" />
+  </collection>
+  </resultMap>
+  <select id="searchUserRoleInfo" resultMap="UserRoleMap">
+    SELECT
+	tu.id,
+tu.user_name ,
+tu.user_account ,
+tu.mobile_phone ,
+tu.telephone ,
+tu.enabled ,
+tur.role_id,
+tu.password
+
+FROM
+	t_user tu
+LEFT JOIN t_user_role tur ON tu.id = tur.user_id
+WHERE
+	tu.valid = 1
+AND tu.id =#{userid,jdbcType=BIGINT}
+  </select>
+</mapper>

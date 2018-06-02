@@ -94,7 +94,7 @@
                     <label for="cmbUserRole">用户角色</label>
                 </td>
                 <td colspan="3">
-                    <input type="text" name="roleIds" id="cmbUserRole" class="easyui-combobox"/>
+                    <input type="text" name="roleName" id="cmbUserRole" class="easyui-combobox"/>
                 </td>
 
             </tr>
@@ -104,9 +104,7 @@
                     <label><span style="color: #ff0000">*</span>状态：</label>
                 </td>
                 <td>
-                    <input type="radio" value="1" checked="checked" name="enabled">启用 <input type="radio"
-                                                                                             name="enabled"
-                                                                                             value="0"> 禁用
+                    <input type="radio" value="1" checked="checked" name="enabled">启用 <input type="radio" name="enabled" value="0"> 禁用
                 </td>
             </tr>
 

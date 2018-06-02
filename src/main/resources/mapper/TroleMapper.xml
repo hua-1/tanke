@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="dao.tUserMapper" >
-  <resultMap id="BaseResultMap" type="entity.tUser" >
+<mapper namespace="dao.TroleMapper" >
+  <resultMap id="BaseResultMap" type="entity.Trole" >
     <id column="id" property="id" jdbcType="BIGINT" />
-    <result column="user_name" property="userName" jdbcType="VARCHAR" />
-    <result column="user_account" property="userAccount" jdbcType="VARCHAR" />
-    <result column="password" property="password" jdbcType="VARCHAR" />
-    <result column="mobile_phone" property="mobilePhone" jdbcType="VARCHAR" />
-    <result column="telephone" property="telephone" jdbcType="VARCHAR" />
+    <result column="role_name" property="roleName" jdbcType="VARCHAR" />
     <result column="enabled" property="enabled" jdbcType="INTEGER" />
     <result column="created_by" property="createdBy" jdbcType="VARCHAR" />
     <result column="created_time" property="createdTime" jdbcType="TIMESTAMP" />
@@ -15,53 +11,45 @@
     <result column="last_modified_time" property="lastModifiedTime" jdbcType="TIMESTAMP" />
     <result column="valid" property="valid" jdbcType="INTEGER" />
     <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="application_id" property="applicationId" jdbcType="BIGINT" />
+  </resultMap>
+  <resultMap id="UserApplicationTreeModel" type="model.role.UserApplicationTreeModel" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="role_name" property="text" jdbcType="VARCHAR" />
+    <result column="enabled" property="enabled" jdbcType="INTEGER" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, user_name, user_account, password, mobile_phone, telephone, enabled, created_by, 
-    created_time, last_modified_by, last_modified_time, valid, remark
+    id, role_name, enabled, created_by, created_time, last_modified_by, last_modified_time, 
+    valid, remark, application_id
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
     select 
     <include refid="Base_Column_List" />
-    from t_user
+    from t_role
     where id = #{id,jdbcType=BIGINT}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
-    delete from t_user
+    delete from t_role
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <insert id="insert" parameterType="entity.tUser" >
-    insert into t_user (id, user_name, user_account, 
-      password, mobile_phone, telephone, 
-      enabled, created_by, created_time, 
-      last_modified_by, last_modified_time, valid, 
-      remark)
-    values (#{id,jdbcType=BIGINT}, #{userName,jdbcType=VARCHAR}, #{userAccount,jdbcType=VARCHAR}, 
-      #{password,jdbcType=VARCHAR}, #{mobilePhone,jdbcType=VARCHAR}, #{telephone,jdbcType=VARCHAR}, 
-      #{enabled,jdbcType=INTEGER}, #{createdBy,jdbcType=VARCHAR}, #{createdTime,jdbcType=TIMESTAMP}, 
-      #{lastModifiedBy,jdbcType=VARCHAR}, #{lastModifiedTime,jdbcType=TIMESTAMP}, #{valid,jdbcType=INTEGER}, 
-      #{remark,jdbcType=VARCHAR})
+  <insert id="insert" parameterType="entity.Trole" >
+    insert into t_role (id, role_name, enabled, 
+      created_by, created_time, last_modified_by, 
+      last_modified_time, valid, remark, 
+      application_id)
+    values (#{id,jdbcType=BIGINT}, #{roleName,jdbcType=VARCHAR}, #{enabled,jdbcType=INTEGER}, 
+      #{createdBy,jdbcType=VARCHAR}, #{createdTime,jdbcType=TIMESTAMP}, #{lastModifiedBy,jdbcType=VARCHAR}, 
+      #{lastModifiedTime,jdbcType=TIMESTAMP}, #{valid,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}, 
+      #{applicationId,jdbcType=BIGINT})
   </insert>
-  <insert id="insertSelective" parameterType="entity.tUser" >
-    insert into t_user
+  <insert id="insertSelective" parameterType="entity.Trole" >
+    insert into t_role
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         id,
       </if>
-      <if test="userName != null" >
-        user_name,
-      </if>
-      <if test="userAccount != null" >
-        user_account,
-      </if>
-      <if test="password != null" >
-        password,
-      </if>
-      <if test="mobilePhone != null" >
-        mobile_phone,
-      </if>
-      <if test="telephone != null" >
-        telephone,
+      <if test="roleName != null" >
+        role_name,
       </if>
       <if test="enabled != null" >
         enabled,
@@ -84,25 +72,16 @@
       <if test="remark != null" >
         remark,
       </if>
+      <if test="applicationId != null" >
+        application_id,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         #{id,jdbcType=BIGINT},
       </if>
-      <if test="userName != null" >
-        #{userName,jdbcType=VARCHAR},
-      </if>
-      <if test="userAccount != null" >
-        #{userAccount,jdbcType=VARCHAR},
-      </if>
-      <if test="password != null" >
-        #{password,jdbcType=VARCHAR},
-      </if>
-      <if test="mobilePhone != null" >
-        #{mobilePhone,jdbcType=VARCHAR},
-      </if>
-      <if test="telephone != null" >
-        #{telephone,jdbcType=VARCHAR},
+      <if test="roleName != null" >
+        #{roleName,jdbcType=VARCHAR},
       </if>
       <if test="enabled != null" >
         #{enabled,jdbcType=INTEGER},
@@ -125,25 +104,16 @@
       <if test="remark != null" >
         #{remark,jdbcType=VARCHAR},
       </if>
+      <if test="applicationId != null" >
+        #{applicationId,jdbcType=BIGINT},
+      </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="entity.tUser" >
-    update t_user
+  <update id="updateByPrimaryKeySelective" parameterType="entity.Trole" >
+    update t_role
     <set >
-      <if test="userName != null" >
-        user_name = #{userName,jdbcType=VARCHAR},
-      </if>
-      <if test="userAccount != null" >
-        user_account = #{userAccount,jdbcType=VARCHAR},
-      </if>
-      <if test="password != null" >
-        password = #{password,jdbcType=VARCHAR},
-      </if>
-      <if test="mobilePhone != null" >
-        mobile_phone = #{mobilePhone,jdbcType=VARCHAR},
-      </if>
-      <if test="telephone != null" >
-        telephone = #{telephone,jdbcType=VARCHAR},
+      <if test="roleName != null" >
+        role_name = #{roleName,jdbcType=VARCHAR},
       </if>
       <if test="enabled != null" >
         enabled = #{enabled,jdbcType=INTEGER},
@@ -166,29 +136,40 @@
       <if test="remark != null" >
         remark = #{remark,jdbcType=VARCHAR},
       </if>
+      <if test="applicationId != null" >
+        application_id = #{applicationId,jdbcType=BIGINT},
+      </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="entity.tUser" >
-    update t_user
-    set user_name = #{userName,jdbcType=VARCHAR},
-      user_account = #{userAccount,jdbcType=VARCHAR},
-      password = #{password,jdbcType=VARCHAR},
-      mobile_phone = #{mobilePhone,jdbcType=VARCHAR},
-      telephone = #{telephone,jdbcType=VARCHAR},
+  <update id="updateByPrimaryKey" parameterType="entity.Trole" >
+    update t_role
+    set role_name = #{roleName,jdbcType=VARCHAR},
       enabled = #{enabled,jdbcType=INTEGER},
       created_by = #{createdBy,jdbcType=VARCHAR},
       created_time = #{createdTime,jdbcType=TIMESTAMP},
       last_modified_by = #{lastModifiedBy,jdbcType=VARCHAR},
       last_modified_time = #{lastModifiedTime,jdbcType=TIMESTAMP},
       valid = #{valid,jdbcType=INTEGER},
-      remark = #{remark,jdbcType=VARCHAR}
+      remark = #{remark,jdbcType=VARCHAR},
+      application_id = #{applicationId,jdbcType=BIGINT}
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <select id="searchUserInfoList" resultMap="BaseResultMap">
+
+  <select id="searchList" resultMap="BaseResultMap">
     select
     <include refid="Base_Column_List" />
-    from t_user
-    where valid=1
+    from t_role where
+    valid=1
+    <if test="params.roleName!='' and params.roleName!=null">
+       and INSERT (role_name,#{params.roleName,jdbcType=VARCHAR})>0
+    </if>
+  </select>
+
+  <select id="getRoleByUserInfo" resultMap="UserApplicationTreeModel">
+    select
+    tr.role_name,tr.enabled,tr.id
+    from t_role tr where
+    valid=1
   </select>
 </mapper>

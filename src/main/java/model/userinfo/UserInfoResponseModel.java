@@ -1,20 +1,20 @@
 package model.userinfo;
 
-import entity.tUser;
+import entity.Tuser;
 
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 public class UserInfoResponseModel {
 
-    private List<tUser> userList;
+    private List<Tuser> userList=new ArrayList<>();
     private Long total=0L;
 
-    public List<tUser> getUserList() {
+    public List<Tuser> getUserList() {
         return userList;
     }
 
-    public void setUserList(List<tUser> userList) {
+    public void setUserList(List<Tuser> userList) {
         this.userList = userList;
     }
 

@@ -13,7 +13,10 @@ public class ConversionUtils {
 
     public static String toString(Integer code){
         return code==null||code==0?null:code+"";
+    }
 
+    public static String toString(Long code){
+        return code==null||code==0?null:code+"";
     }
 }
 

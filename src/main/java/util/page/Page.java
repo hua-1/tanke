@@ -24,6 +24,7 @@ public class Page<T> {
 
     public Page(List<T> content) {
         this(content, (Pageable) null, null == content ? 0L : (long) content.size());
+        System.out.printf("con"+content.size());
     }
 
     public int getNumber() {

@@ -2,9 +2,7 @@ package entity;
 
 import util.base.entity.BaseEntity;
 
-import java.util.Date;
-
-public class tUser extends BaseEntity{
+public class Tuser extends BaseEntity{
 
     private String userName;
 
@@ -18,17 +16,12 @@ public class tUser extends BaseEntity{
 
     private Integer enabled;
 
-    private String createdBy;
 
-    private Date createdTime;
-
-    private String lastModifiedBy;
-
-    private Date lastModifiedTime;
 
     private Integer valid;
 
     private String remark;
+
 
     public String getUserName() {
         return userName;
@@ -76,38 +69,6 @@ public class tUser extends BaseEntity{
 
     public void setEnabled(Integer enabled) {
         this.enabled = enabled;
-    }
-
-    public String getCreatedBy() {
-        return createdBy;
-    }
-
-    public void setCreatedBy(String createdBy) {
-        this.createdBy = createdBy;
-    }
-
-    public Date getCreatedTime() {
-        return createdTime;
-    }
-
-    public void setCreatedTime(Date createdTime) {
-        this.createdTime = createdTime;
-    }
-
-    public String getLastModifiedBy() {
-        return lastModifiedBy;
-    }
-
-    public void setLastModifiedBy(String lastModifiedBy) {
-        this.lastModifiedBy = lastModifiedBy;
-    }
-
-    public Date getLastModifiedTime() {
-        return lastModifiedTime;
-    }
-
-    public void setLastModifiedTime(Date lastModifiedTime) {
-        this.lastModifiedTime = lastModifiedTime;
     }
 
     public Integer getValid() {
