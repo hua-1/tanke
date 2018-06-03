@@ -17,7 +17,7 @@ public class GlobalExceptionHandler {
     @ResponseBody
     ResponseBaseDto handleException(Exception e){
         ResponseBaseDto response = new ResponseBaseDto();
-        response.setMessage(e.getMessage());
+        response.setMessage("操作失败");
         response.setSuccess(CommonConstant.FAIL);
         logger.info(e.getMessage());
         return response;
@@ -28,7 +28,7 @@ public class GlobalExceptionHandler {
     ResponseBaseDto handleBusinessException(BusinessException e){
         ResponseBaseDto response = new ResponseBaseDto();
         response.setSuccess(CommonConstant.FAIL);
-        response.setMessage(e.getMessage());
+        response.setMessage("操作失败");
         logger.info(e.getMessage());
         return response;
     }

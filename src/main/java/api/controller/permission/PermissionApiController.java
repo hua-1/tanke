@@ -6,12 +6,14 @@ import dto.permission.*;
 import dto.response.ResponseBaseDto;
 import entity.TPermission;
 import model.permission.PermissionResponseModel;
+import model.permission.PermissionTreeModel;
 import model.userinfo.LoginUserInfoModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import util.modelmapper.MapperUtils;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 @RestController
 @RequestMapping("/permission/api/")
@@ -61,5 +63,12 @@ public class PermissionApiController extends BaseApiController{
             return responseDto;
         }
         return new GetPermissionByIdResponseDto();
+    }
+
+    @RequestMapping(value = "/getPermissionListByAppId", produces = "application/json; charset=utf-8", method = RequestMethod.POST)
+    @ResponseBody
+    public List<PermissionTreeDto> getPermissionListByAppId( GetPermissionRequestDto requestDto) {
+        List<PermissionTreeModel> permissionTreeList = permissionBiz.getPermissionListByAppId(requestDto.getApplicationId());
+        return MapperUtils.mapper(permissionTreeList, PermissionTreeDto.class);
     }
 }

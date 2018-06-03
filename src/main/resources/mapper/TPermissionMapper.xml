@@ -240,4 +240,27 @@
   <select id="getPermissionById" resultMap="BaseResultMap">
     select * from t_permission p where  id=#{permissionId}  and valid=1
   </select>
+  <resultMap id="getPermissionListByAppIdMap" type="model.permission.PermissionTreeModel">
+    <id column="id" jdbcType="BIGINT" property="id"/>
+    <result column="permission_name" jdbcType="VARCHAR" property="permissionName"/>
+    <result column="menu_url" jdbcType="VARCHAR" property="menuUrl"/>
+    <result column="permission_code" jdbcType="VARCHAR" property="permissionCode"/>
+    <result column="permission_type" jdbcType="INTEGER" property="permissionType"/>
+    <result column="permission_sort" jdbcType="INTEGER" property="permissionSort"/>
+    <result column="parent_id" jdbcType="BIGINT" property="parentId"/>
+    <result column="enabled" jdbcType="BIT" property="enabled"/>
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy"/>
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime"/>
+    <result column="last_modified_by" jdbcType="VARCHAR" property="lastModifiedBy"/>
+    <result column="last_modified_time" jdbcType="TIMESTAMP" property="lastModifiedTime"/>
+    <result column="valid" jdbcType="BIT" property="valid"/>
+    <result column="remark" jdbcType="VARCHAR" property="remark"/>
+    <result column="application_id" jdbcType="BIGINT" property="applicationId"/>
+  </resultMap>
+  <select id="getPermissionListByAppId" resultMap="getPermissionListByAppIdMap">
+    select
+    <include refid="Base_Column_List"/>
+    from t_permission
+    where valid=1 and enabled=1 and application_id=1
+  </select>
 </mapper>

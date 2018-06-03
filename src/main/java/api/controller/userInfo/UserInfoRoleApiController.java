@@ -1,7 +1,9 @@
 package api.controller.userInfo;
 
+import api.controller.baseController.BaseApiController;
 import biz.userRole.UserInfoRoleBiz;
-import dto.common.LoginUserDto;
+import dto.response.ResponseBaseDto;
+import dto.role.SaveRoleTreeRequestDto;
 import dto.role.UserApplicationTreeDto;
 import dto.role.UserRoleRequestDto;
 import dto.role.UserRoleResponseDto;
@@ -9,9 +11,11 @@ import dto.userinfo.RoleRequestDto;
 import dto.userinfo.RoleResponseDto;
 import model.role.RoleRequestModel;
 import model.role.RoleResponseModel;
+import model.role.SaveRoleTreeRequestModel;
 import model.role.UserApplicationTreeModel;
 import model.userRole.UserRoleRequestModel;
 import model.userRole.UserRoleResponseModel;
+import model.userinfo.LoginUserInfoModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import util.modelmapper.MapperUtils;
@@ -23,7 +27,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/role/api/")
-public class UserInfoRoleApiController {
+public class UserInfoRoleApiController extends BaseApiController{
     @Autowired
     private UserInfoRoleBiz userInfoRoleBiz;
 
@@ -57,5 +61,19 @@ public class UserInfoRoleApiController {
     public UserRoleResponseDto getUserRole(HttpServletRequest request, @RequestBody  UserRoleRequestDto userRoleRequestDto){
         UserRoleResponseModel userRoleInfo = userInfoRoleBiz.getUserRoleInfo(MapperUtils.mapper(userRoleRequestDto, UserRoleRequestModel.class));
      return    MapperUtils.mapper(userRoleInfo,UserRoleResponseDto.class);
+    }
+
+    /**
+     * 保存角色和菜单
+     * @param saveRoleTreeRequestDto
+     * @param httpServletRequest
+     * @return
+     */
+    @RequestMapping(value = "/saveRoleTree", produces = "application/json; charset=utf-8", method = {RequestMethod.POST})
+    @ResponseBody
+    public ResponseBaseDto saveRoleTree(SaveRoleTreeRequestDto saveRoleTreeRequestDto, HttpServletRequest httpServletRequest) {
+        LoginUserInfoModel login = getLogin(httpServletRequest);
+        userInfoRoleBiz.saveRoleTree(MapperUtils.mapperNoDefault(saveRoleTreeRequestDto, SaveRoleTreeRequestModel.class), login.getUserName());
+        return new ResponseBaseDto();
     }
 }

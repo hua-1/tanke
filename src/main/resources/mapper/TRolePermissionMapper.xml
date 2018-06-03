@@ -150,4 +150,27 @@
       enabled = #{enabled,jdbcType=INTEGER}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <delete id="deleteRoleMenuByRoleId">
+    delete from t_role_permission
+    where role_id in
+    <foreach close=")" collection="roleIdArr" index="index" item="item" open="(" separator=",">
+      #{item}
+    </foreach>
+  </delete>
+
+  <insert id="batchInsertRoleMenu">
+    <foreach close="" collection="model.permissionList" index="index" item="item" open="" separator=";">
+      insert into t_role_permission (id, menu_id, role_id,
+      enabled, valid, created_by,
+      created_time, last_modified_by, last_modified_time
+      )
+      values (#{model.id,jdbcType=BIGINT}, #{item,jdbcType=INTEGER}, #{model.roleId,jdbcType=INTEGER},
+      #{model.enabled,jdbcType=INTEGER}, #{model.valid,jdbcType=INTEGER}, #{model.createdBy,jdbcType=VARCHAR},
+      #{model.createdTime,jdbcType=TIMESTAMP}, #{model.lastModifiedBy,jdbcType=VARCHAR},
+      #{model.lastModifiedTime,jdbcType=TIMESTAMP}
+      )
+    </foreach>
+
+  </insert>
 </mapper>

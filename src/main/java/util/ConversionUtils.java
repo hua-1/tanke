@@ -1,5 +1,7 @@
 package util;
 
+import java.math.BigDecimal;
+
 public class ConversionUtils {
     public ConversionUtils() {
     }
@@ -17,6 +19,10 @@ public class ConversionUtils {
 
     public static String toString(Long code){
         return code==null||code==0?null:code+"";
+    }
+
+    public static Integer toInt(Long code){
+        return code==null||code==0?null: BigDecimal.valueOf(code).intValue();
     }
 }
 

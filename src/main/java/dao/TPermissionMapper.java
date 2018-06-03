@@ -1,6 +1,7 @@
 package dao;
 
 import entity.TPermission;
+import model.permission.PermissionTreeModel;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -23,4 +24,6 @@ public interface TPermissionMapper {
     TPermission selectByPermissionCode(@Param("code") String code);
 
     TPermission   getPermissionById(@Param("permissionId") String permissionId);
+
+    List<PermissionTreeModel> getPermissionListByAppId(@Param("appid")String appid);
 }

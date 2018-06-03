@@ -27,4 +27,8 @@ public interface TroleMapper {
     Page<Trole> searchList(Pageable pageable, @Param("params")RoleRequestModel roleRequestModel);
 
     List<UserApplicationTreeModel> getRoleByUserInfo();
+
+    List<Trole> selectRoleByRoleName(@Param("roleName")String roleName, @Param("applicationId")int applicationId);
+
+    int insertRoleSelective(Trole record);
 }

@@ -2,6 +2,7 @@ package biz.permission;
 
 import biz.common.CommonBiz;
 import dao.TPermissionMapper;
+import entity.TApplication;
 import entity.TPermission;
 import model.common.LoginUserModel;
 import model.permission.PermissionResponseModel;
@@ -92,5 +93,33 @@ public class PermissionBiz {
             permissionModel.setPermissionType(CommonConstant.INTEGER_TWO);
         }
         return permissionModel;
+    }
+
+    /**
+     * 遍历节点菜单
+     * @param applicationId
+     * @return
+     */
+    public List<PermissionTreeModel> getPermissionListByAppId(String applicationId) {
+        List<PermissionTreeModel> permissionList = permissionMapper.getPermissionListByAppId(applicationId);
+       // List<TApplication> tApplicationList = tApplicationMapper.getApplicationList(ConverterUtils.toLong(applicationId));
+        List<TApplication> tApplicationList=new ArrayList<>();
+        TApplication tApplication= new TApplication();
+        tApplication.setId(CommonConstant.LONG_ZREO);
+        tApplication.setApplicationName("哈哈");
+        tApplicationList.add(tApplication);
+        for (TApplication tSysApplication : tApplicationList) {
+            PermissionTreeModel permissionTree = new PermissionTreeModel();
+            //建立菜单顶级菜单
+            permissionTree.setId(10000L + tSysApplication.getId());
+            permissionTree.setName(tSysApplication.getApplicationName());
+            //设置当前应用的父节点ID
+            permissionTree.setpId(100000L);
+            permissionTree.setApplicationId(tSysApplication.getId());
+            permissionTree.setApplicationName(tSysApplication.getApplicationName());
+            permissionList.add(permissionTree);
+        }
+        return permissionList;
+
     }
 }
