@@ -216,7 +216,7 @@
     select
     count(user_account)
     from t_user
-    where valid=1 and INSERT (user_account,#{name,jdbcType=VARCHAR})>0
+    where valid=1 and instr (user_account,#{name,jdbcType=VARCHAR})>0
   </select>
 
 </mapper>

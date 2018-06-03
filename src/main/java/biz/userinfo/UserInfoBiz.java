@@ -69,7 +69,6 @@ public class UserInfoBiz {
         if(StringUtils.isNotEmpty(roleIds)){
             contains= roleIds.indexOf(",");
         }
-
         if(null==userInfoRequestModel.getId()){
             int i = countUserName(userInfoRequestModel.getUserAccount());
             if(i>CommonConstant.INTEGER_ZREO){

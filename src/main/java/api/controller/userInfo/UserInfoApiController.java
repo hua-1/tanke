@@ -10,11 +10,10 @@ import dto.userinfo.UserInfoResponseDto;
 import model.userinfo.LoginUserInfoModel;
 import model.userinfo.UserInfoResponseModel;
 import model.userinfo.UserInfoRequestModel;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import util.modelmapper.MapperUtils;
 import util.page.PageResponseDto;
 import util.page.Pageable;
@@ -27,11 +26,17 @@ import javax.servlet.http.HttpSession;
 @RestController
 @RequestMapping("/userinfo/api/")
 public class UserInfoApiController extends BaseApiController {
+    private Logger logger = LoggerFactory.getLogger(UserInfoApiController.class);
+
     @Autowired
     private UserInfoBiz userInfoBiz;
 
-
-
+    /**
+     * 查询列表
+     * @param request
+     * @param userIndoRequestDto
+     * @return
+     */
     @RequestMapping(value = "searchList",method = RequestMethod.POST)
     public PageResponseDto<UserInfoResponseDto> searchList(HttpServletRequest request, UserInfoRequestDto userIndoRequestDto){
         PageResponseDto pageResponseDto= new PageResponseDto();
@@ -56,6 +61,13 @@ public class UserInfoApiController extends BaseApiController {
         return new ResponseBaseDto();
     }
 
+    /**
+     * 登录
+     * @param loginUserInfoDto
+     * @param request
+     * @param response
+     * @return
+     */
     @RequestMapping(value = "login",method = RequestMethod.POST)
     public ResponseBaseDto login(@RequestBody  LoginUserInfoDto loginUserInfoDto,HttpServletRequest request, HttpServletResponse response){
         LoginUserInfoModel loginUserInfoModel = userInfoBiz.loginUserInfoModel(MapperUtils.mapper(loginUserInfoDto, LoginUserInfoModel.class));

@@ -2,14 +2,12 @@ $(function () {
     new logistics.userInfo.mainPanel().initPanel();
 })
 $.namespace('logistics.userInfo');
-
 $.define('logistics.userInfo.searchPanel', {
     initPanel: function () {
         var me = this;
         $('#btnSearch').click(function () {
             $(me).trigger('userSearchEvent', me.getParams());
         });
-
     },
     getParams: function (type) {
         return {
@@ -33,7 +31,6 @@ $.define('logistics.userInfo.gridPanel', {
         $("#btnCancelUser").click(function () {
             me.cancelUser();
         });
-
         $("#user_grid_main_0").on("click", ".edit_user", function () {
             me.editUser($(this).attr("user_id"), me);
         });
@@ -52,12 +49,11 @@ $.define('logistics.userInfo.gridPanel', {
                 {field: 'ck', checkbox: true},
                 {
                     field: 'id', title: "操作", width: 150, align: 'center', formatter: function (val, row) {
-                    // var html = "", handleStatus = parseInt(row.handleStatus);
                     var html = "",
-                    // html = "<a class='disable_user' user_id='" + row.id + "'>禁用</a>" +
-                    //     "&nbsp;&nbsp;&nbsp;<a class='enable_user' user_id='" + row.id + "' '>启用</a>" +
-                    //     "&nbsp;&nbsp;&nbsp;<a class='del_user' user_id='" + row.id + "' '>删除</a>" +
-                    html=   "&nbsp;&nbsp;&nbsp;<a class='edit_user' user_id='" + row.id + "' '>编辑</a>";
+                    html = "<a class='disable_user' user_id='" + row.id + "'>禁用</a>" +
+                        "&nbsp;&nbsp;&nbsp;<a class='enable_user' user_id='" + row.id + "' '>启用</a>" +
+                        "&nbsp;&nbsp;&nbsp;<a class='del_user' user_id='" + row.id + "' '>删除</a>" +
+                        "&nbsp;&nbsp;&nbsp;<a class='edit_user' user_id='" + row.id + "' '>编辑</a>";
                     return html;
                 }
                 }
@@ -70,9 +66,7 @@ $.define('logistics.userInfo.gridPanel', {
                 {
                     field: 'enabled', title: "状态", width: 150, editor: "text", align: "center",
                     formatter: function (val, row) {
-
                         return val == "1" ? "正常" : "禁用";
-
                     }
                 },
                 {field: 'createdBy', title: "创建人", width: 150, editor: "text", align: "center",},

@@ -45,10 +45,8 @@ public class MyResponseBodyAdvice implements ResponseBodyAdvice<Object> {
         } else {
             log.debug("MyResponseBodyAdvice==>beforeBodyWrite:" + returnType + "," + body);
             ResponseBaseDto result = new ResponseBaseDto();
-            result.setCode(HttpStatus.OK.value());
             result.setSuccess("1");
             result.setMessage("操作成功");
-          //  body = (Object) result;
             return body;
         }
     }
