@@ -33,7 +33,7 @@
                              targetProject="src/main/java" type="XMLMAPPER"/>
         <!-- 配置不生成Exmaple文件 -->
 
-        <table tableName="t_permission" domainObjectName="TPermission"
+        <table tableName="t_role_permission" domainObjectName="TRolePermission"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
