@@ -148,6 +148,11 @@ public class UserInfoRoleBiz {
         }
     }
 
+    /**
+     * 查询权限信息根据id
+     * @param roleId
+     * @return
+     */
     public PermissionRoleModel getRoleByRoleId(String roleId) {
         return tRolePermissionMapper.getRoleDetailByRoleId(ConversionUtils.toLong(roleId));
     }
