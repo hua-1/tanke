@@ -173,4 +173,26 @@
     </foreach>
 
   </insert>
+  <resultMap id="rolePermissionMap" type="model.role.PermissionRoleModel">
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="application_id" jdbcType="BIGINT" property="applicationId" />
+    <result column="role_name" jdbcType="VARCHAR" property="roleName" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="enabled" jdbcType="INTEGER" property="enabled" />
+    <collection ofType="model.role.SimplePermissionModel" property="permissionList">
+      <result column="menu_id" jdbcType="BIGINT" property="currentPermission" />
+    </collection>
+  </resultMap>
+  <select id="getRoleDetailByRoleId" resultMap="rolePermissionMap">
+    SELECT  a.id,
+    a.role_name,
+    a.remark,
+    a.application_id,
+    a.enabled,
+    b.menu_id
+    FROM
+    t_role a
+    LEFT JOIN t_role_permission b ON a.id = b.role_id
+    where a.id=#{roleId,jdbcType=BIGINT}
+  </select>
 </mapper>

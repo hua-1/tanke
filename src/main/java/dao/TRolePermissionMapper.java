@@ -2,6 +2,7 @@ package dao;
 
 import entity.TRolePermission;
 import model.role.BatchInsertRoleMenu;
+import model.role.PermissionRoleModel;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -22,4 +23,6 @@ public interface TRolePermissionMapper {
     int deleteRoleMenuByRoleId(@Param("roleIdArr")List<String> roleId);
 
     int batchInsertRoleMenu(@Param("model")BatchInsertRoleMenu batchInsertRoleMenu);
+    PermissionRoleModel getRoleDetailByRoleId(@Param("roleId") long roleId);
+
 }

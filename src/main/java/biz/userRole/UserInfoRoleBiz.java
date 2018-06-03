@@ -147,4 +147,8 @@ public class UserInfoRoleBiz {
             tRolePermissionMapper.batchInsertRoleMenu(batchInsertRoleMenu);
         }
     }
+
+    public PermissionRoleModel getRoleByRoleId(String roleId) {
+        return tRolePermissionMapper.getRoleDetailByRoleId(ConversionUtils.toLong(roleId));
+    }
 }

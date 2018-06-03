@@ -3,10 +3,7 @@ package api.controller.role;
 import api.controller.baseController.BaseApiController;
 import biz.userRole.UserInfoRoleBiz;
 import dto.response.ResponseBaseDto;
-import dto.role.SaveRoleTreeRequestDto;
-import dto.role.UserApplicationTreeDto;
-import dto.role.UserRoleRequestDto;
-import dto.role.UserRoleResponseDto;
+import dto.role.*;
 import dto.userinfo.RoleRequestDto;
 import dto.userinfo.RoleResponseDto;
 import model.role.RoleRequestModel;
@@ -75,5 +72,16 @@ public class UserInfoRoleApiController extends BaseApiController{
         LoginUserInfoModel login = getLogin(httpServletRequest);
         userInfoRoleBiz.saveRoleTree(MapperUtils.mapperNoDefault(saveRoleTreeRequestDto, SaveRoleTreeRequestModel.class), login.getUserName());
         return new ResponseBaseDto();
+    }
+
+    /**
+     * 编辑权限
+     * @param roleId
+     */
+    @RequestMapping(value = "getRoleByRoleId",method = RequestMethod.POST)
+    @ResponseBody
+    public PermissionRoleDto getRoleByRoleId(@RequestParam(value = "roleId", required = true) String roleId) {
+        PermissionRoleDto userRoleDto = MapperUtils.mapper(userInfoRoleBiz.getRoleByRoleId(roleId), PermissionRoleDto.class);
+        return userRoleDto;
     }
 }
