@@ -1,4 +1,4 @@
-package api.controller.userInfo;
+package api.controller.role;
 
 import api.controller.baseController.BaseApiController;
 import biz.userRole.UserInfoRoleBiz;
