@@ -20,7 +20,6 @@ public class RoleRequestDto extends PageRequestDto{
     private String remark;
 
     private String applicationId;
-
     public String getRoleName() {
         return roleName;
     }

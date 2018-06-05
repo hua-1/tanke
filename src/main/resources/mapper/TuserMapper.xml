@@ -218,5 +218,12 @@
     from t_user
     where valid=1 and instr (user_account,#{name,jdbcType=VARCHAR})>0
   </select>
-
+  <update id="batchUserDisable" parameterType="java.util.ArrayList">
+    UPDATE t_user SET enabled
+    =#{params.enabled},last_modified_by=#{params.lastModifiedBy},last_modified_time=#{params.lastModifiedTime} where
+    id in
+    <foreach close=")" collection="params.list" index="index" item="item" open="(" separator=",">
+      #{item}
+    </foreach>
+  </update>
 </mapper>

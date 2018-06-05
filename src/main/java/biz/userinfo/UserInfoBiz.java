@@ -5,9 +5,8 @@ import dao.TroltUserRoleeMapper;
 import dao.TuserMapper;
 import entity.TroltUserRolee;
 import entity.Tuser;
-import model.userinfo.LoginUserInfoModel;
-import model.userinfo.UserInfoResponseModel;
-import model.userinfo.UserInfoRequestModel;
+import model.common.LoginUserModel;
+import model.userinfo.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -24,6 +23,7 @@ import util.resource.ResourceConstant;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 @Service
 public class UserInfoBiz {
@@ -159,4 +159,34 @@ public class UserInfoBiz {
         int i = tUserMapper.countUserName(name);
         return i;
     }
+
+    /**
+     * 禁用
+     * @param userEditRequestModel
+     * @param loginUserModel
+     */
+    @Transactional
+    public void  batchUserDisable(UserEditRequestModel userEditRequestModel , LoginUserInfoModel loginUserModel){
+        if(StringUtils.isNotEmpty(userEditRequestModel.getUserIds())){
+            int i = userEditRequestModel.getUserIds().indexOf(",");
+            BatchUserInfoModel batchUserInfoModel= new BatchUserInfoModel();
+            batchUserInfoModel.setEnabled(CommonConstant.INTEGER_ZREO);
+            batchUserInfoModel.setLastModifiedBy(loginUserModel.getUserName());
+            commonBiz.setBaseEntityModify(batchUserInfoModel,loginUserModel.getUserName());
+            List<Long> longList=new ArrayList<>();
+            if(i>0){
+                    String[] split = userEditRequestModel.getUserIds().split(",");
+                    for (String str:split) {
+                        longList.add(ConversionUtils.toLong(str));
+                    }
+                }else{
+                    longList.add(ConversionUtils.toLong(userEditRequestModel.getUserIds()));
+                }
+                batchUserInfoModel.setList(longList);
+                tUserMapper.batchUserDisable(batchUserInfoModel);
+            }else{
+            throw new BusinessException("选择用户错误");
+        }
+    }
+
 }

@@ -50,10 +50,10 @@ $.define('logistics.userInfo.gridPanel', {
                 {
                     field: 'id', title: "操作", width: 150, align: 'center', formatter: function (val, row) {
                     var html = "",
-                    html = "<a class='disable_user' user_id='" + row.id + "'>禁用</a>" +
-                        "&nbsp;&nbsp;&nbsp;<a class='enable_user' user_id='" + row.id + "' '>启用</a>" +
-                        "&nbsp;&nbsp;&nbsp;<a class='del_user' user_id='" + row.id + "' '>删除</a>" +
-                        "&nbsp;&nbsp;&nbsp;<a class='edit_user' user_id='" + row.id + "' '>编辑</a>";
+                    // html = "<a class='disable_user' user_id='" + row.id + "'>禁用</a>" +
+                    //     "&nbsp;&nbsp;&nbsp;<a class='enable_user' user_id='" + row.id + "' '>启用</a>" +
+                    //     "&nbsp;&nbsp;&nbsp;<a class='del_user' user_id='" + row.id + "' '>删除</a>" +
+                        html="&nbsp;&nbsp;&nbsp;<a class='edit_user' user_id='" + row.id + "' '>编辑</a>";
                     return html;
                 }
                 }
@@ -159,7 +159,7 @@ $.define('logistics.userInfo.gridPanel', {
         $.each(rows, function (i, v) {
             arry.push(v.id);
         });
-        $.post("/userInfo/api/updateUserInfoStatus", {"userIds": arry.join(","), "enabled": status},
+        $.post("/userinfo/api/updateUserInfoStatus", {"userIds": arry.join(","), "enabled": status},
             function (data) {
                 $.messager.alert('信息', data.message, 'info');
                 if (data.success == "1") {

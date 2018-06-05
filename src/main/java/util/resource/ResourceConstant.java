@@ -9,5 +9,6 @@ public class ResourceConstant {
     public static final String APPLICATION_CODE_EXISTS = "application.code.exists";
     public static final String ROLE_NAME_EXIST = "role.name.exist";
     public static final String DATA_NO_EXIST = "data.no.exist";
+    public static final  String CATAGORY_NOT_EXIST="category.not.exist";
 
 }

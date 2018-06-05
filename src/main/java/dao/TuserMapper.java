@@ -1,11 +1,14 @@
 package dao;
 
 import entity.Tuser;
+import model.userinfo.BatchUserInfoModel;
 import model.userinfo.LoginUserInfoModel;
 import model.userinfo.UserInfoRequestModel;
 import org.apache.ibatis.annotations.Param;
 import util.page.Page;
 import util.page.Pageable;
+
+import java.util.List;
 
 public interface TuserMapper {
     int deleteByPrimaryKey(Long id);
@@ -25,4 +28,6 @@ public interface TuserMapper {
     int insertPrimaryKey(Tuser tuser);
 
     int countUserName(@Param("name")String name);
+
+    int batchUserDisable(@Param("params")BatchUserInfoModel list);
 }

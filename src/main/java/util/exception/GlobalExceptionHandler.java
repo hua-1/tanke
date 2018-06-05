@@ -3,14 +3,8 @@ package util.exception;
 import dto.response.ResponseBaseDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import util.json.JacksonUtils;
 import util.resource.CommonConstant;
-
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.PrintWriter;
 
 @ControllerAdvice(
         annotations = {RestController.class}
@@ -38,42 +32,6 @@ public class GlobalExceptionHandler {
         response.setMessage("操作失败");
         logger.info(e.getMessage());
         logger.debug(e.getMessage());
-        logger.error(e.getCause().getMessage());
-        return response;
-    }
-    @ExceptionHandler(RuntimeException.class)
-    @ResponseBody
-   ResponseBaseDto handleRuntimeException(BusinessException e){
-        ResponseBaseDto response = new ResponseBaseDto();
-        response.setSuccess(CommonConstant.FAIL);
-        response.setMessage("操作失败");
-        logger.info(e.getMessage());
-        logger.debug(e.getMessage());
-        logger.error(e.getCause().getMessage());
-        return response;
-    }
-    @ResponseStatus(HttpStatus.OK)
-    @ResponseBody
-    public ResponseBaseDto signException(HttpServletResponse servletResponse,ResponseBaseDto ex) {
-        ResponseBaseDto response = new ResponseBaseDto();
-        response.setSuccess(CommonConstant.SUCCESS);
-        response.setMessage("成功");
-        logger.info(ex.getMessage());
-        String result;
-        try {
-            result = JacksonUtils.ObjectToStirng(response);
-        } catch (Exception var6) {
-            result = "";
-            this.logger.error("convert json error. " + var6.getMessage(), var6);
-        }
-        servletResponse.setContentType("application/json; charset=utf-8");
-        PrintWriter writer = null;
-        try {
-            writer = servletResponse.getWriter();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        writer.print(result);
         return response;
     }
 

@@ -3,11 +3,9 @@ package api.controller.userInfo;
 import api.controller.baseController.BaseApiController;
 import biz.userinfo.UserInfoBiz;
 import dto.response.ResponseBaseDto;
-import dto.userinfo.LoginResponseDto;
-import dto.userinfo.LoginUserInfoDto;
-import dto.userinfo.UserInfoRequestDto;
-import dto.userinfo.UserInfoResponseDto;
+import dto.userinfo.*;
 import model.userinfo.LoginUserInfoModel;
+import model.userinfo.UserEditRequestModel;
 import model.userinfo.UserInfoResponseModel;
 import model.userinfo.UserInfoRequestModel;
 import org.slf4j.Logger;
@@ -79,5 +77,16 @@ public class UserInfoApiController extends BaseApiController {
         return new LoginResponseDto();
     }
 
-
+    /**
+     * 禁用用户
+     * @param userEditRequestDto
+     * @param request
+     * @return
+     */
+    @RequestMapping(value = "updateUserInfoStatus",method = RequestMethod.POST)
+    public ResponseBaseDto updateUserInfoStatus(UserEditRequestDto userEditRequestDto,HttpServletRequest request){
+        LoginUserInfoModel login = getLogin(request);
+        userInfoBiz.batchUserDisable(MapperUtils.mapper(userEditRequestDto, UserEditRequestModel.class),login);
+        return new ResponseBaseDto();
+    }
 }
