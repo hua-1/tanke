@@ -1,18 +1,19 @@
-package model.category;
+package dto.category;
 
-public class CategoryRequestModel {
-    private Long id;
+public class SaveAndEditCategoryDto {
+    private String cateid;
     private String name;
     private Integer cateStatus;
-    private Long tParentId;
+    private String tParentId;
     private String tDescribe;
     private String remark;
-    public Long getId() {
-        return id;
+
+    public String getCateid() {
+        return cateid;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setCateid(String cateid) {
+        this.cateid = cateid;
     }
 
     public String getName() {
@@ -31,11 +32,11 @@ public class CategoryRequestModel {
         this.cateStatus = cateStatus;
     }
 
-    public Long gettParentId() {
+    public String gettParentId() {
         return tParentId;
     }
 
-    public void settParentId(Long tParentId) {
+    public void settParentId(String tParentId) {
         this.tParentId = tParentId;
     }
 

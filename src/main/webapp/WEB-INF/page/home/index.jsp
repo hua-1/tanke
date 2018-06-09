@@ -25,6 +25,9 @@
                 <a href="javascript:void(0)" class="linkButton" url="/authorityManage/menuManager">菜单管理</a>
                 <a href="javascript:void(0)" class="linkButton" url="/authorityManage/roleManager">角色管理</a>
             </div>
+            <div title="商品类别"tyle="padding:10px;">
+                <a href="javascript:void(0)" class="linkButton" url="/category/index">商品类别</a>
+            </div>
             <div title="发布商品"tyle="padding:10px;">
                 <ul>
                     <li>商品发布</li>

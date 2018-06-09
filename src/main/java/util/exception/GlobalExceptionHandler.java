@@ -29,7 +29,7 @@ public class GlobalExceptionHandler {
     ResponseBaseDto handleBusinessException(BusinessException e){
         ResponseBaseDto response = new ResponseBaseDto();
         response.setSuccess(CommonConstant.FAIL);
-        response.setMessage("操作失败");
+        response.setMessage(e.getMessage());
         logger.info(e.getMessage());
         logger.debug(e.getMessage());
         return response;

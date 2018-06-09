@@ -5,13 +5,7 @@
 </head>
 <%@ include file="../common/shared.jsp" %>
 <link href="${pageContext.request.contextPath}/statics/css/login.css" rel="stylesheet"/>
-<script type="text/javascript"
-        src="${pageContext.request.contextPath}/statics/js/jquery/jquery-1.12.0.min.js"></script>
 
-<script type="text/javascript"
-        src="${pageContext.request.contextPath}/statics/js/common/jquery.extension.js"></script>
-<script type="text/javascript"
-        src="${pageContext.request.contextPath}/statics/js/business/common/utils.js"></script>
 <body>
 <div class="login">
     <h2>交易工作台</h2>

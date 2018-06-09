@@ -1,17 +1,18 @@
 package model.category;
 
-public class CategoryRequestModel {
-    private Long id;
+public class SaveAndEditCategoryModel {
+    private String id;
     private String name;
     private Integer cateStatus;
     private Long tParentId;
     private String tDescribe;
     private String remark;
-    public Long getId() {
+
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

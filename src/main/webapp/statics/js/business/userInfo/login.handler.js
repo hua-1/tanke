@@ -21,13 +21,13 @@ $.define('logistics.userInfo.login.mainPanel', {
             dataType: 'json',
             contentType: 'application/json',
             success: function (data) {
-                // if (data.success != "1") {
-                //     $("#alertTxtId").text(data.message);
-                //     return;
-                // }
-                // else {
+                if (data.success != "1") {
+                    $("#alertTxtId").text(data.message);
+                    return;
+                }
+                else {
                     window.location.href = "/home/index";
-                // }
+                }
             },
             error: function () {
                 $("#alertTxtId").text("请求失败，请刷新后再试!");

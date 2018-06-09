@@ -1,20 +1,28 @@
-package entity;
+package dto.category;
 
-import util.base.entity.BaseEntity;
-public class TCategory extends BaseEntity{
+public class CategoryResponseDto {
 
+    private String id;
     private String tCategoryName;
 
-    private Long tParentId;
+    private String tParentId;
 
     private String tDescribe;
     private String remark;
 
-    private Integer ifTop;
+    private String ifTop;
 
-    private Integer tSorting;
+    private String tSorting;
 
-    private Integer ifDisable;
+    private String ifDisable;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String gettCategoryName() {
         return tCategoryName;
@@ -24,11 +32,11 @@ public class TCategory extends BaseEntity{
         this.tCategoryName = tCategoryName;
     }
 
-    public Long gettParentId() {
+    public String gettParentId() {
         return tParentId;
     }
 
-    public void settParentId(Long tParentId) {
+    public void settParentId(String tParentId) {
         this.tParentId = tParentId;
     }
 
@@ -48,27 +56,27 @@ public class TCategory extends BaseEntity{
         this.remark = remark;
     }
 
-    public Integer getIfTop() {
+    public String getIfTop() {
         return ifTop;
     }
 
-    public void setIfTop(Integer ifTop) {
+    public void setIfTop(String ifTop) {
         this.ifTop = ifTop;
     }
 
-    public Integer gettSorting() {
+    public String gettSorting() {
         return tSorting;
     }
 
-    public void settSorting(Integer tSorting) {
+    public void settSorting(String tSorting) {
         this.tSorting = tSorting;
     }
 
-    public Integer getIfDisable() {
+    public String getIfDisable() {
         return ifDisable;
     }
 
-    public void setIfDisable(Integer ifDisable) {
+    public void setIfDisable(String ifDisable) {
         this.ifDisable = ifDisable;
     }
 }
